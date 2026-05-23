@@ -290,6 +290,22 @@
       )));
     };
 
+    const splitSearchTerms = (query) => query
+      .normalize('NFKC')
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean);
+
+    const matchesSearchQuery = (text, query) => {
+      const terms = splitSearchTerms(query);
+
+      if (terms.length === 0) {
+        return true;
+      }
+
+      return terms.every((term) => matchesFuzzyText(text, term));
+    };
+
     const truncateDescription = (description) => {
       const maxLength = 30;
 
@@ -373,7 +389,7 @@
         const searchableText = getSearchableText(button, target);
         const positions = splitDataValues(button.dataset.positions);
         const enchants = splitDataValues(button.dataset.enchants);
-        const matchesKeyword = keyword === '' || matchesFuzzyText(searchableText, keyword);
+        const matchesKeyword = matchesSearchQuery(searchableText, keyword);
         const matchesPositions = includesAny(positions, selectedPositions);
         const matchesEnchants = includesAny(enchants, selectedEnchants);
         const isVisible = hasSearched && matchesKeyword && matchesPositions && matchesEnchants;
