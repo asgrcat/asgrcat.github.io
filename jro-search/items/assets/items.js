@@ -627,7 +627,6 @@
         itemIndex = Array.isArray(itemPayload.items) ? itemPayload.items : [];
         renderEnchantFilterOptions(enchantCatalog);
         renderJobFilterOptions(jobs);
-        emptyResult.textContent = '検索条件を入力して検索してください。';
         applyFilters();
       } catch (error) {
         itemIndex = [];

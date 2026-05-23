@@ -588,7 +588,7 @@
       padding: 16px 14px;
       color: var(--muted);
       font-size: 13px;
-      text-align: left;
+      text-align: center;
     }
 
     .empty-result.is-visible {
