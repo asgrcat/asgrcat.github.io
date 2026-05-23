@@ -25,6 +25,7 @@
       enchant: 'エンチャント種別',
       position: '装備位置',
     };
+    const accessoryPositionKeys = ['accessory_1', 'accessory_2'];
     let itemIndex = [];
     let activeItemId = null;
     let hasSearched = false;
@@ -376,6 +377,18 @@
       slot.required_transcendence ? `超越${slot.required_transcendence}` : null,
     ].filter(Boolean).join('\n');
 
+    const selectionMethodLabel = (selectionMethod) => {
+      const labels = {
+        fixed: '固定エンチャント',
+        random: 'ランダムエンチャント',
+        select: '指定エンチャント',
+        select_or_random: '指定/ランダムエンチャント',
+        slot_and_effect_select: '指定エンチャント',
+      };
+
+      return labels[selectionMethod] || null;
+    };
+
     const renderEnchantSummary = (item) => {
       const sets = item.enchantments?.sets || [];
       enchantSummary.replaceChildren();
@@ -403,6 +416,12 @@
       body.id = bodyId;
 
       meta.append(createElement('span', 'meta-chip', set.name || 'エンチャント'));
+
+      const selectionMethod = selectionMethodLabel(set.selection_method);
+
+      if (selectionMethod) {
+        meta.append(createElement('span', 'meta-chip', selectionMethod));
+      }
 
       if (set.npc_name) {
         meta.append(createElement('span', 'meta-chip', `NPC: ${set.npc_name}`));
@@ -464,16 +483,6 @@
       return wrap;
     };
 
-    const truncateDescription = (description) => {
-      const maxLength = 30;
-
-      if (description.length <= maxLength) {
-        return description;
-      }
-
-      return `${description.slice(0, maxLength)}...`;
-    };
-
     const getSelectedFilters = (group) => Array.from(filterChips)
       .filter((chip) => chip.dataset.filterGroup === group && chip.getAttribute('aria-pressed') === 'true')
       .map((chip) => chip.dataset.filterValue);
@@ -504,6 +513,30 @@
     const includesAny = (values, selectedValues) => (
       selectedValues.length === 0 || selectedValues.some((selectedValue) => values.includes(selectedValue))
     );
+
+    const searchablePositions = (positions) => {
+      const values = new Set(Object.keys(positions || {}));
+
+      if (accessoryPositionKeys.some((key) => values.has(key))) {
+        values.add('accessory');
+      }
+
+      return Array.from(values);
+    };
+
+    const displayPositionLabels = (item) => {
+      const positions = item.classification?.positions || {};
+      const labels = item.classification?.position_labels || [];
+
+      if (! accessoryPositionKeys.every((key) => positions[key])) {
+        return labels;
+      }
+
+      return [
+        ...labels.filter((label) => label !== 'アクセサリー(1)' && label !== 'アクセサリー(2)'),
+        'アクセサリー',
+      ];
+    };
 
     const getSearchableText = (item, target) => {
       const name = item.name || '';
@@ -557,7 +590,7 @@
 
       const results = hasSearched ? itemIndex.filter((item) => {
         const searchableText = getSearchableText(item, target);
-        const positions = Object.keys(item.classification?.positions || {});
+        const positions = searchablePositions(item.classification?.positions);
         const enchants = item.enchantments?.filter_keys || [];
         const matchesKeyword = matchesSearchQuery(searchableText, keyword, target === 'アイテム名');
         const matchesPositions = includesAny(positions, selectedPositions);
@@ -596,7 +629,7 @@
       const main = createElement('span', 'result-main');
       const titleRow = createElement('span', 'result-title-row');
       const title = createElement('span', 'result-title', item.name || '');
-      const summary = createElement('span', 'result-summary', truncateDescription(item.description || ''));
+      const summary = createElement('span', 'result-summary', item.description || '');
       const tagRow = createElement('span', 'tag-row');
 
       button.type = 'button';
@@ -605,7 +638,7 @@
       summary.title = item.description || '';
       titleRow.append(title);
 
-      (item.classification?.position_labels || []).forEach((label) => {
+      displayPositionLabels(item).forEach((label) => {
         tagRow.append(createElement('span', 'tag', label));
       });
 

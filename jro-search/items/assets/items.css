@@ -359,8 +359,10 @@
     }
 
     .selected-filters {
-      display: grid;
-      gap: 6px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
       border: 1px solid var(--border);
       border-radius: 7px;
       padding: 9px;
@@ -368,6 +370,7 @@
     }
 
     .selected-filter-heading {
+      flex: 0 0 auto;
       color: var(--muted);
       font-size: 12px;
       font-weight: 700;
@@ -375,11 +378,18 @@
 
     .selected-filter-list {
       display: flex;
+      flex: 1 1 auto;
       flex-wrap: wrap;
       gap: 6px;
+      min-width: 0;
+    }
+
+    .selected-filter-list:empty {
+      display: none;
     }
 
     .selected-filter-empty {
+      flex: 0 0 auto;
       color: var(--muted);
       font-size: 12px;
     }
@@ -520,6 +530,7 @@
 
     .result-summary {
       display: block;
+      max-width: 100%;
       margin-top: 3px;
       overflow: hidden;
       color: var(--muted);
