@@ -1,0 +1,229 @@
+{
+    "type": "item",
+    "item_id": "2367",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2367\/"
+    },
+    "name": "スナイピングスーツ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sniper": true,
+                "ranger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "服の外部に弓を引く為に\n使われる筋肉の動きを手伝う\n装置を仕込んだ事で、攻撃の\n間隔を短縮し、攻撃力を\n上昇させた服。\nMdef + 5\nCritical + 6\nスキルディレイ - 23%\n純粋なLuk値が高い程、\n追加で\nCriticalが増加。",
+    "description_lines": [
+        "服の外部に弓を引く為に",
+        "使われる筋肉の動きを手伝う",
+        "装置を仕込んだ事で、攻撃の",
+        "間隔を短縮し、攻撃力を",
+        "上昇させた服。",
+        "Mdef + 5",
+        "Critical + 6",
+        "スキルディレイ - 23%",
+        "純粋なLuk値が高い程、",
+        "追加で",
+        "Criticalが増加。"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 42,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 75,
+        "weapon_level": null,
+        "required_level": 50,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sniper": true,
+                "ranger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "42",
+            "重量": "75",
+            "要求レベル": "50",
+            "装備": "スナイパー レンジャー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ボウガーディアン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BOW_GUARDIAN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_08",
+            "map_code": "2@la_08"
+        },
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_11",
+            "map_code": "2@la_11"
+        },
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_12",
+            "map_code": "2@la_12"
+        },
+        {
+            "name": "試練の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_20",
+            "map_code": "2@la_20"
+        },
+        {
+            "name": "試練の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_29",
+            "map_code": "2@la_29"
+        },
+        {
+            "name": "封印の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_09",
+            "map_code": "2@lb_09"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_13",
+            "map_code": "2@lb_13"
+        },
+        {
+            "name": "封印の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_24",
+            "map_code": "2@lb_24"
+        },
+        {
+            "name": "封印の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_25",
+            "map_code": "2@lb_25"
+        },
+        {
+            "name": "異形の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_08",
+            "map_code": "2@lc_08"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_12",
+            "map_code": "2@lc_12"
+        },
+        {
+            "name": "異形の迷宮 秘密の通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_23",
+            "map_code": "2@lc_23"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld208",
+            "map_code": "2@ld208"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld211",
+            "map_code": "2@ld211"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld212",
+            "map_code": "2@ld212"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld220",
+            "map_code": "2@ld220"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld229",
+            "map_code": "2@ld229"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf208",
+            "map_code": "2@lf208"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf211",
+            "map_code": "2@lf211"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf212",
+            "map_code": "2@lf212"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf220",
+            "map_code": "2@lf220"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf229",
+            "map_code": "2@lf229"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "トール火山ダンジョン 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/thor_v03",
+            "map_code": "thor_v03"
+        }
+    ],
+    "source_html_sha256": "6fd9951d0b104121ec0a936c04647b0a66bd82c3141f78aa51d90a71caa13640",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

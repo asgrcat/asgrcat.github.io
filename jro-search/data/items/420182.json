@@ -1,0 +1,108 @@
+{
+    "type": "item",
+    "item_id": "420182",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/420182\/"
+    },
+    "name": "ブックオブソーサリー[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sorcerer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "魔力が込められた\n不思議な本。\nソーサラーの叡智が\n記されているらしい。\n攻撃速度 + 10%\n[サイキックウェーブ]の\n習得Lvが1上がる度に追加で\n魔法攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 3%\n[バキューム\nエクストリーム]\nLv5習得時、追加で\n[アースグレイヴ]の\n再使用待機時間 - 1秒\n[アースグレイヴ]の\n固定詠唱時間 - 100%",
+    "description_lines": [
+        "魔力が込められた",
+        "不思議な本。",
+        "ソーサラーの叡智が",
+        "記されているらしい。",
+        "攻撃速度 + 10%",
+        "[サイキックウェーブ]の",
+        "習得Lvが1上がる度に追加で",
+        "魔法攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 3%",
+        "[バキューム",
+        "エクストリーム]",
+        "Lv5習得時、追加で",
+        "[アースグレイヴ]の",
+        "再使用待機時間 - 1秒",
+        "[アースグレイヴ]の",
+        "固定詠唱時間 - 100%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sorcerer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "下段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "ソーサラー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "2743e012a55e34fef4937ca7b6b71fad9373b5a1ccb8d84d5162e080aa8dee7a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

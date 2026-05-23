@@ -1,0 +1,136 @@
+{
+    "type": "item",
+    "item_id": "21053",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/21053\/"
+    },
+    "name": "フルフォース[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "手に入れたものの\n総ての力を解き放ち\n限界を超えるという。\n攻撃速度 + 10%\n[フルフォース]の\n精錬値が1上がる度に追加で\nAtkが上昇\n[ドッペルゲンガーカード]\nと共に装備時、追加で\n[レックスエーテルナ]Lv1\n使用可能\nBaseLv99以下の時、\n[フルフォース]の\n精錬値が1上がる度に追加で\n攻撃速度 + 2%\n物理攻撃で与える\nダメージ + 4%\nBaseLv100以上の時、\n[フルフォース]の\n精錬値が1上がる度に追加で\n攻撃速度 + 5%\n物理攻撃で与える\nダメージ + 10%\n[封印された\nドッペルゲンガーカード]と\n共に装備時、\nBaseLv99以下の時、\n[フルフォース]の\n精錬値が1上がる度に追加で\n攻撃速度 + 1%\n物理攻撃で与える\nダメージ + 2%\nBaseLv100以上の時、\n[フルフォース]の\n精錬値が1上がる度に追加で\n攻撃速度 + 2%\n物理攻撃で与える\nダメージ + 4%",
+    "description_lines": [
+        "手に入れたものの",
+        "総ての力を解き放ち",
+        "限界を超えるという。",
+        "攻撃速度 + 10%",
+        "[フルフォース]の",
+        "精錬値が1上がる度に追加で",
+        "Atkが上昇",
+        "[ドッペルゲンガーカード]",
+        "と共に装備時、追加で",
+        "[レックスエーテルナ]Lv1",
+        "使用可能",
+        "BaseLv99以下の時、",
+        "[フルフォース]の",
+        "精錬値が1上がる度に追加で",
+        "攻撃速度 + 2%",
+        "物理攻撃で与える",
+        "ダメージ + 4%",
+        "BaseLv100以上の時、",
+        "[フルフォース]の",
+        "精錬値が1上がる度に追加で",
+        "攻撃速度 + 5%",
+        "物理攻撃で与える",
+        "ダメージ + 10%",
+        "[封印された",
+        "ドッペルゲンガーカード]と",
+        "共に装備時、",
+        "BaseLv99以下の時、",
+        "[フルフォース]の",
+        "精錬値が1上がる度に追加で",
+        "攻撃速度 + 1%",
+        "物理攻撃で与える",
+        "ダメージ + 2%",
+        "BaseLv100以上の時、",
+        "[フルフォース]の",
+        "精錬値が1上がる度に追加で",
+        "攻撃速度 + 2%",
+        "物理攻撃で与える",
+        "ダメージ + 4%"
+    ],
+    "properties": {
+        "series": "two_handed_sword",
+        "series_normalized": [
+            "two_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 300,
+        "mdef": null,
+        "matk": 0,
+        "refinement": true,
+        "breakable": false,
+        "weight": 220,
+        "weapon_level": 4,
+        "required_level": 99,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手剣",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "300",
+            "Matk": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "220",
+            "要求レベル": "99",
+            "装備": "ソードマン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "859560bf795e7e258063da36ee3c065d12675ca3293ca5a16b9f29ed3dcdd9bc",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,87 @@
+{
+    "type": "item",
+    "item_id": "5187",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5187\/"
+    },
+    "name": "乙女のツインリボン[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "アクセントに白い花が飾ってある赤いリボン。少女をより可愛く演出してくれるアイテム。\nMSP + 30 , MDEF + 3 , SP回復力 + 5%",
+    "description_lines": [
+        "アクセントに白い花が飾ってある赤いリボン。少女をより可愛く演出してくれるアイテム。",
+        "MSP + 30 , MDEF + 3 , SP回復力 + 5%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 6,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": 30,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "6",
+            "位置": "上段",
+            "重量": "20",
+            "要求レベル": "30",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "dbe171db1d3b523b7d565549faf447ecede9a4aa4e228248786886e6efaa876b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

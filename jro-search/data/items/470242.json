@@ -1,0 +1,116 @@
+{
+    "type": "item",
+    "item_id": "470242",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/470242\/"
+    },
+    "name": "雪花のシューズ(取引不可)[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "イスガルドにある\n雪花の花びらで\n作られたシューズ。\nMaxHP + 30% , MaxSP + 30%\n[雪花のシューズ\n(取引不可)]の\n精錬値が1上がる度に追加で\n魔法攻撃で\n与えるダメージ + 4%\n[雪花のシューズ\n(取引不可)]の\n精錬値が5以上の時、追加で\nスキルディレイ - 35%\n[雪花のシューズ\n(取引不可)]の\n精錬値が6以上の時、追加で\n攻撃速度 + 10%\n[雪花のローブ]、\n[雪花のマフラー]と\n共に装備時、追加で\nFlee + 250\n固定詠唱時間 - 70%\n[雪花のシューズ\n(取引不可)]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "イスガルドにある",
+        "雪花の花びらで",
+        "作られたシューズ。",
+        "MaxHP + 30% , MaxSP + 30%",
+        "[雪花のシューズ",
+        "(取引不可)]の",
+        "精錬値が1上がる度に追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 4%",
+        "[雪花のシューズ",
+        "(取引不可)]の",
+        "精錬値が5以上の時、追加で",
+        "スキルディレイ - 35%",
+        "[雪花のシューズ",
+        "(取引不可)]の",
+        "精錬値が6以上の時、追加で",
+        "攻撃速度 + 10%",
+        "[雪花のローブ]、",
+        "[雪花のマフラー]と",
+        "共に装備時、追加で",
+        "Flee + 250",
+        "固定詠唱時間 - 70%",
+        "[雪花のシューズ",
+        "(取引不可)]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 8,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": 220,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "8",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "20",
+            "要求レベル": "220",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "3421af57ae3108fb3a47deb6cc2a1cd21d6cb67b52627169a93baabd8d2df90f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

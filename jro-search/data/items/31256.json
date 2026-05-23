@@ -1,0 +1,85 @@
+{
+    "type": "item",
+    "item_id": "31256",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31256\/"
+    },
+    "name": "[衣装] ジャガーフェイス[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ジャングルの王である\nジャガーを模した\n衣装用のマスク。\n古来より「雨の神」としても\n知られる。",
+    "description_lines": [
+        "ジャングルの王である",
+        "ジャガーを模した",
+        "衣装用のマスク。",
+        "古来より「雨の神」としても",
+        "知られる。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "中下段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "b49bb4eb2eb3d9de4f348d944d82beb5ceb50e47ede86e40d1cb0e49996424fc",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

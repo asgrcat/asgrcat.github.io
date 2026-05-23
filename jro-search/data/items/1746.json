@@ -1,0 +1,352 @@
+{
+    "type": "item",
+    "item_id": "1746",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1746\/"
+    },
+    "name": "エルヴンボウ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "archer": true
+            },
+            "include_jobs": {
+                "archer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "古代の森を護る\n種族が使っていた弓を\n真似て作られた物。\nDex + 2\n[エルフの矢]と\n共に装備時、追加で\n遠距離物理攻撃で\n与えるダメージ + 50%\n[スカラバハイヒール]と\n共に装備時、\n[スカラバハイヒール]の\n精錬値が7以上の時、追加で\n[シビアレインストーム]の\n再使用待機時間 - 2秒\n[スカラバハイヒール]の\n精錬値が7以上、\n[エルヴンボウ]の\n精錬値が8以上の時、追加で\n物理攻撃時、\nボスモンスターに\n与えるダメージ + 20%\n[シビアレインストーム]で\n与えるダメージ + 8%\n[スカラバハイヒール]の\n精錬値が7以上、\n[エルヴンボウ]の\n精錬値が10の時、追加で\n物理攻撃時、\nボスモンスターに\n与えるダメージ + 30%\n[シビアレインストーム]で\n与えるダメージ + 12%\n[スカラバハイヒール]、\n[暴威のマフラー]と\n共に装備時、\n[スカラバハイヒール]の\n精錬値が7以上の時、\n[メランコリー]Lv5習得時、\n[暴威のマフラー]の\n[シビアレインストーム]の\n再使用待機時間減少効果が\n発動しない\n[グレース\nレインストームスーツ]と\n共に装備時、\n[メランコリー]Lv5習得時、\n[グレース\nレインストームスーツ]の\n[シビアレインストーム]の\n再使用待機時間減少効果が\n発動しない",
+    "description_lines": [
+        "古代の森を護る",
+        "種族が使っていた弓を",
+        "真似て作られた物。",
+        "Dex + 2",
+        "[エルフの矢]と",
+        "共に装備時、追加で",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 50%",
+        "[スカラバハイヒール]と",
+        "共に装備時、",
+        "[スカラバハイヒール]の",
+        "精錬値が7以上の時、追加で",
+        "[シビアレインストーム]の",
+        "再使用待機時間 - 2秒",
+        "[スカラバハイヒール]の",
+        "精錬値が7以上、",
+        "[エルヴンボウ]の",
+        "精錬値が8以上の時、追加で",
+        "物理攻撃時、",
+        "ボスモンスターに",
+        "与えるダメージ + 20%",
+        "[シビアレインストーム]で",
+        "与えるダメージ + 8%",
+        "[スカラバハイヒール]の",
+        "精錬値が7以上、",
+        "[エルヴンボウ]の",
+        "精錬値が10の時、追加で",
+        "物理攻撃時、",
+        "ボスモンスターに",
+        "与えるダメージ + 30%",
+        "[シビアレインストーム]で",
+        "与えるダメージ + 12%",
+        "[スカラバハイヒール]、",
+        "[暴威のマフラー]と",
+        "共に装備時、",
+        "[スカラバハイヒール]の",
+        "精錬値が7以上の時、",
+        "[メランコリー]Lv5習得時、",
+        "[暴威のマフラー]の",
+        "[シビアレインストーム]の",
+        "再使用待機時間減少効果が",
+        "発動しない",
+        "[グレース",
+        "レインストームスーツ]と",
+        "共に装備時、",
+        "[メランコリー]Lv5習得時、",
+        "[グレース",
+        "レインストームスーツ]の",
+        "[シビアレインストーム]の",
+        "再使用待機時間減少効果が",
+        "発動しない"
+    ],
+    "properties": {
+        "series": "bow",
+        "series_normalized": [
+            "bow"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 160,
+        "mdef": null,
+        "matk": 0,
+        "refinement": true,
+        "breakable": true,
+        "weight": 150,
+        "weapon_level": 3,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "archer": true
+            },
+            "include_jobs": {
+                "archer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "弓",
+            "武器レベル": "3",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "160",
+            "Matk": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "150",
+            "要求レベル": "100",
+            "装備": "3次職アーチャー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "セシル=ディモン（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_SHECIL"
+        },
+        {
+            "name": "アトラススカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/I_RAKE_SCARABA"
+        },
+        {
+            "name": "一角スカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HORN_SCARABA"
+        },
+        {
+            "name": "セシル=ディモン（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_SHECIL"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_01",
+            "map_code": "2@la_01"
+        },
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_03",
+            "map_code": "2@la_03"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_13",
+            "map_code": "2@la_13"
+        },
+        {
+            "name": "試練の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_17",
+            "map_code": "2@la_17"
+        },
+        {
+            "name": "試練の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_28",
+            "map_code": "2@la_28"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_01",
+            "map_code": "2@lb_01"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_03",
+            "map_code": "2@lb_03"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_15",
+            "map_code": "2@lb_15"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_20",
+            "map_code": "2@lb_20"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_01",
+            "map_code": "2@lc_01"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_03",
+            "map_code": "2@lc_03"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_14",
+            "map_code": "2@lc_14"
+        },
+        {
+            "name": "異形の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_17",
+            "map_code": "2@lc_17"
+        },
+        {
+            "name": "異形の迷宮 最下層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_22",
+            "map_code": "2@lc_22"
+        },
+        {
+            "name": "幻影の迷宮 魔物の巣穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld105",
+            "map_code": "2@ld105"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld201",
+            "map_code": "2@ld201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld203",
+            "map_code": "2@ld203"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld213",
+            "map_code": "2@ld213"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld217",
+            "map_code": "2@ld217"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld228",
+            "map_code": "2@ld228"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le101",
+            "map_code": "2@le101"
+        },
+        {
+            "name": "幻影の迷宮 魔物の巣穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le105",
+            "map_code": "2@le105"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf201",
+            "map_code": "2@lf201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf203",
+            "map_code": "2@lf203"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf213",
+            "map_code": "2@lf213"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf217",
+            "map_code": "2@lf217"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf228",
+            "map_code": "2@lf228"
+        },
+        {
+            "name": "亜空の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg101",
+            "map_code": "2@lg101"
+        },
+        {
+            "name": "亜空の迷宮 生命の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg129",
+            "map_code": "2@lg129"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "カミダルトンネル",
+            "url": "https:\/\/rotool.gungho.jp\/map\/dic_dun01",
+            "map_code": "dic_dun01"
+        },
+        {
+            "name": "スカラバガーデン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/dic_dun03",
+            "map_code": "dic_dun03"
+        },
+        {
+            "name": "生体工学研究所 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun03",
+            "map_code": "lhz_dun03"
+        },
+        {
+            "name": "ギルドダンジョン グロリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/teg_dun01",
+            "map_code": "teg_dun01"
+        }
+    ],
+    "source_html_sha256": "33f76966c252d944a4c9f85552895e2fa7358efe407bc6f55ec9d9445a1eb302",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

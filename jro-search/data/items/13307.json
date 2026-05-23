@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "13307",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13307\/"
+    },
+    "name": "グロリアス風魔手裏剣[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "ninja": true
+            },
+            "include_jobs": {
+                "ninja": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "Matk + 90。\n人間形モンスターに与える\n物理ダメージ + 40%。\n精錬値が 5以上の時、\n人間形モンスターに与える\n物理ダメージ + 30%。\n人間形モンスターの防御力\n10%無視。\n精錬値が 7以上の時、\n人間形モンスターに与える\n物理ダメージ + 30%。\n人間形モンスターの防御力\n15%無視。\n近接物理攻撃時、\n一定確率で武器が覚醒し、\n10秒間 [一閃]、\n[風魔手裏剣投げ]の\nダメージ + 100%。\n[虐殺]Lv 2。\n精錬値が 9以上の時、\nスキル[一閃]使用時、\n自分にオートスペル\n[ヒール]Lv 10発動。\nスキル\n[風魔手裏剣投げ]使用時、\n一定確率でオートスペル\n[致命的な傷]Lv 2発動。\n絶対に破損しない。",
+    "description_lines": [
+        "Matk + 90。",
+        "人間形モンスターに与える",
+        "物理ダメージ + 40%。",
+        "精錬値が 5以上の時、",
+        "人間形モンスターに与える",
+        "物理ダメージ + 30%。",
+        "人間形モンスターの防御力",
+        "10%無視。",
+        "精錬値が 7以上の時、",
+        "人間形モンスターに与える",
+        "物理ダメージ + 30%。",
+        "人間形モンスターの防御力",
+        "15%無視。",
+        "近接物理攻撃時、",
+        "一定確率で武器が覚醒し、",
+        "10秒間 [一閃]、",
+        "[風魔手裏剣投げ]の",
+        "ダメージ + 100%。",
+        "[虐殺]Lv 2。",
+        "精錬値が 9以上の時、",
+        "スキル[一閃]使用時、",
+        "自分にオートスペル",
+        "[ヒール]Lv 10発動。",
+        "スキル",
+        "[風魔手裏剣投げ]使用時、",
+        "一定確率でオートスペル",
+        "[致命的な傷]Lv 2発動。",
+        "絶対に破損しない。"
+    ],
+    "properties": {
+        "series": "huuma_shuriken",
+        "series_normalized": [
+            "huuma_shuriken"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 55,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": 4,
+        "required_level": 80,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "ninja": true
+            },
+            "include_jobs": {
+                "ninja": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "風魔手裏剣",
+            "攻撃": "55",
+            "重量": "0",
+            "武器レベル": "4",
+            "要求レベル": "80",
+            "装備": "忍者系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "add2e578b48ce38a8126240b59fbce74980fafc78d0276e120fdbc59e8c143b0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

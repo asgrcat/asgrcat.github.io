@@ -1,0 +1,77 @@
+{
+    "type": "item",
+    "item_id": "300453",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300453\/"
+    },
+    "name": "クロネカー・ハイネン(サイン入り)カード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "1秒毎にSP + 1%\n物理・魔法攻撃命中時、\n一定確率で30秒間、\n[エナジーコート]\n状態になる",
+    "description_lines": [
+        "1秒毎にSP + 1%",
+        "物理・魔法攻撃命中時、",
+        "一定確率で30秒間、",
+        "[エナジーコート]",
+        "状態になる"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "bcbd70bbb3c047bc58355397d381d3e1ce88198619d30e76377f1272a5f1f83b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

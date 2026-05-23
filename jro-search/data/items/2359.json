@@ -1,0 +1,141 @@
+{
+    "type": "item",
+    "item_id": "2359",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2359\/"
+    },
+    "name": "忍者スーツ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "thief": true,
+                "ninja": true
+            },
+            "include_jobs": {
+                "thief": true,
+                "ninja": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "特異な服装の軽い服。\nAgi + 1\nMdef + 3\n[忍の腰帯]\nと共に装備時、追加で\nMaxHP + 300\nスキル使用時の\n消費SP - 20%\n[忍の小刀祢]\nと共に装備時、追加で\nMaxHP + 300\n[影斬り]の消費SP - 3\n[風魔の宝珠]\nと共に装備時、追加で\nMaxHP + 300\n[風魔手裏剣投げ]\nの消費SP - 5",
+    "description_lines": [
+        "特異な服装の軽い服。",
+        "Agi + 1",
+        "Mdef + 3",
+        "[忍の腰帯]",
+        "と共に装備時、追加で",
+        "MaxHP + 300",
+        "スキル使用時の",
+        "消費SP - 20%",
+        "[忍の小刀祢]",
+        "と共に装備時、追加で",
+        "MaxHP + 300",
+        "[影斬り]の消費SP - 3",
+        "[風魔の宝珠]",
+        "と共に装備時、追加で",
+        "MaxHP + 300",
+        "[風魔手裏剣投げ]",
+        "の消費SP - 5"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 58,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 150,
+        "weapon_level": null,
+        "required_level": 50,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "thief": true,
+                "ninja": true
+            },
+            "include_jobs": {
+                "thief": true,
+                "ninja": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "58",
+            "重量": "150",
+            "要求レベル": "50",
+            "装備": "シーフ系 忍者系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "エレメス=ガイル（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_EREMES"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_13",
+            "map_code": "2@la_13"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_14",
+            "map_code": "2@lb_14"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld213",
+            "map_code": "2@ld213"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf213",
+            "map_code": "2@lf213"
+        },
+        {
+            "name": "ギルドダンジョン グロリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/teg_dun01",
+            "map_code": "teg_dun01"
+        }
+    ],
+    "source_html_sha256": "c8ccc748dbb4b7e672b83105cc03bdb7ca0f32d2d6e2a3c18c1f8c1adb799dab",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

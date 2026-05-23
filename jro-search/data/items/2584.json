@@ -1,0 +1,112 @@
+{
+    "type": "item",
+    "item_id": "2584",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2584\/"
+    },
+    "name": "彷徨う者の羽織[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "東方のある国の大剣豪が\n身に纏っていた羽織。\n羽織から不穏な気配が漂う。\n完全回避 + 1\n[彷徨う者の笠]と\n共に装備時、\n[彷徨う者の羽織]の\n精錬値が 5以上の時\nダブルアタックLv 1が\n全ての武器で使用可能\n[彷徨う者の笠]と\n共に装備時、\n[彷徨う者の羽織]の\n精錬値が 7以上の時\nダブルアタックLv 5が\n全ての武器で使用可能\n[彷徨う者の笠]と\n共に装備時、習得している\nダブルアタックのLvが\nセット効果を上回った場合\n習得Lvのダブルアタックが\n全ての武器で使用可能\nキューペット 彷徨う者を\n連れているとき、\n[彷徨う者の笠]と\n共に装備時、追加で\n攻撃速度 + 3%\n[彷徨う者の笠]、\n[彷徨う者の羽織]の\n精錬値が7以上の時、\nAspd + 1",
+    "description_lines": [
+        "東方のある国の大剣豪が",
+        "身に纏っていた羽織。",
+        "羽織から不穏な気配が漂う。",
+        "完全回避 + 1",
+        "[彷徨う者の笠]と",
+        "共に装備時、",
+        "[彷徨う者の羽織]の",
+        "精錬値が 5以上の時",
+        "ダブルアタックLv 1が",
+        "全ての武器で使用可能",
+        "[彷徨う者の笠]と",
+        "共に装備時、",
+        "[彷徨う者の羽織]の",
+        "精錬値が 7以上の時",
+        "ダブルアタックLv 5が",
+        "全ての武器で使用可能",
+        "[彷徨う者の笠]と",
+        "共に装備時、習得している",
+        "ダブルアタックのLvが",
+        "セット効果を上回った場合",
+        "習得Lvのダブルアタックが",
+        "全ての武器で使用可能",
+        "キューペット 彷徨う者を",
+        "連れているとき、",
+        "[彷徨う者の笠]と",
+        "共に装備時、追加で",
+        "攻撃速度 + 3%",
+        "[彷徨う者の笠]、",
+        "[彷徨う者の羽織]の",
+        "精錬値が7以上の時、",
+        "Aspd + 1"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 8,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "防御": "8",
+            "重量": "50",
+            "要求レベル": "なし",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "db1c742c316cdb4f2934ae6353c8d28488721cfb57ba8f9edb5cc5cbaaa8ae5f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

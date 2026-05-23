@@ -1,0 +1,99 @@
+{
+    "type": "item",
+    "item_id": "15054",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15054\/"
+    },
+    "name": "円鱗の鎧[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "一般的な忍術から離れて\n思い切った術式で\n伝説の位置にのぼった忍者が\n着用したと知られた鱗鎧。\n近接攻撃に特化している。\nMaxHP + 15%\nMaxSP - 30%\n[狼紋様の手甲]\nと共に装備時、追加で\nStr + 2\n物理攻撃で\n与えるダメージ + 10%",
+    "description_lines": [
+        "一般的な忍術から離れて",
+        "思い切った術式で",
+        "伝説の位置にのぼった忍者が",
+        "着用したと知られた鱗鎧。",
+        "近接攻撃に特化している。",
+        "MaxHP + 15%",
+        "MaxSP - 30%",
+        "[狼紋様の手甲]",
+        "と共に装備時、追加で",
+        "Str + 2",
+        "物理攻撃で",
+        "与えるダメージ + 10%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 90,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 180,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "90",
+            "重量": "180",
+            "要求レベル": "100",
+            "装備": "影狼系 朧系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c8594893100cecc858b387a75ba7f503ccbd52b2fcce20831296492c15ff461f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

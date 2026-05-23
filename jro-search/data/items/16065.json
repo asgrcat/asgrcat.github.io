@@ -1,0 +1,146 @@
+{
+    "type": "item",
+    "item_id": "16065",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/16065\/"
+    },
+    "name": "イリュージョンアイアンドライバー[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "acolyte": true
+            },
+            "include_jobs": {
+                "acolyte": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ある運動競技に使われた\nという鈍器で、\n先端は丸く仕上げられていて\n硬度の高い鋼鉄は\n殺傷力を高めてくれる。\n射程距離 2\n物理攻撃命中時、\n一定確率で敵に\nオートスペル\n[パワースイング]Lv3発動\nBaseLvが170以上の時、\n[イリュージョン\nアイアンドライバー]の\n精錬値が1上がる度に追加で\nオートスペル\n[パワースイング]の\n発動率が上昇",
+    "description_lines": [
+        "ある運動競技に使われた",
+        "という鈍器で、",
+        "先端は丸く仕上げられていて",
+        "硬度の高い鋼鉄は",
+        "殺傷力を高めてくれる。",
+        "射程距離 2",
+        "物理攻撃命中時、",
+        "一定確率で敵に",
+        "オートスペル",
+        "[パワースイング]Lv3発動",
+        "BaseLvが170以上の時、",
+        "[イリュージョン",
+        "アイアンドライバー]の",
+        "精錬値が1上がる度に追加で",
+        "オートスペル",
+        "[パワースイング]の",
+        "発動率が上昇"
+    ],
+    "properties": {
+        "series": "mace",
+        "series_normalized": [
+            "mace"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 210,
+        "mdef": null,
+        "matk": 0,
+        "refinement": true,
+        "breakable": false,
+        "weight": 200,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "acolyte": true
+            },
+            "include_jobs": {
+                "acolyte": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鈍器",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "210",
+            "Matk": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "200",
+            "要求レベル": "150",
+            "装備": "3次職アコライト系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "不吉なソリッドタートル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_SOLIDER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 地底洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld102",
+            "map_code": "2@ld102"
+        },
+        {
+            "name": "幻影の迷宮 地底洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le102",
+            "map_code": "2@le102"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "薄暗い久陽宮",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tur_d04_j",
+            "map_code": "tur_d04_j"
+        }
+    ],
+    "source_html_sha256": "84a9c4ecfafa3c3c152f8a0ba102c90d5fb5ca03f79ab6f92b2de07a7da93d45",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

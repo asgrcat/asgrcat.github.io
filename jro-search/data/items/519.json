@@ -1,0 +1,192 @@
+{
+    "type": "item",
+    "item_id": "519",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/519\/"
+    },
+    "name": "ミルク",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "乳牛の乳を殺菌した後、加工した飲み物。子供たちの成長期や、栄養食品として良い。少量のHPを回復する事ができる。\n_",
+    "description_lines": [
+        "乳牛の乳を殺菌した後、加工した飲み物。子供たちの成長期や、栄養食品として良い。少量のHPを回復する事ができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 3,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "3"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "チョコルチ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DEVIRUCHI_H"
+        },
+        {
+            "name": "ホワイトチョコルチ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DEVIRUCHI_W"
+        },
+        {
+            "name": "オークベイビー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ORC_BABY"
+        },
+        {
+            "name": "クラベン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KRABEN"
+        },
+        {
+            "name": "ピッキ（変異種）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/META_PICKY"
+        },
+        {
+            "name": "すごいピッキ（変異種）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/META_PICKY_"
+        },
+        {
+            "name": "ピッキ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/PICKY"
+        },
+        {
+            "name": "すごいピッキ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/PICKY_"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "実習室（高原）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_prac_03",
+            "map_code": "ac_prac_03"
+        },
+        {
+            "name": "特別室（地下道）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_spec_03",
+            "map_code": "ac_spec_03"
+        },
+        {
+            "name": "飛行船（シュバルツバルド国外線）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/airplane_01",
+            "map_code": "airplane_01"
+        },
+        {
+            "name": "アルデバラン時計塔地下 2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/alde_dun02",
+            "map_code": "alde_dun02"
+        },
+        {
+            "name": "アユタヤダンジョン 01（古代遺跡迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ayo_dun01",
+            "map_code": "ayo_dun01"
+        },
+        {
+            "name": "アユタヤフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ayo_fild02",
+            "map_code": "ayo_fild02"
+        },
+        {
+            "name": "ゲフェンフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild02",
+            "map_code": "gef_fild02"
+        },
+        {
+            "name": "ゲフェンフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild03",
+            "map_code": "gef_fild03"
+        },
+        {
+            "name": "ゲフェンフィールド 10",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild10",
+            "map_code": "gef_fild10"
+        },
+        {
+            "name": "ソグラト砂漠 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild01",
+            "map_code": "moc_fild01"
+        },
+        {
+            "name": "ソグラト砂漠 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild02",
+            "map_code": "moc_fild02"
+        },
+        {
+            "name": "ソグラト砂漠 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild07",
+            "map_code": "moc_fild07"
+        },
+        {
+            "name": "ソグラト砂漠 12",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild12",
+            "map_code": "moc_fild12"
+        },
+        {
+            "name": "次元の狭間 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild20",
+            "map_code": "moc_fild20"
+        },
+        {
+            "name": "プロンテラフィールド 09",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild09",
+            "map_code": "prt_fild09"
+        },
+        {
+            "name": "プロンテラフィールド 10",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild10",
+            "map_code": "prt_fild10"
+        }
+    ],
+    "source_html_sha256": "2ce6e47f23f489e484bcbab5669cfa6112a1c90f058830c2a1057ac0f3abd384",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

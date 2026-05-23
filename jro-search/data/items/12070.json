@@ -1,0 +1,110 @@
+{
+    "type": "item",
+    "item_id": "12070",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12070\/"
+    },
+    "name": "サソリの炒め物",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "味が逸品いわれるサソリのしっぽ部分だけを炒めた料理。硬い殻をむいて柔らかい肉だけを食べる。微弱だが毒があり、食べ過ぎは体に良くない。\nLUK + 5\n_",
+    "description_lines": [
+        "味が逸品いわれるサソリのしっぽ部分だけを炒めた料理。硬い殻をむいて柔らかい肉だけを食べる。微弱だが毒があり、食べ過ぎは体に良くない。",
+        "LUK + 5",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "40"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "凶暴な警備犬",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GUARDDOG2"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "サラの記憶",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@sara",
+            "map_code": "1@sara"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        }
+    ],
+    "source_html_sha256": "202dba4846b9ea4d00ef59d3ea2e7b6177ed534a1b7403eee69274612e19e545",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

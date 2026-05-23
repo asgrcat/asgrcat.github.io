@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "420110",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/420110\/"
+    },
+    "name": "古びた迷彩スカーフ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "とある研究所で\n実験体にされ亡くなった\n人々の殺意と怨念により\n禍々しい力が宿った\n迷彩スカーフ。\nBaseLvが10上がる度に追加で\n物理・魔法攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 1%",
+    "description_lines": [
+        "とある研究所で",
+        "実験体にされ亡くなった",
+        "人々の殺意と怨念により",
+        "禍々しい力が宿った",
+        "迷彩スカーフ。",
+        "BaseLvが10上がる度に追加で",
+        "物理・魔法攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "下段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "4b4ebedd5ccbda9c472db615ce02dcec9383eafdcfcaccae71ebc39b74d1f128",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

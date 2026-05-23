@@ -1,0 +1,134 @@
+{
+    "type": "item",
+    "item_id": "1947",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1947\/"
+    },
+    "name": "邪念のバイオリン[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "minstrel": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "邪念が込められている楽器。\nMatk + 100\n[邪念のバイオリン]の\n精錬値が1上がる度に追加で\nMatkが上昇",
+    "description_lines": [
+        "邪念が込められている楽器。",
+        "Matk + 100",
+        "[邪念のバイオリン]の",
+        "精錬値が1上がる度に追加で",
+        "Matkが上昇"
+    ],
+    "properties": {
+        "series": "instrument",
+        "series_normalized": [
+            "instrument"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 100,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 25,
+        "weapon_level": 4,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "minstrel": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "楽器",
+            "攻撃": "100",
+            "重量": "25",
+            "武器レベル": "4",
+            "要求レベル": "100",
+            "装備": "ミンストレル系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "囚人 103GD214",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_58"
+        },
+        {
+            "name": "リトルフローズンウルフ（1）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_12"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_25",
+            "map_code": "2@la_25"
+        },
+        {
+            "name": "封印の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_25",
+            "map_code": "2@lb_25"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_29",
+            "map_code": "2@lc_29"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld225",
+            "map_code": "2@ld225"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf225",
+            "map_code": "2@lf225"
+        },
+        {
+            "name": "プロンテラ地下監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_prison",
+            "map_code": "prt_prison"
+        }
+    ],
+    "source_html_sha256": "ba0f873db759dfbe3a0f8ed1f539aaa26c94b305c42c1d25b75608eaffc180c7",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,70 @@
+{
+    "type": "item",
+    "item_id": "6783",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6783\/"
+    },
+    "name": "ボンバスチケット",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "冒険者アカデミーの\n「課題」を達成すると\nもらうことができる\n特別なチケット。\n討伐したモンスターの\n魔力が込められており\n「ボンバスガーデン」や\n「アイテム練成器」で\n利用することができる。",
+    "description_lines": [
+        "冒険者アカデミーの",
+        "「課題」を達成すると",
+        "もらうことができる",
+        "特別なチケット。",
+        "討伐したモンスターの",
+        "魔力が込められており",
+        "「ボンバスガーデン」や",
+        "「アイテム練成器」で",
+        "利用することができる。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "bf2b6cbeb52800aa7676ae8aac716a016f58a9d843d3f0b90be403008647fbd5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,86 @@
+{
+    "type": "item",
+    "item_id": "5239",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5239\/"
+    },
+    "name": "とんがり帽子（白）[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "才能溢れるマジシャンなら、誰でも欲しがると言う帽子。見た目と違って被り心地が良く、爽やかな印象を与えるようだ。\nSTR + 2 、 HIT + 5。",
+    "description_lines": [
+        "才能溢れるマジシャンなら、誰でも欲しがると言う帽子。見た目と違って被り心地が良く、爽やかな印象を与えるようだ。",
+        "STR + 2 、 HIT + 5。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 2,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "2",
+            "箇所": "上段",
+            "重量": "30",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "fce3cbd526a0d1ef6c1134d9c39379388e2dd8baf54093614304509e8fe353be",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,74 @@
+{
+    "type": "item",
+    "item_id": "1000203",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000203\/"
+    },
+    "name": "イルシオンシリーズ選択交換チケット",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "対象のイルシオンシリーズの\n中から好きなアイテムを\n選んで交換できるチケット。\n[イルシオンシリーズ\n選択交換チケット]：\n・ギムレットの部屋\n(iz_gimlet)\n座標(38 97)にいるNPC\n「ミスティア」\nに持って行こう\n[イルシオンシリーズ\n選択交換チケット]は\n倉庫への移動のみ可能です",
+    "description_lines": [
+        "対象のイルシオンシリーズの",
+        "中から好きなアイテムを",
+        "選んで交換できるチケット。",
+        "[イルシオンシリーズ",
+        "選択交換チケット]：",
+        "・ギムレットの部屋",
+        "(iz_gimlet)",
+        "座標(38 97)にいるNPC",
+        "「ミスティア」",
+        "に持って行こう",
+        "[イルシオンシリーズ",
+        "選択交換チケット]は",
+        "倉庫への移動のみ可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "2aa4c4d03c34d27bd8e353f339509ee0e45f8201a148bae72c01e7d1e22ee0c3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

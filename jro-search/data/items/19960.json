@@ -1,0 +1,90 @@
+{
+    "type": "item",
+    "item_id": "19960",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19960\/"
+    },
+    "name": "[衣装] チェーンパペット[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "マリオネットを操る木と鎖を\n衣装用にした装備。\n操られることにより\n普段は発揮できないような\n力を使うことができるかも？",
+    "description_lines": [
+        "マリオネットを操る木と鎖を",
+        "衣装用にした装備。",
+        "操られることにより",
+        "普段は発揮できないような",
+        "力を使うことができるかも？"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "上段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f5ade8d2d221c6ebad97fda5b534fa91c4aba76b9aa96724580d00cfe1ce50bc",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

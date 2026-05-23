@@ -1,0 +1,99 @@
+{
+    "type": "item",
+    "item_id": "2798",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2798\/"
+    },
+    "name": "くたびれた天使の意思[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "priest": true,
+                "monk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "聖なる気配と共に、\nたくましさが感じられる\nネックレス。\nスコグル(2)から\n受けるダメージ\n- 50%。\nプルス(2)から\n受けるダメージ\n- 50%。",
+    "description_lines": [
+        "聖なる気配と共に、",
+        "たくましさが感じられる",
+        "ネックレス。",
+        "スコグル(2)から",
+        "受けるダメージ",
+        "- 50%。",
+        "プルス(2)から",
+        "受けるダメージ",
+        "- 50%。"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": 90,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "priest": true,
+                "monk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "20",
+            "要求レベル": "90",
+            "装備": "3次プリースト系 3次モンク系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "902e0a67857abfcf516f38e97e8e10300b6aa38acad67bf665ea752277db90c6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

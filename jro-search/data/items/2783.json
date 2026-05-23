@@ -1,0 +1,173 @@
+{
+    "type": "item",
+    "item_id": "2783",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2783\/"
+    },
+    "name": "リングオブアイズ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "小さい玉がはめられた指輪。\n何故か玉から視線を感じる。\nMaxSP + 25\nCritical + 2",
+    "description_lines": [
+        "小さい玉がはめられた指輪。",
+        "何故か玉から視線を感じる。",
+        "MaxSP + 25",
+        "Critical + 2"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 70,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "10",
+            "要求レベル": "70",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ダークシャドー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DARK_SHADOW"
+        },
+        {
+            "name": "ドゥネイール",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DUNEYRR"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_07",
+            "map_code": "2@la_07"
+        },
+        {
+            "name": "試練の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_17",
+            "map_code": "2@la_17"
+        },
+        {
+            "name": "封印の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_07",
+            "map_code": "2@lb_07"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_21",
+            "map_code": "2@lb_21"
+        },
+        {
+            "name": "異形の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_07",
+            "map_code": "2@lc_07"
+        },
+        {
+            "name": "異形の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_17",
+            "map_code": "2@lc_17"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld207",
+            "map_code": "2@ld207"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld217",
+            "map_code": "2@ld217"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf207",
+            "map_code": "2@lf207"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf217",
+            "map_code": "2@lf217"
+        },
+        {
+            "name": "ニーズヘッグの巣",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@nyd",
+            "map_code": "2@nyd"
+        },
+        {
+            "name": "ラヴィーネ山脈02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ravi",
+            "map_code": "2@ravi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "イグドラシル中心部 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nyd_dun01",
+            "map_code": "nyd_dun01"
+        }
+    ],
+    "source_html_sha256": "4d7009ab2f2ec46bc0f075a84698ff9647594dd21c8dbfd22fe0fca929c36069",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

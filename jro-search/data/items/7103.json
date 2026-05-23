@@ -1,0 +1,63 @@
+{
+    "type": "item",
+    "item_id": "7103",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7103\/"
+    },
+    "name": "中身のわからない瓶",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "何が入っているのか全くわからない瓶。\n_",
+    "description_lines": [
+        "何が入っているのか全くわからない瓶。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "b2f2bce4406487391c9ba641dffcd176963011ad157d8dfe83ec126b5a14bbab",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

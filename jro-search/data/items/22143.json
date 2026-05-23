@@ -1,0 +1,184 @@
+{
+    "type": "item",
+    "item_id": "22143",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/22143\/"
+    },
+    "name": "Y.S.F.0.1グリーブ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "knight": true,
+                "rune_knight": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ユミルプロジェクトの\n実験体が装備していた\nグリーブ。\n様々な実験のデータを\n提供したため、\nこの実験体の識別番号は\n「Ymir project Specimen\nFirst 01」へと\n変更された。\nMdef + 15\nMaxHP + 15%\n[Y.S.F.0.1グリーブ]の\n精錬値が7以上の時、追加で\n[ハンドレッドスピア]の\n消費SP - 20\n[Y.S.F.0.1グリーブ]の\n精錬値が9以上の時、追加で\nMaxSP + 15%\n[Y.S.F.0.1プレート]、\n[Y.S.F.0.1マント]と\n共に装備時、追加で\nスキルディレイ - 10%\n[スパイラルピアース]で\n与えるダメージ + 50%\n[スピアブーメラン]で\n与えるダメージ + 100%\n[ハンドレッドスピア]で\n与えるダメージ + 50%\n[Y.S.F.0.1プレート]、\n[Y.S.F.0.1マント]と\n共に装備時、\n[Y.S.F.0.1プレート]、\n[Y.S.F.0.1マント]、\n[Y.S.F.0.1グリーブ]の\n精錬値が7以上の時、追加で\nスキルディレイ - 20%\n[スパイラルピアース]で\n与えるダメージ + 100%\n[スピアブーメラン]で\n与えるダメージ + 200%\n[ハンドレッドスピア]で\n与えるダメージ + 100%\n[Y.S.F.0.1プレート]、\n[Y.S.F.0.1マント]、\n[Y.S.F.0.1グリーブ]の\n精錬値が9以上の時、追加で\nスキルディレイ - 20%\n[スパイラルピアース]で\n与えるダメージ + 100%\n[スピアブーメラン]で\n与えるダメージ + 200%\n[ハンドレッドスピア]で\n与えるダメージ + 100%",
+    "description_lines": [
+        "ユミルプロジェクトの",
+        "実験体が装備していた",
+        "グリーブ。",
+        "様々な実験のデータを",
+        "提供したため、",
+        "この実験体の識別番号は",
+        "「Ymir project Specimen",
+        "First 01」へと",
+        "変更された。",
+        "Mdef + 15",
+        "MaxHP + 15%",
+        "[Y.S.F.0.1グリーブ]の",
+        "精錬値が7以上の時、追加で",
+        "[ハンドレッドスピア]の",
+        "消費SP - 20",
+        "[Y.S.F.0.1グリーブ]の",
+        "精錬値が9以上の時、追加で",
+        "MaxSP + 15%",
+        "[Y.S.F.0.1プレート]、",
+        "[Y.S.F.0.1マント]と",
+        "共に装備時、追加で",
+        "スキルディレイ - 10%",
+        "[スパイラルピアース]で",
+        "与えるダメージ + 50%",
+        "[スピアブーメラン]で",
+        "与えるダメージ + 100%",
+        "[ハンドレッドスピア]で",
+        "与えるダメージ + 50%",
+        "[Y.S.F.0.1プレート]、",
+        "[Y.S.F.0.1マント]と",
+        "共に装備時、",
+        "[Y.S.F.0.1プレート]、",
+        "[Y.S.F.0.1マント]、",
+        "[Y.S.F.0.1グリーブ]の",
+        "精錬値が7以上の時、追加で",
+        "スキルディレイ - 20%",
+        "[スパイラルピアース]で",
+        "与えるダメージ + 100%",
+        "[スピアブーメラン]で",
+        "与えるダメージ + 200%",
+        "[ハンドレッドスピア]で",
+        "与えるダメージ + 100%",
+        "[Y.S.F.0.1プレート]、",
+        "[Y.S.F.0.1マント]、",
+        "[Y.S.F.0.1グリーブ]の",
+        "精錬値が9以上の時、追加で",
+        "スキルディレイ - 20%",
+        "[スパイラルピアース]で",
+        "与えるダメージ + 100%",
+        "[スピアブーメラン]で",
+        "与えるダメージ + 200%",
+        "[ハンドレッドスピア]で",
+        "与えるダメージ + 100%"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 15,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 170,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "knight": true,
+                "rune_knight": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "防御": "15",
+            "重量": "50",
+            "要求レベル": "170",
+            "装備": "ルーンナイト系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "Y.S.F.0.1セイレン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP16_2_SEYREN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "異形の迷宮 実験棟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_27",
+            "map_code": "2@lc_27"
+        },
+        {
+            "name": "ヴェルナー研究所中央室",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@slw",
+            "map_code": "2@slw"
+        }
+    ],
+    "source_html_sha256": "d129fa3946ce22be3afca78bf23f6d3fd93b5a5be0aa756ba6b8b113abf7c85e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,74 @@
+{
+    "type": "item",
+    "item_id": "101760",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/101760\/"
+    },
+    "name": "火炎のルーンの箱",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "[火炎のルーン]が\n5個入っている箱。",
+    "description_lines": [
+        "[火炎のルーン]が",
+        "5個入っている箱。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "火炎のデータルザウルス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_DETALE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "標本環境(火炎)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_lava",
+            "map_code": "bl_lava"
+        }
+    ],
+    "source_html_sha256": "9e523d27ef7cc77f9acda84808ac6a43b2f7bc574da24a5fc17ba2bd0866cfc2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

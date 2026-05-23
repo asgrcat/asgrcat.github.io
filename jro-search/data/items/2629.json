@@ -1,0 +1,101 @@
+{
+    "type": "item",
+    "item_id": "2629",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2629\/"
+    },
+    "name": "メギンギョルド[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "腰に着用すると\n「化け物か」と\n言われるほど\n力を劇的に\n引き上げてくれる\nアイテム。\n雷神トールの\n専用ベルトと\nいわれている。\nStr + 40、Mdef + 7。\n自分のBaseレベルが\n5上がる毎に\nStrが 1ずつ増加。\n純粋なStrが\n120以上の時、\nボスモンスターに与える\n物理ダメージ + 10%。",
+    "description_lines": [
+        "腰に着用すると",
+        "「化け物か」と",
+        "言われるほど",
+        "力を劇的に",
+        "引き上げてくれる",
+        "アイテム。",
+        "雷神トールの",
+        "専用ベルトと",
+        "いわれている。",
+        "Str + 40、Mdef + 7。",
+        "自分のBaseレベルが",
+        "5上がる毎に",
+        "Strが 1ずつ増加。",
+        "純粋なStrが",
+        "120以上の時、",
+        "ボスモンスターに与える",
+        "物理ダメージ + 10%。"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 2,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 800,
+        "weapon_level": null,
+        "required_level": 94,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "2",
+            "重量": "800",
+            "要求レベル": "94",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "7b8a56f6191ac82c434334b082975736b4b593965c8aceca2fab4058a32a1397",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

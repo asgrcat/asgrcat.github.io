@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "7663",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7663\/"
+    },
+    "name": "フルメタルジャケット",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "貫通性が高い弾丸。\n着弾時の弾頭変形を防ぎ、\n貫通力を高めるために\nコーティングされている。",
+    "description_lines": [
+        "貫通性が高い弾丸。",
+        "着弾時の弾頭変形を防ぎ、",
+        "貫通力を高めるために",
+        "コーティングされている。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0.2"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "15d0164baf366882a3f626b1557cdc31efda0f8c437410636709753f276d327f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

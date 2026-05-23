@@ -1,0 +1,213 @@
+{
+    "type": "item",
+    "item_id": "1229",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1229\/"
+    },
+    "name": "包丁[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "ninja": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_linker": true,
+                "ninja": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "料理をする時に使用する刃物。\nクリティカル + 30\n動物形モンスター死亡時、肉を落とす確率50%",
+    "description_lines": [
+        "料理をする時に使用する刃物。",
+        "クリティカル + 30",
+        "動物形モンスター死亡時、肉を落とす確率50%"
+    ],
+    "properties": {
+        "series": "dagger",
+        "series_normalized": [
+            "dagger"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 75,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": 4,
+        "required_level": 36,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "ninja": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_linker": true,
+                "ninja": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "短剣",
+            "攻撃": "75",
+            "重量": "50",
+            "武器レベル": "4",
+            "要求レベル": "36",
+            "装備": "ソードマン系 マジシャン系 アーチャー系 マーチャント系 シーフ系 ソウルリンカー系 忍者系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ポセイドン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/POSEIDON"
+        },
+        {
+            "name": "ブラッディマーダー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BLOODY_MURDERER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_05",
+            "map_code": "2@la_05"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_16",
+            "map_code": "2@la_16"
+        },
+        {
+            "name": "封印の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_05",
+            "map_code": "2@lb_05"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_19",
+            "map_code": "2@lb_19"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_20",
+            "map_code": "2@lb_20"
+        },
+        {
+            "name": "異形の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_05",
+            "map_code": "2@lc_05"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld205",
+            "map_code": "2@ld205"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld216",
+            "map_code": "2@ld216"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf205",
+            "map_code": "2@lf205"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf216",
+            "map_code": "2@lf216"
+        },
+        {
+            "name": "亜空の迷宮 魔女の菜園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg114",
+            "map_code": "2@lg114"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "イズルード海底神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/iz_dun04",
+            "map_code": "iz_dun04"
+        },
+        {
+            "name": "ニブルヘイムフィールド 02（ギョル渓谷）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nif_fild02",
+            "map_code": "nif_fild02"
+        },
+        {
+            "name": "死者の街ニブルヘイム",
+            "url": "https:\/\/rotool.gungho.jp\/map\/niflheim",
+            "map_code": "niflheim"
+        }
+    ],
+    "source_html_sha256": "444d949d9fa999a5a05b6bafb8cc8ba99163f4ae3e48719462d22f68c421f621",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

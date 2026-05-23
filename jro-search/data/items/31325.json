@@ -1,0 +1,87 @@
+{
+    "type": "item",
+    "item_id": "31325",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31325\/"
+    },
+    "name": "[衣装] 女王スカラバの兜[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "女王スカラバの頭部を\n模して作られた衣装用の兜。\nエフェクト装備のため、\nエフェクト(\/effect)を\nOFFにしていると\n装備グラフィックのみ\n表示される",
+    "description_lines": [
+        "女王スカラバの頭部を",
+        "模して作られた衣装用の兜。",
+        "エフェクト装備のため、",
+        "エフェクト(\/effect)を",
+        "OFFにしていると",
+        "装備グラフィックのみ",
+        "表示される"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "上下段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "af08ccd295d3cd824fed7b9fd7325d04dfa9573bb16f034a2c251d67caeb0587",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

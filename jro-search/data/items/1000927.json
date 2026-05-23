@@ -1,0 +1,70 @@
+{
+    "type": "item",
+    "item_id": "1000927",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000927\/"
+    },
+    "name": "読書記録表",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "「これを一枚渡すから\n一緒に記録してみるか？」\nエレナから薦められて\n記録し始めた読書記録表。\nアーニャとイリヤの二人は\nすでに半分以上埋めている。\n[読書記録表]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "「これを一枚渡すから",
+        "一緒に記録してみるか？」",
+        "エレナから薦められて",
+        "記録し始めた読書記録表。",
+        "アーニャとイリヤの二人は",
+        "すでに半分以上埋めている。",
+        "[読書記録表]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "152c7f2da49aee74ee6bef469b8f68db2fea4ec380def764613e4108aafac791",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

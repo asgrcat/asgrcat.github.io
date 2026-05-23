@@ -1,0 +1,90 @@
+{
+    "type": "item",
+    "item_id": "19662",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19662\/"
+    },
+    "name": "[衣装] シルクハット[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "手を入れればすぐにでも\n兎が飛び出しそうな\n手品師の衣装用の帽子。\n結構丈夫で、\n簡単には壊れない。",
+    "description_lines": [
+        "手を入れればすぐにでも",
+        "兎が飛び出しそうな",
+        "手品師の衣装用の帽子。",
+        "結構丈夫で、",
+        "簡単には壊れない。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "上段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "38fa89e2da6f04d83b5d602c0b1368be8df96852c227c755245065bb4c1f4d84",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,98 @@
+{
+    "type": "item",
+    "item_id": "7267",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7267\/"
+    },
+    "name": "虎皮模様のパンツ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "虎皮の模様で、両側に紐がついたパンツ。見るからに保温効果が良さそうだ。\n_",
+    "description_lines": [
+        "虎皮の模様で、両側に紐がついたパンツ。見るからに保温効果が良さそうだ。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "虎人",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/LI_ME_MANG_RYANG"
+        },
+        {
+            "name": "クルピラ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CURUPIRA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ブラジリスフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bra_fild01",
+            "map_code": "bra_fild01"
+        },
+        {
+            "name": "龍之城ダンジョン 01（王陵）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lou_dun01",
+            "map_code": "lou_dun01"
+        }
+    ],
+    "source_html_sha256": "e04aeda53b51abbe6433a82bf5b26b947166df94f27f45445ce17ac25d518b8f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

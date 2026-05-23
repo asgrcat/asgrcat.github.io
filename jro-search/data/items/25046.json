@@ -1,0 +1,70 @@
+{
+    "type": "item",
+    "item_id": "25046",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/25046\/"
+    },
+    "name": "乗船許可書",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "新大陸とラザーニャを\n行き来するコンキリエ号の\n乗船許可書。\n新大陸を冒険できるほど\n良く訓練されたドラムだけが\n得られる、一種の卒業証書。\n[乗船許可書]は\nあらゆる取引、移動が\nできません",
+    "description_lines": [
+        "新大陸とラザーニャを",
+        "行き来するコンキリエ号の",
+        "乗船許可書。",
+        "新大陸を冒険できるほど",
+        "良く訓練されたドラムだけが",
+        "得られる、一種の卒業証書。",
+        "[乗船許可書]は",
+        "あらゆる取引、移動が",
+        "できません"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "1aa848388338b8cfd6fb642b3d6ceb3decc90a59c4960577fa97aa2408c30c86",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

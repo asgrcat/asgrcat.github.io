@@ -1,0 +1,277 @@
+{
+    "type": "item",
+    "item_id": "1270171",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1270171\/"
+    },
+    "name": "[シャドウ] アナザーシューズ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "shadow",
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "主なき迷宮の無垢な魔力が\n亜空の影響を受けて\n生まれた靴。\n同じ外見でも、\nその性能は異なるという。\n[[シャドウ]アナザー\nシューズ]の\n精錬値が1上がる度に追加で\nMaxHP + 200\n[[シャドウ]アナザー\nシューズ]の\n精錬値が7以上の時、追加で\nMaxHP + 500\n[[シャドウ]アナザー\nシューズ]の\n精錬値が9以上の時、追加で\nMaxHP + 500",
+    "description_lines": [
+        "主なき迷宮の無垢な魔力が",
+        "亜空の影響を受けて",
+        "生まれた靴。",
+        "同じ外見でも、",
+        "その性能は異なるという。",
+        "[[シャドウ]アナザー",
+        "シューズ]の",
+        "精錬値が1上がる度に追加で",
+        "MaxHP + 200",
+        "[[シャドウ]アナザー",
+        "シューズ]の",
+        "精錬値が7以上の時、追加で",
+        "MaxHP + 500",
+        "[[シャドウ]アナザー",
+        "シューズ]の",
+        "精錬値が9以上の時、追加で",
+        "MaxHP + 500"
+    ],
+    "properties": {
+        "series": "shadow",
+        "series_normalized": [
+            "shadow"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "shoes",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "シャドウ",
+            "位置": "靴",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "0",
+            "要求レベル": "200",
+            "装備": "4次職 拡張4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "亜空の月夜花（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_167"
+        },
+        {
+            "name": "亜空のハティー（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_168"
+        },
+        {
+            "name": "亜空のストームナイト（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_169"
+        },
+        {
+            "name": "ゴブリンキング（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_162"
+        },
+        {
+            "name": "古のタオグンカ（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_163"
+        },
+        {
+            "name": "ボーンデータルザウルス（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_164"
+        },
+        {
+            "name": "R001-ベスティア（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_165"
+        },
+        {
+            "name": "死者の案内人（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_166"
+        },
+        {
+            "name": "迷宮のミミック（亜空の迷宮）（変身後）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_176"
+        },
+        {
+            "name": "シャドウアルヒ（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_178"
+        },
+        {
+            "name": "シャドウコスルリース（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_179"
+        },
+        {
+            "name": "シャドウペルロック（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_180"
+        },
+        {
+            "name": "シャドウビジョウ（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_181"
+        },
+        {
+            "name": "シャドウカッパ（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_182"
+        },
+        {
+            "name": "変異のシーラカンス（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_157"
+        },
+        {
+            "name": "セシル=ディモン（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_158"
+        },
+        {
+            "name": "ランドグリス（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_159"
+        },
+        {
+            "name": "ゴピニク（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_160"
+        },
+        {
+            "name": "怒りの月夜花（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_161"
+        },
+        {
+            "name": "迷宮のダークロード（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_151"
+        },
+        {
+            "name": "ボミ（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_152"
+        },
+        {
+            "name": "不吉なソリッドタートル（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_153"
+        },
+        {
+            "name": "怒りのドラキュラ（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_154"
+        },
+        {
+            "name": "硬化ムスペルスコール（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_155"
+        },
+        {
+            "name": "R48-85-ベスティア（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_156"
+        },
+        {
+            "name": "迷宮の宝箱（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_173"
+        },
+        {
+            "name": "ハッピーポリン（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_174"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "亜空の迷宮 隠匿された通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg107",
+            "map_code": "2@lg107"
+        },
+        {
+            "name": "亜空の迷宮 荒廃した実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg108",
+            "map_code": "2@lg108"
+        },
+        {
+            "name": "亜空の迷宮 転移魔法陣",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg109",
+            "map_code": "2@lg109"
+        },
+        {
+            "name": "亜空の迷宮 太古の神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg110",
+            "map_code": "2@lg110"
+        },
+        {
+            "name": "亜空の迷宮 鮮緑の神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg111",
+            "map_code": "2@lg111"
+        },
+        {
+            "name": "亜空の迷宮 神殿の聖域",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg112",
+            "map_code": "2@lg112"
+        },
+        {
+            "name": "亜空の迷宮 淫靡な大聖堂",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg113",
+            "map_code": "2@lg113"
+        },
+        {
+            "name": "亜空の迷宮 魔女の菜園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg114",
+            "map_code": "2@lg114"
+        },
+        {
+            "name": "亜空の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@lg100",
+            "map_code": "3@lg100"
+        },
+        {
+            "name": "亜空の迷宮 夢の終わり",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@lg100",
+            "map_code": "5@lg100"
+        },
+        {
+            "name": "亜空の迷宮 夢の終わり",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@lg200",
+            "map_code": "5@lg200"
+        },
+        {
+            "name": "亜空の迷宮 夢の終わり",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@lg300",
+            "map_code": "5@lg300"
+        }
+    ],
+    "source_html_sha256": "c1344a6811639553815e164ae965485ec1019776f606f77412c8d277ee319553",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

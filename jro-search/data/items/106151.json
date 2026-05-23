@@ -1,0 +1,81 @@
+{
+    "type": "item",
+    "item_id": "106151",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/106151\/"
+    },
+    "name": "ヴェルナーのリピ確猫型ビスケット",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "猫モチーフのアイテムを\n見つければ、とりあえず\n手を出す主様が\n特に気に入った\nお菓子らしいです、ニャー！\nHP・SPを100%回復する\n60秒間、\n絶対に深い睡眠状態に\nならない\n他のロイヤル・スウィーツと\n効果が重複せず、\n最後に使用した効果が\n適用されます\n再使用待機時間60秒\n※ロイヤル・スウィーツ共通\nこのアイテムの利用期間は\n2026年2月24日(火)\n定期メンテナンス開始まで\nとなります",
+    "description_lines": [
+        "猫モチーフのアイテムを",
+        "見つければ、とりあえず",
+        "手を出す主様が",
+        "特に気に入った",
+        "お菓子らしいです、ニャー！",
+        "HP・SPを100%回復する",
+        "60秒間、",
+        "絶対に深い睡眠状態に",
+        "ならない",
+        "他のロイヤル・スウィーツと",
+        "効果が重複せず、",
+        "最後に使用した効果が",
+        "適用されます",
+        "再使用待機時間60秒",
+        "※ロイヤル・スウィーツ共通",
+        "このアイテムの利用期間は",
+        "2026年2月24日(火)",
+        "定期メンテナンス開始まで",
+        "となります"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1",
+            "要求レベル": "200"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6f6d9a8aa16d9bad68eb2be94797193bfdfbd4bf1dbf8891073b942b4e48df60",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

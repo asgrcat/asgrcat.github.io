@@ -1,0 +1,82 @@
+{
+    "type": "item",
+    "item_id": "14646",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/14646\/"
+    },
+    "name": "オルレアンのフルコース",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "宮廷料理人オルレアンの\n豪華なフルコース料理。\n使用時、30分間、\n[Str増加\n(スペシャル料理)]Lv10、\n[Agi増加\n(スペシャル料理)]Lv10、\n[Vit増加\n(スペシャル料理)]Lv10、\n[Int増加\n(スペシャル料理)]Lv10、\n[Dex増加\n(スペシャル料理)]Lv10、\n[Luk増加\n(スペシャル料理)]Lv10、\n[攻撃力増加\n(スペシャル料理)]\n状態になる\n[オルレアンのフルコース]は\n倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "宮廷料理人オルレアンの",
+        "豪華なフルコース料理。",
+        "使用時、30分間、",
+        "[Str増加",
+        "(スペシャル料理)]Lv10、",
+        "[Agi増加",
+        "(スペシャル料理)]Lv10、",
+        "[Vit増加",
+        "(スペシャル料理)]Lv10、",
+        "[Int増加",
+        "(スペシャル料理)]Lv10、",
+        "[Dex増加",
+        "(スペシャル料理)]Lv10、",
+        "[Luk増加",
+        "(スペシャル料理)]Lv10、",
+        "[攻撃力増加",
+        "(スペシャル料理)]",
+        "状態になる",
+        "[オルレアンのフルコース]は",
+        "倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "93a4e10325bf29e3798c2e4900049f6a328122f0bab815847e3e4f954c00ff3c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

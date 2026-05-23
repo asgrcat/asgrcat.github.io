@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "2233",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2233\/"
+    },
+    "name": "サークレット[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true,
+                "soul_linker": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "頭にかぶる輪の装飾\nMDEF + 3",
+    "description_lines": [
+        "頭にかぶる輪の装飾",
+        "MDEF + 3"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 6,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true,
+                "soul_linker": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "6",
+            "位置": "上段",
+            "重量": "30",
+            "装備": "マジシャン系 アコライト系 ソウルリンカー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "イシス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ISIS"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "ピラミッドダンジョン 3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd03",
+            "map_code": "moc_pryd03"
+        }
+    ],
+    "source_html_sha256": "e6b0b696c69213ebc604eef925fdbae0f58d3c378d28303cf7c75f6ddc3e1087",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

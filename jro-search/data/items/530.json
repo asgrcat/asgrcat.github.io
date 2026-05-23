@@ -1,0 +1,177 @@
+{
+    "type": "item",
+    "item_id": "530",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/530\/"
+    },
+    "name": "スティックキャンディ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ステッキ型のキャンディ。HPを105ほど回復してくれる。\n_",
+    "description_lines": [
+        "ステッキ型のキャンディ。HPを105ほど回復してくれる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 4,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "4"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ヴァルキリーの贈り物（1）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CRYSTAL_6"
+        },
+        {
+            "name": "ヴァルキリーの贈り物（2）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CRYSTAL_7"
+        },
+        {
+            "name": "ヴァルキリーの贈り物（3）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CRYSTAL_8"
+        },
+        {
+            "name": "ヴァルキリーの贈り物（4）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CRYSTAL_9"
+        },
+        {
+            "name": "サンタポリン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/PORING_"
+        },
+        {
+            "name": "プレゼント包装担当者",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/XM_COOKIE"
+        },
+        {
+            "name": "クッキー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/COOKIE"
+        },
+        {
+            "name": "ミストケース",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MYSTCASE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "ホラーおもちゃ工場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@xm_d",
+            "map_code": "1@xm_d"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_16",
+            "map_code": "2@la_16"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_19",
+            "map_code": "2@lb_19"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_16",
+            "map_code": "2@lc_16"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld216",
+            "map_code": "2@ld216"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf216",
+            "map_code": "2@lf216"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "雪の街ルティエ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/xmas",
+            "map_code": "xmas"
+        },
+        {
+            "name": "おもちゃ工場ダンジョン 01（倉庫）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/xmas_dun01",
+            "map_code": "xmas_dun01"
+        },
+        {
+            "name": "おもちゃ工場ダンジョン 02（分類所）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/xmas_dun02",
+            "map_code": "xmas_dun02"
+        }
+    ],
+    "source_html_sha256": "1971f73d7e32ccca4ea124845017bb678053d169cbe2512159ee873e706fcf06",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

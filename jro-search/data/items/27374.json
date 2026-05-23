@@ -1,0 +1,148 @@
+{
+    "type": "item",
+    "item_id": "27374",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27374\/"
+    },
+    "name": "古のSゴーレムカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "物理攻撃で\n与えるダメージ + 3%\n物理攻撃で\nモンスターを倒した時、\nHP + 50 , SP + 5",
+    "description_lines": [
+        "物理攻撃で",
+        "与えるダメージ + 3%",
+        "物理攻撃で",
+        "モンスターを倒した時、",
+        "HP + 50 , SP + 5"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "古のSゴーレム",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_STALACTIC_GOLEM"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "幻影の迷宮 湿った洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld107",
+            "map_code": "2@ld107"
+        },
+        {
+            "name": "幻影の迷宮 湿った洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le107",
+            "map_code": "2@le107"
+        },
+        {
+            "name": "周辺エリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@letter",
+            "map_code": "3@letter"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "幻想の北洞窟ルワンダ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/com_d02_i",
+            "map_code": "com_d02_i"
+        }
+    ],
+    "source_html_sha256": "045ab32d9d856e25c04ae03f40f6088d41abbfca1a06d665ba7cf8f24591bfcb",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

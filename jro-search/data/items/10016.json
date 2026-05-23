@@ -1,0 +1,87 @@
+{
+    "type": "item",
+    "item_id": "10016",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/10016\/"
+    },
+    "name": "金の鈴[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "金で作られた鈴。 綺麗な音が聞こえる。",
+    "description_lines": [
+        "金で作られた鈴。 綺麗な音が聞こえる。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": "pet_equipment",
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "種類": "キューペット装備",
+            "装備": "ソヒー",
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "黄金蟲の幻影",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/E_GOLDEN_BUG"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "プロンテラ地下水路 B4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_sewb4",
+            "map_code": "prt_sewb4"
+        }
+    ],
+    "source_html_sha256": "fd769daa4b0a8bc84d6c5b33e0bd9d3aa53f3f82894d8dd32e47aa5d39c96d9e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

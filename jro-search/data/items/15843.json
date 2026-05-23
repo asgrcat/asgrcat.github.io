@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "15843",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15843\/"
+    },
+    "name": "[衣装] 熱賛のディナー[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "upper": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "大陸の王から\n多大な成果を上げた者に\n授けられる特別な衣装。\n王の並々ならぬ\n熱い想いを感じる。\n[[衣装] 熱賛の\nディナー]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "大陸の王から",
+        "多大な成果を上げた者に",
+        "授けられる特別な衣装。",
+        "王の並々ならぬ",
+        "熱い想いを感じる。",
+        "[[衣装] 熱賛の",
+        "ディナー]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "位置": "上段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "514e01e79f49df9b93e05fd1ac1b8db067e581f686545918923f5a4131751080",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

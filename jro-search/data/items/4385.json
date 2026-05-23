@@ -1,0 +1,119 @@
+{
+    "type": "item",
+    "item_id": "4385",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4385\/"
+    },
+    "name": "ドラゴンの卵カード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "竜形モンスターを倒した時、\n一定確率で\n[ハーブハチ蜜茶]を\nドロップ\n[ソイガの書]と\n共に装備時、追加で\n竜形モンスターを倒した時、\n獲得する経験値 + 5%\n[ソイガの書]の\n精錬値が6以上の時、追加で\n竜形モンスターを倒した時、\n獲得する経験値 + 5%\n[ソイガの書]の\n精錬値が8以上の時、追加で\n竜形モンスターを倒した時、\n獲得する経験値 + 5%",
+    "description_lines": [
+        "竜形モンスターを倒した時、",
+        "一定確率で",
+        "[ハーブハチ蜜茶]を",
+        "ドロップ",
+        "[ソイガの書]と",
+        "共に装備時、追加で",
+        "竜形モンスターを倒した時、",
+        "獲得する経験値 + 5%",
+        "[ソイガの書]の",
+        "精錬値が6以上の時、追加で",
+        "竜形モンスターを倒した時、",
+        "獲得する経験値 + 5%",
+        "[ソイガの書]の",
+        "精錬値が8以上の時、追加で",
+        "竜形モンスターを倒した時、",
+        "獲得する経験値 + 5%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ドラゴンの卵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DRAGON_EGG"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "アビスレイク地下洞窟 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abyss_01",
+            "map_code": "abyss_01"
+        },
+        {
+            "name": "アビスレイク地下洞窟 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abyss_02",
+            "map_code": "abyss_02"
+        },
+        {
+            "name": "アビスレイク地下洞窟 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abyss_03",
+            "map_code": "abyss_03"
+        },
+        {
+            "name": "フィゲルフィールド 05（アビスレイク）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild05",
+            "map_code": "hu_fild05"
+        }
+    ],
+    "source_html_sha256": "0563b65f745becbc98ed976d702f8af5d7c257867bbe95a7be3aa6b0e622de8e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

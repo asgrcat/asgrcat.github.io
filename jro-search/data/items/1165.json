@@ -1,0 +1,132 @@
+{
+    "type": "item",
+    "item_id": "1165",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1165\/"
+    },
+    "name": "正宗[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "名匠の魂が生きている剣。\n美しさと強さを取り揃えた\n素晴らしい剣。\nStr - 5\nFlee + 30\nASPD + 2\n装備者の防御力が 1\/3 に\n減少する。",
+    "description_lines": [
+        "名匠の魂が生きている剣。",
+        "美しさと強さを取り揃えた",
+        "素晴らしい剣。",
+        "Str - 5",
+        "Flee + 30",
+        "ASPD + 2",
+        "装備者の防御力が 1\/3 に",
+        "減少する。"
+    ],
+    "properties": {
+        "series": "two_handed_sword",
+        "series_normalized": [
+            "two_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 200,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 100,
+        "weapon_level": 4,
+        "required_level": 48,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手剣",
+            "攻撃": "200",
+            "重量": "100",
+            "武器レベル": "4",
+            "要求レベル": "48",
+            "装備": "ソードマン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "怨霊武士",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/INCANTATION_SAMURAI"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "ラヴィーネ山脈02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ravi",
+            "map_code": "2@ravi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アマツダンジョン 03（アマツ地下神社）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ama_dun03",
+            "map_code": "ama_dun03"
+        }
+    ],
+    "source_html_sha256": "6e7cf2399d7a8eae806cb631d3bf234fa1c1c9a5df78dcad0aee666299aeb4cf",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

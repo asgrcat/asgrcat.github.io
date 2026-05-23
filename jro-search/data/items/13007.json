@@ -1,0 +1,102 @@
+{
+    "type": "item",
+    "item_id": "13007",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13007\/"
+    },
+    "name": "十手[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "ninja": true
+            },
+            "include_jobs": {
+                "ninja": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "刃に爪が付いている忍者刀。\n爪に相手の武器を引っ掛け、\n奪うことができる。\n殺傷力は低いが、\n使い勝手が良い。\nMatk + 126\n近接物理攻撃時、\n一定確率で相手の\n武器を破壊する。",
+    "description_lines": [
+        "刃に爪が付いている忍者刀。",
+        "爪に相手の武器を引っ掛け、",
+        "奪うことができる。",
+        "殺傷力は低いが、",
+        "使い勝手が良い。",
+        "Matk + 126",
+        "近接物理攻撃時、",
+        "一定確率で相手の",
+        "武器を破壊する。"
+    ],
+    "properties": {
+        "series": "dagger",
+        "series_normalized": [
+            "dagger"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 70,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": 2,
+        "required_level": 35,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "ninja": true
+            },
+            "include_jobs": {
+                "ninja": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "短剣",
+            "攻撃": "70",
+            "重量": "40",
+            "武器レベル": "2",
+            "要求レベル": "35",
+            "装備": "忍者系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "7f6e1897cc1a57f4a7cedb231697c808f2783ea2fdd40626c043beb05ed8ea53",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,64 @@
+{
+    "type": "item",
+    "item_id": "12051",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12051\/"
+    },
+    "name": "蒸しガニ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ハーブとカニを一緒に煮る簡単な料理。殻をうまくむいて食べるのが重要だ。\nVIT + 1\n_",
+    "description_lines": [
+        "ハーブとカニを一緒に煮る簡単な料理。殻をうまくむいて食べるのが重要だ。",
+        "VIT + 1",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "10"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "8a299a2666161a5e81006b587b7f4ca30cac8de7b243a069ce05157cce33547d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

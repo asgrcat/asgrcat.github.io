@@ -1,0 +1,202 @@
+{
+    "type": "item",
+    "item_id": "1014",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1014\/"
+    },
+    "name": "蟻の顎",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "地に住む昆虫の鋭く硬い顎。収集品商人に売ることができる。\n_",
+    "description_lines": [
+        "地に住む昆虫の鋭く硬い顎。収集品商人に売ることができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "飢える大蜘蛛",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_048"
+        },
+        {
+            "name": "兵隊アンドレ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SOLDIER_ANDRE"
+        },
+        {
+            "name": "兵隊ピエール",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SOLDIER_DENIRO"
+        },
+        {
+            "name": "兵隊デニーロ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SOLDIER_PIERE"
+        },
+        {
+            "name": "ジュゴリアント",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JUNGOLIANT"
+        },
+        {
+            "name": "フリオニ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/PHREEONI"
+        },
+        {
+            "name": "鬼",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_209"
+        },
+        {
+            "name": "ウンゴリアント",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/UNGOLIANT"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "試練の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_06",
+            "map_code": "2@la_06"
+        },
+        {
+            "name": "封印の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_07",
+            "map_code": "2@lb_07"
+        },
+        {
+            "name": "異形の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_06",
+            "map_code": "2@lc_06"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld206",
+            "map_code": "2@ld206"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf206",
+            "map_code": "2@lf206"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "蟻地獄ダンジョン B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/anthell02",
+            "map_code": "anthell02"
+        },
+        {
+            "name": "鉱山ダンジョン 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun01",
+            "map_code": "ein_dun01"
+        },
+        {
+            "name": "鉱山ダンジョン 03(1)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun03",
+            "map_code": "ein_dun03"
+        },
+        {
+            "name": "鉱山ダンジョン 03(2)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun03_j",
+            "map_code": "ein_dun03_j"
+        },
+        {
+            "name": "ブリトニア 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas01",
+            "map_code": "gefg_cas01"
+        },
+        {
+            "name": "ブリトニア 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas02",
+            "map_code": "gefg_cas02"
+        },
+        {
+            "name": "ブリトニア 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas03",
+            "map_code": "gefg_cas03"
+        },
+        {
+            "name": "ブリトニア 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas04",
+            "map_code": "gefg_cas04"
+        },
+        {
+            "name": "ブリトニア 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas05",
+            "map_code": "gefg_cas05"
+        },
+        {
+            "name": "ソグラト砂漠 17",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild17",
+            "map_code": "moc_fild17"
+        }
+    ],
+    "source_html_sha256": "9a2e98103eedb998fb5e565c77e4cda5e4d664928a26770b7a9062ef3905868d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

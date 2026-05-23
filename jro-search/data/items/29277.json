@@ -1,0 +1,67 @@
+{
+    "type": "item",
+    "item_id": "29277",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/29277\/"
+    },
+    "name": "名誉のニーヴ(集中)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "変動詠唱時間 - 5%\n精錬値が7以上の時、追加で\n変動詠唱時間 - 5%\n精錬値が9以上の時、追加で\n変動詠唱時間 - 5%\n[ダークハンド]と\n共に装備時、追加で\n変動詠唱時間 - 10%",
+    "description_lines": [
+        "変動詠唱時間 - 5%",
+        "精錬値が7以上の時、追加で",
+        "変動詠唱時間 - 5%",
+        "精錬値が9以上の時、追加で",
+        "変動詠唱時間 - 5%",
+        "[ダークハンド]と",
+        "共に装備時、追加で",
+        "変動詠唱時間 - 10%"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "8c2f4700a84d629750ce83eed69c4ae767e1520d55c084d6caa869f0d6590423",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

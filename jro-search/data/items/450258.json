@@ -1,0 +1,118 @@
+{
+    "type": "item",
+    "item_id": "450258",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/450258\/"
+    },
+    "name": "ラウドパーク[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "騒々しい演奏で地震を起こし\nその絶唱によって\nライブハウスの天井に\n風穴を開けたとされる\n伝説のバンドが着ていた\n派手な衣装。\nMaxHP + 10% , MaxSP + 10%\n[フリッグの歌]の\n習得Lvが1上がる度に追加で\nInt + 6 , Matk + 30\n[メランコリー]の\n習得Lvが1上がる度に追加で\n魔法攻撃時、\n全ての種族のモンスターに\n与えるダメージ + 14%\n[安らぎの子守唄]の\n習得Lvが1上がる度に追加で\nスキルディレイ - 6%\n[ラウドパーク]の\n精錬値が5以上の時、追加で\n[メタリックサウンド]で\n与えるダメージ + 50%\n[ラウドパーク]の\n精錬値が7以上の時、追加で\n[メタリックサウンド]で\n与えるダメージ + 50%\n[ラウドパーク]の\n精錬値が10の時、追加で\n無属性魔法攻撃で\n与えるダメージ + 15%\n絶対に壊れない",
+    "description_lines": [
+        "騒々しい演奏で地震を起こし",
+        "その絶唱によって",
+        "ライブハウスの天井に",
+        "風穴を開けたとされる",
+        "伝説のバンドが着ていた",
+        "派手な衣装。",
+        "MaxHP + 10% , MaxSP + 10%",
+        "[フリッグの歌]の",
+        "習得Lvが1上がる度に追加で",
+        "Int + 6 , Matk + 30",
+        "[メランコリー]の",
+        "習得Lvが1上がる度に追加で",
+        "魔法攻撃時、",
+        "全ての種族のモンスターに",
+        "与えるダメージ + 14%",
+        "[安らぎの子守唄]の",
+        "習得Lvが1上がる度に追加で",
+        "スキルディレイ - 6%",
+        "[ラウドパーク]の",
+        "精錬値が5以上の時、追加で",
+        "[メタリックサウンド]で",
+        "与えるダメージ + 50%",
+        "[ラウドパーク]の",
+        "精錬値が7以上の時、追加で",
+        "[メタリックサウンド]で",
+        "与えるダメージ + 50%",
+        "[ラウドパーク]の",
+        "精錬値が10の時、追加で",
+        "無属性魔法攻撃で",
+        "与えるダメージ + 15%",
+        "絶対に壊れない"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": 100,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": true,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "位置": "-",
+            "属性": "無",
+            "スロット": "1",
+            "Def": "100",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "100",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "d0f6b8e0ce1e0233e3d466a3031d986436239779b5b1d7f9332fec96e594975c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

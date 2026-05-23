@@ -1,0 +1,81 @@
+{
+    "type": "item",
+    "item_id": "200501",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/200501\/"
+    },
+    "name": "[2025年]究極精錬お楽しみチケットの箱",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "このアイテムの利用期間は\n2025年4月1日(火)\n定期メンテナンス開始まで\nとなります\n利用期間終了後に箱を\nあけた場合、\n何も出現しません\n[究極精錬\nお楽しみチケット]が\n1個入っている箱。\n[究極精錬\nお楽しみチケット]：\n・イズルード(izlude)\n座標(123 115)にいるNPC\n「ナースチェンカ」に\n持って行こう\n[究極精錬\nお楽しみチケット]は\n箱を開けてから1008時間後に\n自動的に消滅します",
+    "description_lines": [
+        "このアイテムの利用期間は",
+        "2025年4月1日(火)",
+        "定期メンテナンス開始まで",
+        "となります",
+        "利用期間終了後に箱を",
+        "あけた場合、",
+        "何も出現しません",
+        "[究極精錬",
+        "お楽しみチケット]が",
+        "1個入っている箱。",
+        "[究極精錬",
+        "お楽しみチケット]：",
+        "・イズルード(izlude)",
+        "座標(123 115)にいるNPC",
+        "「ナースチェンカ」に",
+        "持って行こう",
+        "[究極精錬",
+        "お楽しみチケット]は",
+        "箱を開けてから1008時間後に",
+        "自動的に消滅します"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e12235b859df827ab3a0cda120cd617dd2fe92732beea8a6c85f93608341df32",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

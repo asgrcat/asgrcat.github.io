@@ -1,0 +1,66 @@
+{
+    "type": "item",
+    "item_id": "1000963",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000963\/"
+    },
+    "name": "ベマップャ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "並行世界に存在する\n奇怪な形の鈍器。\n真偽のほどは不明だが\n次元を超える何者かが\n持ち込んだらしい。",
+    "description_lines": [
+        "並行世界に存在する",
+        "奇怪な形の鈍器。",
+        "真偽のほどは不明だが",
+        "次元を超える何者かが",
+        "持ち込んだらしい。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f6bbab8ea96720dfe6ecdc160096bad1bd461a9e540f6eff38e14fc616e815ca",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

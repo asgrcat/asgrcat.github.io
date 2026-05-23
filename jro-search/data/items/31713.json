@@ -1,0 +1,94 @@
+{
+    "type": "item",
+    "item_id": "31713",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31713\/"
+    },
+    "name": "[衣装] 神秘の木の実[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "upper": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "神秘の木の実を半分に切って\n中を刳り抜いて\n頭にかぶれるようにした\n衣装用の木の実。\n木の実なのに丈夫なのは\nそれが神秘の木の実\nだからだ。",
+    "description_lines": [
+        "神秘の木の実を半分に切って",
+        "中を刳り抜いて",
+        "頭にかぶれるようにした",
+        "衣装用の木の実。",
+        "木の実なのに丈夫なのは",
+        "それが神秘の木の実",
+        "だからだ。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "位置": "上段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f2d35b39b43b9ef9e3ef9babaf03c998952abfd294ec22fabc4390f85d65c8fb",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

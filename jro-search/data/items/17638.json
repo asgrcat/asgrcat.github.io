@@ -1,0 +1,82 @@
+{
+    "type": "item",
+    "item_id": "17638",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/17638\/"
+    },
+    "name": "コスたまCharacters",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する。\n・[衣装] ピアメットの\n蝶ネクタイ\n・[衣装] 魔神モロクの\n忠実な下僕\n・[衣装] マギスティンの\nヘッドドレス\n・[衣装] カーリッツバーグ\n騎士団のヘルム\n・[衣装] ルイーゼの\n赤い帽子\n・[衣装] ピアメットの\nヘッドドレス\n・[衣装] 偽りの冠\n・[衣装] 勝利の女神（青）\n・[衣装] たれグラリス人形\n・[衣装] たれテーリング\n人形",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する。",
+        "・[衣装] ピアメットの",
+        "蝶ネクタイ",
+        "・[衣装] 魔神モロクの",
+        "忠実な下僕",
+        "・[衣装] マギスティンの",
+        "ヘッドドレス",
+        "・[衣装] カーリッツバーグ",
+        "騎士団のヘルム",
+        "・[衣装] ルイーゼの",
+        "赤い帽子",
+        "・[衣装] ピアメットの",
+        "ヘッドドレス",
+        "・[衣装] 偽りの冠",
+        "・[衣装] 勝利の女神（青）",
+        "・[衣装] たれグラリス人形",
+        "・[衣装] たれテーリング",
+        "人形"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f1908f87ead8dbc031e57c3d50cc2aa1bbaa104878010cccdd8f5ab50aaa4a9f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

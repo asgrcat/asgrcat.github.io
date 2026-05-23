@@ -1,0 +1,166 @@
+{
+    "type": "item",
+    "item_id": "7154",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7154\/"
+    },
+    "name": "毒の粉",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "毒を持った粉で、水に溶かして飲んでしまったらひどく苦しむだろう。\n_",
+    "description_lines": [
+        "毒を持った粉で、水に溶かして飲んでしまったらひどく苦しむだろう。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "猛毒の大口蛙",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_POISON_TOAD"
+        },
+        {
+            "name": "大口蛙",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/POISON_TOAD"
+        },
+        {
+            "name": "ベノマス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/VENOMOUS"
+        },
+        {
+            "name": "キューブ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/QUVE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_10",
+            "map_code": "2@la_10"
+        },
+        {
+            "name": "封印の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_11",
+            "map_code": "2@lb_11"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_10",
+            "map_code": "2@lc_10"
+        },
+        {
+            "name": "異形の迷宮 忘れられた炭鉱",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_20",
+            "map_code": "2@lc_20"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld210",
+            "map_code": "2@ld210"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf210",
+            "map_code": "2@lf210"
+        },
+        {
+            "name": "亜空の迷宮 溶岩の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg104",
+            "map_code": "2@lg104"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アマツダンジョン 02（地下戦場跡）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ama_dun02",
+            "map_code": "ama_dun02"
+        },
+        {
+            "name": "標本環境(猛毒)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_venom",
+            "map_code": "bl_venom"
+        },
+        {
+            "name": "鉱山ダンジョン 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun01",
+            "map_code": "ein_dun01"
+        },
+        {
+            "name": "鉱山ダンジョン 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun02",
+            "map_code": "ein_dun02"
+        },
+        {
+            "name": "鋼鉄の都市アインブロック",
+            "url": "https:\/\/rotool.gungho.jp\/map\/einbroch",
+            "map_code": "einbroch"
+        },
+        {
+            "name": "ニブルヘイムフィールド 01（秘境の村）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nif_fild01",
+            "map_code": "nif_fild01"
+        },
+        {
+            "name": "ニブルヘイムフィールド 02（ギョル渓谷）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nif_fild02",
+            "map_code": "nif_fild02"
+        },
+        {
+            "name": "死者の街ニブルヘイム",
+            "url": "https:\/\/rotool.gungho.jp\/map\/niflheim",
+            "map_code": "niflheim"
+        }
+    ],
+    "source_html_sha256": "bc46a696fb40ac84829e093c43a1e01798ee88ecba36bb3125cd539d33673af3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

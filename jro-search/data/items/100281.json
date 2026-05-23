@@ -1,0 +1,71 @@
+{
+    "type": "item",
+    "item_id": "100281",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/100281\/"
+    },
+    "name": "ヘルムスクロールI",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "魔物の魔力から生まれた\n謎のスクロール。\n特定の兜の\n隠された力を\n引き出すことができる。\n・効果\n対象アイテムにランダム\nオプションを付与する\n・対象アイテム\n魔女の祭祀帽",
+    "description_lines": [
+        "魔物の魔力から生まれた",
+        "謎のスクロール。",
+        "特定の兜の",
+        "隠された力を",
+        "引き出すことができる。",
+        "・効果",
+        "対象アイテムにランダム",
+        "オプションを付与する",
+        "・対象アイテム",
+        "魔女の祭祀帽"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "817eabeb91414e49bc38ab6ecc84c9349424136e6e30d1666ce78eaf6769628f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

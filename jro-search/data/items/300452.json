@@ -1,0 +1,77 @@
+{
+    "type": "item",
+    "item_id": "300452",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300452\/"
+    },
+    "name": "フリードリヒ・ハイネン(サイン入り)カード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "MaxSP + 15%\n魔法攻撃で\n与えるダメージ + 15%\n[ガンバンテイン]\nLv1使用可能",
+    "description_lines": [
+        "MaxSP + 15%",
+        "魔法攻撃で",
+        "与えるダメージ + 15%",
+        "[ガンバンテイン]",
+        "Lv1使用可能"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c5962915ab17c22cc60a19aa924777aee5a1eeb7628dea09434cfa31379a5370",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

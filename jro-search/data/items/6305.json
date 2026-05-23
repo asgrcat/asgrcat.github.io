@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "6305",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6305\/"
+    },
+    "name": "凍りついた皮膚の欠片",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "削られた皮膚の欠片。\n低温によって硬く\n凍りついており、\n邪悪な魔力が感じられる。",
+    "description_lines": [
+        "削られた皮膚の欠片。",
+        "低温によって硬く",
+        "凍りついており、",
+        "邪悪な魔力が感じられる。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "399993d3f44aff82a075f6c318f8361c4a2f4ed30b32c84f6c136e221e769b70",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

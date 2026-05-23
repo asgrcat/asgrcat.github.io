@@ -1,0 +1,133 @@
+{
+    "type": "item",
+    "item_id": "1619",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1619\/"
+    },
+    "name": "サバイバルロッド[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true,
+                "soul_linker": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "苦行をしている\n修行者たちのために\n魔術師ギルドと大聖堂が\n協力して作り出した杖。\n2つのタイプがある。\nMatk + 120。\nInt + 2、\nMaxHP + 300。",
+    "description_lines": [
+        "苦行をしている",
+        "修行者たちのために",
+        "魔術師ギルドと大聖堂が",
+        "協力して作り出した杖。",
+        "2つのタイプがある。",
+        "Matk + 120。",
+        "Int + 2、",
+        "MaxHP + 300。"
+    ],
+    "properties": {
+        "series": "staff",
+        "series_normalized": [
+            "staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 50,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 100,
+        "weapon_level": 3,
+        "required_level": 24,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true,
+                "soul_linker": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "杖",
+            "攻撃": "50",
+            "重量": "100",
+            "武器レベル": "3",
+            "要求レベル": "24",
+            "装備": "マジシャン系 アコライト系 ソウルリンカー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "カトリーヌ=ケイロン（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_KATRINN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_13",
+            "map_code": "2@la_13"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_15",
+            "map_code": "2@lb_15"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld213",
+            "map_code": "2@ld213"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf213",
+            "map_code": "2@lf213"
+        },
+        {
+            "name": "ギルドダンジョン グロリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/teg_dun01",
+            "map_code": "teg_dun01"
+        }
+    ],
+    "source_html_sha256": "abf9761d3417a828a7a73d6b225cc7aa81635d3cf96d85bd83bc1acf010770a6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,89 @@
+{
+    "type": "item",
+    "item_id": "31236",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31236\/"
+    },
+    "name": "[衣装] 思念のオーラ(中段)[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "生体工学研究所に潜む\n思念体の周囲に漂う\nオーラを模した衣装。\n思念たちの果てなく散り\n集まる繰り返しの動きが\nオーラとなり思念体に\n纏わりついているようだ。",
+    "description_lines": [
+        "生体工学研究所に潜む",
+        "思念体の周囲に漂う",
+        "オーラを模した衣装。",
+        "思念たちの果てなく散り",
+        "集まる繰り返しの動きが",
+        "オーラとなり思念体に",
+        "纏わりついているようだ。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "中段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e937be1084655efa7c485250d87d967bf86f9a5bff8b29ec3ead46cf65838df9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

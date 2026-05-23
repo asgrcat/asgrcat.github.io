@@ -1,0 +1,133 @@
+{
+    "type": "item",
+    "item_id": "28510",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28510\/"
+    },
+    "name": "吸血鬼のしもべ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "吸血鬼に使役される\nしもべの1人。\nモンスターを倒した時、\nHP + 50 , SP + 5\nBaseLvが170以上の時、\n追加で\n物理・魔法攻撃で\n与えるダメージ + 10%\n[怒りのドラキュラカード]\nと共に装備時、追加で\n攻撃速度 + 15%\n[封印された\n怒りのドラキュラカード]と\n共に装備時、追加で\n攻撃速度 + 5%",
+    "description_lines": [
+        "吸血鬼に使役される",
+        "しもべの1人。",
+        "モンスターを倒した時、",
+        "HP + 50 , SP + 5",
+        "BaseLvが170以上の時、",
+        "追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 10%",
+        "[怒りのドラキュラカード]",
+        "と共に装備時、追加で",
+        "攻撃速度 + 15%",
+        "[封印された",
+        "怒りのドラキュラカード]と",
+        "共に装備時、追加で",
+        "攻撃速度 + 5%"
+    ],
+    "properties": {
+        "series": "accessory_1",
+        "series_normalized": [
+            "accessory_1"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 1,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 150,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー(1)",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "1",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "150",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ボミ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_BOMI"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "250 ページ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_d01_j",
+            "map_code": "gef_d01_j"
+        }
+    ],
+    "source_html_sha256": "83091b25089f988fd6caad0decf525805f4b62c9ccad82930acd8aa2dd3b9f66",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

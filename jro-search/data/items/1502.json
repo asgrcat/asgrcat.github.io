@@ -1,0 +1,188 @@
+{
+    "type": "item",
+    "item_id": "1502",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1502\/"
+    },
+    "name": "クラブ[4]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 4,
+        "enchant_slot_count": 0,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "acolyte": true,
+                "merchant": true,
+                "druid": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "acolyte": true,
+                "merchant": true,
+                "druid": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "木で作った棒。",
+    "description_lines": [
+        "木で作った棒。"
+    ],
+    "properties": {
+        "series": "mace",
+        "series_normalized": [
+            "mace"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 4,
+        "def": null,
+        "atk": 23,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 70,
+        "weapon_level": 1,
+        "required_level": 2,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "acolyte": true,
+                "merchant": true,
+                "druid": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "acolyte": true,
+                "merchant": true,
+                "druid": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鈍器",
+            "攻撃": "23",
+            "重量": "70",
+            "武器レベル": "1",
+            "要求レベル": "2",
+            "装備": "ノービス系 ソードマン系 アコライト系 マーチャント系 ドルイド系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ファブル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/FABRE"
+        },
+        {
+            "name": "ファブル（転職場）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/FABRE_"
+        },
+        {
+            "name": "ファブル（変異種）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/META_FABRE"
+        },
+        {
+            "name": "山葵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_077"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "実習室（海岸）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_prac_01",
+            "map_code": "ac_prac_01"
+        },
+        {
+            "name": "ゲフェンフィールド 00",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild00",
+            "map_code": "gef_fild00"
+        },
+        {
+            "name": "ゲフェンフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild04",
+            "map_code": "gef_fild04"
+        },
+        {
+            "name": "ゲフェンフィールド 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild07",
+            "map_code": "gef_fild07"
+        },
+        {
+            "name": "プロンテラフィールド 00",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild00",
+            "map_code": "prt_fild00"
+        },
+        {
+            "name": "プロンテラフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild01",
+            "map_code": "prt_fild01"
+        },
+        {
+            "name": "プロンテラフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild02",
+            "map_code": "prt_fild02"
+        },
+        {
+            "name": "プロンテラフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild03",
+            "map_code": "prt_fild03"
+        },
+        {
+            "name": "プロンテラフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild04",
+            "map_code": "prt_fild04"
+        },
+        {
+            "name": "プロンテラフィールド 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild07",
+            "map_code": "prt_fild07"
+        },
+        {
+            "name": "迷宮の森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze01",
+            "map_code": "prt_maze01"
+        }
+    ],
+    "source_html_sha256": "4c3e117d56931922617b36a32c86e0faa50b6bb4d47e4c7d07a3110099600a7d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

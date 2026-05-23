@@ -1,0 +1,99 @@
+{
+    "type": "item",
+    "item_id": "4589",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4589\/"
+    },
+    "name": "ジェジェリンカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "garment"
+        ],
+        "card_attachable_positions": {
+            "garment": true
+        }
+    },
+    "description": "純粋なVitが10上がる度に\n追加でMaxHP + 200",
+    "description_lines": [
+        "純粋なVitが10上がる度に",
+        "追加でMaxHP + 200"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "garment"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "肩にかける物",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ジェジェリン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JEJELING"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 赤の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld101",
+            "map_code": "2@ld101"
+        },
+        {
+            "name": "亜空の迷宮 赤の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg102",
+            "map_code": "2@lg102"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "バリオ・マヒワガ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ma_fild01",
+            "map_code": "ma_fild01"
+        }
+    ],
+    "source_html_sha256": "b3e3688f9a2f408db1c134587fbdf7b1fde6d342679cdd24fdd4a66ee57803dc",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

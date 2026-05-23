@@ -1,0 +1,131 @@
+{
+    "type": "item",
+    "item_id": "4627",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4627\/"
+    },
+    "name": "ビッグベルカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "物理攻撃時、\n無形・悪魔形モンスターへの\nダメージ + 10%\n[ネオパンクカード]と\n共に装備時、追加で\n無形・悪魔形モンスターから\n受けるダメージ - 5%\n無形・悪魔形モンスターの\nDef 50%無視",
+    "description_lines": [
+        "物理攻撃時、",
+        "無形・悪魔形モンスターへの",
+        "ダメージ + 10%",
+        "[ネオパンクカード]と",
+        "共に装備時、追加で",
+        "無形・悪魔形モンスターから",
+        "受けるダメージ - 5%",
+        "無形・悪魔形モンスターの",
+        "Def 50%無視"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ビッグベル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BIG_BELL"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_23",
+            "map_code": "2@la_23"
+        },
+        {
+            "name": "封印の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_28",
+            "map_code": "2@lb_28"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_10",
+            "map_code": "2@lc_10"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_11",
+            "map_code": "2@lc_11"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld223",
+            "map_code": "2@ld223"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf223",
+            "map_code": "2@lf223"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "捻じれた時間の時計塔地上 2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower2_",
+            "map_code": "c_tower2_"
+        },
+        {
+            "name": "捻じれた時間の時計塔地上 3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower3_",
+            "map_code": "c_tower3_"
+        }
+    ],
+    "source_html_sha256": "0573fab7710bf9ceac7ab4011982d3ec05a29661fd8ca7b5079b3e62e4d874e8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,184 @@
+{
+    "type": "item",
+    "item_id": "26106",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/26106\/"
+    },
+    "name": "ミラージュワンド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true,
+                "soul_reaper": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ディーヴァワンドが\n迷宮の力の影響で\n変異をとげた武器。\nどのような素材で\n精製されているのかは不明で\n同じような武器でも、\nその性能は異なるという。\n射程距離5\nMatk + 180\n[ミラージュワンド]の\n精錬値が1上がる度に追加で\nヒール系スキル使用時、\nHP回復量 + 2%\n[ミラージュワンド]の\n精錬値が7以上の時、追加で\n魔法攻撃で\n与えるダメージ + 4%\n[ミラージュワンド]の\n精錬値が9以上の時、追加で\n魔法攻撃で\n与えるダメージ + 4%\n[迷宮のドラキュラカード]\nと共に装備時、\n追加で\n物理攻撃命中時、\n一定確率で敵に与えた\nダメージの5%を\nSPとして吸収",
+    "description_lines": [
+        "ディーヴァワンドが",
+        "迷宮の力の影響で",
+        "変異をとげた武器。",
+        "どのような素材で",
+        "精製されているのかは不明で",
+        "同じような武器でも、",
+        "その性能は異なるという。",
+        "射程距離5",
+        "Matk + 180",
+        "[ミラージュワンド]の",
+        "精錬値が1上がる度に追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 2%",
+        "[ミラージュワンド]の",
+        "精錬値が7以上の時、追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 4%",
+        "[ミラージュワンド]の",
+        "精錬値が9以上の時、追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 4%",
+        "[迷宮のドラキュラカード]",
+        "と共に装備時、",
+        "追加で",
+        "物理攻撃命中時、",
+        "一定確率で敵に与えた",
+        "ダメージの5%を",
+        "SPとして吸収"
+    ],
+    "properties": {
+        "series": "one_handed_staff",
+        "series_normalized": [
+            "one_handed_staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 60,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true,
+                "soul_reaper": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手杖",
+            "攻撃": "60",
+            "重量": "30",
+            "武器レベル": "4",
+            "要求レベル": "150",
+            "装備": "3次職マジシャン系 3次職アコライト系 ソウルリーパー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "神罰のオディール（B）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_50"
+        },
+        {
+            "name": "シャドウフェンリル（B）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_94"
+        },
+        {
+            "name": "デッドエンド（C）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_95"
+        },
+        {
+            "name": "迷宮の宝箱（G）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_96"
+        },
+        {
+            "name": "迷宮の宝箱（H）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_97"
+        },
+        {
+            "name": "ハッピーポリン（C）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_100"
+        },
+        {
+            "name": "彷徨う紫色の竜（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_30"
+        },
+        {
+            "name": "女帝スカラバ（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_35"
+        },
+        {
+            "name": "タイムホルダー（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_37"
+        },
+        {
+            "name": "ニーズヘッグの影（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_40"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "封印の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_18",
+            "map_code": "2@lb_18"
+        },
+        {
+            "name": "封印の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@lb_00",
+            "map_code": "3@lb_00"
+        },
+        {
+            "name": "封印の迷宮 夢の終わり",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@lb_00",
+            "map_code": "5@lb_00"
+        }
+    ],
+    "source_html_sha256": "19f10b895973c323c5c93a6b95779f3805a1c7871bf53dfaa3a6fe023f363870",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

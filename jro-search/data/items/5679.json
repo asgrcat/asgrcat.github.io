@@ -1,0 +1,92 @@
+{
+    "type": "item",
+    "item_id": "5679",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5679\/"
+    },
+    "name": "エンジニアキャップ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "エンジニアが使う\n古びた帽子。\n擦り切れたつばの間から\n鋭い眼光が見える。\n無形モンスターに\n物理攻撃で与えるダメージ\n+ 10%。",
+    "description_lines": [
+        "エンジニアが使う",
+        "古びた帽子。",
+        "擦り切れたつばの間から",
+        "鋭い眼光が見える。",
+        "無形モンスターに",
+        "物理攻撃で与えるダメージ",
+        "+ 10%。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 2,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": 10,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "2",
+            "位置": "上段",
+            "重量": "20",
+            "要求レベル": "10",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "0f8129197483cb47d4f71fe43acf85f3c2fdf5d69a24a30d97b3bc69d16c62b4",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

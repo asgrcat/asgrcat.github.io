@@ -1,0 +1,120 @@
+{
+    "type": "item",
+    "item_id": "450129",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/450129\/"
+    },
+    "name": "白羊宮のメイル[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "黄道を巡る星座の1つ、\n白羊宮の力を宿した\nメイル。\nAtk + 50\nMaxHP + 1000\nスキルディレイ - 10%\nロイヤルガード系が装備時、\nAtk + 80\nMaxHP + 10% , MaxSP + 10%\n[白羊宮のメイル]の\n精錬値が8以上の時、追加で\nボスモンスターから\n受けるダメージ - 5%\n[白羊宮のマント]、\n[白羊宮のシューズ]と\n共に装備時、追加で\nMaxHP + 2000\nMaxSP + 200\n[シールドチェーン]で\n与えるダメージ + 150%\n遠距離物理攻撃で\n与えるダメージ + 30%\n必中攻撃 + 50%\nロイヤルガード系が装備時、\n[ゾディアック]と\n共に装備時、\n[白羊宮のメイル]の\n精錬値が1上がる度に追加で\n物理攻撃で\n与えるダメージ + 3%\n[白羊宮のメイル]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "黄道を巡る星座の1つ、",
+        "白羊宮の力を宿した",
+        "メイル。",
+        "Atk + 50",
+        "MaxHP + 1000",
+        "スキルディレイ - 10%",
+        "ロイヤルガード系が装備時、",
+        "Atk + 80",
+        "MaxHP + 10% , MaxSP + 10%",
+        "[白羊宮のメイル]の",
+        "精錬値が8以上の時、追加で",
+        "ボスモンスターから",
+        "受けるダメージ - 5%",
+        "[白羊宮のマント]、",
+        "[白羊宮のシューズ]と",
+        "共に装備時、追加で",
+        "MaxHP + 2000",
+        "MaxSP + 200",
+        "[シールドチェーン]で",
+        "与えるダメージ + 150%",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 30%",
+        "必中攻撃 + 50%",
+        "ロイヤルガード系が装備時、",
+        "[ゾディアック]と",
+        "共に装備時、",
+        "[白羊宮のメイル]の",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃で",
+        "与えるダメージ + 3%",
+        "[白羊宮のメイル]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": 100,
+        "atk": null,
+        "mdef": 5,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "位置": "-",
+            "属性": "無",
+            "スロット": "1",
+            "Def": "100",
+            "Mdef": "5",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "100",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "b6ab04b5cac739c3cc2da80ed434c33b5a4ccbd8f37595b0c816b861bbaf35cc",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

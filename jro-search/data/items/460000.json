@@ -1,0 +1,167 @@
+{
+    "type": "item",
+    "item_id": "460000",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/460000\/"
+    },
+    "name": "デモニッシュシールド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "神々の中でも勇猛果敢な\n鬼神によって鍛え直された\nと伝わる伝説の盾。\n揺るぎなきその力は\n傷を大いに癒し\n悪意を退けるという。\nヒール系スキル使用時、\nHP回復量 + 15%\n[デモニッシュシールド]の\n精錬値が1上がる度に追加で\nヒール系スキル使用時、\nHP回復量 + 2%\n[デモニッシュシールド]の\n精錬値が8以上の時、追加で\nスキルディレイ - 10%\n[ヒール]Lv10使用可能\n[デモニッシュシールド]の\n精錬値が10の時、追加で\nスキルディレイ - 10%\n絶対に出血・石化状態に\nならない",
+    "description_lines": [
+        "神々の中でも勇猛果敢な",
+        "鬼神によって鍛え直された",
+        "と伝わる伝説の盾。",
+        "揺るぎなきその力は",
+        "傷を大いに癒し",
+        "悪意を退けるという。",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 15%",
+        "[デモニッシュシールド]の",
+        "精錬値が1上がる度に追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 2%",
+        "[デモニッシュシールド]の",
+        "精錬値が8以上の時、追加で",
+        "スキルディレイ - 10%",
+        "[ヒール]Lv10使用可能",
+        "[デモニッシュシールド]の",
+        "精錬値が10の時、追加で",
+        "スキルディレイ - 10%",
+        "絶対に出血・石化状態に",
+        "ならない"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 150,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": true,
+        "weight": 120,
+        "weapon_level": null,
+        "required_level": 99,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "150",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "120",
+            "要求レベル": "99",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "M・ムキムキ・ドラゴン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/C1_WOLF"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "マッスルオアダイA",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer27",
+            "map_code": "ev_summer27"
+        },
+        {
+            "name": "マッスルオアダイB",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer28",
+            "map_code": "ev_summer28"
+        },
+        {
+            "name": "マッスルオアダイC",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer29",
+            "map_code": "ev_summer29"
+        },
+        {
+            "name": "マッスルオアダイD",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer30",
+            "map_code": "ev_summer30"
+        },
+        {
+            "name": "マッスルオアダイE",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer31",
+            "map_code": "ev_summer31"
+        },
+        {
+            "name": "マッスルオアダイF",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer32",
+            "map_code": "ev_summer32"
+        },
+        {
+            "name": "マッスルオアダイG",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer33",
+            "map_code": "ev_summer33"
+        },
+        {
+            "name": "マッスルオアダイH",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer34",
+            "map_code": "ev_summer34"
+        },
+        {
+            "name": "マッスルオアダイI",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer35",
+            "map_code": "ev_summer35"
+        },
+        {
+            "name": "マッスルオアダイJ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer36",
+            "map_code": "ev_summer36"
+        }
+    ],
+    "source_html_sha256": "90d28939cab7c98dad9945ee153b57cebd1b78ebb56a570cfb0cbef1716513d6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

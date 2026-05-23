@@ -1,0 +1,95 @@
+{
+    "type": "item",
+    "item_id": "5401",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5401\/"
+    },
+    "name": "黒縁メガネ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "黒色のフレームが目立つ\nメガネ。\nInt + 1\n[ダークネスヘルム]と\n共に装備時、追加で\nInt + 1\n魔法攻撃で\n与えるダメージ + 2%",
+    "description_lines": [
+        "黒色のフレームが目立つ",
+        "メガネ。",
+        "Int + 1",
+        "[ダークネスヘルム]と",
+        "共に装備時、追加で",
+        "Int + 1",
+        "魔法攻撃で",
+        "与えるダメージ + 2%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": "-",
+        "slot": 0,
+        "def": 2,
+        "atk": null,
+        "mdef": 2,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": 70,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "中段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "2",
+            "Mdef": "2",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "20",
+            "要求レベル": "70",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "5097ff767e4a4338589802e50c8d60c1e2c6d4611faf5336ded9f787e2d1a051",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

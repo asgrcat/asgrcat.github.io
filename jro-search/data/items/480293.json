@@ -1,0 +1,110 @@
+{
+    "type": "item",
+    "item_id": "480293",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/480293\/"
+    },
+    "name": "ドラゴンスケイルショール[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "竜の鱗を繋げて作られた\nショール。\n火・念属性攻撃で\n受けるダメージ - 50%\n物理・魔法攻撃時、\n[アビスレイク地下洞窟 04]\nに出現するモンスターに\n与えるダメージ + 30%\n[アビスレイク地下洞窟 04]\nに出現するモンスターから\n受けるダメージ - 60%\n下記効果は街マップで\n使用時のみ効果があります\nモンスター\n[シルバーオシドス]、\n[パープルペロス]、\n[ブラックオシドス]、\n[ボーンオシドス]、\n[ボーンペロス]の\nいずれかに変身\n[ドラゴンスケイルショール]\nはNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "竜の鱗を繋げて作られた",
+        "ショール。",
+        "火・念属性攻撃で",
+        "受けるダメージ - 50%",
+        "物理・魔法攻撃時、",
+        "[アビスレイク地下洞窟 04]",
+        "に出現するモンスターに",
+        "与えるダメージ + 30%",
+        "[アビスレイク地下洞窟 04]",
+        "に出現するモンスターから",
+        "受けるダメージ - 60%",
+        "下記効果は街マップで",
+        "使用時のみ効果があります",
+        "モンスター",
+        "[シルバーオシドス]、",
+        "[パープルペロス]、",
+        "[ブラックオシドス]、",
+        "[ボーンオシドス]、",
+        "[ボーンペロス]の",
+        "いずれかに変身",
+        "[ドラゴンスケイルショール]",
+        "はNPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 50,
+        "atk": null,
+        "mdef": 5,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "50",
+            "Mdef": "5",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "40",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "caa28d0e7ee60cf9cbccdb361b31f2868cfe22aa6c8466df4f6b0264a6d5cd2c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

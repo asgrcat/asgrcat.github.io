@@ -1,0 +1,187 @@
+{
+    "type": "item",
+    "item_id": "27044",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27044\/"
+    },
+    "name": "フローズンウルフカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "魔法攻撃で\n与えるダメージ + 3%\n水属性攻撃で\n受けるダメージ - 5%",
+    "description_lines": [
+        "魔法攻撃で",
+        "与えるダメージ + 3%",
+        "水属性攻撃で",
+        "受けるダメージ - 5%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "フローズンウルフ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/FROZENWOLF"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "試練の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_20",
+            "map_code": "2@la_20"
+        },
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_25",
+            "map_code": "2@la_25"
+        },
+        {
+            "name": "封印の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_24",
+            "map_code": "2@lb_24"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_30",
+            "map_code": "2@lb_30"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_31",
+            "map_code": "2@lb_31"
+        },
+        {
+            "name": "異形の迷宮 秘密の通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_23",
+            "map_code": "2@lc_23"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_29",
+            "map_code": "2@lc_29"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld220",
+            "map_code": "2@ld220"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld225",
+            "map_code": "2@ld225"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf220",
+            "map_code": "2@lf220"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf225",
+            "map_code": "2@lf225"
+        },
+        {
+            "name": "周辺エリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@letter",
+            "map_code": "3@letter"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "プロンテラ地下監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_prison",
+            "map_code": "prt_prison"
+        }
+    ],
+    "source_html_sha256": "27efc330feb5f9896b168f517eba308819c696a01da876a964844166de84b435",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,167 @@
+{
+    "type": "item",
+    "item_id": "19223",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19223\/"
+    },
+    "name": "イリュージョンキャップ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "シンプルなデザインだが、\n活動性と実用面では\n優秀な帽子。\nBaseLvが170以上の時、\n追加で\nDef + 150",
+    "description_lines": [
+        "シンプルなデザインだが、",
+        "活動性と実用面では",
+        "優秀な帽子。",
+        "BaseLvが170以上の時、",
+        "追加で",
+        "Def + 150"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": "-",
+        "slot": 1,
+        "def": 7,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": true,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 150,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "上段",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "7",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "40",
+            "要求レベル": "150",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "怒りのゲイズティ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_GAZETI"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "幻影の迷宮 凍える氷穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld103",
+            "map_code": "2@ld103"
+        },
+        {
+            "name": "幻影の迷宮 凍える氷穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le103",
+            "map_code": "2@le103"
+        },
+        {
+            "name": "周辺エリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@letter",
+            "map_code": "3@letter"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "フローズンメモリー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ice_d03_i",
+            "map_code": "ice_d03_i"
+        }
+    ],
+    "source_html_sha256": "9f0866bfb88d7167bb453ba451756fe801555a2d6d8ba5dd43d85b02fa5b9707",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

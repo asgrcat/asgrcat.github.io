@@ -1,0 +1,103 @@
+{
+    "type": "item",
+    "item_id": "2577",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2577\/"
+    },
+    "name": "サバフのフード[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "guillotine_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "古き闇の世界で恐れられた\n有名なアサシンの\nアーティファクト。\nFlee + 12\n精錬値が 1 上がる毎に\nクリティカル攻撃\nで与えるダメージ + 1%\n[サバフのクロース]\n[サバフのフード]\n[サバフのシューズ]\n[サバフのリング]\nを共に装備時、\n隠された力が発動する\n[サバフのクロース]\n[サバフのフード]\n[サバフのシューズ]\nの精錬値が7以上の場合、\n追加効果が発動する",
+    "description_lines": [
+        "古き闇の世界で恐れられた",
+        "有名なアサシンの",
+        "アーティファクト。",
+        "Flee + 12",
+        "精錬値が 1 上がる毎に",
+        "クリティカル攻撃",
+        "で与えるダメージ + 1%",
+        "[サバフのクロース]",
+        "[サバフのフード]",
+        "[サバフのシューズ]",
+        "[サバフのリング]",
+        "を共に装備時、",
+        "隠された力が発動する",
+        "[サバフのクロース]",
+        "[サバフのフード]",
+        "[サバフのシューズ]",
+        "の精錬値が7以上の場合、",
+        "追加効果が発動する"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 13,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "guillotine_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "防御": "13",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "ギロチンクロス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "a2b27ed6e3fcc25e6b9914331a3e70ae278bb120bc0b4b8240641af18d5aeda8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

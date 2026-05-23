@@ -1,0 +1,84 @@
+{
+    "type": "item",
+    "item_id": "5214",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5214\/"
+    },
+    "name": "月夜花帽[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "モンスター月夜花を真似して作った帽子。\n月夜花の毛30%、九尾狐の毛70%を使ったという。手洗いしかできないので注意。\n九尾狐の襟巻きと一緒に身に着ければ、冬のファッションは完璧!?\n物理攻撃時、一定確率で速度増加Lv1が発動する。\nDEX+1。",
+    "description_lines": [
+        "モンスター月夜花を真似して作った帽子。",
+        "月夜花の毛30%、九尾狐の毛70%を使ったという。手洗いしかできないので注意。",
+        "九尾狐の襟巻きと一緒に身に着ければ、冬のファッションは完璧!?",
+        "物理攻撃時、一定確率で速度増加Lv1が発動する。",
+        "DEX+1。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 3,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "3",
+            "位置": "上中段",
+            "重量": "20",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ab8f048fc1f7bac5ffddf49f099fcbad0affe2df37dc75c26092b121b20ae202",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,129 @@
+{
+    "type": "item",
+    "item_id": "27370",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27370\/"
+    },
+    "name": "労働型ピットマンカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "headgear"
+        ],
+        "card_attachable_positions": {
+            "upper": true,
+            "middle": true,
+            "lower": true
+        }
+    },
+    "description": "物理・魔法攻撃時、\n無属性モンスターに\n与えるダメージ + 30%\n無形モンスターの\nDef 30%無視",
+    "description_lines": [
+        "物理・魔法攻撃時、",
+        "無属性モンスターに",
+        "与えるダメージ + 30%",
+        "無形モンスターの",
+        "Def 30%無視"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "headgear"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "兜",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "労働型ピットマン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_PITMAN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld108",
+            "map_code": "2@ld108"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld109",
+            "map_code": "2@ld109"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le108",
+            "map_code": "2@le108"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le109",
+            "map_code": "2@le109"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ネジリアン帝国",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_d02_i",
+            "map_code": "ein_d02_i"
+        }
+    ],
+    "source_html_sha256": "83c27ccef83743f20759b8f8190946acf641670ba5d3ce0cf7267ed02969e4d8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,260 @@
+{
+    "type": "item",
+    "item_id": "908",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/908\/"
+    },
+    "name": "かえるの卵",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ロッダフロッグの卵で、収集品商人に売る事ができる。\n_",
+    "description_lines": [
+        "ロッダフロッグの卵で、収集品商人に売る事ができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "アッシュトード",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP18_ASH_TOAD"
+        },
+        {
+            "name": "タラ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_078"
+        },
+        {
+            "name": "タラフロッグ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/THARA_FROG"
+        },
+        {
+            "name": "デワタドラゴン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/COMODO"
+        },
+        {
+            "name": "猛毒の大口蛙",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_POISON_TOAD"
+        },
+        {
+            "name": "スウィートフロッグ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DR_RODA_FROG"
+        },
+        {
+            "name": "ラーヴァトード",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP18_LAVA_TOAD"
+        },
+        {
+            "name": "汚染ロッダフロッグ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CH1_SILK_FROG"
+        },
+        {
+            "name": "ロッーフロッグ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_114"
+        },
+        {
+            "name": "ロッダフロッグ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RODA_FROG"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "試練の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_08",
+            "map_code": "2@la_08"
+        },
+        {
+            "name": "封印の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_09",
+            "map_code": "2@lb_09"
+        },
+        {
+            "name": "異形の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_04",
+            "map_code": "2@lc_04"
+        },
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld104",
+            "map_code": "2@ld104"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld208",
+            "map_code": "2@ld208"
+        },
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le104",
+            "map_code": "2@le104"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf208",
+            "map_code": "2@lf208"
+        },
+        {
+            "name": "亜空の迷宮 溶岩の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg104",
+            "map_code": "2@lg104"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "コモドダンジョン 03（東洞窟マオ）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/beach_dun3",
+            "map_code": "beach_dun3"
+        },
+        {
+            "name": "標本環境(猛毒)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_venom",
+            "map_code": "bl_venom"
+        },
+        {
+            "name": "滝の中の洞窟 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bra_dun01",
+            "map_code": "bra_dun01"
+        },
+        {
+            "name": "クラカト火山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/dew_dun01",
+            "map_code": "dew_dun01"
+        },
+        {
+            "name": "ゲフェンフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild01",
+            "map_code": "gef_fild01"
+        },
+        {
+            "name": "ゲフェンフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild04",
+            "map_code": "gef_fild04"
+        },
+        {
+            "name": "ゲフェンフィールド 05",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild05",
+            "map_code": "gef_fild05"
+        },
+        {
+            "name": "ゲフェンフィールド 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild07",
+            "map_code": "gef_fild07"
+        },
+        {
+            "name": "ゲフェンフィールド 09",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild09",
+            "map_code": "gef_fild09"
+        },
+        {
+            "name": "破壊されたゲフェンフィールド(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hem_fild",
+            "map_code": "hem_fild"
+        },
+        {
+            "name": "破壊されたゲフェンフィールド",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hem_fildj",
+            "map_code": "hem_fildj"
+        },
+        {
+            "name": "ラビオル森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lasa_fild02",
+            "map_code": "lasa_fild02"
+        },
+        {
+            "name": "ミョルニール山脈 06",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mjolnir_06",
+            "map_code": "mjolnir_06"
+        },
+        {
+            "name": "オズの迷路 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/oz_dun01",
+            "map_code": "oz_dun01"
+        },
+        {
+            "name": "オズの迷路 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/oz_dun02",
+            "map_code": "oz_dun02"
+        },
+        {
+            "name": "プロンテラフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild04",
+            "map_code": "prt_fild04"
+        },
+        {
+            "name": "プロンテラフィールド 05",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild05",
+            "map_code": "prt_fild05"
+        },
+        {
+            "name": "タートルアイランド",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tur_dun01",
+            "map_code": "tur_dun01"
+        }
+    ],
+    "source_html_sha256": "4b5a1617430a64296476195f0886b89e0209f8e57f51570b7575bdce5b944067",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

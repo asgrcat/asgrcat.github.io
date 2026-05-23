@@ -1,0 +1,336 @@
+{
+    "type": "item",
+    "item_id": "12736",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12736\/"
+    },
+    "name": "神秘のルーン原石",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "不思議な色をした\nルーン原石。\n攻城戦・新攻城戦・\n攻城戦TEの砦内では\n使用できない",
+    "description_lines": [
+        "不思議な色をした",
+        "ルーン原石。",
+        "攻城戦・新攻城戦・",
+        "攻城戦TEの砦内では",
+        "使用できない"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "10"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "実験成体メタリン型",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_94"
+        },
+        {
+            "name": "田村",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_063"
+        },
+        {
+            "name": "タムラン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/TAMRUAN"
+        },
+        {
+            "name": "実験幼体メタリン型",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_86"
+        },
+        {
+            "name": "ミステルテイン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MYSTELTAINN"
+        },
+        {
+            "name": "ホーリーエルダー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_47"
+        },
+        {
+            "name": "リトリビューション",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_48"
+        },
+        {
+            "name": "ヘルレイス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_49"
+        },
+        {
+            "name": "パルス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/PARUS"
+        },
+        {
+            "name": "シェルター",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AB_MOB_001"
+        },
+        {
+            "name": "ソラース",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AB_MOB_002"
+        },
+        {
+            "name": "オブザベーション",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AB_MOB_003"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "霧の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@mist",
+            "map_code": "1@mist"
+        },
+        {
+            "name": "ラヴィーネ山脈01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ravi",
+            "map_code": "1@ravi"
+        },
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "試練の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_17",
+            "map_code": "2@la_17"
+        },
+        {
+            "name": "試練の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_31",
+            "map_code": "2@la_31"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_20",
+            "map_code": "2@lb_20"
+        },
+        {
+            "name": "異形の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_17",
+            "map_code": "2@lc_17"
+        },
+        {
+            "name": "異形の迷宮 疫病街",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_21",
+            "map_code": "2@lc_21"
+        },
+        {
+            "name": "異形の迷宮 実験棟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_27",
+            "map_code": "2@lc_27"
+        },
+        {
+            "name": "異形の迷宮 最終実験室",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_31",
+            "map_code": "2@lc_31"
+        },
+        {
+            "name": "幻影の迷宮 湿った洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld107",
+            "map_code": "2@ld107"
+        },
+        {
+            "name": "幻影の迷宮 穢れた廃村",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld110",
+            "map_code": "2@ld110"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld113",
+            "map_code": "2@ld113"
+        },
+        {
+            "name": "幻影の迷宮 実験施設",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld117",
+            "map_code": "2@ld117"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld217",
+            "map_code": "2@ld217"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld231",
+            "map_code": "2@ld231"
+        },
+        {
+            "name": "幻影の迷宮 湿った洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le107",
+            "map_code": "2@le107"
+        },
+        {
+            "name": "幻影の迷宮 穢れた廃村",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le110",
+            "map_code": "2@le110"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le113",
+            "map_code": "2@le113"
+        },
+        {
+            "name": "幻影の迷宮 実験施設",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le117",
+            "map_code": "2@le117"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf217",
+            "map_code": "2@lf217"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf231",
+            "map_code": "2@lf231"
+        },
+        {
+            "name": "ラヴィーネ山脈02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ravi",
+            "map_code": "2@ravi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アユタヤダンジョン 02（古代遺跡内部）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ayo_dun02",
+            "map_code": "ayo_dun02"
+        },
+        {
+            "name": "ビフロスト 北部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bif_fild02",
+            "map_code": "bif_fild02"
+        },
+        {
+            "name": "アルデバラン時計塔地上 4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower4",
+            "map_code": "c_tower4"
+        },
+        {
+            "name": "ゲフェニア 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefenia01",
+            "map_code": "gefenia01"
+        },
+        {
+            "name": "ブリトニア 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas01",
+            "map_code": "gefg_cas01"
+        },
+        {
+            "name": "ブリトニア 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas02",
+            "map_code": "gefg_cas02"
+        },
+        {
+            "name": "ブリトニア 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas03",
+            "map_code": "gefg_cas03"
+        },
+        {
+            "name": "ブリトニア 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas04",
+            "map_code": "gefg_cas04"
+        },
+        {
+            "name": "ブリトニア 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas05",
+            "map_code": "gefg_cas05"
+        },
+        {
+            "name": "グラストヘイム 古城2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas02",
+            "map_code": "gl_cas02"
+        },
+        {
+            "name": "悪夢のグラストヘイム古城2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas02_",
+            "map_code": "gl_cas02_"
+        },
+        {
+            "name": "グラストヘイム 騎士団内02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_knt02",
+            "map_code": "gl_knt02"
+        },
+        {
+            "name": "ヴェルナー研究所 A棟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/slabw01",
+            "map_code": "slabw01"
+        },
+        {
+            "name": "ヴェルナー研究所 C棟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/slabw01_jp",
+            "map_code": "slabw01_jp"
+        },
+        {
+            "name": "ヴェルナー研究所 B棟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/slabw01_jp2",
+            "map_code": "slabw01_jp2"
+        },
+        {
+            "name": "ヴェルナー研究所 D棟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/slabw01_jp3",
+            "map_code": "slabw01_jp3"
+        }
+    ],
+    "source_html_sha256": "f969d4ab71e0a737716818e2d23e285d348fe410ecb7818d76f542f33ce54c55",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,81 @@
+{
+    "type": "item",
+    "item_id": "100589",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/100589\/"
+    },
+    "name": "プロテイン・ケース(150食)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "パワー・ゲインが\n150食分入ったケース。\n今だけ\nマッスルパンプ・ジムの\nオリジナルシェイカー付き。\n付属のスプーン2杯程度を\n適量の水などに溶かして\nお召し上がりください。\n賞味期限が来る前に\n摂取しよう。\n[プロテイン・ケース]は\n受け取ってから168時間後に\n自動的に消滅します\n[パワー・ゲイン]は\n[プロテイン・ケース]を\n開けてから72時間後に\n自動的に消滅します\n[プロテイン・ケース]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "パワー・ゲインが",
+        "150食分入ったケース。",
+        "今だけ",
+        "マッスルパンプ・ジムの",
+        "オリジナルシェイカー付き。",
+        "付属のスプーン2杯程度を",
+        "適量の水などに溶かして",
+        "お召し上がりください。",
+        "賞味期限が来る前に",
+        "摂取しよう。",
+        "[プロテイン・ケース]は",
+        "受け取ってから168時間後に",
+        "自動的に消滅します",
+        "[パワー・ゲイン]は",
+        "[プロテイン・ケース]を",
+        "開けてから72時間後に",
+        "自動的に消滅します",
+        "[プロテイン・ケース]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 450,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "450"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "3eba067c1f24e6bb686e5e707d6b8d47123c6ce6dae401c6f980fc7dbf02054f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

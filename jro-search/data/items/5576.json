@@ -1,0 +1,87 @@
+{
+    "type": "item",
+    "item_id": "5576",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5576\/"
+    },
+    "name": "真っ赤な杯[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "漆器で出来た杯。\n艶のある赤色がとても美しく\n風流だ。\nモンスターを倒した時、\n一定確率でマステラ酒を\nドロップする。",
+    "description_lines": [
+        "漆器で出来た杯。",
+        "艶のある赤色がとても美しく",
+        "風流だ。",
+        "モンスターを倒した時、",
+        "一定確率でマステラ酒を",
+        "ドロップする。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "下段",
+            "重量": "10",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "199782ef5a32a00b99fd2576d09f1d71a127be4fc84885602b417fa5c5f76034",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

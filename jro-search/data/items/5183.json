@@ -1,0 +1,88 @@
+{
+    "type": "item",
+    "item_id": "5183",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5183\/"
+    },
+    "name": "鳥の巣[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "鳥の家族が暮らす鳥の巣。鳥を守らなければならない気がする。\nDEX + 1 , AGI + 1\nスタンに対する耐性+10%",
+    "description_lines": [
+        "鳥の家族が暮らす鳥の巣。鳥を守らなければならない気がする。",
+        "DEX + 1 , AGI + 1",
+        "スタンに対する耐性+10%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 4,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 10,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "4",
+            "位置": "上段",
+            "重量": "50",
+            "要求レベル": "10",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "98e6928a9b21bcae54cb619b607bc5cf8f257bc9b002eb97c06acdaea68169b2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

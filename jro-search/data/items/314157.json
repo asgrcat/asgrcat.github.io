@@ -1,0 +1,67 @@
+{
+    "type": "item",
+    "item_id": "314157",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/314157\/"
+    },
+    "name": "スキルオーブ(蜃気楼&不知火III)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "BaseLvが10上がる度に追加で\n[赤炎砲]、\n[冷血砲]、\n[雷電砲]、\n[金龍砲]、\n[暗転砲]、\n[幻術 -暗黒龍-]で\n与えるダメージ + 1%",
+    "description_lines": [
+        "BaseLvが10上がる度に追加で",
+        "[赤炎砲]、",
+        "[冷血砲]、",
+        "[雷電砲]、",
+        "[金龍砲]、",
+        "[暗転砲]、",
+        "[幻術 -暗黒龍-]で",
+        "与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "fa10bbfe1c7a028d82ba0b3d4f8152452db1cd355ab27f54c1c3692f8731d9ec",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

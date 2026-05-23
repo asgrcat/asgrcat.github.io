@@ -1,0 +1,118 @@
+{
+    "type": "item",
+    "item_id": "5968",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5968\/"
+    },
+    "name": "聖職者の看護帽[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "傷ついた人々を\n看護する者の象徴と\nなっている帽子。\n看護をしてもらうと\n不思議な元気が湧いてくる。\nヒール系スキル使用時、\nHP回復量 + 3%\n詠唱が中断されない\n[聖職者の看護帽]の\n精錬値が5以上の時、追加で\nヒール系スキル使用時、\nHP回復量 + 6%\n[聖職者の看護帽]の\n精錬値が7以上の時、追加で\nヒール系スキル使用時、\nHP回復量 + 9%\n[聖職者の看護帽]の\n精錬値が9以上の時、追加で\nヒール系スキル使用時、\nHP回復量 + 12%\n[クローチェスタッフ]と\n共に装備時、\n[クローチェスタッフ]の\n精錬値が1上がる度に追加で\nヒール系スキル使用時、\nHP回復量 + 4%\n[ロザリオの首飾り]と\n共に装備時、\n[聖職者の看護帽]の\n精錬値が1上がる度に追加で\n完全回避 + 1\nヒール系スキル使用時、\nHP回復量 + 2%",
+    "description_lines": [
+        "傷ついた人々を",
+        "看護する者の象徴と",
+        "なっている帽子。",
+        "看護をしてもらうと",
+        "不思議な元気が湧いてくる。",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 3%",
+        "詠唱が中断されない",
+        "[聖職者の看護帽]の",
+        "精錬値が5以上の時、追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 6%",
+        "[聖職者の看護帽]の",
+        "精錬値が7以上の時、追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 9%",
+        "[聖職者の看護帽]の",
+        "精錬値が9以上の時、追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 12%",
+        "[クローチェスタッフ]と",
+        "共に装備時、",
+        "[クローチェスタッフ]の",
+        "精錬値が1上がる度に追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 4%",
+        "[ロザリオの首飾り]と",
+        "共に装備時、",
+        "[聖職者の看護帽]の",
+        "精錬値が1上がる度に追加で",
+        "完全回避 + 1",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 2%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 10,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 50,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "10",
+            "位置": "上段",
+            "重量": "50",
+            "要求レベル": "50",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "45c22561473bc48e8e1a6e65c7b0b12466303d0450bf5da91374fc70d7c54d83",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

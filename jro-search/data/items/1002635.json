@@ -1,0 +1,74 @@
+{
+    "type": "item",
+    "item_id": "1002635",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1002635\/"
+    },
+    "name": "亜空のストームナイトの氷剣の欠片",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "亜空のストームナイトが\n持っていた氷剣の欠片。",
+    "description_lines": [
+        "亜空のストームナイトが",
+        "持っていた氷剣の欠片。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "亜空のストームナイト（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_169"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "亜空の迷宮 夢の終わり",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@lg300",
+            "map_code": "5@lg300"
+        }
+    ],
+    "source_html_sha256": "bfc63e990e70e433ecf28f27c0f01d9d3ef7dc56eb4a047d9c4c4e492d1179f4",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,98 @@
+{
+    "type": "item",
+    "item_id": "410148",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/410148\/"
+    },
+    "name": "[衣装] エリュミナ・ミニミー[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "幻想叢書編集部の衣装用の\n自動人形シリーズ。\n『エレナ・ヴォルコヴァ\nその偉大な炎』\n[エリュミナ]\n「機械には敵わないけど\n面白そうなの作るじゃん」\n[[衣装] エリュミナ\n・ミニミー]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "幻想叢書編集部の衣装用の",
+        "自動人形シリーズ。",
+        "『エレナ・ヴォルコヴァ",
+        "その偉大な炎』",
+        "[エリュミナ]",
+        "「機械には敵わないけど",
+        "面白そうなの作るじゃん」",
+        "[[衣装] エリュミナ",
+        "・ミニミー]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "位置": "中段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "af6dc804385fe955b354fd0eab4058294b7c640aaa40a525a2d58332a1ef954f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

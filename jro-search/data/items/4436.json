@@ -1,0 +1,151 @@
+{
+    "type": "item",
+    "item_id": "4436",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4436\/"
+    },
+    "name": "ラギッドゾンビカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "人間形モンスターに\nCRI + 5、1% の追加物理\/\n魔法ダメージ。\n低確率で自分自身に出血を\nかける。\nゾンビスローターカードと\n共に装備時、近接物理攻撃で\n人間形モンスターを倒した\n時、SP 2 回復。",
+    "description_lines": [
+        "人間形モンスターに",
+        "CRI + 5、1% の追加物理\/",
+        "魔法ダメージ。",
+        "低確率で自分自身に出血を",
+        "かける。",
+        "ゾンビスローターカードと",
+        "共に装備時、近接物理攻撃で",
+        "人間形モンスターを倒した",
+        "時、SP 2 回復。"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ラギッドゾンビ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RAGGED_ZOMBIE"
+        },
+        {
+            "name": "強化ラギッドゾンビ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WA_MONSTER_5"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "試練の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_24",
+            "map_code": "2@la_24"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_30",
+            "map_code": "2@lb_30"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_28",
+            "map_code": "2@lc_28"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld224",
+            "map_code": "2@ld224"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf224",
+            "map_code": "2@lf224"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "修道院 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey01",
+            "map_code": "abbey01"
+        },
+        {
+            "name": "修道院 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey02",
+            "map_code": "abbey02"
+        },
+        {
+            "name": "修道院 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey03",
+            "map_code": "abbey03"
+        }
+    ],
+    "source_html_sha256": "d54d32c19bfece0a21caf7a2abb222a6201f6deeda068f375b87b4e74588ce9b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,107 @@
+{
+    "type": "item",
+    "item_id": "2542",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2542\/"
+    },
+    "name": "焔のマント[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "悪魔ナハトズィーガーの\n焔のマント。\nMHP 5% 増加、MDEF + 2、\nMATK 1% 増加。\n火属性モンスターに 2% の\n追加物理ダメージ。",
+    "description_lines": [
+        "悪魔ナハトズィーガーの",
+        "焔のマント。",
+        "MHP 5% 増加、MDEF + 2、",
+        "MATK 1% 増加。",
+        "火属性モンスターに 2% の",
+        "追加物理ダメージ。"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 16,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 70,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "防御": "16",
+            "重量": "50",
+            "要求レベル": "70",
+            "装備": "転生1次職 上位2次職 3次職 4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ナハトズィーガー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/NAGHT_SIEGER"
+        },
+        {
+            "name": "瀕死のナハトズィーガー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_NAGHT_SIEGER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 2層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct3",
+            "map_code": "1@ct3"
+        },
+        {
+            "name": "エンドレスタワー 覇王の間",
+            "url": "https:\/\/rotool.gungho.jp\/map\/6@tower",
+            "map_code": "6@tower"
+        }
+    ],
+    "source_html_sha256": "52463dfb5032f3c91c918fdaa0f3c8e980dc28dab3f82d882c0b99b13a73e63d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

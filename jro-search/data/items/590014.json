@@ -1,0 +1,130 @@
+{
+    "type": "item",
+    "item_id": "590014",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/590014\/"
+    },
+    "name": "亡国の王笏[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "acolyte": true
+            },
+            "include_jobs": {
+                "acolyte": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "かつて栄華を極めるも\n一夜にして滅んだ王国で\n代々継承されていた杖。\n優美な装飾品は全て\n魔術的な意味を有し、\nその内部に宿る相反する\n「何か」を秘し隠す。\nInt + 3 , Dex + 5\n[グランドクロス]Lv1\n使用可能\n[亡国の王笏]の\n精錬値が1上がる度に追加で\n聖属性魔法攻撃で\n与えるダメージ + 10%\n[亡国の王笏]の\n精錬値が5以上の時、追加で\nMaxHP + 10% , MaxSP + 10%\n遠距離物理攻撃で\n受けるダメージ - 5%\n[亡国の王笏]の\n精錬値が7以上の時、追加で\n精錬値と同じLvの\n[グランドクロス]使用可能\n[亡国の王笏]の\n精錬値が9以上の時、追加で\nMaxHP + 10% , MaxSP + 10%\n遠距離物理攻撃で\n受けるダメージ - 5%\n[亡国の王笏]の\n精錬値が10の時、追加で\n[アドレナリンラッシュ]Lv5\n使用可能",
+    "description_lines": [
+        "かつて栄華を極めるも",
+        "一夜にして滅んだ王国で",
+        "代々継承されていた杖。",
+        "優美な装飾品は全て",
+        "魔術的な意味を有し、",
+        "その内部に宿る相反する",
+        "「何か」を秘し隠す。",
+        "Int + 3 , Dex + 5",
+        "[グランドクロス]Lv1",
+        "使用可能",
+        "[亡国の王笏]の",
+        "精錬値が1上がる度に追加で",
+        "聖属性魔法攻撃で",
+        "与えるダメージ + 10%",
+        "[亡国の王笏]の",
+        "精錬値が5以上の時、追加で",
+        "MaxHP + 10% , MaxSP + 10%",
+        "遠距離物理攻撃で",
+        "受けるダメージ - 5%",
+        "[亡国の王笏]の",
+        "精錬値が7以上の時、追加で",
+        "精錬値と同じLvの",
+        "[グランドクロス]使用可能",
+        "[亡国の王笏]の",
+        "精錬値が9以上の時、追加で",
+        "MaxHP + 10% , MaxSP + 10%",
+        "遠距離物理攻撃で",
+        "受けるダメージ - 5%",
+        "[亡国の王笏]の",
+        "精錬値が10の時、追加で",
+        "[アドレナリンラッシュ]Lv5",
+        "使用可能"
+    ],
+    "properties": {
+        "series": "mace",
+        "series_normalized": [
+            "mace"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 200,
+        "mdef": null,
+        "matk": 360,
+        "refinement": true,
+        "breakable": false,
+        "weight": 290,
+        "weapon_level": 4,
+        "required_level": 130,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "acolyte": true
+            },
+            "include_jobs": {
+                "acolyte": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鈍器",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "200",
+            "Matk": "360",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "290",
+            "要求レベル": "130",
+            "装備": "3次職アコライト系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "1b9ee595dcc7e1e89b00618a62de47ceda7e2905e280ff00af86ad09607de729",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

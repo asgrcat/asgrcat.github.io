@@ -1,0 +1,79 @@
+{
+    "type": "item",
+    "item_id": "17762",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/17762\/"
+    },
+    "name": "コスたまMofuMofu",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する\n・[衣装] かたぐるま\n・[衣装] テディベアフード\n・[衣装] ブラウンストール\n・[衣装] しあわせたれ\nルナティック耳\n(黒)\n・[衣装] ムートンライフ\n(青)\n・[衣装] やわらか羊の帽子\n・[衣装] ルーンヘルム\n・[衣装] タイガーマスク\n・[衣装] シェービング\nフォーム\n・[衣装] 羊帽子",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する",
+        "・[衣装] かたぐるま",
+        "・[衣装] テディベアフード",
+        "・[衣装] ブラウンストール",
+        "・[衣装] しあわせたれ",
+        "ルナティック耳",
+        "(黒)",
+        "・[衣装] ムートンライフ",
+        "(青)",
+        "・[衣装] やわらか羊の帽子",
+        "・[衣装] ルーンヘルム",
+        "・[衣装] タイガーマスク",
+        "・[衣装] シェービング",
+        "フォーム",
+        "・[衣装] 羊帽子"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "fef60d5978076428947ccdd5da485abdafc26b02ba426138b9eb397d75ec31c9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

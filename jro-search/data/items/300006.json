@@ -1,0 +1,122 @@
+{
+    "type": "item",
+    "item_id": "300006",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300006\/"
+    },
+    "name": "ジュエリーアントカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "armor"
+        ],
+        "card_attachable_positions": {
+            "armor": true
+        }
+    },
+    "description": "近接物理攻撃で\n与えるダメージ + 5%\n精錬値が8以上の時、追加で\n近接物理攻撃で\n与えるダメージ + 10%",
+    "description_lines": [
+        "近接物理攻撃で",
+        "与えるダメージ + 5%",
+        "精錬値が8以上の時、追加で",
+        "近接物理攻撃で",
+        "与えるダメージ + 10%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "armor"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "鎧",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ジュエリーアント",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JEWELIANT"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld108",
+            "map_code": "2@ld108"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le108",
+            "map_code": "2@le108"
+        },
+        {
+            "name": "亜空の迷宮 地下洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg106",
+            "map_code": "2@lg106"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "鉱山ダンジョン 03(1)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun03",
+            "map_code": "ein_dun03"
+        },
+        {
+            "name": "鉱山ダンジョン 03(2)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun03_j",
+            "map_code": "ein_dun03_j"
+        }
+    ],
+    "source_html_sha256": "eaecd9f536d9ae4c42c5ae3e17a8319f89be79d89ede7d6c2805e272e09873aa",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

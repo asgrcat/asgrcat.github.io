@@ -1,0 +1,108 @@
+{
+    "type": "item",
+    "item_id": "5919",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5919\/"
+    },
+    "name": "山茶花の髪飾り[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "色鮮やかな山茶花の髪飾り。\nその美しさと甘く漂う香りに\nついつい見惚れてしまう。\n小ぶりの美しい花だが、\n困難に打ち勝つという\n力強い花言葉をもつ。\nMdef + 20\n物理攻撃時、\n一定確率でオートスペル\n[ニューマ]Lv1発動\n[山茶花の花飾り]の\n精錬値が1上がる度に\nオートスペル\n[ニューマ]Lv1の\n発動率が上昇\nエフェクト装備のため、\nエフェクト(\/effect)を\nOFFにしていると\n装備グラフィックのみ\n表示される\nこの装備は、衣装装備で\nエフェクト部分を\n隠すことができない",
+    "description_lines": [
+        "色鮮やかな山茶花の髪飾り。",
+        "その美しさと甘く漂う香りに",
+        "ついつい見惚れてしまう。",
+        "小ぶりの美しい花だが、",
+        "困難に打ち勝つという",
+        "力強い花言葉をもつ。",
+        "Mdef + 20",
+        "物理攻撃時、",
+        "一定確率でオートスペル",
+        "[ニューマ]Lv1発動",
+        "[山茶花の花飾り]の",
+        "精錬値が1上がる度に",
+        "オートスペル",
+        "[ニューマ]Lv1の",
+        "発動率が上昇",
+        "エフェクト装備のため、",
+        "エフェクト(\/effect)を",
+        "OFFにしていると",
+        "装備グラフィックのみ",
+        "表示される",
+        "この装備は、衣装装備で",
+        "エフェクト部分を",
+        "隠すことができない"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 50,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "上段",
+            "重量": "100",
+            "要求レベル": "50",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ddee21478a175a311c56564fb0c4563f50095728f163aed5122644e942d89d04",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

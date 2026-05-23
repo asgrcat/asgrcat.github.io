@@ -1,0 +1,100 @@
+{
+    "type": "item",
+    "item_id": "19302",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19302\/"
+    },
+    "name": "キャンサーダイアデム[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "黄道を巡る星座が\n具現化したような\nキャンサーの名を冠する兜。\n星の輝きをその身に\n宿した時、真の力を\n発揮するという。\n物理攻撃で\n与えるダメージ + 6%\n完全回避 + 5\n[キャンサー]と\n共に装備時、追加で\nMaxHP + 10% , MaxSP + 10%\n物理攻撃で\nモンスターを倒した時、\nHP + 50 , SP + 3",
+    "description_lines": [
+        "黄道を巡る星座が",
+        "具現化したような",
+        "キャンサーの名を冠する兜。",
+        "星の輝きをその身に",
+        "宿した時、真の力を",
+        "発揮するという。",
+        "物理攻撃で",
+        "与えるダメージ + 6%",
+        "完全回避 + 5",
+        "[キャンサー]と",
+        "共に装備時、追加で",
+        "MaxHP + 10% , MaxSP + 10%",
+        "物理攻撃で",
+        "モンスターを倒した時、",
+        "HP + 50 , SP + 3"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 7,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 80,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "7",
+            "位置": "上段",
+            "重量": "40",
+            "要求レベル": "80",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "a83d79898130529c40713d9138383bbb73332a3fbb46ac1048e46b2d964f993d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

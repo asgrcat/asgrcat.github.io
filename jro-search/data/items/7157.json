@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "7157",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7157\/"
+    },
+    "name": "黒い覆面",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "顔を覆うための黒い布で作った覆面。 これをかぶれば正体がわからなくなるだろう。\n_",
+    "description_lines": [
+        "顔を覆うための黒い布で作った覆面。 これをかぶれば正体がわからなくなるだろう。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "神殿警備兵（真昼の弦月）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/POPE_MD_E_GUARD"
+        },
+        {
+            "name": "妄信の神殿警備兵（真昼の弦月）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/POPE_MD_H_GUARD"
+        },
+        {
+            "name": "カブキ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_212"
+        },
+        {
+            "name": "カブキ忍者",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SHINOBI"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "真昼の弦月 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@pop1",
+            "map_code": "1@pop1"
+        },
+        {
+            "name": "真昼の弦月 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@pop2",
+            "map_code": "1@pop2"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アマツダンジョン 01（畳の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ama_dun01",
+            "map_code": "ama_dun01"
+        },
+        {
+            "name": "アマツダンジョン 02（地下戦場跡）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ama_dun02",
+            "map_code": "ama_dun02"
+        },
+        {
+            "name": "アマツダンジョン 03（アマツ地下神社）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ama_dun03",
+            "map_code": "ama_dun03"
+        }
+    ],
+    "source_html_sha256": "e001f0740dc9ac5e3b077c23f8797cf75df8dcc8a9dfbd95747f0ebe396e2bce",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

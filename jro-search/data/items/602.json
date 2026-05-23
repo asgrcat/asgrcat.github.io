@@ -1,0 +1,249 @@
+{
+    "type": "item",
+    "item_id": "602",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/602\/"
+    },
+    "name": "蝶の羽",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "蝶の翼を切り呪術をかけた物。セーブした所にワープする\n_",
+    "description_lines": [
+        "蝶の翼を切り呪術をかけた物。セーブした所にワープする",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 5,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "5"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "レイス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WRAITH"
+        },
+        {
+            "name": "パピヨン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BLOOD_BUTTERFLY"
+        },
+        {
+            "name": "クリーミー（変異種）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/META_CREAMY"
+        },
+        {
+            "name": "クリーミーフィアー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CREMY_FEAR"
+        },
+        {
+            "name": "ドラゴンテイル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DRAGON_TAIL"
+        },
+        {
+            "name": "クリーミー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CREAMY"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_02",
+            "map_code": "2@la_02"
+        },
+        {
+            "name": "試練の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_06",
+            "map_code": "2@la_06"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_02",
+            "map_code": "2@lb_02"
+        },
+        {
+            "name": "封印の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_06",
+            "map_code": "2@lb_06"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_02",
+            "map_code": "2@lc_02"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld202",
+            "map_code": "2@ld202"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld206",
+            "map_code": "2@ld206"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf202",
+            "map_code": "2@lf202"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf206",
+            "map_code": "2@lf206"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "特別室（湖）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_spec_01",
+            "map_code": "ac_spec_01"
+        },
+        {
+            "name": "ゲフェン地下ダンジョン B4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_dun03",
+            "map_code": "gef_dun03"
+        },
+        {
+            "name": "ゲフェンフィールド 13（ブリトニア）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild13",
+            "map_code": "gef_fild13"
+        },
+        {
+            "name": "グラストヘイム 修道院",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_church",
+            "map_code": "gl_church"
+        },
+        {
+            "name": "グラストヘイム カタコンベ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_chyard",
+            "map_code": "gl_chyard"
+        },
+        {
+            "name": "悪夢のグラストヘイムカタコンベ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_chyard_",
+            "map_code": "gl_chyard_"
+        },
+        {
+            "name": "ギルドダンジョン プロンテラ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gld_dun03",
+            "map_code": "gld_dun03"
+        },
+        {
+            "name": "コンロンダンジョン 01（西王母神殿）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gon_dun01",
+            "map_code": "gon_dun01"
+        },
+        {
+            "name": "コンロンダンジョン 02（神仙の碁盤）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gon_dun02",
+            "map_code": "gon_dun02"
+        },
+        {
+            "name": "フェイヨン迷いの森 10",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild10",
+            "map_code": "pay_fild10"
+        },
+        {
+            "name": "プロンテラフィールド 00",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild00",
+            "map_code": "prt_fild00"
+        },
+        {
+            "name": "プロンテラフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild03",
+            "map_code": "prt_fild03"
+        },
+        {
+            "name": "プロンテラフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild04",
+            "map_code": "prt_fild04"
+        },
+        {
+            "name": "プロンテラフィールド 05",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild05",
+            "map_code": "prt_fild05"
+        },
+        {
+            "name": "プロンテラフィールド 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild07",
+            "map_code": "prt_fild07"
+        },
+        {
+            "name": "プロンテラフィールド 11",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild11",
+            "map_code": "prt_fild11"
+        },
+        {
+            "name": "迷宮の森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze01",
+            "map_code": "prt_maze01"
+        },
+        {
+            "name": "迷宮の森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze03",
+            "map_code": "prt_maze03"
+        },
+        {
+            "name": "タートルアイランド",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tur_dun01",
+            "map_code": "tur_dun01"
+        }
+    ],
+    "source_html_sha256": "d7be5a06aee023553a5dc02992ed9acb1147a0a93928fbd3c6eee8c5f7967a15",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

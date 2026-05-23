@@ -1,0 +1,176 @@
+{
+    "type": "item",
+    "item_id": "13337",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13337\/"
+    },
+    "name": "イリュージョン風魔手裏剣・乱雪[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "水の属性を持った\n風魔手裏剣。\n振り回すと猛吹雪が舞う。\n近接物理攻撃命中時、\n一定確率で氷閃石を\n1個消費して\n自分を中心にオートスペル\n[氷柱落し]Lv1発動\n習得Lvが2以上の場合、\n習得Lvで発動\nBaseLvが170以上の時、\n追加で\nオートスペル[氷柱落し]の\n発動率が上昇",
+    "description_lines": [
+        "水の属性を持った",
+        "風魔手裏剣。",
+        "振り回すと猛吹雪が舞う。",
+        "近接物理攻撃命中時、",
+        "一定確率で氷閃石を",
+        "1個消費して",
+        "自分を中心にオートスペル",
+        "[氷柱落し]Lv1発動",
+        "習得Lvが2以上の場合、",
+        "習得Lvで発動",
+        "BaseLvが170以上の時、",
+        "追加で",
+        "オートスペル[氷柱落し]の",
+        "発動率が上昇"
+    ],
+    "properties": {
+        "series": "huuma_shuriken",
+        "series_normalized": [
+            "huuma_shuriken"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "水",
+        "slot": 1,
+        "def": null,
+        "atk": 200,
+        "mdef": null,
+        "matk": 150,
+        "refinement": true,
+        "breakable": false,
+        "weight": 150,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "風魔手裏剣",
+            "武器レベル": "4",
+            "属性": "水",
+            "スロット": "1",
+            "Atk": "200",
+            "Matk": "150",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "150",
+            "要求レベル": "150",
+            "装備": "影狼系 朧系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "怒りのアイスタイタン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_ICE_TITAN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "幻影の迷宮 凍える氷穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld103",
+            "map_code": "2@ld103"
+        },
+        {
+            "name": "幻影の迷宮 凍える氷穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le103",
+            "map_code": "2@le103"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "フローズンメモリー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ice_d03_i",
+            "map_code": "ice_d03_i"
+        }
+    ],
+    "source_html_sha256": "0089207816f787a140a2d31f7124047995a09b79a3b850f49ee5326b5dbc4d14",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

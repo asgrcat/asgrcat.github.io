@@ -1,0 +1,88 @@
+{
+    "type": "item",
+    "item_id": "27205",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27205\/"
+    },
+    "name": "サジタリウス",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "headgear"
+        ],
+        "card_attachable_positions": {
+            "upper": true,
+            "middle": true,
+            "lower": true
+        }
+    },
+    "description": "黄道を巡る射手の\n小さな瞬きが集まった\n多結晶体。\n物理攻撃で\nモンスターを倒した時、\nSP + 5\nレンジャー系が装備時、\n精錬値が1上がる度に追加で\nHit + 5\n[サジタリウスダイアデム]と\n共に装備時、追加で\n物理攻撃で\nモンスターを倒した時、\nSP + 5\nスキルディレイ - 20%",
+    "description_lines": [
+        "黄道を巡る射手の",
+        "小さな瞬きが集まった",
+        "多結晶体。",
+        "物理攻撃で",
+        "モンスターを倒した時、",
+        "SP + 5",
+        "レンジャー系が装備時、",
+        "精錬値が1上がる度に追加で",
+        "Hit + 5",
+        "[サジタリウスダイアデム]と",
+        "共に装備時、追加で",
+        "物理攻撃で",
+        "モンスターを倒した時、",
+        "SP + 5",
+        "スキルディレイ - 20%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "headgear"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "兜",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "132dccb4e9be7a8181c7219827a10e9f45ac37965b1cfc9d2330debff5051bfb",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

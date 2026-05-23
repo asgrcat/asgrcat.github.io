@@ -1,0 +1,126 @@
+{
+    "type": "item",
+    "item_id": "1251",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1251\/"
+    },
+    "name": "ジュル[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "assassin": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "手や腕に装備する短剣",
+    "description_lines": [
+        "手や腕に装備する短剣"
+    ],
+    "properties": {
+        "series": "katar",
+        "series_normalized": [
+            "katar"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 3,
+        "def": null,
+        "atk": 125,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 80,
+        "weapon_level": 2,
+        "required_level": 18,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "assassin": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カタール",
+            "攻撃": "125",
+            "重量": "80",
+            "武器レベル": "2",
+            "要求レベル": "18",
+            "装備": "アサシン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "マーティン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MARTIN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "実習室（炭鉱）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_prac_04",
+            "map_code": "ac_prac_04"
+        },
+        {
+            "name": "リヒタルゼンフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_fild03",
+            "map_code": "lhz_fild03"
+        },
+        {
+            "name": "ミョルニール廃鉱 B1F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mjo_dun01",
+            "map_code": "mjo_dun01"
+        },
+        {
+            "name": "ミョルニール廃鉱 B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mjo_dun02",
+            "map_code": "mjo_dun02"
+        },
+        {
+            "name": "迷宮の森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze01",
+            "map_code": "prt_maze01"
+        }
+    ],
+    "source_html_sha256": "09a9bded9191b2e8defae823aeb829918c83c34b98cc768a8a4b97227d113785",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

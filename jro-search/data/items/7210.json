@@ -1,0 +1,104 @@
+{
+    "type": "item",
+    "item_id": "7210",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7210\/"
+    },
+    "name": "デュラハンの鎧の欠片",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "デュラハンの鎧の欠片。非常に硬い。\n_",
+    "description_lines": [
+        "デュラハンの鎧の欠片。非常に硬い。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "デュラハン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DULLAHAN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_16",
+            "map_code": "2@la_16"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_19",
+            "map_code": "2@lb_19"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld216",
+            "map_code": "2@ld216"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf216",
+            "map_code": "2@lf216"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ニブルヘイムフィールド 01（秘境の村）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nif_fild01",
+            "map_code": "nif_fild01"
+        },
+        {
+            "name": "死者の街ニブルヘイム",
+            "url": "https:\/\/rotool.gungho.jp\/map\/niflheim",
+            "map_code": "niflheim"
+        }
+    ],
+    "source_html_sha256": "95ea104b3f318b1c5da9dcc4f53c29e49d02679d4a89efad6e216ce27affa027",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

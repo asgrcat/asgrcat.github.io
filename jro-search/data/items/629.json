@@ -1,0 +1,222 @@
+{
+    "type": "item",
+    "item_id": "629",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/629\/"
+    },
+    "name": "歌う花",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "歌う草の花。 モンスターロッカーの好物。",
+    "description_lines": [
+        "歌う草の花。 モンスターロッカーの好物。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": "taming_item",
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 5,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "種類": "テイミングアイテム",
+            "重量": "5"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "マブカ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MAVKA"
+        },
+        {
+            "name": "フローラ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/FLORA"
+        },
+        {
+            "name": "ハートハンター・サナレ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_1_SANARE1"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_01",
+            "map_code": "2@la_01"
+        },
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_02",
+            "map_code": "2@la_02"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_01",
+            "map_code": "2@lb_01"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_02",
+            "map_code": "2@lb_02"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_01",
+            "map_code": "2@lc_01"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_02",
+            "map_code": "2@lc_02"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld113",
+            "map_code": "2@ld113"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld201",
+            "map_code": "2@ld201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld202",
+            "map_code": "2@ld202"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le101",
+            "map_code": "2@le101"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le113",
+            "map_code": "2@le113"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf201",
+            "map_code": "2@lf201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf202",
+            "map_code": "2@lf202"
+        },
+        {
+            "name": "亜空の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg101",
+            "map_code": "2@lg101"
+        },
+        {
+            "name": "亜空の迷宮 淫靡な大聖堂",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg113",
+            "map_code": "2@lg113"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "特別室（湖）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_spec_01",
+            "map_code": "ac_spec_01"
+        },
+        {
+            "name": "アインブロックフィールド 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_fild07",
+            "map_code": "ein_fild07"
+        },
+        {
+            "name": "アインブロックフィールド 09",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_fild09",
+            "map_code": "ein_fild09"
+        },
+        {
+            "name": "ミョルニール山脈 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mjolnir_03",
+            "map_code": "mjolnir_03"
+        },
+        {
+            "name": "ミョルニール山脈 05",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mjolnir_05",
+            "map_code": "mjolnir_05"
+        },
+        {
+            "name": "ミョルニール山脈 10",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mjolnir_10",
+            "map_code": "mjolnir_10"
+        },
+        {
+            "name": "ミョルニール山脈 11",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mjolnir_11",
+            "map_code": "mjolnir_11"
+        },
+        {
+            "name": "奥深い森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mosk_dun03",
+            "map_code": "mosk_dun03"
+        },
+        {
+            "name": "検証用マップ2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/sec_in02",
+            "map_code": "sec_in02"
+        },
+        {
+            "name": "特殊警戒地域オース",
+            "url": "https:\/\/rotool.gungho.jp\/map\/sp_os",
+            "map_code": "sp_os"
+        },
+        {
+            "name": "ウンバラフィールド 02（フムガ森）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/um_fild02",
+            "map_code": "um_fild02"
+        }
+    ],
+    "source_html_sha256": "dff5592b7bbca6cb43aff2c4b4442877ea3d6d61d137e916e385e3ea8d4e2115",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

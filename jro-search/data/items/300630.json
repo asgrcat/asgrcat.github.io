@@ -1,0 +1,78 @@
+{
+    "type": "item",
+    "item_id": "300630",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300630\/"
+    },
+    "name": "暴食のネクロマンサーカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "headgear"
+        ],
+        "card_attachable_positions": {
+            "upper": true,
+            "middle": true,
+            "lower": true
+        }
+    },
+    "description": "全ての種族のMdef 10%無視\n精錬値が7以上の時、追加で\n全ての種族のMdef 15%無視\n精錬値が9以上の時、追加で\n全ての種族のMdef 25%無視",
+    "description_lines": [
+        "全ての種族のMdef 10%無視",
+        "精錬値が7以上の時、追加で",
+        "全ての種族のMdef 15%無視",
+        "精錬値が9以上の時、追加で",
+        "全ての種族のMdef 25%無視"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "headgear"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "兜",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "bf94eb1e9d9f958fbfc367494f16236a91e289e2b9ae5afcfce2f8695f9b42ed",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

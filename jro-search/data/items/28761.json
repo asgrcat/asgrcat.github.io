@@ -1,0 +1,153 @@
+{
+    "type": "item",
+    "item_id": "28761",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28761\/"
+    },
+    "name": "緋色のアセイミー[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_reaper": true,
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ジラントが所持する\n七つの魔法具の一つ。\n魔術の生贄に使われた\n犠牲者の血と暗き怨念が\n刃を緋色に染めた。\n大いなる力の代償として\n使用者の手は常に\n血に濡れることになる。\n[メテオストーム]Lv1\n使用可能\n[アブラカタブラ]\n習得時、追加で\n魔法攻撃命中時、\n敵を10秒間、\n[跳躍阻害]状態にする\n[緋色のアセイミー]の\n精錬値が1上がる度に追加で\n火属性魔法攻撃で\n与えるダメージ + 3%\n[緋色のアセイミー]の\n精錬値が5以上の時、追加で\nMaxHP + 10% , MaxSP + 10%\n遠距離物理攻撃で\n受けるダメージ - 5%\n[緋色のアセイミー]の\n精錬値が7以上の時、追加で\n精錬値と同じLvの\n[メテオストーム]使用可能\n[緋色のアセイミー]の\n精錬値が9以上の時、追加で\nMaxHP + 10% , MaxSP + 10%\n遠距離物理攻撃で\n受けるダメージ - 5%",
+    "description_lines": [
+        "ジラントが所持する",
+        "七つの魔法具の一つ。",
+        "魔術の生贄に使われた",
+        "犠牲者の血と暗き怨念が",
+        "刃を緋色に染めた。",
+        "大いなる力の代償として",
+        "使用者の手は常に",
+        "血に濡れることになる。",
+        "[メテオストーム]Lv1",
+        "使用可能",
+        "[アブラカタブラ]",
+        "習得時、追加で",
+        "魔法攻撃命中時、",
+        "敵を10秒間、",
+        "[跳躍阻害]状態にする",
+        "[緋色のアセイミー]の",
+        "精錬値が1上がる度に追加で",
+        "火属性魔法攻撃で",
+        "与えるダメージ + 3%",
+        "[緋色のアセイミー]の",
+        "精錬値が5以上の時、追加で",
+        "MaxHP + 10% , MaxSP + 10%",
+        "遠距離物理攻撃で",
+        "受けるダメージ - 5%",
+        "[緋色のアセイミー]の",
+        "精錬値が7以上の時、追加で",
+        "精錬値と同じLvの",
+        "[メテオストーム]使用可能",
+        "[緋色のアセイミー]の",
+        "精錬値が9以上の時、追加で",
+        "MaxHP + 10% , MaxSP + 10%",
+        "遠距離物理攻撃で",
+        "受けるダメージ - 5%"
+    ],
+    "properties": {
+        "series": "dagger",
+        "series_normalized": [
+            "dagger"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "不死",
+        "slot": 1,
+        "def": null,
+        "atk": 30,
+        "mdef": null,
+        "matk": 180,
+        "refinement": true,
+        "breakable": true,
+        "weight": 30,
+        "weapon_level": 4,
+        "required_level": 130,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_reaper": true,
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "短剣",
+            "武器レベル": "4",
+            "属性": "不死",
+            "スロット": "1",
+            "Atk": "30",
+            "Matk": "180",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "30",
+            "要求レベル": "130",
+            "装備": "3次職ソードマン系 3次職マジシャン系 3次職アーチャー系 3次職シーフ系 3次職マーチャント系 ソウルリーパー系 影狼系 朧系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "06a94b8b7ff5fcb1825cf7132a56b55462f66a08c65280063db50253e03524dd",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

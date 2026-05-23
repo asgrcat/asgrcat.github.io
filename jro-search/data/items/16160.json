@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "16160",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/16160\/"
+    },
+    "name": "ピッキ交換チケットの箱",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "キューペット\nピッキの卵を\n貰う為に必要なチケットが\n入った箱。",
+    "description_lines": [
+        "キューペット",
+        "ピッキの卵を",
+        "貰う為に必要なチケットが",
+        "入った箱。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "b383556898fd878b934a3f2cc6dc37bdf36ca3c7484555b0df1b27f5a82b4011",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

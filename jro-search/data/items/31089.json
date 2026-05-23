@@ -1,0 +1,102 @@
+{
+    "type": "item",
+    "item_id": "31089",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31089\/"
+    },
+    "name": "[衣装] 紅焔の爆裂波動[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "強大なモンスターたちが\n真の力を発揮したとき\n身に纏うといわれている\n気によく似た衣装用の波動。\nこのアイテムは\n特殊エフェクト装備です\n・エフェクト(\/effect)の\n切りかえを行った際即座に\n表示は切りかわらないため、\nコマンド入力後\nアイテムの装備し直しなどを\n行う必要がある\n・「ハイディング」等の姿を\n消すスキルを使用した際に、\n他のプレイヤーからは\nエフェクトが見えなくなる\n・養子キャラクターで\n装備をした際でも、\n通常のキャラクターと同じ\nエフェクトが表示される",
+    "description_lines": [
+        "強大なモンスターたちが",
+        "真の力を発揮したとき",
+        "身に纏うといわれている",
+        "気によく似た衣装用の波動。",
+        "このアイテムは",
+        "特殊エフェクト装備です",
+        "・エフェクト(\/effect)の",
+        "切りかえを行った際即座に",
+        "表示は切りかわらないため、",
+        "コマンド入力後",
+        "アイテムの装備し直しなどを",
+        "行う必要がある",
+        "・「ハイディング」等の姿を",
+        "消すスキルを使用した際に、",
+        "他のプレイヤーからは",
+        "エフェクトが見えなくなる",
+        "・養子キャラクターで",
+        "装備をした際でも、",
+        "通常のキャラクターと同じ",
+        "エフェクトが表示される"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "中段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ce5e4ccbeb9b9dd0c4d3473d8ca8da7feb79a8e09b539ffebb5390e12c9469b2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

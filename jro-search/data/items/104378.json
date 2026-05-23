@@ -1,0 +1,75 @@
+{
+    "type": "item",
+    "item_id": "104378",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/104378\/"
+    },
+    "name": "エルダーウィロﾌﾌﾌﾌﾌﾌﾌの名刺",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "モンスター「エルダーウィロ\nﾌﾌﾌﾌﾌﾌﾌ」から\n頂戴した名刺。\n素敵なイラスト入りで\n自己アピールにも\n余念が無い。\n使用すると、\n[ファイアーボルト]Lv3の\n効果発動",
+    "description_lines": [
+        "モンスター「エルダーウィロ",
+        "ﾌﾌﾌﾌﾌﾌﾌ」から",
+        "頂戴した名刺。",
+        "素敵なイラスト入りで",
+        "自己アピールにも",
+        "余念が無い。",
+        "使用すると、",
+        "[ファイアーボルト]Lv3の",
+        "効果発動"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "エルダーウィロﾌﾌﾌﾌﾌﾌﾌ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_190"
+        }
+    ],
+    "available_maps": [],
+    "source_html_sha256": "3ef27ef409a34ef09e97f0be06cf60eefcc6b22acb2b691addbc4163b9c33df3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,77 @@
+{
+    "type": "item",
+    "item_id": "100450",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/100450\/"
+    },
+    "name": "カプレーゼの手紙",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "カプレーゼから貴方への\nきらきらした想いが\n込められた手紙。\n手紙に向かって呼びかけると\n手紙に込められた想いが\n一定時間\n自分の近くに結像する\n特定のマップで使用すると\n「カプレーゼの幻影」が\n出現する\n再使用待機時間10秒\n[カプレーゼの手紙]は\n使用しても消耗しない\n[カプレーゼの手紙]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "カプレーゼから貴方への",
+        "きらきらした想いが",
+        "込められた手紙。",
+        "手紙に向かって呼びかけると",
+        "手紙に込められた想いが",
+        "一定時間",
+        "自分の近くに結像する",
+        "特定のマップで使用すると",
+        "「カプレーゼの幻影」が",
+        "出現する",
+        "再使用待機時間10秒",
+        "[カプレーゼの手紙]は",
+        "使用しても消耗しない",
+        "[カプレーゼの手紙]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "45df29d6921f6c2e3b336933be93f1ce0d1bef275c2de2d314f3f4108fb2b430",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

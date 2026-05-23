@@ -1,0 +1,77 @@
+{
+    "type": "item",
+    "item_id": "200063",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/200063\/"
+    },
+    "name": "コスたまOriental",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する\n・[衣装] ひょうたん徳利\n・[衣装] 和装リボン\n・[衣装] 和髪かつら\n・[衣装] 鬼姫の椿飾り\n・[衣装] 形代舞い\n・[衣装] 轟鳴鼓\n・[衣装] 八卦の封呪\n・[衣装] クラトン\n・[衣装] 青の変面\n・[衣装] 黒無常帽\n[コスたまOriental]は\n倉庫への移動のみ可能です",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する",
+        "・[衣装] ひょうたん徳利",
+        "・[衣装] 和装リボン",
+        "・[衣装] 和髪かつら",
+        "・[衣装] 鬼姫の椿飾り",
+        "・[衣装] 形代舞い",
+        "・[衣装] 轟鳴鼓",
+        "・[衣装] 八卦の封呪",
+        "・[衣装] クラトン",
+        "・[衣装] 青の変面",
+        "・[衣装] 黒無常帽",
+        "[コスたまOriental]は",
+        "倉庫への移動のみ可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e41213a7e20ed4f2ce084ad1f2020e3ad43ccf46866f866fd8393cb1106e2ec8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

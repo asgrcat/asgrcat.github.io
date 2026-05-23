@@ -1,0 +1,76 @@
+{
+    "type": "item",
+    "item_id": "10027",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/10027\/"
+    },
+    "name": "ペット用魂のリング[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "死者だけが手に入れる事が\n出来ると言うアクセサリ。",
+    "description_lines": [
+        "死者だけが手に入れる事が",
+        "出来ると言うアクセサリ。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": "pet_equipment",
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "種類": "キューペット装備",
+            "装備": "ウィスパー"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "71e2a428f2694ae18ef865b0582f87e3f59750c548c22dd8052a8d38f5dca731",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

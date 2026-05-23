@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "400310",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/400310\/"
+    },
+    "name": "[衣装] 漆黒のヴァルキリーサークレット[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "upper": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "不正な者に天罰を下す\nヴァルキリーの代行者で\nあることを証明する\n漆黒の衣装用サークレット。\n[[衣装] 漆黒の\nヴァルキリー\nサークレット]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "不正な者に天罰を下す",
+        "ヴァルキリーの代行者で",
+        "あることを証明する",
+        "漆黒の衣装用サークレット。",
+        "[[衣装] 漆黒の",
+        "ヴァルキリー",
+        "サークレット]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "位置": "上段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f756cba13afaac2d78b06fdb57e9f4b63f653402b6ecb8dbd0eb167c0135b9a9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

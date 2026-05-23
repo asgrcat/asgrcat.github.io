@@ -1,0 +1,93 @@
+{
+    "type": "item",
+    "item_id": "2910",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2910\/"
+    },
+    "name": "バコナワの守護タトゥー[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "月を飲み込んでいるような\n龍の形状をしている紋様が\n描かれたタトゥー。\nタトゥーを通じて凄い力を\n得る事ができると\n言われている。\n攻撃速度 + 10%\n物理攻撃で\n与えるダメージ + 7%",
+    "description_lines": [
+        "月を飲み込んでいるような",
+        "龍の形状をしている紋様が",
+        "描かれたタトゥー。",
+        "タトゥーを通じて凄い力を",
+        "得る事ができると",
+        "言われている。",
+        "攻撃速度 + 10%",
+        "物理攻撃で",
+        "与えるダメージ + 7%"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6f72010e762716dbf170f028e1d1c2003ac24ee461500f18a673fed34b8191b6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

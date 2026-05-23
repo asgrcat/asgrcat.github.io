@@ -1,0 +1,128 @@
+{
+    "type": "item",
+    "item_id": "28713",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28713\/"
+    },
+    "name": "栄光を讃えし王剣[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_reaper": true,
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "古王グローザが振るいし\n双剣の一刃。\n古王の輝かしい栄光を讃え\n百人の職人が\n千日間かけて鍛え上げた\n万邦無比なる剣。\n攻撃速度 + 5%\n[破滅を纏いし業剣]と\n共に装備時、追加で\n攻撃速度 + 5%\n[クロスインパクト]で\n与えるダメージ + 10%",
+    "description_lines": [
+        "古王グローザが振るいし",
+        "双剣の一刃。",
+        "古王の輝かしい栄光を讃え",
+        "百人の職人が",
+        "千日間かけて鍛え上げた",
+        "万邦無比なる剣。",
+        "攻撃速度 + 5%",
+        "[破滅を纏いし業剣]と",
+        "共に装備時、追加で",
+        "攻撃速度 + 5%",
+        "[クロスインパクト]で",
+        "与えるダメージ + 10%"
+    ],
+    "properties": {
+        "series": "dagger",
+        "series_normalized": [
+            "dagger"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "聖",
+        "slot": 3,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 60,
+        "weapon_level": 4,
+        "required_level": 130,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_reaper": true,
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "短剣",
+            "攻撃": "120",
+            "重量": "60",
+            "属性": "聖",
+            "武器レベル": "4",
+            "要求レベル": "130",
+            "装備": "3次職ソードマン系 3次職マジシャン系 3次職アーチャー系 3次職シーフ系 3次職マーチャント系 ソウルリーパー系 影狼系 朧系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "2af26fb46110b06441c8d37b917be565b95d77aa147953ee5a9443ff9a8e8477",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

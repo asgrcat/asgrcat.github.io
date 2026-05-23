@@ -1,0 +1,135 @@
+{
+    "type": "item",
+    "item_id": "5399",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5399\/"
+    },
+    "name": "マンドラゴラキャップ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "頭に草が生えている\nマンドラゴラの帽子。\n草を抜けば大騷ぎとなる\nだろう。\nVit + 3\n物理攻撃を受けた時、\n一定確率でオートスペル\n[スクリーム]Lv5発動\n精錬不可",
+    "description_lines": [
+        "頭に草が生えている",
+        "マンドラゴラの帽子。",
+        "草を抜けば大騷ぎとなる",
+        "だろう。",
+        "Vit + 3",
+        "物理攻撃を受けた時、",
+        "一定確率でオートスペル",
+        "[スクリーム]Lv5発動",
+        "精錬不可"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 5,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 85,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "5",
+            "位置": "上段",
+            "重量": "30",
+            "要求レベル": "85",
+            "装備": "上位2次職 3次職 4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ネペンテス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/NEPENTHES"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_02",
+            "map_code": "2@la_02"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_02",
+            "map_code": "2@lb_02"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_02",
+            "map_code": "2@lc_02"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld202",
+            "map_code": "2@ld202"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf202",
+            "map_code": "2@lf202"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "マヌクフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/man_fild01",
+            "map_code": "man_fild01"
+        }
+    ],
+    "source_html_sha256": "8c921ba756ddab7f07c7e02abf125348971e912c1ca2990226cd087d5233acd7",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

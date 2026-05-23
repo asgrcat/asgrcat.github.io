@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "314553",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/314553\/"
+    },
+    "name": "潜在解放(スピリットハンドラーXIX)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "[真理の解放]と\n共に装備時、追加で\n[タートルランページ]\n使用時、20秒間、\n[リフレッシュ]Lv1\n状態になる",
+    "description_lines": [
+        "[真理の解放]と",
+        "共に装備時、追加で",
+        "[タートルランページ]",
+        "使用時、20秒間、",
+        "[リフレッシュ]Lv1",
+        "状態になる"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e41e9140780fbbdb75f2b352eda3228b780ddfcec8da6c631162b1f98e97d70e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

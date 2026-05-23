@@ -1,0 +1,97 @@
+{
+    "type": "item",
+    "item_id": "5748",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5748\/"
+    },
+    "name": "スナイパーゴーグル[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "ranger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "レンジャーの為に\n制作された\n特殊ゴーグル。\nMdef + 5\nAgi + 1 , Dex + 1\n純粋なAgiが120以上の時、\n追加で\n遠距離物理攻撃で\n与えるダメージ + 4%\nAspd + 1\n[スナイパーゴーグル]は\nNPC売却・倉庫への移動が\n可能です",
+    "description_lines": [
+        "レンジャーの為に",
+        "制作された",
+        "特殊ゴーグル。",
+        "Mdef + 5",
+        "Agi + 1 , Dex + 1",
+        "純粋なAgiが120以上の時、",
+        "追加で",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 4%",
+        "Aspd + 1",
+        "[スナイパーゴーグル]は",
+        "NPC売却・倉庫への移動が",
+        "可能です"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 12,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "ranger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "12",
+            "位置": "上中段",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "レンジャー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ce06745e35d3a5b2058555a201a4651a94850e3ce201b82b6359415299795b48",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

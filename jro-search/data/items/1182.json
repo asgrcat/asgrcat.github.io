@@ -1,0 +1,157 @@
+{
+    "type": "item",
+    "item_id": "1182",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1182\/"
+    },
+    "name": "ブラッディイート[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "冷え冷えとした陰鬱で\n黒いオーラを発する両手剣。\n物理攻撃時、低確率で 5秒間\nCRI + 100、ATK + 50。\n近接物理攻撃で\nモンスターを倒した時、\nHP 100ずつ回復。",
+    "description_lines": [
+        "冷え冷えとした陰鬱で",
+        "黒いオーラを発する両手剣。",
+        "物理攻撃時、低確率で 5秒間",
+        "CRI + 100、ATK + 50。",
+        "近接物理攻撃で",
+        "モンスターを倒した時、",
+        "HP 100ずつ回復。"
+    ],
+    "properties": {
+        "series": "two_handed_sword",
+        "series_normalized": [
+            "two_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "念",
+        "slot": 2,
+        "def": null,
+        "atk": 200,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 120,
+        "weapon_level": 4,
+        "required_level": 50,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手剣",
+            "攻撃": "200",
+            "重量": "120",
+            "属性": "念",
+            "武器レベル": "4",
+            "要求レベル": "50",
+            "装備": "ソードマン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "モロクの現身（人間型）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MOROCC_3"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "試練の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_07",
+            "map_code": "2@la_07"
+        },
+        {
+            "name": "封印の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_07",
+            "map_code": "2@lb_07"
+        },
+        {
+            "name": "異形の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_07",
+            "map_code": "2@lc_07"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld207",
+            "map_code": "2@ld207"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf207",
+            "map_code": "2@lf207"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "次元の狭間 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild22",
+            "map_code": "moc_fild22"
+        },
+        {
+            "name": "フレイムヴァレー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moro_vol",
+            "map_code": "moro_vol"
+        }
+    ],
+    "source_html_sha256": "c82da716f97ff6b22e5b202f41082fbbb7504105373db34fc3286ab3810be818",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

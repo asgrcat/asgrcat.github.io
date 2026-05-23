@@ -1,0 +1,165 @@
+{
+    "type": "item",
+    "item_id": "15379",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15379\/"
+    },
+    "name": "ラーヴァレザースーツ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ノーグロードに棲む\nモンスターの革から作った\nスーツ。\nまだ熱が\n籠っている気がする。\n[ラーヴァレザースーツ]の\n精錬値が1上がる度に追加で\nDex + 3\n[ラーヴァレザースーツ]の\n精錬値が8以上の時、追加で\nボスモンスターから\n受けるダメージ - 5%\n[ラーヴァレザー\nマフラー]、\n[ラーヴァレザー\nシューズ]と\n共に装備時、追加で\nMaxHP + 2000\nMaxSP + 200\n全てのモンスターに対し、\nサイズによる武器ダメージの\nペナルティが発生しない",
+    "description_lines": [
+        "ノーグロードに棲む",
+        "モンスターの革から作った",
+        "スーツ。",
+        "まだ熱が",
+        "籠っている気がする。",
+        "[ラーヴァレザースーツ]の",
+        "精錬値が1上がる度に追加で",
+        "Dex + 3",
+        "[ラーヴァレザースーツ]の",
+        "精錬値が8以上の時、追加で",
+        "ボスモンスターから",
+        "受けるダメージ - 5%",
+        "[ラーヴァレザー",
+        "マフラー]、",
+        "[ラーヴァレザー",
+        "シューズ]と",
+        "共に装備時、追加で",
+        "MaxHP + 2000",
+        "MaxSP + 200",
+        "全てのモンスターに対し、",
+        "サイズによる武器ダメージの",
+        "ペナルティが発生しない"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": 100,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 170,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "位置": "-",
+            "属性": "無",
+            "スロット": "1",
+            "Def": "100",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "100",
+            "要求レベル": "170",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "硬化ブレイザー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BLAZZER_H"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld104",
+            "map_code": "2@ld104"
+        },
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le104",
+            "map_code": "2@le104"
+        },
+        {
+            "name": "亜空の迷宮 溶岩の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg104",
+            "map_code": "2@lg104"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ノーグロード 3層(1)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mag_dun03",
+            "map_code": "mag_dun03"
+        },
+        {
+            "name": "ノーグロード 3層(2)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mag_dun03a",
+            "map_code": "mag_dun03a"
+        },
+        {
+            "name": "ノーグロード 3層(3)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mag_dun03b",
+            "map_code": "mag_dun03b"
+        }
+    ],
+    "source_html_sha256": "defd743bec589f51db287c6d1f40b886be5d2d0ec345b914f22f6cd35d94fd92",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

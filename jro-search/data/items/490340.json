@@ -1,0 +1,100 @@
+{
+    "type": "item",
+    "item_id": "490340",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/490340\/"
+    },
+    "name": "イリーガルチップ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "リヒタルゼンの貧民街で\nジャンク品を販売する店で\nお勧めされた品。\n正規品ではなさそうだ。\n攻撃速度 + 10%\n物理・魔法攻撃で\n与えるダメージ + 10%\n[知識の探求者]と\n共に装備時、追加で\n物理・魔法攻撃で\n与えるダメージ + 30%\n[気功]\nLv2使用可能",
+    "description_lines": [
+        "リヒタルゼンの貧民街で",
+        "ジャンク品を販売する店で",
+        "お勧めされた品。",
+        "正規品ではなさそうだ。",
+        "攻撃速度 + 10%",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 10%",
+        "[知識の探求者]と",
+        "共に装備時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 30%",
+        "[気功]",
+        "Lv2使用可能"
+    ],
+    "properties": {
+        "series": "accessory_2",
+        "series_normalized": [
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー(2)",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ff97064cb2203e58a4c679c86dd83751423b0a88411f5c203b1146fb4fac1fd1",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

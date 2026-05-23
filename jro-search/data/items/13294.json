@@ -1,0 +1,72 @@
+{
+    "type": "item",
+    "item_id": "13294",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13294\/"
+    },
+    "name": "爆裂の苦無",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "苦無の柄の中に\n火薬を詰めることで、\n衝突時に苦無が爆発し、\n周辺に被害を及ぼすように\n開発された特殊な苦無。\n扱う際は細心の注意が必要。",
+    "description_lines": [
+        "苦無の柄の中に",
+        "火薬を詰めることで、",
+        "衝突時に苦無が爆発し、",
+        "周辺に被害を及ぼすように",
+        "開発された特殊な苦無。",
+        "扱う際は細心の注意が必要。"
+    ],
+    "properties": {
+        "series": "throwing",
+        "series_normalized": [
+            "throwing"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": null,
+        "def": null,
+        "atk": 50,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 3,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "投擲",
+            "攻撃": "50",
+            "重量": "3",
+            "属性": "無"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "a6bddb584a698df165c2b611de0d9a4f638127b3417e875f6f8ba814464b0960",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

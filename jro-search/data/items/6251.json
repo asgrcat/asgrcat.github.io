@@ -1,0 +1,69 @@
+{
+    "type": "item",
+    "item_id": "6251",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6251\/"
+    },
+    "name": "黒炭",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "空気を最大限\n遮って作った\n木を原料にした\n燃料。\n一部の料理に\n黒炭を使用すると、\nとても美味し\nくなるという。",
+    "description_lines": [
+        "空気を最大限",
+        "遮って作った",
+        "木を原料にした",
+        "燃料。",
+        "一部の料理に",
+        "黒炭を使用すると、",
+        "とても美味し",
+        "くなるという。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "95aef9d04eae94a34eb58daeca1b7da06f2fe951271774d98e9d8c5bfb7e8e3d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

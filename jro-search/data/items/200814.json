@@ -1,0 +1,82 @@
+{
+    "type": "item",
+    "item_id": "200814",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/200814\/"
+    },
+    "name": "[2026]復刻コスたまの箱(Season2)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "このアイテムの利用期間は\n2026年7月28日(火)\n定期メンテナンス開始\nまでとなります\n利用期間終了後に箱を\nあけた場合は\n何も出現しません\n[復刻コスたま引換券\n(Season2)]が\n1個入っている箱。\n[復刻コスたま引換券\n(Season2)]：\n・ギムレットの部屋\n(iz_gimlet)\n座標（17 97）\nにいるNPC「プレミィ」に\n持って行こう\n[復刻コスたま引換券\n(Season2)]は\n箱を開けてから2208時間後に\n自動的に消滅します",
+    "description_lines": [
+        "このアイテムの利用期間は",
+        "2026年7月28日(火)",
+        "定期メンテナンス開始",
+        "までとなります",
+        "利用期間終了後に箱を",
+        "あけた場合は",
+        "何も出現しません",
+        "[復刻コスたま引換券",
+        "(Season2)]が",
+        "1個入っている箱。",
+        "[復刻コスたま引換券",
+        "(Season2)]：",
+        "・ギムレットの部屋",
+        "(iz_gimlet)",
+        "座標（17 97）",
+        "にいるNPC「プレミィ」に",
+        "持って行こう",
+        "[復刻コスたま引換券",
+        "(Season2)]は",
+        "箱を開けてから2208時間後に",
+        "自動的に消滅します"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ae94225d7cca26e27d52565c8a740e4b66b478ac69d716f095cd1f118e150d90",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

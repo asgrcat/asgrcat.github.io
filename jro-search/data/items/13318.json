@@ -1,0 +1,117 @@
+{
+    "type": "item",
+    "item_id": "13318",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13318\/"
+    },
+    "name": "風魔手裏剣・炎月[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "ninja": true
+            },
+            "include_jobs": {
+                "ninja": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "火属性を持っている\n風魔手裏剣。\nMatk + 25\n[風魔手裏剣・炎月]の\n精錬値が1上がる度に追加で\nMatk + 5\n精錬値が7以上の時、追加で\nMatk + 20\n精錬値が10の時、追加で\nMatk + 30\n[灼熱の上衣]と\n共に装備時、追加で\nMatk + 50\n[灼熱の上衣]の\n精錬値が5以上の時、\nオートスペル[紅炎華]の\n発動率が上昇\n精錬値が7以上の時、\nオートスペル[紅炎華]の\n発動率が上昇\n精錬値が10の時、\nオートスペル[紅炎華]の\n発動率が上昇",
+    "description_lines": [
+        "火属性を持っている",
+        "風魔手裏剣。",
+        "Matk + 25",
+        "[風魔手裏剣・炎月]の",
+        "精錬値が1上がる度に追加で",
+        "Matk + 5",
+        "精錬値が7以上の時、追加で",
+        "Matk + 20",
+        "精錬値が10の時、追加で",
+        "Matk + 30",
+        "[灼熱の上衣]と",
+        "共に装備時、追加で",
+        "Matk + 50",
+        "[灼熱の上衣]の",
+        "精錬値が5以上の時、",
+        "オートスペル[紅炎華]の",
+        "発動率が上昇",
+        "精錬値が7以上の時、",
+        "オートスペル[紅炎華]の",
+        "発動率が上昇",
+        "精錬値が10の時、",
+        "オートスペル[紅炎華]の",
+        "発動率が上昇"
+    ],
+    "properties": {
+        "series": "huuma_shuriken",
+        "series_normalized": [
+            "huuma_shuriken"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "火",
+        "slot": 0,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 100,
+        "weapon_level": 4,
+        "required_level": 36,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "ninja": true
+            },
+            "include_jobs": {
+                "ninja": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "風魔手裏剣",
+            "攻撃": "120",
+            "重量": "100",
+            "属性": "火",
+            "武器レベル": "4",
+            "要求レベル": "36",
+            "装備": "忍者系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "44f350b5991d9d1b0188c65cdb0e19e01116e6e87d0e57ea430a75075fc52556",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

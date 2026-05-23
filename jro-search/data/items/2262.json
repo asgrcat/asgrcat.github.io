@@ -1,0 +1,147 @@
+{
+    "type": "item",
+    "item_id": "2262",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2262\/"
+    },
+    "name": "ピエロの鼻[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ピエロたちが鼻につける小道具。",
+    "description_lines": [
+        "ピエロたちが鼻につける小道具。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "下段",
+            "重量": "10",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ルナティック",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/LUNATIC"
+        },
+        {
+            "name": "団子童子",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RICE_CAKE_BOY"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "コンロンフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gon_fild01",
+            "map_code": "gon_fild01"
+        },
+        {
+            "name": "フェイヨン迷いの森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild03",
+            "map_code": "pay_fild03"
+        },
+        {
+            "name": "プロンテラフィールド 00",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild00",
+            "map_code": "prt_fild00"
+        },
+        {
+            "name": "プロンテラフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild01",
+            "map_code": "prt_fild01"
+        },
+        {
+            "name": "プロンテラフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild02",
+            "map_code": "prt_fild02"
+        },
+        {
+            "name": "プロンテラフィールド 05",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild05",
+            "map_code": "prt_fild05"
+        },
+        {
+            "name": "プロンテラフィールド 06",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild06",
+            "map_code": "prt_fild06"
+        },
+        {
+            "name": "プロンテラフィールド 08",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild08",
+            "map_code": "prt_fild08"
+        },
+        {
+            "name": "迷宮の森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze01",
+            "map_code": "prt_maze01"
+        }
+    ],
+    "source_html_sha256": "117f2fbd841a1819bd19a6b2fc581908de5a53a88b4504fcd211dcc2fb237488",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

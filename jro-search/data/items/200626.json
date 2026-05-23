@@ -1,0 +1,80 @@
+{
+    "type": "item",
+    "item_id": "200626",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/200626\/"
+    },
+    "name": "コスたまOrientalIV",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する\n・[衣装] 桜花爛漫\nツインテール\n・[衣装] 桜花爛漫ツー\nサイドアップ\n・[衣装] 温泉\n・[衣装] 怨霊武士の双刀\n・[衣装] ポリンの三色団子\n・[衣装] 瞬くフォレスト\nアイ\n・[衣装] 威風凛然の兜(黒)\n・[衣装] 桜の白魔女帽子\n・[衣装] 天下無敵の紋帽子\n・[衣装] 鬼神の仮面(中段)\n・[衣装] ひきがえるの帽子\n(茶)",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する",
+        "・[衣装] 桜花爛漫",
+        "ツインテール",
+        "・[衣装] 桜花爛漫ツー",
+        "サイドアップ",
+        "・[衣装] 温泉",
+        "・[衣装] 怨霊武士の双刀",
+        "・[衣装] ポリンの三色団子",
+        "・[衣装] 瞬くフォレスト",
+        "アイ",
+        "・[衣装] 威風凛然の兜(黒)",
+        "・[衣装] 桜の白魔女帽子",
+        "・[衣装] 天下無敵の紋帽子",
+        "・[衣装] 鬼神の仮面(中段)",
+        "・[衣装] ひきがえるの帽子",
+        "(茶)"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "bf4ea3b0670d1d53f820f41371f2f1dc862d8e73391712cd1fb6b79e6762a3a2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,81 @@
+{
+    "type": "item",
+    "item_id": "200601",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/200601\/"
+    },
+    "name": "ジョブソウル選択箱",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "使用すると\n【内容】のアイテムから\n1つ選んで獲得できる箱。\n【内容】\nアークビショップソウルの箱 [転生アコライト(プリースト)系専用]、\nウォーロックソウルの箱 [転生マジシャン(ウィザード)系専用]、\nギロチンクロスソウルの箱 [転生シーフ(アサシン)系専用]、\nジェネティックソウルの箱 [転生マーチャント(アルケミスト)系専用]、\nシャドウチェイサーソウルの箱 [転生シーフ(ローグ)系専用]、\nソーサラーソウルの箱 [転生マジシャン(セージ)系専用]、\nミンストレルソウルの箱 [転生アーチャー(バード)系専用]、\nメカニックソウルの箱 [転生マーチャント(ブラックスミス)系専用]、\nルーンナイトソウルの箱 [転生ソードマン(ナイト)系専用]、\nレンジャーソウルの箱 [転生アーチャー(ハンター)系専用]、\nロイヤルガードソウルの箱 [転生ソードマン(クルセイダー)系専用]、\nワンダラーソウルの箱 [転生アーチャー(ダンサー)系専用]、\n修羅ソウルの箱 [転生アコライト(モンク)系専用]、\n星帝ソウルの箱、\nソウルリーパーソウルの箱、\n[ドラム専用] ドラムソウルの箱",
+    "description_lines": [
+        "使用すると",
+        "【内容】のアイテムから",
+        "1つ選んで獲得できる箱。",
+        "【内容】",
+        "アークビショップソウルの箱 [転生アコライト(プリースト)系専用]、",
+        "ウォーロックソウルの箱 [転生マジシャン(ウィザード)系専用]、",
+        "ギロチンクロスソウルの箱 [転生シーフ(アサシン)系専用]、",
+        "ジェネティックソウルの箱 [転生マーチャント(アルケミスト)系専用]、",
+        "シャドウチェイサーソウルの箱 [転生シーフ(ローグ)系専用]、",
+        "ソーサラーソウルの箱 [転生マジシャン(セージ)系専用]、",
+        "ミンストレルソウルの箱 [転生アーチャー(バード)系専用]、",
+        "メカニックソウルの箱 [転生マーチャント(ブラックスミス)系専用]、",
+        "ルーンナイトソウルの箱 [転生ソードマン(ナイト)系専用]、",
+        "レンジャーソウルの箱 [転生アーチャー(ハンター)系専用]、",
+        "ロイヤルガードソウルの箱 [転生ソードマン(クルセイダー)系専用]、",
+        "ワンダラーソウルの箱 [転生アーチャー(ダンサー)系専用]、",
+        "修羅ソウルの箱 [転生アコライト(モンク)系専用]、",
+        "星帝ソウルの箱、",
+        "ソウルリーパーソウルの箱、",
+        "[ドラム専用] ドラムソウルの箱"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "cb94cf196e84b25413c366f7ba71ac0bf17fec85f91aaad7c0775fec0ad1e276",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

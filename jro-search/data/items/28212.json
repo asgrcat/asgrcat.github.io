@@ -1,0 +1,144 @@
+{
+    "type": "item",
+    "item_id": "28212",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28212\/"
+    },
+    "name": "ブルーサザンクロス[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "rebellion": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "南天で船乗りを導く役割を\n持っていた十字型の星座。\nその名を冠する\nグレネードガン。\n不死・悪魔形モンスターの\nDef 100%無視\n純粋なLukが10上がる度に\n追加で\n[ドラゴンテイル]で\n与えるダメージ + 7%\n純粋なLukが110以上の時、\n追加で\n[ドラゴンテイル]で\n与えるダメージ + 30%",
+    "description_lines": [
+        "南天で船乗りを導く役割を",
+        "持っていた十字型の星座。",
+        "その名を冠する",
+        "グレネードガン。",
+        "不死・悪魔形モンスターの",
+        "Def 100%無視",
+        "純粋なLukが10上がる度に",
+        "追加で",
+        "[ドラゴンテイル]で",
+        "与えるダメージ + 7%",
+        "純粋なLukが110以上の時、",
+        "追加で",
+        "[ドラゴンテイル]で",
+        "与えるダメージ + 30%"
+    ],
+    "properties": {
+        "series": "grenade_gun",
+        "series_normalized": [
+            "grenade_gun"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 3,
+        "def": null,
+        "atk": 210,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 140,
+        "weapon_level": 4,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "rebellion": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "グレネードガン",
+            "攻撃": "210",
+            "重量": "140",
+            "武器レベル": "4",
+            "要求レベル": "100",
+            "装備": "リベリオン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "T_W_O",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/T_W_O"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "最後の部屋",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@uns",
+            "map_code": "1@uns"
+        },
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_10",
+            "map_code": "2@la_10"
+        },
+        {
+            "name": "封印の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_10",
+            "map_code": "2@lb_10"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_10",
+            "map_code": "2@lc_10"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld210",
+            "map_code": "2@ld210"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf210",
+            "map_code": "2@lf210"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        }
+    ],
+    "source_html_sha256": "8862dab24e42e286bd74c19bcaefd2711c73e0aafb35c449584233d8bf5b2942",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

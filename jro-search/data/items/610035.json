@@ -1,0 +1,116 @@
+{
+    "type": "item",
+    "item_id": "610035",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/610035\/"
+    },
+    "name": "ウィキッドカタール[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "shadow_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "邪気を時計塔の部品に\n集約させて装着した\nカタール。\n強化前よりも\n扱い難くなった。\n物理攻撃で\n与えるダメージ + 110%\nボスモンスターから\n受けるダメージ - 40%\n[ウィキッドカタール]の\n精錬値が7以上の時、追加で\n[インパクトクレーター]、\n[サベージインパクト]で\n与えるダメージ + 10%\n[ウィキッドカタール]の\n精錬値が9以上の時、追加で\n[インパクトクレーター]、\n[サベージインパクト]で\n与えるダメージ + 15%\n[ウィキッドカタール]の\n精錬値が10の時、追加で\nPow + 20",
+    "description_lines": [
+        "邪気を時計塔の部品に",
+        "集約させて装着した",
+        "カタール。",
+        "強化前よりも",
+        "扱い難くなった。",
+        "物理攻撃で",
+        "与えるダメージ + 110%",
+        "ボスモンスターから",
+        "受けるダメージ - 40%",
+        "[ウィキッドカタール]の",
+        "精錬値が7以上の時、追加で",
+        "[インパクトクレーター]、",
+        "[サベージインパクト]で",
+        "与えるダメージ + 10%",
+        "[ウィキッドカタール]の",
+        "精錬値が9以上の時、追加で",
+        "[インパクトクレーター]、",
+        "[サベージインパクト]で",
+        "与えるダメージ + 15%",
+        "[ウィキッドカタール]の",
+        "精錬値が10の時、追加で",
+        "Pow + 20"
+    ],
+    "properties": {
+        "series": "katar",
+        "series_normalized": [
+            "katar"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 3,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": 250,
+        "refinement": true,
+        "breakable": true,
+        "weight": 280,
+        "weapon_level": 4,
+        "required_level": 220,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "shadow_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カタール",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "3",
+            "Atk": "150",
+            "Matk": "250",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "280",
+            "要求レベル": "220",
+            "装備": "シャドウクロス"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "093258cc26aaa150a810ea8c728e28257bb4298f17b391b2ed6f31d48faa4182",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

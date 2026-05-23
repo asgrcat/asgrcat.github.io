@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "1001642",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1001642\/"
+    },
+    "name": "グアノ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "鳥の排泄物から作られた\n非常に有用な有機物。\n土壌を豊かにし、\n作物の生育を助ける。",
+    "description_lines": [
+        "鳥の排泄物から作られた",
+        "非常に有用な有機物。",
+        "土壌を豊かにし、",
+        "作物の生育を助ける。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "シーウィンド",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP21_SEAWIND"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "亜空の迷宮 暗い干潟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg121",
+            "map_code": "2@lg121"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "隆起した大地 南部(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_raise2",
+            "map_code": "jor_raise2"
+        },
+        {
+            "name": "隆起した大地 南部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_raise2j",
+            "map_code": "jor_raise2j"
+        }
+    ],
+    "source_html_sha256": "07c0babb924399f516436cdf399985c3f3f4fb7e60bf07fbe9d9e9d4869564e5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

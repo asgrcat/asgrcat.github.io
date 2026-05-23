@@ -1,0 +1,123 @@
+{
+    "type": "item",
+    "item_id": "1973",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1973\/"
+    },
+    "name": "海の魔女の足[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "gypsy": true,
+                "wanderer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "海の魔女の足で作ったと\nいわれる鞭。敵の精気を奪う\n力があると言われている。\n敵を倒した時、SP5回復。\n物理攻撃を受けた時、\n一定確率で\nフロストノヴァLv3発動。\n物理攻撃時、一定確率で\n自分を中心として、\n5x5セル範囲内の全ての敵を\n沈黙状態にする。",
+    "description_lines": [
+        "海の魔女の足で作ったと",
+        "いわれる鞭。敵の精気を奪う",
+        "力があると言われている。",
+        "敵を倒した時、SP5回復。",
+        "物理攻撃を受けた時、",
+        "一定確率で",
+        "フロストノヴァLv3発動。",
+        "物理攻撃時、一定確率で",
+        "自分を中心として、",
+        "5x5セル範囲内の全ての敵を",
+        "沈黙状態にする。"
+    ],
+    "properties": {
+        "series": "whip",
+        "series_normalized": [
+            "whip"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 110,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 150,
+        "weapon_level": 4,
+        "required_level": 70,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "gypsy": true,
+                "wanderer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鞭",
+            "攻撃": "110",
+            "重量": "150",
+            "武器レベル": "4",
+            "要求レベル": "70",
+            "装備": "ジプシー ワンダラー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "メデューサ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MEDUSA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "コモドダンジョン 01（西洞窟カル）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/beach_dun",
+            "map_code": "beach_dun"
+        }
+    ],
+    "source_html_sha256": "1b78ab41ad31f81cdc9413108dbf4f79beedf1d61646a5786ea1b7a17518de8c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

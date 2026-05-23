@@ -1,0 +1,255 @@
+{
+    "type": "item",
+    "item_id": "1256",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1256\/"
+    },
+    "name": "冷たい氷柱のカタール[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "assassin": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "冷たくて鋭利な氷柱で作られたカタール。低い確率で敵を凍らせる。",
+    "description_lines": [
+        "冷たくて鋭利な氷柱で作られたカタール。低い確率で敵を凍らせる。"
+    ],
+    "properties": {
+        "series": "katar",
+        "series_normalized": [
+            "katar"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "水",
+        "slot": 0,
+        "def": null,
+        "atk": 105,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 120,
+        "weapon_level": 3,
+        "required_level": 55,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "assassin": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カタール",
+            "攻撃": "105",
+            "重量": "120",
+            "属性": "水",
+            "武器レベル": "3",
+            "要求レベル": "55",
+            "装備": "アサシン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "DR815",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DR815"
+        },
+        {
+            "name": "ハティー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GARM"
+        },
+        {
+            "name": "デビアス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DEVIACE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "最後の部屋",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@uns",
+            "map_code": "1@uns"
+        },
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_10",
+            "map_code": "2@la_10"
+        },
+        {
+            "name": "封印の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_11",
+            "map_code": "2@lb_11"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_10",
+            "map_code": "2@lc_10"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld210",
+            "map_code": "2@ld210"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf210",
+            "map_code": "2@lf210"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "周辺エリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@letter",
+            "map_code": "3@letter"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "イズルード海底神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/iz_dun04",
+            "map_code": "iz_dun04"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas01",
+            "map_code": "prtg_cas01"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas02",
+            "map_code": "prtg_cas02"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas03",
+            "map_code": "prtg_cas03"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas04",
+            "map_code": "prtg_cas04"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas05",
+            "map_code": "prtg_cas05"
+        },
+        {
+            "name": "ゲオルグ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas01",
+            "map_code": "te_prtcas01"
+        },
+        {
+            "name": "リハルト",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas02",
+            "map_code": "te_prtcas02"
+        },
+        {
+            "name": "ウィグナー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas03",
+            "map_code": "te_prtcas03"
+        },
+        {
+            "name": "ハイネン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas04",
+            "map_code": "te_prtcas04"
+        },
+        {
+            "name": "ネリウス",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas05",
+            "map_code": "te_prtcas05"
+        },
+        {
+            "name": "地下シェルター",
+            "url": "https:\/\/rotool.gungho.jp\/map\/un_bunker",
+            "map_code": "un_bunker"
+        },
+        {
+            "name": "ルティエフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/xmas_fild01",
+            "map_code": "xmas_fild01"
+        }
+    ],
+    "source_html_sha256": "7cdf6bb0506994d3bbc06097fa62feb9ded502a9c16076308002592b5fa88400",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

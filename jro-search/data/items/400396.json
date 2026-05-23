@@ -1,0 +1,125 @@
+{
+    "type": "item",
+    "item_id": "400396",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/400396\/"
+    },
+    "name": "妖魔のささやき[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "美しき妖魔の角。\n攻撃速度 + 10%\nBaseLvが1上がる度に追加で\n[メテオアサルト]で\n与えるダメージ + 1%\n[ウェポンクラッシュ]\nLv5習得時、追加で\n物理攻撃時、\n全ての属性のモンスターに\n与えるダメージ + 25%\n[ウェポンブロッキング]\nLv5習得時、追加で\nスキルディレイ - 20%\n[カウンタースラッシュ]\nLv10習得時、追加で\n武器攻撃力 + 25%\n[ハルシネーションウォーク]\nLv5習得時、追加で\n一般・ボスモンスターから\n受けるダメージ - 20%\n[妖魔のささやき]の\n精錬値が1上がる度に追加で\nスキルディレイ - 3%\n[妖魔のささやき]の\n精錬値が7以上の時、\nBaseLvが1上がる度に追加で\n[ソウルブレイカー]、\n[メテオアサルト]で\n与えるダメージ + 1%\n[妖魔のささやき]の\n精錬値が9以上の時、\nBaseLvが1上がる度に追加で\n[ソウルブレイカー]、\n[メテオアサルト]で\n与えるダメージ + 1%",
+    "description_lines": [
+        "美しき妖魔の角。",
+        "攻撃速度 + 10%",
+        "BaseLvが1上がる度に追加で",
+        "[メテオアサルト]で",
+        "与えるダメージ + 1%",
+        "[ウェポンクラッシュ]",
+        "Lv5習得時、追加で",
+        "物理攻撃時、",
+        "全ての属性のモンスターに",
+        "与えるダメージ + 25%",
+        "[ウェポンブロッキング]",
+        "Lv5習得時、追加で",
+        "スキルディレイ - 20%",
+        "[カウンタースラッシュ]",
+        "Lv10習得時、追加で",
+        "武器攻撃力 + 25%",
+        "[ハルシネーションウォーク]",
+        "Lv5習得時、追加で",
+        "一般・ボスモンスターから",
+        "受けるダメージ - 20%",
+        "[妖魔のささやき]の",
+        "精錬値が1上がる度に追加で",
+        "スキルディレイ - 3%",
+        "[妖魔のささやき]の",
+        "精錬値が7以上の時、",
+        "BaseLvが1上がる度に追加で",
+        "[ソウルブレイカー]、",
+        "[メテオアサルト]で",
+        "与えるダメージ + 1%",
+        "[妖魔のささやき]の",
+        "精錬値が9以上の時、",
+        "BaseLvが1上がる度に追加で",
+        "[ソウルブレイカー]、",
+        "[メテオアサルト]で",
+        "与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": "-",
+        "slot": 1,
+        "def": 10,
+        "atk": null,
+        "mdef": 10,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "上段",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "10",
+            "Mdef": "10",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "50",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "fd3a32bdc0ebabddbf752c63d0dea760bcd5d6d6d71128d3041cd032a7b59087",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

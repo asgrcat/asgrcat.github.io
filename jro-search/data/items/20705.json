@@ -1,0 +1,110 @@
+{
+    "type": "item",
+    "item_id": "20705",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20705\/"
+    },
+    "name": "リュミエールマント[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "聖の力を宿している\n不思議なマント。\n特定のモンスターからの\n攻撃を軽減してくれる。\n聖属性モンスターから\n受けるダメージ - 5%\n竜形モンスターから\n受けるダメージ + 5%\n[リュミエールシールド]と\n共に装備時、\n[リュミエールマント]の\n精錬値が1上がる度に追加で\n竜形モンスターから\n受けるダメージ - 1%\n[リュミエールシールド]と\n共に装備時、\n[リュミエールシールド]の\n精錬値が1上がる度に追加で\n物理攻撃時、\n聖属性モンスターに\n与えるダメージ + 1%\n[リュミエールシューズ]と\n共に装備時、追加で\n物理攻撃時、\n聖属性モンスターに\n与えるダメージ + 5%\n[リュミエールマント]の\n精錬値が1上がる度に追加で\nMaxHP + 1% , MaxSP + 1%",
+    "description_lines": [
+        "聖の力を宿している",
+        "不思議なマント。",
+        "特定のモンスターからの",
+        "攻撃を軽減してくれる。",
+        "聖属性モンスターから",
+        "受けるダメージ - 5%",
+        "竜形モンスターから",
+        "受けるダメージ + 5%",
+        "[リュミエールシールド]と",
+        "共に装備時、",
+        "[リュミエールマント]の",
+        "精錬値が1上がる度に追加で",
+        "竜形モンスターから",
+        "受けるダメージ - 1%",
+        "[リュミエールシールド]と",
+        "共に装備時、",
+        "[リュミエールシールド]の",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃時、",
+        "聖属性モンスターに",
+        "与えるダメージ + 1%",
+        "[リュミエールシューズ]と",
+        "共に装備時、追加で",
+        "物理攻撃時、",
+        "聖属性モンスターに",
+        "与えるダメージ + 5%",
+        "[リュミエールマント]の",
+        "精錬値が1上がる度に追加で",
+        "MaxHP + 1% , MaxSP + 1%"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 20,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 70,
+        "weapon_level": null,
+        "required_level": 65,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "防御": "20",
+            "重量": "70",
+            "要求レベル": "65",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "598c6601b5a559a3a8bd7394dbe77fc38e7b8d45d40d70df6dc69173419b6e32",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

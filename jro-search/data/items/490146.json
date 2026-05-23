@@ -1,0 +1,120 @@
+{
+    "type": "item",
+    "item_id": "490146",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/490146\/"
+    },
+    "name": "パラケルススグローブ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "医学、科学のみならず\n魔術にまで長けた\n偉大な錬金術師が\n身に着けていた手袋。\nStr + 7\n物理攻撃で\n与えるダメージ + 10%\nBaseLvが2上がる度に追加で\n[カートキャノン]、\n[カートトルネード]で\n与えるダメージ + 1%\n[改造カートブースト]Lv5\n習得時、追加で\n攻撃速度 + 10%\nMaxHP + 15%\n[クレイジーウィード]\nLv10習得時、追加で\n攻撃命中時、SP + 3\n[ファイアー\nエクスパンション]\nLv5習得時、追加で\n物理攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 10%\nジェネティック系が装備時、\n[覇王]と\n共に装備時、追加で\nインデュア状態になる\n[カートトルネード]使用時\n3秒間、必中攻撃 + 100%",
+    "description_lines": [
+        "医学、科学のみならず",
+        "魔術にまで長けた",
+        "偉大な錬金術師が",
+        "身に着けていた手袋。",
+        "Str + 7",
+        "物理攻撃で",
+        "与えるダメージ + 10%",
+        "BaseLvが2上がる度に追加で",
+        "[カートキャノン]、",
+        "[カートトルネード]で",
+        "与えるダメージ + 1%",
+        "[改造カートブースト]Lv5",
+        "習得時、追加で",
+        "攻撃速度 + 10%",
+        "MaxHP + 15%",
+        "[クレイジーウィード]",
+        "Lv10習得時、追加で",
+        "攻撃命中時、SP + 3",
+        "[ファイアー",
+        "エクスパンション]",
+        "Lv5習得時、追加で",
+        "物理攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 10%",
+        "ジェネティック系が装備時、",
+        "[覇王]と",
+        "共に装備時、追加で",
+        "インデュア状態になる",
+        "[カートトルネード]使用時",
+        "3秒間、必中攻撃 + 100%"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e1f28e0c15cf3772014559d9ec6ef96335599fa552a84903eb6fa606c931446f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

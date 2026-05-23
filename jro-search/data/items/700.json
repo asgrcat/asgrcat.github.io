@@ -1,0 +1,124 @@
+{
+    "type": "item",
+    "item_id": "700",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/700\/"
+    },
+    "name": "フロストダイバーLv1",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "古代の魔法学に則って作られた書。水属性魔法のフロストダイバーLv1を使うことができる。\n_",
+    "description_lines": [
+        "古代の魔法学に則って作られた書。水属性魔法のフロストダイバーLv1を使うことができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "マーリン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MARIN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "亜空の迷宮 灰の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg103",
+            "map_code": "2@lg103"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "フェイヨン迷いの森 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild04",
+            "map_code": "pay_fild04"
+        },
+        {
+            "name": "検証用マップ2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/sec_in02",
+            "map_code": "sec_in02"
+        },
+        {
+            "name": "おもちゃ工場ダンジョン 01（倉庫）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/xmas_dun01",
+            "map_code": "xmas_dun01"
+        },
+        {
+            "name": "ルティエフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/xmas_fild01",
+            "map_code": "xmas_fild01"
+        },
+        {
+            "name": "ジュノーフィールド 03（エルメスプレート）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/yuno_fild03",
+            "map_code": "yuno_fild03"
+        },
+        {
+            "name": "ジュノーフィールド 04（エルメスプレート）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/yuno_fild04",
+            "map_code": "yuno_fild04"
+        }
+    ],
+    "source_html_sha256": "5b4e219a655e142f1ef24f3709dd680018f3b37c6efc4311937779c60d17ce1f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

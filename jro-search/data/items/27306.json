@@ -1,0 +1,144 @@
+{
+    "type": "item",
+    "item_id": "27306",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27306\/"
+    },
+    "name": "ハートハンター・ベラレカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "shoes"
+        ],
+        "card_attachable_positions": {
+            "shoes": true
+        }
+    },
+    "description": "物理攻撃で\n与えるダメージ + 5%\nBaseLvが1上がる度に追加で\n[スプレッドアタック]で\n与えるダメージ + 3%\nリベリオン系が装備時、\nBaseLvが1上がる度に追加で\n[スプレッドアタック]で\n与えるダメージ + 2%\n精錬値が9以上の時、追加で\nBaseLvが1上がる度に\n[スプレッドアタック]で\n与えるダメージ + 1%",
+    "description_lines": [
+        "物理攻撃で",
+        "与えるダメージ + 5%",
+        "BaseLvが1上がる度に追加で",
+        "[スプレッドアタック]で",
+        "与えるダメージ + 3%",
+        "リベリオン系が装備時、",
+        "BaseLvが1上がる度に追加で",
+        "[スプレッドアタック]で",
+        "与えるダメージ + 2%",
+        "精錬値が9以上の時、追加で",
+        "BaseLvが1上がる度に",
+        "[スプレッドアタック]で",
+        "与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "shoes"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "靴",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ハートハンター・ベラレ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_1_BELLARE1"
+        },
+        {
+            "name": "ハートハンター・ベラレ（CP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_A013_BELLARE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "特殊警戒地域オース(オース二次捜索)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@os_c",
+            "map_code": "1@os_c"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld113",
+            "map_code": "2@ld113"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le113",
+            "map_code": "2@le113"
+        },
+        {
+            "name": "亜空の迷宮 淫靡な大聖堂",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg113",
+            "map_code": "2@lg113"
+        },
+        {
+            "name": "特殊警戒地域オース",
+            "url": "https:\/\/rotool.gungho.jp\/map\/sp_os",
+            "map_code": "sp_os"
+        }
+    ],
+    "source_html_sha256": "da9ea9f292571a7c34f1c07143a373c1a88e9ae3f6f1e2bcc820553e36407e1d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

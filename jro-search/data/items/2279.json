@@ -1,0 +1,195 @@
+{
+    "type": "item",
+    "item_id": "2279",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2279\/"
+    },
+    "name": "導火線[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "頭につける装飾用の芯。火をつけると危ない。",
+    "description_lines": [
+        "頭につける装飾用の芯。火をつけると危ない。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 2,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "2",
+            "位置": "上段",
+            "重量": "10",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ガジョマート",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GAJOMART"
+        },
+        {
+            "name": "ホロン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HORONG"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "試練の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_08",
+            "map_code": "2@la_08"
+        },
+        {
+            "name": "封印の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_08",
+            "map_code": "2@lb_08"
+        },
+        {
+            "name": "異形の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_08",
+            "map_code": "2@lc_08"
+        },
+        {
+            "name": "幻影の迷宮 穢れた廃村",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld110",
+            "map_code": "2@ld110"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld208",
+            "map_code": "2@ld208"
+        },
+        {
+            "name": "幻影の迷宮 穢れた廃村",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le110",
+            "map_code": "2@le110"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf208",
+            "map_code": "2@lf208"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アマツダンジョン 02（地下戦場跡）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ama_dun02",
+            "map_code": "ama_dun02"
+        },
+        {
+            "name": "ギルドダンジョン フェイヨン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gld_dun01",
+            "map_code": "gld_dun01"
+        },
+        {
+            "name": "龍之城ダンジョン 01（王陵）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lou_dun01",
+            "map_code": "lou_dun01"
+        },
+        {
+            "name": "フェイヨン地下洞窟 B4F（地下寺院）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_dun03",
+            "map_code": "pay_dun03"
+        },
+        {
+            "name": "チュンリム湖 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas01",
+            "map_code": "payg_cas01"
+        },
+        {
+            "name": "チュンリム湖 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas02",
+            "map_code": "payg_cas02"
+        },
+        {
+            "name": "チュンリム湖 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas03",
+            "map_code": "payg_cas03"
+        },
+        {
+            "name": "チュンリム湖 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas05",
+            "map_code": "payg_cas05"
+        },
+        {
+            "name": "迷宮の森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze03",
+            "map_code": "prt_maze03"
+        }
+    ],
+    "source_html_sha256": "0dbf15a538a0ff7731c2d136da05f13e654f78fd77a1fe01a1a8ec4de4f5e2f4",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

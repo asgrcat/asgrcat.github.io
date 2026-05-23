@@ -1,0 +1,81 @@
+{
+    "type": "item",
+    "item_id": "1002070",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1002070\/"
+    },
+    "name": "エンペリウムシャドウ交換チケット",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "対象のエンペリウム\nシャドウシリーズの\n中から好きなアイテムを\n選んで交換できるチケット。\n[エンペリウムシャドウ\n交換チケット]：\n・Yggdrasill用倉庫\n(world_st01)\n座標(179 79)にいる\nNPC「トリネコ」に\n持って行くと\n以下のアイテムから\nひとつと交換できる\n・対象アイテム\n[シャドウ] エンペリウムアーマー、\n[シャドウ] エンペリウムウェポン、\n[シャドウ] エンペリウムシールド、\n[シャドウ] エンペリウムシューズ、\n[シャドウ] エンペリウムイヤリング、\n[シャドウ] エンペリウムペンダント",
+    "description_lines": [
+        "対象のエンペリウム",
+        "シャドウシリーズの",
+        "中から好きなアイテムを",
+        "選んで交換できるチケット。",
+        "[エンペリウムシャドウ",
+        "交換チケット]：",
+        "・Yggdrasill用倉庫",
+        "(world_st01)",
+        "座標(179 79)にいる",
+        "NPC「トリネコ」に",
+        "持って行くと",
+        "以下のアイテムから",
+        "ひとつと交換できる",
+        "・対象アイテム",
+        "[シャドウ] エンペリウムアーマー、",
+        "[シャドウ] エンペリウムウェポン、",
+        "[シャドウ] エンペリウムシールド、",
+        "[シャドウ] エンペリウムシューズ、",
+        "[シャドウ] エンペリウムイヤリング、",
+        "[シャドウ] エンペリウムペンダント"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0.1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "16573e275ae951f667f226e954a8f0216eb733d226c462a61a920656b0428f1c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

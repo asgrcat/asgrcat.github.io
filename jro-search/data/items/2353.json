@@ -1,0 +1,168 @@
+{
+    "type": "item",
+    "item_id": "2353",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2353\/"
+    },
+    "name": "オーディンの祝福[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ヘルモードセットの基本になる鎧。オーディンの祝福は特定の防具と共に装備すると、隠された力が引き出される。",
+    "description_lines": [
+        "ヘルモードセットの基本になる鎧。オーディンの祝福は特定の防具と共に装備すると、隠された力が引き出される。"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 53,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 250,
+        "weapon_level": null,
+        "required_level": 65,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "53",
+            "重量": "250",
+            "要求レベル": "65",
+            "装備": "ノービス系を除く全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "羊羹",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_075"
+        },
+        {
+            "name": "スケゴルトブラウン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SKEGGIOLD"
+        },
+        {
+            "name": "スケゴルトブラック",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SKEGGIOLD_"
+        },
+        {
+            "name": "グリズリー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GRIZZLY"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld104",
+            "map_code": "2@ld104"
+        },
+        {
+            "name": "幻影の迷宮 鮮緑の神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld127",
+            "map_code": "2@ld127"
+        },
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le104",
+            "map_code": "2@le104"
+        },
+        {
+            "name": "幻影の迷宮 鮮緑の神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le127",
+            "map_code": "2@le127"
+        },
+        {
+            "name": "亜空の迷宮 溶岩の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg105",
+            "map_code": "2@lg105"
+        },
+        {
+            "name": "亜空の迷宮 鮮緑の神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg111",
+            "map_code": "2@lg111"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "龍之城ダンジョン 01（王陵）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lou_dun01",
+            "map_code": "lou_dun01"
+        },
+        {
+            "name": "オーディン神殿 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/odin_tem02",
+            "map_code": "odin_tem02"
+        },
+        {
+            "name": "オーディン神殿 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/odin_tem03",
+            "map_code": "odin_tem03"
+        },
+        {
+            "name": "トール火山ダンジョン 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/thor_v02",
+            "map_code": "thor_v02"
+        }
+    ],
+    "source_html_sha256": "f7b722a7bf09627c19d942119d7c9d9d5d622ee56cc0ec2ec17e34459f2dd26d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

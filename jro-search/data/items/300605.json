@@ -1,0 +1,81 @@
+{
+    "type": "item",
+    "item_id": "300605",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300605\/"
+    },
+    "name": "コトネスカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "爪の場合、\nHit - 10 , Cri + 10\nクリティカル攻撃で\n与えるダメージ + 10%\n爪の場合で、\nかつ精錬値が1上がる度に\n追加で\nHit - 1 , Cri + 1\nクリティカル攻撃で\n与えるダメージ + 1%",
+    "description_lines": [
+        "爪の場合、",
+        "Hit - 10 , Cri + 10",
+        "クリティカル攻撃で",
+        "与えるダメージ + 10%",
+        "爪の場合で、",
+        "かつ精錬値が1上がる度に",
+        "追加で",
+        "Hit - 1 , Cri + 1",
+        "クリティカル攻撃で",
+        "与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "539c79bdc82fb88b730e02e8c41a7df5e394756ad96138415ad96005f217a53c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

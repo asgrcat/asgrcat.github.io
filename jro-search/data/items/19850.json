@@ -1,0 +1,87 @@
+{
+    "type": "item",
+    "item_id": "19850",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19850\/"
+    },
+    "name": "[衣装] ボンゴン帽[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "モンスター「ボンゴン」が\n被っている衣装用の帽子。\nポイントは前の\n半分破れた御札だ。\nとても丈夫で、破れた御札の\nおかげで視野が狭くなる\nこともないようだ。",
+    "description_lines": [
+        "モンスター「ボンゴン」が",
+        "被っている衣装用の帽子。",
+        "ポイントは前の",
+        "半分破れた御札だ。",
+        "とても丈夫で、破れた御札の",
+        "おかげで視野が狭くなる",
+        "こともないようだ。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "上中下段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ae7b5a6608ffd6043650fcb8ab7d2c3f7a77ec9bf166861cab6ab01f19faba4c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

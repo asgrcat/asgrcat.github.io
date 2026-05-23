@@ -1,0 +1,70 @@
+{
+    "type": "item",
+    "item_id": "311890",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/311890\/"
+    },
+    "name": "限界突破",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "[フルスロットル]の\n再使用待機時間 - 600秒\n[オーバードライブ\nランページ]と\n共に装備時、追加で\nMaxHP + 15% , MaxSP + 15%\n物理・魔法攻撃命中時、\n一定確率で\n自分に発生している\n[リバウンド]状態を\n解除する",
+    "description_lines": [
+        "[フルスロットル]の",
+        "再使用待機時間 - 600秒",
+        "[オーバードライブ",
+        "ランページ]と",
+        "共に装備時、追加で",
+        "MaxHP + 15% , MaxSP + 15%",
+        "物理・魔法攻撃命中時、",
+        "一定確率で",
+        "自分に発生している",
+        "[リバウンド]状態を",
+        "解除する"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "bdc87e0f2c6094256a867ae92f7f78c46e26ce06dd8c98dd34d7f56418698489",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,171 @@
+{
+    "type": "item",
+    "item_id": "27102",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27102\/"
+    },
+    "name": "マットドレインリアーカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "物理攻撃で\n与えるダメージ + 10%\nカタールの場合、追加で\n物理攻撃で\n与えるダメージ + 5%\nカタールの\n精錬値が10の時、追加で\n物理攻撃で\n与えるダメージ + 10%",
+    "description_lines": [
+        "物理攻撃で",
+        "与えるダメージ + 10%",
+        "カタールの場合、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 5%",
+        "カタールの",
+        "精錬値が10の時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 10%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "マットドレインリアー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_DRAINLIAR"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "幻影の迷宮 魔物の巣穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld105",
+            "map_code": "2@ld105"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld119",
+            "map_code": "2@ld119"
+        },
+        {
+            "name": "幻影の迷宮 魔物の巣穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le105",
+            "map_code": "2@le105"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le119",
+            "map_code": "2@le119"
+        },
+        {
+            "name": "亜空の迷宮 地下洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg106",
+            "map_code": "2@lg106"
+        },
+        {
+            "name": "周辺エリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@letter",
+            "map_code": "3@letter"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "250 ページ(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_d01_i",
+            "map_code": "gef_d01_i"
+        },
+        {
+            "name": "250 ページ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_d01_j",
+            "map_code": "gef_d01_j"
+        }
+    ],
+    "source_html_sha256": "f4fe5afc8ab7fa6886a498d1ec142a40640399b0f9dd8bfc8e98f525e416f5f8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

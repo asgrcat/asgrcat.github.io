@@ -1,0 +1,108 @@
+{
+    "type": "item",
+    "item_id": "26000",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/26000\/"
+    },
+    "name": "アイボリーランス[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "マンモスの牙で作られた\nランス。\nとても硬く加工しにくい。\n先端が尖っており、斬るより\n突く攻撃で威力を発揮する。\nAgi + 2\n攻撃速度 + 3%\n[スピアスタブ]Lv5使用可能\n物理攻撃命中時、\n一定確率で敵を\n出血状態にする\n物理攻撃命中時、\n一定確率で敵に\nオートスペル\n[致命的な傷]Lv1発動",
+    "description_lines": [
+        "マンモスの牙で作られた",
+        "ランス。",
+        "とても硬く加工しにくい。",
+        "先端が尖っており、斬るより",
+        "突く攻撃で威力を発揮する。",
+        "Agi + 2",
+        "攻撃速度 + 3%",
+        "[スピアスタブ]Lv5使用可能",
+        "物理攻撃命中時、",
+        "一定確率で敵を",
+        "出血状態にする",
+        "物理攻撃命中時、",
+        "一定確率で敵に",
+        "オートスペル",
+        "[致命的な傷]Lv1発動"
+    ],
+    "properties": {
+        "series": "two_handed_spear",
+        "series_normalized": [
+            "two_handed_spear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 2,
+        "def": null,
+        "atk": 160,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 100,
+        "weapon_level": 3,
+        "required_level": 50,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手槍",
+            "攻撃": "160",
+            "重量": "100",
+            "武器レベル": "3",
+            "要求レベル": "50",
+            "装備": "転生ソードマン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "4d736647d423ab94013d71fc1658f6a8f5297f36c6b24ca0cfdd1573ada3ab6b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

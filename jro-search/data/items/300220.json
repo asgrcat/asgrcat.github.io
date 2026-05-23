@@ -1,0 +1,112 @@
+{
+    "type": "item",
+    "item_id": "300220",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300220\/"
+    },
+    "name": "グレイウルフカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "物理・魔法攻撃時、\n[灰色狼の森 01]、\n[灰色狼の森 02]に\n出現するモンスターに\n与えるダメージ + 30%",
+    "description_lines": [
+        "物理・魔法攻撃時、",
+        "[灰色狼の森 01]、",
+        "[灰色狼の森 02]に",
+        "出現するモンスターに",
+        "与えるダメージ + 30%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "グレイウルフ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP18_GREY_WOLF"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "亜空の迷宮 灰の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg103",
+            "map_code": "2@lg103"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "灰色狼の森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gw_fild01",
+            "map_code": "gw_fild01"
+        },
+        {
+            "name": "灰色狼の森 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gw_fild02",
+            "map_code": "gw_fild02"
+        }
+    ],
+    "source_html_sha256": "5bb91fa42075795a9d16acf04ec65b59e798bc4ac8d5abc031273c3d4d5e6def",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

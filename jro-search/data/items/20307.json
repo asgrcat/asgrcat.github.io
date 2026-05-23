@@ -1,0 +1,115 @@
+{
+    "type": "item",
+    "item_id": "20307",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20307\/"
+    },
+    "name": "[衣装] ビギナー帽[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "冒険を始めてまもない\n冒険者に贈られる\n衣装用の帽子。\nHit + 30\nMaxHP + 1000\nMaxSP + 200\n変動詠唱時間 - 10%\n[初心者用ポーション]\n使用時、HP回復量 + 50%\nヒール系スキル使用時、\nHP回復量 + 150%\n[応急手当]使用時、\n冒険者アカデミーに\n移動することができる\nBaseLvが10上がる度に追加で\nヒール系スキルを\n受けた時のHP回復量 + 10%\n一部の回復アイテムによる\nHP回復量 + 10%\nHit - 3\n変動詠唱時間 + 1%\nMaxHP - 100 , MaxSP - 20\nヒール系スキル使用時、\nHP回復量 - 10%\nBaseLv99以上の時、\n上記特殊効果が発動しない。\n[[衣装] ビギナー帽]の\n効果は、攻城戦・新攻城戦・\n攻城戦TEの砦内では\n発揮されず、解除されます。\n[[衣装] ビギナー帽]は、\nあらゆる取引、移動が\nできません。",
+    "description_lines": [
+        "冒険を始めてまもない",
+        "冒険者に贈られる",
+        "衣装用の帽子。",
+        "Hit + 30",
+        "MaxHP + 1000",
+        "MaxSP + 200",
+        "変動詠唱時間 - 10%",
+        "[初心者用ポーション]",
+        "使用時、HP回復量 + 50%",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 150%",
+        "[応急手当]使用時、",
+        "冒険者アカデミーに",
+        "移動することができる",
+        "BaseLvが10上がる度に追加で",
+        "ヒール系スキルを",
+        "受けた時のHP回復量 + 10%",
+        "一部の回復アイテムによる",
+        "HP回復量 + 10%",
+        "Hit - 3",
+        "変動詠唱時間 + 1%",
+        "MaxHP - 100 , MaxSP - 20",
+        "ヒール系スキル使用時、",
+        "HP回復量 - 10%",
+        "BaseLv99以上の時、",
+        "上記特殊効果が発動しない。",
+        "[[衣装] ビギナー帽]の",
+        "効果は、攻城戦・新攻城戦・",
+        "攻城戦TEの砦内では",
+        "発揮されず、解除されます。",
+        "[[衣装] ビギナー帽]は、",
+        "あらゆる取引、移動が",
+        "できません。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "下段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e7e17ea01d58ca0a16e8634b6d370519f46412705c357c9b50ab0010faa495d3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

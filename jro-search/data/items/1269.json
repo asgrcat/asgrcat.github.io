@@ -1,0 +1,179 @@
+{
+    "type": "item",
+    "item_id": "1269",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1269\/"
+    },
+    "name": "インバーススケイル[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "assassin": true,
+                "assassin_cross": true,
+                "guillotine_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "竜の鱗の中で一枚だけ逆さに\n生えるという逆鱗で作られた\nカタール。\n凄まじい切れ味を持ち、\n敵を圧倒する気配を放つ。\n物理攻撃時、一定確率で\n自分を中心とした 5x5セルの\n範囲内にいる全ての敵に\n特定の状態異常効果を\n与える。",
+    "description_lines": [
+        "竜の鱗の中で一枚だけ逆さに",
+        "生えるという逆鱗で作られた",
+        "カタール。",
+        "凄まじい切れ味を持ち、",
+        "敵を圧倒する気配を放つ。",
+        "物理攻撃時、一定確率で",
+        "自分を中心とした 5x5セルの",
+        "範囲内にいる全ての敵に",
+        "特定の状態異常効果を",
+        "与える。"
+    ],
+    "properties": {
+        "series": "katar",
+        "series_normalized": [
+            "katar"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "聖",
+        "slot": 0,
+        "def": null,
+        "atk": 140,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 150,
+        "weapon_level": 4,
+        "required_level": 55,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "assassin": true,
+                "assassin_cross": true,
+                "guillotine_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カタール",
+            "攻撃": "140",
+            "重量": "150",
+            "属性": "聖",
+            "武器レベル": "4",
+            "要求レベル": "55",
+            "装備": "アサシンクロス ギロチンクロス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ゴールドオシドス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ACIDUS"
+        },
+        {
+            "name": "首なしラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HEADLESS_MULE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_08",
+            "map_code": "2@la_08"
+        },
+        {
+            "name": "封印の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_08",
+            "map_code": "2@lb_08"
+        },
+        {
+            "name": "異形の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_08",
+            "map_code": "2@lc_08"
+        },
+        {
+            "name": "幻影の迷宮 財宝の眠る地底湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld106",
+            "map_code": "2@ld106"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld208",
+            "map_code": "2@ld208"
+        },
+        {
+            "name": "幻影の迷宮 財宝の眠る地底湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le106",
+            "map_code": "2@le106"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf208",
+            "map_code": "2@lf208"
+        },
+        {
+            "name": "亜空の迷宮 瘴気の谷底",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg115",
+            "map_code": "2@lg115"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アビスレイク地下洞窟 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abyss_03",
+            "map_code": "abyss_03"
+        },
+        {
+            "name": "滝の中の洞窟 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bra_dun02",
+            "map_code": "bra_dun02"
+        }
+    ],
+    "source_html_sha256": "9c72ce1ade0ec4ccc1028f47e13993fc5edc46ae55271fde164c79f10cd4c5bb",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

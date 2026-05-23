@@ -1,0 +1,114 @@
+{
+    "type": "item",
+    "item_id": "2174",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2174\/"
+    },
+    "name": "リュミエールシールド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ブラディウムに特殊な\n魔法を施すことによって\n精製された盾。\n特定のモンスターからの\n攻撃を軽減してくれる。\n聖属性モンスターから\n受けるダメージ - 5%\n竜形モンスターから\n受けるダメージ + 5%\n[リュミエールマント]と\n共に装備時、\n[リュミエールマント]の\n精錬値が1上がる度に追加で\n竜形モンスターから\n受けるダメージ - 1%\n[リュミエールマント]と\n共に装備時、\n[リュミエールシールド]の\n精錬値が1上がる度に追加で\n物理攻撃時、\n聖属性モンスターに\n与えるダメージ + 1%\n[リュミエールシューズ]と\n共に装備時、追加で\n聖属性モンスターから\n受けるダメージ - 5%\n[リュミエールシールド]の\n精錬値が1上がる度に追加で\n聖属性攻撃で\n受けるダメージ - 2%",
+    "description_lines": [
+        "ブラディウムに特殊な",
+        "魔法を施すことによって",
+        "精製された盾。",
+        "特定のモンスターからの",
+        "攻撃を軽減してくれる。",
+        "聖属性モンスターから",
+        "受けるダメージ - 5%",
+        "竜形モンスターから",
+        "受けるダメージ + 5%",
+        "[リュミエールマント]と",
+        "共に装備時、",
+        "[リュミエールマント]の",
+        "精錬値が1上がる度に追加で",
+        "竜形モンスターから",
+        "受けるダメージ - 1%",
+        "[リュミエールマント]と",
+        "共に装備時、",
+        "[リュミエールシールド]の",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃時、",
+        "聖属性モンスターに",
+        "与えるダメージ + 1%",
+        "[リュミエールシューズ]と",
+        "共に装備時、追加で",
+        "聖属性モンスターから",
+        "受けるダメージ - 5%",
+        "[リュミエールシールド]の",
+        "精錬値が1上がる度に追加で",
+        "聖属性攻撃で",
+        "受けるダメージ - 2%"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 50,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 130,
+        "weapon_level": null,
+        "required_level": 65,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "防御": "50",
+            "重量": "130",
+            "要求レベル": "65",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "8b5fb2befd4dd3be2563b0bf6bc4db0417a4c1a3b19d1f49b129d868e0ebac0d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

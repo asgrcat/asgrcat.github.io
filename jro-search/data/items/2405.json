@@ -1,0 +1,158 @@
+{
+    "type": "item",
+    "item_id": "2405",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2405\/"
+    },
+    "name": "ブーツ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "gunslinger": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "taekwon_kid": true,
+                "star_gladiator": true,
+                "gunslinger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ブーツ",
+    "description_lines": [
+        "ブーツ"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 16,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 60,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "gunslinger": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "taekwon_kid": true,
+                "star_gladiator": true,
+                "gunslinger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "防御": "16",
+            "重量": "60",
+            "装備": "ソードマン系 アーチャー系 マーチャント系 シーフ系 テコンキッド 拳聖系 ガンスリンガー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "バフォメット.Jr",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BAPHOMET_"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "幻影の迷宮 赤の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld101",
+            "map_code": "2@ld101"
+        },
+        {
+            "name": "亜空の迷宮 赤の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg102",
+            "map_code": "2@lg102"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アルデバラン時計塔地下 1F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/alde_dun01",
+            "map_code": "alde_dun01"
+        },
+        {
+            "name": "迷宮の森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze03",
+            "map_code": "prt_maze03"
+        }
+    ],
+    "source_html_sha256": "9a14fb6c592d63afb00460805d8e2339454112c8dfa1832392268de3b48b9d33",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

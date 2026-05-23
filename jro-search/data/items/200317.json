@@ -1,0 +1,79 @@
+{
+    "type": "item",
+    "item_id": "200317",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/200317\/"
+    },
+    "name": "コスたまSeasideIV",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する\n・[衣装] オーシャンカラー\nロング\n・[衣装] アクアのヒレ飾り\n・[衣装] サーフボード\n・[衣装] セーラーキャップ\n・[衣装] アニキの鋭い眼光\n・[衣装] 鬼神の盟友\n・[衣装] ぶくぶくハンティ\nングゴーグル\n・[衣装] 海軍士官帽\n・[衣装] バーストフレイム\n・[衣装] 紅の海賊帽子\n[コスたまSeasideIV]は\n倉庫への移動のみ可能です",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する",
+        "・[衣装] オーシャンカラー",
+        "ロング",
+        "・[衣装] アクアのヒレ飾り",
+        "・[衣装] サーフボード",
+        "・[衣装] セーラーキャップ",
+        "・[衣装] アニキの鋭い眼光",
+        "・[衣装] 鬼神の盟友",
+        "・[衣装] ぶくぶくハンティ",
+        "ングゴーグル",
+        "・[衣装] 海軍士官帽",
+        "・[衣装] バーストフレイム",
+        "・[衣装] 紅の海賊帽子",
+        "[コスたまSeasideIV]は",
+        "倉庫への移動のみ可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "91c3806d47124fea30f29e875842cbe2c06e60e833803511841aff5162332cc4",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

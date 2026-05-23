@@ -1,0 +1,82 @@
+{
+    "type": "item",
+    "item_id": "17998",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/17998\/"
+    },
+    "name": "コスたまMonstersVI",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する\n・[衣装] 魔剣士\nタナトスの剣\n・[衣装] 雅人形ロングヘア\n・[衣装] ルナティック\nマフラー\n・[衣装] ウィスパーの祝福\n・[衣装] ポリンベレー帽\n・[衣装] マーリンの耳飾り\n・[衣装] ミノタウロスの角\n・[衣装] ウィスパー\nマスク(緑)\n・[衣装] エルンスト・\nフォン・\nヴォルフ11世\n・[衣装] ドケビ帽\n[コスたまMonstersVI]は\n倉庫への移動のみ可能です",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する",
+        "・[衣装] 魔剣士",
+        "タナトスの剣",
+        "・[衣装] 雅人形ロングヘア",
+        "・[衣装] ルナティック",
+        "マフラー",
+        "・[衣装] ウィスパーの祝福",
+        "・[衣装] ポリンベレー帽",
+        "・[衣装] マーリンの耳飾り",
+        "・[衣装] ミノタウロスの角",
+        "・[衣装] ウィスパー",
+        "マスク(緑)",
+        "・[衣装] エルンスト・",
+        "フォン・",
+        "ヴォルフ11世",
+        "・[衣装] ドケビ帽",
+        "[コスたまMonstersVI]は",
+        "倉庫への移動のみ可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ff3afe8457b1bdd94cd8db12d5e68565a11c6aea6480d9446cfd9d40156c0089",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

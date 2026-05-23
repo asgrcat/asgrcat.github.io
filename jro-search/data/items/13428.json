@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "13428",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13428\/"
+    },
+    "name": "フリストの剣[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "- 轟かす者 - の異名を持つ\nヴァルキリー「フリスト」が\n使っていた剣。\n[フリストの帽子]と\n共に装備時、\n人間形モンスターに\n物理攻撃で与えるダメージ\n+ 4%、Hit + 10。\n[オーディンの祝福]と\n共に装備時、\n[ボウリングバッシュ]で\n与えるダメージ + 5%、\nMaxSP + 50。",
+    "description_lines": [
+        "- 轟かす者 - の異名を持つ",
+        "ヴァルキリー「フリスト」が",
+        "使っていた剣。",
+        "[フリストの帽子]と",
+        "共に装備時、",
+        "人間形モンスターに",
+        "物理攻撃で与えるダメージ",
+        "+ 4%、Hit + 10。",
+        "[オーディンの祝福]と",
+        "共に装備時、",
+        "[ボウリングバッシュ]で",
+        "与えるダメージ + 5%、",
+        "MaxSP + 50。"
+    ],
+    "properties": {
+        "series": "sword",
+        "series_normalized": [
+            "sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 3,
+        "def": null,
+        "atk": 170,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 120,
+        "weapon_level": 4,
+        "required_level": 50,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "剣",
+            "攻撃": "170",
+            "重量": "120",
+            "武器レベル": "4",
+            "要求レベル": "50",
+            "装備": "ソードマン系 マーチャント系 シーフ系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "1e83f6b43d63f94e99456129e671a77c24a9963b9d51e63484c3f95fe0eb598c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

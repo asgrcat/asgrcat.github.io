@@ -1,0 +1,71 @@
+{
+    "type": "item",
+    "item_id": "1001623",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1001623\/"
+    },
+    "name": "ルナフォーマオイスター",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ルナフォーマの海岸沿いに\n生息する青色の牡蠣。\n牡蠣には通常栄養素が多いと\n言われているが、\nこの牡蠣は食べると\n体の栄養素が\nすべて抜けるまで\n腹痛を起こすことで\n有名である。\n絶対食用禁止。",
+    "description_lines": [
+        "ルナフォーマの海岸沿いに",
+        "生息する青色の牡蠣。",
+        "牡蠣には通常栄養素が多いと",
+        "言われているが、",
+        "この牡蠣は食べると",
+        "体の栄養素が",
+        "すべて抜けるまで",
+        "腹痛を起こすことで",
+        "有名である。",
+        "絶対食用禁止。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "dfa440b85cd2c5587a4ed2cf1ebad1962153bbc90a3294b222a54b519bbec66a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

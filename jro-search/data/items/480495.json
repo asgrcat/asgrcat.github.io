@@ -1,0 +1,117 @@
+{
+    "type": "item",
+    "item_id": "480495",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/480495\/"
+    },
+    "name": "ヨルスキャールヴマント[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "大蛇の呪いによって\n力が増幅されたマント。\n一般・ボスモンスターから\n受けるダメージ - 5%\nプレイヤーから\n受けるダメージ - 5%\n闇属性攻撃で\n受けるダメージ - 50%\n[ヨルスキャールヴ\nマント]の\n精錬値が1上がる度に追加で\n全ての基本ステータス + 1\nMaxHP + 2% , MaxSP + 2%\n物理・魔法攻撃時、\n全ての属性のモンスターに\n与えるダメージ + 1%\n[ヨルスキャールヴ\nマント]の\n精錬値が7以上の時、追加で\nスキルディレイ - 25%\n物理・魔法攻撃時、\n全ての属性のモンスターに\n与えるダメージ + 5%\n[ヨルスキャールヴ\nマント]の\n精錬値が9以上の時、追加で\n攻撃速度 + 20%\n物理・魔法攻撃時、\n全ての属性のモンスターに\n与えるダメージ + 10%",
+    "description_lines": [
+        "大蛇の呪いによって",
+        "力が増幅されたマント。",
+        "一般・ボスモンスターから",
+        "受けるダメージ - 5%",
+        "プレイヤーから",
+        "受けるダメージ - 5%",
+        "闇属性攻撃で",
+        "受けるダメージ - 50%",
+        "[ヨルスキャールヴ",
+        "マント]の",
+        "精錬値が1上がる度に追加で",
+        "全ての基本ステータス + 1",
+        "MaxHP + 2% , MaxSP + 2%",
+        "物理・魔法攻撃時、",
+        "全ての属性のモンスターに",
+        "与えるダメージ + 1%",
+        "[ヨルスキャールヴ",
+        "マント]の",
+        "精錬値が7以上の時、追加で",
+        "スキルディレイ - 25%",
+        "物理・魔法攻撃時、",
+        "全ての属性のモンスターに",
+        "与えるダメージ + 5%",
+        "[ヨルスキャールヴ",
+        "マント]の",
+        "精錬値が9以上の時、追加で",
+        "攻撃速度 + 20%",
+        "物理・魔法攻撃時、",
+        "全ての属性のモンスターに",
+        "与えるダメージ + 10%"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 60,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 260,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "60",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "100",
+            "要求レベル": "260",
+            "装備": "4次職 拡張4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c347f39603cb7cb68629f4b4897ca6013f8c8b810dd6d07d1396c8ea81bc8dcd",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

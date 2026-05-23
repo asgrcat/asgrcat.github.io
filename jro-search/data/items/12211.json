@@ -1,0 +1,64 @@
+{
+    "type": "item",
+    "item_id": "12211",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12211\/"
+    },
+    "name": "カプラの名刺",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "カプラ本社で発行されたカプラの名刺。この名刺を持つ者に呼ばれたカプラ職員は、直ちにそれに応じる義務がある。\n使用時、カプラの倉庫サービスを1回利用できる。\n_",
+    "description_lines": [
+        "カプラ本社で発行されたカプラの名刺。この名刺を持つ者に呼ばれたカプラ職員は、直ちにそれに応じる義務がある。",
+        "使用時、カプラの倉庫サービスを1回利用できる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ae746de614f1db7aefaeb27ae321103fec9177fc6aaa64d5b6f5d5d6896d3427",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

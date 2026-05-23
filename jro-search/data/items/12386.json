@@ -1,0 +1,72 @@
+{
+    "type": "item",
+    "item_id": "12386",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12386\/"
+    },
+    "name": "虹色のルビー(火)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "強烈な魔力が\n虹色に光りながら\n渦を巻いている。\n火属性の魔力を持つ\n特定のマップで使用すると\n[クリムゾンロック]Lv5の\n効果発動\n・対象マップ\nウォーロック転職試験場\n[虹色のルビー(火)]は\nNPC売却のみ可能です",
+    "description_lines": [
+        "強烈な魔力が",
+        "虹色に光りながら",
+        "渦を巻いている。",
+        "火属性の魔力を持つ",
+        "特定のマップで使用すると",
+        "[クリムゾンロック]Lv5の",
+        "効果発動",
+        "・対象マップ",
+        "ウォーロック転職試験場",
+        "[虹色のルビー(火)]は",
+        "NPC売却のみ可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 5,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "5"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "eff79a2cea15b09b468da60c448a8b507205b9efd2b8433e65217950e238eeeb",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,111 @@
+{
+    "type": "item",
+    "item_id": "4247",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4247\/"
+    },
+    "name": "ヒトデカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "お化け貝に与えるダメージ30%増加。\nATK+5。\nカニカード、お化け貝カード、と共に装備すると、魚類形モンスターを倒した時、一定確率でおさしみをドロップする。\n水属性モンスターへのダメージ30%増加。",
+    "description_lines": [
+        "お化け貝に与えるダメージ30%増加。",
+        "ATK+5。",
+        "カニカード、お化け貝カード、と共に装備すると、魚類形モンスターを倒した時、一定確率でおさしみをドロップする。",
+        "水属性モンスターへのダメージ30%増加。"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ヒトデ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ASTER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "コモドフィールド 02（ココモビーチ）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/cmd_fild02",
+            "map_code": "cmd_fild02"
+        },
+        {
+            "name": "コモドフィールド 04（ココモビーチ）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/cmd_fild04",
+            "map_code": "cmd_fild04"
+        },
+        {
+            "name": "コモドフィールド 07（ファロス燈台島）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/cmd_fild07",
+            "map_code": "cmd_fild07"
+        },
+        {
+            "name": "常夏の島 ジャワイ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jawaii",
+            "map_code": "jawaii"
+        },
+        {
+            "name": "ベインスフィールド 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ve_fild07",
+            "map_code": "ve_fild07"
+        }
+    ],
+    "source_html_sha256": "7ece8f70a161d2b34ebfe2b4bd5308fd8d73fce40ca3c129efd980cd0227a06f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

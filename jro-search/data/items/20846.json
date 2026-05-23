@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "20846",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20846\/"
+    },
+    "name": "時空マント[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "かなり昔に作られたが、\n全く古びていないマント。\nMdef + 10\n人間形モンスターから\n受けるダメージ - 5%\n[力の時空ブーツ]、\n[俊敏の時空ブーツ]、\n[体力の時空ブーツ]、\n[知力の時空ブーツ]、\n[技巧の時空ブーツ]、\n[幸運の時空ブーツ]の\nいずれかと共に装備時、\n追加で\nMdef + 10\nMaxHP + 15%\n人間形モンスターから\n受けるダメージ - 5%\n[力の時空ブーツ]と\n共に装備時、追加で\nAtk + 30\n[俊敏の時空ブーツ]と\n共に装備時、追加で\n攻撃速度 + 5%\n[体力の時空ブーツ]と\n共に装備時、追加で\nヒール系スキルを\n受けた時のHP回復量 + 10%\n一部の回復アイテムによる\nHP回復量 + 10%\n[知力の時空ブーツ]と\n共に装備時、追加で\nMatk + 30\n[技巧の時空ブーツ]と\n共に装備時、追加で\n遠距離物理攻撃で\n与えるダメージ + 5%\n[幸運の時空ブーツ]と\n共に装備時、追加で\nクリティカル攻撃で\n与えるダメージ + 5%",
+    "description_lines": [
+        "かなり昔に作られたが、",
+        "全く古びていないマント。",
+        "Mdef + 10",
+        "人間形モンスターから",
+        "受けるダメージ - 5%",
+        "[力の時空ブーツ]、",
+        "[俊敏の時空ブーツ]、",
+        "[体力の時空ブーツ]、",
+        "[知力の時空ブーツ]、",
+        "[技巧の時空ブーツ]、",
+        "[幸運の時空ブーツ]の",
+        "いずれかと共に装備時、",
+        "追加で",
+        "Mdef + 10",
+        "MaxHP + 15%",
+        "人間形モンスターから",
+        "受けるダメージ - 5%",
+        "[力の時空ブーツ]と",
+        "共に装備時、追加で",
+        "Atk + 30",
+        "[俊敏の時空ブーツ]と",
+        "共に装備時、追加で",
+        "攻撃速度 + 5%",
+        "[体力の時空ブーツ]と",
+        "共に装備時、追加で",
+        "ヒール系スキルを",
+        "受けた時のHP回復量 + 10%",
+        "一部の回復アイテムによる",
+        "HP回復量 + 10%",
+        "[知力の時空ブーツ]と",
+        "共に装備時、追加で",
+        "Matk + 30",
+        "[技巧の時空ブーツ]と",
+        "共に装備時、追加で",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 5%",
+        "[幸運の時空ブーツ]と",
+        "共に装備時、追加で",
+        "クリティカル攻撃で",
+        "与えるダメージ + 5%"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 38,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "防御": "38",
+            "重量": "40",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "698ec223a60010c1e50f0a77197851ddea5c5f15accec75321289729217f43f2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

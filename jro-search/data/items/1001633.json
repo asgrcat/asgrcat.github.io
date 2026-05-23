@@ -1,0 +1,116 @@
+{
+    "type": "item",
+    "item_id": "1001633",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1001633\/"
+    },
+    "name": "狂信徒のマスク",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ヨルムンガンド教団の\n狂信徒たちが\n愛用するマスク。\n神魔戦争で破壊された文明で\n流行していた衣服様式で\n伝道や教団のための\n活動をするときに\n着用する。",
+    "description_lines": [
+        "ヨルムンガンド教団の",
+        "狂信徒たちが",
+        "愛用するマスク。",
+        "神魔戦争で破壊された文明で",
+        "流行していた衣服様式で",
+        "伝道や教団のための",
+        "活動をするときに",
+        "着用する。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ヨスタクリーナー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP21_YOSTER_A"
+        },
+        {
+            "name": "ヨスタフィクサー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP21_YOSTER_B"
+        },
+        {
+            "name": "ヨスタコレクター",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP21_YOSTER_C"
+        },
+        {
+            "name": "ヨスタネゴシエーター",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP21_YOSTER_D"
+        },
+        {
+            "name": "ヨスタシェフ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP21_YOSTER_E"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "亜空の迷宮 邪教徒の神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg124",
+            "map_code": "2@lg124"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "ギムレー 1階(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_tmple1",
+            "map_code": "jor_tmple1"
+        },
+        {
+            "name": "ギムレー 1階",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_tmple1j",
+            "map_code": "jor_tmple1j"
+        }
+    ],
+    "source_html_sha256": "08b3bdbda4b79d2a0a7aecdec165252531961f4def2b7123d725feec0f037de9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

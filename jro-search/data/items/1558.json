@@ -1,0 +1,125 @@
+{
+    "type": "item",
+    "item_id": "1558",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1558\/"
+    },
+    "name": "少女の日記[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sage": true,
+                "priest": true,
+                "star_gladiator": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "少女の日記。ページに日付とその日の内容が書かれているが、わからない文字で書かれているため、読む事はできない。\nモンスターボンゴンに150%の追加ダメージ",
+    "description_lines": [
+        "少女の日記。ページに日付とその日の内容が書かれているが、わからない文字で書かれているため、読む事はできない。",
+        "モンスターボンゴンに150%の追加ダメージ"
+    ],
+    "properties": {
+        "series": "book",
+        "series_normalized": [
+            "book"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 60,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": 4,
+        "required_level": 40,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sage": true,
+                "priest": true,
+                "star_gladiator": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "本",
+            "攻撃": "60",
+            "重量": "30",
+            "武器レベル": "4",
+            "要求レベル": "40",
+            "装備": "プリースト系 セージ系 拳聖系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ムナック",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MUNAK"
+        },
+        {
+            "name": "ムナ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_256"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "龍之城ダンジョン 02（王陵 内部）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lou_dun02",
+            "map_code": "lou_dun02"
+        },
+        {
+            "name": "フェイヨン地下洞窟 B3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_dun02",
+            "map_code": "pay_dun02"
+        }
+    ],
+    "source_html_sha256": "d3be886c8df7a7da1aee9946b4b108b19f595b4fded1f56b1ac88c34514a5ca8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

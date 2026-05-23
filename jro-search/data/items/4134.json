@@ -1,0 +1,146 @@
+{
+    "type": "item",
+    "item_id": "4134",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4134\/"
+    },
+    "name": "ドラキュラカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "物理攻撃命中時、\n一定確率で敵に与えた\nダメージの5%を\nSPとして吸収\n[異境の統轄者]と\n共に装備時、追加で\n近接・遠距離物理攻撃で\n与えるダメージ + 15%\n物理攻撃で\nモンスターを倒した時、\nHP + 200 , SP + 20",
+    "description_lines": [
+        "物理攻撃命中時、",
+        "一定確率で敵に与えた",
+        "ダメージの5%を",
+        "SPとして吸収",
+        "[異境の統轄者]と",
+        "共に装備時、追加で",
+        "近接・遠距離物理攻撃で",
+        "与えるダメージ + 15%",
+        "物理攻撃で",
+        "モンスターを倒した時、",
+        "HP + 200 , SP + 20"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ドラキュラ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DRACULA"
+        },
+        {
+            "name": "囚人 267BD184",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_54"
+        },
+        {
+            "name": "ドラキュラ（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_55"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_25",
+            "map_code": "2@la_25"
+        },
+        {
+            "name": "封印の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_25",
+            "map_code": "2@lb_25"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_29",
+            "map_code": "2@lc_29"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld119",
+            "map_code": "2@ld119"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld225",
+            "map_code": "2@ld225"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le119",
+            "map_code": "2@le119"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf225",
+            "map_code": "2@lf225"
+        },
+        {
+            "name": "異形の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@lc_00",
+            "map_code": "3@lc_00"
+        },
+        {
+            "name": "ゲフェン地下ダンジョン B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_dun01",
+            "map_code": "gef_dun01"
+        },
+        {
+            "name": "プロンテラ地下監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_prison",
+            "map_code": "prt_prison"
+        }
+    ],
+    "source_html_sha256": "a123900b6c9b146144c93a4e567f68587e417a8969286fce8822d142239c9280",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

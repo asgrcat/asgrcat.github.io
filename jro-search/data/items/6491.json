@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "6491",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6491\/"
+    },
+    "name": "魔粘土",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ボンバスだけが加工できる\n特殊な粘土。\nキャンプ場にいるボンバスに\n持っていこう。",
+    "description_lines": [
+        "ボンバスだけが加工できる",
+        "特殊な粘土。",
+        "キャンプ場にいるボンバスに",
+        "持っていこう。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 2,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "2"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "29f52952ad5c156f0ac480de8ac1fd8084635f247ca5b8d7fc5c5ea183a36c60",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

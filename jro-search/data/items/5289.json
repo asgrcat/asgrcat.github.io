@@ -1,0 +1,118 @@
+{
+    "type": "item",
+    "item_id": "5289",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5289\/"
+    },
+    "name": "バニルミルトの帽子[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ホムンクルスの\nバニルミルトを真似て\n作られた帽子。\n冷たくてプニプニしている。\nMdef + 5\n物理攻撃命中時、\n一定確率でオートスペル\n[ファイアーボルト]Lv1、\n[コールドボルト]Lv1、\n[ライトニングボルト]Lv1\n発動\n[浮遊する賢者の石]と\n共に装備時、追加で\n物理攻撃命中時、\n一定確率でオートスペル\n[アーススパイク]Lv1、\n[ダブルキャスティング]Lv1\n発動\n[ファイアーボルト]、\n[コールドボルト]、\n[ライトニングボルト]、\n[アーススパイク]で\n与えるダメージ + 50%\n[ファイアーボルト]、\n[コールドボルト]、\n[ライトニングボルト]、\n[アーススパイク]、\n[ダブルキャスティング]を\nLv2以上習得している場合、\n習得しているLvで発動\n装備解除時、SP - 200\n絶対に壊れない\n精錬不可",
+    "description_lines": [
+        "ホムンクルスの",
+        "バニルミルトを真似て",
+        "作られた帽子。",
+        "冷たくてプニプニしている。",
+        "Mdef + 5",
+        "物理攻撃命中時、",
+        "一定確率でオートスペル",
+        "[ファイアーボルト]Lv1、",
+        "[コールドボルト]Lv1、",
+        "[ライトニングボルト]Lv1",
+        "発動",
+        "[浮遊する賢者の石]と",
+        "共に装備時、追加で",
+        "物理攻撃命中時、",
+        "一定確率でオートスペル",
+        "[アーススパイク]Lv1、",
+        "[ダブルキャスティング]Lv1",
+        "発動",
+        "[ファイアーボルト]、",
+        "[コールドボルト]、",
+        "[ライトニングボルト]、",
+        "[アーススパイク]で",
+        "与えるダメージ + 50%",
+        "[ファイアーボルト]、",
+        "[コールドボルト]、",
+        "[ライトニングボルト]、",
+        "[アーススパイク]、",
+        "[ダブルキャスティング]を",
+        "Lv2以上習得している場合、",
+        "習得しているLvで発動",
+        "装備解除時、SP - 200",
+        "絶対に壊れない",
+        "精錬不可"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 30,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "上段",
+            "重量": "100",
+            "要求レベル": "30",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "59d6eb69b9ca5fbc62ff41bb6f1ab836e13fc9e6972a175ecedc4a5ac26eca9f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

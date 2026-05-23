@@ -1,0 +1,94 @@
+{
+    "type": "item",
+    "item_id": "300667",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300667\/"
+    },
+    "name": "グラトニーカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "headgear"
+        ],
+        "card_attachable_positions": {
+            "upper": true,
+            "middle": true,
+            "lower": true
+        }
+    },
+    "description": "地・闇属性攻撃で\n受けるダメージ - 10%\nスタンに対する耐性 + 50%\n[Mクラウドキル]で\n受けるダメージ - 50%\n[厄災の魔将]と\n共に装備時、追加で\nMaxHP + 15%\n地属性攻撃で\n受けるダメージ - 10%",
+    "description_lines": [
+        "地・闇属性攻撃で",
+        "受けるダメージ - 10%",
+        "スタンに対する耐性 + 50%",
+        "[Mクラウドキル]で",
+        "受けるダメージ - 50%",
+        "[厄災の魔将]と",
+        "共に装備時、追加で",
+        "MaxHP + 15%",
+        "地属性攻撃で",
+        "受けるダメージ - 10%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "headgear"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "兜",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "グラトニー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CH1_GLUTTO"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "歪んだブリミル 2階",
+            "url": "https:\/\/rotool.gungho.jp\/map\/uknw_ruin2",
+            "map_code": "uknw_ruin2"
+        }
+    ],
+    "source_html_sha256": "a20ff0ae9095d84e2cab3561933f33a25492127629bb90b42d50f1f0b2dd3a67",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

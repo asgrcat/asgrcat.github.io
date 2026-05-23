@@ -1,0 +1,113 @@
+{
+    "type": "item",
+    "item_id": "6569",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6569\/"
+    },
+    "name": "エビの触角",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "エビの触角。",
+    "description_lines": [
+        "エビの触角。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "キングドラモ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KING_DRAMOH"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_05",
+            "map_code": "2@la_05"
+        },
+        {
+            "name": "封印の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_05",
+            "map_code": "2@lb_05"
+        },
+        {
+            "name": "異形の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_05",
+            "map_code": "2@lc_05"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld205",
+            "map_code": "2@ld205"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf205",
+            "map_code": "2@lf205"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "イズルード海底神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/iz_dun04",
+            "map_code": "iz_dun04"
+        },
+        {
+            "name": "イズルード海底都市",
+            "url": "https:\/\/rotool.gungho.jp\/map\/iz_dun05",
+            "map_code": "iz_dun05"
+        }
+    ],
+    "source_html_sha256": "5b0bb6f8a253fd737dcfbf9bdb992c1fdca66804e78c19fa6242b292a67b91b5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,158 @@
+{
+    "type": "item",
+    "item_id": "2347",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2347\/"
+    },
+    "name": "シャピニハ海の叫び[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "着用すると冷気で\n骨の髄まで凍るような\n感覚を受ける鎧。\n鎧そのものに水属性が\n永久付与されている。\n鎧に水属性を付与する\n[チャームオブ\nラフウィンド]と\n共に装備時、追加で\n物理攻撃時、\n水属性モンスターに\n与えるダメージ + 2%\n[シャピニハ海の叫び]の\n精錬値が5以上の時、\n精錬値が1上がる度に追加で\n物理攻撃時、\n水属性モンスターに\n与えるダメージ + 1%",
+    "description_lines": [
+        "着用すると冷気で",
+        "骨の髄まで凍るような",
+        "感覚を受ける鎧。",
+        "鎧そのものに水属性が",
+        "永久付与されている。",
+        "鎧に水属性を付与する",
+        "[チャームオブ",
+        "ラフウィンド]と",
+        "共に装備時、追加で",
+        "物理攻撃時、",
+        "水属性モンスターに",
+        "与えるダメージ + 2%",
+        "[シャピニハ海の叫び]の",
+        "精錬値が5以上の時、",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃時、",
+        "水属性モンスターに",
+        "与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 25,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 220,
+        "weapon_level": null,
+        "required_level": 45,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "25",
+            "重量": "220",
+            "要求レベル": "45",
+            "装備": "ノービス系を除く全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "クラーケン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KRAKEN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "試練の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_05",
+            "map_code": "2@la_05"
+        },
+        {
+            "name": "封印の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_05",
+            "map_code": "2@lb_05"
+        },
+        {
+            "name": "異形の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_05",
+            "map_code": "2@lc_05"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld205",
+            "map_code": "2@ld205"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf205",
+            "map_code": "2@lf205"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "イズルード海底都市",
+            "url": "https:\/\/rotool.gungho.jp\/map\/iz_dun05",
+            "map_code": "iz_dun05"
+        }
+    ],
+    "source_html_sha256": "2b3c7d3a760de825da6823aa42ecac8913fb365f491757326e399524ac66dfac",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

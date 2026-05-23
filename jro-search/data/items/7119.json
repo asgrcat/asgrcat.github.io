@@ -1,0 +1,397 @@
+{
+    "type": "item",
+    "item_id": "7119",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7119\/"
+    },
+    "name": "菌糸",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "きのこやかび類を形成している組職。\n_",
+    "description_lines": [
+        "きのこやかび類を形成している組職。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "デーモンパンク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DEMON_PUNGUS"
+        },
+        {
+            "name": "悪魔カビ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_192"
+        },
+        {
+            "name": "ベノマス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/VENOMOUS"
+        },
+        {
+            "name": "聖殿のウィレス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_ANOPHELES"
+        },
+        {
+            "name": "カニバラウス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RR_ARCLOUSE"
+        },
+        {
+            "name": "プラズマラット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RR_CRAMP"
+        },
+        {
+            "name": "ウィレス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ANOPHELES"
+        },
+        {
+            "name": "ポイゾナス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/POISONOUS"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "ラヴィーネ山脈01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ravi",
+            "map_code": "1@ravi"
+        },
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_10",
+            "map_code": "2@la_10"
+        },
+        {
+            "name": "試練の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_23",
+            "map_code": "2@la_23"
+        },
+        {
+            "name": "封印の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_11",
+            "map_code": "2@lb_11"
+        },
+        {
+            "name": "封印の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_28",
+            "map_code": "2@lb_28"
+        },
+        {
+            "name": "異形の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_06",
+            "map_code": "2@lc_06"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_10",
+            "map_code": "2@lc_10"
+        },
+        {
+            "name": "異形の迷宮 忘れられた炭鉱",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_20",
+            "map_code": "2@lc_20"
+        },
+        {
+            "name": "異形の迷宮 疫病街",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_21",
+            "map_code": "2@lc_21"
+        },
+        {
+            "name": "異形の迷宮 最下層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_22",
+            "map_code": "2@lc_22"
+        },
+        {
+            "name": "幻影の迷宮 魔物の巣穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld105",
+            "map_code": "2@ld105"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld108",
+            "map_code": "2@ld108"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld112",
+            "map_code": "2@ld112"
+        },
+        {
+            "name": "幻影の迷宮 汚染処理場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld116",
+            "map_code": "2@ld116"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld210",
+            "map_code": "2@ld210"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld223",
+            "map_code": "2@ld223"
+        },
+        {
+            "name": "幻影の迷宮 魔物の巣穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le105",
+            "map_code": "2@le105"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le108",
+            "map_code": "2@le108"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le112",
+            "map_code": "2@le112"
+        },
+        {
+            "name": "幻影の迷宮 汚染処理場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le116",
+            "map_code": "2@le116"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf210",
+            "map_code": "2@lf210"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf223",
+            "map_code": "2@lf223"
+        },
+        {
+            "name": "亜空の迷宮 地下洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg106",
+            "map_code": "2@lg106"
+        },
+        {
+            "name": "ラヴィーネ山脈02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ravi",
+            "map_code": "2@ravi"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "周辺エリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@letter",
+            "map_code": "3@letter"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "エンドレスタワー 覇王の間",
+            "url": "https:\/\/rotool.gungho.jp\/map\/6@tower",
+            "map_code": "6@tower"
+        },
+        {
+            "name": "標本環境(聖殿)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_temple",
+            "map_code": "bl_temple"
+        },
+        {
+            "name": "アルデバラン時計塔地上 1F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower1",
+            "map_code": "c_tower1"
+        },
+        {
+            "name": "アルデバラン時計塔地上 2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower2",
+            "map_code": "c_tower2"
+        },
+        {
+            "name": "鉱山ダンジョン 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun01",
+            "map_code": "ein_dun01"
+        },
+        {
+            "name": "鉱山ダンジョン 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun02",
+            "map_code": "ein_dun02"
+        },
+        {
+            "name": "鉱山ダンジョン 03(1)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun03",
+            "map_code": "ein_dun03"
+        },
+        {
+            "name": "鉱山ダンジョン 03(2)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun03_j",
+            "map_code": "ein_dun03_j"
+        },
+        {
+            "name": "アインブロックフィールド 05",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_fild05",
+            "map_code": "ein_fild05"
+        },
+        {
+            "name": "アインブロックフィールド 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_fild07",
+            "map_code": "ein_fild07"
+        },
+        {
+            "name": "鋼鉄の都市アインブロック",
+            "url": "https:\/\/rotool.gungho.jp\/map\/einbroch",
+            "map_code": "einbroch"
+        },
+        {
+            "name": "グラストヘイム地下水路 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_sew02",
+            "map_code": "gl_sew02"
+        },
+        {
+            "name": "ロックリッジ地下街",
+            "url": "https:\/\/rotool.gungho.jp\/map\/harboro2",
+            "map_code": "harboro2"
+        },
+        {
+            "name": "ロックリッジ地下街 奥地",
+            "url": "https:\/\/rotool.gungho.jp\/map\/harboro3",
+            "map_code": "harboro3"
+        },
+        {
+            "name": "フィゲルフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild02",
+            "map_code": "hu_fild02"
+        },
+        {
+            "name": "フィゲルフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild04",
+            "map_code": "hu_fild04"
+        },
+        {
+            "name": "スフィンクスダンジョン B1F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/in_sphinx1",
+            "map_code": "in_sphinx1"
+        },
+        {
+            "name": "生体工学研究所 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun01",
+            "map_code": "lhz_dun01"
+        },
+        {
+            "name": "生体工学研究所 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun02",
+            "map_code": "lhz_dun02"
+        },
+        {
+            "name": "ジュノーフィールド 06（エルメスプレート）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/yuno_fild06",
+            "map_code": "yuno_fild06"
+        },
+        {
+            "name": "ジュノーフィールド 09（シュバルツバルド警備隊野営地）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/yuno_fild09",
+            "map_code": "yuno_fild09"
+        },
+        {
+            "name": "ジュノーフィールド 11",
+            "url": "https:\/\/rotool.gungho.jp\/map\/yuno_fild11",
+            "map_code": "yuno_fild11"
+        }
+    ],
+    "source_html_sha256": "ff4f0e6c77da24a57c285411dd29c186700806ca43096c1b16b1a71e69f969a8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

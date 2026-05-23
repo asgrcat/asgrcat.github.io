@@ -1,0 +1,64 @@
+{
+    "type": "item",
+    "item_id": "12253",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12253\/"
+    },
+    "name": "フベルゲルミルの酒（特大）",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "全ての川の水の源泉と呼ばれる伝説の泉の名を付けられるほど、飲んだ人皆がこのお酒を称賛したと言われている。\nDEX + 10。60分間持続。\n_",
+    "description_lines": [
+        "全ての川の水の源泉と呼ばれる伝説の泉の名を付けられるほど、飲んだ人皆がこのお酒を称賛したと言われている。",
+        "DEX + 10。60分間持続。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "d10d2eb9658b4abb80ca7b68fc95b45ede9b182c364ee2275019bf24debd15e3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

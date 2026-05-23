@@ -1,0 +1,101 @@
+{
+    "type": "item",
+    "item_id": "31035",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31035\/"
+    },
+    "name": "[衣装] お金を失った者の心[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "すべてを失って破産した\n商人の怨念が込められている\nという呪われた\n衣装用のヘアバンド。\n着用した者は\nお金を失った者の心を\n感じることができる\nようになり、\n悲しみで全身が包まれて\n絶望の淵に落ちたような\n感覚になるが、\nまた立ち直ることができる\nという強烈な不屈の\n闘志によって着用者の能力が\n増幅される不思議な\nヘアバンド。",
+    "description_lines": [
+        "すべてを失って破産した",
+        "商人の怨念が込められている",
+        "という呪われた",
+        "衣装用のヘアバンド。",
+        "着用した者は",
+        "お金を失った者の心を",
+        "感じることができる",
+        "ようになり、",
+        "悲しみで全身が包まれて",
+        "絶望の淵に落ちたような",
+        "感覚になるが、",
+        "また立ち直ることができる",
+        "という強烈な不屈の",
+        "闘志によって着用者の能力が",
+        "増幅される不思議な",
+        "ヘアバンド。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "上段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "206cbe2c9da9deb5e982a38ad95003f64f97d4b4caf9694043640298b66d3272",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

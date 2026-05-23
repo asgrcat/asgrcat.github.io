@@ -1,0 +1,107 @@
+{
+    "type": "item",
+    "item_id": "490746",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/490746\/"
+    },
+    "name": "セレスティアルリング[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "天体より零れ落ちた\n流星の欠片で作られた\nリング。\n奇跡によって\n英雄に勇気を授ける。\nCri + 25\n攻撃速度 + 15%\nMaxHP + 15%\nスキルディレイ - 15%\n物理・魔法攻撃で\n与えるダメージ + 10%\nプレイヤーから\n受けるダメージ - 3%\n[セレスティアルピース]と\n共に装備時、追加で\n物理・魔法攻撃で\n与えるダメージ + 30%",
+    "description_lines": [
+        "天体より零れ落ちた",
+        "流星の欠片で作られた",
+        "リング。",
+        "奇跡によって",
+        "英雄に勇気を授ける。",
+        "Cri + 25",
+        "攻撃速度 + 15%",
+        "MaxHP + 15%",
+        "スキルディレイ - 15%",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 10%",
+        "プレイヤーから",
+        "受けるダメージ - 3%",
+        "[セレスティアルピース]と",
+        "共に装備時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 30%"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "200",
+            "装備": "4次職 拡張4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "92f3634c5157bc326a8376d911d7a15fbeafe3207a2c7b2518ed4eae285b5fbf",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

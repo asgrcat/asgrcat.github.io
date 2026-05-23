@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "480009",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/480009\/"
+    },
+    "name": "処女宮のマント[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "黄道を巡る星座の1つ、\n処女宮の力を宿した\nマント。\nMatk + 20\nMaxHP + 10% , MaxSP + 10%\nスキルディレイ - 5%\n無属性攻撃で\n受けるダメージ - 20%\nアークビショップ系が\n装備時、\nMatk + 30\nボスモンスターから\n受けるダメージ - 5%\n詠唱が中断されない\n精錬値が8以上の時、追加で\n攻撃速度 + 20%\n[処女宮のメイル]、\n[処女宮のシューズ]と\n共に装備時、追加で\nMaxHP + 2000\nMaxSP + 200\n全ての属性攻撃で\n受けるダメージ - 20%\n絶対に凍結しない\nアークビショップ系が\n装備時、\n[ゾディアック]と\n共に装備時、\n[処女宮のマント]の\n精錬値が1上がる度に追加で\n完全回避 + 3\n[処女宮のマント]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "黄道を巡る星座の1つ、",
+        "処女宮の力を宿した",
+        "マント。",
+        "Matk + 20",
+        "MaxHP + 10% , MaxSP + 10%",
+        "スキルディレイ - 5%",
+        "無属性攻撃で",
+        "受けるダメージ - 20%",
+        "アークビショップ系が",
+        "装備時、",
+        "Matk + 30",
+        "ボスモンスターから",
+        "受けるダメージ - 5%",
+        "詠唱が中断されない",
+        "精錬値が8以上の時、追加で",
+        "攻撃速度 + 20%",
+        "[処女宮のメイル]、",
+        "[処女宮のシューズ]と",
+        "共に装備時、追加で",
+        "MaxHP + 2000",
+        "MaxSP + 200",
+        "全ての属性攻撃で",
+        "受けるダメージ - 20%",
+        "絶対に凍結しない",
+        "アークビショップ系が",
+        "装備時、",
+        "[ゾディアック]と",
+        "共に装備時、",
+        "[処女宮のマント]の",
+        "精錬値が1上がる度に追加で",
+        "完全回避 + 3",
+        "[処女宮のマント]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 25,
+        "atk": null,
+        "mdef": 5,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "25",
+            "Mdef": "5",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "30",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "d9b95c3ad7756c57801eb41a089847aeb3593d4208e82821a27ae72631f782ab",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

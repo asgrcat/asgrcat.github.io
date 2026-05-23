@@ -1,0 +1,170 @@
+{
+    "type": "item",
+    "item_id": "7211",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7211\/"
+    },
+    "name": "ロゼッタストーンの欠片",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "象形文字が書かれている古い石。\n_",
+    "description_lines": [
+        "象形文字が書かれている古い石。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "この地に座する古代王",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_041"
+        },
+        {
+            "name": "アメンホテプ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/N_AMON_RA"
+        },
+        {
+            "name": "アモンラー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AMON_RA"
+        },
+        {
+            "name": "アモンラー（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_AMON_RA"
+        },
+        {
+            "name": "ホード",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HODE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "試練の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_27",
+            "map_code": "2@la_27"
+        },
+        {
+            "name": "封印の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_27",
+            "map_code": "2@lb_27"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld227",
+            "map_code": "2@ld227"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf227",
+            "map_code": "2@lf227"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "実習室（砂漠）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_prac_05",
+            "map_code": "ac_prac_05"
+        },
+        {
+            "name": "コモドフィールド 06（サンダルマン要塞西）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/cmd_fild06",
+            "map_code": "cmd_fild06"
+        },
+        {
+            "name": "コモドフィールド 07（ファロス燈台島）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/cmd_fild07",
+            "map_code": "cmd_fild07"
+        },
+        {
+            "name": "コモドフィールド 09（サンダルマン要塞南）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/cmd_fild09",
+            "map_code": "cmd_fild09"
+        },
+        {
+            "name": "ソグラト砂漠 11",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild11",
+            "map_code": "moc_fild11"
+        },
+        {
+            "name": "ソグラト砂漠 16",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild16",
+            "map_code": "moc_fild16"
+        },
+        {
+            "name": "ソグラト砂漠 17",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild17",
+            "map_code": "moc_fild17"
+        },
+        {
+            "name": "ソグラト砂漠 18",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild18",
+            "map_code": "moc_fild18"
+        },
+        {
+            "name": "ピラミッドダンジョン B3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd06",
+            "map_code": "moc_pryd06"
+        },
+        {
+            "name": "ピラミッドダンジョン 秘密の地下室02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_prydn2",
+            "map_code": "moc_prydn2"
+        }
+    ],
+    "source_html_sha256": "eafe82f23a447780ac4c90430b97213d5f7d7a84fe2b1163c49d02ec1c0810bd",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

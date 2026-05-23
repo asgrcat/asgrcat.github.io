@@ -1,0 +1,76 @@
+{
+    "type": "item",
+    "item_id": "104875",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/104875\/"
+    },
+    "name": "トロピカルサマーフラッペBOX(150杯)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "トロピカルサマー\nフラッペが150杯入った\n保冷用のBOX。\n賞味期限が来る前に\n摂取しよう。\n[トロピカルサマー\nフラッペBOX]は\n受け取ってから168時間後に\n自動的に消滅します\n[トロピカルサマー\nフラッペ]は\n[トロピカルサマー\nフラッペBOX]を\n開けてから72時間後に\n自動的に消滅します",
+    "description_lines": [
+        "トロピカルサマー",
+        "フラッペが150杯入った",
+        "保冷用のBOX。",
+        "賞味期限が来る前に",
+        "摂取しよう。",
+        "[トロピカルサマー",
+        "フラッペBOX]は",
+        "受け取ってから168時間後に",
+        "自動的に消滅します",
+        "[トロピカルサマー",
+        "フラッペ]は",
+        "[トロピカルサマー",
+        "フラッペBOX]を",
+        "開けてから72時間後に",
+        "自動的に消滅します"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 450,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "450"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "0b724f744e91c4d4a1b3b3486b6d862e14132b04bd1e1bd7e9997c6a32fccf7a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

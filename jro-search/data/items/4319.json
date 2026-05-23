@@ -1,0 +1,134 @@
+{
+    "type": "item",
+    "item_id": "4319",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4319\/"
+    },
+    "name": "フリーズタートルカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "shoes"
+        ],
+        "card_attachable_positions": {
+            "shoes": true
+        }
+    },
+    "description": "MAXHP+300。精錬値が9以上の場合、バッシュのダメージ10%増加。\nアサルトタートルカード、ソリッドタートルカード、パーメットタートルカード、ヒートタートルカードと共に装備すると、\n物理攻撃時、ウェポンパーフェクションLv1が発動する。\nHP回復力50%増加。\n敵を倒した時、たまに赤ポーションをドロップする。\nMAXHP+20%、STR+10。\nソードマン系職業がこのセットを装備すると、赤ポーション、黄ポーション、白ポーションを使用時の回復量が50%増加する。",
+    "description_lines": [
+        "MAXHP+300。精錬値が9以上の場合、バッシュのダメージ10%増加。",
+        "アサルトタートルカード、ソリッドタートルカード、パーメットタートルカード、ヒートタートルカードと共に装備すると、",
+        "物理攻撃時、ウェポンパーフェクションLv1が発動する。",
+        "HP回復力50%増加。",
+        "敵を倒した時、たまに赤ポーションをドロップする。",
+        "MAXHP+20%、STR+10。",
+        "ソードマン系職業がこのセットを装備すると、赤ポーション、黄ポーション、白ポーションを使用時の回復量が50%増加する。"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "shoes"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "靴",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "フリーズタートル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/FREEZER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "幻影の迷宮 地底洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld102",
+            "map_code": "2@ld102"
+        },
+        {
+            "name": "幻影の迷宮 凍える氷穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld103",
+            "map_code": "2@ld103"
+        },
+        {
+            "name": "幻影の迷宮 地底洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le102",
+            "map_code": "2@le102"
+        },
+        {
+            "name": "幻影の迷宮 凍える氷穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le103",
+            "map_code": "2@le103"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "タートルアイランドダンジョン 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tur_dun02",
+            "map_code": "tur_dun02"
+        },
+        {
+            "name": "タートルアイランドダンジョン 02（陽居村）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tur_dun03",
+            "map_code": "tur_dun03"
+        },
+        {
+            "name": "タートルアイランドダンジョン 03（久陽宮）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tur_dun04",
+            "map_code": "tur_dun04"
+        }
+    ],
+    "source_html_sha256": "5e02199422e170d9a39a16deff6925834f73e855f9d817bf8f1bbaa05369e9e6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

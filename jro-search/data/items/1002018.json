@@ -1,0 +1,76 @@
+{
+    "type": "item",
+    "item_id": "1002018",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1002018\/"
+    },
+    "name": "ミオソティスの花",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "神秘的な青みがかった\nミオソティス。\n陰鬱で執着的な雰囲気を\n放っている。",
+    "description_lines": [
+        "神秘的な青みがかった",
+        "ミオソティス。",
+        "陰鬱で執着的な雰囲気を",
+        "放っている。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ミオソティス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CH1_MYOSOTIS"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "歪んだブリミル 2階",
+            "url": "https:\/\/rotool.gungho.jp\/map\/uknw_ruin2",
+            "map_code": "uknw_ruin2"
+        }
+    ],
+    "source_html_sha256": "b580f7e1193cf9d63db9b2da03c360a8d17dfd205af6f240adaa77cfa1bd45ef",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,102 @@
+{
+    "type": "item",
+    "item_id": "300293",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300293\/"
+    },
+    "name": "エルジェーベトカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "物理攻撃命中時、\n一定確率で敵に\nオートスペル\n[ヘルインフェルノ]\nLv3発動",
+    "description_lines": [
+        "物理攻撃命中時、",
+        "一定確率で敵に",
+        "オートスペル",
+        "[ヘルインフェルノ]",
+        "Lv3発動"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "エルジェーベト",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ERZSEBET"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "亜空の迷宮 隠匿された通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg107",
+            "map_code": "2@lg107"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "アルデバラン時計塔地下 未知の空間",
+            "url": "https:\/\/rotool.gungho.jp\/map\/clock_01",
+            "map_code": "clock_01"
+        }
+    ],
+    "source_html_sha256": "0f29ff54087a63bf71547b22f5297c46a5a569163a5a7ff653b3d4a319693352",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

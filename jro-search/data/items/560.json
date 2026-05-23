@@ -1,0 +1,68 @@
+{
+    "type": "item",
+    "item_id": "560",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/560\/"
+    },
+    "name": "手作りホワイトチョコ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ホワイトチョコレートを湯煎にかけて溶かした後、ハート型に固めてきれいな装飾をしたもの。心が込められているのを感じられる。 主に男性が告白する時に渡すものとして有名である。\n_",
+    "description_lines": [
+        "ホワイトチョコレートを湯煎にかけて溶かした後、ハート型に固めてきれいな装飾をしたもの。心が込められているのを感じられる。 主に男性が告白する時に渡すものとして有名である。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 8,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "8"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ﾎﾜｲﾄﾁｮｺﾙﾁ･ｸﾞﾗﾝﾃﾞ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GIANT_DEVIRUCHI_W"
+        }
+    ],
+    "available_maps": [],
+    "source_html_sha256": "1ea35a8ab4ca3383ffaf3050776a9befd882014a24042478758b1060f106fa11",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

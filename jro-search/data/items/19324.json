@@ -1,0 +1,99 @@
+{
+    "type": "item",
+    "item_id": "19324",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19324\/"
+    },
+    "name": "ジェミニクラウン[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "黄道を巡る星座が\n具現化したような\nジェミニの名を冠する兜。\n星の輝きをその身に\n宿した時、真の力を\n発揮するという。\n物理・魔法攻撃で\n与えるダメージ + 6%\nSP自然回復量 + 20%\n[ジェミニ]と\n共に装備時、追加で\n全ての基本ステータス + 10\n物理・魔法攻撃で\n与えるダメージ + 3%",
+    "description_lines": [
+        "黄道を巡る星座が",
+        "具現化したような",
+        "ジェミニの名を冠する兜。",
+        "星の輝きをその身に",
+        "宿した時、真の力を",
+        "発揮するという。",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 6%",
+        "SP自然回復量 + 20%",
+        "[ジェミニ]と",
+        "共に装備時、追加で",
+        "全ての基本ステータス + 10",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 3%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 7,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 80,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "7",
+            "位置": "上段",
+            "重量": "40",
+            "要求レベル": "80",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "5d883d1561a01c9947a7bad5f182063cdefeb69ea416ac692d13424cf85979d5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

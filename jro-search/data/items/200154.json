@@ -1,0 +1,81 @@
+{
+    "type": "item",
+    "item_id": "200154",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/200154\/"
+    },
+    "name": "コスたまGourmet",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する\n・[衣装] ウォーロック\nロール\n・[衣装] スプーンフォーク\nセット\n・[衣装] おさかなマルシェ\n・[衣装] スウィートシェフ\nハット\n・[衣装] 箸上げラーメン\n・[衣装] 米俵(中段)\n・[衣装] 焼きいも&焼き\nとうもろこし\n・[衣装] くわえたニンジン\n・[衣装] ペパロニピッツァ\n・[衣装] 装飾用卵殻\n[コスたまGourmet]は\n倉庫への移動のみ可能です",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する",
+        "・[衣装] ウォーロック",
+        "ロール",
+        "・[衣装] スプーンフォーク",
+        "セット",
+        "・[衣装] おさかなマルシェ",
+        "・[衣装] スウィートシェフ",
+        "ハット",
+        "・[衣装] 箸上げラーメン",
+        "・[衣装] 米俵(中段)",
+        "・[衣装] 焼きいも&焼き",
+        "とうもろこし",
+        "・[衣装] くわえたニンジン",
+        "・[衣装] ペパロニピッツァ",
+        "・[衣装] 装飾用卵殻",
+        "[コスたまGourmet]は",
+        "倉庫への移動のみ可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "834c953db20a0af4a05face4e39e221bcfe1c13f47761e3a4f10f9c009c09093",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

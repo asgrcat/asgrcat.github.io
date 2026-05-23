@@ -1,0 +1,67 @@
+{
+    "type": "item",
+    "item_id": "596",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/596\/"
+    },
+    "name": "微妙な形のストロベリーチョコ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "イチゴとチョコレートを合わ\nせて作ったお菓子のようだが\n見た目はかなり微妙。\n見ために囚われず\n作った人の心を味わおう。\nSPを50ほど回復する",
+    "description_lines": [
+        "イチゴとチョコレートを合わ",
+        "せて作ったお菓子のようだが",
+        "見た目はかなり微妙。",
+        "見ために囚われず",
+        "作った人の心を味わおう。",
+        "SPを50ほど回復する"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "10"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "1bc1c8c94bb9caf847d9b381a563675b75352b3248a4e26c5a132a9590eb2d83",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

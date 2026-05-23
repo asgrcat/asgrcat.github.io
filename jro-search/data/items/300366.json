@@ -1,0 +1,122 @@
+{
+    "type": "item",
+    "item_id": "300366",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300366\/"
+    },
+    "name": "最下級ルガンカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "物理・魔法攻撃時、\n[蛇神の温もり 01]、\n[蛇神の温もり 02]に\n出現するモンスターに\n与えるダメージ + 30%",
+    "description_lines": [
+        "物理・魔法攻撃時、",
+        "[蛇神の温もり 01]、",
+        "[蛇神の温もり 02]に",
+        "出現するモンスターに",
+        "与えるダメージ + 30%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "最下級ルガン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_RGAN_B"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "凍て付いた鱗の氷河(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_back3",
+            "map_code": "jor_back3"
+        },
+        {
+            "name": "凍て付いた鱗の氷河",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_back3_",
+            "map_code": "jor_back3_"
+        },
+        {
+            "name": "蛇神の温もり 01(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_dun01",
+            "map_code": "jor_dun01"
+        },
+        {
+            "name": "蛇神の温もり 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_dun01_",
+            "map_code": "jor_dun01_"
+        },
+        {
+            "name": "蛇神の温もり 02(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_dun02",
+            "map_code": "jor_dun02"
+        },
+        {
+            "name": "蛇神の温もり 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_dun02_",
+            "map_code": "jor_dun02_"
+        }
+    ],
+    "source_html_sha256": "5db6c292d604256b46a64c7fe509c9230af6d45353bc26cb191a1c39d143616a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

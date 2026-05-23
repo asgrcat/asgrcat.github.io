@@ -1,0 +1,81 @@
+{
+    "type": "item",
+    "item_id": "300472",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300472\/"
+    },
+    "name": "究極のラスガンドカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "garment"
+        ],
+        "card_attachable_positions": {
+            "garment": true
+        }
+    },
+    "description": "毒属性魔法攻撃で\n与えるダメージ + 50%\n毒属性攻撃で\n受けるダメージ - 70%\n[異境の統轄者]と\n共に装備時、追加で\n魔法攻撃で\n与えるダメージ + 10%\n[クラウドキル]の\n固定詠唱時間 - 100%",
+    "description_lines": [
+        "毒属性魔法攻撃で",
+        "与えるダメージ + 50%",
+        "毒属性攻撃で",
+        "受けるダメージ - 70%",
+        "[異境の統轄者]と",
+        "共に装備時、追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 10%",
+        "[クラウドキル]の",
+        "固定詠唱時間 - 100%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "garment"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "肩にかける物",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "172b32188dd2d509277f347a5d8369cc905c3d41d0037fa10d9ef065f1431936",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

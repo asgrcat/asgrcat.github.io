@@ -1,0 +1,123 @@
+{
+    "type": "item",
+    "item_id": "450181",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/450181\/"
+    },
+    "name": "覚醒ホワイトリリーローブ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "清らかで穢れのない者が\n着ていたとされるローブ。\n真の力が覚醒したことで\n以前よりも魔力が\n高まっている。\nMaxHP + 15% , MaxSP + 15%\nスキルディレイ - 10%\n[覚醒ホワイトリリーローブ]\nの精錬値が7以上の時、\n追加で\n魔法攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 20%\n[覚醒ホワイトリリーローブ]\nの精錬値が9以上の時、\n追加で\n魔法攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 20%\n[アメンホテプカード]\nと共に装備時、追加で\n聖属性魔法攻撃で\n与えるダメージ + 50%\n絶対に凍結状態にならない\n[覚醒ホワイトリリーローブ]\nの精錬値と同じLvの\n[ジュデックス]使用可能\n[封印された\nアメンホテプカード]と\n共に装備時、追加で\n聖属性魔法攻撃で\n与えるダメージ + 15%\n絶対に凍結状態にならない\n[覚醒ホワイトリリーローブ]\nの精錬値と同じLvの\n[ジュデックス]使用可能",
+    "description_lines": [
+        "清らかで穢れのない者が",
+        "着ていたとされるローブ。",
+        "真の力が覚醒したことで",
+        "以前よりも魔力が",
+        "高まっている。",
+        "MaxHP + 15% , MaxSP + 15%",
+        "スキルディレイ - 10%",
+        "[覚醒ホワイトリリーローブ]",
+        "の精錬値が7以上の時、",
+        "追加で",
+        "魔法攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 20%",
+        "[覚醒ホワイトリリーローブ]",
+        "の精錬値が9以上の時、",
+        "追加で",
+        "魔法攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 20%",
+        "[アメンホテプカード]",
+        "と共に装備時、追加で",
+        "聖属性魔法攻撃で",
+        "与えるダメージ + 50%",
+        "絶対に凍結状態にならない",
+        "[覚醒ホワイトリリーローブ]",
+        "の精錬値と同じLvの",
+        "[ジュデックス]使用可能",
+        "[封印された",
+        "アメンホテプカード]と",
+        "共に装備時、追加で",
+        "聖属性魔法攻撃で",
+        "与えるダメージ + 15%",
+        "絶対に凍結状態にならない",
+        "[覚醒ホワイトリリーローブ]",
+        "の精錬値と同じLvの",
+        "[ジュデックス]使用可能"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": 40,
+        "atk": null,
+        "mdef": 15,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 90,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "位置": "-",
+            "属性": "無",
+            "スロット": "1",
+            "Def": "40",
+            "Mdef": "15",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "90",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "cbf37efd6634dcde1a3d63ab8cf27aff916c9878d389be83c11174d7fec5f12b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

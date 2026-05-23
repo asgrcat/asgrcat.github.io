@@ -1,0 +1,155 @@
+{
+    "type": "item",
+    "item_id": "1188",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1188\/"
+    },
+    "name": "達人の剣[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "剣技の極限に達した者のみが\n秘められた力を扱える剣。\nStr + 1 , Dex + 1\n[バッシュ]Lv10習得時、\n追加で\n[バッシュ]で\n与えるダメージ + 50%\n[ボウリングバッシュ]\nLv10習得時、追加で\n[ボウリングバッシュ]で\n与えるダメージ + 50%\n[勇者の靴]と\n共に装備時、\n[エンチャントブレイド]、\n[オーラブレイド]の\n習得Lvが1上がる度に追加で\n[バッシュ]、\n[ボウリングバッシュ]で\n与えるダメージ + 10%\n[勇者の靴]、\n[英雄の指輪]と\n共に装備時、追加で\n[バッシュ]の\n消費SP -5\n[ボウリングバッシュ]の\n消費SP - 10\n[達人の剣]の\n精錬値が7以上の時、追加で\n[バッシュ]、\n[ボウリングバッシュ]で\n与えるダメージ + 100%\n[達人の剣]の\n精錬値が9以上の時、追加で\n[バッシュ]、\n[ボウリングバッシュ]で\n与えるダメージ + 200%",
+    "description_lines": [
+        "剣技の極限に達した者のみが",
+        "秘められた力を扱える剣。",
+        "Str + 1 , Dex + 1",
+        "[バッシュ]Lv10習得時、",
+        "追加で",
+        "[バッシュ]で",
+        "与えるダメージ + 50%",
+        "[ボウリングバッシュ]",
+        "Lv10習得時、追加で",
+        "[ボウリングバッシュ]で",
+        "与えるダメージ + 50%",
+        "[勇者の靴]と",
+        "共に装備時、",
+        "[エンチャントブレイド]、",
+        "[オーラブレイド]の",
+        "習得Lvが1上がる度に追加で",
+        "[バッシュ]、",
+        "[ボウリングバッシュ]で",
+        "与えるダメージ + 10%",
+        "[勇者の靴]、",
+        "[英雄の指輪]と",
+        "共に装備時、追加で",
+        "[バッシュ]の",
+        "消費SP -5",
+        "[ボウリングバッシュ]の",
+        "消費SP - 10",
+        "[達人の剣]の",
+        "精錬値が7以上の時、追加で",
+        "[バッシュ]、",
+        "[ボウリングバッシュ]で",
+        "与えるダメージ + 100%",
+        "[達人の剣]の",
+        "精錬値が9以上の時、追加で",
+        "[バッシュ]、",
+        "[ボウリングバッシュ]で",
+        "与えるダメージ + 200%"
+    ],
+    "properties": {
+        "series": "two_handed_sword",
+        "series_normalized": [
+            "two_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 180,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 200,
+        "weapon_level": 4,
+        "required_level": 80,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手剣",
+            "攻撃": "180",
+            "重量": "200",
+            "武器レベル": "4",
+            "要求レベル": "80",
+            "装備": "ソードマン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ドゥネイール",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DUNEYRR"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "ラヴィーネ山脈02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ravi",
+            "map_code": "2@ravi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "イグドラシル中心部 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nyd_dun01",
+            "map_code": "nyd_dun01"
+        }
+    ],
+    "source_html_sha256": "ce38c7792abb1ed5bcd4ba50db23c2e9f3cf94b521e69c5c9b1316323002b08d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

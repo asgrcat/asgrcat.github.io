@@ -1,0 +1,189 @@
+{
+    "type": "item",
+    "item_id": "2604",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2604\/"
+    },
+    "name": "グローブ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "手袋\nDEX + 2",
+    "description_lines": [
+        "手袋",
+        "DEX + 2"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 20,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "10",
+            "要求レベル": "20",
+            "装備": "ノービス系を除く全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ブレードライダー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/COWRAIDERS3"
+        },
+        {
+            "name": "マミー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MUMMY"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "試練の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_27",
+            "map_code": "2@la_27"
+        },
+        {
+            "name": "異形の迷宮 果てなき荒野",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_19",
+            "map_code": "2@lc_19"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld227",
+            "map_code": "2@ld227"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf227",
+            "map_code": "2@lf227"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "周辺エリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@letter",
+            "map_code": "3@letter"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ピラミッドダンジョン 2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd02",
+            "map_code": "moc_pryd02"
+        },
+        {
+            "name": "ピラミッドダンジョン 3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd03",
+            "map_code": "moc_pryd03"
+        },
+        {
+            "name": "キワワ砂漠 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/rockrdg1",
+            "map_code": "rockrdg1"
+        },
+        {
+            "name": "キワワ砂漠 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/rockrdg2",
+            "map_code": "rockrdg2"
+        }
+    ],
+    "source_html_sha256": "adae153b078b9a2dd64f340b53110a177de09df8e0c39c6d7d607a5a914b214c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,78 @@
+{
+    "type": "item",
+    "item_id": "11626",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/11626\/"
+    },
+    "name": "復刻メロンパン",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "一世を風靡したメロンパン。\n西方の地域から伝わったが\n紡錘系であったことが\n完璧主義者であった\n時の治世者の逆鱗に触れ\n歴史の表舞台から姿を消した\n……と思われていたが\n愛好家の間では密かに\n嗜まれている一品。\nHPを325ほど回復する\nSPを80ほど回復する\n暗黒・幻覚・混乱・沈黙\n毒・呪い・出血・猛毒・恐怖\n速度減少状態を回復する\n[復刻メロンパン]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "一世を風靡したメロンパン。",
+        "西方の地域から伝わったが",
+        "紡錘系であったことが",
+        "完璧主義者であった",
+        "時の治世者の逆鱗に触れ",
+        "歴史の表舞台から姿を消した",
+        "……と思われていたが",
+        "愛好家の間では密かに",
+        "嗜まれている一品。",
+        "HPを325ほど回復する",
+        "SPを80ほど回復する",
+        "暗黒・幻覚・混乱・沈黙",
+        "毒・呪い・出血・猛毒・恐怖",
+        "速度減少状態を回復する",
+        "[復刻メロンパン]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 3,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "3"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "da625a639ec8f3be4aae1bbf8ce22b01c00b23c414f8b1d4d7d5fb54ac81e51f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

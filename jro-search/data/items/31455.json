@@ -1,0 +1,87 @@
+{
+    "type": "item",
+    "item_id": "31455",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31455\/"
+    },
+    "name": "[衣装] ワンコの被り物[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "つぶらな瞳で見つめられると\n思わずキュ～ン…と鳴いて\nしまいそうな、頭をスッポリ\nと覆うデザインの\n衣装用の被り物。\n滑らかな毛並はモフモフ\nしたくなる。",
+    "description_lines": [
+        "つぶらな瞳で見つめられると",
+        "思わずキュ～ン…と鳴いて",
+        "しまいそうな、頭をスッポリ",
+        "と覆うデザインの",
+        "衣装用の被り物。",
+        "滑らかな毛並はモフモフ",
+        "したくなる。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "中下段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "4723fdd8f671f39d7af1342bf8234da5ffe77e850b9ef3b7acb687359988cdea",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

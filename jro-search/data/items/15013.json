@@ -1,0 +1,324 @@
+{
+    "type": "item",
+    "item_id": "15013",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15013\/"
+    },
+    "name": "クレールスーツ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "防御力と\n装着感を全て極めた\n冒険者用スーツ。",
+    "description_lines": [
+        "防御力と",
+        "装着感を全て極めた",
+        "冒険者用スーツ。"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 58,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 280,
+        "weapon_level": null,
+        "required_level": 22,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "58",
+            "重量": "280",
+            "要求レベル": "22",
+            "装備": "転生1次職 上位2次職 3次職 4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ヒェグン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HYEGUN"
+        },
+        {
+            "name": "レイドリックアーチャー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RAYDRIC_ARCHER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "幻影の迷宮 穢れた廃村",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld110",
+            "map_code": "2@ld110"
+        },
+        {
+            "name": "幻影の迷宮 穢れた廃村",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le110",
+            "map_code": "2@le110"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "ルイーナ 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas01",
+            "map_code": "aldeg_cas01"
+        },
+        {
+            "name": "ルイーナ 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas02",
+            "map_code": "aldeg_cas02"
+        },
+        {
+            "name": "ルイーナ 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas03",
+            "map_code": "aldeg_cas03"
+        },
+        {
+            "name": "ルイーナ 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas04",
+            "map_code": "aldeg_cas04"
+        },
+        {
+            "name": "ルイーナ 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas05",
+            "map_code": "aldeg_cas05"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas01",
+            "map_code": "arug_cas01"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas02",
+            "map_code": "arug_cas02"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas03",
+            "map_code": "arug_cas03"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas04",
+            "map_code": "arug_cas04"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas05",
+            "map_code": "arug_cas05"
+        },
+        {
+            "name": "グラストヘイム 古城2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas02",
+            "map_code": "gl_cas02"
+        },
+        {
+            "name": "悪夢のグラストヘイム古城2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas02_",
+            "map_code": "gl_cas02_"
+        },
+        {
+            "name": "グラストヘイム 騎士団内01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_knt01",
+            "map_code": "gl_knt01"
+        },
+        {
+            "name": "グラストヘイム 階段ダンジョン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_step",
+            "map_code": "gl_step"
+        },
+        {
+            "name": "龍之城ダンジョン 02（王陵 内部）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lou_dun02",
+            "map_code": "lou_dun02"
+        },
+        {
+            "name": "龍之城ダンジョン 03（白羊宮）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lou_dun03",
+            "map_code": "lou_dun03"
+        },
+        {
+            "name": "フェイヨン地下洞窟 B5F（地下寺院）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_dun04",
+            "map_code": "pay_dun04"
+        },
+        {
+            "name": "チュンリム湖 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas01",
+            "map_code": "payg_cas01"
+        },
+        {
+            "name": "チュンリム湖 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas02",
+            "map_code": "payg_cas02"
+        },
+        {
+            "name": "チュンリム湖 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas03",
+            "map_code": "payg_cas03"
+        },
+        {
+            "name": "チュンリム湖 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas04",
+            "map_code": "payg_cas04"
+        },
+        {
+            "name": "チュンリム湖 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas05",
+            "map_code": "payg_cas05"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas01",
+            "map_code": "prtg_cas01"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas02",
+            "map_code": "prtg_cas02"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas03",
+            "map_code": "prtg_cas03"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas04",
+            "map_code": "prtg_cas04"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas05",
+            "map_code": "prtg_cas05"
+        },
+        {
+            "name": "ニダヴェリール 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas02",
+            "map_code": "schg_cas02"
+        },
+        {
+            "name": "ニダヴェリール 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas03",
+            "map_code": "schg_cas03"
+        },
+        {
+            "name": "ニダヴェリール 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas04",
+            "map_code": "schg_cas04"
+        },
+        {
+            "name": "ニダヴェリール 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas05",
+            "map_code": "schg_cas05"
+        },
+        {
+            "name": "グラリス",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas1",
+            "map_code": "te_aldecas1"
+        },
+        {
+            "name": "ディフォルテー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas2",
+            "map_code": "te_aldecas2"
+        },
+        {
+            "name": "ソリン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas3",
+            "map_code": "te_aldecas3"
+        },
+        {
+            "name": "ビニット",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas4",
+            "map_code": "te_aldecas4"
+        },
+        {
+            "name": "Ｗ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas5",
+            "map_code": "te_aldecas5"
+        },
+        {
+            "name": "ゲオルグ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas01",
+            "map_code": "te_prtcas01"
+        },
+        {
+            "name": "リハルト",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas02",
+            "map_code": "te_prtcas02"
+        },
+        {
+            "name": "ウィグナー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas03",
+            "map_code": "te_prtcas03"
+        },
+        {
+            "name": "ハイネン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas04",
+            "map_code": "te_prtcas04"
+        },
+        {
+            "name": "ネリウス",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas05",
+            "map_code": "te_prtcas05"
+        }
+    ],
+    "source_html_sha256": "0f3ade719f5dcb138135f265b6d53c0e95b20f2196422b71bbbf766a569f0cce",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

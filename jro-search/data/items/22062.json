@@ -1,0 +1,97 @@
+{
+    "type": "item",
+    "item_id": "22062",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/22062\/"
+    },
+    "name": "機工士の靴[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "魔導ギアの開発を\n生業とする男が\n履いていた靴。\nその靴には男の長年の\n経験が蓄積されている。\n無形モンスターを\n倒した時、\n獲得する経験値 + 5%\n[機工士の靴]の\n精錬値が1上がる度に追加で\n無形モンスターを\n倒した時、\n獲得する経験値 + 1%",
+    "description_lines": [
+        "魔導ギアの開発を",
+        "生業とする男が",
+        "履いていた靴。",
+        "その靴には男の長年の",
+        "経験が蓄積されている。",
+        "無形モンスターを",
+        "倒した時、",
+        "獲得する経験値 + 5%",
+        "[機工士の靴]の",
+        "精錬値が1上がる度に追加で",
+        "無形モンスターを",
+        "倒した時、",
+        "獲得する経験値 + 1%"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 10,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 30,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "防御": "10",
+            "重量": "30",
+            "要求レベル": "30",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "49773923bc79a22d3114d94510cb0f030eac748aa082ca65055ec557060d86fa",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

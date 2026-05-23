@@ -1,0 +1,112 @@
+{
+    "type": "item",
+    "item_id": "1591",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1591\/"
+    },
+    "name": "攻城戦TE本[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sage": true,
+                "priest": true,
+                "star_gladiator": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "攻城戦TE専用の\nレンタルアイテム\n攻城戦TEの砦内で\n以下の効果が追加される\n_\n物理攻撃時、\nプレイヤーに\n与えるダメージ + 40%\n_\n魔法攻撃時、\nプレイヤーに\n与えるダメージ + 5%\n_\n近接物理攻撃命中時、\n一定確率で敵を\n暗黒状態にする\n_\nヒール系スキル使用時、\nHP回復量 + 5%",
+    "description_lines": [
+        "攻城戦TE専用の",
+        "レンタルアイテム",
+        "攻城戦TEの砦内で",
+        "以下の効果が追加される",
+        "_",
+        "物理攻撃時、",
+        "プレイヤーに",
+        "与えるダメージ + 40%",
+        "_",
+        "魔法攻撃時、",
+        "プレイヤーに",
+        "与えるダメージ + 5%",
+        "_",
+        "近接物理攻撃命中時、",
+        "一定確率で敵を",
+        "暗黒状態にする",
+        "_",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 5%"
+    ],
+    "properties": {
+        "series": "book",
+        "series_normalized": [
+            "book"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": 3,
+        "required_level": 40,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sage": true,
+                "priest": true,
+                "star_gladiator": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "本",
+            "攻撃": "120",
+            "重量": "0",
+            "武器レベル": "3",
+            "要求レベル": "40",
+            "装備": "プリースト系 セージ系 拳聖系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "52e3f46d3c5f6601de710a385c39ccf45ee6cd35c93c55d18237bbe83dd5363b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

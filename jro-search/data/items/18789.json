@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "18789",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18789\/"
+    },
+    "name": "ポイズンスポア帽[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ポイズンスポアの頭の傘を\n切り取って作った帽子。\n植物形モンスターを\n倒した時、一定確率で\n「きのこの胞子」\n「毒キノコの胞子」を\nドロップする。\n精錬値が2上がる度に\n「きのこの胞子」\n「毒キノコの胞子」の\nドロップする確率が上昇する",
+    "description_lines": [
+        "ポイズンスポアの頭の傘を",
+        "切り取って作った帽子。",
+        "植物形モンスターを",
+        "倒した時、一定確率で",
+        "「きのこの胞子」",
+        "「毒キノコの胞子」を",
+        "ドロップする。",
+        "精錬値が2上がる度に",
+        "「きのこの胞子」",
+        "「毒キノコの胞子」の",
+        "ドロップする確率が上昇する"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 6,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 90,
+        "weapon_level": null,
+        "required_level": 20,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "6",
+            "位置": "上段",
+            "重量": "90",
+            "要求レベル": "20",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "72837e798c70703c75e05bd654a0895f5c8c8f1cf5c7bf5b8034a9c3a63fb41a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

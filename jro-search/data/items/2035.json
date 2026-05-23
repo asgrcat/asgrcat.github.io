@@ -1,0 +1,364 @@
+{
+    "type": "item",
+    "item_id": "2035",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2035\/"
+    },
+    "name": "ディーヴァスタッフ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true,
+                "soul_reaper": true,
+                "novice": true,
+                "super_novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "迷宮の魔力が宿った\n出自不明な武器。\nどのような素材で\n精製されているのかは不明で\n同じような武器でも、\nその性能は異なるという。\nMatk + 270\n[ディーヴァスタッフ]の\n精錬値が1上がる度に追加で\nヒール系スキル使用時、\nHP回復量 + 2%\n[ディーヴァスタッフ]の\n精錬値が7以上の時、追加で\n魔法攻撃で\n与えるダメージ + 4%\n[ディーヴァスタッフ]の\n精錬値が9以上の時、追加で\n魔法攻撃で\n与えるダメージ + 4%\n[迷宮のバフォメットカード]\nと共に装備時、\n追加で\n物理攻撃で\n与えるダメージ + 10%\n通常攻撃が\nスプラッシュダメージになる",
+    "description_lines": [
+        "迷宮の魔力が宿った",
+        "出自不明な武器。",
+        "どのような素材で",
+        "精製されているのかは不明で",
+        "同じような武器でも、",
+        "その性能は異なるという。",
+        "Matk + 270",
+        "[ディーヴァスタッフ]の",
+        "精錬値が1上がる度に追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 2%",
+        "[ディーヴァスタッフ]の",
+        "精錬値が7以上の時、追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 4%",
+        "[ディーヴァスタッフ]の",
+        "精錬値が9以上の時、追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 4%",
+        "[迷宮のバフォメットカード]",
+        "と共に装備時、",
+        "追加で",
+        "物理攻撃で",
+        "与えるダメージ + 10%",
+        "通常攻撃が",
+        "スプラッシュダメージになる"
+    ],
+    "properties": {
+        "series": "two_handed_staff",
+        "series_normalized": [
+            "two_handed_staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 240,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true,
+                "soul_reaper": true,
+                "novice": true,
+                "super_novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手杖",
+            "攻撃": "120",
+            "重量": "240",
+            "武器レベル": "4",
+            "要求レベル": "150",
+            "装備": "スーパーノービス系 3次職マジシャン系 3次職アコライト系 ソウルリーパー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "迷宮のジェジェリン（A）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_12"
+        },
+        {
+            "name": "女王スカラバ（A）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_13"
+        },
+        {
+            "name": "迷宮のジェジェリン（B）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_134"
+        },
+        {
+            "name": "女王スカラバ（B）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_137"
+        },
+        {
+            "name": "データルザウルス（B）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_141"
+        },
+        {
+            "name": "マヤー（B）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_143"
+        },
+        {
+            "name": "データルザウルス（A）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_18"
+        },
+        {
+            "name": "マヤー（A）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_23"
+        },
+        {
+            "name": "エドガ（B）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_144"
+        },
+        {
+            "name": "神罰のオディール（C）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_148"
+        },
+        {
+            "name": "迷宮のミミック（E）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_150"
+        },
+        {
+            "name": "迷宮のバフォメット（C）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_132"
+        },
+        {
+            "name": "ハッピーポリン（D）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_112"
+        },
+        {
+            "name": "迷宮の宝箱（J）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_111"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 未知の箱庭",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld118",
+            "map_code": "2@ld118"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld218",
+            "map_code": "2@ld218"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld219",
+            "map_code": "2@ld219"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld220",
+            "map_code": "2@ld220"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld221",
+            "map_code": "2@ld221"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld222",
+            "map_code": "2@ld222"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld223",
+            "map_code": "2@ld223"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld224",
+            "map_code": "2@ld224"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld225",
+            "map_code": "2@ld225"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld226",
+            "map_code": "2@ld226"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld227",
+            "map_code": "2@ld227"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld228",
+            "map_code": "2@ld228"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld229",
+            "map_code": "2@ld229"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld230",
+            "map_code": "2@ld230"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld231",
+            "map_code": "2@ld231"
+        },
+        {
+            "name": "幻影の迷宮 未知の箱庭",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le118",
+            "map_code": "2@le118"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf218",
+            "map_code": "2@lf218"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf219",
+            "map_code": "2@lf219"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf220",
+            "map_code": "2@lf220"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf221",
+            "map_code": "2@lf221"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf222",
+            "map_code": "2@lf222"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf223",
+            "map_code": "2@lf223"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf224",
+            "map_code": "2@lf224"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf225",
+            "map_code": "2@lf225"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf226",
+            "map_code": "2@lf226"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf227",
+            "map_code": "2@lf227"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf228",
+            "map_code": "2@lf228"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf229",
+            "map_code": "2@lf229"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf230",
+            "map_code": "2@lf230"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf231",
+            "map_code": "2@lf231"
+        },
+        {
+            "name": "試練の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@la_00",
+            "map_code": "3@la_00"
+        },
+        {
+            "name": "幻影の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@ld200",
+            "map_code": "3@ld200"
+        },
+        {
+            "name": "幻影の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@lf200",
+            "map_code": "3@lf200"
+        },
+        {
+            "name": "幻影の迷宮 夢の終わり",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@ld200",
+            "map_code": "5@ld200"
+        },
+        {
+            "name": "幻影の迷宮 夢の終わり",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@lf200",
+            "map_code": "5@lf200"
+        }
+    ],
+    "source_html_sha256": "288e508cf246a6dd79e04af5abec0fbd76b9077e1b7c5d1d50a453e9373cfca1",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

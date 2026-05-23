@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "490207",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/490207\/"
+    },
+    "name": "メメントモリ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "「死を忘ることなかれ」\nスキルディレイ - 10%\n物理・魔法攻撃で\n与えるダメージ + 10%\n[英雄の凱歌]と\n共に装備時、追加で\n全ての基本ステータス + 10\n物理・魔法攻撃で\n与えるダメージ + 30%",
+    "description_lines": [
+        "「死を忘ることなかれ」",
+        "スキルディレイ - 10%",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 10%",
+        "[英雄の凱歌]と",
+        "共に装備時、追加で",
+        "全ての基本ステータス + 10",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 30%"
+    ],
+    "properties": {
+        "series": "accessory_2",
+        "series_normalized": [
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー(2)",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "48d16708031178ce85b50628653182dd3698cf5725004dad1eed24a4324ba863",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,108 @@
+{
+    "type": "item",
+    "item_id": "4413",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4413\/"
+    },
+    "name": "ホドレムリンカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "shield"
+        ],
+        "card_attachable_positions": {
+            "shield": true
+        }
+    },
+    "description": "小、中、大型のモンスター\nから受けるダメージ\n15% 減少。\n物理、魔法ダメージを\n受けた時、一定確率で\n10秒間、完全回避 + 30。",
+    "description_lines": [
+        "小、中、大型のモンスター",
+        "から受けるダメージ",
+        "15% 減少。",
+        "物理、魔法ダメージを",
+        "受けた時、一定確率で",
+        "10秒間、完全回避 + 30。"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "shield"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "盾",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ホドレムリン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HODREMLIN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "フレイヤ大神殿聖域 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_san01",
+            "map_code": "ra_san01"
+        },
+        {
+            "name": "フレイヤ大神殿聖域 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_san02",
+            "map_code": "ra_san02"
+        },
+        {
+            "name": "フレイヤ大神殿聖域 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_san03",
+            "map_code": "ra_san03"
+        },
+        {
+            "name": "フレイヤ大神殿聖域 05",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_san05",
+            "map_code": "ra_san05"
+        }
+    ],
+    "source_html_sha256": "796828607888548175797d5d313b1be6f010a0b5a364bfca91643293ed7bb71c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

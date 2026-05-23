@@ -1,0 +1,67 @@
+{
+    "type": "item",
+    "item_id": "313757",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/313757\/"
+    },
+    "name": "潜在解放(レンジャーIII)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "[豪傑]と\n共に装備時、追加で\n[アローストーム]の\n再使用待機時間 - 0.5秒\n[アンリミット]の\n再使用待機時間 - 300秒\n装備解除時、\n[アンリミット]を解除する",
+    "description_lines": [
+        "[豪傑]と",
+        "共に装備時、追加で",
+        "[アローストーム]の",
+        "再使用待機時間 - 0.5秒",
+        "[アンリミット]の",
+        "再使用待機時間 - 300秒",
+        "装備解除時、",
+        "[アンリミット]を解除する"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f4bcc7f7bfb86470d07c0165af52c13a5fcbe5424959da78597a52a588910f0b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

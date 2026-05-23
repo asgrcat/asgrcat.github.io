@@ -1,0 +1,69 @@
+{
+    "type": "item",
+    "item_id": "1000405",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000405\/"
+    },
+    "name": "アメジストの欠片",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "オズ峡谷や\n灰色狼の森で見つかる\nアメジストの欠片。\n付近の住民の間では\n装飾品などの製作に\n欠かせないため、\n感謝の印としても\nプレゼントされる。",
+    "description_lines": [
+        "オズ峡谷や",
+        "灰色狼の森で見つかる",
+        "アメジストの欠片。",
+        "付近の住民の間では",
+        "装飾品などの製作に",
+        "欠かせないため、",
+        "感謝の印としても",
+        "プレゼントされる。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "cb1b8eed283ac7fbdbf3b25d436639c736028be8ce30c604a0f61fbb2f96af6d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

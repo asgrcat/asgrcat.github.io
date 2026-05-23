@@ -1,0 +1,69 @@
+{
+    "type": "item",
+    "item_id": "11513",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/11513\/"
+    },
+    "name": "のど飴",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "のどを保護する為に\n舐める\n美味しい飴。\n微量のHP回復。\nミンストレル・\nワンダラーの持つ\nいくつかのスキルを\n使用時、消費する。",
+    "description_lines": [
+        "のどを保護する為に",
+        "舐める",
+        "美味しい飴。",
+        "微量のHP回復。",
+        "ミンストレル・",
+        "ワンダラーの持つ",
+        "いくつかのスキルを",
+        "使用時、消費する。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0.1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "8dc2e248474d7a64414136558f3395c762cc43967953aac463cf497f3efc27d7",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

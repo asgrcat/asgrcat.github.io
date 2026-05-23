@@ -1,0 +1,125 @@
+{
+    "type": "item",
+    "item_id": "510077",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/510077\/"
+    },
+    "name": "フラッシュ宝石探知機Mk47[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "chaser": true,
+                "abyss_chaser": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ミョルニールの\nエナジーで強化された\n宝石探知機Mk47。\n強くなった分、\n魔力の消費が激しい。\n魔法攻撃で\n与えるダメージ + 60%\nモンスターを倒した時、\n一定確率で宝石系\nアイテムをドロップする\n[フラッシュ\n宝石探知機Mk47]の\n精錬値が7以上の時、追加で\n物理攻撃命中時、\n一定確率で敵を中心に\nオートスペル\n[アースストレイン]\nLv4発動\n[フラッシュ\n宝石探知機Mk47]の\n精錬値が9以上の時、追加で\nオートスペル\n[アースストレイン]の\n発動率が上昇\n[フラッシュ\n宝石探知機Mk47]の\n精錬値が10の時、追加で\n[アースストレイン]で\n与えるダメージ + 100%",
+    "description_lines": [
+        "ミョルニールの",
+        "エナジーで強化された",
+        "宝石探知機Mk47。",
+        "強くなった分、",
+        "魔力の消費が激しい。",
+        "魔法攻撃で",
+        "与えるダメージ + 60%",
+        "モンスターを倒した時、",
+        "一定確率で宝石系",
+        "アイテムをドロップする",
+        "[フラッシュ",
+        "宝石探知機Mk47]の",
+        "精錬値が7以上の時、追加で",
+        "物理攻撃命中時、",
+        "一定確率で敵を中心に",
+        "オートスペル",
+        "[アースストレイン]",
+        "Lv4発動",
+        "[フラッシュ",
+        "宝石探知機Mk47]の",
+        "精錬値が9以上の時、追加で",
+        "オートスペル",
+        "[アースストレイン]の",
+        "発動率が上昇",
+        "[フラッシュ",
+        "宝石探知機Mk47]の",
+        "精錬値が10の時、追加で",
+        "[アースストレイン]で",
+        "与えるダメージ + 100%"
+    ],
+    "properties": {
+        "series": "dagger",
+        "series_normalized": [
+            "dagger"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 2,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": 120,
+        "refinement": true,
+        "breakable": true,
+        "weight": 60,
+        "weapon_level": 4,
+        "required_level": 220,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "chaser": true,
+                "abyss_chaser": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "短剣",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "2",
+            "Atk": "120",
+            "Matk": "120",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "60",
+            "要求レベル": "220",
+            "装備": "アビスチェイサー"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "00330576293e5508097f9618e1891b1df542577e0eb226b731effbafc4fc91a2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

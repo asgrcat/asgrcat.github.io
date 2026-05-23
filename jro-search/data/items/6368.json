@@ -1,0 +1,69 @@
+{
+    "type": "item",
+    "item_id": "6368",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6368\/"
+    },
+    "name": "エンドレスタワーコイン",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "エンドレスタワーで\n手に入る[闇の灰]と\n交換出来るコイン。\n_\n他のコインと一緒に\nたくさん集めれば、\n強力なアイテムとの\n交換が出来るらしい。",
+    "description_lines": [
+        "エンドレスタワーで",
+        "手に入る[闇の灰]と",
+        "交換出来るコイン。",
+        "_",
+        "他のコインと一緒に",
+        "たくさん集めれば、",
+        "強力なアイテムとの",
+        "交換が出来るらしい。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "96abb8d6100e051924903618e03146dcc59c6193c90656bcbb0d03a73d67f1fb",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

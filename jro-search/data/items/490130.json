@@ -1,0 +1,116 @@
+{
+    "type": "item",
+    "item_id": "490130",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/490130\/"
+    },
+    "name": "辰戌の腕輪[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "邪な者を捕らえ滅ぼして\n天地の法網にかけよう。\nAgi + 7\n物理攻撃で\n与えるダメージ + 10%\nBaseLvが1上がる度に追加で\n[天羅地網]で\n与えるダメージ + 2%\n[修羅身弾]\nLv10習得時、追加で\n物理攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 10%\n[潜龍昇天]の\n習得Lvが1上がる度に追加で\nMaxHP + 2% , MaxSP + 2%\n[点穴 -反-]の\n習得Lvが1上がる度に追加で\nAgi + 4 , Flee + 10\n修羅系が装備時、\n[豪傑]と\n共に装備時、追加で\n[天羅地網]の\n再使用待機時間 - 0.2秒\n[天羅地網]使用時、\n3秒間、完全回避 + 100",
+    "description_lines": [
+        "邪な者を捕らえ滅ぼして",
+        "天地の法網にかけよう。",
+        "Agi + 7",
+        "物理攻撃で",
+        "与えるダメージ + 10%",
+        "BaseLvが1上がる度に追加で",
+        "[天羅地網]で",
+        "与えるダメージ + 2%",
+        "[修羅身弾]",
+        "Lv10習得時、追加で",
+        "物理攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 10%",
+        "[潜龍昇天]の",
+        "習得Lvが1上がる度に追加で",
+        "MaxHP + 2% , MaxSP + 2%",
+        "[点穴 -反-]の",
+        "習得Lvが1上がる度に追加で",
+        "Agi + 4 , Flee + 10",
+        "修羅系が装備時、",
+        "[豪傑]と",
+        "共に装備時、追加で",
+        "[天羅地網]の",
+        "再使用待機時間 - 0.2秒",
+        "[天羅地網]使用時、",
+        "3秒間、完全回避 + 100"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "40",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6d981f1e097d5cd89918ee5847a79f565f67703d81c6e2f0fee16d817fae29ea",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

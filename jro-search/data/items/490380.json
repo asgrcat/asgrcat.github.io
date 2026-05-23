@@ -1,0 +1,114 @@
+{
+    "type": "item",
+    "item_id": "490380",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/490380\/"
+    },
+    "name": "マジェスティオブイグドラシル[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "世界樹を信仰する一族の\nアクセサリー。\nアールブヘイムの\n技術で作られており\n世界樹のように\nあらゆる力を許容する。\n全ての基本ステータス + 3\n攻撃速度 + 10%\nスキルディレイ - 15%\n物理・魔法攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 25%\nプレイヤーから\n受けるダメージ - 3%\n[フェイスオブイグドラシル]\nと共に装備時、追加で\n全ての基本ステータス + 10\n移動速度増加\n[ブレッシング\nオブイグドラシル]と\n共に装備時、追加で\n全ての基本ステータス + 10\n戦闘不能から復活時、\nHP・SPを100%回復する",
+    "description_lines": [
+        "世界樹を信仰する一族の",
+        "アクセサリー。",
+        "アールブヘイムの",
+        "技術で作られており",
+        "世界樹のように",
+        "あらゆる力を許容する。",
+        "全ての基本ステータス + 3",
+        "攻撃速度 + 10%",
+        "スキルディレイ - 15%",
+        "物理・魔法攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 25%",
+        "プレイヤーから",
+        "受けるダメージ - 3%",
+        "[フェイスオブイグドラシル]",
+        "と共に装備時、追加で",
+        "全ての基本ステータス + 10",
+        "移動速度増加",
+        "[ブレッシング",
+        "オブイグドラシル]と",
+        "共に装備時、追加で",
+        "全ての基本ステータス + 10",
+        "戦闘不能から復活時、",
+        "HP・SPを100%回復する"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e44c338de5a61c05a153b281c47597ca9ae0d4857834604638dd27678e8ff4ce",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "18725",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18725\/"
+    },
+    "name": "うさ耳ニット帽[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "おおきなたれ耳と\nふわふわのポンポンが\n愛くるしいウサギの帽子。\nふわもこ素材で\nとってもあたたかい。\nHP自然回復量 + 20%\nSP自然回復量 + 20%\n純粋なLukが55以上の時、\n追加で\nHP自然回復量 + 30%\nSP自然回復量 + 30%",
+    "description_lines": [
+        "おおきなたれ耳と",
+        "ふわふわのポンポンが",
+        "愛くるしいウサギの帽子。",
+        "ふわもこ素材で",
+        "とってもあたたかい。",
+        "HP自然回復量 + 20%",
+        "SP自然回復量 + 20%",
+        "純粋なLukが55以上の時、",
+        "追加で",
+        "HP自然回復量 + 30%",
+        "SP自然回復量 + 30%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 7,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 33,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "7",
+            "位置": "上段",
+            "重量": "50",
+            "要求レベル": "33",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "633aa6dcc820fc815c65f84667e8c8a94821fd3a78cdf572c7acab3e06787d81",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

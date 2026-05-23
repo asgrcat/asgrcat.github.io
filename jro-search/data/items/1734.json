@@ -1,0 +1,169 @@
+{
+    "type": "item",
+    "item_id": "1734",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1734\/"
+    },
+    "name": "オークアーチャーの弓[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "archer": true
+            },
+            "include_jobs": {
+                "archer": true,
+                "rogue": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "オークアーチャーが使う弓。\nとても大きく強力に見える。\nモンスターを倒した時、\n一定確率で「鋼鉄の矢」を\nドロップ\n[鋼鉄の矢]と共に装備時、\n追加で、遠距離物理攻撃\nで与えるダメージ + 50%",
+    "description_lines": [
+        "オークアーチャーが使う弓。",
+        "とても大きく強力に見える。",
+        "モンスターを倒した時、",
+        "一定確率で「鋼鉄の矢」を",
+        "ドロップ",
+        "[鋼鉄の矢]と共に装備時、",
+        "追加で、遠距離物理攻撃",
+        "で与えるダメージ + 50%"
+    ],
+    "properties": {
+        "series": "bow",
+        "series_normalized": [
+            "bow"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 160,
+        "weapon_level": 3,
+        "required_level": 65,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "archer": true
+            },
+            "include_jobs": {
+                "archer": true,
+                "rogue": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "弓",
+            "攻撃": "120",
+            "重量": "160",
+            "武器レベル": "3",
+            "要求レベル": "65",
+            "装備": "アーチャー系 ローグ系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "オークアーチャー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ORC_ARCHER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "亜空の迷宮 隠匿された通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg107",
+            "map_code": "2@lg107"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アルデバラン時計塔地下 2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/alde_dun02",
+            "map_code": "alde_dun02"
+        },
+        {
+            "name": "ゲフェンフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild02",
+            "map_code": "gef_fild02"
+        },
+        {
+            "name": "ブリトニア 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas01",
+            "map_code": "gefg_cas01"
+        },
+        {
+            "name": "ブリトニア 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas02",
+            "map_code": "gefg_cas02"
+        },
+        {
+            "name": "ブリトニア 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas03",
+            "map_code": "gefg_cas03"
+        },
+        {
+            "name": "ブリトニア 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas04",
+            "map_code": "gefg_cas04"
+        },
+        {
+            "name": "ブリトニア 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas05",
+            "map_code": "gefg_cas05"
+        },
+        {
+            "name": "オーク地下洞窟 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/orcsdun02",
+            "map_code": "orcsdun02"
+        }
+    ],
+    "source_html_sha256": "9091539bcde4d8b76fadd85161b947ed07c406584671f0b4d9f2ecbb56bc4762",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

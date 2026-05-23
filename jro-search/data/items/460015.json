@@ -1,0 +1,106 @@
+{
+    "type": "item",
+    "item_id": "460015",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/460015\/"
+    },
+    "name": "オートマティックシールドI[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "バルムント邸の\n技術により改良された\n戦闘用のシールド。\nMaxHP + 15% , MaxSP + 15%\nBaseLv175以上の時、追加で\nMaxHP + 15% , MaxSP + 15%\n[オートマティック\nシールドI]の\n精錬値が1上がる度に追加で\n全ての種族の\nDef・Mdef 5%無視\n[オートマティック\nシールドI]の\n精錬値が10の時、追加で\n全ての種族の\nDef・Mdef 50%無視",
+    "description_lines": [
+        "バルムント邸の",
+        "技術により改良された",
+        "戦闘用のシールド。",
+        "MaxHP + 15% , MaxSP + 15%",
+        "BaseLv175以上の時、追加で",
+        "MaxHP + 15% , MaxSP + 15%",
+        "[オートマティック",
+        "シールドI]の",
+        "精錬値が1上がる度に追加で",
+        "全ての種族の",
+        "Def・Mdef 5%無視",
+        "[オートマティック",
+        "シールドI]の",
+        "精錬値が10の時、追加で",
+        "全ての種族の",
+        "Def・Mdef 50%無視"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 95,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": true,
+        "weight": 120,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "95",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "120",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "35fc1ed766b28d0b7eb7a784a10325920581c0bf8c4dc51331e3dddaeb2f7247",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

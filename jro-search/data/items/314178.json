@@ -1,0 +1,70 @@
+{
+    "type": "item",
+    "item_id": "314178",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/314178\/"
+    },
+    "name": "潜在解放(蜃気楼&不知火XV)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "[豪傑]と\n共に装備時、追加で\n物理攻撃命中時、\n一定確率で20秒間、\n[苦無 -歪曲-]、\n[幻術 -苦無-]の\n消費SP - 279\n[苦無 -回転-]の\n消費SP - 229\n[苦無 -屈折-]の\n消費SP - 189",
+    "description_lines": [
+        "[豪傑]と",
+        "共に装備時、追加で",
+        "物理攻撃命中時、",
+        "一定確率で20秒間、",
+        "[苦無 -歪曲-]、",
+        "[幻術 -苦無-]の",
+        "消費SP - 279",
+        "[苦無 -回転-]の",
+        "消費SP - 229",
+        "[苦無 -屈折-]の",
+        "消費SP - 189"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "279da4ef00b89bc7eaef7ee9125018f579fe6fd5a96fb0f2bf948b8b26aaed7b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

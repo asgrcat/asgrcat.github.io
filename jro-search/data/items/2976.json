@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "2976",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2976\/"
+    },
+    "name": "赤いランタン[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "なぜか寒気がする感じの\n赤い光を放つランタン。\nMaxSP - 300\n[サイト]Lv1使用可能\nモンスターを倒した時、\n一定確率で\n[アルコール]、\n[ディトリミン]、\n[カルボーディル]\nをドロップ\n[工場警備員の魂カード]と\n共に装備時、追加で\n攻撃速度 + 10%\n攻撃命中時、SP + 1",
+    "description_lines": [
+        "なぜか寒気がする感じの",
+        "赤い光を放つランタン。",
+        "MaxSP - 300",
+        "[サイト]Lv1使用可能",
+        "モンスターを倒した時、",
+        "一定確率で",
+        "[アルコール]、",
+        "[ディトリミン]、",
+        "[カルボーディル]",
+        "をドロップ",
+        "[工場警備員の魂カード]と",
+        "共に装備時、追加で",
+        "攻撃速度 + 10%",
+        "攻撃命中時、SP + 1"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "20",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "アンソニ（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/XM_ANTONIO"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "ホラーおもちゃ工場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@xm_d",
+            "map_code": "1@xm_d"
+        }
+    ],
+    "source_html_sha256": "3ec7944794071c1da90e7424a801049f33701b153da4e063b8e568f5c512901a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,82 @@
+{
+    "type": "item",
+    "item_id": "200206",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/200206\/"
+    },
+    "name": "コスたまJuneBrideIII",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する\n・[衣装] 星屑花のゆる編み\n・[衣装] ウェディング\nリボン\n・[衣装] ハプニング\nクローバー\n・[衣装] 戦乙女の麗しい翼\n・[衣装] ブーケバレッタ\n・[衣装] 愛の天使\n・[衣装] セラフィム\nフェザーバンド\n・[衣装] 天使のヘアバンド\n(桃)\n・[衣装] ジャスパー\nサークレット\n・[衣装] 見習い天使の祝福\n[コスたまJuneBrideIII]は\n倉庫への移動のみ可能です",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する",
+        "・[衣装] 星屑花のゆる編み",
+        "・[衣装] ウェディング",
+        "リボン",
+        "・[衣装] ハプニング",
+        "クローバー",
+        "・[衣装] 戦乙女の麗しい翼",
+        "・[衣装] ブーケバレッタ",
+        "・[衣装] 愛の天使",
+        "・[衣装] セラフィム",
+        "フェザーバンド",
+        "・[衣装] 天使のヘアバンド",
+        "(桃)",
+        "・[衣装] ジャスパー",
+        "サークレット",
+        "・[衣装] 見習い天使の祝福",
+        "[コスたまJuneBrideIII]は",
+        "倉庫への移動のみ可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "1fafd9d9ee02f1cd933e97621dd7cc68bfdc1c836b07b89d4cdb31037f898de2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

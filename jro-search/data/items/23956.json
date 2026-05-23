@@ -1,0 +1,71 @@
+{
+    "type": "item",
+    "item_id": "23956",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/23956\/"
+    },
+    "name": "王級メロンパフェ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "朝摘みの王級メロンだけを\n使用した豪華絢爛なパフェ。\n他の素材では味わえない\n芳醇な味と香りが\nスウィーツ業界に及ぼした\n影響は計り知れない。\nHP・SPを10%回復する\n[王級メロンパフェ]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "朝摘みの王級メロンだけを",
+        "使用した豪華絢爛なパフェ。",
+        "他の素材では味わえない",
+        "芳醇な味と香りが",
+        "スウィーツ業界に及ぼした",
+        "影響は計り知れない。",
+        "HP・SPを10%回復する",
+        "[王級メロンパフェ]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "10"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "9f7b2e2e51e0b7309d3b427b71993bb6eb146e3c0f5256a88581ee63a53e0e77",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

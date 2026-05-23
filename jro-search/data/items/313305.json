@@ -1,0 +1,68 @@
+{
+    "type": "item",
+    "item_id": "313305",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/313305\/"
+    },
+    "name": "潜在覚醒(ハンマーオブゴッドI)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "BaseLvが3上がる度に追加で\n[ハンマーオブゴッド]で\n与えるダメージ + 1%\n[豪傑]と\n共に装備時、追加で\n[ハンマーオブゴッド]\n使用時、\nオートスペル\n[リッチズコイン]Lv1発動",
+    "description_lines": [
+        "BaseLvが3上がる度に追加で",
+        "[ハンマーオブゴッド]で",
+        "与えるダメージ + 1%",
+        "[豪傑]と",
+        "共に装備時、追加で",
+        "[ハンマーオブゴッド]",
+        "使用時、",
+        "オートスペル",
+        "[リッチズコイン]Lv1発動"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "3440a163570b48c81ec17975fb2754f66db0eec8c83da359b521eacff9e1a205",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

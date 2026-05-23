@@ -1,0 +1,166 @@
+{
+    "type": "item",
+    "item_id": "28940",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28940\/"
+    },
+    "name": "ゴッズシールド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "神々の手によって\n命を吹き込まれた\nと言われる伝説の盾。\nその力は傷を癒し\n悪意を寄せ付けないという。\nヒール系スキル使用時、\nHP回復量 + 10%\n[ゴッズシールド]の\n精錬値が1上がる度に追加で\nヒール系スキル使用時、\nHP回復量 + 1%\n[ゴッズシールド]の\n精錬値が8以上の時、追加で\n[ヒール]Lv5使用可能\n[ゴッズシールド]の\n精錬値が10の時、\n絶対に出血・石化状態に\nならない",
+    "description_lines": [
+        "神々の手によって",
+        "命を吹き込まれた",
+        "と言われる伝説の盾。",
+        "その力は傷を癒し",
+        "悪意を寄せ付けないという。",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 10%",
+        "[ゴッズシールド]の",
+        "精錬値が1上がる度に追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 1%",
+        "[ゴッズシールド]の",
+        "精錬値が8以上の時、追加で",
+        "[ヒール]Lv5使用可能",
+        "[ゴッズシールド]の",
+        "精錬値が10の時、",
+        "絶対に出血・石化状態に",
+        "ならない"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 150,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 120,
+        "weapon_level": null,
+        "required_level": 99,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "防御": "150",
+            "重量": "120",
+            "要求レベル": "99",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "肉団子野郎TM",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/C3_WILOW"
+        },
+        {
+            "name": "パワフル肉団子野郎TM",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/C4_WILD_ROSE"
+        },
+        {
+            "name": "魔眼の肉団子野郎TM",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/C5_WICKED_NYMPH"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "ソアマッスルA",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer17",
+            "map_code": "ev_summer17"
+        },
+        {
+            "name": "ソアマッスルB",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer18",
+            "map_code": "ev_summer18"
+        },
+        {
+            "name": "ソアマッスルC",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer19",
+            "map_code": "ev_summer19"
+        },
+        {
+            "name": "ソアマッスルD",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer20",
+            "map_code": "ev_summer20"
+        },
+        {
+            "name": "ソアマッスルE",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer21",
+            "map_code": "ev_summer21"
+        },
+        {
+            "name": "ソアマッスルF",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer22",
+            "map_code": "ev_summer22"
+        },
+        {
+            "name": "ソアマッスルG",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer23",
+            "map_code": "ev_summer23"
+        },
+        {
+            "name": "ソアマッスルH",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer24",
+            "map_code": "ev_summer24"
+        },
+        {
+            "name": "ソアマッスルI",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer25",
+            "map_code": "ev_summer25"
+        },
+        {
+            "name": "ソアマッスルJ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer26",
+            "map_code": "ev_summer26"
+        }
+    ],
+    "source_html_sha256": "f544039735b10d9187d914a77db1aa1a5446acbbbe378af12fb62ffbfff1bff6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

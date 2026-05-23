@@ -1,0 +1,149 @@
+{
+    "type": "item",
+    "item_id": "4377",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4377\/"
+    },
+    "name": "グリーンイグアナカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "無形モンスターを倒した時、\n一定確率で\n[フルーツミックス]を\nドロップ\n[ソイガの書]と\n共に装備時、追加で\n無形モンスターを倒した時、\n獲得する経験値 + 5%\n[ソイガの書]の\n精錬値が6以上の時、追加で\n無形モンスターを倒した時、\n獲得する経験値 + 5%\n[ソイガの書]の\n精錬値が8以上の時、追加で\n無形モンスターを倒した時、\n獲得する経験値 + 5%",
+    "description_lines": [
+        "無形モンスターを倒した時、",
+        "一定確率で",
+        "[フルーツミックス]を",
+        "ドロップ",
+        "[ソイガの書]と",
+        "共に装備時、追加で",
+        "無形モンスターを倒した時、",
+        "獲得する経験値 + 5%",
+        "[ソイガの書]の",
+        "精錬値が6以上の時、追加で",
+        "無形モンスターを倒した時、",
+        "獲得する経験値 + 5%",
+        "[ソイガの書]の",
+        "精錬値が8以上の時、追加で",
+        "無形モンスターを倒した時、",
+        "獲得する経験値 + 5%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "グリーンイグアナ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GREEN_IGUANA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_01",
+            "map_code": "2@la_01"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_01",
+            "map_code": "2@lb_01"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_01",
+            "map_code": "2@lc_01"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld201",
+            "map_code": "2@ld201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le101",
+            "map_code": "2@le101"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf201",
+            "map_code": "2@lf201"
+        },
+        {
+            "name": "亜空の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg101",
+            "map_code": "2@lg101"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "フィゲルフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild02",
+            "map_code": "hu_fild02"
+        },
+        {
+            "name": "フィゲルフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild04",
+            "map_code": "hu_fild04"
+        },
+        {
+            "name": "フィゲルフィールド 05（アビスレイク）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild05",
+            "map_code": "hu_fild05"
+        }
+    ],
+    "source_html_sha256": "aa91008afd5a913e376dc1cd03955cd1cce03ece5bc9d02d3675d8d596ce3be4",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

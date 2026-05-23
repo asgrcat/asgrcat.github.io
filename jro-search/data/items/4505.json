@@ -1,0 +1,201 @@
+{
+    "type": "item",
+    "item_id": "4505",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4505\/"
+    },
+    "name": "スカラバカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "Matk + 20 , MaxSP - 1%\n[女王スカラバの兜]、\n[甲帝スカラバカード]と\n共に装備時、追加で\n物理・魔法攻撃命中時、\n一定確率で、\n自分を中心に11x11セルの\n敵に特定の状態異常\n効果を与える\n[女王スカラバの兜]の\n精錬値が1上がる度に\n発動率が上昇",
+    "description_lines": [
+        "Matk + 20 , MaxSP - 1%",
+        "[女王スカラバの兜]、",
+        "[甲帝スカラバカード]と",
+        "共に装備時、追加で",
+        "物理・魔法攻撃命中時、",
+        "一定確率で、",
+        "自分を中心に11x11セルの",
+        "敵に特定の状態異常",
+        "効果を与える",
+        "[女王スカラバの兜]の",
+        "精錬値が1上がる度に",
+        "発動率が上昇"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "鹿角スカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ANTLER_SCARABA"
+        },
+        {
+            "name": "一角スカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HORN_SCARABA"
+        },
+        {
+            "name": "双角スカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HORN_SCARABA2"
+        },
+        {
+            "name": "アトラススカラバ（取り巻き）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/I_G_RAKE_SCARABA"
+        },
+        {
+            "name": "剛角スカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RAKE_SCARABA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_01",
+            "map_code": "2@la_01"
+        },
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_03",
+            "map_code": "2@la_03"
+        },
+        {
+            "name": "試練の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_28",
+            "map_code": "2@la_28"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_01",
+            "map_code": "2@lb_01"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_03",
+            "map_code": "2@lb_03"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_01",
+            "map_code": "2@lc_01"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_03",
+            "map_code": "2@lc_03"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld201",
+            "map_code": "2@ld201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld203",
+            "map_code": "2@ld203"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld228",
+            "map_code": "2@ld228"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le101",
+            "map_code": "2@le101"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf201",
+            "map_code": "2@lf201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf203",
+            "map_code": "2@lf203"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf228",
+            "map_code": "2@lf228"
+        },
+        {
+            "name": "亜空の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg101",
+            "map_code": "2@lg101"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "カミダルトンネル",
+            "url": "https:\/\/rotool.gungho.jp\/map\/dic_dun01",
+            "map_code": "dic_dun01"
+        },
+        {
+            "name": "スカラバホール",
+            "url": "https:\/\/rotool.gungho.jp\/map\/dic_dun02",
+            "map_code": "dic_dun02"
+        }
+    ],
+    "source_html_sha256": "2ca9e5bb74d6291a78965cf068daca7a6295f165ee5c6b598825fc6bcd456cea",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

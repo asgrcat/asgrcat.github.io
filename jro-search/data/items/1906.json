@@ -1,0 +1,110 @@
+{
+    "type": "item",
+    "item_id": "1906",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1906\/"
+    },
+    "name": "リュート[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "bard": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "昔に流行っていた発弦楽器",
+    "description_lines": [
+        "昔に流行っていた発弦楽器"
+    ],
+    "properties": {
+        "series": "instrument",
+        "series_normalized": [
+            "instrument"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 3,
+        "def": null,
+        "atk": 105,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": 2,
+        "required_level": 14,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "bard": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "楽器",
+            "攻撃": "105",
+            "重量": "50",
+            "武器レベル": "2",
+            "要求レベル": "14",
+            "装備": "バード系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "天仙娘々",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WICKED_NYMPH"
+        },
+        {
+            "name": "にゃんにゃん",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_215"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "コンロンダンジョン 03（武陵桃源）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gon_dun03",
+            "map_code": "gon_dun03"
+        }
+    ],
+    "source_html_sha256": "b3690540b11bf832023a2c4fdaef60d8acd2ab40896beb4f3e3afde7a45be310",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

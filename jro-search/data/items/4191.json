@@ -1,0 +1,162 @@
+{
+    "type": "item",
+    "item_id": "4191",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4191\/"
+    },
+    "name": "ロリルリカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "armor"
+        ],
+        "card_attachable_positions": {
+            "armor": true
+        }
+    },
+    "description": "物理攻撃を受けた時、\n一定確率で\n自分にオートスペル\n[ヒール]Lv3発動\n[天仙娘々カード]、\n[フェアリーフカード]、\n[ハーピーカード]、\n[パピヨンカード]、\n[雅人形カード]と\n共に装備時、追加で\nMaxHP + 500\nDef + 5 , Mdef + 5\n[ファイアーボルト]、\n[コールドボルト]、\n[ライトニングボルト]で\n与えるダメージ + 10%\nマジシャン系が装備時、\n追加で\nMatk + 3%\n変動詠唱時間 - 15%\n[古びた楯無の鎧]と\n共に装備時、\n[古びた楯無の鎧]の\n精錬値が5の時、\n鎧に地属性を付与する\n精錬値が6の時、\n鎧に水属性を付与する\n精錬値が7の時、\n鎧に風属性を付与する\n精錬値が8の時、\n鎧に火属性を付与する\n精錬値が9の時、\n鎧に闇属性を付与する\n精錬値が10の時、\n鎧に聖属性を付与する",
+    "description_lines": [
+        "物理攻撃を受けた時、",
+        "一定確率で",
+        "自分にオートスペル",
+        "[ヒール]Lv3発動",
+        "[天仙娘々カード]、",
+        "[フェアリーフカード]、",
+        "[ハーピーカード]、",
+        "[パピヨンカード]、",
+        "[雅人形カード]と",
+        "共に装備時、追加で",
+        "MaxHP + 500",
+        "Def + 5 , Mdef + 5",
+        "[ファイアーボルト]、",
+        "[コールドボルト]、",
+        "[ライトニングボルト]で",
+        "与えるダメージ + 10%",
+        "マジシャン系が装備時、",
+        "追加で",
+        "Matk + 3%",
+        "変動詠唱時間 - 15%",
+        "[古びた楯無の鎧]と",
+        "共に装備時、",
+        "[古びた楯無の鎧]の",
+        "精錬値が5の時、",
+        "鎧に地属性を付与する",
+        "精錬値が6の時、",
+        "鎧に水属性を付与する",
+        "精錬値が7の時、",
+        "鎧に風属性を付与する",
+        "精錬値が8の時、",
+        "鎧に火属性を付与する",
+        "精錬値が9の時、",
+        "鎧に闇属性を付与する",
+        "精錬値が10の時、",
+        "鎧に聖属性を付与する"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "armor"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "鎧",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ロリルリ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/LOLI_RURI"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_16",
+            "map_code": "2@la_16"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_19",
+            "map_code": "2@lb_19"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_16",
+            "map_code": "2@lc_16"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld216",
+            "map_code": "2@ld216"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf216",
+            "map_code": "2@lf216"
+        },
+        {
+            "name": "亜空の迷宮 魔女の菜園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg114",
+            "map_code": "2@lg114"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ニブルヘイムフィールド 02（ギョル渓谷）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nif_fild02",
+            "map_code": "nif_fild02"
+        },
+        {
+            "name": "死者の街ニブルヘイム",
+            "url": "https:\/\/rotool.gungho.jp\/map\/niflheim",
+            "map_code": "niflheim"
+        }
+    ],
+    "source_html_sha256": "21cff50df1ec8bea61f7e6e4916cf0a38f4bae11d94ef37fce4ca87a3190b84d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

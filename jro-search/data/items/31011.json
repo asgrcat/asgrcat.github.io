@@ -1,0 +1,79 @@
+{
+    "type": "item",
+    "item_id": "31011",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31011\/"
+    },
+    "name": "[LoVA] 真化キマカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "shoes"
+        ],
+        "card_attachable_positions": {
+            "shoes": true
+        }
+    },
+    "description": "BaseLv2以上の時、\n10秒毎にSPが回復\nBaseLvが2上がる度に\n10秒毎に回復するSPが上昇\n精錬値が7以上の時、\n純粋なIntが10上がる度に\n追加で\nMatk + 6 , MaxSP + 1%",
+    "description_lines": [
+        "BaseLv2以上の時、",
+        "10秒毎にSPが回復",
+        "BaseLvが2上がる度に",
+        "10秒毎に回復するSPが上昇",
+        "精錬値が7以上の時、",
+        "純粋なIntが10上がる度に",
+        "追加で",
+        "Matk + 6 , MaxSP + 1%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "shoes"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "靴",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "b35a8fd68e8e9e77e0c7a2dd86ed0fc35b00c042a8860692d6d55fb27c117f65",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

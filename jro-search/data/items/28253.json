@@ -1,0 +1,124 @@
+{
+    "type": "item",
+    "item_id": "28253",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28253\/"
+    },
+    "name": "HR-S55-OS[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "rebellion": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "如何なる装甲でも\n撃ち抜けるように弾速と\n精密性を上げたライフル。\n物理攻撃で\n与えるダメージ + 60%\n[マススパイラル]の\n変動詠唱時間 - 2秒\n純粋なIntが10上がる度に\n追加で\n[ハンマーオブゴッド]で\n与えるダメージ + 7%\n純粋なIntが110以上の時、\n追加で\n[ハンマーオブゴッド]で\n与えるダメージ + 30%\n[HR-S55-OS]の\n精錬値が7以上の時、追加で\n物理攻撃で\n与えるダメージ + 25%\n[HR-S55-OS]の\n精錬値が9以上の時、追加で\n物理攻撃で\n与えるダメージ + 25%\n[HR-S55-OS]の\n精錬値が10の時、追加で\n相手の防御力が高いほど\n与えるダメージが増加\n[コル・コアヘッドフォン]\nと共に装備時、追加で\nAtk + 200 , Matk + 200",
+    "description_lines": [
+        "如何なる装甲でも",
+        "撃ち抜けるように弾速と",
+        "精密性を上げたライフル。",
+        "物理攻撃で",
+        "与えるダメージ + 60%",
+        "[マススパイラル]の",
+        "変動詠唱時間 - 2秒",
+        "純粋なIntが10上がる度に",
+        "追加で",
+        "[ハンマーオブゴッド]で",
+        "与えるダメージ + 7%",
+        "純粋なIntが110以上の時、",
+        "追加で",
+        "[ハンマーオブゴッド]で",
+        "与えるダメージ + 30%",
+        "[HR-S55-OS]の",
+        "精錬値が7以上の時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 25%",
+        "[HR-S55-OS]の",
+        "精錬値が9以上の時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 25%",
+        "[HR-S55-OS]の",
+        "精錬値が10の時、追加で",
+        "相手の防御力が高いほど",
+        "与えるダメージが増加",
+        "[コル・コアヘッドフォン]",
+        "と共に装備時、追加で",
+        "Atk + 200 , Matk + 200"
+    ],
+    "properties": {
+        "series": "rifle",
+        "series_normalized": [
+            "rifle"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 0,
+        "def": null,
+        "atk": 170,
+        "mdef": null,
+        "matk": 0,
+        "refinement": true,
+        "breakable": true,
+        "weight": 85,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "rebellion": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "ライフル",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "0",
+            "Atk": "170",
+            "Matk": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "85",
+            "要求レベル": "150",
+            "装備": "リベリオン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "a49296a6541202c1702257345662941b828d102d8a302495a7dbd1433757b575",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

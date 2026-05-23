@@ -1,0 +1,111 @@
+{
+    "type": "item",
+    "item_id": "18969",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18969\/"
+    },
+    "name": "ベレーBOSS帽子[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "BOSS帽子にベレー帽が乗った\n可愛らしいデザインの帽子。\n鍛えれば鍛えるほど\nどんどん身を守る効果が\n発揮されるようだ。\n小・中・大型モンスターから\n受けるダメージ - 5%\n[ベレーBOSS帽子]の\n精錬値が6以上の時、\n精錬値が1上がる度に追加で\n小・中・大型モンスターから\n受けるダメージ - 1%\n[ベレーBOSS帽子]の\n精錬値が10の時、追加で\n小・中・大型モンスターから\n受けるダメージ - 5%\n[11thアニバーサリーカード]\nと共に装備時、追加で\n完全回避 + 5\n[ベレーBOSS帽子]の\n精錬値が7以上の時、追加で\n完全回避 + 1\n精錬値が9以上の時、追加で\n完全回避 + 1\n精錬値が10の時、追加で\n完全回避 + 3",
+    "description_lines": [
+        "BOSS帽子にベレー帽が乗った",
+        "可愛らしいデザインの帽子。",
+        "鍛えれば鍛えるほど",
+        "どんどん身を守る効果が",
+        "発揮されるようだ。",
+        "小・中・大型モンスターから",
+        "受けるダメージ - 5%",
+        "[ベレーBOSS帽子]の",
+        "精錬値が6以上の時、",
+        "精錬値が1上がる度に追加で",
+        "小・中・大型モンスターから",
+        "受けるダメージ - 1%",
+        "[ベレーBOSS帽子]の",
+        "精錬値が10の時、追加で",
+        "小・中・大型モンスターから",
+        "受けるダメージ - 5%",
+        "[11thアニバーサリーカード]",
+        "と共に装備時、追加で",
+        "完全回避 + 5",
+        "[ベレーBOSS帽子]の",
+        "精錬値が7以上の時、追加で",
+        "完全回避 + 1",
+        "精錬値が9以上の時、追加で",
+        "完全回避 + 1",
+        "精錬値が10の時、追加で",
+        "完全回避 + 3"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 3,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": 10,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "3",
+            "位置": "上段",
+            "重量": "20",
+            "要求レベル": "10",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "dd739c6361abd2fe29f334ad60b12993526302b1194fbaa5dbd35d05fd7e1e80",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

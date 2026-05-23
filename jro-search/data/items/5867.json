@@ -1,0 +1,95 @@
+{
+    "type": "item",
+    "item_id": "5867",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5867\/"
+    },
+    "name": "眠り猫[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "座布団に座って日向ぼっこ\nしている内に寝てしまった\n猫を模して作られた帽子。\n魚の匂いを前にしても\n絶対に起きない？\n魚貝形モンスターから\n受けるダメージ - 5%\n精錬値が6以上の時、追加で\n魚貝形モンスターから\n受けるダメージ - 5%",
+    "description_lines": [
+        "座布団に座って日向ぼっこ",
+        "している内に寝てしまった",
+        "猫を模して作られた帽子。",
+        "魚の匂いを前にしても",
+        "絶対に起きない？",
+        "魚貝形モンスターから",
+        "受けるダメージ - 5%",
+        "精錬値が6以上の時、追加で",
+        "魚貝形モンスターから",
+        "受けるダメージ - 5%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 3,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "3",
+            "位置": "上段",
+            "重量": "30",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "d215b2feaa1a64cbfa7a1c91ffba3a8c5c70b56a03cf24fba121847f09662f0c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

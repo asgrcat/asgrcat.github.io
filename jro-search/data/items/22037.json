@@ -1,0 +1,112 @@
+{
+    "type": "item",
+    "item_id": "22037",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/22037\/"
+    },
+    "name": "勇者のウンゴリアントブーツ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "モロクと戦う勇者に\n贈られる栄誉ある靴。\n集中力の向上に役立つ\nウンゴリアントの体液で\n染め上げているため、\n雑念が減るといわれる。\nスキル使用時の\n消費SP - 5%\n[勇者の\nウンゴリアントブーツ]の\n精錬値が8以上の時、\n精錬値が1上がる度に追加で\nスキル使用時の\n消費SP - 1%\n[連合軍司令官のマント]と\n共に装備時、追加で\nVit + 10 , Luk + 10\n消費SP - 10%\nヒール系スキル使用時、\nHP回復量 + 20%\nプレイヤーから\n受けるダメージ - 5%",
+    "description_lines": [
+        "モロクと戦う勇者に",
+        "贈られる栄誉ある靴。",
+        "集中力の向上に役立つ",
+        "ウンゴリアントの体液で",
+        "染め上げているため、",
+        "雑念が減るといわれる。",
+        "スキル使用時の",
+        "消費SP - 5%",
+        "[勇者の",
+        "ウンゴリアントブーツ]の",
+        "精錬値が8以上の時、",
+        "精錬値が1上がる度に追加で",
+        "スキル使用時の",
+        "消費SP - 1%",
+        "[連合軍司令官のマント]と",
+        "共に装備時、追加で",
+        "Vit + 10 , Luk + 10",
+        "消費SP - 10%",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 20%",
+        "プレイヤーから",
+        "受けるダメージ - 5%"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 10,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 160,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "10",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "30",
+            "要求レベル": "160",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "10b17eeb987065faec7e37fcae1e334cbba9d0ce1aaab2664a2c15102ce93fd4",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

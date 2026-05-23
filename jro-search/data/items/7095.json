@@ -1,0 +1,283 @@
+{
+    "type": "item",
+    "item_id": "7095",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7095\/"
+    },
+    "name": "壊れた金属の欠片",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "どの金属かは判別できないが壊れている金属の欠片。少なくとも古鉄商人には売ることができるようだ。\n_",
+    "description_lines": [
+        "どの金属かは判別できないが壊れている金属の欠片。少なくとも古鉄商人には売ることができるようだ。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ヘルアポカリプス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HELL_APOCALIPS"
+        },
+        {
+            "name": "アポカリプス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/APOCALIPS"
+        },
+        {
+            "name": "ヴェスパー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/APOCALIPS_H"
+        },
+        {
+            "name": "ガンキャン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GAN_CEANN"
+        },
+        {
+            "name": "浴場管理者ベータⅠ型",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_2_BETA_BATHS_A"
+        },
+        {
+            "name": "浴場管理者ベータⅠⅠ型",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_2_BETA_BATHS_B"
+        },
+        {
+            "name": "故障した警備型ベータ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_2_BETA_GUARDS_NG"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_11",
+            "map_code": "2@la_11"
+        },
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_12",
+            "map_code": "2@la_12"
+        },
+        {
+            "name": "試練の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_23",
+            "map_code": "2@la_23"
+        },
+        {
+            "name": "封印の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_11",
+            "map_code": "2@lb_11"
+        },
+        {
+            "name": "封印の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_12",
+            "map_code": "2@lb_12"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_14",
+            "map_code": "2@lb_14"
+        },
+        {
+            "name": "封印の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_28",
+            "map_code": "2@lb_28"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_11",
+            "map_code": "2@lc_11"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_12",
+            "map_code": "2@lc_12"
+        },
+        {
+            "name": "幻影の迷宮 陰鬱な倉庫",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld121",
+            "map_code": "2@ld121"
+        },
+        {
+            "name": "幻影の迷宮 煮え滾る浴場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld123",
+            "map_code": "2@ld123"
+        },
+        {
+            "name": "幻影の迷宮 悪魔の劇場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld124",
+            "map_code": "2@ld124"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld211",
+            "map_code": "2@ld211"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld212",
+            "map_code": "2@ld212"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld223",
+            "map_code": "2@ld223"
+        },
+        {
+            "name": "幻影の迷宮 陰鬱な倉庫",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le121",
+            "map_code": "2@le121"
+        },
+        {
+            "name": "幻影の迷宮 煮え滾る浴場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le123",
+            "map_code": "2@le123"
+        },
+        {
+            "name": "幻影の迷宮 悪魔の劇場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le124",
+            "map_code": "2@le124"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf211",
+            "map_code": "2@lf211"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf212",
+            "map_code": "2@lf212"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf223",
+            "map_code": "2@lf223"
+        },
+        {
+            "name": "亜空の迷宮 魔女の菜園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg114",
+            "map_code": "2@lg114"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "貯蔵庫タルタロス上層(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ba_2whs01",
+            "map_code": "ba_2whs01"
+        },
+        {
+            "name": "貯蔵庫タルタロス上層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ba_2whs01_j",
+            "map_code": "ba_2whs01_j"
+        },
+        {
+            "name": "貯蔵庫タルタロス下層(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ba_2whs02",
+            "map_code": "ba_2whs02"
+        },
+        {
+            "name": "貯蔵庫タルタロス下層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ba_2whs02_j",
+            "map_code": "ba_2whs02_j"
+        },
+        {
+            "name": "大浴場メディタティオ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ba_bath_j",
+            "map_code": "ba_bath_j"
+        },
+        {
+            "name": "ジュピロス中心部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jupe_core",
+            "map_code": "jupe_core"
+        },
+        {
+            "name": "ジュピロス廃墟 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/juperos_02",
+            "map_code": "juperos_02"
+        },
+        {
+            "name": "ニブルヘイムダンジョン(亡者の宴会場)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nif_dun01",
+            "map_code": "nif_dun01"
+        },
+        {
+            "name": "ギルドダンジョン シュバルツバルド",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_dun01",
+            "map_code": "schg_dun01"
+        }
+    ],
+    "source_html_sha256": "c5e60e3f1e6f3d059dd5725a17df616564eb408437243ef59286c5f9d87b8e3c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

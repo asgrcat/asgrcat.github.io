@@ -1,0 +1,104 @@
+{
+    "type": "item",
+    "item_id": "4022",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4022\/"
+    },
+    "name": "スポアカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "VIT + 2",
+    "description_lines": [
+        "VIT + 2"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "スポア",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SPORE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "実習室（海岸）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_prac_01",
+            "map_code": "ac_prac_01"
+        },
+        {
+            "name": "フェイヨン迷いの森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild01",
+            "map_code": "pay_fild01"
+        },
+        {
+            "name": "フェイヨン迷いの森 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild02",
+            "map_code": "pay_fild02"
+        },
+        {
+            "name": "フェイヨン迷いの森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild03",
+            "map_code": "pay_fild03"
+        },
+        {
+            "name": "プロンテラ地下水路 B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_sewb2",
+            "map_code": "prt_sewb2"
+        }
+    ],
+    "source_html_sha256": "433d80142bf8ca0c722506e17361f2132489e79a7f7ead86d436170179c04f58",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

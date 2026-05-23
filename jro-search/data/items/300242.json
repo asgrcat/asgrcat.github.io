@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "300242",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300242\/"
+    },
+    "name": "ゴーストキューブカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "物理攻撃を受けた時、\n一定確率で敵に\nオートスペル\n[速度減少]\nLv5発動\n[ルードガルカード]と\n共に装備時、追加で\nMaxHP + 5000",
+    "description_lines": [
+        "物理攻撃を受けた時、",
+        "一定確率で敵に",
+        "オートスペル",
+        "[速度減少]",
+        "Lv5発動",
+        "[ルードガルカード]と",
+        "共に装備時、追加で",
+        "MaxHP + 5000"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ゴーストキューブ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GHOST_CUBE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "幻影の迷宮 悪魔の劇場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld124",
+            "map_code": "2@ld124"
+        },
+        {
+            "name": "幻影の迷宮 悪魔の劇場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le124",
+            "map_code": "2@le124"
+        },
+        {
+            "name": "亜空の迷宮 魔女の菜園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg114",
+            "map_code": "2@lg114"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "ニブルヘイムダンジョン(亡者の宴会場)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nif_dun01",
+            "map_code": "nif_dun01"
+        }
+    ],
+    "source_html_sha256": "466fd5fa261eab0c1a078623e246ca8bee6cabdc13dfe08158e22693a2c4def7",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

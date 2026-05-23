@@ -1,0 +1,107 @@
+{
+    "type": "item",
+    "item_id": "18719",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18719\/"
+    },
+    "name": "エンジェルステアーズ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "雲の合間から光が差し込む\n幻想的な気象現象。\n物理攻撃命中時、\n一定確率で\n敵にオートスペル\n[ファイアーボルト]Lv5、\n[ファイアーボール]Lv5発動\n[ファイアーボルト]Lv5、\n[ファイアーボール]Lv5以上\n習得している場合、\n習得Lvで発動\n[ファイアーボルト]、\n[ファイアーボール]\nの習得Lvが高い程\n発動率が上昇\n精錬不可\nエフェクト装備のため、\nエフェクト(\/effect)を\nOFFにしていると表示\nされない\nこの装備は、衣装装備で\n隠すことができない",
+    "description_lines": [
+        "雲の合間から光が差し込む",
+        "幻想的な気象現象。",
+        "物理攻撃命中時、",
+        "一定確率で",
+        "敵にオートスペル",
+        "[ファイアーボルト]Lv5、",
+        "[ファイアーボール]Lv5発動",
+        "[ファイアーボルト]Lv5、",
+        "[ファイアーボール]Lv5以上",
+        "習得している場合、",
+        "習得Lvで発動",
+        "[ファイアーボルト]、",
+        "[ファイアーボール]",
+        "の習得Lvが高い程",
+        "発動率が上昇",
+        "精錬不可",
+        "エフェクト装備のため、",
+        "エフェクト(\/effect)を",
+        "OFFにしていると表示",
+        "されない",
+        "この装備は、衣装装備で",
+        "隠すことができない"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 30,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "上段",
+            "重量": "50",
+            "要求レベル": "30",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "70d520cbad80ffa9df972ae519d1e0cc0a21e614ae3369b64e5f7bf755e2c0e9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

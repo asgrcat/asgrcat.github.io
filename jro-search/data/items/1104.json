@@ -1,0 +1,130 @@
+{
+    "type": "item",
+    "item_id": "1104",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1104\/"
+    },
+    "name": "ファルシオン[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "丸い刃を持つ、幅が広い刀。",
+    "description_lines": [
+        "丸い刃を持つ、幅が広い刀。"
+    ],
+    "properties": {
+        "series": "sword",
+        "series_normalized": [
+            "sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 3,
+        "def": null,
+        "atk": 39,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 60,
+        "weapon_level": 1,
+        "required_level": 2,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "剣",
+            "攻撃": "39",
+            "重量": "60",
+            "武器レベル": "1",
+            "要求レベル": "2",
+            "装備": "ノービス ソードマン系 マーチャント系 シーフ系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "パイレーツスケル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/PIRATE_SKEL"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "特別室（廃墟）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_spec_02",
+            "map_code": "ac_spec_02"
+        },
+        {
+            "name": "沈没船 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/treasure01",
+            "map_code": "treasure01"
+        },
+        {
+            "name": "沈没船 2層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/treasure02",
+            "map_code": "treasure02"
+        }
+    ],
+    "source_html_sha256": "16c8962858beb99594b00909f18103894cf2d10e886bc5dd3871a432b0ce7c22",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

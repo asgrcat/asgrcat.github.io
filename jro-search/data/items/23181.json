@@ -1,0 +1,66 @@
+{
+    "type": "item",
+    "item_id": "23181",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/23181\/"
+    },
+    "name": "[ECO] サラマンダー・アルマの想い",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "いろいろなものの\n「想い」がつまったカード。\n使用すると、\n[メテオストーム]Lv5の\n効果発動",
+    "description_lines": [
+        "いろいろなものの",
+        "「想い」がつまったカード。",
+        "使用すると、",
+        "[メテオストーム]Lv5の",
+        "効果発動"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "8b927a3434bf66cdd3817b38276e1dcb1206b67109d7b1943ef1a074f950b06c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

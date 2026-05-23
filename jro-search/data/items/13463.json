@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "13463",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13463\/"
+    },
+    "name": "エクスキャリバー[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "岩に突き刺さっていたと\n言われる剣。\n自ら主人を選ぶ剣で、\n聖なる力を持っている。\nMatk + 126\nInt + 5 , Luk +10\nDex - 1",
+    "description_lines": [
+        "岩に突き刺さっていたと",
+        "言われる剣。",
+        "自ら主人を選ぶ剣で、",
+        "聖なる力を持っている。",
+        "Matk + 126",
+        "Int + 5 , Luk +10",
+        "Dex - 1"
+    ],
+    "properties": {
+        "series": "one_handed_sword",
+        "series_normalized": [
+            "one_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "聖",
+        "slot": 3,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 120,
+        "weapon_level": 4,
+        "required_level": 40,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手剣",
+            "攻撃": "150",
+            "重量": "120",
+            "属性": "聖",
+            "武器レベル": "4",
+            "要求レベル": "40",
+            "装備": "ソードマン系 マーチャント系 シーフ系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "945c2acaf7ffa1e4d86a14f321a2b43370e4b4fb9613069bf1edec54429f56b2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

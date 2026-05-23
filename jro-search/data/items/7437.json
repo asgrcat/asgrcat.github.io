@@ -1,0 +1,114 @@
+{
+    "type": "item",
+    "item_id": "7437",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7437\/"
+    },
+    "name": "悲しみの欠片",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "強い邪念体が具現化されたもので、「悲しむ心」が感じられる。\n_",
+    "description_lines": [
+        "強い邪念体が具現化されたもので、「悲しむ心」が感じられる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "タナトスの悲しみ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/THA_MAERO"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_09",
+            "map_code": "2@la_09"
+        },
+        {
+            "name": "封印の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_09",
+            "map_code": "2@lb_09"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_09",
+            "map_code": "2@lc_09"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld209",
+            "map_code": "2@ld209"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf209",
+            "map_code": "2@lf209"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "タナトスタワー上層部 06",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tha_t06",
+            "map_code": "tha_t06"
+        },
+        {
+            "name": "タナトスタワー上層部 09",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tha_t09",
+            "map_code": "tha_t09"
+        }
+    ],
+    "source_html_sha256": "ff44421d4600a1501de0002fae6f871d7b6c63985bd5f91d2de5d3f5a705c2be",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

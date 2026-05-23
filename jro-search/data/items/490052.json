@@ -1,0 +1,114 @@
+{
+    "type": "item",
+    "item_id": "490052",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/490052\/"
+    },
+    "name": "シンフルサファイアリング[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "genetic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "青色のサファイアが\n埋め込まれている\n罪悪に染まった指輪。\n深い輝きの奥底から、\n邪悪で強力な力を\n送り出している。\nStr + 20\n攻撃速度 + 15%\nMaxHP + 15%\n物理攻撃で\n与えるダメージ + 10%\nプレイヤーから\n受けるダメージ - 3%\n[カートキャノン]の\n変動詠唱時間 - 3秒\nBaseLvが2上がる度に追加で\n[カートキャノン]、\n[カートトルネード]で\n与えるダメージ + 1%\n[シンフル\nサファイアリング]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "青色のサファイアが",
+        "埋め込まれている",
+        "罪悪に染まった指輪。",
+        "深い輝きの奥底から、",
+        "邪悪で強力な力を",
+        "送り出している。",
+        "Str + 20",
+        "攻撃速度 + 15%",
+        "MaxHP + 15%",
+        "物理攻撃で",
+        "与えるダメージ + 10%",
+        "プレイヤーから",
+        "受けるダメージ - 3%",
+        "[カートキャノン]の",
+        "変動詠唱時間 - 3秒",
+        "BaseLvが2上がる度に追加で",
+        "[カートキャノン]、",
+        "[カートトルネード]で",
+        "与えるダメージ + 1%",
+        "[シンフル",
+        "サファイアリング]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "accessory_2",
+        "series_normalized": [
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "genetic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー(2)",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "200",
+            "装備": "ジェネティック系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6f3d98da10bc617fcefc606def0b827049be87a8579a4b348e3fe58fe6436f7d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

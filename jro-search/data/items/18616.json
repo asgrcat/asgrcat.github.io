@@ -1,0 +1,88 @@
+{
+    "type": "item",
+    "item_id": "18616",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18616\/"
+    },
+    "name": "長い舌[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "凄いスピードで\n喋れるようになる長い舌。\nただし、その長さから\n自ら舌を噛む確率も上がる。\nMatk + 2%\n変動詠唱時間 - 3%",
+    "description_lines": [
+        "凄いスピードで",
+        "喋れるようになる長い舌。",
+        "ただし、その長さから",
+        "自ら舌を噛む確率も上がる。",
+        "Matk + 2%",
+        "変動詠唱時間 - 3%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 80,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "下段",
+            "重量": "10",
+            "要求レベル": "80",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f4f7d363ac1b50e8416281caf38e296ad845a955ca5ba3b25a058e6267095fc6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

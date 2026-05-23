@@ -1,0 +1,112 @@
+{
+    "type": "item",
+    "item_id": "420302",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/420302\/"
+    },
+    "name": "りんりんニャンカーベル[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "summoner": true
+            },
+            "include_jobs": {
+                "summoner": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ルーンミッドガッツ王国で\n人気のブランドで、\nリボンが付いた\n可愛らしい鈴。\nドラムにカートを\n引かされているタロウたちが\n集まって相談し\nドラムの首に\n鈴をつけることにした。\nヒール系スキル使用時、\nHP回復量 + 10%\n[海の魂]Lv1習得時、\n[マグロシールド]の\n固定詠唱時間 - 1秒\n[のどを鳴らす]の\n習得Lvが1上がる度に追加で\nMaxHP + 3%",
+    "description_lines": [
+        "ルーンミッドガッツ王国で",
+        "人気のブランドで、",
+        "リボンが付いた",
+        "可愛らしい鈴。",
+        "ドラムにカートを",
+        "引かされているタロウたちが",
+        "集まって相談し",
+        "ドラムの首に",
+        "鈴をつけることにした。",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 10%",
+        "[海の魂]Lv1習得時、",
+        "[マグロシールド]の",
+        "固定詠唱時間 - 1秒",
+        "[のどを鳴らす]の",
+        "習得Lvが1上がる度に追加で",
+        "MaxHP + 3%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "summoner": true
+            },
+            "include_jobs": {
+                "summoner": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "下段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "サモナー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "14c8e432829291a67b2b7d950ee062b6b25a38aba896b2b608111a45bd406403",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

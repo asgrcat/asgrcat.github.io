@@ -1,0 +1,164 @@
+{
+    "type": "item",
+    "item_id": "28723",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28723\/"
+    },
+    "name": "ミラージュダガー[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_reaper": true,
+                "kagerou": true,
+                "oboro": true,
+                "karnos": true,
+                "novice": true,
+                "super_novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ディーヴァダガーが\n迷宮の力の影響で\n変異をとげた武器。\nどのような素材で\n精製されているのかは不明で\n同じような武器でも、\nその性能は異なるという。\n射程距離5\nMatk + 120\n[ミラージュダガー]の\n精錬値が7以上の時、追加で\nAtk + 30 , Hit + 5\n[ミラージュダガー]の\n精錬値が9以上の時、追加で\nAtk + 30 , Hit + 5\n[迷宮のドラキュラカード]\nと共に装備時、\n追加で\n物理攻撃命中時、\n一定確率で敵に与えた\nダメージの5%を\nSPとして吸収",
+    "description_lines": [
+        "ディーヴァダガーが",
+        "迷宮の力の影響で",
+        "変異をとげた武器。",
+        "どのような素材で",
+        "精製されているのかは不明で",
+        "同じような武器でも、",
+        "その性能は異なるという。",
+        "射程距離5",
+        "Matk + 120",
+        "[ミラージュダガー]の",
+        "精錬値が7以上の時、追加で",
+        "Atk + 30 , Hit + 5",
+        "[ミラージュダガー]の",
+        "精錬値が9以上の時、追加で",
+        "Atk + 30 , Hit + 5",
+        "[迷宮のドラキュラカード]",
+        "と共に装備時、",
+        "追加で",
+        "物理攻撃命中時、",
+        "一定確率で敵に与えた",
+        "ダメージの5%を",
+        "SPとして吸収"
+    ],
+    "properties": {
+        "series": "dagger",
+        "series_normalized": [
+            "dagger"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 60,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_reaper": true,
+                "kagerou": true,
+                "oboro": true,
+                "karnos": true,
+                "novice": true,
+                "super_novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "短剣",
+            "攻撃": "120",
+            "重量": "60",
+            "武器レベル": "4",
+            "要求レベル": "150",
+            "装備": "スーパーノービス系 3次職ソードマン系 3次職マジシャン系 3次職アーチャー系 3次職シーフ系 3次職マーチャント系 ソウルリーパー系 影狼系 朧系 カルノス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "クラーケン（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_26"
+        },
+        {
+            "name": "ドレイク（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_32"
+        },
+        {
+            "name": "シャドウフェンリル（B）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_94"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "封印の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@lb_00",
+            "map_code": "3@lb_00"
+        }
+    ],
+    "source_html_sha256": "7bccfc204a0721c4e997a0e8d5f596911eec0030f64d0e858ca9134994800829",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,91 @@
+{
+    "type": "item",
+    "item_id": "20515",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20515\/"
+    },
+    "name": "[衣装] 魔法陣[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "足元にぼんやりと現れる\n衣装用の魔法陣。\n身につけるだけで\n偉大な魔法使いのような\n気分を楽しむことができる。\nエフェクト装備のため、\nエフェクト(\/effect)を\nOFFにしていると表示\nされない",
+    "description_lines": [
+        "足元にぼんやりと現れる",
+        "衣装用の魔法陣。",
+        "身につけるだけで",
+        "偉大な魔法使いのような",
+        "気分を楽しむことができる。",
+        "エフェクト装備のため、",
+        "エフェクト(\/effect)を",
+        "OFFにしていると表示",
+        "されない"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "garment",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "肩にかける物",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "81fcc7bba73f3660727bfb166327de8edc1e0fade214f14b88f9cda556173961",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

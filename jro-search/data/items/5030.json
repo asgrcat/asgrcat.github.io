@@ -1,0 +1,130 @@
+{
+    "type": "item",
+    "item_id": "5030",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5030\/"
+    },
+    "name": "パンダ帽[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "装備した瞬間、笹を手に\nしている自分を見つける\nことができそうなパンダに\n似ている帽子。\nとても可愛くて\n女性の人気が高い。",
+    "description_lines": [
+        "装備した瞬間、笹を手に",
+        "している自分を見つける",
+        "ことができそうなパンダに",
+        "似ている帽子。",
+        "とても可愛くて",
+        "女性の人気が高い。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 6,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 80,
+        "weapon_level": null,
+        "required_level": 40,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "6",
+            "位置": "上段",
+            "重量": "80",
+            "要求レベル": "40",
+            "装備": "ノービス系を除く全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "サスカッチ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SASQUATCH"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "迷宮の森 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze02",
+            "map_code": "prt_maze02"
+        },
+        {
+            "name": "ルティエフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/xmas_fild01",
+            "map_code": "xmas_fild01"
+        }
+    ],
+    "source_html_sha256": "78b46a17033d1a2e6c0b35cde1e186289c5f448a0a75670da43db4bab8ed10f1",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

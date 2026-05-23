@@ -1,0 +1,184 @@
+{
+    "type": "item",
+    "item_id": "4360",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4360\/"
+    },
+    "name": "エレメス=ガイルカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "人間形モンスターに攻撃時、\nCritical + 10",
+    "description_lines": [
+        "人間形モンスターに攻撃時、",
+        "Critical + 10"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "エレメス=ガイル（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EREMES"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_14",
+            "map_code": "2@la_14"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_15",
+            "map_code": "2@la_15"
+        },
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_26",
+            "map_code": "2@la_26"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_16",
+            "map_code": "2@lb_16"
+        },
+        {
+            "name": "封印の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_17",
+            "map_code": "2@lb_17"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_14",
+            "map_code": "2@lc_14"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld114",
+            "map_code": "2@ld114"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld115",
+            "map_code": "2@ld115"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld214",
+            "map_code": "2@ld214"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld215",
+            "map_code": "2@ld215"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld226",
+            "map_code": "2@ld226"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le114",
+            "map_code": "2@le114"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le115",
+            "map_code": "2@le115"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf214",
+            "map_code": "2@lf214"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf215",
+            "map_code": "2@lf215"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf226",
+            "map_code": "2@lf226"
+        },
+        {
+            "name": "亜空の迷宮 生命の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg130",
+            "map_code": "2@lg130"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "生体工学研究所 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun03",
+            "map_code": "lhz_dun03"
+        }
+    ],
+    "source_html_sha256": "15f59b5c5a845082cac097782eccc06e7ff644a94b937f4bdc3d87c0c2f339fe",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

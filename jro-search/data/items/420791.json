@@ -1,0 +1,93 @@
+{
+    "type": "item",
+    "item_id": "420791",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/420791\/"
+    },
+    "name": "[衣装] やんちゃ姫のウィッグ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "美しい白髪に鮮やかな赤が\n際立つ衣装用のウィッグ。\nどこへ飛び出していくか\n分からないやんちゃな姫が\n自分らしさを表現するため\n特別に身繕ったスタイル。",
+    "description_lines": [
+        "美しい白髪に鮮やかな赤が",
+        "際立つ衣装用のウィッグ。",
+        "どこへ飛び出していくか",
+        "分からないやんちゃな姫が",
+        "自分らしさを表現するため",
+        "特別に身繕ったスタイル。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "位置": "下段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e09c6fed57d0106cb7bb0fa3f01234b84b351cd7ea00a96aec1566a3d97d7f47",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

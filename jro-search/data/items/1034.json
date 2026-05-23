@@ -1,0 +1,125 @@
+{
+    "type": "item",
+    "item_id": "1034",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1034\/"
+    },
+    "name": "コボルドの毛",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "コボルドの身から切った毛。なかなかやわらかい。収集品商人に売ることができる。\n_",
+    "description_lines": [
+        "コボルドの身から切った毛。なかなかやわらかい。収集品商人に売ることができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "コボルドリーダー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KOBOLD_LEADER"
+        },
+        {
+            "name": "アックスコボルド",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KOBOLD_1"
+        },
+        {
+            "name": "ハンマーコボルド",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KOBOLD_2"
+        },
+        {
+            "name": "メイスコボルド",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KOBOLD_3"
+        },
+        {
+            "name": "コボルドアーチャー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KOBOLD_ARCHER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "コモドフィールド 08（サンダルマン要塞東）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/cmd_fild08",
+            "map_code": "cmd_fild08"
+        },
+        {
+            "name": "ゲフェンフィールド 05",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild05",
+            "map_code": "gef_fild05"
+        },
+        {
+            "name": "ゲフェンフィールド 08",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild08",
+            "map_code": "gef_fild08"
+        },
+        {
+            "name": "チュンリム湖 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas01",
+            "map_code": "payg_cas01"
+        },
+        {
+            "name": "チュンリム湖 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas02",
+            "map_code": "payg_cas02"
+        },
+        {
+            "name": "チュンリム湖 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas03",
+            "map_code": "payg_cas03"
+        },
+        {
+            "name": "チュンリム湖 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas05",
+            "map_code": "payg_cas05"
+        }
+    ],
+    "source_html_sha256": "a55b70b0bbfee8f337ccf9687aa4d1f2bc1ca5df52e108be18e4a8b847d63e0f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

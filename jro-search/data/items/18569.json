@@ -1,0 +1,97 @@
+{
+    "type": "item",
+    "item_id": "18569",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18569\/"
+    },
+    "name": "やわらか羊の帽子[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "もふもふとやわらかそうな\n羊の帽子。\nかぶると、ついつい\n居眠りしてしまいそう。\n動物形モンスターを\n倒した時、獲得する\n経験値 + 5%\n動物形モンスターから\n物理攻撃で受ける\nダメージ + 10%",
+    "description_lines": [
+        "もふもふとやわらかそうな",
+        "羊の帽子。",
+        "かぶると、ついつい",
+        "居眠りしてしまいそう。",
+        "動物形モンスターを",
+        "倒した時、獲得する",
+        "経験値 + 5%",
+        "動物形モンスターから",
+        "物理攻撃で受ける",
+        "ダメージ + 10%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": true,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 10,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "上段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "する",
+            "重量": "100",
+            "要求レベル": "10",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c9e161b46a96245d1beb8ff7ac9cd81c61fcc0add35c0a5b0279f2c3c458487d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

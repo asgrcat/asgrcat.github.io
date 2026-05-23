@@ -1,0 +1,102 @@
+{
+    "type": "item",
+    "item_id": "410284",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/410284\/"
+    },
+    "name": "偽神のイビルアイ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "偽りの信仰から生まれた\n偽神の邪眼。\nその瞳に見つめられると\n不安や恐怖に駆られ\n思考力が低下し\n適切な判断が\nできなくなるという。\nBaseLvが1上がる度に追加で\nAtk + 1 , Matk + 1\n[祈りの晩鐘]と\n共に装備時、追加で\nプレイヤーから\n受けるダメージ - 5%\n聖・念属性攻撃で\n受けるダメージ - 5%",
+    "description_lines": [
+        "偽りの信仰から生まれた",
+        "偽神の邪眼。",
+        "その瞳に見つめられると",
+        "不安や恐怖に駆られ",
+        "思考力が低下し",
+        "適切な判断が",
+        "できなくなるという。",
+        "BaseLvが1上がる度に追加で",
+        "Atk + 1 , Matk + 1",
+        "[祈りの晩鐘]と",
+        "共に装備時、追加で",
+        "プレイヤーから",
+        "受けるダメージ - 5%",
+        "聖・念属性攻撃で",
+        "受けるダメージ - 5%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": "-",
+        "slot": 0,
+        "def": 2,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "中段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "2",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "39a16e203a59fd56435e5d7513556ffbffb416e5375f17719421382e01afe54d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

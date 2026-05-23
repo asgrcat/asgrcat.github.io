@@ -1,0 +1,72 @@
+{
+    "type": "item",
+    "item_id": "1000092",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000092\/"
+    },
+    "name": "エリュミナレーダー",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "自分を裏切ったイルシオン\nを地の果てまで追いかけ、\n口に大きなジャガイモを\n詰め込むべく\nエリュミナが開発した\nイルシオン追跡装置。\n近くにイルシオンの気配を\n感じるとうるさく反応する。\n[エリュミナレーダー]は\nあらゆる取引、移動が\nできません",
+    "description_lines": [
+        "自分を裏切ったイルシオン",
+        "を地の果てまで追いかけ、",
+        "口に大きなジャガイモを",
+        "詰め込むべく",
+        "エリュミナが開発した",
+        "イルシオン追跡装置。",
+        "近くにイルシオンの気配を",
+        "感じるとうるさく反応する。",
+        "[エリュミナレーダー]は",
+        "あらゆる取引、移動が",
+        "できません"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "7129f5fcfe7b91d33b28126f681a3bfe982e6409fe4a834df7061d674b24c360",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

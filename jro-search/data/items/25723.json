@@ -1,0 +1,90 @@
+{
+    "type": "item",
+    "item_id": "25723",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/25723\/"
+    },
+    "name": "コル・コア",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "高度な技術が使われた部品で\n多くの装置の心臓として\n使用されていたようだ。",
+    "description_lines": [
+        "高度な技術が使われた部品で",
+        "多くの装置の心臓として",
+        "使用されていたようだ。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "EL-A17T",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_EL_A17T"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "特殊警戒地域コル(コルメモリアル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@cor_b",
+            "map_code": "1@cor_b"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld112",
+            "map_code": "2@ld112"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le112",
+            "map_code": "2@le112"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        }
+    ],
+    "source_html_sha256": "953fc65fb5edaf5df0da4abbde7afda7775e2536dbeb6e7ff99cf18e51fa454d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

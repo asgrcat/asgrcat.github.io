@@ -1,0 +1,199 @@
+{
+    "type": "item",
+    "item_id": "2244",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2244\/"
+    },
+    "name": "大きなリボン[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "大きいリボン。\nMDEF + 3",
+    "description_lines": [
+        "大きいリボン。",
+        "MDEF + 3"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 3,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "3",
+            "位置": "上段",
+            "重量": "20",
+            "装備": "ノービス系を除く全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "トード",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/TOAD"
+        },
+        {
+            "name": "ワイルドローズ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WILD_ROSE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "港の都市アルベルタ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/alberta",
+            "map_code": "alberta"
+        },
+        {
+            "name": "国境都市アルデバラン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldebaran",
+            "map_code": "aldebaran"
+        },
+        {
+            "name": "泉水の国アマツ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/amatsu",
+            "map_code": "amatsu"
+        },
+        {
+            "name": "幻想の島コモド",
+            "url": "https:\/\/rotool.gungho.jp\/map\/comodo",
+            "map_code": "comodo"
+        },
+        {
+            "name": "採鉱の村アインベフ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/einbech",
+            "map_code": "einbech"
+        },
+        {
+            "name": "ゲフェンフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild01",
+            "map_code": "gef_fild01"
+        },
+        {
+            "name": "ゲフェンフィールド 05",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild05",
+            "map_code": "gef_fild05"
+        },
+        {
+            "name": "魔法の都市ゲフェン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/geffen",
+            "map_code": "geffen"
+        },
+        {
+            "name": "神仙の島コンロン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gonryun",
+            "map_code": "gonryun"
+        },
+        {
+            "name": "衛星都市イズルード",
+            "url": "https:\/\/rotool.gungho.jp\/map\/izlude",
+            "map_code": "izlude"
+        },
+        {
+            "name": "砂漠の都市モロク",
+            "url": "https:\/\/rotool.gungho.jp\/map\/morocc",
+            "map_code": "morocc"
+        },
+        {
+            "name": "山岳の都市フェイヨン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payon",
+            "map_code": "payon"
+        },
+        {
+            "name": "ルーンミッドガッツ王国の首都プロンテラ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prontera",
+            "map_code": "prontera"
+        },
+        {
+            "name": "ウータン族の村ウンバラ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/umbala",
+            "map_code": "umbala"
+        },
+        {
+            "name": "シュバルツバルド共和国の首都ジュノー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/yuno",
+            "map_code": "yuno"
+        },
+        {
+            "name": "ジュノーフィールド 02（キル・ハイルの別荘）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/yuno_fild02",
+            "map_code": "yuno_fild02"
+        },
+        {
+            "name": "ジュノーフィールド 08（キル・ハイル学院）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/yuno_fild08",
+            "map_code": "yuno_fild08"
+        }
+    ],
+    "source_html_sha256": "96fff2feb19113432d1ebf5751829495c29f9eecd02e238775236933fd7b3d0c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

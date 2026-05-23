@@ -1,0 +1,95 @@
+{
+    "type": "item",
+    "item_id": "15040",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15040\/"
+    },
+    "name": "囚人の服[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "囚人が着用する服。\n一目で見分けがつくように\n彩色されている。\n[囚人の服]の\n精錬値が高くなる程、\nHit、Fｌeeが増加\n[足鎖]と共に\n装備時、Atk + 5\n追加で、[足鎖]の精錬値が\n高くなる程、Atkが増加\n[大盗賊の手鎖]と共に\n装備時、[囚人の服]の\n精錬値が 1上がる度に\n追加でAtk + 2",
+    "description_lines": [
+        "囚人が着用する服。",
+        "一目で見分けがつくように",
+        "彩色されている。",
+        "[囚人の服]の",
+        "精錬値が高くなる程、",
+        "Hit、Fｌeeが増加",
+        "[足鎖]と共に",
+        "装備時、Atk + 5",
+        "追加で、[足鎖]の精錬値が",
+        "高くなる程、Atkが増加",
+        "[大盗賊の手鎖]と共に",
+        "装備時、[囚人の服]の",
+        "精錬値が 1上がる度に",
+        "追加でAtk + 2"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 5,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 150,
+        "weapon_level": null,
+        "required_level": 50,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "5",
+            "重量": "150",
+            "要求レベル": "50",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "2313a53f0ee9f0aa2a1c8ab36144879ed8032b678660ad671bf9002d2c03b52d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

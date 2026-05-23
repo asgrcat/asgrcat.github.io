@@ -1,0 +1,91 @@
+{
+    "type": "item",
+    "item_id": "15106",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15106\/"
+    },
+    "name": "エンジニアメイル[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "戦場において技術に\n特化した工兵が使用する鎧。\n物理・魔法攻撃時、\n無形モンスターへの\nダメージ + 3%\n精錬値が6以上の時、\n精錬値が1上がる度に\n追加で物理・魔法攻撃時、\n無形モンスターへの\nダメージ + 1%",
+    "description_lines": [
+        "戦場において技術に",
+        "特化した工兵が使用する鎧。",
+        "物理・魔法攻撃時、",
+        "無形モンスターへの",
+        "ダメージ + 3%",
+        "精錬値が6以上の時、",
+        "精錬値が1上がる度に",
+        "追加で物理・魔法攻撃時、",
+        "無形モンスターへの",
+        "ダメージ + 1%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 30,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 50,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "30",
+            "重量": "50",
+            "要求レベル": "50",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "45ce05ff09a74fc18f188fe3451c475df3ea4236da4c70f04bbd24e61d50a4a5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

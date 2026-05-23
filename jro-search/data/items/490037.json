@@ -1,0 +1,113 @@
+{
+    "type": "item",
+    "item_id": "490037",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/490037\/"
+    },
+    "name": "ダークリング[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "「その指輪を付けたものに\n狙われたら最期。」\n彼はその言葉と共に\n物言わぬ肉塊となった。\nStr + 5 , Agi + 5\nDex + 5\n物理攻撃で\n与えるダメージ + 5%\n[クロスインパクト]Lv5\n習得時、追加で\nスキルディレイ - 30%\n[ダーククロー]Lv5\n習得時、追加で\n[ダーククロー]の\n再使用待機時間 - 25秒\n[ウェポンクラッシュ]の\n習得Lvが1上がる度に追加で\nStr + 1 , Agi + 1\nDex + 1 , Atk + 40\n[クローキングエクシード]\nLv5習得時、追加で\nMaxSP + 15%\nAspd + 2",
+    "description_lines": [
+        "「その指輪を付けたものに",
+        "狙われたら最期。」",
+        "彼はその言葉と共に",
+        "物言わぬ肉塊となった。",
+        "Str + 5 , Agi + 5",
+        "Dex + 5",
+        "物理攻撃で",
+        "与えるダメージ + 5%",
+        "[クロスインパクト]Lv5",
+        "習得時、追加で",
+        "スキルディレイ - 30%",
+        "[ダーククロー]Lv5",
+        "習得時、追加で",
+        "[ダーククロー]の",
+        "再使用待機時間 - 25秒",
+        "[ウェポンクラッシュ]の",
+        "習得Lvが1上がる度に追加で",
+        "Str + 1 , Agi + 1",
+        "Dex + 1 , Atk + 40",
+        "[クローキングエクシード]",
+        "Lv5習得時、追加で",
+        "MaxSP + 15%",
+        "Aspd + 2"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "5b25b428c6a60acdb4ca16f0af310e788f8e6d15eddf3deecf3fdd956f1971e1",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

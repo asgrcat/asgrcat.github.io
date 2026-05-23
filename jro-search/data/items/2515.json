@@ -1,0 +1,139 @@
+{
+    "type": "item",
+    "item_id": "2515",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2515\/"
+    },
+    "name": "ウィングオブイーグル[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "magician": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "soul_linker": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "主神オーディンが死の危機を脱するのに貢献したローブ。\nスタッフオブウィングと共に装備時、移動速度向上。",
+    "description_lines": [
+        "主神オーディンが死の危機を脱するのに貢献したローブ。",
+        "スタッフオブウィングと共に装備時、移動速度向上。"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 12,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 85,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "magician": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "soul_linker": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "防御": "12",
+            "重量": "30",
+            "要求レベル": "85",
+            "装備": "マジシャン系 ソウルリンカー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "魔剣士タナトスの思念体",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/THANATOS"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_09",
+            "map_code": "2@la_09"
+        },
+        {
+            "name": "封印の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_09",
+            "map_code": "2@lb_09"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_09",
+            "map_code": "2@lc_09"
+        },
+        {
+            "name": "幻影の迷宮 太古の塔",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld128",
+            "map_code": "2@ld128"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld209",
+            "map_code": "2@ld209"
+        },
+        {
+            "name": "幻影の迷宮 太古の塔",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le128",
+            "map_code": "2@le128"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf209",
+            "map_code": "2@lf209"
+        },
+        {
+            "name": "タナトスタワー最上部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/thana_boss",
+            "map_code": "thana_boss"
+        }
+    ],
+    "source_html_sha256": "0323c8d7b0d3b4939ff13a2ae189ff6189ab430f7a7dbd93585e18cf8c22e81d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

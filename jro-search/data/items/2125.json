@@ -1,0 +1,317 @@
+{
+    "type": "item",
+    "item_id": "2125",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2125\/"
+    },
+    "name": "ストロングシールド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "とても大きくて重い盾。\nどんな攻撃にも耐える事が\n出来る不思議な能力を\n持っている。\nしかし、衝撃の吸収が難しく\n余計なダメージを受ける\nという短所がある。\nこの特性を理解し、注意して\n使用する必要がある。\n絶対にノックバックしない。\n物理・魔法攻撃耐性 - 20%",
+    "description_lines": [
+        "とても大きくて重い盾。",
+        "どんな攻撃にも耐える事が",
+        "出来る不思議な能力を",
+        "持っている。",
+        "しかし、衝撃の吸収が難しく",
+        "余計なダメージを受ける",
+        "という短所がある。",
+        "この特性を理解し、注意して",
+        "使用する必要がある。",
+        "絶対にノックバックしない。",
+        "物理・魔法攻撃耐性 - 20%"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 90,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 250,
+        "weapon_level": null,
+        "required_level": 75,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "防御": "90",
+            "重量": "250",
+            "要求レベル": "75",
+            "装備": "転生ソードマン系 転生マーチャント系 転生シーフ系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ブラッディナイト",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BLOODY_KNIGHT"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_25",
+            "map_code": "2@la_25"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_31",
+            "map_code": "2@lb_31"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld225",
+            "map_code": "2@ld225"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf225",
+            "map_code": "2@lf225"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "ルイーナ 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas01",
+            "map_code": "aldeg_cas01"
+        },
+        {
+            "name": "ルイーナ 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas02",
+            "map_code": "aldeg_cas02"
+        },
+        {
+            "name": "ルイーナ 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas03",
+            "map_code": "aldeg_cas03"
+        },
+        {
+            "name": "ルイーナ 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas04",
+            "map_code": "aldeg_cas04"
+        },
+        {
+            "name": "ルイーナ 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas05",
+            "map_code": "aldeg_cas05"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas01",
+            "map_code": "arug_cas01"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas02",
+            "map_code": "arug_cas02"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas03",
+            "map_code": "arug_cas03"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas04",
+            "map_code": "arug_cas04"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas05",
+            "map_code": "arug_cas05"
+        },
+        {
+            "name": "ゲフェニア 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefenia01",
+            "map_code": "gefenia01"
+        },
+        {
+            "name": "ゲフェニア 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefenia02",
+            "map_code": "gefenia02"
+        },
+        {
+            "name": "ゲフェニア 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefenia03",
+            "map_code": "gefenia03"
+        },
+        {
+            "name": "ゲフェニア 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefenia04",
+            "map_code": "gefenia04"
+        },
+        {
+            "name": "グラストヘイム 騎士団内02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_knt02",
+            "map_code": "gl_knt02"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas01",
+            "map_code": "prtg_cas01"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas02",
+            "map_code": "prtg_cas02"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas03",
+            "map_code": "prtg_cas03"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas04",
+            "map_code": "prtg_cas04"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas05",
+            "map_code": "prtg_cas05"
+        },
+        {
+            "name": "ニダヴェリール 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas02",
+            "map_code": "schg_cas02"
+        },
+        {
+            "name": "ニダヴェリール 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas03",
+            "map_code": "schg_cas03"
+        },
+        {
+            "name": "ニダヴェリール 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas04",
+            "map_code": "schg_cas04"
+        },
+        {
+            "name": "ニダヴェリール 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas05",
+            "map_code": "schg_cas05"
+        },
+        {
+            "name": "グラリス",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas1",
+            "map_code": "te_aldecas1"
+        },
+        {
+            "name": "ディフォルテー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas2",
+            "map_code": "te_aldecas2"
+        },
+        {
+            "name": "ソリン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas3",
+            "map_code": "te_aldecas3"
+        },
+        {
+            "name": "ビニット",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas4",
+            "map_code": "te_aldecas4"
+        },
+        {
+            "name": "Ｗ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas5",
+            "map_code": "te_aldecas5"
+        },
+        {
+            "name": "ゲオルグ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas01",
+            "map_code": "te_prtcas01"
+        },
+        {
+            "name": "リハルト",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas02",
+            "map_code": "te_prtcas02"
+        },
+        {
+            "name": "ウィグナー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas03",
+            "map_code": "te_prtcas03"
+        },
+        {
+            "name": "ハイネン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas04",
+            "map_code": "te_prtcas04"
+        },
+        {
+            "name": "ネリウス",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas05",
+            "map_code": "te_prtcas05"
+        }
+    ],
+    "source_html_sha256": "149b9d0444d574e1ea2d95445949d213e2d9f0af9b4bcc8360e387532c871cdd",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

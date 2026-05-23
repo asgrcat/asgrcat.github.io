@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "25774",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/25774\/"
+    },
+    "name": "カマキリ花",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "マンティスが好きな花。\n甘い香りに誘われてくる\n虫たちを狩るのに\n使われるという。",
+    "description_lines": [
+        "マンティスが好きな花。",
+        "甘い香りに誘われてくる",
+        "虫たちを狩るのに",
+        "使われるという。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "混沌のマンティス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_MANTIS"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "歪んだ迷宮の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_mz03_i",
+            "map_code": "prt_mz03_i"
+        }
+    ],
+    "source_html_sha256": "d4d7bf95e8453b76bc50d77e8692c4adad5482eb562b971ecc2d794c6c8d2d9e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,394 @@
+{
+    "type": "item",
+    "item_id": "7345",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7345\/"
+    },
+    "name": "囚人の腕輪",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "金属で作られた腕輪。これで実験体を区別したようだ。血の匂いが残っていそうだ。",
+    "description_lines": [
+        "金属で作られた腕輪。これで実験体を区別したようだ。血の匂いが残っていそうだ。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "アルマイア=デュンゼ（一次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ARMAIA"
+        },
+        {
+            "name": "セリア=アルデ（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CELIA"
+        },
+        {
+            "name": "チェン=リウ（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CHEN"
+        },
+        {
+            "name": "エミュール=プラメール（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/FLAMEL"
+        },
+        {
+            "name": "ハワード=アルトアイゼン（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HARWORD"
+        },
+        {
+            "name": "カトリーヌ=ケイロン（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KATRINN"
+        },
+        {
+            "name": "カヴァク=イカルス（一次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KAVAC"
+        },
+        {
+            "name": "アルフォシオ=バジル（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ALPHOCCIO"
+        },
+        {
+            "name": "エレメス=ガイル（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EREMES"
+        },
+        {
+            "name": "イレンド=エベシ（一次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EREND"
+        },
+        {
+            "name": "ガーティー=ウー（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GERTIE"
+        },
+        {
+            "name": "ランデル=ロレンス（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RANDEL"
+        },
+        {
+            "name": "ラウレル=ヴィンダー（一次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RAWREL"
+        },
+        {
+            "name": "リムーバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/REMOVAL"
+        },
+        {
+            "name": "セイレン=ウィンザー（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEYREN"
+        },
+        {
+            "name": "セシル=ディモン（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SHECIL"
+        },
+        {
+            "name": "トレンティーニ（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/TRENTINI"
+        },
+        {
+            "name": "ヒュッケバイン=トリス（一次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WHIKEBAIN"
+        },
+        {
+            "name": "イグニゼム=セニア（一次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/YGNIZEM"
+        },
+        {
+            "name": "マーガレッタ=ソリン（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MAGALETA"
+        },
+        {
+            "name": "マーガレッタ=ソリン（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_MAGALETA"
+        },
+        {
+            "name": "エレメス=ガイル（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_EREMES"
+        },
+        {
+            "name": "ハワード=アルトアイゼン（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_HARWORD"
+        },
+        {
+            "name": "カトリーヌ=ケイロン（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_KATRINN"
+        },
+        {
+            "name": "セイレン=ウィンザー（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_SEYREN"
+        },
+        {
+            "name": "セシル=ディモン（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_SHECIL"
+        },
+        {
+            "name": "ヒュッケバイン=トリス（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_WHIKEBAIN"
+        },
+        {
+            "name": "イグニゼム=セニア（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_YGNIZEM"
+        },
+        {
+            "name": "カヴァク=イカルス（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_KAVAC"
+        },
+        {
+            "name": "イレンド=エベシ（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_EREND"
+        },
+        {
+            "name": "アルマイア=デュンゼ（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_ARMAIA"
+        },
+        {
+            "name": "ジョセフィーナ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_DANCER"
+        },
+        {
+            "name": "ラウレル=ヴィンダー（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_RAWREL"
+        },
+        {
+            "name": "ウィッシュ=マスコット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/B_NOVICE"
+        },
+        {
+            "name": "アーティス=マスコット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/B_SUPERNOVICE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "ヴェルナー研究所中央室",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@slw",
+            "map_code": "1@slw"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_13",
+            "map_code": "2@la_13"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_14",
+            "map_code": "2@la_14"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_15",
+            "map_code": "2@la_15"
+        },
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_26",
+            "map_code": "2@la_26"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_14",
+            "map_code": "2@lb_14"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_15",
+            "map_code": "2@lb_15"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_16",
+            "map_code": "2@lb_16"
+        },
+        {
+            "name": "封印の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_17",
+            "map_code": "2@lb_17"
+        },
+        {
+            "name": "封印の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_18",
+            "map_code": "2@lb_18"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_13",
+            "map_code": "2@lc_13"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_14",
+            "map_code": "2@lc_14"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_15",
+            "map_code": "2@lc_15"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld114",
+            "map_code": "2@ld114"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld115",
+            "map_code": "2@ld115"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld213",
+            "map_code": "2@ld213"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld214",
+            "map_code": "2@ld214"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld215",
+            "map_code": "2@ld215"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld226",
+            "map_code": "2@ld226"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le114",
+            "map_code": "2@le114"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le115",
+            "map_code": "2@le115"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf213",
+            "map_code": "2@lf213"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf214",
+            "map_code": "2@lf214"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf215",
+            "map_code": "2@lf215"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf226",
+            "map_code": "2@lf226"
+        },
+        {
+            "name": "亜空の迷宮 生命の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg129",
+            "map_code": "2@lg129"
+        },
+        {
+            "name": "亜空の迷宮 生命の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg130",
+            "map_code": "2@lg130"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "生体工学研究所 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun01",
+            "map_code": "lhz_dun01"
+        },
+        {
+            "name": "生体工学研究所 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun02",
+            "map_code": "lhz_dun02"
+        },
+        {
+            "name": "生体工学研究所 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun03",
+            "map_code": "lhz_dun03"
+        },
+        {
+            "name": "生体工学研究所 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun04",
+            "map_code": "lhz_dun04"
+        },
+        {
+            "name": "レッケンベル本社",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_in01",
+            "map_code": "lhz_in01"
+        },
+        {
+            "name": "ギルドダンジョン グロリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/teg_dun01",
+            "map_code": "teg_dun01"
+        },
+        {
+            "name": "ギルドダンジョン カプラガーデン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/teg_dun02",
+            "map_code": "teg_dun02"
+        }
+    ],
+    "source_html_sha256": "7ac72d67352204a732de90734cfc329406bc1d456031fc81a04a606c492d7c10",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

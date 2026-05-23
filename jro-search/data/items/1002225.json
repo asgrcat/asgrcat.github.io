@@ -1,0 +1,112 @@
+{
+    "type": "item",
+    "item_id": "1002225",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1002225\/"
+    },
+    "name": "ペット用魔神モロクの忠実な下僕",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "魔神モロクを守護する\n霊魂の欠片を模したもの。\n魔神モロクが\n完全体として蘇る直前に\n手下として呼び出したため\n生と死の境界を表した\n骸骨の姿をしている。\nペット\n[再生の半魔神]に\n進化するためのアイテム。",
+    "description_lines": [
+        "魔神モロクを守護する",
+        "霊魂の欠片を模したもの。",
+        "魔神モロクが",
+        "完全体として蘇る直前に",
+        "手下として呼び出したため",
+        "生と死の境界を表した",
+        "骸骨の姿をしている。",
+        "ペット",
+        "[再生の半魔神]に",
+        "進化するためのアイテム。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "絶望の神モロク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MM_MOROCC_ADT"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "魔神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@eom",
+            "map_code": "1@eom"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        }
+    ],
+    "source_html_sha256": "31eaa8cd47f02f34c37c99c1e219090dcf3ea700830ef75fc937a61c0960e3c8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

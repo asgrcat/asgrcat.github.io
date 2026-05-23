@@ -1,0 +1,89 @@
+{
+    "type": "item",
+    "item_id": "18606",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18606\/"
+    },
+    "name": "ティアドロップ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "皇女アデレイドが闇に\n堕ちる前に落とした\n最後の涙が結晶になった物。\n大いなる慈悲の心が\n満ち溢れている。\n魔法攻撃で\n与えるダメージ + 3%\nヒール系スキル使用時、\nHP回復量 + 1%",
+    "description_lines": [
+        "皇女アデレイドが闇に",
+        "堕ちる前に落とした",
+        "最後の涙が結晶になった物。",
+        "大いなる慈悲の心が",
+        "満ち溢れている。",
+        "魔法攻撃で",
+        "与えるダメージ + 3%",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 1%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 1,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 30,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "1",
+            "位置": "中下段",
+            "重量": "10",
+            "要求レベル": "30",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "d5c27868800ef75036fd1a9190c091292a82ea4d3d957c19090baec6b484531b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

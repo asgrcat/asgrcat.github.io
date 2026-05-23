@@ -1,0 +1,102 @@
+{
+    "type": "item",
+    "item_id": "420502",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/420502\/"
+    },
+    "name": "エクリプスマフラー[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "windhawk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "エクリプスをモチーフに\nデザインされた\nマフラー。\nもふもふの素材でできていて\nとっても温かい。\nプレイヤーから\n受けるダメージ - 3%\nBaseLvが10上がる度に追加で\n物理・魔法攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 1%",
+    "description_lines": [
+        "エクリプスをモチーフに",
+        "デザインされた",
+        "マフラー。",
+        "もふもふの素材でできていて",
+        "とっても温かい。",
+        "プレイヤーから",
+        "受けるダメージ - 3%",
+        "BaseLvが10上がる度に追加で",
+        "物理・魔法攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "windhawk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "下段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "200",
+            "装備": "ウィンドホーク"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "5589f5bd596a2a666e12fec9273c23dbdd1e0e06759bc732a790f7fcf6b7c006",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

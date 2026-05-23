@@ -1,0 +1,115 @@
+{
+    "type": "item",
+    "item_id": "6395",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6395\/"
+    },
+    "name": "妖精の魔法の粉",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "妖精がいたずらをする時に\n使うという不思議な粉。\n魅力的な魔力が感じられる。",
+    "description_lines": [
+        "妖精がいたずらをする時に",
+        "使うという不思議な粉。",
+        "魅力的な魔力が感じられる。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "リトルファートゥム",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/LITTLE_FATUM"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "霧の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@mist",
+            "map_code": "1@mist"
+        },
+        {
+            "name": "試練の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_17",
+            "map_code": "2@la_17"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_20",
+            "map_code": "2@lb_20"
+        },
+        {
+            "name": "異形の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_17",
+            "map_code": "2@lc_17"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld217",
+            "map_code": "2@ld217"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf217",
+            "map_code": "2@lf217"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ビフロスト 北部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bif_fild02",
+            "map_code": "bif_fild02"
+        }
+    ],
+    "source_html_sha256": "4371f0180b0e0420a96e47856de876abfd3e5f81782488c1f04e3330d8d226af",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

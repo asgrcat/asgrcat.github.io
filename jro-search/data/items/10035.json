@@ -1,0 +1,77 @@
+{
+    "type": "item",
+    "item_id": "10035",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/10035\/"
+    },
+    "name": "ゼンマイ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "時計や玩具などを動かす\n原動力を起こす装置。\n可愛らしさが感じられる。",
+    "description_lines": [
+        "時計や玩具などを動かす",
+        "原動力を起こす装置。",
+        "可愛らしさが感じられる。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": "pet_equipment",
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "種類": "キューペット装備",
+            "装備": "ゴーレム"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "44e0e7441962426c76ddad03f177f3d12ede98e8cb0079fd4cd68bb304c290f8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

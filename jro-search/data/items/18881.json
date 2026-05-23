@@ -1,0 +1,105 @@
+{
+    "type": "item",
+    "item_id": "18881",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18881\/"
+    },
+    "name": "世界樹の帽子[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "世界樹である\n「イグドラシル」の葉で\n作られた帽子。\nMdef + 2\nヒール系スキル使用時、\nHP回復量 + 5%\nヒール系スキルを\n受けた時のHP回復量 + 5%\n一部の回復アイテムによる\nHP回復量 + 5%\n[世界樹の帽子]の\n精錬値が7以上の時、追加で\nヒール系スキル使用時、\nHP回復量 + 10%\n[世界樹の指輪]と\n共に装備時、追加で\n全ての属性攻撃で\n受けるダメージ - 3%\nヒール系スキル使用時、\nHP回復量 + 5%",
+    "description_lines": [
+        "世界樹である",
+        "「イグドラシル」の葉で",
+        "作られた帽子。",
+        "Mdef + 2",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 5%",
+        "ヒール系スキルを",
+        "受けた時のHP回復量 + 5%",
+        "一部の回復アイテムによる",
+        "HP回復量 + 5%",
+        "[世界樹の帽子]の",
+        "精錬値が7以上の時、追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 10%",
+        "[世界樹の指輪]と",
+        "共に装備時、追加で",
+        "全ての属性攻撃で",
+        "受けるダメージ - 3%",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 5%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 16,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 70,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "16",
+            "位置": "上段",
+            "重量": "50",
+            "要求レベル": "70",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "397cabb5f8721b885843bca0db00aafcc7a4ee2975b00a51cb770efe4048462c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

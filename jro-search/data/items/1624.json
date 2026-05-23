@@ -1,0 +1,208 @@
+{
+    "type": "item",
+    "item_id": "1624",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1624\/"
+    },
+    "name": "スタッフオブカーシング[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "強力なアンデッドの頭蓋骨で\n作られた杖。\n杖から溢れる呪いのオーラは\n杖の持ち主に害を及ぼす\n全ての者に呪いをかけると\n言われる。\nMatk + 170。\nInt + 1、Dex + 1。\n物理攻撃を受けた時、\n低確率で画面内の\n全ての敵を呪い状態にする。\n精錬値が高くなる程、\n呪い状態にする確率増加。\n精錬値が 9以上の時、\n追加で\nMaxSP + 300、\nMatk + 3%。",
+    "description_lines": [
+        "強力なアンデッドの頭蓋骨で",
+        "作られた杖。",
+        "杖から溢れる呪いのオーラは",
+        "杖の持ち主に害を及ぼす",
+        "全ての者に呪いをかけると",
+        "言われる。",
+        "Matk + 170。",
+        "Int + 1、Dex + 1。",
+        "物理攻撃を受けた時、",
+        "低確率で画面内の",
+        "全ての敵を呪い状態にする。",
+        "精錬値が高くなる程、",
+        "呪い状態にする確率増加。",
+        "精錬値が 9以上の時、",
+        "追加で",
+        "MaxSP + 300、",
+        "Matk + 3%。"
+    ],
+    "properties": {
+        "series": "staff",
+        "series_normalized": [
+            "staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "不死",
+        "slot": 2,
+        "def": null,
+        "atk": 60,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 80,
+        "weapon_level": 3,
+        "required_level": 70,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "杖",
+            "攻撃": "60",
+            "重量": "80",
+            "属性": "不死",
+            "武器レベル": "3",
+            "要求レベル": "70",
+            "装備": "転生マジシャン系 転生アコライト系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "エントヴァイエン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ENTWEIHEN"
+        },
+        {
+            "name": "ディワイ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GEFFEN_MAGE_12"
+        },
+        {
+            "name": "強化ネクロマンサー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WA_MONSTER_7"
+        },
+        {
+            "name": "ネクロマンサー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/NECROMANCER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "ゲフェン魔法大会",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ge_st",
+            "map_code": "1@ge_st"
+        },
+        {
+            "name": "試練の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_24",
+            "map_code": "2@la_24"
+        },
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_25",
+            "map_code": "2@la_25"
+        },
+        {
+            "name": "封印の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_29",
+            "map_code": "2@lb_29"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_31",
+            "map_code": "2@lb_31"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_28",
+            "map_code": "2@lc_28"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld224",
+            "map_code": "2@ld224"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld225",
+            "map_code": "2@ld225"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf224",
+            "map_code": "2@lf224"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf225",
+            "map_code": "2@lf225"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "エンドレスタワー 5層（100F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@tower",
+            "map_code": "5@tower"
+        },
+        {
+            "name": "修道院 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey02",
+            "map_code": "abbey02"
+        },
+        {
+            "name": "修道院 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey03",
+            "map_code": "abbey03"
+        }
+    ],
+    "source_html_sha256": "b789841d2eca36c1436f487bd64815445ed7bf595bf95ea261cb6cff49d66b0a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

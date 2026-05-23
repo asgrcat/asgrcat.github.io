@@ -1,0 +1,111 @@
+{
+    "type": "item",
+    "item_id": "300565",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300565\/"
+    },
+    "name": "死者の案内人カード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "armor"
+        ],
+        "card_attachable_positions": {
+            "armor": true
+        }
+    },
+    "description": "物理攻撃時、\n無・悪魔形モンスターに\n与えるダメージ + 50%\n火・無属性モンスターに\n与えるダメージ + 50%\n[異境の統轄者]と\n共に装備時、追加で\nMaxHP + 50%\n[シレンティウム]\nLv3使用可能",
+    "description_lines": [
+        "物理攻撃時、",
+        "無・悪魔形モンスターに",
+        "与えるダメージ + 50%",
+        "火・無属性モンスターに",
+        "与えるダメージ + 50%",
+        "[異境の統轄者]と",
+        "共に装備時、追加で",
+        "MaxHP + 50%",
+        "[シレンティウム]",
+        "Lv3使用可能"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "armor"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "鎧",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "死者の案内人",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GUIDE_OF_DEAD"
+        },
+        {
+            "name": "死者の案内人（亜空の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_166"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "亜空の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@lg100",
+            "map_code": "3@lg100"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "古代神殿アケト",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_akhet",
+            "map_code": "moc_akhet"
+        }
+    ],
+    "source_html_sha256": "9dd447be8d48615c1bf2364170b713ffceb06f3bc8b191b679312f6bb95b98f9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

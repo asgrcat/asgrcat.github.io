@@ -1,0 +1,73 @@
+{
+    "type": "item",
+    "item_id": "100282",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/100282\/"
+    },
+    "name": "ウェポンスクロールI",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "魔物の魔力から生まれた\n謎のスクロール。\n特定の武器の\n隠された力を\n引き出すことができる。\n・効果\n対象アイテムにランダム\nオプションを付与する\n・対象アイテム\n紅炎のツインエッジ\n女王フェイスワームの足\n蒼炎のツインエッジ",
+    "description_lines": [
+        "魔物の魔力から生まれた",
+        "謎のスクロール。",
+        "特定の武器の",
+        "隠された力を",
+        "引き出すことができる。",
+        "・効果",
+        "対象アイテムにランダム",
+        "オプションを付与する",
+        "・対象アイテム",
+        "紅炎のツインエッジ",
+        "女王フェイスワームの足",
+        "蒼炎のツインエッジ"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "1b009756b13387a45fc329b13418847979ee82f8a1005117f87dc88e65163946",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

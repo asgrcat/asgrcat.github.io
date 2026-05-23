@@ -1,0 +1,125 @@
+{
+    "type": "item",
+    "item_id": "1727",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1727\/"
+    },
+    "name": "バリスタ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "hunter": true,
+                "bard": true,
+                "dancer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "攻城戦で使う大型の弓。元々は城壁及び城門破壊用だったが大きさと威力を減らして装備できるように改良したもの。",
+    "description_lines": [
+        "攻城戦で使う大型の弓。元々は城壁及び城門破壊用だったが大きさと威力を減らして装備できるように改良したもの。"
+    ],
+    "properties": {
+        "series": "bow",
+        "series_normalized": [
+            "bow"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 145,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 350,
+        "weapon_level": 4,
+        "required_level": 77,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "hunter": true,
+                "bard": true,
+                "dancer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "弓",
+            "攻撃": "145",
+            "重量": "350",
+            "武器レベル": "4",
+            "要求レベル": "77",
+            "装備": "ハンター系 バード系 ダンサー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "セシル=ディモン（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_SHECIL"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_13",
+            "map_code": "2@la_13"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_15",
+            "map_code": "2@lb_15"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld213",
+            "map_code": "2@ld213"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf213",
+            "map_code": "2@lf213"
+        },
+        {
+            "name": "ギルドダンジョン グロリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/teg_dun01",
+            "map_code": "teg_dun01"
+        }
+    ],
+    "source_html_sha256": "4c84401a30ee01bb054849b973d7421271fa479a898058498f2dd8bf3059faab",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

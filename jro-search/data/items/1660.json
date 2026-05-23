@@ -1,0 +1,107 @@
+{
+    "type": "item",
+    "item_id": "1660",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1660\/"
+    },
+    "name": "慈愛の杖Ⅱ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "arch_bishop": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "慈愛の光を込めた杖。\n慈愛の杖より\n強力な力が宿っている。\nMatk + 180\nInt + 4\nヒール系スキル使用時、\nHP回復量 + 20%\n[慈愛のローブ]、\n[慈愛の靴]、\n[慈愛のショール]と\n共に装備時、\n隠された力が発動する\n[慈愛のローブ]、\n[慈愛の靴]、\n[慈愛のショール]の\n精錬値が7以上の場合、\n追加効果が発動する",
+    "description_lines": [
+        "慈愛の光を込めた杖。",
+        "慈愛の杖より",
+        "強力な力が宿っている。",
+        "Matk + 180",
+        "Int + 4",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 20%",
+        "[慈愛のローブ]、",
+        "[慈愛の靴]、",
+        "[慈愛のショール]と",
+        "共に装備時、",
+        "隠された力が発動する",
+        "[慈愛のローブ]、",
+        "[慈愛の靴]、",
+        "[慈愛のショール]の",
+        "精錬値が7以上の場合、",
+        "追加効果が発動する"
+    ],
+    "properties": {
+        "series": "one_handed_staff",
+        "series_normalized": [
+            "one_handed_staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "聖",
+        "slot": 1,
+        "def": null,
+        "atk": 30,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": 4,
+        "required_level": 130,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "arch_bishop": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手杖",
+            "攻撃": "30",
+            "重量": "50",
+            "属性": "聖",
+            "武器レベル": "4",
+            "要求レベル": "130",
+            "装備": "アークビショップ系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "816bd00db03d38bc989f07a9c42398bfc10c1eb6190c55a8df21971cb472fdee",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

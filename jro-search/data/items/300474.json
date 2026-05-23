@@ -1,0 +1,103 @@
+{
+    "type": "item",
+    "item_id": "300474",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300474\/"
+    },
+    "name": "ルガンチーフクリーナーカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "物理攻撃命中時、\n一定確率で敵に与えた\nダメージの20%を\nHPとして吸収\n[異境の統轄者]と\n共に装備時、追加で\n近接・遠距離物理攻撃で\n与えるダメージ + 15%\n物理攻撃で\nモンスターを倒した時、\nHP + 200 , SP + 20",
+    "description_lines": [
+        "物理攻撃命中時、",
+        "一定確率で敵に与えた",
+        "ダメージの20%を",
+        "HPとして吸収",
+        "[異境の統轄者]と",
+        "共に装備時、追加で",
+        "近接・遠距離物理攻撃で",
+        "与えるダメージ + 15%",
+        "物理攻撃で",
+        "モンスターを倒した時、",
+        "HP + 200 , SP + 20"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ルガンチーフクリーナー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP20_BOSS_CLANER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "蛇神の根源 深い洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_root3",
+            "map_code": "jor_root3"
+        }
+    ],
+    "source_html_sha256": "a6fd979389e90471a16ca645023f760ceea1f297bc1209d0045cb05698a7e378",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

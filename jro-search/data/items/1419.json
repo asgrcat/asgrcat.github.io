@@ -1,0 +1,94 @@
+{
+    "type": "item",
+    "item_id": "1419",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1419\/"
+    },
+    "name": "ポールアクスR[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "強化装備アイテム\n使用期限になると、アイテムが削除されます。\n大型の槍で長い柄とともに鎌のような刃がついている。多様な攻撃パターンを可能にしてくれるオールマイティな槍だ。\nSTR +1\nINT +2\nDEX +1",
+    "description_lines": [
+        "強化装備アイテム",
+        "使用期限になると、アイテムが削除されます。",
+        "大型の槍で長い柄とともに鎌のような刃がついている。多様な攻撃パターンを可能にしてくれるオールマイティな槍だ。",
+        "STR +1",
+        "INT +2",
+        "DEX +1"
+    ],
+    "properties": {
+        "series": "spear",
+        "series_normalized": [
+            "spear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 195,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 480,
+        "weapon_level": 3,
+        "required_level": 1,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "槍",
+            "攻撃": "195",
+            "重量": "480",
+            "武器レベル": "3",
+            "要求レベル": "1",
+            "装備": "ソードマン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "03320855952c634facd23bcec9acac650f9f0b2ee6ccf5ddc23e5e584e9484f5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

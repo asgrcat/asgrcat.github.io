@@ -1,0 +1,136 @@
+{
+    "type": "item",
+    "item_id": "13083",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13083\/"
+    },
+    "name": "攻城戦TEナイフ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "ninja": true,
+                "druid": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_linker": true,
+                "ninja": true,
+                "druid": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "攻城戦TE専用の\nレンタルアイテム\nMatk + 100\n攻城戦TEの砦内で\n以下の効果が追加される\n_\n物理攻撃時、\nプレイヤーに\n与えるダメージ + 40%\n_\n近接物理攻撃命中時、\n一定確率で敵を\n沈黙状態にする",
+    "description_lines": [
+        "攻城戦TE専用の",
+        "レンタルアイテム",
+        "Matk + 100",
+        "攻城戦TEの砦内で",
+        "以下の効果が追加される",
+        "_",
+        "物理攻撃時、",
+        "プレイヤーに",
+        "与えるダメージ + 40%",
+        "_",
+        "近接物理攻撃命中時、",
+        "一定確率で敵を",
+        "沈黙状態にする"
+    ],
+    "properties": {
+        "series": "dagger",
+        "series_normalized": [
+            "dagger"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 100,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": 3,
+        "required_level": 40,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "ninja": true,
+                "druid": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_linker": true,
+                "ninja": true,
+                "druid": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "短剣",
+            "攻撃": "100",
+            "重量": "0",
+            "武器レベル": "3",
+            "要求レベル": "40",
+            "装備": "ノービス系 ソードマン系 マジシャン系 アーチャー系 シーフ系 マーチャント系 ソウルリンカー系 忍者系 ドルイド系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "4224b82dbc49630738d1aa120a9e67aa6c488eef99813e67efda231a4bfdcbf3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

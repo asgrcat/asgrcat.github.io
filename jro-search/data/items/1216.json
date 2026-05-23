@@ -1,0 +1,159 @@
+{
+    "type": "item",
+    "item_id": "1216",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1216\/"
+    },
+    "name": "スティレット[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "ninja": true,
+                "druid": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_linker": true,
+                "ninja": true,
+                "druid": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "両刃短剣",
+    "description_lines": [
+        "両刃短剣"
+    ],
+    "properties": {
+        "series": "dagger",
+        "series_normalized": [
+            "dagger"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 2,
+        "def": null,
+        "atk": 87,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 70,
+        "weapon_level": 2,
+        "required_level": 12,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "ninja": true,
+                "druid": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_linker": true,
+                "ninja": true,
+                "druid": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "短剣",
+            "攻撃": "87",
+            "重量": "70",
+            "武器レベル": "2",
+            "要求レベル": "12",
+            "装備": "ノービス系 ソードマン系 マジシャン系 アーチャー系 シーフ系 マーチャント系 ソウルリンカー系 忍者系 ドルイド系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "スケルトンソルジﾌﾌﾌﾌﾌﾌﾌ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_115"
+        },
+        {
+            "name": "ソルジャースケルトン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SOLDIER_SKELETON"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "特別室（廃墟）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_spec_02",
+            "map_code": "ac_spec_02"
+        },
+        {
+            "name": "ピラミッドダンジョン 2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd02",
+            "map_code": "moc_pryd02"
+        },
+        {
+            "name": "フェイヨン地下洞窟 B5F（地下寺院）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_dun04",
+            "map_code": "pay_dun04"
+        }
+    ],
+    "source_html_sha256": "405247e7f9aca884ea752e5d7d406aa6ed3b8ae82c2a1a5593d9b6ce42e6b042",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

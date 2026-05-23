@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "22057",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/22057\/"
+    },
+    "name": "フロワシューズ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "水の力に染まった靴。\n水のモンスターからの攻撃\nを軽減してくれる。\nMdef + 3\n水属性攻撃で\n受けるダメージ - 5%\n[フロワシューズ]の\n精錬値が1上がる度に追加で\nMaxHP + 1% , MaxSP + 1%\n[フロワシールド]と\n共に装備時、追加で\n水属性モンスターから\n受けるダメージ - 5%\n[フロワシールド]の\n精錬値が1上がる度に追加で\n水属性攻撃で\n受けるダメージ - 2%\n[フロワマント]と\n共に装備時、追加で\n物理攻撃時、\n水属性モンスターに\n与えるダメージ + 5%\n[フロワマント]の\n精錬値が1上がる度に追加で\nMaxHP + 1% , MaxSP + 1%",
+    "description_lines": [
+        "水の力に染まった靴。",
+        "水のモンスターからの攻撃",
+        "を軽減してくれる。",
+        "Mdef + 3",
+        "水属性攻撃で",
+        "受けるダメージ - 5%",
+        "[フロワシューズ]の",
+        "精錬値が1上がる度に追加で",
+        "MaxHP + 1% , MaxSP + 1%",
+        "[フロワシールド]と",
+        "共に装備時、追加で",
+        "水属性モンスターから",
+        "受けるダメージ - 5%",
+        "[フロワシールド]の",
+        "精錬値が1上がる度に追加で",
+        "水属性攻撃で",
+        "受けるダメージ - 2%",
+        "[フロワマント]と",
+        "共に装備時、追加で",
+        "物理攻撃時、",
+        "水属性モンスターに",
+        "与えるダメージ + 5%",
+        "[フロワマント]の",
+        "精錬値が1上がる度に追加で",
+        "MaxHP + 1% , MaxSP + 1%"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 12,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 25,
+        "weapon_level": null,
+        "required_level": 90,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "防御": "12",
+            "重量": "25",
+            "要求レベル": "90",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f272df38e1451306c77a23f3cf7c721fdec38af43d4488c7b949d234fdf4b0a9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

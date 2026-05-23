@@ -1,0 +1,225 @@
+{
+    "type": "item",
+    "item_id": "15044",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15044\/"
+    },
+    "name": "オペレーションコート[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "genetic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ホムンクルスの研究に\n一生を捧げた学者のコート。\nDex + 1\nMaxSP + 30\n[メス]と共に装備時、\n人間形・動物形モンスターを\n倒した時\n一定確率で\n[止まらない心臓]、\n[アルコール]ドロップ\n[オペレーションコート]の\n精錬値が1上がる度に、\n人間形・動物形モンスターを\n倒した時\n[止まらない心臓]、\n[アルコール]が\nドロップする確率が上昇する\n[メス]、\n[オペレーショングローブ]と\n共に装備時、\n人間形・動物形モンスターを\n倒した時\n[止まらない心臓]、\n[アルコール]が\nドロップする確率が上昇する",
+    "description_lines": [
+        "ホムンクルスの研究に",
+        "一生を捧げた学者のコート。",
+        "Dex + 1",
+        "MaxSP + 30",
+        "[メス]と共に装備時、",
+        "人間形・動物形モンスターを",
+        "倒した時",
+        "一定確率で",
+        "[止まらない心臓]、",
+        "[アルコール]ドロップ",
+        "[オペレーションコート]の",
+        "精錬値が1上がる度に、",
+        "人間形・動物形モンスターを",
+        "倒した時",
+        "[止まらない心臓]、",
+        "[アルコール]が",
+        "ドロップする確率が上昇する",
+        "[メス]、",
+        "[オペレーショングローブ]と",
+        "共に装備時、",
+        "人間形・動物形モンスターを",
+        "倒した時",
+        "[止まらない心臓]、",
+        "[アルコール]が",
+        "ドロップする確率が上昇する"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 66,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 66,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "genetic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "66",
+            "重量": "66",
+            "要求レベル": "100",
+            "装備": "ジェネティック系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "エミュール=プラメール（転生二次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/B_FLAMEL"
+        },
+        {
+            "name": "エミュール=プラメール（三次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_G_FLAMEL"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "禁忌の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@lhz",
+            "map_code": "1@lhz"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_15",
+            "map_code": "2@la_15"
+        },
+        {
+            "name": "試練の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_31",
+            "map_code": "2@la_31"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_15",
+            "map_code": "2@lb_15"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_15",
+            "map_code": "2@lc_15"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_30",
+            "map_code": "2@lc_30"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld115",
+            "map_code": "2@ld115"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld215",
+            "map_code": "2@ld215"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld231",
+            "map_code": "2@ld231"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le115",
+            "map_code": "2@le115"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf215",
+            "map_code": "2@lf215"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf231",
+            "map_code": "2@lf231"
+        },
+        {
+            "name": "亜空の迷宮 生命の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg129",
+            "map_code": "2@lg129"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "戦死者の墓",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun_n",
+            "map_code": "lhz_dun_n"
+        },
+        {
+            "name": "生体工学研究所 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun04",
+            "map_code": "lhz_dun04"
+        }
+    ],
+    "source_html_sha256": "39b9179f172e9f7094a2e16b8f4f04279fef80bd4f241b05cf3b018ee715ec95",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

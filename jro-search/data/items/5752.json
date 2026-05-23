@@ -1,0 +1,102 @@
+{
+    "type": "item",
+    "item_id": "5752",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5752\/"
+    },
+    "name": "ミダスのささやき[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "genetic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "有名なジェネティック\n“ボブローズ”の本の\n謝恩品。\nミダスマークが可愛い。\nMdef + 5\nStr + 1 , Dex + 1\n純粋なStrが120以上の時、\n追加で\nAtk + 5\nAspd + 1\n[ミダスのささやき]は\nNPC売却・倉庫への移動が\n可能です",
+    "description_lines": [
+        "有名なジェネティック",
+        "“ボブローズ”の本の",
+        "謝恩品。",
+        "ミダスマークが可愛い。",
+        "Mdef + 5",
+        "Str + 1 , Dex + 1",
+        "純粋なStrが120以上の時、",
+        "追加で",
+        "Atk + 5",
+        "Aspd + 1",
+        "[ミダスのささやき]は",
+        "NPC売却・倉庫への移動が",
+        "可能です"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 12,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "genetic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "12",
+            "位置": "上段",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "ジェネティック系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "59bd31d3bb9088e20256abc7b93a78279c57ffe5bd099be6582a203d7b9250e4",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

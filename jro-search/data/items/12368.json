@@ -1,0 +1,66 @@
+{
+    "type": "item",
+    "item_id": "12368",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12368\/"
+    },
+    "name": "派手な鏡",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "派手な飾りが付いている\n女性用手鏡。\nモンスターメデューサが\n好む。",
+    "description_lines": [
+        "派手な飾りが付いている",
+        "女性用手鏡。",
+        "モンスターメデューサが",
+        "好む。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": "taming_item",
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 5,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "種類": "テイミングアイテム",
+            "重量": "5"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "833d2a348cbdfa558f5396a26be09626d0c4608266c53aeadf8793f548d7f37f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

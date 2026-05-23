@@ -1,0 +1,81 @@
+{
+    "type": "item",
+    "item_id": "10526",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/10526\/"
+    },
+    "name": "コスたまSpringPartyIII",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する\n・[衣装] にゃんフォーク\n・[衣装] ピクニック\nバスケット\n・[衣装] ミラクルプラント\n・[衣装] ボリューム\nローツイン(桜)\n・[衣装] アメリカン\nショートヘア\n・[衣装] ガーデンオブ\nエデン\n・[衣装] リボン麦わら帽子\n・[衣装] レインボウ\n・[衣装] くわえたハンカチ\n・[衣装] リボン（緑）\n[コスたまSpringPartyIII]は\n倉庫への移動のみ可能です",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する",
+        "・[衣装] にゃんフォーク",
+        "・[衣装] ピクニック",
+        "バスケット",
+        "・[衣装] ミラクルプラント",
+        "・[衣装] ボリューム",
+        "ローツイン(桜)",
+        "・[衣装] アメリカン",
+        "ショートヘア",
+        "・[衣装] ガーデンオブ",
+        "エデン",
+        "・[衣装] リボン麦わら帽子",
+        "・[衣装] レインボウ",
+        "・[衣装] くわえたハンカチ",
+        "・[衣装] リボン（緑）",
+        "[コスたまSpringPartyIII]は",
+        "倉庫への移動のみ可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "39fb2c993a33a0d91f2fda5b48ef598d28914bb76da4d8d2267f75bad02dc92d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

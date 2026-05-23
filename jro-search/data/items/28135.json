@@ -1,0 +1,172 @@
+{
+    "type": "item",
+    "item_id": "28135",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28135\/"
+    },
+    "name": "アビスツーハンドアックス[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true,
+                "karnos": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "異形の者の魔力を受けて\n変異した武器。\n同じ外見でも、\nその性能は異なるという。\nプレイヤーから\n受けるダメージ - 30%\n[アビス\nツーハンドアックス]の\n精錬値が7以上の時、追加で\n物理攻撃で\n与えるダメージ + 5%\nプレイヤーから\n受けるダメージ - 5%\n[アビス\nツーハンドアックス]の\n精錬値が9以上の時、追加で\n物理攻撃で\n与えるダメージ + 5%\nプレイヤーから\n受けるダメージ - 5%\n[迷宮の\nドッペルゲンガーカード]と\n共に装備時、追加で\n攻撃速度 + 10%\n物理攻撃で\n与えるダメージ + 10%\n[ヘヴンリーオーダー]と\n共に装備時、追加で\nプレイヤーから\n受けるダメージ - 3%\n物理・魔法攻撃時、\n全ての属性のモンスターに\n与えるダメージ + 15%",
+    "description_lines": [
+        "異形の者の魔力を受けて",
+        "変異した武器。",
+        "同じ外見でも、",
+        "その性能は異なるという。",
+        "プレイヤーから",
+        "受けるダメージ - 30%",
+        "[アビス",
+        "ツーハンドアックス]の",
+        "精錬値が7以上の時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 5%",
+        "プレイヤーから",
+        "受けるダメージ - 5%",
+        "[アビス",
+        "ツーハンドアックス]の",
+        "精錬値が9以上の時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 5%",
+        "プレイヤーから",
+        "受けるダメージ - 5%",
+        "[迷宮の",
+        "ドッペルゲンガーカード]と",
+        "共に装備時、追加で",
+        "攻撃速度 + 10%",
+        "物理攻撃で",
+        "与えるダメージ + 10%",
+        "[ヘヴンリーオーダー]と",
+        "共に装備時、追加で",
+        "プレイヤーから",
+        "受けるダメージ - 3%",
+        "物理・魔法攻撃時、",
+        "全ての属性のモンスターに",
+        "与えるダメージ + 15%"
+    ],
+    "properties": {
+        "series": "two_handed_axe",
+        "series_normalized": [
+            "two_handed_axe"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 320,
+        "mdef": null,
+        "matk": 200,
+        "refinement": true,
+        "breakable": false,
+        "weight": 400,
+        "weapon_level": 4,
+        "required_level": 165,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true,
+                "karnos": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手斧",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "320",
+            "Matk": "200",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "400",
+            "要求レベル": "165",
+            "装備": "3次職ソードマン系 3次職マーチャント系 カルノス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "迷宮のドッペルゲンガー（A）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_51"
+        },
+        {
+            "name": "ロードオブデス（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_53"
+        },
+        {
+            "name": "ドラキュラ（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_55"
+        },
+        {
+            "name": "アーティス=マスコット（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_60"
+        },
+        {
+            "name": "クトルラナックス（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_65"
+        },
+        {
+            "name": "シャドウディワイ（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_70"
+        },
+        {
+            "name": "デッドエンド（B）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_73"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "異形の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@lc_00",
+            "map_code": "3@lc_00"
+        }
+    ],
+    "source_html_sha256": "bdff2c211be9138458430d1b2f39806383455223e97f26655ec14e2807f4060d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

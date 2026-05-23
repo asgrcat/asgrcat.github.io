@@ -1,0 +1,117 @@
+{
+    "type": "item",
+    "item_id": "300246",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300246\/"
+    },
+    "name": "グロートカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "headgear"
+        ],
+        "card_attachable_positions": {
+            "upper": true,
+            "middle": true,
+            "lower": true
+        }
+    },
+    "description": "Mdef + 10\n精錬値が1上がる度に追加で\nMdef - 1",
+    "description_lines": [
+        "Mdef + 10",
+        "精錬値が1上がる度に追加で",
+        "Mdef - 1"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "headgear"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "兜",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "グロート",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GROTE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "幻影の迷宮 悪魔の劇場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld124",
+            "map_code": "2@ld124"
+        },
+        {
+            "name": "幻影の迷宮 悪魔の劇場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le124",
+            "map_code": "2@le124"
+        },
+        {
+            "name": "亜空の迷宮 魔女の菜園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg114",
+            "map_code": "2@lg114"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "ニブルヘイムダンジョン(崩れたオペラハウス)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nif_dun02",
+            "map_code": "nif_dun02"
+        }
+    ],
+    "source_html_sha256": "6972718db720910b197c10786c2616ef3b8f688da829b08a91cf53fd553ed6b0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

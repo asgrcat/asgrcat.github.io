@@ -1,0 +1,160 @@
+{
+    "type": "item",
+    "item_id": "1307",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1307\/"
+    },
+    "name": "ウィンドホーク[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "短所である遅い攻撃速度を補った斧。風属性が付与されており、遅い攻撃速度を補ってくれる。\n攻撃速度5%増加。",
+    "description_lines": [
+        "短所である遅い攻撃速度を補った斧。風属性が付与されており、遅い攻撃速度を補ってくれる。",
+        "攻撃速度5%増加。"
+    ],
+    "properties": {
+        "series": "one_handed_axe",
+        "series_normalized": [
+            "one_handed_axe"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "風",
+        "slot": 0,
+        "def": null,
+        "atk": 115,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 150,
+        "weapon_level": 2,
+        "required_level": 14,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手斧",
+            "攻撃": "115",
+            "重量": "150",
+            "属性": "風",
+            "武器レベル": "2",
+            "要求レベル": "14",
+            "装備": "マーチャント系 ソードマン系 シーフ系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "アルマイア=デュンゼ（一次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ARMAIA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_14",
+            "map_code": "2@la_14"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_16",
+            "map_code": "2@lb_16"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_13",
+            "map_code": "2@lc_13"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld114",
+            "map_code": "2@ld114"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld214",
+            "map_code": "2@ld214"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le114",
+            "map_code": "2@le114"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf214",
+            "map_code": "2@lf214"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "生体工学研究所 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun02",
+            "map_code": "lhz_dun02"
+        }
+    ],
+    "source_html_sha256": "49a3ed4c3a7b58d6da1c4b3826d62883d856d527f2478beed009452d980fd246",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

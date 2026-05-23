@@ -1,0 +1,94 @@
+{
+    "type": "item",
+    "item_id": "2909",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2909\/"
+    },
+    "name": "闇の指輪[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ブランシャルド皇国の\n皇女であるアデレイドが\n身に付けていた指輪。\n光の指輪と対になっており、\n光と闇の力が合わさる事で\n真の力を発揮するという。\nMatk + 1%\n[光の指輪]と共に装備時、\n追加で物理攻撃で与える\nダメージ + 4%、Matk + 4%",
+    "description_lines": [
+        "ブランシャルド皇国の",
+        "皇女であるアデレイドが",
+        "身に付けていた指輪。",
+        "光の指輪と対になっており、",
+        "光と闇の力が合わさる事で",
+        "真の力を発揮するという。",
+        "Matk + 1%",
+        "[光の指輪]と共に装備時、",
+        "追加で物理攻撃で与える",
+        "ダメージ + 4%、Matk + 4%"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "b51b309103932da1898db22c5864275738612b96bf400de8a73c77332a06d395",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

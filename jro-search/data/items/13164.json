@@ -1,0 +1,150 @@
+{
+    "type": "item",
+    "item_id": "13164",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13164\/"
+    },
+    "name": "ロングバレル[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "gunslinger": true
+            },
+            "include_jobs": {
+                "gunslinger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "銃身を伸ばした事で、\n高い命中精度を得た\nスナイピングライフル。\nHit + 10 , Cri + 20\n攻撃速度 - 3%\n物理攻撃命中時、\n一定確率で\n[トラッキング]Lv5発動\n純粋なIntが10上がる度に\n追加で\n[ハンマーオブゴッド]で\n与えるダメージ + 7%\n純粋なIntが110以上の時、\n追加で\n[ハンマーオブゴッド]で\n与えるダメージ + 30%",
+    "description_lines": [
+        "銃身を伸ばした事で、",
+        "高い命中精度を得た",
+        "スナイピングライフル。",
+        "Hit + 10 , Cri + 20",
+        "攻撃速度 - 3%",
+        "物理攻撃命中時、",
+        "一定確率で",
+        "[トラッキング]Lv5発動",
+        "純粋なIntが10上がる度に",
+        "追加で",
+        "[ハンマーオブゴッド]で",
+        "与えるダメージ + 7%",
+        "純粋なIntが110以上の時、",
+        "追加で",
+        "[ハンマーオブゴッド]で",
+        "与えるダメージ + 30%"
+    ],
+    "properties": {
+        "series": "rifle",
+        "series_normalized": [
+            "rifle"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 100,
+        "weapon_level": 3,
+        "required_level": 70,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "gunslinger": true
+            },
+            "include_jobs": {
+                "gunslinger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "ライフル",
+            "攻撃": "150",
+            "重量": "100",
+            "武器レベル": "3",
+            "要求レベル": "70",
+            "装備": "ガンスリンガー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ウィンドヴェナート",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/VENATU_2"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_11",
+            "map_code": "2@la_11"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_13",
+            "map_code": "2@lb_13"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_11",
+            "map_code": "2@lc_11"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld211",
+            "map_code": "2@ld211"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf211",
+            "map_code": "2@lf211"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ジュピロス廃墟 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/juperos_01",
+            "map_code": "juperos_01"
+        }
+    ],
+    "source_html_sha256": "61434d51aabddad8b696a62b195e308501a2e6aa6c8c7c4dd6bdb2051b80b270",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

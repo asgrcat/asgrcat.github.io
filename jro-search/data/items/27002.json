@@ -1,0 +1,168 @@
+{
+    "type": "item",
+    "item_id": "27002",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27002\/"
+    },
+    "name": "包装されたボックスカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "headgear"
+        ],
+        "card_attachable_positions": {
+            "upper": true,
+            "middle": true,
+            "lower": true
+        }
+    },
+    "description": "モンスターを倒した時、\n一定確率で\n[プレゼントボックス(赤)]、\n[プレゼントボックス(黄)]、\n[プレゼントボックス(青)]、\n[プレゼントボックス(緑)]を\nドロップ\n[オークアーチャーカード]、\n[ガーゴイルカード]、\n[ステムワームカード]、\n[スリーパーカード]、\n[天邪仙人カード]、\n[虎人カード]、\n[ミミックカード]、\n[レイスカード]、\n[レイドリック\nアーチャーカード]の\nいずれかと共に装備時、\n追加で\n上記カードでのアイテムの\nドロップ確率が上昇\n[ハッピーバルーン]と\n共に装備時、\n純粋なLukが77以上の時、\n追加で\nモンスターを倒した時、\n一定確率で\n[ハッピーボックス]を\nドロップ",
+    "description_lines": [
+        "モンスターを倒した時、",
+        "一定確率で",
+        "[プレゼントボックス(赤)]、",
+        "[プレゼントボックス(黄)]、",
+        "[プレゼントボックス(青)]、",
+        "[プレゼントボックス(緑)]を",
+        "ドロップ",
+        "[オークアーチャーカード]、",
+        "[ガーゴイルカード]、",
+        "[ステムワームカード]、",
+        "[スリーパーカード]、",
+        "[天邪仙人カード]、",
+        "[虎人カード]、",
+        "[ミミックカード]、",
+        "[レイスカード]、",
+        "[レイドリック",
+        "アーチャーカード]の",
+        "いずれかと共に装備時、",
+        "追加で",
+        "上記カードでのアイテムの",
+        "ドロップ確率が上昇",
+        "[ハッピーバルーン]と",
+        "共に装備時、",
+        "純粋なLukが77以上の時、",
+        "追加で",
+        "モンスターを倒した時、",
+        "一定確率で",
+        "[ハッピーボックス]を",
+        "ドロップ"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "headgear"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "兜",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "包装されたボックス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/XM_MYSTCASE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "ホラーおもちゃ工場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@xm_d",
+            "map_code": "1@xm_d"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_16",
+            "map_code": "2@la_16"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_19",
+            "map_code": "2@lb_19"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld216",
+            "map_code": "2@ld216"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf216",
+            "map_code": "2@lf216"
+        },
+        {
+            "name": "周辺エリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@letter",
+            "map_code": "3@letter"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        }
+    ],
+    "source_html_sha256": "8f7f302950b08009a6c5d511cbaeec205fe85eba03801c3003fd890816f12cb0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

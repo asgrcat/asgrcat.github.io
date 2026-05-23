@@ -1,0 +1,350 @@
+{
+    "type": "item",
+    "item_id": "1433",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1433\/"
+    },
+    "name": "インペリアルスピア[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "royal_guard": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ルーンミッドガッツ王国の\n紋様が刻まれた美しい槍。\nMatk + 40\n[キャノンスピア]、\n[バニシングポイント]で\n与えるダメージ + 20%\n[インペリアルスピア]の\n精錬値が2上がる度に追加で\n[キャノンスピア]、\n[バニシングポイント]で\n与えるダメージ + 3%\n[インペリアルリング]と\n共に装備時、\n[インペリアルスピア]の\n精錬値が2上がる度に追加で\n[キャノンスピア]、\n[バニシングポイント]で\n与えるダメージ + 7%\n[インペリアルガード]と\n共に装備時、追加で\n[グランドクロス]、\n[レイオブジェネシス]で\n与えるダメージ + 10%\n[インペリアルガード]、\n[インペリアルフェザー]と\n共に装備時、追加で\n[キャノンスピア]、\n[シールドプレス]、\n[バニシングポイント]で\n与えるダメージ + 20%\n[インペリアルガード]、\n[インペリアルフェザー]、\n[インペリアルリング]と\n共に装備時、追加で\n[キャノンスピア]の\n消費SP - 10\n[グランドクロス]の\n消費SP - 30\n[シールドプレス]の\n消費SP - 5\n[バニシングポイント]の\n消費SP - 15",
+    "description_lines": [
+        "ルーンミッドガッツ王国の",
+        "紋様が刻まれた美しい槍。",
+        "Matk + 40",
+        "[キャノンスピア]、",
+        "[バニシングポイント]で",
+        "与えるダメージ + 20%",
+        "[インペリアルスピア]の",
+        "精錬値が2上がる度に追加で",
+        "[キャノンスピア]、",
+        "[バニシングポイント]で",
+        "与えるダメージ + 3%",
+        "[インペリアルリング]と",
+        "共に装備時、",
+        "[インペリアルスピア]の",
+        "精錬値が2上がる度に追加で",
+        "[キャノンスピア]、",
+        "[バニシングポイント]で",
+        "与えるダメージ + 7%",
+        "[インペリアルガード]と",
+        "共に装備時、追加で",
+        "[グランドクロス]、",
+        "[レイオブジェネシス]で",
+        "与えるダメージ + 10%",
+        "[インペリアルガード]、",
+        "[インペリアルフェザー]と",
+        "共に装備時、追加で",
+        "[キャノンスピア]、",
+        "[シールドプレス]、",
+        "[バニシングポイント]で",
+        "与えるダメージ + 20%",
+        "[インペリアルガード]、",
+        "[インペリアルフェザー]、",
+        "[インペリアルリング]と",
+        "共に装備時、追加で",
+        "[キャノンスピア]の",
+        "消費SP - 10",
+        "[グランドクロス]の",
+        "消費SP - 30",
+        "[シールドプレス]の",
+        "消費SP - 5",
+        "[バニシングポイント]の",
+        "消費SP - 15"
+    ],
+    "properties": {
+        "series": "one_handed_spear",
+        "series_normalized": [
+            "one_handed_spear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 180,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 180,
+        "weapon_level": 3,
+        "required_level": 102,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "royal_guard": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手槍",
+            "攻撃": "180",
+            "重量": "180",
+            "武器レベル": "3",
+            "要求レベル": "102",
+            "装備": "ロイヤルガード系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ランデル=ロレンス（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RANDEL"
+        },
+        {
+            "name": "ヘラクレススカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/I_HORN_SCARABA"
+        },
+        {
+            "name": "一角スカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HORN_SCARABA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_01",
+            "map_code": "2@la_01"
+        },
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_03",
+            "map_code": "2@la_03"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_15",
+            "map_code": "2@la_15"
+        },
+        {
+            "name": "試練の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_17",
+            "map_code": "2@la_17"
+        },
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_26",
+            "map_code": "2@la_26"
+        },
+        {
+            "name": "試練の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_28",
+            "map_code": "2@la_28"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_01",
+            "map_code": "2@lb_01"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_03",
+            "map_code": "2@lb_03"
+        },
+        {
+            "name": "封印の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_17",
+            "map_code": "2@lb_17"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_20",
+            "map_code": "2@lb_20"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_01",
+            "map_code": "2@lc_01"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_03",
+            "map_code": "2@lc_03"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_15",
+            "map_code": "2@lc_15"
+        },
+        {
+            "name": "異形の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_17",
+            "map_code": "2@lc_17"
+        },
+        {
+            "name": "異形の迷宮 最下層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_22",
+            "map_code": "2@lc_22"
+        },
+        {
+            "name": "幻影の迷宮 魔物の巣穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld105",
+            "map_code": "2@ld105"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld115",
+            "map_code": "2@ld115"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld201",
+            "map_code": "2@ld201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld203",
+            "map_code": "2@ld203"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld215",
+            "map_code": "2@ld215"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld217",
+            "map_code": "2@ld217"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld226",
+            "map_code": "2@ld226"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld228",
+            "map_code": "2@ld228"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le101",
+            "map_code": "2@le101"
+        },
+        {
+            "name": "幻影の迷宮 魔物の巣穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le105",
+            "map_code": "2@le105"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le115",
+            "map_code": "2@le115"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf201",
+            "map_code": "2@lf201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf203",
+            "map_code": "2@lf203"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf215",
+            "map_code": "2@lf215"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf217",
+            "map_code": "2@lf217"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf226",
+            "map_code": "2@lf226"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf228",
+            "map_code": "2@lf228"
+        },
+        {
+            "name": "亜空の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg101",
+            "map_code": "2@lg101"
+        },
+        {
+            "name": "亜空の迷宮 生命の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg130",
+            "map_code": "2@lg130"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "カミダルトンネル",
+            "url": "https:\/\/rotool.gungho.jp\/map\/dic_dun01",
+            "map_code": "dic_dun01"
+        },
+        {
+            "name": "スカラバガーデン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/dic_dun03",
+            "map_code": "dic_dun03"
+        },
+        {
+            "name": "生体工学研究所 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun04",
+            "map_code": "lhz_dun04"
+        }
+    ],
+    "source_html_sha256": "31a8356f8d8c7ce84689693c05ac1f3aa38c56afe95571a364734f6ddcc83b2d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

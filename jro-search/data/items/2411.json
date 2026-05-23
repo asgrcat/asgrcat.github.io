@@ -1,0 +1,91 @@
+{
+    "type": "item",
+    "item_id": "2411",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2411\/"
+    },
+    "name": "グリーブ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "knight": true,
+                "crusader": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "鋼鉄で作られていて実用性や履き心地より防御力を優先させて製作された履き物。",
+    "description_lines": [
+        "鋼鉄で作られていて実用性や履き心地より防御力を優先させて製作された履き物。"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 27,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 75,
+        "weapon_level": null,
+        "required_level": 65,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "knight": true,
+                "crusader": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "防御": "27",
+            "重量": "75",
+            "要求レベル": "65",
+            "装備": "ナイト系 クルセイダー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "21be2489afebe9f47f62cef1e61d9b319310122533f5ffad0f0a0a90fdd34f91",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

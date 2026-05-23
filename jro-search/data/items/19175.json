@@ -1,0 +1,86 @@
+{
+    "type": "item",
+    "item_id": "19175",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19175\/"
+    },
+    "name": "カボチャヘッド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "頭をすっぽりと包みこめる\nほどの大きなカボチャを\nくりぬいて作られた被り物。\n食用のカボチャを使って\n作られているので\n調理の材料にもなりそうだ。",
+    "description_lines": [
+        "頭をすっぽりと包みこめる",
+        "ほどの大きなカボチャを",
+        "くりぬいて作られた被り物。",
+        "食用のカボチャを使って",
+        "作られているので",
+        "調理の材料にもなりそうだ。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 10,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 31,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "10",
+            "位置": "上中下段",
+            "重量": "31",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "5dc6d852ead8ad2ab53f69c6a74aa08e1540b919595fc97b4166e5bd794956f2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

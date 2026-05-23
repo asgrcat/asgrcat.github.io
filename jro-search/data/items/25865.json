@@ -1,0 +1,66 @@
+{
+    "type": "item",
+    "item_id": "25865",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/25865\/"
+    },
+    "name": "時間の宝石",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "時間が歪んで、\n神秘的な魔力を\n秘めた宝石。\n普通に細工するのは\n大変そうだ。",
+    "description_lines": [
+        "時間が歪んで、",
+        "神秘的な魔力を",
+        "秘めた宝石。",
+        "普通に細工するのは",
+        "大変そうだ。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0.1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "09638c9dbb620ab8287ce81a0f5b19935ac756861d9ab580db7b22f31bb45748",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,78 @@
+{
+    "type": "item",
+    "item_id": "10047",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/10047\/"
+    },
+    "name": "蝶ネクタイ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "お洒落で清潔感のある\n蝶ネクタイを付けることは\n紳士の嗜み。",
+    "description_lines": [
+        "お洒落で清潔感のある",
+        "蝶ネクタイを付けることは",
+        "紳士の嗜み。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": "pet_equipment",
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "種類": "キューペット装備",
+            "装備": "エドガ",
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6ef246a1682fbee1ca9ece764ac7dd9cb99cf2fab4d7b3c3b47fa33066c7b27d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

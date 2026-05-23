@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "12336",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12336\/"
+    },
+    "name": "焼きキノコ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "焼いたキノコ。\n太りにくいからたくさん\n食べても大丈夫!?\n5分間、STR + 2",
+    "description_lines": [
+        "焼いたキノコ。",
+        "太りにくいからたくさん",
+        "食べても大丈夫!?",
+        "5分間、STR + 2"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "30"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "20913cc220797c4533f82afc876edf4aa33eeb092f7182ff5b94bc13a55c6976",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

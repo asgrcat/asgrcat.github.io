@@ -1,0 +1,152 @@
+{
+    "type": "item",
+    "item_id": "5141",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5141\/"
+    },
+    "name": "マリオネット人形[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "マリオネットの姿を真似て作られた人形。\n頭の上が妙にヒンヤリしている気がする。\nSTR + 1",
+    "description_lines": [
+        "マリオネットの姿を真似て作られた人形。",
+        "頭の上が妙にヒンヤリしている気がする。",
+        "STR + 1"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 1,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 30,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "1",
+            "位置": "上段",
+            "重量": "40",
+            "要求レベル": "30",
+            "装備": "ノービス系を除く全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "マリオネット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MARIONETTE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_16",
+            "map_code": "2@la_16"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_19",
+            "map_code": "2@lb_19"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_16",
+            "map_code": "2@lc_16"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld216",
+            "map_code": "2@ld216"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf216",
+            "map_code": "2@lf216"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "ゲフェン地下ダンジョン B3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_dun02",
+            "map_code": "gef_dun02"
+        },
+        {
+            "name": "グラストヘイム 室内01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_in01",
+            "map_code": "gl_in01"
+        },
+        {
+            "name": "沈没船 2層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/treasure02",
+            "map_code": "treasure02"
+        }
+    ],
+    "source_html_sha256": "57b6d292a1176054de30b13633f6bf04aa0ce8c9523ab1bcbfcb5ae983c08b57",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,71 @@
+{
+    "type": "item",
+    "item_id": "311865",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/311865\/"
+    },
+    "name": "バルムントの宝石(火炎4)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "鎧に装備時、\n火・闇属性攻撃で\n受けるダメージ - 7%\n肩にかける物に装備時、\n火・闇属性攻撃で\n受けるダメージ - 35%\n靴に装備時、\n火・闇属性攻撃で\n受けるダメージ - 7%\nアクセサリーに装備時、\n火・闇属性攻撃で\n受けるダメージ - 4%",
+    "description_lines": [
+        "鎧に装備時、",
+        "火・闇属性攻撃で",
+        "受けるダメージ - 7%",
+        "肩にかける物に装備時、",
+        "火・闇属性攻撃で",
+        "受けるダメージ - 35%",
+        "靴に装備時、",
+        "火・闇属性攻撃で",
+        "受けるダメージ - 7%",
+        "アクセサリーに装備時、",
+        "火・闇属性攻撃で",
+        "受けるダメージ - 4%"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "7a2c4d0234e6a79cf73538c2344d8f7ba0d8c78dbffe01e33cc7721ccfbc3fd9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

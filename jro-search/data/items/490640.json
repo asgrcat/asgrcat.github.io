@@ -1,0 +1,117 @@
+{
+    "type": "item",
+    "item_id": "490640",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/490640\/"
+    },
+    "name": "極意皆伝之巻[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "誰が書いたものなのか\nいつ書かれたのか\n存在すらも定かではない\n謎多き巻物。\n厳しい修行と任務をこなし\n心と体を極めたもののみ\n授かることができるという。\nSpl + 3\n魔法攻撃で\n与えるダメージ + 10%\nプレイヤーから\n受けるダメージ - 3%\n[十六夜]の\n再使用待機時間 - 25秒\nBaseLvが1上がる度に追加で\n[龍炎陣]、\n[氷柱落し]、\n[風刃]で\n与えるダメージ + 1%\nBaseLvが10上がる度に追加で\n[赤炎砲]、\n[冷血砲]、\n[雷電砲]、\n[金龍砲]、\n[暗転砲]、\n[幻術 -暗黒龍-]で\n与えるダメージ + 1%",
+    "description_lines": [
+        "誰が書いたものなのか",
+        "いつ書かれたのか",
+        "存在すらも定かではない",
+        "謎多き巻物。",
+        "厳しい修行と任務をこなし",
+        "心と体を極めたもののみ",
+        "授かることができるという。",
+        "Spl + 3",
+        "魔法攻撃で",
+        "与えるダメージ + 10%",
+        "プレイヤーから",
+        "受けるダメージ - 3%",
+        "[十六夜]の",
+        "再使用待機時間 - 25秒",
+        "BaseLvが1上がる度に追加で",
+        "[龍炎陣]、",
+        "[氷柱落し]、",
+        "[風刃]で",
+        "与えるダメージ + 1%",
+        "BaseLvが10上がる度に追加で",
+        "[赤炎砲]、",
+        "[冷血砲]、",
+        "[雷電砲]、",
+        "[金龍砲]、",
+        "[暗転砲]、",
+        "[幻術 -暗黒龍-]で",
+        "与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "200",
+            "装備": "4次職 拡張4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "2e2e45999bee152153641dc21001ea5defceba43eb419454c29d2b8c2a2f41bb",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

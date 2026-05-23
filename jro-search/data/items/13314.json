@@ -1,0 +1,180 @@
+{
+    "type": "item",
+    "item_id": "13314",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13314\/"
+    },
+    "name": "風魔手裏剣・乱雪[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "水の属性を持った\n風魔手裏剣。\n振り回すと吹雪が舞う。\nMatk + 50\n近接物理攻撃時、一定確率で\n氷閃石を1個消費して\nオートスペル\n[氷柱落し]Lv1発動\n_\n習得している[氷柱落し]が\nLv2以上の場合、習得Lvの\n[氷柱落し]\nが発動する",
+    "description_lines": [
+        "水の属性を持った",
+        "風魔手裏剣。",
+        "振り回すと吹雪が舞う。",
+        "Matk + 50",
+        "近接物理攻撃時、一定確率で",
+        "氷閃石を1個消費して",
+        "オートスペル",
+        "[氷柱落し]Lv1発動",
+        "_",
+        "習得している[氷柱落し]が",
+        "Lv2以上の場合、習得Lvの",
+        "[氷柱落し]",
+        "が発動する"
+    ],
+    "properties": {
+        "series": "huuma_shuriken",
+        "series_normalized": [
+            "huuma_shuriken"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "水",
+        "slot": 0,
+        "def": null,
+        "atk": 200,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 150,
+        "weapon_level": 4,
+        "required_level": 110,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "風魔手裏剣",
+            "攻撃": "200",
+            "重量": "150",
+            "属性": "水",
+            "武器レベル": "4",
+            "要求レベル": "110",
+            "装備": "影狼系 朧系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "クトルラナックス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KTULLANUX"
+        },
+        {
+            "name": "アイスタイタン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ICE_TITAN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "試練の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_04",
+            "map_code": "2@la_04"
+        },
+        {
+            "name": "封印の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_04",
+            "map_code": "2@lb_04"
+        },
+        {
+            "name": "異形の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_04",
+            "map_code": "2@lc_04"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld109",
+            "map_code": "2@ld109"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld204",
+            "map_code": "2@ld204"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le109",
+            "map_code": "2@le109"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf204",
+            "map_code": "2@lf204"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "氷の洞窟 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ice_dun03",
+            "map_code": "ice_dun03"
+        }
+    ],
+    "source_html_sha256": "66e79f7047b2aa7e2c511dfdbdd5d166306248a9b769e6d8b364c51a557bcaa6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

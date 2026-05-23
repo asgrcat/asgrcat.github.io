@@ -1,0 +1,130 @@
+{
+    "type": "item",
+    "item_id": "26164",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/26164\/"
+    },
+    "name": "エレクトリックフォックス-OS[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "summoner": true
+            },
+            "include_jobs": {
+                "summoner": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "多くの電線を使って作られた\n形状が猫じゃらしの機械。\n物理・魔法攻撃で\n与えるダメージ + 20%\n物理攻撃命中時、\n一定確率で敵に\nオートスペル\n[チェーンライトニング]Lv3\n発動\n[エレクトリック\nフォックス-OS]の\n精錬値が1上がる度に追加で\nAtk + 10 , Matk + 10\n攻撃速度 + 1%\n[エレクトリック\nフォックス-OS]の\n精錬値が7以上の時、追加で\n物理・魔法攻撃で\n与えるダメージ + 10%\n[エレクトリック\nフォックス-OS]の\n精錬値が9以上の時、追加で\n物理・魔法攻撃で\n与えるダメージ + 10%\n[エレクトリック\nフォックス-OS]の\n精錬値が10の時、追加で\n風属性魔法攻撃で\n与えるダメージ + 50%\n[コル・コアヘッドフォン]\nと共に装備時、追加で\nAtk + 200 , Matk + 200",
+    "description_lines": [
+        "多くの電線を使って作られた",
+        "形状が猫じゃらしの機械。",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 20%",
+        "物理攻撃命中時、",
+        "一定確率で敵に",
+        "オートスペル",
+        "[チェーンライトニング]Lv3",
+        "発動",
+        "[エレクトリック",
+        "フォックス-OS]の",
+        "精錬値が1上がる度に追加で",
+        "Atk + 10 , Matk + 10",
+        "攻撃速度 + 1%",
+        "[エレクトリック",
+        "フォックス-OS]の",
+        "精錬値が7以上の時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 10%",
+        "[エレクトリック",
+        "フォックス-OS]の",
+        "精錬値が9以上の時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 10%",
+        "[エレクトリック",
+        "フォックス-OS]の",
+        "精錬値が10の時、追加で",
+        "風属性魔法攻撃で",
+        "与えるダメージ + 50%",
+        "[コル・コアヘッドフォン]",
+        "と共に装備時、追加で",
+        "Atk + 200 , Matk + 200"
+    ],
+    "properties": {
+        "series": "one_handed_staff",
+        "series_normalized": [
+            "one_handed_staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 0,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": 180,
+        "refinement": true,
+        "breakable": false,
+        "weight": 40,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "summoner": true
+            },
+            "include_jobs": {
+                "summoner": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手杖",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "0",
+            "Atk": "150",
+            "Matk": "180",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "40",
+            "要求レベル": "150",
+            "装備": "サモナー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c7666814545908544fdb39babeda8ff3a9520e00071fe8604af258680ffaff2a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

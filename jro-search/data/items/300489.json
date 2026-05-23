@@ -1,0 +1,76 @@
+{
+    "type": "item",
+    "item_id": "300489",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300489\/"
+    },
+    "name": "リベリオン・ルッキーカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "garment"
+        ],
+        "card_attachable_positions": {
+            "garment": true
+        }
+    },
+    "description": "無属性攻撃で\n受けるダメージ - 15%\n精錬値が1上がる度に追加で\n聖属性魔法攻撃で\n与えるダメージ + 3%",
+    "description_lines": [
+        "無属性攻撃で",
+        "受けるダメージ - 15%",
+        "精錬値が1上がる度に追加で",
+        "聖属性魔法攻撃で",
+        "与えるダメージ + 3%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "garment"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "肩にかける物",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "24e7b5e515f5ce0686d2ccef977da466b2a837d2be43cefd61480fbc340f850c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

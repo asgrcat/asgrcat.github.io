@@ -1,0 +1,63 @@
+{
+    "type": "item",
+    "item_id": "312936",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/312936\/"
+    },
+    "name": "潜在解放(インペリアルガードV)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "[豪傑]と\n共に装備時、追加で\n[シールドシューティング]\nの再使用待機時間 - 0.2秒",
+    "description_lines": [
+        "[豪傑]と",
+        "共に装備時、追加で",
+        "[シールドシューティング]",
+        "の再使用待機時間 - 0.2秒"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "af2c7dfc3553dd0d76c906b6c6593c1f1836c9ef91bba9d79a1d38e2c2174392",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

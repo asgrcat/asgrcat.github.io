@@ -1,0 +1,146 @@
+{
+    "type": "item",
+    "item_id": "1630",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1630\/"
+    },
+    "name": "リリースオブウィッシュ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "magician": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "soul_linker": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "クリスタルで作られており、\n光を反射し美しく輝く。\n自らの持ち主を\n回復させる能力がある。\nMatk + 125。\nInt + 3。\n回復スキルによる\n回復量 + 5%。\n魔法攻撃時、\n低確率で\nHP、SP一定量回復。",
+    "description_lines": [
+        "クリスタルで作られており、",
+        "光を反射し美しく輝く。",
+        "自らの持ち主を",
+        "回復させる能力がある。",
+        "Matk + 125。",
+        "Int + 3。",
+        "回復スキルによる",
+        "回復量 + 5%。",
+        "魔法攻撃時、",
+        "低確率で",
+        "HP、SP一定量回復。"
+    ],
+    "properties": {
+        "series": "staff",
+        "series_normalized": [
+            "staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 30,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": 3,
+        "required_level": 50,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "magician": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "soul_linker": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "杖",
+            "攻撃": "30",
+            "重量": "50",
+            "武器レベル": "3",
+            "要求レベル": "50",
+            "装備": "マジシャン系 ソウルリンカー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "深海のお化け貝",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_SHELLFISH"
+        },
+        {
+            "name": "ババヤガ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/VAVAYAGA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "地下排水路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@pump",
+            "map_code": "1@pump"
+        },
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "亜空の迷宮 隠匿された通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg107",
+            "map_code": "2@lg107"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mosk_dun01",
+            "map_code": "mosk_dun01"
+        },
+        {
+            "name": "深い森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mosk_dun02",
+            "map_code": "mosk_dun02"
+        },
+        {
+            "name": "奥深い森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mosk_dun03",
+            "map_code": "mosk_dun03"
+        }
+    ],
+    "source_html_sha256": "9150540115c96ab63d269a3270d817e403790d7600c8f3f364cdd50e912cd36b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

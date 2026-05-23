@@ -1,0 +1,95 @@
+{
+    "type": "item",
+    "item_id": "1001640",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1001640\/"
+    },
+    "name": "縞模様の貝",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "二枚貝の貝柱は、\n独特の模様があります。\n焼くととても美味しい！",
+    "description_lines": [
+        "二枚貝の貝柱は、",
+        "独特の模様があります。",
+        "焼くととても美味しい！"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "スカレッグ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP21_SCALLEG"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "亜空の迷宮 暗い干潟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg121",
+            "map_code": "2@lg121"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "隆起した大地 北部(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_raise1",
+            "map_code": "jor_raise1"
+        },
+        {
+            "name": "隆起した大地 北部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_raise1j",
+            "map_code": "jor_raise1j"
+        }
+    ],
+    "source_html_sha256": "912388fc557c2cf7e2f4f81ec7476708fcd9f6673c94422353ef59fec78b33af",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,124 @@
+{
+    "type": "item",
+    "item_id": "470106",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/470106\/"
+    },
+    "name": "粛清の靴[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "不浄なる者達の\n罪を清めるべく\n粛清を決する。\nMaxHP + 3% , MaxSP + 3%\n[ハイネスヒール]の\n再使用待機時間 - 1秒\n[オラティオ]Lv10\n習得時、追加で\n変動詠唱時間 - 50%\nスキルディレイ - 50%\n[クリアランス]Lv5習得時、\n追加で\n魔法攻撃時、\n全ての属性のモンスターに\n与えるダメージ + 25%\n[オフェルトリウム]\n使用時、15秒間、\nBaseLvが1上がる度に\n[ジュデックス]で\n与えるダメージ + 1%\n[ラウダアグヌス]、\n[ラウダラムス]の\n習得Lvが1上がる度に追加で\nMdef + 10\nヒール系スキル使用時、\nHP回復量 + 8%\n[粛清の靴]の\n精錬値が5以上の時、追加で\nMaxHP + 7% , MaxSP + 7%\nスキルディレイ - 10%\n[粛清の靴]の\n精錬値が7以上の時、追加で\nMaxHP + 10% , MaxSP + 10%\nスキルディレイ - 10%",
+    "description_lines": [
+        "不浄なる者達の",
+        "罪を清めるべく",
+        "粛清を決する。",
+        "MaxHP + 3% , MaxSP + 3%",
+        "[ハイネスヒール]の",
+        "再使用待機時間 - 1秒",
+        "[オラティオ]Lv10",
+        "習得時、追加で",
+        "変動詠唱時間 - 50%",
+        "スキルディレイ - 50%",
+        "[クリアランス]Lv5習得時、",
+        "追加で",
+        "魔法攻撃時、",
+        "全ての属性のモンスターに",
+        "与えるダメージ + 25%",
+        "[オフェルトリウム]",
+        "使用時、15秒間、",
+        "BaseLvが1上がる度に",
+        "[ジュデックス]で",
+        "与えるダメージ + 1%",
+        "[ラウダアグヌス]、",
+        "[ラウダラムス]の",
+        "習得Lvが1上がる度に追加で",
+        "Mdef + 10",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 8%",
+        "[粛清の靴]の",
+        "精錬値が5以上の時、追加で",
+        "MaxHP + 7% , MaxSP + 7%",
+        "スキルディレイ - 10%",
+        "[粛清の靴]の",
+        "精錬値が7以上の時、追加で",
+        "MaxHP + 10% , MaxSP + 10%",
+        "スキルディレイ - 10%"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 15,
+        "atk": null,
+        "mdef": 15,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "15",
+            "Mdef": "15",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "50",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "86c6e97c926b7c356f38a24378c795775a1012d9222fc709daa18c24e1b83bb3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

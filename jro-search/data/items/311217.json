@@ -1,0 +1,66 @@
+{
+    "type": "item",
+    "item_id": "311217",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/311217\/"
+    },
+    "name": "氷華の魔力(アビスチェイサーI)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "[チェーンリアクション\nショット]、\n[フレンジショット]、\n[ヒットアンド\nスライディング]、\n[チェイシングショット]で\n与えるダメージ + 25%",
+    "description_lines": [
+        "[チェーンリアクション",
+        "ショット]、",
+        "[フレンジショット]、",
+        "[ヒットアンド",
+        "スライディング]、",
+        "[チェイシングショット]で",
+        "与えるダメージ + 25%"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ba90857a7a60004e315e6206403a62271d2caa0f18de35090de5d1565bc8fd76",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

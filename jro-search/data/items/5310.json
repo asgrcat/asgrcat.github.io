@@ -1,0 +1,89 @@
+{
+    "type": "item",
+    "item_id": "5310",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5310\/"
+    },
+    "name": "輝く電球のヘアバンド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "電球が光るヘアバンド。\n暗い所もこれさえあれば\n全然大丈夫だ。\n闇属性攻撃耐性 + 10%\nサイトLv1使用可能",
+    "description_lines": [
+        "電球が光るヘアバンド。",
+        "暗い所もこれさえあれば",
+        "全然大丈夫だ。",
+        "闇属性攻撃耐性 + 10%",
+        "サイトLv1使用可能"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 5,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "5",
+            "位置": "上段",
+            "重量": "10",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "db128d948a6e237a9c1d403ae222b9b12a2f345166597fdfd48a0c1fe24384d7",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,75 @@
+{
+    "type": "item",
+    "item_id": "1000534",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000534\/"
+    },
+    "name": "クエストスキップチケット(賢者の遺産)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "イルシオン\n～賢者の遺産～とその前提\nクエストを完了状態に\nしてくれるチケット。\n[クエストスキップ\nチケット(賢者の遺産)]：\n・ギムレットの部屋\n(iz_gimlet)\n座標(38 97)にいるNPC\n「ミスティア」\nに持って行こう\n[クエストスキップ\nチケット(賢者の遺産)]は\n倉庫への移動のみ可能です",
+    "description_lines": [
+        "イルシオン",
+        "～賢者の遺産～とその前提",
+        "クエストを完了状態に",
+        "してくれるチケット。",
+        "[クエストスキップ",
+        "チケット(賢者の遺産)]：",
+        "・ギムレットの部屋",
+        "(iz_gimlet)",
+        "座標(38 97)にいるNPC",
+        "「ミスティア」",
+        "に持って行こう",
+        "[クエストスキップ",
+        "チケット(賢者の遺産)]は",
+        "倉庫への移動のみ可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "63dd1cf7db76eee76805e0042a7bd3c57285b10e03f2073ec3dda912a24e8b7b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

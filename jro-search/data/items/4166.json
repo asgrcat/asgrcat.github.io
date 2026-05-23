@@ -1,0 +1,146 @@
+{
+    "type": "item",
+    "item_id": "4166",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4166\/"
+    },
+    "name": "ナイトメアテラーカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "armor"
+        ],
+        "card_attachable_positions": {
+            "armor": true
+        }
+    },
+    "description": "物理攻撃を受けた時、\n一定確率で相手を\n呪い状態にする。\n--カードセット効果--------\n・ ナイトメアカード\nと共に装備すると、追加で\n物理攻撃を受けた時、\nより高確率で相手を\n呪い状態にする。",
+    "description_lines": [
+        "物理攻撃を受けた時、",
+        "一定確率で相手を",
+        "呪い状態にする。",
+        "--カードセット効果--------",
+        "・ ナイトメアカード",
+        "と共に装備すると、追加で",
+        "物理攻撃を受けた時、",
+        "より高確率で相手を",
+        "呪い状態にする。"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "armor"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "鎧",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ナイトメアテラー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/NIGHTMARE_TERROR"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_08",
+            "map_code": "2@la_08"
+        },
+        {
+            "name": "封印の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_08",
+            "map_code": "2@lb_08"
+        },
+        {
+            "name": "異形の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_08",
+            "map_code": "2@lc_08"
+        },
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld104",
+            "map_code": "2@ld104"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld208",
+            "map_code": "2@ld208"
+        },
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le104",
+            "map_code": "2@le104"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf208",
+            "map_code": "2@lf208"
+        },
+        {
+            "name": "亜空の迷宮 溶岩の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg104",
+            "map_code": "2@lg104"
+        },
+        {
+            "name": "亜空の迷宮 瘴気の谷底",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg115",
+            "map_code": "2@lg115"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ノーグロード 2層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mag_dun02",
+            "map_code": "mag_dun02"
+        }
+    ],
+    "source_html_sha256": "d225d9d5f356e365d4ad497d8d649d86d50c6ec4b30e6b664824cb2eda388b1e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,97 @@
+{
+    "type": "item",
+    "item_id": "19281",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19281\/"
+    },
+    "name": "襲撃者のローブ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "かつてその名を聞いただけで\n子どもが泣き止むと言われた\n人物が身に着けていた\nローブのレプリカ。\nMdef + 10\n魔法攻撃命中時、\n一定確率で10秒間、\n[襲撃者のローブ]の\n精錬値が1上がる度に追加で\n魔法攻撃で\n与えるダメージ + 1%\n[デイヴィッドシールド]と\n共に装備時、追加で\n変動詠唱時間 - 15%\n魔法攻撃で\n与えるダメージ + 10%",
+    "description_lines": [
+        "かつてその名を聞いただけで",
+        "子どもが泣き止むと言われた",
+        "人物が身に着けていた",
+        "ローブのレプリカ。",
+        "Mdef + 10",
+        "魔法攻撃命中時、",
+        "一定確率で10秒間、",
+        "[襲撃者のローブ]の",
+        "精錬値が1上がる度に追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 1%",
+        "[デイヴィッドシールド]と",
+        "共に装備時、追加で",
+        "変動詠唱時間 - 15%",
+        "魔法攻撃で",
+        "与えるダメージ + 10%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 35,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 80,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "35",
+            "重量": "80",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "2df1d7be93adff97ce31014c98366afb2782f2b31e2026b4ea67ddfbd6d9d1ac",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

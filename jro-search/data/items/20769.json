@@ -1,0 +1,91 @@
+{
+    "type": "item",
+    "item_id": "20769",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20769\/"
+    },
+    "name": "宵闇のマント[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "混沌の魔王が、\n身に着けていたマント。\n闇を支配する力がある。\nMdef + 2\nMaxHP + 5%\n物理攻撃時、\n闇属性モンスターに\n与えるダメージ + 2%\n魔法攻撃で\n与えるダメージ + 1%",
+    "description_lines": [
+        "混沌の魔王が、",
+        "身に着けていたマント。",
+        "闇を支配する力がある。",
+        "Mdef + 2",
+        "MaxHP + 5%",
+        "物理攻撃時、",
+        "闇属性モンスターに",
+        "与えるダメージ + 2%",
+        "魔法攻撃で",
+        "与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 16,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 70,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "防御": "16",
+            "重量": "50",
+            "要求レベル": "70",
+            "装備": "転生1次職 上位2次職 3次職 4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "7907b44009a657e53c58549c2ba163639669f311d2ddfb84e9370c22ca44ff42",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

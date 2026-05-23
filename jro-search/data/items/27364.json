@@ -1,0 +1,95 @@
+{
+    "type": "item",
+    "item_id": "27364",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27364\/"
+    },
+    "name": "愚者のカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "all_positions"
+        ],
+        "card_attachable_positions": {
+            "upper": true,
+            "middle": true,
+            "lower": true,
+            "armor": true,
+            "weapon": true,
+            "shield": true,
+            "shoes": true,
+            "garment": true,
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "MaxHP + 500 , MaxSP + 50\n精錬値が1上がる度に追加で\nMaxHP + 100 , MaxSP + 10\n精錬値が10の時、追加で\nMaxHP + 500 , MaxSP + 50\n[アルカナ]と\n共に装備時、追加で\n全ての基本ステータス + 1\nMaxHP + 5000\nMaxSP + 500\n[カート\nレボリューション]Lv1\n使用可能\n全てのスロットに\n挿す事が可能です",
+    "description_lines": [
+        "MaxHP + 500 , MaxSP + 50",
+        "精錬値が1上がる度に追加で",
+        "MaxHP + 100 , MaxSP + 10",
+        "精錬値が10の時、追加で",
+        "MaxHP + 500 , MaxSP + 50",
+        "[アルカナ]と",
+        "共に装備時、追加で",
+        "全ての基本ステータス + 1",
+        "MaxHP + 5000",
+        "MaxSP + 500",
+        "[カート",
+        "レボリューション]Lv1",
+        "使用可能",
+        "全てのスロットに",
+        "挿す事が可能です"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "all_positions"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "全ての部位",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "54769fb8f9595d65fc91bb0794b926aee773397ca3540c6932a07fd8c2802adf",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

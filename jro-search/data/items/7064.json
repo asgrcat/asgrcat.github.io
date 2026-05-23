@@ -1,0 +1,88 @@
+{
+    "type": "item",
+    "item_id": "7064",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7064\/"
+    },
+    "name": "とんぼの羽",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "薄くて長くて軽いとんぼの羽を切り取ったもの。背中にはつけられないようだ。",
+    "description_lines": [
+        "薄くて長くて軽いとんぼの羽を切り取ったもの。背中にはつけられないようだ。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ドラゴンテイル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DRAGON_TAIL"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "フェイヨン迷いの森 10",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild10",
+            "map_code": "pay_fild10"
+        },
+        {
+            "name": "タートルアイランド",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tur_dun01",
+            "map_code": "tur_dun01"
+        }
+    ],
+    "source_html_sha256": "6c91e3f7e41d6300edcaa98673ed4b8684ec6cb5d04c16d8e97b353ef62b5760",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

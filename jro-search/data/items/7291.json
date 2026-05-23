@@ -1,0 +1,99 @@
+{
+    "type": "item",
+    "item_id": "7291",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7291\/"
+    },
+    "name": "めのう",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "不規則な球形や卵型をしていて、色と模様によって呼ぶ名前が違う。盆石にも用いられる鉱物。\n保護と安定\n_",
+    "description_lines": [
+        "不規則な球形や卵型をしていて、色と模様によって呼ぶ名前が違う。盆石にも用いられる鉱物。",
+        "保護と安定",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "10"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "エントヴァイエン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ENTWEIHEN"
+        },
+        {
+            "name": "アークエンジェリング",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ARCHANGELING"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "エンドレスタワー 5層（100F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@tower",
+            "map_code": "5@tower"
+        },
+        {
+            "name": "迷宮の森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze03",
+            "map_code": "prt_maze03"
+        },
+        {
+            "name": "ジュノーフィールド 03（エルメスプレート）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/yuno_fild03",
+            "map_code": "yuno_fild03"
+        }
+    ],
+    "source_html_sha256": "a4242f4c65a89a3501b70b1e5a307c3a076ecc17a2e0fac2b0b2c0e258a7230f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

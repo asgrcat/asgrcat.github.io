@@ -1,0 +1,111 @@
+{
+    "type": "item",
+    "item_id": "460002",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/460002\/"
+    },
+    "name": "白羊宮のシールド[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "黄道を巡る星座の1つ、\n白羊宮の力を宿した\nシールド。\nボスモンスターから\n受けるダメージ - 40%\nロイヤルガード系が装備時、\nDef + 150\nMaxHP + 1000\n[白羊宮のシールド]の\n精錬値が8以上の時、追加で\n火・風・毒属性攻撃で\n受けるダメージ - 20%\nロイヤルガード系が装備時、\n[ゾディアック]と\n共に装備時、\n[白羊宮のシールド]の\n精錬値が1上がる度に追加で\nMaxHP + 500\n[白羊宮のシールド]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "黄道を巡る星座の1つ、",
+        "白羊宮の力を宿した",
+        "シールド。",
+        "ボスモンスターから",
+        "受けるダメージ - 40%",
+        "ロイヤルガード系が装備時、",
+        "Def + 150",
+        "MaxHP + 1000",
+        "[白羊宮のシールド]の",
+        "精錬値が8以上の時、追加で",
+        "火・風・毒属性攻撃で",
+        "受けるダメージ - 20%",
+        "ロイヤルガード系が装備時、",
+        "[ゾディアック]と",
+        "共に装備時、",
+        "[白羊宮のシールド]の",
+        "精錬値が1上がる度に追加で",
+        "MaxHP + 500",
+        "[白羊宮のシールド]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 170,
+        "atk": null,
+        "mdef": 30,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 400,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "170",
+            "Mdef": "30",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "400",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "a14c685f2f4ab79cbdc51e8011be3f4c2c868ad0205d1339d03cb787804ab17d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

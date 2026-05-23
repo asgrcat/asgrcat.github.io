@@ -1,0 +1,133 @@
+{
+    "type": "item",
+    "item_id": "1242",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1242\/"
+    },
+    "name": "カウンターダガー[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "magician": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "soul_linker": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "相手に致命的な一撃を\n与える可能性が高い短剣。\nCri + 90",
+    "description_lines": [
+        "相手に致命的な一撃を",
+        "与える可能性が高い短剣。",
+        "Cri + 90"
+    ],
+    "properties": {
+        "series": "dagger",
+        "series_normalized": [
+            "dagger"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 140,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 55,
+        "weapon_level": 4,
+        "required_level": 55,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "magician": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "soul_linker": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "短剣",
+            "攻撃": "140",
+            "重量": "55",
+            "武器レベル": "4",
+            "要求レベル": "55",
+            "装備": "マジシャン系 ソウルリンカー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "キエル-D-01",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KIEL_"
+        },
+        {
+            "name": "RSX-0806",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RSX_0806"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld108",
+            "map_code": "2@ld108"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le108",
+            "map_code": "2@le108"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "鉱山ダンジョン 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun02",
+            "map_code": "ein_dun02"
+        },
+        {
+            "name": "機械人形工場 B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/kh_dun02",
+            "map_code": "kh_dun02"
+        }
+    ],
+    "source_html_sha256": "f9a21032aa2d9e0881b85def1659f7500cea0233db7c7a80eebc42fb269c27ce",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,103 @@
+{
+    "type": "item",
+    "item_id": "2913",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2913\/"
+    },
+    "name": "大盗賊の手鎖[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "昔、世間を騒がせた\n大盗賊を捕まえる為に\n作られた特注の手鎖。\n通常の手鎖と異なり、\n容易には手をあげることが\nできない程の重さ。\nAtk + 5\n[目隠し]と共に\n装備時、追加でAtk + 10\n[囚人の服]と共に装備時、\n[囚人の服]の精錬値が\n1上がる度に、\n追加でAtk + 2\n[足鎖]と共に装備時\n[足鎖]の精錬値が\n1上がる度に、\n追加でAtk + 1\n[血塗られた鉄球]と共に\n装備時、追加でAtk + 10",
+    "description_lines": [
+        "昔、世間を騒がせた",
+        "大盗賊を捕まえる為に",
+        "作られた特注の手鎖。",
+        "通常の手鎖と異なり、",
+        "容易には手をあげることが",
+        "できない程の重さ。",
+        "Atk + 5",
+        "[目隠し]と共に",
+        "装備時、追加でAtk + 10",
+        "[囚人の服]と共に装備時、",
+        "[囚人の服]の精錬値が",
+        "1上がる度に、",
+        "追加でAtk + 2",
+        "[足鎖]と共に装備時",
+        "[足鎖]の精錬値が",
+        "1上がる度に、",
+        "追加でAtk + 1",
+        "[血塗られた鉄球]と共に",
+        "装備時、追加でAtk + 10"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 240,
+        "weapon_level": null,
+        "required_level": 10,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "240",
+            "要求レベル": "10",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e476c69d223a9148e8af2c155a70114c88cd0b59bb3759b3d08b569666764d4c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

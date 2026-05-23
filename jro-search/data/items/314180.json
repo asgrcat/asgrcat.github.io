@@ -1,0 +1,63 @@
+{
+    "type": "item",
+    "item_id": "314180",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/314180\/"
+    },
+    "name": "潜在覚醒(クリアランスI)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "[真理の解放]と\n共に装備時、追加で\n[クリアランス]の\n再使用待機時間 - 1秒",
+    "description_lines": [
+        "[真理の解放]と",
+        "共に装備時、追加で",
+        "[クリアランス]の",
+        "再使用待機時間 - 1秒"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "3f49c01bb8db4ac1f7595b7a783e92a2dc6a2159d1271adf172f942e20ac356b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

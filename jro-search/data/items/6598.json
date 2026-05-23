@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "6598",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6598\/"
+    },
+    "name": "ヨルムンガンドの肋骨",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "巨大な蛇ヨルムンガンドの\n肋骨。\n信じられないほどの強度と\n大きさを誇る。",
+    "description_lines": [
+        "巨大な蛇ヨルムンガンドの",
+        "肋骨。",
+        "信じられないほどの強度と",
+        "大きさを誇る。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1000,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1000"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "27163ab9d3b843675ea830d042cf256c98dda056380a66c78eb1bb2d486fe7d0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

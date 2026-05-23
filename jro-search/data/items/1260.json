@@ -1,0 +1,203 @@
+{
+    "type": "item",
+    "item_id": "1260",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1260\/"
+    },
+    "name": "デスナイフ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "assassin": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "グールの骨を鋭利に切って\n作ったカタール。\n死の気配が感じられる。",
+    "description_lines": [
+        "グールの骨を鋭利に切って",
+        "作ったカタール。",
+        "死の気配が感じられる。"
+    ],
+    "properties": {
+        "series": "katar",
+        "series_normalized": [
+            "katar"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "不死",
+        "slot": 0,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 170,
+        "weapon_level": 3,
+        "required_level": 65,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "assassin": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カタール",
+            "攻撃": "150",
+            "重量": "170",
+            "属性": "不死",
+            "武器レベル": "3",
+            "要求レベル": "65",
+            "装備": "アサシン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "グール",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GHOUL"
+        },
+        {
+            "name": "ゾンビマスター",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ZOMBIE_MASTER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "封印された神殿（墓地）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@cata",
+            "map_code": "1@cata"
+        },
+        {
+            "name": "試練の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_24",
+            "map_code": "2@la_24"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_30",
+            "map_code": "2@lb_30"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld224",
+            "map_code": "2@ld224"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf224",
+            "map_code": "2@lf224"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "アユタヤダンジョン 01（古代遺跡迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ayo_dun01",
+            "map_code": "ayo_dun01"
+        },
+        {
+            "name": "ゲフェン地下ダンジョン B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_dun01",
+            "map_code": "gef_dun01"
+        },
+        {
+            "name": "グラストヘイム 修道院",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_church",
+            "map_code": "gl_church"
+        },
+        {
+            "name": "グラストヘイム カタコンベ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_chyard",
+            "map_code": "gl_chyard"
+        },
+        {
+            "name": "ギルドダンジョン ゲフェン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gld_dun04",
+            "map_code": "gld_dun04"
+        },
+        {
+            "name": "名もなき島 夜",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nameless_n",
+            "map_code": "nameless_n"
+        },
+        {
+            "name": "迷宮の森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze03",
+            "map_code": "prt_maze03"
+        },
+        {
+            "name": "侵攻されたプロンテラ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_q_jp",
+            "map_code": "prt_q_jp"
+        }
+    ],
+    "source_html_sha256": "e70ddfabde5151d5ab1e48649947dc569b86b11708e825a5e12ae0af0e77e413",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

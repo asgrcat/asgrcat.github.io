@@ -1,0 +1,94 @@
+{
+    "type": "item",
+    "item_id": "31145",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31145\/"
+    },
+    "name": "[衣装] アイス・フォン・フリージンガー69世[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "紳士の中の紳士の家系である\nア・ラーム家に仕える\n69代目メイド長の\n就任を祝って作られた\n衣装用の人形。\n純真な心を持ち、\n主の為に日々奉仕をし、\n時には主の命に従い全ての\n強敵に鉄槌？をくだす。",
+    "description_lines": [
+        "紳士の中の紳士の家系である",
+        "ア・ラーム家に仕える",
+        "69代目メイド長の",
+        "就任を祝って作られた",
+        "衣装用の人形。",
+        "純真な心を持ち、",
+        "主の為に日々奉仕をし、",
+        "時には主の命に従い全ての",
+        "強敵に鉄槌？をくだす。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "上段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "86ae95d5020e51efa5fc3fdab34cf7de1afd8e65cfc04c950a5778a983a1b789",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,168 @@
+{
+    "type": "item",
+    "item_id": "16099",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/16099\/"
+    },
+    "name": "ラヴァーハンマー[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "arch_bishop": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "アインブロックの鉱山の\n坑道探索用として使われた\nハンマー。\n坑道探索用として\n作られたが、\n特有のデザインと耐久性を\n生かして戦闘用としても\n愛用される。\n物理攻撃で\n与えるダメージ + 110%\n[パワースイング]\nLv3使用可能\n[ラヴァーハンマー]の\n精錬値が7以上の時、追加で\n精錬値と同じLvの\n[パワースイング]使用可能\n[ラヴァーハンマー]の\n精錬値が9以上の時、\nBaseLvが1上がる度に追加で\n[パワースイング]で\n与えるダメージ + 1%\n[ラヴァーハンマー]の\n精錬値が10の時、追加で\n[パワースイング]使用時、\n一定確率で敵を中心に\nオートスペル\n[マグマイラプション]\nLv5発動",
+    "description_lines": [
+        "アインブロックの鉱山の",
+        "坑道探索用として使われた",
+        "ハンマー。",
+        "坑道探索用として",
+        "作られたが、",
+        "特有のデザインと耐久性を",
+        "生かして戦闘用としても",
+        "愛用される。",
+        "物理攻撃で",
+        "与えるダメージ + 110%",
+        "[パワースイング]",
+        "Lv3使用可能",
+        "[ラヴァーハンマー]の",
+        "精錬値が7以上の時、追加で",
+        "精錬値と同じLvの",
+        "[パワースイング]使用可能",
+        "[ラヴァーハンマー]の",
+        "精錬値が9以上の時、",
+        "BaseLvが1上がる度に追加で",
+        "[パワースイング]で",
+        "与えるダメージ + 1%",
+        "[ラヴァーハンマー]の",
+        "精錬値が10の時、追加で",
+        "[パワースイング]使用時、",
+        "一定確率で敵を中心に",
+        "オートスペル",
+        "[マグマイラプション]",
+        "Lv5発動"
+    ],
+    "properties": {
+        "series": "mace",
+        "series_normalized": [
+            "mace"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": 110,
+        "refinement": true,
+        "breakable": false,
+        "weight": 150,
+        "weapon_level": 4,
+        "required_level": 175,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "arch_bishop": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鈍器",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "150",
+            "Matk": "110",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "150",
+            "要求レベル": "175",
+            "装備": "アークビショップ系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ホワイトポルセリオ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/PORCELLIO_W"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld108",
+            "map_code": "2@ld108"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le108",
+            "map_code": "2@le108"
+        },
+        {
+            "name": "亜空の迷宮 地下洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg106",
+            "map_code": "2@lg106"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "鉱山ダンジョン 03(1)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun03",
+            "map_code": "ein_dun03"
+        },
+        {
+            "name": "鉱山ダンジョン 03(2)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun03_j",
+            "map_code": "ein_dun03_j"
+        }
+    ],
+    "source_html_sha256": "a44ee8a832f3c9dc1f181097257ba067d222af6e59f6c34d769b63423530f544",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,107 @@
+{
+    "type": "item",
+    "item_id": "25619",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/25619\/"
+    },
+    "name": "粘土人形",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "粘土で作られた人形。\n潰されて元の形が解らない。",
+    "description_lines": [
+        "粘土で作られた人形。",
+        "潰されて元の形が解らない。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "光輝くテディベア",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_039"
+        },
+        {
+            "name": "カプロティーナ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_095"
+        },
+        {
+            "name": "輝くベアドール",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_TEDDY_BEAR_S"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ネジリアン帝国",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_d02_i",
+            "map_code": "ein_d02_i"
+        }
+    ],
+    "source_html_sha256": "bffe1411b6ba3d4276ad95b8ef5de0bdbefb749c86eaaa3d366ff21cd3e8f511",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

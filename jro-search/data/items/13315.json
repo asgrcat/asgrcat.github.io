@@ -1,0 +1,140 @@
+{
+    "type": "item",
+    "item_id": "13315",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13315\/"
+    },
+    "name": "風魔手裏剣・雷雨[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "風の属性を持った\n風魔手裏剣。\n振り回すと雨風が視野を\n防ぐらしい。\nMatk + 50\n物理攻撃命中時、\n一定確率で敵を\n暗黒状態にする\n物理攻撃命中時、一定確率で\n風鈴石を1個消費して\nオートスペル\n[雷撃砕]Lv1発動\n_\n習得している[雷撃砕]が\nLv2以上の場合、習得Lvの\n[雷撃砕]\nが発動する",
+    "description_lines": [
+        "風の属性を持った",
+        "風魔手裏剣。",
+        "振り回すと雨風が視野を",
+        "防ぐらしい。",
+        "Matk + 50",
+        "物理攻撃命中時、",
+        "一定確率で敵を",
+        "暗黒状態にする",
+        "物理攻撃命中時、一定確率で",
+        "風鈴石を1個消費して",
+        "オートスペル",
+        "[雷撃砕]Lv1発動",
+        "_",
+        "習得している[雷撃砕]が",
+        "Lv2以上の場合、習得Lvの",
+        "[雷撃砕]",
+        "が発動する"
+    ],
+    "properties": {
+        "series": "huuma_shuriken",
+        "series_normalized": [
+            "huuma_shuriken"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "風",
+        "slot": 0,
+        "def": null,
+        "atk": 200,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 150,
+        "weapon_level": 4,
+        "required_level": 110,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "風魔手裏剣",
+            "攻撃": "200",
+            "重量": "150",
+            "属性": "風",
+            "武器レベル": "4",
+            "要求レベル": "110",
+            "装備": "影狼系 朧系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "怨霊武士",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/INCANTATION_SAMURAI"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "ラヴィーネ山脈02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ravi",
+            "map_code": "2@ravi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アマツダンジョン 03（アマツ地下神社）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ama_dun03",
+            "map_code": "ama_dun03"
+        }
+    ],
+    "source_html_sha256": "9d3a55c526fd831a28639e8f0e7cd4c3c037a519bf40ae809431ed9c5f8b0e2d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

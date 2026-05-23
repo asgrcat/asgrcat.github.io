@@ -1,0 +1,133 @@
+{
+    "type": "item",
+    "item_id": "1068",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1068\/"
+    },
+    "name": "乾いた木屑",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "乾いた木の小さい欠片。収集品商人に売ることができる。\n_",
+    "description_lines": [
+        "乾いた木の小さい欠片。収集品商人に売ることができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "シゲリン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP18_TUMBLE_RING"
+        },
+        {
+            "name": "ウィロー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WILOW"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "亜空の迷宮 灰の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg103",
+            "map_code": "2@lg103"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "実習室（海岸）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_prac_01",
+            "map_code": "ac_prac_01"
+        },
+        {
+            "name": "灰色狼の森 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gw_fild02",
+            "map_code": "gw_fild02"
+        },
+        {
+            "name": "ソグラト砂漠 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild03",
+            "map_code": "moc_fild03"
+        },
+        {
+            "name": "フェイヨン迷いの森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild01",
+            "map_code": "pay_fild01"
+        },
+        {
+            "name": "フェイヨン迷いの森 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild02",
+            "map_code": "pay_fild02"
+        },
+        {
+            "name": "フェイヨン迷いの森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild03",
+            "map_code": "pay_fild03"
+        },
+        {
+            "name": "フェイヨン迷いの森 06",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild06",
+            "map_code": "pay_fild06"
+        },
+        {
+            "name": "フェイヨン迷いの森 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild07",
+            "map_code": "pay_fild07"
+        }
+    ],
+    "source_html_sha256": "3206e9f7851a287ff4badfae352c538b0f497306630e2d2f5fd888984a063cc0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

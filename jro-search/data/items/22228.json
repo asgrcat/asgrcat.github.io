@@ -1,0 +1,112 @@
+{
+    "type": "item",
+    "item_id": "22228",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/22228\/"
+    },
+    "name": "闇御津羽神靴[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "東方のある国に古くから\n伝えられている神の名を\n冠した履き物。\n龍の血で闇の力を\n増幅しているらしい。\n魔法攻撃時、\nボスモンスターに\n与えるダメージ + 15%\n[闇御津羽神靴]の\n精錬値が1上がる度に追加で\nMatk + 5\n攻撃速度 + 1%\n闇属性魔法攻撃で\n与えるダメージ + 3%\n[闇御津羽神靴]の\n精錬値が10の時、追加で\n闇属性魔法攻撃で\n与えるダメージ + 50%\n[暴走した魔力]と\n共に装備時、追加で\nInt + 40\n攻撃速度 + 10%",
+    "description_lines": [
+        "東方のある国に古くから",
+        "伝えられている神の名を",
+        "冠した履き物。",
+        "龍の血で闇の力を",
+        "増幅しているらしい。",
+        "魔法攻撃時、",
+        "ボスモンスターに",
+        "与えるダメージ + 15%",
+        "[闇御津羽神靴]の",
+        "精錬値が1上がる度に追加で",
+        "Matk + 5",
+        "攻撃速度 + 1%",
+        "闇属性魔法攻撃で",
+        "与えるダメージ + 3%",
+        "[闇御津羽神靴]の",
+        "精錬値が10の時、追加で",
+        "闇属性魔法攻撃で",
+        "与えるダメージ + 50%",
+        "[暴走した魔力]と",
+        "共に装備時、追加で",
+        "Int + 40",
+        "攻撃速度 + 10%"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 15,
+        "atk": null,
+        "mdef": 10,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "15",
+            "Mdef": "10",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "30",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "154f6866cb4c2f9b35f315029ff95a9bb1ef06b1292b10a9f602b6631e20bd3c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

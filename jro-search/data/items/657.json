@@ -1,0 +1,132 @@
+{
+    "type": "item",
+    "item_id": "657",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/657\/"
+    },
+    "name": "バーサークポーション",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "服用すると血が騒ぎ出し、\n暴れたくなる危険な薬。\n攻撃速度(Aspd)を上げる\n効果がある。\nLv85以上でソードマン系・\nマーチャント系・ローグ系・\nマジシャン・ウィザード系・\nテコンキッド系・\nガンスリンガー系の\nキャラクターが使用できる。",
+    "description_lines": [
+        "服用すると血が騒ぎ出し、",
+        "暴れたくなる危険な薬。",
+        "攻撃速度(Aspd)を上げる",
+        "効果がある。",
+        "Lv85以上でソードマン系・",
+        "マーチャント系・ローグ系・",
+        "マジシャン・ウィザード系・",
+        "テコンキッド系・",
+        "ガンスリンガー系の",
+        "キャラクターが使用できる。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "20"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "トップブレードライダー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/E_COWRAIDERS3"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "異形の迷宮 忘れられた炭鉱",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_20",
+            "map_code": "2@lc_20"
+        },
+        {
+            "name": "周辺エリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@letter",
+            "map_code": "3@letter"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ロックリッジ鉱山 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/rockmi1",
+            "map_code": "rockmi1"
+        },
+        {
+            "name": "ロックリッジ鉱山 01 奥地",
+            "url": "https:\/\/rotool.gungho.jp\/map\/rockmi3",
+            "map_code": "rockmi3"
+        }
+    ],
+    "source_html_sha256": "feaddacf1d7608e80c27bcc61b1392b3e551fe288fceea30b3b1b1ef8007c294",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

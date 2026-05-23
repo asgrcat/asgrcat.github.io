@@ -1,0 +1,89 @@
+{
+    "type": "item",
+    "item_id": "18620",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18620\/"
+    },
+    "name": "ハートの眼帯[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "とてもキュートな\nハートの眼帯。\n可愛さの余り装備している\n相手に対して、つい攻撃を\n手加減してしまうらしい。\n人間形モンスターから\n受けるダメージ - 2%",
+    "description_lines": [
+        "とてもキュートな",
+        "ハートの眼帯。",
+        "可愛さの余り装備している",
+        "相手に対して、つい攻撃を",
+        "手加減してしまうらしい。",
+        "人間形モンスターから",
+        "受けるダメージ - 2%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": null,
+        "slot": 0,
+        "def": 2,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 5,
+        "weapon_level": null,
+        "required_level": 20,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "2",
+            "位置": "中段",
+            "重量": "5",
+            "要求レベル": "20",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "acf78447bee75d0d6eda36d1b843aa768cc1db8f9a34e74466430e70a02439e3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

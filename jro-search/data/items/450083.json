@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "450083",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/450083\/"
+    },
+    "name": "インペリアルクルシフォームスーツ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ルーンミッドガッツ王国の\n文様が刻まれた、威厳ある\n影狼 朧の為の礼装。\n逃れられぬ責務はやがて\n強固なる誓いへと至る。\n[十文字斬り]の\n習得Lvが5上がる度に追加で\n[十文字斬り]で\n与えるダメージ + 15%\n[十文字斬り]の\n再使用待機時間 - 0.1秒\n[八方苦無]の\n習得Lvが1上がる度に追加で\n物理攻撃で\n与えるダメージ + 4%\n必中攻撃 + 3%\n[明鏡止水]Lv5\n習得時、追加で\nAtk + 50\n[無茶投げ]Lv10\n習得時、追加で\n全てのモンスターに対し、\nサイズによる武器ダメージの\nペナルティが発生しない\n[インペリアル\nクルシフォームスーツ]の\n精錬値が1上がる度に追加で\n攻撃速度 + 1%",
+    "description_lines": [
+        "ルーンミッドガッツ王国の",
+        "文様が刻まれた、威厳ある",
+        "影狼 朧の為の礼装。",
+        "逃れられぬ責務はやがて",
+        "強固なる誓いへと至る。",
+        "[十文字斬り]の",
+        "習得Lvが5上がる度に追加で",
+        "[十文字斬り]で",
+        "与えるダメージ + 15%",
+        "[十文字斬り]の",
+        "再使用待機時間 - 0.1秒",
+        "[八方苦無]の",
+        "習得Lvが1上がる度に追加で",
+        "物理攻撃で",
+        "与えるダメージ + 4%",
+        "必中攻撃 + 3%",
+        "[明鏡止水]Lv5",
+        "習得時、追加で",
+        "Atk + 50",
+        "[無茶投げ]Lv10",
+        "習得時、追加で",
+        "全てのモンスターに対し、",
+        "サイズによる武器ダメージの",
+        "ペナルティが発生しない",
+        "[インペリアル",
+        "クルシフォームスーツ]の",
+        "精錬値が1上がる度に追加で",
+        "攻撃速度 + 1%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": 90,
+        "atk": null,
+        "mdef": 15,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 70,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "位置": "-",
+            "属性": "無",
+            "スロット": "1",
+            "Def": "90",
+            "Mdef": "15",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "70",
+            "要求レベル": "100",
+            "装備": "影狼系 朧系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "4fda8faf80159edaf187e5ebe48d93adcf8b2d6e756b3bebfb3044d6a07fac45",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

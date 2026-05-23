@@ -1,0 +1,69 @@
+{
+    "type": "item",
+    "item_id": "12475",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12475\/"
+    },
+    "name": "キュアーフリー",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "様々な状態異常を\n回復させる。\n暗黒・混乱・出血・\n沈黙・毒・猛毒・呪い・\n不死属性付与・\nリバースオーキッシュ\nの状態異常を回復する\nHPが一定量回復する",
+    "description_lines": [
+        "様々な状態異常を",
+        "回復させる。",
+        "暗黒・混乱・出血・",
+        "沈黙・毒・猛毒・呪い・",
+        "不死属性付与・",
+        "リバースオーキッシュ",
+        "の状態異常を回復する",
+        "HPが一定量回復する"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 5,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "5"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "d5c21d4b4211b406187036e6b229ea19e934072ec42368180c6e22148d2a69ee",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

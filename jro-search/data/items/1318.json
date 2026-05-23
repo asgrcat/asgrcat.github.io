@@ -1,0 +1,111 @@
+{
+    "type": "item",
+    "item_id": "1318",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1318\/"
+    },
+    "name": "ドフレの斧[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "guillotine_cross": true,
+                "merchant": true,
+                "karnos": true,
+                "novice": true,
+                "super_novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ドフレが装飾された片手斧。\n丈夫で鋭い。\n[トマホーク投げ]Lv1\n使用可能",
+    "description_lines": [
+        "ドフレが装飾された片手斧。",
+        "丈夫で鋭い。",
+        "[トマホーク投げ]Lv1",
+        "使用可能"
+    ],
+    "properties": {
+        "series": "one_handed_axe",
+        "series_normalized": [
+            "one_handed_axe"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 2,
+        "def": null,
+        "atk": 180,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 180,
+        "weapon_level": 4,
+        "required_level": 105,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "guillotine_cross": true,
+                "merchant": true,
+                "karnos": true,
+                "novice": true,
+                "super_novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手斧",
+            "攻撃": "180",
+            "重量": "180",
+            "武器レベル": "4",
+            "要求レベル": "105",
+            "装備": "スーパーノービス系 3次職ソードマン系 ギロチンクロス系 3次職マーチャント系 カルノス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "a919acc277da1ab4d1cc467f8864b0439ca47cce79af2ba691979ceda42f751a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

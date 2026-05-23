@@ -1,0 +1,152 @@
+{
+    "type": "item",
+    "item_id": "2479",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2479\/"
+    },
+    "name": "白羽のブーツ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "ranger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "過去、多くの有能な戦士を\n生み出したという\n「イカルスギルド」の\nアーティファクト。\nAgi + 2\n[エイムドボルト]を\n使用した時の消費SP - 10\n[白羽のスーツ]\n[白羽のマント]\n[白羽のブーツ]\n[白羽のブローチ]\nを共に装備時、\n隠された力が発動する\n[白羽のスーツ]\n[白羽のマント]\n[白羽のブーツ]\nの精錬値が7以上の場合、\n追加効果が発動する",
+    "description_lines": [
+        "過去、多くの有能な戦士を",
+        "生み出したという",
+        "「イカルスギルド」の",
+        "アーティファクト。",
+        "Agi + 2",
+        "[エイムドボルト]を",
+        "使用した時の消費SP - 10",
+        "[白羽のスーツ]",
+        "[白羽のマント]",
+        "[白羽のブーツ]",
+        "[白羽のブローチ]",
+        "を共に装備時、",
+        "隠された力が発動する",
+        "[白羽のスーツ]",
+        "[白羽のマント]",
+        "[白羽のブーツ]",
+        "の精錬値が7以上の場合、",
+        "追加効果が発動する"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 18,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "ranger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "防御": "18",
+            "重量": "40",
+            "要求レベル": "100",
+            "装備": "レンジャー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "エンシェントマミー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ANCIENT_MUMMY"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_27",
+            "map_code": "2@la_27"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld227",
+            "map_code": "2@ld227"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf227",
+            "map_code": "2@lf227"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "ピラミッドダンジョン 4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd04",
+            "map_code": "moc_pryd04"
+        },
+        {
+            "name": "ピラミッドダンジョン B3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd06",
+            "map_code": "moc_pryd06"
+        }
+    ],
+    "source_html_sha256": "d603406f254cbf05fa465f977ef890908180a448f252960298d00d4f91fa40d1",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

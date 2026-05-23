@@ -1,0 +1,87 @@
+{
+    "type": "item",
+    "item_id": "558",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/558\/"
+    },
+    "name": "チョコレート",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "カカオペーストに牛乳や\n砂糖などを加えて\n固めたお菓子。\n甘くてとてもおいしい。\nHP・SPを1ほど回復する",
+    "description_lines": [
+        "カカオペーストに牛乳や",
+        "砂糖などを加えて",
+        "固めたお菓子。",
+        "甘くてとてもおいしい。",
+        "HP・SPを1ほど回復する"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 2,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "2"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ヴァルキリーの贈り物（1）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CRYSTAL_6"
+        },
+        {
+            "name": "ヴァルキリーの贈り物（2）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CRYSTAL_7"
+        },
+        {
+            "name": "ヴァルキリーの贈り物（3）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CRYSTAL_8"
+        },
+        {
+            "name": "ヴァルキリーの贈り物（4）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CRYSTAL_9"
+        },
+        {
+            "name": "チョコルチ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DEVIRUCHI_H"
+        }
+    ],
+    "available_maps": [],
+    "source_html_sha256": "cd8c36ece17652aed2aed79c7aecb5eee0ca9d93e8ee614b329f6f22624fe092",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

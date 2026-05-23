@@ -1,0 +1,153 @@
+{
+    "type": "item",
+    "item_id": "16056",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/16056\/"
+    },
+    "name": "達人の槌[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "acolyte": true
+            },
+            "include_jobs": {
+                "acolyte": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "隕石で作られたとても硬い\nハンマー。\n古代の聖職者達は、\nこのハンマーに神聖な力が\n宿っていると信じていた。\nInt + 1 , Luk + 1\n[ディバインプロテクション]\nの習得Lvが1上がる度に\n追加で\nヒール系スキル使用時、\nHP回復量 + 1%\n[メイス修練]の\n習得Lvが1上がる度に追加で\nCri + 2\n[勇者の靴]と\n共に装備時、\n[デュプレライト]の\n習得Lvが1上がる度に追加で\n攻撃速度 + 1%\n[メイス修練]の\n習得Lvが1上がる度に追加で\n不死・悪魔・人間形\nモンスターへのDef 10%無視\n不死・悪魔・人間形\nモンスターにCri + 5\n[勇者の靴]、\n[英雄の指輪]と\n共に装備時、追加で\n不死・悪魔・人間形\nモンスターにCri + 50\n物理・魔法攻撃命中時、\n一定確率で敵に\nオートスペル\n[ホーリークロス]が\n[デュプレライト]の\n習得Lvで発動\n物理攻撃命中時、\n一定確率で5秒間、\n物理攻撃命中時、\n一定確率で自分を中心に\nオートスペル\n[ヘルジャッジメント]Lv3\n発動\nモンスター\n[堕ちた大神官ヒバム]に変身\n[勇者の靴]、\n[英雄の指輪]と\n共に装備時、\n[達人の槌]の\n精錬値が7以上の時、追加で\n物理・魔法攻撃で\n与えるダメージ + 5%\n[ホーリークロス]で\n与えるダメージ + 50%\n[達人の槌]の\n精錬値が9以上の時、追加で\n物理・魔法攻撃で\n与えるダメージ + 15%\n[ホーリークロス]で\n与えるダメージ + 100%",
+    "description_lines": [
+        "隕石で作られたとても硬い",
+        "ハンマー。",
+        "古代の聖職者達は、",
+        "このハンマーに神聖な力が",
+        "宿っていると信じていた。",
+        "Int + 1 , Luk + 1",
+        "[ディバインプロテクション]",
+        "の習得Lvが1上がる度に",
+        "追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 1%",
+        "[メイス修練]の",
+        "習得Lvが1上がる度に追加で",
+        "Cri + 2",
+        "[勇者の靴]と",
+        "共に装備時、",
+        "[デュプレライト]の",
+        "習得Lvが1上がる度に追加で",
+        "攻撃速度 + 1%",
+        "[メイス修練]の",
+        "習得Lvが1上がる度に追加で",
+        "不死・悪魔・人間形",
+        "モンスターへのDef 10%無視",
+        "不死・悪魔・人間形",
+        "モンスターにCri + 5",
+        "[勇者の靴]、",
+        "[英雄の指輪]と",
+        "共に装備時、追加で",
+        "不死・悪魔・人間形",
+        "モンスターにCri + 50",
+        "物理・魔法攻撃命中時、",
+        "一定確率で敵に",
+        "オートスペル",
+        "[ホーリークロス]が",
+        "[デュプレライト]の",
+        "習得Lvで発動",
+        "物理攻撃命中時、",
+        "一定確率で5秒間、",
+        "物理攻撃命中時、",
+        "一定確率で自分を中心に",
+        "オートスペル",
+        "[ヘルジャッジメント]Lv3",
+        "発動",
+        "モンスター",
+        "[堕ちた大神官ヒバム]に変身",
+        "[勇者の靴]、",
+        "[英雄の指輪]と",
+        "共に装備時、",
+        "[達人の槌]の",
+        "精錬値が7以上の時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 5%",
+        "[ホーリークロス]で",
+        "与えるダメージ + 50%",
+        "[達人の槌]の",
+        "精錬値が9以上の時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 15%",
+        "[ホーリークロス]で",
+        "与えるダメージ + 100%"
+    ],
+    "properties": {
+        "series": "mace",
+        "series_normalized": [
+            "mace"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 3,
+        "def": null,
+        "atk": 160,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 180,
+        "weapon_level": 3,
+        "required_level": 80,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "acolyte": true
+            },
+            "include_jobs": {
+                "acolyte": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鈍器",
+            "攻撃": "160",
+            "重量": "180",
+            "武器レベル": "3",
+            "要求レベル": "80",
+            "装備": "アコライト系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "30c3669108cee98ff8b79a2f178caec3f40991c34e3f4c82c5277154bc1ac3b9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

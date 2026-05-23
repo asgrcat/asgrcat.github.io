@@ -1,0 +1,212 @@
+{
+    "type": "item",
+    "item_id": "1298",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1298\/"
+    },
+    "name": "戦慄のカタール[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "guillotine_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "殺傷力に長けたカタール。\nその鋭利な形は\n見るだけで人を震わせる。\n精錬値が1上がる度に\nCri + 1\n[チンピラカード]\nと共に装備時、\nクリティカル攻撃で与える\nダメージ + 5%\n[セドラカード]\nと共に装備時、\nクリティカル攻撃で与える\nダメージ + 5%",
+    "description_lines": [
+        "殺傷力に長けたカタール。",
+        "その鋭利な形は",
+        "見るだけで人を震わせる。",
+        "精錬値が1上がる度に",
+        "Cri + 1",
+        "[チンピラカード]",
+        "と共に装備時、",
+        "クリティカル攻撃で与える",
+        "ダメージ + 5%",
+        "[セドラカード]",
+        "と共に装備時、",
+        "クリティカル攻撃で与える",
+        "ダメージ + 5%"
+    ],
+    "properties": {
+        "series": "katar",
+        "series_normalized": [
+            "katar"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 2,
+        "def": null,
+        "atk": 110,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 270,
+        "weapon_level": 4,
+        "required_level": 105,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "guillotine_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カタール",
+            "攻撃": "110",
+            "重量": "270",
+            "武器レベル": "4",
+            "要求レベル": "105",
+            "装備": "ギロチンクロス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "エレメス=ガイル（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_EREMES"
+        },
+        {
+            "name": "セドラ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEDORA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "試練の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_05",
+            "map_code": "2@la_05"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_13",
+            "map_code": "2@la_13"
+        },
+        {
+            "name": "封印の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_05",
+            "map_code": "2@lb_05"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_14",
+            "map_code": "2@lb_14"
+        },
+        {
+            "name": "異形の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_05",
+            "map_code": "2@lc_05"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld205",
+            "map_code": "2@ld205"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld213",
+            "map_code": "2@ld213"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf205",
+            "map_code": "2@lf205"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf213",
+            "map_code": "2@lf213"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "イズルード海底神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/iz_dun04",
+            "map_code": "iz_dun04"
+        },
+        {
+            "name": "イズルード海底都市",
+            "url": "https:\/\/rotool.gungho.jp\/map\/iz_dun05",
+            "map_code": "iz_dun05"
+        },
+        {
+            "name": "ギルドダンジョン グロリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/teg_dun01",
+            "map_code": "teg_dun01"
+        }
+    ],
+    "source_html_sha256": "5042a71983e2e71c7eaec63577eae9f396b3aba47299da3782dfdeb4dc00f100",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

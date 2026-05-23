@@ -1,0 +1,119 @@
+{
+    "type": "item",
+    "item_id": "2019",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2019\/"
+    },
+    "name": "攻城戦TEツーハンドスタッフ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true,
+                "soul_linker": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "攻城戦TE専用の\nレンタルアイテム\nMatk + 130\n攻城戦TEの砦内で\n以下の効果が追加される\n_\n魔法攻撃時、\nプレイヤーに\n与えるダメージ + 20%\n_\n魔法攻撃命中時、\n一定確率で敵を\nスタン状態にする\n_\nヒール系スキル使用時、\nHP回復量 + 5%",
+    "description_lines": [
+        "攻城戦TE専用の",
+        "レンタルアイテム",
+        "Matk + 130",
+        "攻城戦TEの砦内で",
+        "以下の効果が追加される",
+        "_",
+        "魔法攻撃時、",
+        "プレイヤーに",
+        "与えるダメージ + 20%",
+        "_",
+        "魔法攻撃命中時、",
+        "一定確率で敵を",
+        "スタン状態にする",
+        "_",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 5%"
+    ],
+    "properties": {
+        "series": "two_handed_staff",
+        "series_normalized": [
+            "two_handed_staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 50,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": 3,
+        "required_level": 40,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true,
+                "soul_linker": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手杖",
+            "攻撃": "50",
+            "重量": "0",
+            "武器レベル": "3",
+            "要求レベル": "40",
+            "装備": "ノービス系 マジシャン系 アコライト系 ソウルリンカー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "5a6d9e82dfc38734349bb9ce50fdb403e3eb1a86829305d6c6f351880b8c2e50",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

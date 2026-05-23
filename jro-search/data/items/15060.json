@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "15060",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15060\/"
+    },
+    "name": "空色のスモック[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "幼稚園で着る制服。\n胸に付けられた名札には、\n所属クラスと名前が\n明記されている。\n物理・魔法攻撃で\n与えるダメージ + 2%\nBaseLv79以下の時、\nヒール系スキルを\n受けた時のHP回復量 + 5%\n一部の回復アイテムによる\nHP回復量 + 5%\n[通学バック]と\n共に装備時、追加で\n物理・魔法攻撃で\n与えるダメージ + 3%",
+    "description_lines": [
+        "幼稚園で着る制服。",
+        "胸に付けられた名札には、",
+        "所属クラスと名前が",
+        "明記されている。",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 2%",
+        "BaseLv79以下の時、",
+        "ヒール系スキルを",
+        "受けた時のHP回復量 + 5%",
+        "一部の回復アイテムによる",
+        "HP回復量 + 5%",
+        "[通学バック]と",
+        "共に装備時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 3%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 1,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "1",
+            "重量": "30",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "7f7e0a9a903af499065a982e119a21ae8503ee5170e990fe6a33b530a15153e2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

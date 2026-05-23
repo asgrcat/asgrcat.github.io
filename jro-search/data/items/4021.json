@@ -1,0 +1,112 @@
+{
+    "type": "item",
+    "item_id": "4021",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4021\/"
+    },
+    "name": "ロッカーカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "armor"
+        ],
+        "card_attachable_positions": {
+            "armor": true
+        }
+    },
+    "description": "Dex + 1 , Atk + 5\n--カードセット効果--------\n・ ボーカルカード\nと共に装備すると、追加で\nFlee + 18",
+    "description_lines": [
+        "Dex + 1 , Atk + 5",
+        "--カードセット効果--------",
+        "・ ボーカルカード",
+        "と共に装備すると、追加で",
+        "Flee + 18"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "armor"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "鎧",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ロッカー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ROCKER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "亜空の迷宮 灰の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg103",
+            "map_code": "2@lg103"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "実習室（島）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_prac_02",
+            "map_code": "ac_prac_02"
+        },
+        {
+            "name": "プロンテラフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild04",
+            "map_code": "prt_fild04"
+        },
+        {
+            "name": "迷宮の森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze01",
+            "map_code": "prt_maze01"
+        }
+    ],
+    "source_html_sha256": "f2c364972f710c258d4f57770fdb1df6f5dd894535799ef2ef0b819ec4ba378b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

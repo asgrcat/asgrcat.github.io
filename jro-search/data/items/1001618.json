@@ -1,0 +1,67 @@
+{
+    "type": "item",
+    "item_id": "1001618",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1001618\/"
+    },
+    "name": "ウィグナー商会交換証",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ウィグナー商会から\n発行された証。\nルナフォーマと\nウィグナー商会の取引の証。\nどこでも通貨のように\n使う事ができる。",
+    "description_lines": [
+        "ウィグナー商会から",
+        "発行された証。",
+        "ルナフォーマと",
+        "ウィグナー商会の取引の証。",
+        "どこでも通貨のように",
+        "使う事ができる。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c6df16bc612c4ba0a7c44fe7998c38f9f804261f1a0b56e65c705870cfd5cf40",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

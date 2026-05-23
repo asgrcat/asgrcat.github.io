@@ -1,0 +1,101 @@
+{
+    "type": "item",
+    "item_id": "1606",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1606\/"
+    },
+    "name": "ワンド[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true,
+                "soul_linker": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "杖。\nMatk + 45。\nInt + 1。",
+    "description_lines": [
+        "杖。",
+        "Matk + 45。",
+        "Int + 1。"
+    ],
+    "properties": {
+        "series": "staff",
+        "series_normalized": [
+            "staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 25,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": 2,
+        "required_level": 12,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true,
+                "soul_linker": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "杖",
+            "攻撃": "25",
+            "重量": "40",
+            "武器レベル": "2",
+            "要求レベル": "12",
+            "装備": "ノービス系 マジシャン系 アコライト系 ソウルリンカー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "02ee8a7eca20531b5fb795cfecc73d32699a2c6b18d8aa5ab9cce53ce8c671fb",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,122 @@
+{
+    "type": "item",
+    "item_id": "1474",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1474\/"
+    },
+    "name": "ゲイボルグ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "巨大な魔物の死体で作られた槍。刃が鋸のようにぎざぎざになっていて、敵に深い傷をつけることができる。\n竜族モンスターに防御力無視ダメージ。\nボスモンスターに10%の追加ダメージ。",
+    "description_lines": [
+        "巨大な魔物の死体で作られた槍。刃が鋸のようにぎざぎざになっていて、敵に深い傷をつけることができる。",
+        "竜族モンスターに防御力無視ダメージ。",
+        "ボスモンスターに10%の追加ダメージ。"
+    ],
+    "properties": {
+        "series": "two_handed_spear",
+        "series_normalized": [
+            "two_handed_spear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 0,
+        "def": null,
+        "atk": 160,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 200,
+        "weapon_level": 4,
+        "required_level": 60,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手槍",
+            "攻撃": "160",
+            "重量": "200",
+            "属性": "無",
+            "武器レベル": "4",
+            "要求レベル": "60",
+            "装備": "ソードマン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "黒蛇王",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DARK_SNAKE_LORD"
+        },
+        {
+            "name": "黒蛇王（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_DARK_SNAKE_LORD"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "コンロンダンジョン 03（武陵桃源）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gon_dun03",
+            "map_code": "gon_dun03"
+        }
+    ],
+    "source_html_sha256": "c258ff39342e6b3d3ed0c8a2edb98db35beda6f99418884e621d4e3d3772c01e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

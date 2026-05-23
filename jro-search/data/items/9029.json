@@ -1,0 +1,76 @@
+{
+    "type": "item",
+    "item_id": "9029",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/9029\/"
+    },
+    "name": "クリスマスゴブリンの卵[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "キューペット クリスマスゴブリンが眠っている卵。 [携帯卵孵化機]で眠っているモンスターを目覚めさせる。",
+    "description_lines": [
+        "キューペット クリスマスゴブリンが眠っている卵。 [携帯卵孵化機]で眠っているモンスターを目覚めさせる。"
+    ],
+    "properties": {
+        "series": "monster_egg",
+        "series_normalized": [
+            "monster_egg"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "モンスターの卵"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "35d31e042c7850b2c3344e480e5cc05d2e1e3eda6a33f146ec1553bd39531d14",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

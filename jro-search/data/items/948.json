@@ -1,0 +1,254 @@
+{
+    "type": "item",
+    "item_id": "948",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/948\/"
+    },
+    "name": "くまの足の裏",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "のんきなくまの足の裏。格別な味と言う噂がある。収集品商人に売る事ができる。\n_",
+    "description_lines": [
+        "のんきなくまの足の裏。格別な味と言う噂がある。収集品商人に売る事ができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ビッグフット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BIGFOOT"
+        },
+        {
+            "name": "熊",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_213"
+        },
+        {
+            "name": "サスカッチ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SASQUATCH"
+        },
+        {
+            "name": "グリズリー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GRIZZLY"
+        },
+        {
+            "name": "レイブオルマイ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/LEIB_OLMAI"
+        },
+        {
+            "name": "ドロール",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_1_DOLOR1"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_01",
+            "map_code": "2@la_01"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_01",
+            "map_code": "2@lb_01"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_01",
+            "map_code": "2@lc_01"
+        },
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld104",
+            "map_code": "2@ld104"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld111",
+            "map_code": "2@ld111"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld201",
+            "map_code": "2@ld201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le101",
+            "map_code": "2@le101"
+        },
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le104",
+            "map_code": "2@le104"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le111",
+            "map_code": "2@le111"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf201",
+            "map_code": "2@lf201"
+        },
+        {
+            "name": "亜空の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg101",
+            "map_code": "2@lg101"
+        },
+        {
+            "name": "亜空の迷宮 溶岩の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg105",
+            "map_code": "2@lg105"
+        },
+        {
+            "name": "亜空の迷宮 瘴気の谷底",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg115",
+            "map_code": "2@lg115"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アマツフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ama_fild01",
+            "map_code": "ama_fild01"
+        },
+        {
+            "name": "ギルドダンジョン プロンテラ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gld_dun03",
+            "map_code": "gld_dun03"
+        },
+        {
+            "name": "龍之城ダンジョン 01（王陵）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lou_dun01",
+            "map_code": "lou_dun01"
+        },
+        {
+            "name": "龍之城フィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lou_fild01",
+            "map_code": "lou_fild01"
+        },
+        {
+            "name": "フェイヨン迷いの森 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild07",
+            "map_code": "pay_fild07"
+        },
+        {
+            "name": "フェイヨン迷いの森 08",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild08",
+            "map_code": "pay_fild08"
+        },
+        {
+            "name": "フェイヨン迷いの森 09",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild09",
+            "map_code": "pay_fild09"
+        },
+        {
+            "name": "フェイヨン迷いの森 10",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild10",
+            "map_code": "pay_fild10"
+        },
+        {
+            "name": "迷宮の森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze01",
+            "map_code": "prt_maze01"
+        },
+        {
+            "name": "迷宮の森 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze02",
+            "map_code": "prt_maze02"
+        },
+        {
+            "name": "迷宮の森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze03",
+            "map_code": "prt_maze03"
+        },
+        {
+            "name": "検証用マップ2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/sec_in02",
+            "map_code": "sec_in02"
+        },
+        {
+            "name": "特殊警戒地域オース",
+            "url": "https:\/\/rotool.gungho.jp\/map\/sp_os",
+            "map_code": "sp_os"
+        },
+        {
+            "name": "廃棄場ルドゥス 1階",
+            "url": "https:\/\/rotool.gungho.jp\/map\/sp_rudus",
+            "map_code": "sp_rudus"
+        },
+        {
+            "name": "トール火山ダンジョン 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/thor_v02",
+            "map_code": "thor_v02"
+        },
+        {
+            "name": "ルティエフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/xmas_fild01",
+            "map_code": "xmas_fild01"
+        }
+    ],
+    "source_html_sha256": "c2850f143dcc9fbc57a3a2e993d903fe24e60f61ebbe99820fde7bf5893c80fc",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

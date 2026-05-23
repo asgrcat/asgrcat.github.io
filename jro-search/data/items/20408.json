@@ -1,0 +1,105 @@
+{
+    "type": "item",
+    "item_id": "20408",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20408\/"
+    },
+    "name": "[衣装] 血塗られた光と闇の鎮魂冠[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "「天使も悪魔も\n私が従えてみせよう…」\n光と闇の鎮魂冠を\n装備した者の心が\n汚れてしまい\n聖の象徴である\n白く気高き羽が\n悪の象徴である\n黒く深淵なる羽に\nなってしまった鎮魂冠。\n中央にある\nクリスタルジュエルと\n黄金の鉄の塊である\n冠(ティアラ)が輝きを失い\n漆黒なる翼が邪悪な紅き血に\n染まってしまっている。\n…といわれている衣装装備。\nなお「鎮魂冠」は\n“レクイエムティアラ”と\n読む。",
+    "description_lines": [
+        "「天使も悪魔も",
+        "私が従えてみせよう…」",
+        "光と闇の鎮魂冠を",
+        "装備した者の心が",
+        "汚れてしまい",
+        "聖の象徴である",
+        "白く気高き羽が",
+        "悪の象徴である",
+        "黒く深淵なる羽に",
+        "なってしまった鎮魂冠。",
+        "中央にある",
+        "クリスタルジュエルと",
+        "黄金の鉄の塊である",
+        "冠(ティアラ)が輝きを失い",
+        "漆黒なる翼が邪悪な紅き血に",
+        "染まってしまっている。",
+        "…といわれている衣装装備。",
+        "なお「鎮魂冠」は",
+        "“レクイエムティアラ”と",
+        "読む。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "上段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "1b8f405f851868275046f7411e4d4c57b5106022012fba4da8d5edfc162f9fd2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

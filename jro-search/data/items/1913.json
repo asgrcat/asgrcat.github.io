@@ -1,0 +1,189 @@
+{
+    "type": "item",
+    "item_id": "1913",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1913\/"
+    },
+    "name": "エレキギター[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "bard": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "形はギターだが、鉄でできていて振動を与えると電気を発生させる増幅器のような装置。\nユピテルサンダーLv 1使用可能。\n攻撃時、低確率でユピテルサンダーLv 1が発動する。\nINT + 2, AGI + 1",
+    "description_lines": [
+        "形はギターだが、鉄でできていて振動を与えると電気を発生させる増幅器のような装置。",
+        "ユピテルサンダーLv 1使用可能。",
+        "攻撃時、低確率でユピテルサンダーLv 1が発動する。",
+        "INT + 2, AGI + 1"
+    ],
+    "properties": {
+        "series": "instrument",
+        "series_normalized": [
+            "instrument"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "風",
+        "slot": 0,
+        "def": null,
+        "atk": 110,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 180,
+        "weapon_level": 4,
+        "required_level": 70,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "bard": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "楽器",
+            "攻撃": "110",
+            "重量": "180",
+            "属性": "風",
+            "武器レベル": "4",
+            "要求レベル": "70",
+            "装備": "バード系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "アルフォシオ=バジル（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ALPHOCCIO"
+        },
+        {
+            "name": "カヴァク=イカルス（二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/L_KAVAC"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_13",
+            "map_code": "2@la_13"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_15",
+            "map_code": "2@la_15"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_15",
+            "map_code": "2@lb_15"
+        },
+        {
+            "name": "封印の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_17",
+            "map_code": "2@lb_17"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_15",
+            "map_code": "2@lc_15"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld115",
+            "map_code": "2@ld115"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld213",
+            "map_code": "2@ld213"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld215",
+            "map_code": "2@ld215"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le115",
+            "map_code": "2@le115"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf213",
+            "map_code": "2@lf213"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf215",
+            "map_code": "2@lf215"
+        },
+        {
+            "name": "亜空の迷宮 生命の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg129",
+            "map_code": "2@lg129"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "生体工学研究所 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun04",
+            "map_code": "lhz_dun04"
+        },
+        {
+            "name": "ギルドダンジョン カプラガーデン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/teg_dun02",
+            "map_code": "teg_dun02"
+        }
+    ],
+    "source_html_sha256": "14af2b2b0cae31fc7539b3ee3ee1a81c653c7b33def651c13a61ba7bb5a458e3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

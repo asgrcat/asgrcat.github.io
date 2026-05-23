@@ -1,0 +1,87 @@
+{
+    "type": "item",
+    "item_id": "1001795",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1001795\/"
+    },
+    "name": "鉄鎖に繋がれたクマ人形",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "悪夢のピアメットが\n持っていたクマ人形。\n理由は分からないが、\n鎖でしっかりと\n結ばれている。",
+    "description_lines": [
+        "悪夢のピアメットが",
+        "持っていたクマ人形。",
+        "理由は分からないが、",
+        "鎖でしっかりと",
+        "結ばれている。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "悪夢のピアメット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/NIGHTMARE_PIAMETTE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "ニブルヘイムカボチャ農場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nif_fild03",
+            "map_code": "nif_fild03"
+        }
+    ],
+    "source_html_sha256": "9716cb5a3f2a9bfbfc6d38366b9ea556f07822ab61d35c0832ec0feb8835a389",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

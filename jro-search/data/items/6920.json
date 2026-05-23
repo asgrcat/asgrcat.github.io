@@ -1,0 +1,185 @@
+{
+    "type": "item",
+    "item_id": "6920",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6920\/"
+    },
+    "name": "ルーン魔法の粉",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "エンチャント魔法を\n付与しようとして\n失敗した時に発生した、\nルーン魔力を持っている\n神秘な粉。",
+    "description_lines": [
+        "エンチャント魔法を",
+        "付与しようとして",
+        "失敗した時に発生した、",
+        "ルーン魔力を持っている",
+        "神秘な粉。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ウォッチャー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WATCHER"
+        },
+        {
+            "name": "囚人 243AD265",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_53"
+        },
+        {
+            "name": "囚人 267BD184",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_54"
+        },
+        {
+            "name": "囚人 265CM154",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_55"
+        },
+        {
+            "name": "囚人 95EB72",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_56"
+        },
+        {
+            "name": "囚人 117FM188",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_57"
+        },
+        {
+            "name": "囚人 103GD214",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_58"
+        },
+        {
+            "name": "囚人 55HK115",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_59"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "試練の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_20",
+            "map_code": "2@la_20"
+        },
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_25",
+            "map_code": "2@la_25"
+        },
+        {
+            "name": "封印の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_24",
+            "map_code": "2@lb_24"
+        },
+        {
+            "name": "封印の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_25",
+            "map_code": "2@lb_25"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_30",
+            "map_code": "2@lb_30"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_29",
+            "map_code": "2@lc_29"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld220",
+            "map_code": "2@ld220"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld225",
+            "map_code": "2@ld225"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf220",
+            "map_code": "2@lf220"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf225",
+            "map_code": "2@lf225"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "プロンテラ地下監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_prison",
+            "map_code": "prt_prison"
+        }
+    ],
+    "source_html_sha256": "7f9030b882cc6d3f0b8dc323a25a5a671be946a7e35c8f648eb5c523e17ac16f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

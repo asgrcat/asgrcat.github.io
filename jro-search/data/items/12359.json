@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "12359",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12359\/"
+    },
+    "name": "とても柔らかい草",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "とても柔らかい緑色の草。\nモンスターリーフキャットが\n好む。",
+    "description_lines": [
+        "とても柔らかい緑色の草。",
+        "モンスターリーフキャットが",
+        "好む。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": "taming_item",
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 5,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "種類": "テイミングアイテム",
+            "重量": "5"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "5d97f7c8db6c5e3b61f090afaef96c40b059c1a29cff60e62ef3ff50d6fea074",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

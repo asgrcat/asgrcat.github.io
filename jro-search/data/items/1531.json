@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "1531",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1531\/"
+    },
+    "name": "スパナ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "acolyte": true
+            },
+            "include_jobs": {
+                "acolyte": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "全体が鋼鉄でできていて簡単には壊れない。単純な構造と高い活用度で愛されている。工具と同時に鈍器にもなる優れもの。\nスタン, 暗黒, 毒, 氷化の中の一つをランダムで打撃対象に付与する。",
+    "description_lines": [
+        "全体が鋼鉄でできていて簡単には壊れない。単純な構造と高い活用度で愛されている。工具と同時に鈍器にもなる優れもの。",
+        "スタン, 暗黒, 毒, 氷化の中の一つをランダムで打撃対象に付与する。"
+    ],
+    "properties": {
+        "series": "mace",
+        "series_normalized": [
+            "mace"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 115,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 250,
+        "weapon_level": 3,
+        "required_level": 55,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "acolyte": true
+            },
+            "include_jobs": {
+                "acolyte": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鈍器",
+            "攻撃": "115",
+            "重量": "250",
+            "武器レベル": "3",
+            "要求レベル": "55",
+            "装備": "アコライト系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "RSX-0806",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RSX_0806"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld108",
+            "map_code": "2@ld108"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le108",
+            "map_code": "2@le108"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "鉱山ダンジョン 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun02",
+            "map_code": "ein_dun02"
+        }
+    ],
+    "source_html_sha256": "bcb7f36e270f22db4f62275e0a9c958cc83cf8ca763407e19944c193db9bcda1",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

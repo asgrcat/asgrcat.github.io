@@ -1,0 +1,141 @@
+{
+    "type": "item",
+    "item_id": "13493",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13493\/"
+    },
+    "name": "キャノンレイピア-OS[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true,
+                "novice": true,
+                "super_novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "敵を切り裂く際に\n刀身に内蔵された\n装置によって強い爆発が\n発生する片手剣。\n物理・魔法攻撃で\n与えるダメージ + 20%\n物理攻撃命中時、\n一定確率で敵に\nオートスペル\n[クリムゾンロック]Lv3発動\n物理攻撃命中時、\n一定確率で敵に\nオートスペル\n[ヘルインフェルノ]Lv3発動\n[ボルケーノ]Lv5使用可能\n[キャノンレイピア-OS]の\n精錬値が7以上の時、追加で\n物理・魔法攻撃で\n与えるダメージ + 10%\n[キャノンレイピア-OS]の\n精錬値が9以上の時、追加で\n物理・魔法攻撃で\n与えるダメージ + 10%\n[キャノンレイピア-OS]の\n精錬値が10の時、追加で\nAspd + 3\n[コル・コアヘッドフォン]\nと共に装備時、追加で\nAtk + 200 , Matk + 200",
+    "description_lines": [
+        "敵を切り裂く際に",
+        "刀身に内蔵された",
+        "装置によって強い爆発が",
+        "発生する片手剣。",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 20%",
+        "物理攻撃命中時、",
+        "一定確率で敵に",
+        "オートスペル",
+        "[クリムゾンロック]Lv3発動",
+        "物理攻撃命中時、",
+        "一定確率で敵に",
+        "オートスペル",
+        "[ヘルインフェルノ]Lv3発動",
+        "[ボルケーノ]Lv5使用可能",
+        "[キャノンレイピア-OS]の",
+        "精錬値が7以上の時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 10%",
+        "[キャノンレイピア-OS]の",
+        "精錬値が9以上の時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 10%",
+        "[キャノンレイピア-OS]の",
+        "精錬値が10の時、追加で",
+        "Aspd + 3",
+        "[コル・コアヘッドフォン]",
+        "と共に装備時、追加で",
+        "Atk + 200 , Matk + 200"
+    ],
+    "properties": {
+        "series": "one_handed_sword",
+        "series_normalized": [
+            "one_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 0,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": 130,
+        "refinement": true,
+        "breakable": true,
+        "weight": 120,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true,
+                "novice": true,
+                "super_novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手剣",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "0",
+            "Atk": "150",
+            "Matk": "130",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "120",
+            "要求レベル": "150",
+            "装備": "スーパーノービス系 3次職ソードマン系 3次職シーフ系 3次職マーチャント系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "52fe9f6ec313992dcfc1f46dc0be1d19ad6d5106cec534d9bbf903289169cfec",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

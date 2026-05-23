@@ -1,0 +1,92 @@
+{
+    "type": "item",
+    "item_id": "2994",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2994\/"
+    },
+    "name": "水の結晶石[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "長い時間をかけて水が\n結晶化した物。常に水気を\n帯びており、特殊な方法で\n保存しないと水浸しに\nなってしまう。\n近接物理攻撃命中時、\n一定確率でオートスペル\n[デリュージ]Lv1発動",
+    "description_lines": [
+        "長い時間をかけて水が",
+        "結晶化した物。常に水気を",
+        "帯びており、特殊な方法で",
+        "保存しないと水浸しに",
+        "なってしまう。",
+        "近接物理攻撃命中時、",
+        "一定確率でオートスペル",
+        "[デリュージ]Lv1発動"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 30,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "10",
+            "要求レベル": "30",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "cd822153cb76b3b4c06b89bd6e778d0943bbee0264c1a23cbf15ff48fd3eb92c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

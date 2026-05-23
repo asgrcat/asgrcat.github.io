@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "4437",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4437\/"
+    },
+    "name": "ヘルプードルカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "HIT + 1。\nにくの回復量 100% 増加。\n近接物理攻撃時、相手に\n低確率で出血をかける。",
+    "description_lines": [
+        "HIT + 1。",
+        "にくの回復量 100% 増加。",
+        "近接物理攻撃時、相手に",
+        "低確率で出血をかける。"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ヘルプードル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HELL_POODLE"
+        },
+        {
+            "name": "強化ヘルプードル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WA_MONSTER_1"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_28",
+            "map_code": "2@lc_28"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "修道院 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey01",
+            "map_code": "abbey01"
+        },
+        {
+            "name": "修道院 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey03",
+            "map_code": "abbey03"
+        },
+        {
+            "name": "名もなき島 夜",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nameless_n",
+            "map_code": "nameless_n"
+        }
+    ],
+    "source_html_sha256": "f10fc430b8274d413a565b98facd3b7e9e202830076fc35a790455adbe6db7b5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

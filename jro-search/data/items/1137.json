@@ -1,0 +1,170 @@
+{
+    "type": "item",
+    "item_id": "1137",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1137\/"
+    },
+    "name": "エクスキャリバー[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "岩に突き刺さっていたと\n言われる剣。\n自ら主人を選ぶ剣で、\n聖なる力を持っている。\nMatk + 126\nInt + 5 , Luk +10\nDex - 1",
+    "description_lines": [
+        "岩に突き刺さっていたと",
+        "言われる剣。",
+        "自ら主人を選ぶ剣で、",
+        "聖なる力を持っている。",
+        "Matk + 126",
+        "Int + 5 , Luk +10",
+        "Dex - 1"
+    ],
+    "properties": {
+        "series": "one_handed_sword",
+        "series_normalized": [
+            "one_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "聖",
+        "slot": 0,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 120,
+        "weapon_level": 4,
+        "required_level": 40,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手剣",
+            "攻撃": "150",
+            "重量": "120",
+            "属性": "聖",
+            "武器レベル": "4",
+            "要求レベル": "40",
+            "装備": "ソードマン系 マーチャント系 シーフ系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "エミュール=プラメール（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_FLAMEL"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_30",
+            "map_code": "2@la_30"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_30",
+            "map_code": "2@lb_30"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_30",
+            "map_code": "2@lc_30"
+        },
+        {
+            "name": "幻影の迷宮 塔の地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld129",
+            "map_code": "2@ld129"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld230",
+            "map_code": "2@ld230"
+        },
+        {
+            "name": "幻影の迷宮 塔の地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le129",
+            "map_code": "2@le129"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf230",
+            "map_code": "2@lf230"
+        },
+        {
+            "name": "亜空の迷宮 生命の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg130",
+            "map_code": "2@lg130"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "戦死者の墓",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun_n",
+            "map_code": "lhz_dun_n"
+        }
+    ],
+    "source_html_sha256": "2c7bfd75c7f9cb76ebb38d9de55346ae9503cd4281d0e3591ae443d47c22be0c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

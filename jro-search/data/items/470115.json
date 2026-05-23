@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "470115",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/470115\/"
+    },
+    "name": "雪花のブーツ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "イスガルドにある\n雪花の花びらで\n作られたブーツ。\nMaxHP + 30% , MaxSP + 30%\n[雪花のブーツ]の\n精錬値が1上がる度に追加で\n物理攻撃で\n与えるダメージ + 4%\n[雪花のブーツ]の\n精錬値が5以上の時、追加で\nスキルディレイ - 35%\n[雪花のブーツ]の\n精錬値が6以上の時、追加で\n攻撃速度 + 10%\n[雪花のメイル]、\n[雪花のマント]と\n共に装備時、追加で\nFlee + 250\n必中攻撃 + 50%",
+    "description_lines": [
+        "イスガルドにある",
+        "雪花の花びらで",
+        "作られたブーツ。",
+        "MaxHP + 30% , MaxSP + 30%",
+        "[雪花のブーツ]の",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃で",
+        "与えるダメージ + 4%",
+        "[雪花のブーツ]の",
+        "精錬値が5以上の時、追加で",
+        "スキルディレイ - 35%",
+        "[雪花のブーツ]の",
+        "精錬値が6以上の時、追加で",
+        "攻撃速度 + 10%",
+        "[雪花のメイル]、",
+        "[雪花のマント]と",
+        "共に装備時、追加で",
+        "Flee + 250",
+        "必中攻撃 + 50%"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 20,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 60,
+        "weapon_level": null,
+        "required_level": 220,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "20",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "60",
+            "要求レベル": "220",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "72736977eb4ca4f9798e0b82de624e34d31af9fd79fad7f6ad5807199abba9a4",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "1925",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1925\/"
+    },
+    "name": "チェロ[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "clown": true,
+                "minstrel": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "バイオリン属の\n大型低音弦楽器。\n四本の弦があり、落ち着いた\n物静かな音色を持つ。\n独奏でも合奏でも使われる。\nAGI + 2、DEX + 3\n[ミュージカルストライク]\nに2セル、[アローバルカン]\nに3セルのノックバック効果",
+    "description_lines": [
+        "バイオリン属の",
+        "大型低音弦楽器。",
+        "四本の弦があり、落ち着いた",
+        "物静かな音色を持つ。",
+        "独奏でも合奏でも使われる。",
+        "AGI + 2、DEX + 3",
+        "[ミュージカルストライク]",
+        "に2セル、[アローバルカン]",
+        "に3セルのノックバック効果"
+    ],
+    "properties": {
+        "series": "instrument",
+        "series_normalized": [
+            "instrument"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 3,
+        "def": null,
+        "atk": 110,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 70,
+        "weapon_level": 3,
+        "required_level": 70,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "clown": true,
+                "minstrel": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "楽器",
+            "攻撃": "110",
+            "重量": "70",
+            "武器レベル": "3",
+            "要求レベル": "70",
+            "装備": "クラウン ミンストレル系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "タタチョ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/TATACHO"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "マヌクフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/man_fild02",
+            "map_code": "man_fild02"
+        },
+        {
+            "name": "マヌクフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/man_fild03",
+            "map_code": "man_fild03"
+        }
+    ],
+    "source_html_sha256": "b964f9a7c73bc5a9f07088811283089e2c6393401f557f4701c4b29ace6d5785",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

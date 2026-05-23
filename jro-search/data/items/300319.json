@@ -1,0 +1,85 @@
+{
+    "type": "item",
+    "item_id": "300319",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300319\/"
+    },
+    "name": "封印されたエドガカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "shoes"
+        ],
+        "card_attachable_positions": {
+            "shoes": true
+        }
+    },
+    "description": "物理攻撃を受けた時、\n一定確率で自分に\nオートスペル\n[インデュア]Lv1発動\n[起源の王]と\n共に装備時、\n純粋なVitが10上がる度に\n追加で\nDef + 10 , Mdef + 1\n純粋なVitが130の時、追加で\nヒール系スキルを\n受けた時のHP回復量 + 10%\n一部の回復アイテムによる\nHP回復量 + 10%",
+    "description_lines": [
+        "物理攻撃を受けた時、",
+        "一定確率で自分に",
+        "オートスペル",
+        "[インデュア]Lv1発動",
+        "[起源の王]と",
+        "共に装備時、",
+        "純粋なVitが10上がる度に",
+        "追加で",
+        "Def + 10 , Mdef + 1",
+        "純粋なVitが130の時、追加で",
+        "ヒール系スキルを",
+        "受けた時のHP回復量 + 10%",
+        "一部の回復アイテムによる",
+        "HP回復量 + 10%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "shoes"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "靴",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "110b9186551b6ef04c2519ff75c6669eda63c136c4a9ba7cd37e48c64638455c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,136 @@
+{
+    "type": "item",
+    "item_id": "500041",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/500041\/"
+    },
+    "name": "メロンブレイド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "メロンの硬い皮すらも\n易々と切り裂く武器。\nそれによりメロンの\n風味を損なわずに\n味わうことができるのだ。\n物理・魔法攻撃命中時、\n一定確率で5秒間、\nスキル使用時の\n消費SP - 100%\n1秒毎にSP + 100\n[メロンブレイド]の\n精錬値が1上がる度に追加で\n物理攻撃で\n与えるダメージ + 10%\n魔法攻撃で\n与えるダメージ + 5%\n[メロンブレイド]の\n精錬値が7以上の時、追加で\n全ての種族の\nDef・Mdef 50%無視\n[メロンブレイド]の\n精錬値が9以上の時、追加で\n全ての種族の\nDef・Mdef 50%無視\n[メロンブレイド]の\n超越段階が1以上の時、\n精錬値が1上がる度に追加で\n物理・魔法攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 6%\n[メロンブレイド]の\n超越段階が1以上の時、\n精錬値が10の時、追加で\nMaxHP + 15% , MaxSP + 15%",
+    "description_lines": [
+        "メロンの硬い皮すらも",
+        "易々と切り裂く武器。",
+        "それによりメロンの",
+        "風味を損なわずに",
+        "味わうことができるのだ。",
+        "物理・魔法攻撃命中時、",
+        "一定確率で5秒間、",
+        "スキル使用時の",
+        "消費SP - 100%",
+        "1秒毎にSP + 100",
+        "[メロンブレイド]の",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃で",
+        "与えるダメージ + 10%",
+        "魔法攻撃で",
+        "与えるダメージ + 5%",
+        "[メロンブレイド]の",
+        "精錬値が7以上の時、追加で",
+        "全ての種族の",
+        "Def・Mdef 50%無視",
+        "[メロンブレイド]の",
+        "精錬値が9以上の時、追加で",
+        "全ての種族の",
+        "Def・Mdef 50%無視",
+        "[メロンブレイド]の",
+        "超越段階が1以上の時、",
+        "精錬値が1上がる度に追加で",
+        "物理・魔法攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 6%",
+        "[メロンブレイド]の",
+        "超越段階が1以上の時、",
+        "精錬値が10の時、追加で",
+        "MaxHP + 15% , MaxSP + 15%"
+    ],
+    "properties": {
+        "series": "one_handed_sword",
+        "series_normalized": [
+            "one_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": 130,
+        "refinement": true,
+        "breakable": true,
+        "weight": 120,
+        "weapon_level": 4,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手剣",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "150",
+            "Matk": "130",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "120",
+            "要求レベル": "100",
+            "装備": "3次職ソードマン系 3次職マーチャント系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "3cae091c6ab7e53a6637c8787293d4c28d5b3a6f181b6994b5eb7679cd6d719c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,97 @@
+{
+    "type": "item",
+    "item_id": "5407",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5407\/"
+    },
+    "name": "アカデミー第一修了帽子[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "第1過程修了でもらえる\nアカデミーの帽子。\n成長した事を示して、\n入学時とは違う色に\nなっている。\nMaxSP + 30\n[星タマゴバッジ]と\n共に装備時、追加で\nMaxHP + 200 , MaxSP + 150\n[アカデミーバッジ]、\n[星タマゴバッジ]と\n共に装備時、追加で\nMaxHP - 200 , MaxSP - 150",
+    "description_lines": [
+        "第1過程修了でもらえる",
+        "アカデミーの帽子。",
+        "成長した事を示して、",
+        "入学時とは違う色に",
+        "なっている。",
+        "MaxSP + 30",
+        "[星タマゴバッジ]と",
+        "共に装備時、追加で",
+        "MaxHP + 200 , MaxSP + 150",
+        "[アカデミーバッジ]、",
+        "[星タマゴバッジ]と",
+        "共に装備時、追加で",
+        "MaxHP - 200 , MaxSP - 150"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 5,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "5",
+            "位置": "上段",
+            "重量": "20",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "a510773acb71efb6e1a1525d2a260c8807d49277d4bfeaf40277831826c00215",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

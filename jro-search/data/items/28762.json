@@ -1,0 +1,172 @@
+{
+    "type": "item",
+    "item_id": "28762",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28762\/"
+    },
+    "name": "イリュージョンバゼラルド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_reaper": true,
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "華麗な文様が\n装飾されている短剣。\n高貴な身分の人々が\n装飾や儀礼用に\nよく使われる。\n攻撃速度 + 10%\n[イリュージョン\nバゼラルド]の\n精錬値が1上がる度に追加で\nInt + 2\nBaseLvが170以上の時、\n追加で\n物理攻撃命中時、\n一定確率で敵に\nオートスペル\n[ファイアーボール]\nLv10発動\n[イリュージョン\nバゼラルド]の\n精錬値が1上がる度に追加で\nInt + 3",
+    "description_lines": [
+        "華麗な文様が",
+        "装飾されている短剣。",
+        "高貴な身分の人々が",
+        "装飾や儀礼用に",
+        "よく使われる。",
+        "攻撃速度 + 10%",
+        "[イリュージョン",
+        "バゼラルド]の",
+        "精錬値が1上がる度に追加で",
+        "Int + 2",
+        "BaseLvが170以上の時、",
+        "追加で",
+        "物理攻撃命中時、",
+        "一定確率で敵に",
+        "オートスペル",
+        "[ファイアーボール]",
+        "Lv10発動",
+        "[イリュージョン",
+        "バゼラルド]の",
+        "精錬値が1上がる度に追加で",
+        "Int + 3"
+    ],
+    "properties": {
+        "series": "dagger",
+        "series_normalized": [
+            "dagger"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "火",
+        "slot": 1,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": 120,
+        "refinement": true,
+        "breakable": true,
+        "weight": 50,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_reaper": true,
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "短剣",
+            "武器レベル": "4",
+            "属性": "火",
+            "スロット": "1",
+            "Atk": "120",
+            "Matk": "120",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "50",
+            "要求レベル": "150",
+            "装備": "3次職ソードマン系 3次職マジシャン系 3次職アーチャー系 3次職シーフ系 3次職マーチャント系 ソウルリーパー系 影狼系 朧系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "混沌のバフォメット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_BAPHOMET"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "歪んだ迷宮の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_mz03_i",
+            "map_code": "prt_mz03_i"
+        }
+    ],
+    "source_html_sha256": "f304bf22cb54f9ed79e6fd844fe4dbbdeb0ce45d750da623c237530e48a5cb57",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

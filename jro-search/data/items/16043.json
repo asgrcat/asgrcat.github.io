@@ -1,0 +1,135 @@
+{
+    "type": "item",
+    "item_id": "16043",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/16043\/"
+    },
+    "name": "メテオストライク[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "novice": true
+            },
+            "include_jobs": {
+                "novice": true,
+                "super_novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "とても重く\n超人でも使いこなせない\nビックリ鈍器。\n叩いてもピコピコという\n音は鳴らないようだ。\n純粋なStrが108以上の時、\n追加でスキル使用時の\n消費SP - 20%\n純粋なStrが120以上の時、\n追加でスキル使用時の\n消費SP - 30%\n[メテオストライク]の\n精錬値が1上がる度に追加で\nAtk + 10\n[斧修練]の\n習得Lvが1上がる度に追加で\nAtk + 7 , Hit + 5\n[武器研究]の\n習得Lvが1上がる度に追加で\nAtk + 10\n[鉄拳]の\n習得Lvが1上がる度に追加で\nAtk + 30\n[プッシュカート]Lv10\n習得時、\n[カートレボリューション]\nLv1使用可能\n[剣修練]Lv1習得時、\n[ボウリングバッシュ]Lv1\n使用可能\n[剣修練]の\n習得Lvが2以上の場合、\n習得Lvの\n[ボウリングバッシュ]\n使用可能\n[おもちゃの指輪]と\n共に装備時、追加で\nAtk + 100\n[ボウリングバッシュ]で\n与えるダメージ + 50%",
+    "description_lines": [
+        "とても重く",
+        "超人でも使いこなせない",
+        "ビックリ鈍器。",
+        "叩いてもピコピコという",
+        "音は鳴らないようだ。",
+        "純粋なStrが108以上の時、",
+        "追加でスキル使用時の",
+        "消費SP - 20%",
+        "純粋なStrが120以上の時、",
+        "追加でスキル使用時の",
+        "消費SP - 30%",
+        "[メテオストライク]の",
+        "精錬値が1上がる度に追加で",
+        "Atk + 10",
+        "[斧修練]の",
+        "習得Lvが1上がる度に追加で",
+        "Atk + 7 , Hit + 5",
+        "[武器研究]の",
+        "習得Lvが1上がる度に追加で",
+        "Atk + 10",
+        "[鉄拳]の",
+        "習得Lvが1上がる度に追加で",
+        "Atk + 30",
+        "[プッシュカート]Lv10",
+        "習得時、",
+        "[カートレボリューション]",
+        "Lv1使用可能",
+        "[剣修練]Lv1習得時、",
+        "[ボウリングバッシュ]Lv1",
+        "使用可能",
+        "[剣修練]の",
+        "習得Lvが2以上の場合、",
+        "習得Lvの",
+        "[ボウリングバッシュ]",
+        "使用可能",
+        "[おもちゃの指輪]と",
+        "共に装備時、追加で",
+        "Atk + 100",
+        "[ボウリングバッシュ]で",
+        "与えるダメージ + 50%"
+    ],
+    "properties": {
+        "series": "mace",
+        "series_normalized": [
+            "mace"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 2,
+        "def": null,
+        "atk": 1,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 2000,
+        "weapon_level": 4,
+        "required_level": 110,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "novice": true
+            },
+            "include_jobs": {
+                "novice": true,
+                "super_novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鈍器",
+            "攻撃": "1",
+            "重量": "2000",
+            "武器レベル": "4",
+            "要求レベル": "110",
+            "装備": "スーパーノービス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "5b8a56d07402eb8becfb93d7e88d9d52cd7db83769ca5ca769516c68caa018dc",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

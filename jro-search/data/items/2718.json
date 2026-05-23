@@ -1,0 +1,162 @@
+{
+    "type": "item",
+    "item_id": "2718",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2718\/"
+    },
+    "name": "ルナティックブローチ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "archer": true
+            },
+            "include_jobs": {
+                "archer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "三日月模様の金色で\nキラキラ輝くブローチ。\nルナボウと共に装備時、\nDEX + 1、MSP + 50、\nSP回復量 + 10% 増加。",
+    "description_lines": [
+        "三日月模様の金色で",
+        "キラキラ輝くブローチ。",
+        "ルナボウと共に装備時、",
+        "DEX + 1、MSP + 50、",
+        "SP回復量 + 10% 増加。"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": 65,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "archer": true
+            },
+            "include_jobs": {
+                "archer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "20",
+            "要求レベル": "65",
+            "装備": "アーチャー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ブラック・カネイリー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GEFFEN_MAGE_3_1"
+        },
+        {
+            "name": "ロリルリ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/LOLI_RURI"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "ゲフェン魔法大会",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ge_st",
+            "map_code": "1@ge_st"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_16",
+            "map_code": "2@la_16"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_19",
+            "map_code": "2@lb_19"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_16",
+            "map_code": "2@lc_16"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld216",
+            "map_code": "2@ld216"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf216",
+            "map_code": "2@lf216"
+        },
+        {
+            "name": "亜空の迷宮 魔女の菜園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg114",
+            "map_code": "2@lg114"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ニブルヘイムフィールド 02（ギョル渓谷）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nif_fild02",
+            "map_code": "nif_fild02"
+        },
+        {
+            "name": "死者の街ニブルヘイム",
+            "url": "https:\/\/rotool.gungho.jp\/map\/niflheim",
+            "map_code": "niflheim"
+        }
+    ],
+    "source_html_sha256": "135c37ac470af0ce8ed76450cbab9d224ace603a9d00c7a9ff3c5bcb15abac03",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

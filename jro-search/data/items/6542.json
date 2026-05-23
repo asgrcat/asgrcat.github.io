@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "6542",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6542\/"
+    },
+    "name": "星模様キノコ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "アールブヘイムの森で育った\n特異なキノコで見た目よりも\n重たい。\n特定の薬の材料になる。",
+    "description_lines": [
+        "アールブヘイムの森で育った",
+        "特異なキノコで見た目よりも",
+        "重たい。",
+        "特定の薬の材料になる。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "10"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "19e3f566f2c25d53b4ef30235849b638d7f256d2b9bbeb2bba130b0375b48b4c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

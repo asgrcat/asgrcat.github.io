@@ -1,0 +1,103 @@
+{
+    "type": "item",
+    "item_id": "5319",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5319\/"
+    },
+    "name": "アークエンジェリング帽[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "アークエンジェリングの\n形をした帽子。\nパタパタと羽が動いていて\n今にも飛んでいって\nしまいそうだ。\nMdef + 3\n物理攻撃時、\n天使形モンスターへの\nダメージ + 5%\n魔法攻撃時、\n天使形モンスターへの\nダメージ + 5%\n天使形モンスターから\n受けるダメージ - 5%\n天使形モンスターを\n倒した時、一定確率で\n「陽光の箱」を\nドロップ",
+    "description_lines": [
+        "アークエンジェリングの",
+        "形をした帽子。",
+        "パタパタと羽が動いていて",
+        "今にも飛んでいって",
+        "しまいそうだ。",
+        "Mdef + 3",
+        "物理攻撃時、",
+        "天使形モンスターへの",
+        "ダメージ + 5%",
+        "魔法攻撃時、",
+        "天使形モンスターへの",
+        "ダメージ + 5%",
+        "天使形モンスターから",
+        "受けるダメージ - 5%",
+        "天使形モンスターを",
+        "倒した時、一定確率で",
+        "「陽光の箱」を",
+        "ドロップ"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 3,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": 10,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "3",
+            "位置": "上段",
+            "重量": "20",
+            "要求レベル": "10",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "0cbf1f9771b3b152f11748fa5fa1da4eb7f8b32fe1a2577e342e0eaad9cdfd8c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

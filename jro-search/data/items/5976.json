@@ -1,0 +1,117 @@
+{
+    "type": "item",
+    "item_id": "5976",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5976\/"
+    },
+    "name": "ギフトオブイズルード[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "マリンスフィアーの破片、\nソードフィッシュの鱗、\nミスティックフローズン、\nイズルード海底洞窟の苔など\nをあしらった装飾品。\nとある踊り子が身につける\nはずだったという。\n魚貝形モンスターを\n倒した時、一定確率で\n[マラン島特産缶詰]、\n[おいしいゼリー]を\nドロップ\nバード系が装備時、\n[楽器の練習]習得時、\n[ダンスの練習]が\n習得Lvで発動\nダンサー系が装備時、\n[ダンスの練習]習得時、\n[楽器の練習]が\n習得Lvで発動\n精錬不可\n絶対に壊れない\n下記効果は街マップで\n使用時のみ効果があります。\n[猫の手グローブ]と\n共に装備時、モンスター\n[シオラバ]、\n[ソードフィッシュ]、\n[フェン]、\n[マリンスフィアー]、\n[レッドエルマ]の\nいずれかに変身",
+    "description_lines": [
+        "マリンスフィアーの破片、",
+        "ソードフィッシュの鱗、",
+        "ミスティックフローズン、",
+        "イズルード海底洞窟の苔など",
+        "をあしらった装飾品。",
+        "とある踊り子が身につける",
+        "はずだったという。",
+        "魚貝形モンスターを",
+        "倒した時、一定確率で",
+        "[マラン島特産缶詰]、",
+        "[おいしいゼリー]を",
+        "ドロップ",
+        "バード系が装備時、",
+        "[楽器の練習]習得時、",
+        "[ダンスの練習]が",
+        "習得Lvで発動",
+        "ダンサー系が装備時、",
+        "[ダンスの練習]習得時、",
+        "[楽器の練習]が",
+        "習得Lvで発動",
+        "精錬不可",
+        "絶対に壊れない",
+        "下記効果は街マップで",
+        "使用時のみ効果があります。",
+        "[猫の手グローブ]と",
+        "共に装備時、モンスター",
+        "[シオラバ]、",
+        "[ソードフィッシュ]、",
+        "[フェン]、",
+        "[マリンスフィアー]、",
+        "[レッドエルマ]の",
+        "いずれかに変身"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "上段",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "1037d6c98c991d57f25874ee1f5a486f3d4076c5c6803247a1b2699b57f76303",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

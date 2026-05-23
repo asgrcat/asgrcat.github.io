@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "13340",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13340\/"
+    },
+    "name": "風魔手裏剣・花吹雪[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "鉱山の所有者が用心棒として\n雇った忍者が使用していた\n風魔手裏剣。\n[風魔手裏剣・花吹雪]の\n精錬値が1上がる度に追加で\n攻撃速度 + 1%\n[風魔手裏剣・花吹雪]の\n精錬値が9以上の時、追加で\n物理攻撃で\nモンスターを倒した時、\nSP + 20\n[フロンティアブーツ]と\n共に装備時、追加で\n[風魔手裏剣 -乱華-]の\n再使用待機時間 - 0.3秒\n[フロンティアブーツ]の\n精錬値が7以上、\n[風魔手裏剣・花吹雪]の\n精錬値が7以上の時、追加で\nボスモンスターから\n受けるダメージ - 30%\n[風魔手裏剣・花吹雪]の\n精錬値が9以上の時、追加で\nボスモンスターから\n受けるダメージ - 20%",
+    "description_lines": [
+        "鉱山の所有者が用心棒として",
+        "雇った忍者が使用していた",
+        "風魔手裏剣。",
+        "[風魔手裏剣・花吹雪]の",
+        "精錬値が1上がる度に追加で",
+        "攻撃速度 + 1%",
+        "[風魔手裏剣・花吹雪]の",
+        "精錬値が9以上の時、追加で",
+        "物理攻撃で",
+        "モンスターを倒した時、",
+        "SP + 20",
+        "[フロンティアブーツ]と",
+        "共に装備時、追加で",
+        "[風魔手裏剣 -乱華-]の",
+        "再使用待機時間 - 0.3秒",
+        "[フロンティアブーツ]の",
+        "精錬値が7以上、",
+        "[風魔手裏剣・花吹雪]の",
+        "精錬値が7以上の時、追加で",
+        "ボスモンスターから",
+        "受けるダメージ - 30%",
+        "[風魔手裏剣・花吹雪]の",
+        "精錬値が9以上の時、追加で",
+        "ボスモンスターから",
+        "受けるダメージ - 20%"
+    ],
+    "properties": {
+        "series": "huuma_shuriken",
+        "series_normalized": [
+            "huuma_shuriken"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "聖",
+        "slot": 3,
+        "def": null,
+        "atk": 250,
+        "mdef": null,
+        "matk": 180,
+        "refinement": true,
+        "breakable": false,
+        "weight": 200,
+        "weapon_level": 4,
+        "required_level": 130,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "風魔手裏剣",
+            "武器レベル": "4",
+            "属性": "聖",
+            "スロット": "3",
+            "Atk": "250",
+            "Matk": "180",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "200",
+            "要求レベル": "130",
+            "装備": "影狼系 朧系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c2ac9f7c370fd890adcc38a67746c09e7318bde33cfa228a6d4652990fcaf98e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

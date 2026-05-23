@@ -4,798 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JRO Search - アイテム検索</title>
-  <style>
-    :root {
-      color-scheme: light;
-      --bg: #f5f7fa;
-      --surface: #ffffff;
-      --surface-muted: #f8fafc;
-      --border: #d9e1ea;
-      --border-strong: #aebdcc;
-      --text: #1f2933;
-      --muted: #64748b;
-      --primary: #006d77;
-      --primary-strong: #00535c;
-      --primary-soft: #e4f4f2;
-      --accent: #8a5a00;
-      --focus: #0ea5a4;
-      --shadow: 0 12px 30px rgba(31, 41, 51, 0.08);
-      font-family: Inter, "BIZ UDPGothic", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", Meiryo, sans-serif;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      min-width: 320px;
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-size: 14px;
-      line-height: 1.5;
-    }
-
-    button,
-    input,
-    select {
-      font: inherit;
-    }
-
-    button {
-      cursor: pointer;
-    }
-
-    button:focus-visible,
-    input:focus-visible,
-    select:focus-visible,
-    a:focus-visible {
-      outline: 3px solid rgba(14, 165, 164, 0.28);
-      outline-offset: 2px;
-    }
-
-    .app-shell {
-      display: grid;
-      grid-template-columns: 224px minmax(0, 1fr);
-      min-height: 100vh;
-    }
-
-    .sidebar {
-      position: sticky;
-      top: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: 100vh;
-      padding: 18px 14px;
-      border-right: 1px solid var(--border);
-      background: #eef3f7;
-    }
-
-    .brand {
-      padding: 4px 8px 14px;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .brand-title {
-      margin: 0;
-      font-size: 18px;
-      font-weight: 700;
-      letter-spacing: 0;
-    }
-
-    .brand-subtitle {
-      margin: 2px 0 0;
-      color: var(--muted);
-      font-size: 12px;
-    }
-
-    .nav-section-title {
-      margin: 0 8px 6px;
-      color: var(--muted);
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-    }
-
-    .nav-list {
-      display: grid;
-      gap: 4px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .nav-link {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      min-height: 38px;
-      padding: 8px 10px;
-      border-radius: 8px;
-      color: var(--text);
-      text-decoration: none;
-    }
-
-    .nav-link[aria-current="page"] {
-      background: var(--primary);
-      color: #ffffff;
-      font-weight: 700;
-    }
-
-    .nav-link[aria-disabled="true"] {
-      color: #94a3b8;
-      pointer-events: none;
-    }
-
-    .nav-badge {
-      border-radius: 999px;
-      padding: 1px 7px;
-      background: rgba(100, 116, 139, 0.12);
-      color: inherit;
-      font-size: 11px;
-    }
-
-    .sidebar-footer {
-      margin-top: auto;
-      padding: 12px 8px 4px;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 11px;
-      line-height: 1.55;
-    }
-
-    .sidebar-footer p {
-      margin: 0 0 7px;
-    }
-
-    .sidebar-footer p:last-child {
-      margin-bottom: 0;
-    }
-
-    .workspace {
-      display: grid;
-      grid-template-rows: auto minmax(0, 1fr);
-      min-width: 0;
-    }
-
-    .app-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      min-height: 58px;
-      padding: 12px 20px;
-      border-bottom: 1px solid var(--border);
-      background: rgba(255, 255, 255, 0.86);
-      backdrop-filter: blur(10px);
-    }
-
-    .page-title {
-      margin: 0;
-      font-size: 18px;
-      font-weight: 700;
-    }
-
-    .header-meta {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-      gap: 8px;
-      color: var(--muted);
-      font-size: 12px;
-    }
-
-    .header-pill {
-      display: inline-flex;
-      align-items: center;
-      min-height: 24px;
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      padding: 2px 9px;
-      background: var(--surface);
-      white-space: nowrap;
-    }
-
-    .main-grid {
-      display: grid;
-      grid-template-columns: minmax(420px, var(--search-pane-width, 46%)) 10px minmax(360px, 1fr);
-      gap: 10px;
-      min-height: 0;
-      padding: 14px;
-    }
-
-    .main-tabs {
-      display: none;
-    }
-
-    .search-pane,
-    .preview-pane {
-      min-width: 0;
-      min-height: 0;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: var(--surface);
-      box-shadow: var(--shadow);
-    }
-
-    .search-pane {
-      grid-column: 1;
-      display: grid;
-      grid-template-rows: auto minmax(0, 1fr);
-      overflow: hidden;
-    }
-
-    .pane-resizer {
-      grid-column: 2;
-      position: relative;
-      min-width: 10px;
-      border: 0;
-      border-radius: 8px;
-      padding: 0;
-      background: transparent;
-      cursor: col-resize;
-      touch-action: none;
-    }
-
-    .pane-resizer::before {
-      position: absolute;
-      inset: 0 3px;
-      border-radius: 999px;
-      background: var(--border);
-      content: "";
-      transition: background 0.16s ease;
-    }
-
-    .pane-resizer:hover::before,
-    .pane-resizer:focus-visible::before,
-    .main-grid.is-resizing .pane-resizer::before {
-      background: var(--primary);
-    }
-
-    .pane-resizer-label {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-    }
-
-    .search-controls {
-      display: grid;
-      gap: 12px;
-      padding: 14px;
-      border-bottom: 1px solid var(--border);
-      background: var(--surface);
-    }
-
-    .field-row {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 132px;
-      gap: 10px;
-    }
-
-    .text-field,
-    .select-field {
-      width: 100%;
-      min-height: 38px;
-      border: 1px solid var(--border-strong);
-      border-radius: 7px;
-      padding: 8px 10px;
-      background: #ffffff;
-      color: var(--text);
-    }
-
-    .text-field::placeholder {
-      color: #94a3b8;
-    }
-
-    .action-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      min-height: 34px;
-      border: 1px solid var(--border-strong);
-      border-radius: 7px;
-      padding: 7px 11px;
-      background: #ffffff;
-      color: var(--text);
-      font-weight: 650;
-      white-space: nowrap;
-    }
-
-    .button-primary {
-      border-color: var(--primary);
-      background: var(--primary);
-      color: #ffffff;
-    }
-
-    .button-primary:hover {
-      background: var(--primary-strong);
-    }
-
-    .button-subtle {
-      background: var(--surface-muted);
-    }
-
-    .filter-group {
-      display: grid;
-      gap: 6px;
-    }
-
-    .filter-heading {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 8px;
-      color: var(--muted);
-      font-size: 12px;
-      font-weight: 700;
-    }
-
-    .chip-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      max-height: 88px;
-      overflow: auto;
-      padding-right: 2px;
-    }
-
-    .chip {
-      min-height: 28px;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 4px 9px;
-      background: #ffffff;
-      color: var(--text);
-      font-size: 12px;
-      white-space: nowrap;
-    }
-
-    .chip[aria-pressed="true"] {
-      border-color: var(--primary);
-      background: var(--primary-soft);
-      color: var(--primary-strong);
-      font-weight: 700;
-    }
-
-    .results-area {
-      display: grid;
-      grid-template-rows: auto minmax(0, 1fr);
-      min-height: 0;
-    }
-
-    .results-toolbar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px;
-      min-height: 42px;
-      padding: 8px 14px;
-      border-bottom: 1px solid var(--border);
-      background: var(--surface-muted);
-    }
-
-    .result-count {
-      font-weight: 700;
-    }
-
-    .sort-select {
-      width: 150px;
-      min-height: 30px;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 4px 8px;
-      background: #ffffff;
-      color: var(--text);
-      font-size: 12px;
-    }
-
-    .result-list {
-      min-height: 0;
-      margin: 0;
-      padding: 0;
-      overflow: auto;
-      list-style: none;
-    }
-
-    .result-item {
-      border-bottom: 1px solid var(--border);
-    }
-
-    .result-button {
-      display: block;
-      width: 100%;
-      border: 0;
-      padding: 11px 14px;
-      background: #ffffff;
-      color: inherit;
-      text-align: left;
-    }
-
-    .result-button:hover,
-    .result-button.is-active {
-      background: var(--primary-soft);
-    }
-
-    .result-main {
-      min-width: 0;
-    }
-
-    .result-title-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 8px;
-    }
-
-    .result-title {
-      overflow: hidden;
-      font-weight: 700;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
-    .result-summary {
-      display: block;
-      margin-top: 3px;
-      overflow: hidden;
-      color: var(--muted);
-      font-size: 12px;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
-    .tag-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
-      margin-top: 7px;
-    }
-
-    .tag {
-      border-radius: 999px;
-      padding: 2px 7px;
-      background: #edf2f7;
-      color: #475569;
-      font-size: 11px;
-    }
-
-    .preview-pane {
-      grid-column: 3;
-      display: grid;
-      grid-template-rows: auto auto minmax(0, 1fr);
-      overflow: hidden;
-    }
-
-    .preview-header {
-      display: grid;
-      gap: 8px;
-      padding: 13px 14px;
-      border-bottom: 1px solid var(--border);
-      background: var(--surface);
-    }
-
-    .preview-title-row {
-      display: flex;
-      align-items: start;
-      justify-content: space-between;
-      gap: 12px;
-    }
-
-    .preview-title {
-      min-width: 0;
-      margin: 0;
-      font-size: 16px;
-      font-weight: 700;
-    }
-
-    .preview-url {
-      overflow: hidden;
-      color: var(--muted);
-      font-size: 12px;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
-    .preview-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .enchant-summary {
-      display: grid;
-      gap: 10px;
-      overflow: visible;
-      padding: 12px 14px;
-      border-bottom: 1px solid var(--border);
-      background: var(--surface-muted);
-    }
-
-    .enchant-set {
-      display: grid;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: #ffffff;
-      overflow: hidden;
-    }
-
-    .enchant-set-toggle {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      gap: 10px;
-      width: 100%;
-      border: 0;
-      padding: 9px;
-      background: #ffffff;
-      color: var(--text);
-      text-align: left;
-    }
-
-    .enchant-set-toggle:hover {
-      background: var(--primary-soft);
-    }
-
-    .enchant-toggle-icon {
-      align-self: center;
-      color: var(--muted);
-      font-size: 16px;
-      font-weight: 800;
-      line-height: 1;
-      transition: transform 0.16s ease;
-    }
-
-    .enchant-set-toggle[aria-expanded="true"] .enchant-toggle-icon {
-      transform: rotate(90deg);
-    }
-
-    .enchant-set-body {
-      display: grid;
-      gap: 8px;
-      padding: 0 9px 9px;
-    }
-
-    .enchant-set.is-collapsed .enchant-set-body {
-      display: none;
-    }
-
-    .enchant-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .meta-chip {
-      display: inline-flex;
-      align-items: center;
-      min-height: 26px;
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      padding: 3px 9px;
-      background: #ffffff;
-      color: var(--text);
-      font-size: 12px;
-      font-weight: 700;
-    }
-
-    .enchant-table-wrap {
-      overflow: auto;
-      border: 1px solid #c9d6e2;
-      border-radius: 7px;
-      background: #ffffff;
-    }
-
-    .enchant-table {
-      width: 100%;
-      min-width: 520px;
-      border-collapse: collapse;
-      font-size: 12px;
-    }
-
-    .enchant-table th,
-    .enchant-table td {
-      border-bottom: 1px solid var(--border);
-      padding: 7px 8px;
-      text-align: left;
-      vertical-align: top;
-    }
-
-    .enchant-table th {
-      background: #d9f1f6;
-      color: #174151;
-      font-weight: 700;
-      white-space: nowrap;
-    }
-
-    .enchant-table tr:last-child td {
-      border-bottom: 0;
-    }
-
-    .slot-cell {
-      width: 150px;
-      color: #334155;
-      white-space: normal;
-    }
-
-    .effect-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
-    }
-
-    .effect-button {
-      min-height: 26px;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 3px 7px;
-      background: #ffffff;
-      color: var(--primary-strong);
-      font-size: 12px;
-      font-weight: 700;
-    }
-
-    .effect-button:hover,
-    .effect-button.is-active {
-      border-color: var(--primary);
-      background: var(--primary-soft);
-    }
-
-    .iframe-wrap {
-      position: relative;
-      min-height: 0;
-      background: #eef3f7;
-    }
-
-    .official-frame {
-      width: 100%;
-      height: 100%;
-      min-height: 520px;
-      border: 0;
-      background: #ffffff;
-    }
-
-    .frame-note {
-      position: absolute;
-      right: 10px;
-      bottom: 10px;
-      max-width: 360px;
-      border: 1px solid rgba(100, 116, 139, 0.32);
-      border-radius: 7px;
-      padding: 7px 9px;
-      background: rgba(255, 255, 255, 0.92);
-      color: var(--muted);
-      font-size: 11px;
-      box-shadow: 0 8px 22px rgba(31, 41, 51, 0.12);
-    }
-
-    @media (max-width: 1180px) {
-      .main-grid {
-        grid-template-columns: minmax(390px, var(--search-pane-width, 48%)) 10px minmax(320px, 1fr);
-      }
-    }
-
-    @media (max-width: 960px) {
-      .app-shell {
-        grid-template-columns: 1fr;
-      }
-
-      .sidebar {
-        position: sticky;
-        top: 0;
-        z-index: 2;
-        flex-direction: row;
-        align-items: center;
-        height: auto;
-        overflow-x: auto;
-        border-right: 0;
-        border-bottom: 1px solid var(--border);
-      }
-
-      .brand {
-        min-width: 174px;
-        border-bottom: 0;
-        padding-bottom: 4px;
-      }
-
-      .nav-section-title,
-      .sidebar-footer {
-        display: none;
-      }
-
-      .nav-list {
-        grid-auto-flow: column;
-        grid-auto-columns: max-content;
-      }
-
-      .main-grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto minmax(0, 1fr);
-      }
-
-      .main-tabs {
-        display: flex;
-        gap: 8px;
-        min-width: 0;
-      }
-
-      .tab-button {
-        flex: 1 1 0;
-        min-height: 36px;
-        border: 1px solid var(--border-strong);
-        border-radius: 8px;
-        background: var(--surface);
-        color: var(--text);
-        font-weight: 700;
-      }
-
-      .tab-button[aria-selected="true"] {
-        border-color: var(--primary);
-        background: var(--primary);
-        color: #ffffff;
-      }
-
-      .search-pane,
-      .preview-pane {
-        grid-column: 1;
-        grid-row: 2;
-      }
-
-      .pane-resizer {
-        display: none;
-      }
-
-      .main-grid:not(.show-preview) .preview-pane {
-        display: none;
-      }
-
-      .main-grid.show-preview .search-pane {
-        display: none;
-      }
-
-      .main-grid.show-preview .preview-pane {
-        display: grid;
-      }
-
-      .official-frame {
-        height: 620px;
-      }
-    }
-
-    @media (max-width: 640px) {
-      .app-header {
-        align-items: start;
-        flex-direction: column;
-      }
-
-      .header-meta {
-        justify-content: flex-start;
-      }
-
-      .main-grid {
-        padding: 8px;
-      }
-
-      .field-row {
-        grid-template-columns: 1fr;
-      }
-
-      .preview-title-row {
-        align-items: stretch;
-        flex-direction: column;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="./assets/items.css">
 </head>
 <body>
   <div class="app-shell">
@@ -836,8 +45,8 @@
         <section class="search-pane" id="searchPane" role="tabpanel" aria-labelledby="searchTab" aria-label="検索フォームと検索結果">
           <div class="search-controls">
             <div class="field-row">
-              <input class="text-field" type="search" value="ブレッシング" aria-label="キーワード" placeholder="アイテム名、説明、読み、エンチャント名">
-              <select class="select-field" aria-label="検索対象">
+              <input class="text-field" id="keywordInput" type="search" aria-label="キーワード" placeholder="アイテム名、説明、読み、エンチャント名">
+              <select class="select-field" id="searchTargetSelect" aria-label="検索対象">
                 <option selected>アイテム名</option>
                 <option>説明</option>
                 <option>エンチャント情報</option>
@@ -846,8 +55,8 @@
             </div>
 
             <div class="action-row" aria-label="検索操作">
-              <button class="button button-primary" type="button">検索</button>
-              <button class="button button-subtle" type="button">リセット</button>
+              <button class="button button-primary" id="searchButton" type="button">検索</button>
+              <button class="button button-subtle" id="resetButton" type="button">リセット</button>
               <button class="button" type="button">URLコピー</button>
               <button class="button" type="button">検索条件を保存</button>
             </div>
@@ -858,16 +67,16 @@
                 <span>グループ内 OR</span>
               </div>
               <div class="chip-row" aria-label="装備位置">
-                <button class="chip" type="button" aria-pressed="false">上段</button>
-                <button class="chip" type="button" aria-pressed="false">中段</button>
-                <button class="chip" type="button" aria-pressed="false">下段</button>
-                <button class="chip" type="button" aria-pressed="false">鎧</button>
-                <button class="chip" type="button" aria-pressed="false">武器</button>
-                <button class="chip" type="button" aria-pressed="false">盾</button>
-                <button class="chip" type="button" aria-pressed="false">靴</button>
-                <button class="chip" type="button" aria-pressed="false">肩にかける物</button>
-                <button class="chip" type="button" aria-pressed="true">アクセサリー(1)</button>
-                <button class="chip" type="button" aria-pressed="true">アクセサリー(2)</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="upper">上段</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="middle">中段</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="lower">下段</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="armor">鎧</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="weapon">武器</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="shield">盾</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="shoes">靴</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="garment">肩にかける物</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="accessory_1">アクセサリー(1)</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="accessory_2">アクセサリー(2)</button>
               </div>
             </div>
 
@@ -877,19 +86,19 @@
                 <span>複数選択</span>
               </div>
               <div class="chip-row" aria-label="エンチャント種別">
-                <button class="chip" type="button" aria-pressed="true">スペシャル</button>
-                <button class="chip" type="button" aria-pressed="false">星座の印章</button>
-                <button class="chip" type="button" aria-pressed="false">ファロス</button>
-                <button class="chip" type="button" aria-pressed="false">イルシオン</button>
-                <button class="chip" type="button" aria-pressed="false">オートマティック</button>
-                <button class="chip" type="button" aria-pressed="false">生命の殿堂</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="special">スペシャル</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="star_insignia">星座の印章</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="pharos">ファロス</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="illusion">イルシオン</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="automatic">オートマティック</button>
+                <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="hall_of_life">生命の殿堂</button>
               </div>
             </div>
           </div>
 
           <div class="results-area">
             <div class="results-toolbar">
-              <div><span class="result-count">8件</span> の候補</div>
+              <div><span class="result-count" id="resultCount">4件</span> の候補</div>
               <select class="sort-select" aria-label="並び順">
                 <option>関連度順</option>
                 <option>アイテムID順</option>
@@ -899,7 +108,7 @@
 
             <ul class="result-list" aria-label="検索結果">
               <li class="result-item">
-                <button class="result-button is-active" type="button" data-name="ブレッシングオブイグドラシル[0]" data-url="https://rotool.gungho.jp/item/480516/">
+                <button class="result-button is-active" type="button" data-name="ブレッシングオブイグドラシル[0]" data-description="世界樹ユグドラシルの祝福が込められたアクセサリー。" data-positions="accessory_1 accessory_2" data-enchants="special pharos" data-enchant-text="スペシャル ファロス シンソウの王 英雄の凱歌 起源の王 殺意の怨念 豊穣の女神" data-url="https://rotool.gungho.jp/item/480516/">
                   <span class="result-main">
                     <span class="result-title-row">
                       <span class="result-title">ブレッシングオブイグドラシル[0]</span>
@@ -910,7 +119,7 @@
                 </button>
               </li>
               <li class="result-item">
-                <button class="result-button" type="button" data-name="星座の印章[1]" data-url="https://rotool.gungho.jp/item/490137/">
+                <button class="result-button" type="button" data-name="星座の印章[1]" data-description="星の力を宿した印章。装備者に不思議な加護を与える。" data-positions="accessory_1 accessory_2" data-enchants="star_insignia" data-enchant-text="星座の印章 星の力" data-url="https://rotool.gungho.jp/item/490137/">
                   <span class="result-main">
                     <span class="result-title-row">
                       <span class="result-title">星座の印章[1]</span>
@@ -921,7 +130,7 @@
                 </button>
               </li>
               <li class="result-item">
-                <button class="result-button" type="button" data-name="時間の破片" data-url="https://rotool.gungho.jp/item/1000000/">
+                <button class="result-button" type="button" data-name="時間の破片" data-description="時間の流れから零れ落ちた小さな破片。" data-positions="" data-enchants="" data-enchant-text="" data-url="https://rotool.gungho.jp/item/1000000/">
                   <span class="result-main">
                     <span class="result-title-row">
                       <span class="result-title">時間の破片</span>
@@ -931,7 +140,7 @@
                 </button>
               </li>
               <li class="result-item">
-                <button class="result-button" type="button" data-name="創星石のアミュレット[1]" data-url="https://rotool.gungho.jp/item/490337/">
+                <button class="result-button" type="button" data-name="創星石のアミュレット[1]" data-description="創星の力を秘めた石をあしらったアミュレット。" data-positions="accessory_1 accessory_2" data-enchants="special star_insignia" data-enchant-text="スペシャル 星座の印章 創星 超越" data-url="https://rotool.gungho.jp/item/490337/">
                   <span class="result-main">
                     <span class="result-title-row">
                       <span class="result-title">創星石のアミュレット[1]</span>
@@ -942,6 +151,7 @@
                 </button>
               </li>
             </ul>
+            <div class="empty-result" id="emptyResult">条件に一致するアイテムはありません。</div>
           </div>
         </section>
 
@@ -1081,151 +291,12 @@
               loading="lazy"
               referrerpolicy="no-referrer"
             ></iframe>
-            <div class="frame-note">
-              公式側の制限で iframe 表示できない場合は、別タブで開く導線を利用する想定です。
-            </div>
           </div>
         </section>
       </main>
     </div>
   </div>
 
-  <script>
-    const mainGrid = document.getElementById('mainGrid');
-    const paneResizer = document.getElementById('paneResizer');
-    const searchTab = document.getElementById('searchTab');
-    const previewTab = document.getElementById('previewTab');
-    const resultButtons = document.querySelectorAll('.result-button');
-    const effectButtons = document.querySelectorAll('.effect-button');
-    const enchantSetToggles = document.querySelectorAll('.enchant-set-toggle');
-    const previewTitle = document.getElementById('previewTitle');
-    const previewUrl = document.getElementById('previewUrl');
-    const officialFrame = document.getElementById('officialFrame');
-    const openOfficial = document.getElementById('openOfficial');
-
-    const setActiveMainTab = (tabName) => {
-      const isPreview = tabName === 'preview';
-
-      mainGrid.classList.toggle('show-preview', isPreview);
-      searchTab.setAttribute('aria-selected', String(!isPreview));
-      previewTab.setAttribute('aria-selected', String(isPreview));
-    };
-
-    const setSearchPaneWidth = (clientX) => {
-      const rect = mainGrid.getBoundingClientRect();
-      const minLeft = 390;
-      const minRight = 320;
-      const resizerWidth = paneResizer.getBoundingClientRect().width || 10;
-      const gapWidth = 20;
-      const maxLeft = Math.max(minLeft, rect.width - minRight - resizerWidth - gapWidth);
-      const nextWidth = Math.min(Math.max(clientX - rect.left, minLeft), maxLeft);
-
-      mainGrid.style.setProperty('--search-pane-width', `${Math.round(nextWidth)}px`);
-    };
-
-    const stopResizing = () => {
-      mainGrid.classList.remove('is-resizing');
-      document.body.style.userSelect = '';
-      window.removeEventListener('pointermove', resizeWithPointer);
-      window.removeEventListener('pointerup', stopResizing);
-      window.removeEventListener('pointercancel', stopResizing);
-    };
-
-    const resizeWithPointer = (event) => {
-      setSearchPaneWidth(event.clientX);
-    };
-
-    paneResizer.addEventListener('pointerdown', (event) => {
-      if (window.matchMedia('(max-width: 960px)').matches) {
-        return;
-      }
-
-      event.preventDefault();
-      mainGrid.classList.add('is-resizing');
-      document.body.style.userSelect = 'none';
-      paneResizer.setPointerCapture?.(event.pointerId);
-      setSearchPaneWidth(event.clientX);
-      window.addEventListener('pointermove', resizeWithPointer);
-      window.addEventListener('pointerup', stopResizing);
-      window.addEventListener('pointercancel', stopResizing);
-    });
-
-    paneResizer.addEventListener('keydown', (event) => {
-      if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) {
-        return;
-      }
-
-      event.preventDefault();
-
-      const rect = mainGrid.getBoundingClientRect();
-      const current = parseInt(getComputedStyle(mainGrid).getPropertyValue('--search-pane-width'), 10);
-      const fallback = Math.round(rect.width * 0.46);
-      const currentWidth = Number.isNaN(current) ? fallback : current;
-      const step = event.shiftKey ? 80 : 32;
-
-      if (event.key === 'Home') {
-        setSearchPaneWidth(rect.left + 390);
-      } else if (event.key === 'End') {
-        setSearchPaneWidth(rect.right - 320);
-      } else {
-        setSearchPaneWidth(rect.left + currentWidth + (event.key === 'ArrowRight' ? step : -step));
-      }
-    });
-
-    searchTab.addEventListener('click', () => setActiveMainTab('search'));
-    previewTab.addEventListener('click', () => setActiveMainTab('preview'));
-
-    enchantSetToggles.forEach((toggle) => {
-      toggle.addEventListener('click', () => {
-        const enchantSet = toggle.closest('.enchant-set');
-        const expanded = toggle.getAttribute('aria-expanded') === 'true';
-
-        toggle.setAttribute('aria-expanded', String(!expanded));
-        enchantSet?.classList.toggle('is-collapsed', expanded);
-      });
-    });
-
-    resultButtons.forEach((button) => {
-      button.addEventListener('click', () => {
-        resultButtons.forEach((item) => item.classList.remove('is-active'));
-        effectButtons.forEach((item) => item.classList.remove('is-active'));
-        button.classList.add('is-active');
-
-        const name = button.dataset.name || '公式アイテムページ';
-        const url = button.dataset.url || 'about:blank';
-
-        previewTitle.textContent = name;
-        previewUrl.textContent = url;
-        officialFrame.src = url;
-        openOfficial.href = url;
-
-        if (window.matchMedia('(max-width: 960px)').matches) {
-          setActiveMainTab('preview');
-        }
-      });
-    });
-
-    effectButtons.forEach((button) => {
-      button.addEventListener('click', () => {
-        effectButtons.forEach((item) => item.classList.remove('is-active'));
-        button.classList.add('is-active');
-
-        const name = button.dataset.effectName || 'エンチャント効果';
-        const url = button.dataset.effectUrl || 'about:blank';
-
-        previewTitle.textContent = `エンチャント効果: ${name}`;
-        previewUrl.textContent = url;
-        officialFrame.src = url;
-        openOfficial.href = url;
-      });
-    });
-
-    document.querySelectorAll('.chip').forEach((chip) => {
-      chip.addEventListener('click', () => {
-        const pressed = chip.getAttribute('aria-pressed') === 'true';
-        chip.setAttribute('aria-pressed', String(!pressed));
-      });
-    });
-  </script>
+  <script src="./assets/items.js"></script>
 </body>
 </html>

@@ -1,0 +1,66 @@
+{
+    "type": "item",
+    "item_id": "6775",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6775\/"
+    },
+    "name": "鮭",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "美味しい白身魚。\n様々な調理法で\n多数の料理に使われる。\n[鮭]は、\nNPC売却のみ可能です",
+    "description_lines": [
+        "美味しい白身魚。",
+        "様々な調理法で",
+        "多数の料理に使われる。",
+        "[鮭]は、",
+        "NPC売却のみ可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "fff6c3fbe4dcb3e77b2c2114d165c1ed683ee84080941ff52d46479545ff0cb9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

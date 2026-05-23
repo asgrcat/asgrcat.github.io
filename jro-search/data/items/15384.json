@@ -1,0 +1,116 @@
+{
+    "type": "item",
+    "item_id": "15384",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15384\/"
+    },
+    "name": "聖祭の羽衣[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "聖なる祈りの力が\n宿った羽衣。\n典礼儀式などで\n着用されている。\nMaxHP + 5%\nスキルディレイ - 10%\nヒール系スキル使用時、\nHP回復量 + 5%\n[聖祭の羽衣]の\n精錬値が7以上の時、追加で\nMaxHP + 5%\nヒール系スキル使用時、\nHP回復量 + 5%\n[聖祭の羽衣]の\n精錬値が8以上の時、追加で\nMaxHP + 5%\nヒール系スキル使用時、\nHP回復量 + 10%\nスキル使用時の\n消費SP - 10%\n絶対に睡眠状態にならない\n[聖祭の羽衣]の\n精錬値が9以上の時、追加で\nMaxHP + 5%\nヒール系スキル使用時、\nHP回復量 + 10%\n[バースリーカード]と\n共に装備時、追加で\n絶対に凍結状態にならない",
+    "description_lines": [
+        "聖なる祈りの力が",
+        "宿った羽衣。",
+        "典礼儀式などで",
+        "着用されている。",
+        "MaxHP + 5%",
+        "スキルディレイ - 10%",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 5%",
+        "[聖祭の羽衣]の",
+        "精錬値が7以上の時、追加で",
+        "MaxHP + 5%",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 5%",
+        "[聖祭の羽衣]の",
+        "精錬値が8以上の時、追加で",
+        "MaxHP + 5%",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 10%",
+        "スキル使用時の",
+        "消費SP - 10%",
+        "絶対に睡眠状態にならない",
+        "[聖祭の羽衣]の",
+        "精錬値が9以上の時、追加で",
+        "MaxHP + 5%",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 10%",
+        "[バースリーカード]と",
+        "共に装備時、追加で",
+        "絶対に凍結状態にならない"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": true,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "位置": "-",
+            "属性": "無",
+            "スロット": "1",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "40",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "bb87be32a3ae55150ebebbde99be029c68fd1739c363956e94aa2ce106e03c02",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

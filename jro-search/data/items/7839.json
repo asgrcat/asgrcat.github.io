@@ -1,0 +1,70 @@
+{
+    "type": "item",
+    "item_id": "7839",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7839\/"
+    },
+    "name": "クリスタルの鍵",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "試練の鍵として使用される\n水晶の破片。\n中には試練の通過を望む\nルーンが書かれている。",
+    "description_lines": [
+        "試練の鍵として使用される",
+        "水晶の破片。",
+        "中には試練の通過を望む",
+        "ルーンが書かれている。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ガーデンキーパー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GARDEN_KEEPER"
+        }
+    ],
+    "available_maps": [],
+    "source_html_sha256": "651e366180101a6d439de52326c9c2d2c5147aaf29d4e878b15593adb73435aa",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

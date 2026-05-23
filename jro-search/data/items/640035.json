@@ -1,0 +1,122 @@
+{
+    "type": "item",
+    "item_id": "640035",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/640035\/"
+    },
+    "name": "フラッシュディテクトスタッフ[4]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 4,
+        "enchant_slot_count": 0,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "arch_mage": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ミョルニールの\nエナジーで強化された\nディテクトスタッフ。\n強くなった分、\n魔力の消費が激しい。\n魔法攻撃で\n与えるダメージ + 60%\nボスモンスターから\n受けるダメージ - 40%\n[アースストレイン]の\n変動詠唱時間 - 4秒\n[フラッシュ\nディテクトスタッフ]の\n精錬値が7以上の時、追加で\n[アースストレイン]で\n与えるダメージ + 50%\n[フラッシュ\nディテクトスタッフ]の\n精錬値が9以上の時、追加で\n[アースストレイン]で\n与えるダメージ + 50%\n[フラッシュ\nディテクトスタッフ]の\n精錬値が10の時、追加で\n魔法攻撃命中時、\n一定確率で10秒間、\n地属性魔法攻撃で\n与えるダメージ + 50%",
+    "description_lines": [
+        "ミョルニールの",
+        "エナジーで強化された",
+        "ディテクトスタッフ。",
+        "強くなった分、",
+        "魔力の消費が激しい。",
+        "魔法攻撃で",
+        "与えるダメージ + 60%",
+        "ボスモンスターから",
+        "受けるダメージ - 40%",
+        "[アースストレイン]の",
+        "変動詠唱時間 - 4秒",
+        "[フラッシュ",
+        "ディテクトスタッフ]の",
+        "精錬値が7以上の時、追加で",
+        "[アースストレイン]で",
+        "与えるダメージ + 50%",
+        "[フラッシュ",
+        "ディテクトスタッフ]の",
+        "精錬値が9以上の時、追加で",
+        "[アースストレイン]で",
+        "与えるダメージ + 50%",
+        "[フラッシュ",
+        "ディテクトスタッフ]の",
+        "精錬値が10の時、追加で",
+        "魔法攻撃命中時、",
+        "一定確率で10秒間、",
+        "地属性魔法攻撃で",
+        "与えるダメージ + 50%"
+    ],
+    "properties": {
+        "series": "two_handed_staff",
+        "series_normalized": [
+            "two_handed_staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 4,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": 270,
+        "refinement": true,
+        "breakable": false,
+        "weight": 240,
+        "weapon_level": 4,
+        "required_level": 220,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "arch_mage": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手杖",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "4",
+            "Atk": "120",
+            "Matk": "270",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "240",
+            "要求レベル": "220",
+            "装備": "アークメイジ"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6f8b79398baba702cc0f8a8c20dfae97ca4ebeee53d9c9bc9075a52bd77718f8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

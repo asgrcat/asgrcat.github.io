@@ -1,0 +1,64 @@
+{
+    "type": "item",
+    "item_id": "1000567",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000567\/"
+    },
+    "name": "氷雪の陽炎",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "冷たい冷気が漂う陽炎。\n能力のある忍者でなければ\n扱いにくい。",
+    "description_lines": [
+        "冷たい冷気が漂う陽炎。",
+        "能力のある忍者でなければ",
+        "扱いにくい。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0.1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "3df50d21432901141e07ed9dfd8538c4d8bfac1ff8ddfb267faf2ce79a8a90e0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

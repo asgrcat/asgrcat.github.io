@@ -1,0 +1,103 @@
+{
+    "type": "item",
+    "item_id": "300382",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300382\/"
+    },
+    "name": "アクィラカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "物理攻撃で\n与えるダメージ + 5%\nBaseLvが20上がる度に追加で\n物理攻撃で\n与えるダメージ + 1%\n[知識の探求者]と\n共に装備時、追加で\n物理攻撃命中時、\n一定確率で敵に与えた\nダメージの15%を\nHPとして吸収",
+    "description_lines": [
+        "物理攻撃で",
+        "与えるダメージ + 5%",
+        "BaseLvが20上がる度に追加で",
+        "物理攻撃で",
+        "与えるダメージ + 1%",
+        "[知識の探求者]と",
+        "共に装備時、追加で",
+        "物理攻撃命中時、",
+        "一定確率で敵に与えた",
+        "ダメージの15%を",
+        "HPとして吸収"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "アクィラ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_MD_AQUILA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "飛行船破壊作戦(飛行船ワイル1号)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@whl",
+            "map_code": "1@whl"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        }
+    ],
+    "source_html_sha256": "88829fcaebd7b8162af22ac96d53195b4ba86787d2732133ac464e5f0d495d62",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

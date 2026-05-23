@@ -1,0 +1,102 @@
+{
+    "type": "item",
+    "item_id": "22184",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/22184\/"
+    },
+    "name": "レッドブーツ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "summoner": true
+            },
+            "include_jobs": {
+                "summoner": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "真っ赤な皮で\n作られたブーツ。\nどことなく高級感が漂う。\nMaxHP + 100 , MaxSP + 100\n[ひっかく]の\n消費SP - 15\n精錬不可\n[レッドブーツ]は\nNPC売却、倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "真っ赤な皮で",
+        "作られたブーツ。",
+        "どことなく高級感が漂う。",
+        "MaxHP + 100 , MaxSP + 100",
+        "[ひっかく]の",
+        "消費SP - 15",
+        "精錬不可",
+        "[レッドブーツ]は",
+        "NPC売却、倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 20,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "summoner": true
+            },
+            "include_jobs": {
+                "summoner": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "防御": "20",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "サモナー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "a22c08cf2f64d0f48033c2e928ec546c0a9f907b830e6eb04a4321ff6a0c69aa",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

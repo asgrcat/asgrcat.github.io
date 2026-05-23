@@ -1,0 +1,93 @@
+{
+    "type": "item",
+    "item_id": "553",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/553\/"
+    },
+    "name": "小包子",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ショウパオズという、東方の国で昔から好んで食べられている饅頭。 中には肉がたっぷりつまっていて、温かくておいしい。 最近では肉の他にも様々な具を入れることがあり、食べる者を楽しませてくれる。\n_",
+    "description_lines": [
+        "ショウパオズという、東方の国で昔から好んで食べられている饅頭。 中には肉がたっぷりつまっていて、温かくておいしい。 最近では肉の他にも様々な具を入れることがあり、食べる者を楽しませてくれる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 5,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "5"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "天邪仙人",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EVIL_CLOUD_HERMIT"
+        },
+        {
+            "name": "団子童子",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RICE_CAKE_BOY"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "コンロンダンジョン 02（神仙の碁盤）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gon_dun02",
+            "map_code": "gon_dun02"
+        },
+        {
+            "name": "コンロンダンジョン 03（武陵桃源）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gon_dun03",
+            "map_code": "gon_dun03"
+        },
+        {
+            "name": "コンロンフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gon_fild01",
+            "map_code": "gon_fild01"
+        }
+    ],
+    "source_html_sha256": "6d78ca2c1b871a403cbe3d3e8e58bc9fb7583c9dab26093bb020150101551c10",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

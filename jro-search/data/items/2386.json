@@ -1,0 +1,116 @@
+{
+    "type": "item",
+    "item_id": "2386",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2386\/"
+    },
+    "name": "カメレオンアーマー[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "着用者の能力によって\n自ら能力を変える力を持った\n不思議な鎧。\nBaseLvが高いほど\nMHP・MSP増加。\n魔法攻撃を受けた時、\n一定確率で 2秒間\nすべての魔法にかからない。\nソードマン系・シーフ系\n・マーチャント系装備時、\nDEF + 3\nマジシャン系・アコライト系\n・アーチャー系装備時、\nMDEF + 5",
+    "description_lines": [
+        "着用者の能力によって",
+        "自ら能力を変える力を持った",
+        "不思議な鎧。",
+        "BaseLvが高いほど",
+        "MHP・MSP増加。",
+        "魔法攻撃を受けた時、",
+        "一定確率で 2秒間",
+        "すべての魔法にかからない。",
+        "ソードマン系・シーフ系",
+        "・マーチャント系装備時、",
+        "DEF + 3",
+        "マジシャン系・アコライト系",
+        "・アーチャー系装備時、",
+        "MDEF + 5"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 55,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 170,
+        "weapon_level": null,
+        "required_level": 70,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "55",
+            "重量": "170",
+            "要求レベル": "70",
+            "装備": "上位2次職 3次職 4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ビホルダーマスター",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BEHOLDER_MASTER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "ギルドダンジョン アルナベルツ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_dun01",
+            "map_code": "arug_dun01"
+        }
+    ],
+    "source_html_sha256": "2f9557491effb262a6172d64fbd0af2fdc23b838961ae7a8678fce144aa4c646",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,81 @@
+{
+    "type": "item",
+    "item_id": "200749",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/200749\/"
+    },
+    "name": "コスたまSteampunkIII",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する\n・[衣装] 羽根つきツートン\nヘア\n・[衣装] 羽根つきブロンド\nヘア\n・[衣装] クロックロッド\n・[衣装] 機械妖精の羽根\n・[衣装] 名探偵のルーペ\n・[衣装] 歯車モノクル\n・[衣装] スチームローラー\n・[衣装] 白い機械植物帽\n・[衣装] 機械羽根のブルー\nヘアバンド\n・[衣装] アラームの仮面\n(中段)\n・[衣装] 見習い天使の祝福\n(金)",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する",
+        "・[衣装] 羽根つきツートン",
+        "ヘア",
+        "・[衣装] 羽根つきブロンド",
+        "ヘア",
+        "・[衣装] クロックロッド",
+        "・[衣装] 機械妖精の羽根",
+        "・[衣装] 名探偵のルーペ",
+        "・[衣装] 歯車モノクル",
+        "・[衣装] スチームローラー",
+        "・[衣装] 白い機械植物帽",
+        "・[衣装] 機械羽根のブルー",
+        "ヘアバンド",
+        "・[衣装] アラームの仮面",
+        "(中段)",
+        "・[衣装] 見習い天使の祝福",
+        "(金)"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6d0ddbcd2a2735f9b06cc5ca959e1f95850eb268702fc044dd1c02e49c25c087",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

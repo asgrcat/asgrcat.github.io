@@ -1,0 +1,88 @@
+{
+    "type": "item",
+    "item_id": "5471",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5471\/"
+    },
+    "name": "レギンレイヴの翼[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ヴァルキリー・レギンレイヴ\nの名を冠する頭飾り。\n身に着ける者は、神々の恩恵\nを受けると言われている。\n水、火、闇、不死の属性耐性\n3% 増加。",
+    "description_lines": [
+        "ヴァルキリー・レギンレイヴ",
+        "の名を冠する頭飾り。",
+        "身に着ける者は、神々の恩恵",
+        "を受けると言われている。",
+        "水、火、闇、不死の属性耐性",
+        "3% 増加。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": null,
+        "slot": 0,
+        "def": 2,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 80,
+        "weapon_level": null,
+        "required_level": 50,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "2",
+            "位置": "中段",
+            "重量": "80",
+            "要求レベル": "50",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "8028efe5e2dd19a48a8c1e54a935448b39a01d35e4a94924b66823c7bc2a4db8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

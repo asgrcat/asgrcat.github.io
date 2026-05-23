@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "19081",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19081\/"
+    },
+    "name": "フェイスワームの卵殻[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "フェイスワームの卵殻を\nすっぽりと被れるように\nまるまる加工したもの。\nHit + 20\n物理・魔法攻撃時、\nフェイスワーム系\nモンスターに\n与えるダメージ + 5%\nフェイスワーム系\nモンスターから\n受けるダメージ - 5%\n[フェイスワームの卵殻]の\n精錬値が5以上の時、追加で\n物理・魔法攻撃時、\nフェイスワーム系\nモンスターに\n与えるダメージ + 10%\nフェイスワーム系\nモンスターから\n受けるダメージ - 10%\n精錬値が7以上の時、追加で\n物理・魔法攻撃時、\nフェイスワーム系\nモンスターに\n与えるダメージ + 15%\nフェイスワーム系\nモンスターから\n受けるダメージ - 15%\n精錬値が9以上の時、追加で\n物理・魔法攻撃時、\nフェイスワーム系\nモンスターに\n与えるダメージ + 20%\nフェイスワーム系\nモンスターから\n受けるダメージ - 20%",
+    "description_lines": [
+        "フェイスワームの卵殻を",
+        "すっぽりと被れるように",
+        "まるまる加工したもの。",
+        "Hit + 20",
+        "物理・魔法攻撃時、",
+        "フェイスワーム系",
+        "モンスターに",
+        "与えるダメージ + 5%",
+        "フェイスワーム系",
+        "モンスターから",
+        "受けるダメージ - 5%",
+        "[フェイスワームの卵殻]の",
+        "精錬値が5以上の時、追加で",
+        "物理・魔法攻撃時、",
+        "フェイスワーム系",
+        "モンスターに",
+        "与えるダメージ + 10%",
+        "フェイスワーム系",
+        "モンスターから",
+        "受けるダメージ - 10%",
+        "精錬値が7以上の時、追加で",
+        "物理・魔法攻撃時、",
+        "フェイスワーム系",
+        "モンスターに",
+        "与えるダメージ + 15%",
+        "フェイスワーム系",
+        "モンスターから",
+        "受けるダメージ - 15%",
+        "精錬値が9以上の時、追加で",
+        "物理・魔法攻撃時、",
+        "フェイスワーム系",
+        "モンスターに",
+        "与えるダメージ + 20%",
+        "フェイスワーム系",
+        "モンスターから",
+        "受けるダメージ - 20%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 2,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 30,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "2",
+            "位置": "上段",
+            "重量": "50",
+            "要求レベル": "30",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "9f348a925a72050be00907646dd4c6c9a87d20d1e22ef6845a9d3a3a352e8663",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "5690",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5690\/"
+    },
+    "name": "フリストの帽子[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "- 轟かす者 -の異名を持つ\nヴァルキリー「フリスト」が\n使っていた帽子。\n闇属性モンスターに\n物理攻撃で与えるダメージ\n+ 10%。\n[フリストの剣]と\n共に装備時、\n人間形モンスターに\n物理攻撃で与えるダメージ\n+ 4%、Hit + 10。",
+    "description_lines": [
+        "- 轟かす者 -の異名を持つ",
+        "ヴァルキリー「フリスト」が",
+        "使っていた帽子。",
+        "闇属性モンスターに",
+        "物理攻撃で与えるダメージ",
+        "+ 10%。",
+        "[フリストの剣]と",
+        "共に装備時、",
+        "人間形モンスターに",
+        "物理攻撃で与えるダメージ",
+        "+ 4%、Hit + 10。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 2,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 60,
+        "weapon_level": null,
+        "required_level": 50,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "2",
+            "位置": "上段",
+            "重量": "60",
+            "要求レベル": "50",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "27558a85415b2f310eb785c84b66ce0ab65f600fbf41f5e01e8d2f0c2264a70f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

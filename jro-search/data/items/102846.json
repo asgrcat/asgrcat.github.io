@@ -1,0 +1,82 @@
+{
+    "type": "item",
+    "item_id": "102846",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/102846\/"
+    },
+    "name": "クロネカーお墨付き団子(老舗の味)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "クロネカーがこっそり通う\n老舗が作っている\n名物の団子。\n毎朝、特別な米粉を\n石臼で挽き、つき上げる\n老舗ならではの味。\nHP・SPを100%回復する\n60秒間、\n[エナジーコート]\n状態になる\n他のロイヤル・スウィーツと\n効果が重複せず、\n最後に使用した効果が\n適用されます\n再使用待機時間60秒\n※ロイヤル・スウィーツ共通\nこのアイテムの利用期間は\n2026年2月24日(火)\n定期メンテナンス開始まで\nとなります",
+    "description_lines": [
+        "クロネカーがこっそり通う",
+        "老舗が作っている",
+        "名物の団子。",
+        "毎朝、特別な米粉を",
+        "石臼で挽き、つき上げる",
+        "老舗ならではの味。",
+        "HP・SPを100%回復する",
+        "60秒間、",
+        "[エナジーコート]",
+        "状態になる",
+        "他のロイヤル・スウィーツと",
+        "効果が重複せず、",
+        "最後に使用した効果が",
+        "適用されます",
+        "再使用待機時間60秒",
+        "※ロイヤル・スウィーツ共通",
+        "このアイテムの利用期間は",
+        "2026年2月24日(火)",
+        "定期メンテナンス開始まで",
+        "となります"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1",
+            "要求レベル": "200"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "cc1a1c5f4683ea7c6f5482166d3b956d22076b44ae70d2fa450d837b370c56c5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

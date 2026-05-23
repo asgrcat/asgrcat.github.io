@@ -1,0 +1,76 @@
+{
+    "type": "item",
+    "item_id": "1000373",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000373\/"
+    },
+    "name": "メテオライトの欠片",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "巨大な隕石の一部が\n欠けた欠片。\nそれなりに強い魔力を\n感じる。",
+    "description_lines": [
+        "巨大な隕石の一部が",
+        "欠けた欠片。",
+        "それなりに強い魔力を",
+        "感じる。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0.1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ベテルギウス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_BETELGEUSE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 覇王の間",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct5",
+            "map_code": "1@ct5"
+        }
+    ],
+    "source_html_sha256": "37ef254223a8e3a9048bdcc55d3af37e6ba01e506a5654f22ac770cd3eaf2d0d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

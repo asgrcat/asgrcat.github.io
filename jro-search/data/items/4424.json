@@ -1,0 +1,160 @@
+{
+    "type": "item",
+    "item_id": "4424",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4424\/"
+    },
+    "name": "スタポカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "[石投げ]、[石拾い]\n使用可能。",
+    "description_lines": [
+        "[石投げ]、[石拾い]",
+        "使用可能。"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "スタポ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/STAPO"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "暴窟王の洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@cash",
+            "map_code": "1@cash"
+        },
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "幻影の迷宮 湿った洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld107",
+            "map_code": "2@ld107"
+        },
+        {
+            "name": "幻影の迷宮 湿った洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le107",
+            "map_code": "2@le107"
+        },
+        {
+            "name": "ラヘルフィールド 01（アウドムラ草原）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild01",
+            "map_code": "ra_fild01"
+        },
+        {
+            "name": "ラヘルフィールド 03（イダ平原）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild03",
+            "map_code": "ra_fild03"
+        },
+        {
+            "name": "ラヘルフィールド 04（アウドムラ草原）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild04",
+            "map_code": "ra_fild04"
+        },
+        {
+            "name": "ラヘルフィールド 06（ポルトルナ）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild06",
+            "map_code": "ra_fild06"
+        },
+        {
+            "name": "ラヘルフィールド 08（イダ平原）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild08",
+            "map_code": "ra_fild08"
+        },
+        {
+            "name": "ラヘルフィールド 12（イダ平原）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild12",
+            "map_code": "ra_fild12"
+        },
+        {
+            "name": "ベインスフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ve_fild01",
+            "map_code": "ve_fild01"
+        },
+        {
+            "name": "ベインスフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ve_fild02",
+            "map_code": "ve_fild02"
+        },
+        {
+            "name": "ベインスフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ve_fild03",
+            "map_code": "ve_fild03"
+        },
+        {
+            "name": "ベインスフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ve_fild04",
+            "map_code": "ve_fild04"
+        },
+        {
+            "name": "ベインスフィールド 06",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ve_fild06",
+            "map_code": "ve_fild06"
+        },
+        {
+            "name": "ベインスフィールド 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ve_fild07",
+            "map_code": "ve_fild07"
+        }
+    ],
+    "source_html_sha256": "b2d050ba832aa6a6bd5fe15a95490939cbaedca490d1f97bbda2d17e63f58a36",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

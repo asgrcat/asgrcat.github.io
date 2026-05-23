@@ -1,0 +1,93 @@
+{
+    "type": "item",
+    "item_id": "2112",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2112\/"
+    },
+    "name": "初心者用ガード[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "novice": true
+            },
+            "include_jobs": {
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ノービス専用の手作りの盾。 秘密組織「プロンテラゴザ同好会」が製造した。 精錬不可。",
+    "description_lines": [
+        "ノービス専用の手作りの盾。 秘密組織「プロンテラゴザ同好会」が製造した。 精錬不可。"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 20,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "novice": true
+            },
+            "include_jobs": {
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "防御": "20",
+            "重量": "0.1",
+            "要求レベル": "なし",
+            "装備": "ノービス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "30e4eea7d41cf920460acee38c4fdfa2391cc4f93435648cbd8f323277942863",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

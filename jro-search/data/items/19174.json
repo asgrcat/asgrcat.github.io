@@ -1,0 +1,113 @@
+{
+    "type": "item",
+    "item_id": "19174",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19174\/"
+    },
+    "name": "小型偵察機[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "アヴェンジャーという\n鍛冶職人が製造した\n偵察機。\nその卓越した偵察機能で、\n色々なアイテムを\n探してくれる。\nアヴェンジャーいわく、\n世界一かっこいい\nデザインだそうだ。\n[オーバーチャージ]Lv9\n使用可能\n[アムダライス]を\n倒した時、\n[凝縮した魔血]をドロップ\n[魔眼のアムダライス]を\n倒した時、\n[時間の結晶]をドロップ\n[fff・ジターバグ]を\n倒した時、\n[ジターバグの牙]をドロップ\n[死神アンク]、\n[絶望の神モロク]、\n[魔神の巨影]、\n[モルス・ネクロマンサー]を\n倒した時、\n[魔神モロク遠征褒賞箱]を\nドロップ\n[S・J・アーネストウルフ]、\n[ビジョウ]を\n倒した時、\n[王家貢献の証]をドロップ",
+    "description_lines": [
+        "アヴェンジャーという",
+        "鍛冶職人が製造した",
+        "偵察機。",
+        "その卓越した偵察機能で、",
+        "色々なアイテムを",
+        "探してくれる。",
+        "アヴェンジャーいわく、",
+        "世界一かっこいい",
+        "デザインだそうだ。",
+        "[オーバーチャージ]Lv9",
+        "使用可能",
+        "[アムダライス]を",
+        "倒した時、",
+        "[凝縮した魔血]をドロップ",
+        "[魔眼のアムダライス]を",
+        "倒した時、",
+        "[時間の結晶]をドロップ",
+        "[fff・ジターバグ]を",
+        "倒した時、",
+        "[ジターバグの牙]をドロップ",
+        "[死神アンク]、",
+        "[絶望の神モロク]、",
+        "[魔神の巨影]、",
+        "[モルス・ネクロマンサー]を",
+        "倒した時、",
+        "[魔神モロク遠征褒賞箱]を",
+        "ドロップ",
+        "[S・J・アーネストウルフ]、",
+        "[ビジョウ]を",
+        "倒した時、",
+        "[王家貢献の証]をドロップ"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 90,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "中段",
+            "重量": "10",
+            "要求レベル": "90",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f918eb65b11822c9ce4f2d66de704e182f1613ff97ec6bf4e1c0159519192b56",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

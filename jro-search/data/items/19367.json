@@ -1,0 +1,126 @@
+{
+    "type": "item",
+    "item_id": "19367",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19367\/"
+    },
+    "name": "バーストフレイム[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "大いなる炎の象徴。\nこれを手にしたものは\n剣を取り力を以って\n名誉を勝ち取るだろう。\n火属性攻撃で\n受けるダメージ - 20%\nプレイヤーから\n受けるダメージ - 3%\n[バーストフレイム]の\n精錬値が1上がる度に追加で\nプレイヤーから\n受けるダメージ - 1%\n[バーストフレイム]の\n精錬値が7以上の時、追加で\n一般モンスターから\n受けるダメージ - 5%",
+    "description_lines": [
+        "大いなる炎の象徴。",
+        "これを手にしたものは",
+        "剣を取り力を以って",
+        "名誉を勝ち取るだろう。",
+        "火属性攻撃で",
+        "受けるダメージ - 20%",
+        "プレイヤーから",
+        "受けるダメージ - 3%",
+        "[バーストフレイム]の",
+        "精錬値が1上がる度に追加で",
+        "プレイヤーから",
+        "受けるダメージ - 1%",
+        "[バーストフレイム]の",
+        "精錬値が7以上の時、追加で",
+        "一般モンスターから",
+        "受けるダメージ - 5%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 80,
+        "weapon_level": null,
+        "required_level": 165,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "上段",
+            "重量": "80",
+            "要求レベル": "165",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "強化ダークプリースト",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_102"
+        },
+        {
+            "name": "強化Gホーネット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_194"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "訓練の間",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@gld1",
+            "map_code": "1@gld1"
+        },
+        {
+            "name": "特訓の間",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@gld",
+            "map_code": "2@gld"
+        }
+    ],
+    "source_html_sha256": "50f9641a16e34879e3d4d427af6f14b0a2023dbef97767d56d7cb46d114da4a3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

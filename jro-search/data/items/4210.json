@@ -1,0 +1,273 @@
+{
+    "type": "item",
+    "item_id": "4210",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4210\/"
+    },
+    "name": "彷徨う者カード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "garment"
+        ],
+        "card_attachable_positions": {
+            "garment": true
+        }
+    },
+    "description": "物理攻撃命中時、\n一定確率で敵に\nオートスペル\n[インティミデイト]Lv1発動\nシーフ系が装備時、追加で\nFlee + 20\n[一反木綿カード]、\n[カブキ忍者カード]、\n[小龍舞カード]、\n[ワイルドローズカード]と\n共に装備時、追加で\nStr + 5 , Agi + 5\n攻撃速度 + 5%\n移動速度増加\n物理攻撃命中時、SP + 1\n[彷徨う者カード]の\n効果によるオートスペル\n[インティミデイト]が\n発動しない\nシーフ系が装備時、追加で\nジェムストーンを消費する\n一部のスキルを\nジェムストーン無しで\n使用できる\n[カブキ忍者カード]、\n[スタイナーカード]、\n[ヒュッケバイン=トリス\nカード]、\n[ワイルドローズカード]と\n共に装備時、追加で\nStr + 6 , Agi + 4\n[バックスタブ]で\n与えるダメージ + 10%\n[ストリップアーマー]Lv5を\n習得している場合、\n物理攻撃命中時、\n一定確率で敵に\nオートスペル\n[ストリップアーマー]Lv5\n発動\nローグ系装備時、追加で\nスキル使用時の\n消費SP - 20%\n[彷徨う者カード]の\n効果によるオートスペル\n[インティミデイト]が\n発動しない\n[酸素ボンベ]と\n共に装備時、追加で\nスキル使用時の\n消費SP - 5%",
+    "description_lines": [
+        "物理攻撃命中時、",
+        "一定確率で敵に",
+        "オートスペル",
+        "[インティミデイト]Lv1発動",
+        "シーフ系が装備時、追加で",
+        "Flee + 20",
+        "[一反木綿カード]、",
+        "[カブキ忍者カード]、",
+        "[小龍舞カード]、",
+        "[ワイルドローズカード]と",
+        "共に装備時、追加で",
+        "Str + 5 , Agi + 5",
+        "攻撃速度 + 5%",
+        "移動速度増加",
+        "物理攻撃命中時、SP + 1",
+        "[彷徨う者カード]の",
+        "効果によるオートスペル",
+        "[インティミデイト]が",
+        "発動しない",
+        "シーフ系が装備時、追加で",
+        "ジェムストーンを消費する",
+        "一部のスキルを",
+        "ジェムストーン無しで",
+        "使用できる",
+        "[カブキ忍者カード]、",
+        "[スタイナーカード]、",
+        "[ヒュッケバイン=トリス",
+        "カード]、",
+        "[ワイルドローズカード]と",
+        "共に装備時、追加で",
+        "Str + 6 , Agi + 4",
+        "[バックスタブ]で",
+        "与えるダメージ + 10%",
+        "[ストリップアーマー]Lv5を",
+        "習得している場合、",
+        "物理攻撃命中時、",
+        "一定確率で敵に",
+        "オートスペル",
+        "[ストリップアーマー]Lv5",
+        "発動",
+        "ローグ系装備時、追加で",
+        "スキル使用時の",
+        "消費SP - 20%",
+        "[彷徨う者カード]の",
+        "効果によるオートスペル",
+        "[インティミデイト]が",
+        "発動しない",
+        "[酸素ボンベ]と",
+        "共に装備時、追加で",
+        "スキル使用時の",
+        "消費SP - 5%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "garment"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "肩にかける物",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "彷徨う者",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WANDER_MAN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "ルイーナ 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas01",
+            "map_code": "aldeg_cas01"
+        },
+        {
+            "name": "ルイーナ 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas02",
+            "map_code": "aldeg_cas02"
+        },
+        {
+            "name": "ルイーナ 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas03",
+            "map_code": "aldeg_cas03"
+        },
+        {
+            "name": "ルイーナ 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas04",
+            "map_code": "aldeg_cas04"
+        },
+        {
+            "name": "ルイーナ 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas05",
+            "map_code": "aldeg_cas05"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas01",
+            "map_code": "arug_cas01"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas02",
+            "map_code": "arug_cas02"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas03",
+            "map_code": "arug_cas03"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas04",
+            "map_code": "arug_cas04"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas05",
+            "map_code": "arug_cas05"
+        },
+        {
+            "name": "グラストヘイム 古城2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas02",
+            "map_code": "gl_cas02"
+        },
+        {
+            "name": "チュンリム湖 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas01",
+            "map_code": "payg_cas01"
+        },
+        {
+            "name": "チュンリム湖 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas02",
+            "map_code": "payg_cas02"
+        },
+        {
+            "name": "チュンリム湖 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas03",
+            "map_code": "payg_cas03"
+        },
+        {
+            "name": "チュンリム湖 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas04",
+            "map_code": "payg_cas04"
+        },
+        {
+            "name": "チュンリム湖 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas05",
+            "map_code": "payg_cas05"
+        },
+        {
+            "name": "ニダヴェリール 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas02",
+            "map_code": "schg_cas02"
+        },
+        {
+            "name": "ニダヴェリール 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas03",
+            "map_code": "schg_cas03"
+        },
+        {
+            "name": "ニダヴェリール 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas04",
+            "map_code": "schg_cas04"
+        },
+        {
+            "name": "ニダヴェリール 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas05",
+            "map_code": "schg_cas05"
+        },
+        {
+            "name": "グラリス",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas1",
+            "map_code": "te_aldecas1"
+        },
+        {
+            "name": "ディフォルテー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas2",
+            "map_code": "te_aldecas2"
+        },
+        {
+            "name": "ソリン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas3",
+            "map_code": "te_aldecas3"
+        },
+        {
+            "name": "ビニット",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas4",
+            "map_code": "te_aldecas4"
+        },
+        {
+            "name": "Ｗ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas5",
+            "map_code": "te_aldecas5"
+        },
+        {
+            "name": "沈没船 2層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/treasure02",
+            "map_code": "treasure02"
+        }
+    ],
+    "source_html_sha256": "3c43ad2f3a98ae49d8fee7fb3641b85d857512fe0858ed8cba49cb44ed25254b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

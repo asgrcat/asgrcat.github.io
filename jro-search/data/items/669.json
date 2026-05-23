@@ -1,0 +1,67 @@
+{
+    "type": "item",
+    "item_id": "669",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/669\/"
+    },
+    "name": "お雑煮",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "新年のお祝いに\n食べる汁もの。\nお餅や野菜などが\n一緒に煮込まれていて\nおいしそうだ。\nHP・SPを10%回復する",
+    "description_lines": [
+        "新年のお祝いに",
+        "食べる汁もの。",
+        "お餅や野菜などが",
+        "一緒に煮込まれていて",
+        "おいしそうだ。",
+        "HP・SPを10%回復する"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "10"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "710e5b4d24627281d04744fa22a1cca80975753aadd8feaeaedb1132b1032285",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

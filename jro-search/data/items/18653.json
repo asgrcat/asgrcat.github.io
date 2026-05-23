@@ -1,0 +1,105 @@
+{
+    "type": "item",
+    "item_id": "18653",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18653\/"
+    },
+    "name": "デビルチヘッドフォン[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "子悪魔デビルチを模した\nヘッドフォン。\n遮音率が高く外からの音を\nシャットアウトしてくれる。\nMdef + 4\nスタンに対する耐性 + 30%\nキューペットデビルチを\n連れている時、\nマジシャン系、\nアーチャー系、\nアコライト系が装備すると、\n追加でスタンに対する\n耐性 + 5%\nデビルチの親密度が\n[きわめて親しい]場合、\nマジシャン系、\nアーチャー系、\nアコライト系が装備すると、\nさらに追加で\nスタンに対する耐性 + 15%",
+    "description_lines": [
+        "子悪魔デビルチを模した",
+        "ヘッドフォン。",
+        "遮音率が高く外からの音を",
+        "シャットアウトしてくれる。",
+        "Mdef + 4",
+        "スタンに対する耐性 + 30%",
+        "キューペットデビルチを",
+        "連れている時、",
+        "マジシャン系、",
+        "アーチャー系、",
+        "アコライト系が装備すると、",
+        "追加でスタンに対する",
+        "耐性 + 5%",
+        "デビルチの親密度が",
+        "[きわめて親しい]場合、",
+        "マジシャン系、",
+        "アーチャー系、",
+        "アコライト系が装備すると、",
+        "さらに追加で",
+        "スタンに対する耐性 + 15%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 8,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": 30,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "8",
+            "位置": "上段",
+            "重量": "20",
+            "要求レベル": "30",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c10d50e9f98a14563c7d3c5665983c458ffb3a6361d8e7da7fecac88c11e1d8b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

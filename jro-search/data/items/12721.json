@@ -1,0 +1,68 @@
+{
+    "type": "item",
+    "item_id": "12721",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12721\/"
+    },
+    "name": "トキシン",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "神経をマヒさせる毒。\n300秒間、\nアイテムによる\n詠唱が中断されない効果が\n無効化される\n10秒毎に1ダメージを受ける\n10秒毎にSP - 3%",
+    "description_lines": [
+        "神経をマヒさせる毒。",
+        "300秒間、",
+        "アイテムによる",
+        "詠唱が中断されない効果が",
+        "無効化される",
+        "10秒毎に1ダメージを受ける",
+        "10秒毎にSP - 3%"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 2,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "2"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "91a95a5e9fe55eb5546a0b78dc98a606f9753973592f02d883e27be2ecfaff83",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

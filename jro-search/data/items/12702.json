@@ -1,0 +1,66 @@
+{
+    "type": "item",
+    "item_id": "12702",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12702\/"
+    },
+    "name": "気持ち青い箱",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "不思議な青い光が\n出ているような気が\nしないでもない古い箱。\n何が入っているか\nわからない……",
+    "description_lines": [
+        "不思議な青い光が",
+        "出ているような気が",
+        "しないでもない古い箱。",
+        "何が入っているか",
+        "わからない……"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "20"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "83488fb9150944469ab1afc79b4f830061e712786078af680dede63f550280ac",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

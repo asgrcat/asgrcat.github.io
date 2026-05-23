@@ -1,0 +1,90 @@
+{
+    "type": "item",
+    "item_id": "1911",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1911\/"
+    },
+    "name": "ゴムンゴ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "bard": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "東方の小さい国で使用する弦楽器",
+    "description_lines": [
+        "東方の小さい国で使用する弦楽器"
+    ],
+    "properties": {
+        "series": "instrument",
+        "series_normalized": [
+            "instrument"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 126,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 130,
+        "weapon_level": 3,
+        "required_level": 27,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "bard": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "楽器",
+            "攻撃": "126",
+            "重量": "130",
+            "武器レベル": "3",
+            "要求レベル": "27",
+            "装備": "バード系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "cec9cd2b1bac6873d3232d7548abdee613ef710f72b96e4c0a8dc6adadb865fd",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

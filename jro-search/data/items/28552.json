@@ -1,0 +1,101 @@
+{
+    "type": "item",
+    "item_id": "28552",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28552\/"
+    },
+    "name": "猛炎と白魔の指輪[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ジラントが所持する\n七つの魔法具の一つ。\n相反する力を欲した愚者が\n正気を失い、狂気と共に得た\n真理を超越した一品。\n装着部位によって\n得られる力が異なる。\nアクセサリー(1)に装備時、\nMaxSP + 15%\nスキルディレイ - 15%\n[ウォータードラゴンブレス]\nの再使用待機時間 - 0.5秒\nアクセサリー(2)に装備時、\nMaxHP + 15%\n変動詠唱時間 - 15%\n[ファイアードラゴンブレス]\nの再使用待機時間 - 0.5秒",
+    "description_lines": [
+        "ジラントが所持する",
+        "七つの魔法具の一つ。",
+        "相反する力を欲した愚者が",
+        "正気を失い、狂気と共に得た",
+        "真理を超越した一品。",
+        "装着部位によって",
+        "得られる力が異なる。",
+        "アクセサリー(1)に装備時、",
+        "MaxSP + 15%",
+        "スキルディレイ - 15%",
+        "[ウォータードラゴンブレス]",
+        "の再使用待機時間 - 0.5秒",
+        "アクセサリー(2)に装備時、",
+        "MaxHP + 15%",
+        "変動詠唱時間 - 15%",
+        "[ファイアードラゴンブレス]",
+        "の再使用待機時間 - 0.5秒"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 130,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "10",
+            "要求レベル": "130",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "08348278419554a06aff037dcff702fe6edf4f84767c2cdeed7f6f38c74b39e6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

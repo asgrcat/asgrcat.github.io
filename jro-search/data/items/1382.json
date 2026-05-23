@@ -1,0 +1,131 @@
+{
+    "type": "item",
+    "item_id": "1382",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1382\/"
+    },
+    "name": "グロリアスツーハンドアックス[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "人間形モンスターに与える\n物理ダメージ + 40%。\n精錬値が 5以上の時、\n人間形モンスターに与える\n物理ダメージ + 20%。\n人間形モンスターの防御力\n10%無視。\n精錬値が 7以上の時、\n人間形モンスターに与える\n物理ダメージ + 15%。\n人間形モンスターの防御力\n20%無視。\n近接物理攻撃時、\n一定確率でオートスペル\n[致命的な傷]Lv 1発動。\n[虐殺]Lv 2。\n精錬値が 9以上の時、\n近接物理攻撃時に発動する\n[致命的な傷]の\n発動確率上昇。\nスキル\n[メマーナイト]使用時、\n一定確率でオートスペル\n[致命的な傷]Lv 2発動。\nスキル\n[カートターミネーション]\n使用時、\n一定確率でオートスペル\n[致命的な傷]Lv 2発動。\n絶対に破損しない。",
+    "description_lines": [
+        "人間形モンスターに与える",
+        "物理ダメージ + 40%。",
+        "精錬値が 5以上の時、",
+        "人間形モンスターに与える",
+        "物理ダメージ + 20%。",
+        "人間形モンスターの防御力",
+        "10%無視。",
+        "精錬値が 7以上の時、",
+        "人間形モンスターに与える",
+        "物理ダメージ + 15%。",
+        "人間形モンスターの防御力",
+        "20%無視。",
+        "近接物理攻撃時、",
+        "一定確率でオートスペル",
+        "[致命的な傷]Lv 1発動。",
+        "[虐殺]Lv 2。",
+        "精錬値が 9以上の時、",
+        "近接物理攻撃時に発動する",
+        "[致命的な傷]の",
+        "発動確率上昇。",
+        "スキル",
+        "[メマーナイト]使用時、",
+        "一定確率でオートスペル",
+        "[致命的な傷]Lv 2発動。",
+        "スキル",
+        "[カートターミネーション]",
+        "使用時、",
+        "一定確率でオートスペル",
+        "[致命的な傷]Lv 2発動。",
+        "絶対に破損しない。"
+    ],
+    "properties": {
+        "series": "two_handed_axe",
+        "series_normalized": [
+            "two_handed_axe"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 220,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": 4,
+        "required_level": 80,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手斧",
+            "攻撃": "220",
+            "重量": "0",
+            "武器レベル": "4",
+            "要求レベル": "80",
+            "装備": "ソードマン系 マーチャント系 ドルイド系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c6aeb1d39428da0b8fbb0834477e18be67f00efd7a1d2a6196a9974ed7160f20",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

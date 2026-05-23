@@ -1,0 +1,77 @@
+{
+    "type": "item",
+    "item_id": "17571",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/17571\/"
+    },
+    "name": "コスたまSchool",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する。\n・[衣装] 舞い散る桜\n・[衣装] オーバー\nプロテクター\n・[衣装] さくら帽\n・[衣装] アンダーリム\nメガネ（赤）\n・[衣装] 男の勲章（金）\n・[衣装] 男の勲章\n・[衣装] エールホイッスル\n・[衣装] くわえたえんぴつ\n・[衣装] 園児の帽子\n・[衣装] 白い学生帽",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する。",
+        "・[衣装] 舞い散る桜",
+        "・[衣装] オーバー",
+        "プロテクター",
+        "・[衣装] さくら帽",
+        "・[衣装] アンダーリム",
+        "メガネ（赤）",
+        "・[衣装] 男の勲章（金）",
+        "・[衣装] 男の勲章",
+        "・[衣装] エールホイッスル",
+        "・[衣装] くわえたえんぴつ",
+        "・[衣装] 園児の帽子",
+        "・[衣装] 白い学生帽"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "94391116c99ac97a36b0a22384722d3fd16701597d2170326c6dac1b16b1996c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

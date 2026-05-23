@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "2191",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2191\/"
+    },
+    "name": "ソロモンの魔導書[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "大魔法使いソロモン王の\n奥義を記したグリモワール。\n魔導書としては比較的厚い為\n盾としても用いる事が\nできるが、効果は疑わしい。\nInt + 2\nMatk + 5 , Mdef + 5\n純粋なIntが120以上の時、\n追加でMatk + 25\n[知恵の王の指輪]と\n共に装備時、追加で\nスキル使用時の消費SP - 5%",
+    "description_lines": [
+        "大魔法使いソロモン王の",
+        "奥義を記したグリモワール。",
+        "魔導書としては比較的厚い為",
+        "盾としても用いる事が",
+        "できるが、効果は疑わしい。",
+        "Int + 2",
+        "Matk + 5 , Mdef + 5",
+        "純粋なIntが120以上の時、",
+        "追加でMatk + 25",
+        "[知恵の王の指輪]と",
+        "共に装備時、追加で",
+        "スキル使用時の消費SP - 5%"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 2,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 30,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "防御": "2",
+            "重量": "30",
+            "要求レベル": "30",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "574f8f6027697c62a43afc57f9e5fe381832eb04080105205a834cf7085d27ea",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

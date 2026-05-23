@@ -1,0 +1,67 @@
+{
+    "type": "item",
+    "item_id": "6283",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6283\/"
+    },
+    "name": "バナナ爆弾製造本",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "バナナ爆弾の\n作り方が書かれた本。\n+ 雷管",
+    "description_lines": [
+        "バナナ爆弾の",
+        "作り方が書かれた本。",
+        "+ 雷管"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": "バナナ",
+        "materials": {
+            "材料": "バナナ"
+        },
+        "cooldown": null,
+        "raw": {
+            "材料": "バナナ",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "b9c210963b0abf600eba0fb9c7b8a2c5ef7afdbe95939848472c13735427c190",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

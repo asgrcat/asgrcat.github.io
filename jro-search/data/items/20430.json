@@ -1,0 +1,89 @@
+{
+    "type": "item",
+    "item_id": "20430",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20430\/"
+    },
+    "name": "[衣装] 魔神モロクの忠実な下僕[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "魔神モロクを守護する\n霊魂の欠片を模した衣装。\n魔神モロクが\n完全体として蘇る直前に\n手下として呼び出したため\n生と死の境界を表した\n骸骨の姿をしている。",
+    "description_lines": [
+        "魔神モロクを守護する",
+        "霊魂の欠片を模した衣装。",
+        "魔神モロクが",
+        "完全体として蘇る直前に",
+        "手下として呼び出したため",
+        "生と死の境界を表した",
+        "骸骨の姿をしている。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "中段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "5cb134e08235ba5fcf1d65e7e5d9a6274c60426dcf9df4f3efaf56553a2634ad",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

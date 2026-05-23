@@ -1,0 +1,141 @@
+{
+    "type": "item",
+    "item_id": "27369",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27369\/"
+    },
+    "name": "輝くベアドールカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "shoes"
+        ],
+        "card_attachable_positions": {
+            "shoes": true
+        }
+    },
+    "description": "物理攻撃で\n与えるダメージ + 10%\n物理攻撃時、\n不死・悪魔形モンスターに\n与えるダメージ + 50%\nMaxSP - 50%\n[厄災の魔将]と\n共に装備時、追加で\n物理攻撃で\n与えるダメージ + 10%\n[アスペルシオ]\nLv5使用可能",
+    "description_lines": [
+        "物理攻撃で",
+        "与えるダメージ + 10%",
+        "物理攻撃時、",
+        "不死・悪魔形モンスターに",
+        "与えるダメージ + 50%",
+        "MaxSP - 50%",
+        "[厄災の魔将]と",
+        "共に装備時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 10%",
+        "[アスペルシオ]",
+        "Lv5使用可能"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "shoes"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "靴",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "輝くベアドール",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_TEDDY_BEAR_S"
+        },
+        {
+            "name": "光輝くテディベア",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_039"
+        },
+        {
+            "name": "輝くベアドール（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_123"
+        },
+        {
+            "name": "カプロティーナ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_095"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "幻影の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@ld100",
+            "map_code": "3@ld100"
+        },
+        {
+            "name": "幻影の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@le100",
+            "map_code": "3@le100"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ネジリアン帝国",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_d02_i",
+            "map_code": "ein_d02_i"
+        }
+    ],
+    "source_html_sha256": "b389770be7f71505e073c20a4582a03516fcc73ed308ad4c6fe497ef03f63f08",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

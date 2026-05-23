@@ -1,0 +1,129 @@
+{
+    "type": "item",
+    "item_id": "450368",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/450368\/"
+    },
+    "name": "がおがおタイガーパジャマ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "spirit_handler": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ルーンミッドガッツ王国で\n人気のブランドで、\n野生あふれる\n着ぐるみパジャマ。\nとてもよく伸びるので\n大人の人間も\n着ることができる。\nプレイヤーから\n受けるダメージ - 7%\nBaseLvが10上がる度に追加で\n[タイガースラッシュ]、\n[タイガーハウリング]、\n[タイガーストライク]、\n[タイガーバトリング]で\n与えるダメージ + 1%\n[がおがおタイガー\nパジャマ]の\n精錬値が1上がる度に追加で\n物理攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 7%\n[がおがおタイガー\nパジャマ]の\n精錬値が7以上の時、追加で\n攻撃速度 + 10%\n絶対にノックバックしない\n[がおがおタイガー\nパジャマ]の\n精錬値が9以上の時、追加で\n絶対に壊れない\n[警戒]の\n再使用待機時間 - 45秒\n[がおがおタイガー\nパジャマ]の\n精錬値が10の時、追加で\n物理攻撃時、\n全ての属性のモンスターに\n与えるダメージ + 15%",
+    "description_lines": [
+        "ルーンミッドガッツ王国で",
+        "人気のブランドで、",
+        "野生あふれる",
+        "着ぐるみパジャマ。",
+        "とてもよく伸びるので",
+        "大人の人間も",
+        "着ることができる。",
+        "プレイヤーから",
+        "受けるダメージ - 7%",
+        "BaseLvが10上がる度に追加で",
+        "[タイガースラッシュ]、",
+        "[タイガーハウリング]、",
+        "[タイガーストライク]、",
+        "[タイガーバトリング]で",
+        "与えるダメージ + 1%",
+        "[がおがおタイガー",
+        "パジャマ]の",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 7%",
+        "[がおがおタイガー",
+        "パジャマ]の",
+        "精錬値が7以上の時、追加で",
+        "攻撃速度 + 10%",
+        "絶対にノックバックしない",
+        "[がおがおタイガー",
+        "パジャマ]の",
+        "精錬値が9以上の時、追加で",
+        "絶対に壊れない",
+        "[警戒]の",
+        "再使用待機時間 - 45秒",
+        "[がおがおタイガー",
+        "パジャマ]の",
+        "精錬値が10の時、追加で",
+        "物理攻撃時、",
+        "全ての属性のモンスターに",
+        "与えるダメージ + 15%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": 100,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": true,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "spirit_handler": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "位置": "-",
+            "属性": "無",
+            "スロット": "1",
+            "Def": "100",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "100",
+            "要求レベル": "200",
+            "装備": "スピリットハンドラー"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "288bac6e49abbd6d7e33c499504bcccef874b5cea8ecff42ed76bd7060c7aa55",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

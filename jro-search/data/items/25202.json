@@ -1,0 +1,76 @@
+{
+    "type": "item",
+    "item_id": "25202",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/25202\/"
+    },
+    "name": "マジカルソウル",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "特殊な魔術が施された\n不思議な炎。\nこの炎を持っていると、\nガンスリンガー、リベリオン\nのステータスとスキルを\nリセットしてくれる\n術師がいるらしい。\nこのアイテムの利用期間は、\n2016年5月17日定期\nメンテナンス終了から\n2016年6月14日定期\nメンテナンス開始まで\nとなります\n[マジカルソウル]は、\nNPC売却のみ可能です",
+    "description_lines": [
+        "特殊な魔術が施された",
+        "不思議な炎。",
+        "この炎を持っていると、",
+        "ガンスリンガー、リベリオン",
+        "のステータスとスキルを",
+        "リセットしてくれる",
+        "術師がいるらしい。",
+        "このアイテムの利用期間は、",
+        "2016年5月17日定期",
+        "メンテナンス終了から",
+        "2016年6月14日定期",
+        "メンテナンス開始まで",
+        "となります",
+        "[マジカルソウル]は、",
+        "NPC売却のみ可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "421c738be44b92b1315e26e594b2fe8f75e9a1d334b68ce10264cdc3ebcf10ed",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

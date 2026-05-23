@@ -1,0 +1,103 @@
+{
+    "type": "item",
+    "item_id": "5756",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5756\/"
+    },
+    "name": "風のささやき[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sorcerer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "精霊の力が宿った\n羽毛を集めて作った\n儀式用帽子。\nMdef + 5\nInt + 1 , Dex + 1\nヒール系スキル使用時、\nHP回復量 + 5%\n純粋なIntが120以上の時、\n追加で\nMatk + 10\nFlee + 3\n[風のささやき]は\nNPC売却・倉庫への移動が\n可能です",
+    "description_lines": [
+        "精霊の力が宿った",
+        "羽毛を集めて作った",
+        "儀式用帽子。",
+        "Mdef + 5",
+        "Int + 1 , Dex + 1",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 5%",
+        "純粋なIntが120以上の時、",
+        "追加で",
+        "Matk + 10",
+        "Flee + 3",
+        "[風のささやき]は",
+        "NPC売却・倉庫への移動が",
+        "可能です"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 12,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sorcerer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "12",
+            "位置": "上段",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "ソーサラー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "61290a408d78a53d85cc0749a0bf810102eafa8a6226863d99dd858c01bcb4e8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

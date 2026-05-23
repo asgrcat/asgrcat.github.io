@@ -1,0 +1,90 @@
+{
+    "type": "item",
+    "item_id": "5945",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5945\/"
+    },
+    "name": "くわえたえんぴつ（赤）[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "力強くくわえることで\n発生する火花から\n炎が巻き上がる不思議な\n赤いえんぴつ。\nStr + 1\n物理攻撃命中時、\n一定確率で60秒間、\n武器に火属性を付与する",
+    "description_lines": [
+        "力強くくわえることで",
+        "発生する火花から",
+        "炎が巻き上がる不思議な",
+        "赤いえんぴつ。",
+        "Str + 1",
+        "物理攻撃命中時、",
+        "一定確率で60秒間、",
+        "武器に火属性を付与する"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 30,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "下段",
+            "重量": "30",
+            "要求レベル": "30",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e63c2db873faad816d56e9b7109c31824ec740c91aa79a13a0afce2c542511e8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

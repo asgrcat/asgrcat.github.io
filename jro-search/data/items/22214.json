@@ -1,0 +1,104 @@
+{
+    "type": "item",
+    "item_id": "22214",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/22214\/"
+    },
+    "name": "オーソリティーサンダル[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "栄光を授かりし者のみに\n与えられるサンダル。\n神々の主とされる\n古代の太陽神の\n加護を得ている。\n全ての基本ステータス + 10\n全ての種族の\nDef・Mdef 50%無視\n[オーソリティーサンダル]の\n精錬値が7以上の時、追加で\n全ての基本ステータス + 10\n[オーソリティーサンダル]の\n精錬値が9以上の時、追加で\n全ての基本ステータス + 10",
+    "description_lines": [
+        "栄光を授かりし者のみに",
+        "与えられるサンダル。",
+        "神々の主とされる",
+        "古代の太陽神の",
+        "加護を得ている。",
+        "全ての基本ステータス + 10",
+        "全ての種族の",
+        "Def・Mdef 50%無視",
+        "[オーソリティーサンダル]の",
+        "精錬値が7以上の時、追加で",
+        "全ての基本ステータス + 10",
+        "[オーソリティーサンダル]の",
+        "精錬値が9以上の時、追加で",
+        "全ての基本ステータス + 10"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 10,
+        "atk": null,
+        "mdef": 10,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "10",
+            "Mdef": "10",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "50",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6e45c784f1ea558823cac809ab6dfbba08dfb67362250b30f1245d65ca162f07",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

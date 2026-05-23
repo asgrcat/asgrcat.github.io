@@ -1,0 +1,118 @@
+{
+    "type": "item",
+    "item_id": "18985",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18985\/"
+    },
+    "name": "鳥狩の呼子[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "hunter": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "グリフォンの羽を模して\n作られた笛。\nファルコンに的確な指示を\n送ることができる特殊な音が\n出せるようだ。\n物理攻撃命中時、\n一定確率で\nオートスペル\n[ブリッツビート]が\n習得Lvで発動\n[ブリッツビート]の\n習得Lvが高い程\n発動率が上昇\n純粋なLukが高い程\n[ブリッツビート]の\n発動率が上昇\nただし、発動率に影響する\n純粋なLukは最大120まで\n[鳥狩の鉤爪]と\n共に装備時、追加で\n[ブリッツビート]で\n与えるダメージ + 100%\n[鳥狩の弓懸]と\n共に装備時、追加で\n[ファルコンアサルト]で\n与えるダメージ + 50%\n[鳥狩の呼子]、\n[鳥狩の鉤爪]、\n[鳥狩の弓懸]\nを共に装備時、追加で\n[ブリッツビート]で\n与えるダメージ + 200%",
+    "description_lines": [
+        "グリフォンの羽を模して",
+        "作られた笛。",
+        "ファルコンに的確な指示を",
+        "送ることができる特殊な音が",
+        "出せるようだ。",
+        "物理攻撃命中時、",
+        "一定確率で",
+        "オートスペル",
+        "[ブリッツビート]が",
+        "習得Lvで発動",
+        "[ブリッツビート]の",
+        "習得Lvが高い程",
+        "発動率が上昇",
+        "純粋なLukが高い程",
+        "[ブリッツビート]の",
+        "発動率が上昇",
+        "ただし、発動率に影響する",
+        "純粋なLukは最大120まで",
+        "[鳥狩の鉤爪]と",
+        "共に装備時、追加で",
+        "[ブリッツビート]で",
+        "与えるダメージ + 100%",
+        "[鳥狩の弓懸]と",
+        "共に装備時、追加で",
+        "[ファルコンアサルト]で",
+        "与えるダメージ + 50%",
+        "[鳥狩の呼子]、",
+        "[鳥狩の鉤爪]、",
+        "[鳥狩の弓懸]",
+        "を共に装備時、追加で",
+        "[ブリッツビート]で",
+        "与えるダメージ + 200%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 75,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "hunter": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "下段",
+            "重量": "10",
+            "要求レベル": "75",
+            "装備": "ハンター系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "80b2f89a3ea6ec0337474d3676ae1340bde93494ea8b42a30e4f4953b7af1147",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

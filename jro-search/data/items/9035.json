@@ -1,0 +1,102 @@
+{
+    "type": "item",
+    "item_id": "9035",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/9035\/"
+    },
+    "name": "グラウンドデリーターの卵[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ペット\n[グラウンドデリーター]が\n眠っている卵。\n[携帯卵孵化機]で\n眠っているモンスターを\n目覚めさせる。\nBaseLv100以上の時、\n物理・魔法攻撃時、\n竜形モンスターに\n与えるダメージ + 5%\n[ワンダーエッグバスケット]\nと共に装備時、追加で\nAtk + 200 , Matk + 200\nDef + 150 , Mdef + 15\n[グラウンド\nデリーターの卵]の\n効果は、攻城戦・新攻城戦・\n攻城戦TEの砦内・\nモンスターハウスでは\n発揮されず、解除されます\n[グラウンド\nデリーターの卵]は\nNPC売却のみ可能です\n詳細は公式サイトを\nご確認ください。\n[公式サイト]",
+    "description_lines": [
+        "ペット",
+        "[グラウンドデリーター]が",
+        "眠っている卵。",
+        "[携帯卵孵化機]で",
+        "眠っているモンスターを",
+        "目覚めさせる。",
+        "BaseLv100以上の時、",
+        "物理・魔法攻撃時、",
+        "竜形モンスターに",
+        "与えるダメージ + 5%",
+        "[ワンダーエッグバスケット]",
+        "と共に装備時、追加で",
+        "Atk + 200 , Matk + 200",
+        "Def + 150 , Mdef + 15",
+        "[グラウンド",
+        "デリーターの卵]の",
+        "効果は、攻城戦・新攻城戦・",
+        "攻城戦TEの砦内・",
+        "モンスターハウスでは",
+        "発揮されず、解除されます",
+        "[グラウンド",
+        "デリーターの卵]は",
+        "NPC売却のみ可能です",
+        "詳細は公式サイトを",
+        "ご確認ください。",
+        "[公式サイト]"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": "monster_egg",
+        "accessory": "なし",
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": "丸焼きバーベキュー",
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "種類": "モンスターの卵",
+            "重量": "0",
+            "餌": "丸焼きバーベキュー",
+            "アクセサリー": "なし"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "94584b9b81a2cfcfb7a0d3a7637af192c2ccc266b77a49a29162d8fdf30c9209",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

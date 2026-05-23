@@ -1,0 +1,117 @@
+{
+    "type": "item",
+    "item_id": "300262",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300262\/"
+    },
+    "name": "変異キメラ・ザ・ワンカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "armor"
+        ],
+        "card_attachable_positions": {
+            "armor": true
+        }
+    },
+    "description": "物理攻撃時、\n無・竜形モンスターに\n与えるダメージ + 40%\n火・毒属性モンスターに\n与えるダメージ + 40%\n[知識の探求者]と\n共に装備時、追加で\nMaxHP + 50%\n[ベナムインプレス]\nLv3使用可能",
+    "description_lines": [
+        "物理攻撃時、",
+        "無・竜形モンスターに",
+        "与えるダメージ + 40%",
+        "火・毒属性モンスターに",
+        "与えるダメージ + 40%",
+        "[知識の探求者]と",
+        "共に装備時、追加で",
+        "MaxHP + 50%",
+        "[ベナムインプレス]",
+        "Lv3使用可能"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "armor"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "鎧",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "変異キメラ・ザ・ワン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CHIMERA_THEONE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "亜空の迷宮 荒廃した実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg108",
+            "map_code": "2@lg108"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "廃棄実験所アミシティア 02(1)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/amicitia2",
+            "map_code": "amicitia2"
+        },
+        {
+            "name": "廃棄実験所アミシティア 02(2)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/amicitia2b",
+            "map_code": "amicitia2b"
+        },
+        {
+            "name": "廃棄実験所アミシティア 02(3)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/amicitia2c",
+            "map_code": "amicitia2c"
+        }
+    ],
+    "source_html_sha256": "75a439f889466b1a310419bd938f4f9977ecbedeb4588015d0597af920966a55",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

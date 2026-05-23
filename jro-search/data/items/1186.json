@@ -1,0 +1,227 @@
+{
+    "type": "item",
+    "item_id": "1186",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1186\/"
+    },
+    "name": "死の引導者[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "あらゆる存在を破壊する為に\n存在する呪われた武器。\n武器の呪いは持ち主までも\n不幸にさせると言う。\nSTR + 5、AGI + 2\n完全回避 + 20\n物理攻撃時、一定確率で\n自分と敵に対し死亡時に\n数分間復活ができない\n状態異常がかかる。\n物理攻撃時、一定確率で\n自分を中心に11*11セル\nの中のすべてのモンスターに\n100%のダメージを与えつつ、\n与えたダメージの100%のHPを\n回復する。\n精錬値が9以上の場合、\n15*15セルの中のすべての\nモンスターに200%のダメージ\nを与えつつHPを回復する。",
+    "description_lines": [
+        "あらゆる存在を破壊する為に",
+        "存在する呪われた武器。",
+        "武器の呪いは持ち主までも",
+        "不幸にさせると言う。",
+        "STR + 5、AGI + 2",
+        "完全回避 + 20",
+        "物理攻撃時、一定確率で",
+        "自分と敵に対し死亡時に",
+        "数分間復活ができない",
+        "状態異常がかかる。",
+        "物理攻撃時、一定確率で",
+        "自分を中心に11*11セル",
+        "の中のすべてのモンスターに",
+        "100%のダメージを与えつつ、",
+        "与えたダメージの100%のHPを",
+        "回復する。",
+        "精錬値が9以上の場合、",
+        "15*15セルの中のすべての",
+        "モンスターに200%のダメージ",
+        "を与えつつHPを回復する。"
+    ],
+    "properties": {
+        "series": "two_handed_sword",
+        "series_normalized": [
+            "two_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 2,
+        "def": null,
+        "atk": 200,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 200,
+        "weapon_level": 4,
+        "required_level": 70,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手剣",
+            "攻撃": "200",
+            "重量": "200",
+            "武器レベル": "4",
+            "要求レベル": "70",
+            "装備": "転生ソードマン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "テンドリルリオン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/TENDRILRION"
+        },
+        {
+            "name": "魔眼のアムダライス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MG_AMDARAIS_H"
+        },
+        {
+            "name": "アムダライス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MG_AMDARAIS"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "古の騎士団02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@gl_k",
+            "map_code": "2@gl_k"
+        },
+        {
+            "name": "古の騎士団02(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@gl_kh",
+            "map_code": "2@gl_kh"
+        },
+        {
+            "name": "試練の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_17",
+            "map_code": "2@la_17"
+        },
+        {
+            "name": "試練の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_21",
+            "map_code": "2@la_21"
+        },
+        {
+            "name": "試練の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_22",
+            "map_code": "2@la_22"
+        },
+        {
+            "name": "封印の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_17",
+            "map_code": "2@lb_17"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_21",
+            "map_code": "2@lb_21"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_22",
+            "map_code": "2@lb_22"
+        },
+        {
+            "name": "異形の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_17",
+            "map_code": "2@lc_17"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld217",
+            "map_code": "2@ld217"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld221",
+            "map_code": "2@ld221"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld222",
+            "map_code": "2@ld222"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf217",
+            "map_code": "2@lf217"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf221",
+            "map_code": "2@lf221"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf222",
+            "map_code": "2@lf222"
+        },
+        {
+            "name": "亜空の迷宮 悲哀の王城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg122",
+            "map_code": "2@lg122"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "スプレンディッドフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/spl_fild03",
+            "map_code": "spl_fild03"
+        }
+    ],
+    "source_html_sha256": "709e6a6ce5677dd4bbfc5c81b06a46e242a1baa72b51c91be4218db04361a3a7",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

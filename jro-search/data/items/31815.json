@@ -1,0 +1,97 @@
+{
+    "type": "item",
+    "item_id": "31815",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31815\/"
+    },
+    "name": "[衣装] アンゴラの遺志[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "upper": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "プロンテラの一部の若者から\n人気を博している小説\n『月の帝国』\n(ルナー・チック著)\nの登場人物\n「毛玉大帝アンゴラ」\nの姿を模った衣装用の装飾。\n弱く小さくとも\n決して諦めなかった彼の\n強い遺志を灯している。",
+    "description_lines": [
+        "プロンテラの一部の若者から",
+        "人気を博している小説",
+        "『月の帝国』",
+        "(ルナー・チック著)",
+        "の登場人物",
+        "「毛玉大帝アンゴラ」",
+        "の姿を模った衣装用の装飾。",
+        "弱く小さくとも",
+        "決して諦めなかった彼の",
+        "強い遺志を灯している。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "位置": "上段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "3210f19d26df7eb619f700349226ebc0e4e5b4aaa4fad3d060d2915e5aa72003",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

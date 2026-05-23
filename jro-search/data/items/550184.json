@@ -1,0 +1,136 @@
+{
+    "type": "item",
+    "item_id": "550184",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/550184\/"
+    },
+    "name": "セプルクルム・ホノリス・ダークワンド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "soul_ascetic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "暴走した思念体たちの怨嗟が\n宿っている片手杖。\nプレイヤーから\n受けるダメージ - 10%\n[セプルクルム・ホノリス・\nダークワンド]の\n精錬値が1上がる度に追加で\n魔法攻撃時、\n全ての種族のモンスターに\n与えるダメージ + 10%\n[セプルクルム・ホノリス・\nダークワンド]の\n超越段階が1以上の時、\n精錬値が1上がる度に追加で\n[エスパ]、\n[エスフ]、\n[死霊爆発]で\n与えるダメージ + 5%\n[セプルクルム・ホノリス・\nダークワンド]の\n超越段階が1以上の時、\n精錬値が10の時、追加で\nMaxHP + 15%\n毒属性攻撃で\n受けるダメージ - 10%\n[殺意の怨念]と\n共に装備時、\nBaseLvが10上がる度に追加で\n[青龍符]、\n[白虎符]、\n[朱雀符]、\n[玄武符]、\n[四方神符]、\n[四方五行陣]で\n与えるダメージ + 1%\n[偽りの心臓]と\n共に装備時、追加で\nMaxHP + 15%\nボスモンスターから\n受けるダメージ - 10%\n[クローキング]\nLv3使用可能",
+    "description_lines": [
+        "暴走した思念体たちの怨嗟が",
+        "宿っている片手杖。",
+        "プレイヤーから",
+        "受けるダメージ - 10%",
+        "[セプルクルム・ホノリス・",
+        "ダークワンド]の",
+        "精錬値が1上がる度に追加で",
+        "魔法攻撃時、",
+        "全ての種族のモンスターに",
+        "与えるダメージ + 10%",
+        "[セプルクルム・ホノリス・",
+        "ダークワンド]の",
+        "超越段階が1以上の時、",
+        "精錬値が1上がる度に追加で",
+        "[エスパ]、",
+        "[エスフ]、",
+        "[死霊爆発]で",
+        "与えるダメージ + 5%",
+        "[セプルクルム・ホノリス・",
+        "ダークワンド]の",
+        "超越段階が1以上の時、",
+        "精錬値が10の時、追加で",
+        "MaxHP + 15%",
+        "毒属性攻撃で",
+        "受けるダメージ - 10%",
+        "[殺意の怨念]と",
+        "共に装備時、",
+        "BaseLvが10上がる度に追加で",
+        "[青龍符]、",
+        "[白虎符]、",
+        "[朱雀符]、",
+        "[玄武符]、",
+        "[四方神符]、",
+        "[四方五行陣]で",
+        "与えるダメージ + 1%",
+        "[偽りの心臓]と",
+        "共に装備時、追加で",
+        "MaxHP + 15%",
+        "ボスモンスターから",
+        "受けるダメージ - 10%",
+        "[クローキング]",
+        "Lv3使用可能"
+    ],
+    "properties": {
+        "series": "one_handed_staff",
+        "series_normalized": [
+            "one_handed_staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 60,
+        "mdef": null,
+        "matk": 180,
+        "refinement": true,
+        "breakable": false,
+        "weight": 30,
+        "weapon_level": 4,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "soul_ascetic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手杖",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "60",
+            "Matk": "180",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "30",
+            "要求レベル": "200",
+            "装備": "ソウルアセティック"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f6ef0d543237ff77bde489d0b59517d59dd18692b426be7d1adb417111f42d7d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

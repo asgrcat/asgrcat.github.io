@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "310203",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/310203\/"
+    },
+    "name": "斬魔",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "精錬値が1上がる度に追加で\n魔法攻撃で\n与えるダメージ + 4%\n[Int + 7]と\n共に装備時、追加で\n全ての種族のMdef 100%無視",
+    "description_lines": [
+        "精錬値が1上がる度に追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 4%",
+        "[Int + 7]と",
+        "共に装備時、追加で",
+        "全ての種族のMdef 100%無視"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "20c33baeadffc95c4183e19d4a528323dcf17e2508d68e7e9fb4f7e717dd032a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

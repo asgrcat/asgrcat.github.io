@@ -1,0 +1,100 @@
+{
+    "type": "item",
+    "item_id": "460004",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/460004\/"
+    },
+    "name": "イルシオンシールドI[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "イルシオンの技術の\n粋を集めて作られた\n戦闘用のシールド。\nMaxHP + 10% , MaxSP + 10%\nBaseLv170以上の時、追加で\n無属性攻撃で\n受けるダメージ - 5%\n[イルシオンシールドI]の\n精錬値が3上がる度に追加で\nDef + 50 , Mdef + 5",
+    "description_lines": [
+        "イルシオンの技術の",
+        "粋を集めて作られた",
+        "戦闘用のシールド。",
+        "MaxHP + 10% , MaxSP + 10%",
+        "BaseLv170以上の時、追加で",
+        "無属性攻撃で",
+        "受けるダメージ - 5%",
+        "[イルシオンシールドI]の",
+        "精錬値が3上がる度に追加で",
+        "Def + 50 , Mdef + 5"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 95,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": true,
+        "weight": 120,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "95",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "120",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "317db7cbef0821a44e09b9e75c47b6f84e6d4a25a7eeedfeb99c9f6fba340039",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

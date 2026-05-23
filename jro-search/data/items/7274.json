@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "7274",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7274\/"
+    },
+    "name": "古代言語の翻訳書",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "「スタージュエルのかけら」によって明らかになった古代言語を解読した本。\n「強大な力への扉は、天に届く塔を望む天空にある。\nその扉を開く鍵は、古い木々の涙、月のように冷たい心臓、そして日の如く海原で伸びる多くの草々である。」\n_",
+    "description_lines": [
+        "「スタージュエルのかけら」によって明らかになった古代言語を解読した本。",
+        "「強大な力への扉は、天に届く塔を望む天空にある。",
+        "その扉を開く鍵は、古い木々の涙、月のように冷たい心臓、そして日の如く海原で伸びる多くの草々である。」",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "3ef90dca04d23328529074d5755b2ce786f0794e07110d888d3a1dfc725d8b33",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

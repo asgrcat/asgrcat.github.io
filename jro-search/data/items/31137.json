@@ -1,0 +1,95 @@
+{
+    "type": "item",
+    "item_id": "31137",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31137\/"
+    },
+    "name": "[衣装] 青烏の薔薇飾り[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "在る所に青い烏(カラス)が\n居り、その青い烏は\n自分と同じ青い薔薇を\n好んでつけたという、\nどこかの国の昔話を元にした\n衣装用の髪飾り。\n誰が作ったのかは\n分からないが、\n不思議な力が篭っている\n気がする。",
+    "description_lines": [
+        "在る所に青い烏(カラス)が",
+        "居り、その青い烏は",
+        "自分と同じ青い薔薇を",
+        "好んでつけたという、",
+        "どこかの国の昔話を元にした",
+        "衣装用の髪飾り。",
+        "誰が作ったのかは",
+        "分からないが、",
+        "不思議な力が篭っている",
+        "気がする。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "上段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "5daa445237662d04d35a389ae246caa98536835a8affadf2a3457a71add72fd1",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

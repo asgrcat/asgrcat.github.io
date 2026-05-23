@@ -1,0 +1,158 @@
+{
+    "type": "item",
+    "item_id": "903",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/903\/"
+    },
+    "name": "爬虫類の舌",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "爬虫類の舌。収集品商人に売る事ができる。\n_",
+    "description_lines": [
+        "爬虫類の舌。収集品商人に売る事ができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "フリルドラ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/FRILLDORA"
+        },
+        {
+            "name": "グリーンイグアナ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GREEN_IGUANA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_01",
+            "map_code": "2@la_01"
+        },
+        {
+            "name": "試練の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_08",
+            "map_code": "2@la_08"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_01",
+            "map_code": "2@lb_01"
+        },
+        {
+            "name": "封印の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_08",
+            "map_code": "2@lb_08"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_01",
+            "map_code": "2@lc_01"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld201",
+            "map_code": "2@ld201"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld208",
+            "map_code": "2@ld208"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le101",
+            "map_code": "2@le101"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf201",
+            "map_code": "2@lf201"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf208",
+            "map_code": "2@lf208"
+        },
+        {
+            "name": "亜空の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg101",
+            "map_code": "2@lg101"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "コモドフィールド 07（ファロス燈台島）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/cmd_fild07",
+            "map_code": "cmd_fild07"
+        },
+        {
+            "name": "フィゲルフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild02",
+            "map_code": "hu_fild02"
+        },
+        {
+            "name": "フィゲルフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild04",
+            "map_code": "hu_fild04"
+        },
+        {
+            "name": "フィゲルフィールド 05（アビスレイク）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild05",
+            "map_code": "hu_fild05"
+        },
+        {
+            "name": "ソグラト砂漠 17",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild17",
+            "map_code": "moc_fild17"
+        }
+    ],
+    "source_html_sha256": "fdf4e68ecde0cfd44af88b22424dbcb7c2a87ff57c195c99719b564382beda8f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

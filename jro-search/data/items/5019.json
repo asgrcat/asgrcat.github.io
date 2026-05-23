@@ -1,0 +1,128 @@
+{
+    "type": "item",
+    "item_id": "5019",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5019\/"
+    },
+    "name": "コルセア[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "海賊の船長が被る大きい帽子。船長の権威を示す為に、まるで海を漂う海賊船のような形になっている。しかし、結構古いもののようだ。\nVIT + 1",
+    "description_lines": [
+        "海賊の船長が被る大きい帽子。船長の権威を示す為に、まるで海を漂う海賊船のような形になっている。しかし、結構古いもののようだ。",
+        "VIT + 1"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 11,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "11",
+            "位置": "上段",
+            "重量": "50",
+            "装備": "ノービス系を除く全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ドレイク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DRAKE"
+        },
+        {
+            "name": "ドレイク（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_DRAKE"
+        },
+        {
+            "name": "船長",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_260"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "沈没船 2層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/treasure02",
+            "map_code": "treasure02"
+        }
+    ],
+    "source_html_sha256": "e5d0ace13d6f76c2c44bc6a202c30c9c24139e8252ba997ba1e080fd1e9a39e2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

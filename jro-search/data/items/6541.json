@@ -1,0 +1,69 @@
+{
+    "type": "item",
+    "item_id": "6541",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6541\/"
+    },
+    "name": "エイヴァントの研究資料",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "魔学者エイヴァントが\nオーブの魔力について\n研究した資料。\nオーブに魔力が凝集される\n原理と、魔力を抽出して\n活用する等の、全般的な研究\n及び実験内容が記録されて\nいる。",
+    "description_lines": [
+        "魔学者エイヴァントが",
+        "オーブの魔力について",
+        "研究した資料。",
+        "オーブに魔力が凝集される",
+        "原理と、魔力を抽出して",
+        "活用する等の、全般的な研究",
+        "及び実験内容が記録されて",
+        "いる。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "491ddb199d53abc2325882e5497f64e1ae7391f759eb7df0b8630e3b9cc7f135",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

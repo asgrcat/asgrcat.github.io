@@ -1,0 +1,112 @@
+{
+    "type": "item",
+    "item_id": "15191",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15191\/"
+    },
+    "name": "カーリッツバーグ騎士団の鎧[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "カーリッツバーグ騎士団が\n着用していた鎧であり、\n強い力を宿している。\nカーリッツバーグ騎士団の\nどの女性が着ていたか\n気になるところではあるが\n不明である。\n人間形モンスターから\n受けるダメージ - 1%\n[カーリッツバーグ\n騎士団の鎧]の\n精錬値が1上がる度に追加で\n遠距離物理攻撃で\n与えるダメージ + 2%\n[カーリッツバーグ\n騎士団の鎧]の\n超越段階が1以上の時、\n精錬値が1上がる度に追加で\n攻撃速度 + 1%\n[カーリッツバーグ\n騎士団の鎧]の\n超越段階が1以上の時、\n精錬値が10の時、追加で\n必中攻撃 + 25%\n絶対に壊れない",
+    "description_lines": [
+        "カーリッツバーグ騎士団が",
+        "着用していた鎧であり、",
+        "強い力を宿している。",
+        "カーリッツバーグ騎士団の",
+        "どの女性が着ていたか",
+        "気になるところではあるが",
+        "不明である。",
+        "人間形モンスターから",
+        "受けるダメージ - 1%",
+        "[カーリッツバーグ",
+        "騎士団の鎧]の",
+        "精錬値が1上がる度に追加で",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 2%",
+        "[カーリッツバーグ",
+        "騎士団の鎧]の",
+        "超越段階が1以上の時、",
+        "精錬値が1上がる度に追加で",
+        "攻撃速度 + 1%",
+        "[カーリッツバーグ",
+        "騎士団の鎧]の",
+        "超越段階が1以上の時、",
+        "精錬値が10の時、追加で",
+        "必中攻撃 + 25%",
+        "絶対に壊れない"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": 45,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": true,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "位置": "-",
+            "属性": "無",
+            "スロット": "1",
+            "Def": "45",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "21cbfc0ed55379ba71cdc4542463fe8b4ca01b920c2aca7fe3ce9970b7f89301",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,111 @@
+{
+    "type": "item",
+    "item_id": "1479",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1479\/"
+    },
+    "name": "妖怪の槍[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "妖怪に復讐するために\n製作者が自分の身を犠牲に\nして作った強力な両手槍。\n槍に製作者の意志が\n宿っている為、使用者の意識を\n支配しようとするらしい。\n闇属性、悪魔形、\n不死形モンスターに\n与えるダメージ + 20%。\n悪魔形、不死形モンスター\nからの攻撃耐性 + 10%、\n闇属性攻撃耐性 + 10%。\n敵を倒した時、HP 50 回復。\n物理攻撃時、一定確率で\n自分を混乱状態にする。\n封印の赤い絹と共に\n装備すると、自分が混乱状態に\nなる確率減少。",
+    "description_lines": [
+        "妖怪に復讐するために",
+        "製作者が自分の身を犠牲に",
+        "して作った強力な両手槍。",
+        "槍に製作者の意志が",
+        "宿っている為、使用者の意識を",
+        "支配しようとするらしい。",
+        "闇属性、悪魔形、",
+        "不死形モンスターに",
+        "与えるダメージ + 20%。",
+        "悪魔形、不死形モンスター",
+        "からの攻撃耐性 + 10%、",
+        "闇属性攻撃耐性 + 10%。",
+        "敵を倒した時、HP 50 回復。",
+        "物理攻撃時、一定確率で",
+        "自分を混乱状態にする。",
+        "封印の赤い絹と共に",
+        "装備すると、自分が混乱状態に",
+        "なる確率減少。"
+    ],
+    "properties": {
+        "series": "two_handed_spear",
+        "series_normalized": [
+            "two_handed_spear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 170,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 200,
+        "weapon_level": 4,
+        "required_level": 75,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手槍",
+            "攻撃": "170",
+            "重量": "200",
+            "武器レベル": "4",
+            "要求レベル": "75",
+            "装備": "ソードマン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "b6910d0252977a1445f2f06b9627d5350ab610e2002890ca9718ad44622d8518",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

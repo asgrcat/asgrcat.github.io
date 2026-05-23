@@ -1,0 +1,82 @@
+{
+    "type": "item",
+    "item_id": "200854",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/200854\/"
+    },
+    "name": "アリテア装備交換チケットの箱",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "このアイテムの利用期間は\n2026年5月26日(火)\n定期メンテナンス開始\nまでとなります\n利用期間終了後に箱を\nあけた場合は\n何も出現しません\n[アリテア装備\n交換チケット]が\n1個入っている箱。\n[アリテア装備\n交換チケット]：\n・ギムレットの部屋\n(iz_gimlet)\n座標(38 97)にいるNPC\n「ミスティア」\nに持って行こう\n[アリテア装備\n交換チケット]は\n箱を開けてから1176時間後に\n自動的に消滅します",
+    "description_lines": [
+        "このアイテムの利用期間は",
+        "2026年5月26日(火)",
+        "定期メンテナンス開始",
+        "までとなります",
+        "利用期間終了後に箱を",
+        "あけた場合は",
+        "何も出現しません",
+        "[アリテア装備",
+        "交換チケット]が",
+        "1個入っている箱。",
+        "[アリテア装備",
+        "交換チケット]：",
+        "・ギムレットの部屋",
+        "(iz_gimlet)",
+        "座標(38 97)にいるNPC",
+        "「ミスティア」",
+        "に持って行こう",
+        "[アリテア装備",
+        "交換チケット]は",
+        "箱を開けてから1176時間後に",
+        "自動的に消滅します"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "2642c213107a0d1e412c48ae0fb2944144534c041ed89b19706113fe3130eaf4",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

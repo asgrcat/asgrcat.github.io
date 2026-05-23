@@ -1,0 +1,73 @@
+{
+    "type": "item",
+    "item_id": "1000872",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000872\/"
+    },
+    "name": "+9確定精錬チケット",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ミッドガルド大陸では\n取り扱われていない\n未知のチケット。\n高尚な精錬を行う際に\n必要らしい。\n[+9確定精錬チケット]：\n・モロク(morocc)\n座標(131 61)にいるNPC\n「サンバ」に\n持って行こう\n[+9確定精錬チケット]は\n倉庫への移動のみ可能です",
+    "description_lines": [
+        "ミッドガルド大陸では",
+        "取り扱われていない",
+        "未知のチケット。",
+        "高尚な精錬を行う際に",
+        "必要らしい。",
+        "[+9確定精錬チケット]：",
+        "・モロク(morocc)",
+        "座標(131 61)にいるNPC",
+        "「サンバ」に",
+        "持って行こう",
+        "[+9確定精錬チケット]は",
+        "倉庫への移動のみ可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "8e74b4824a3ecc95860eca4463d0f17a1a716f340529bf25d1aecd48b4ac171f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

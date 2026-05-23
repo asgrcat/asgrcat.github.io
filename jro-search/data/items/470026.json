@@ -1,0 +1,123 @@
+{
+    "type": "item",
+    "item_id": "470026",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/470026\/"
+    },
+    "name": "ぷりちーウリボウシューズ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ルーンミッドガッツ王国で\n人気のブランドで、\n生まれたての\nうりぼうのような\nキュートでプリチーな靴。\nMaxHP + 3% , MaxSP + 3%\n[生命の魂]Lv1\n習得時、追加で\nAtk + 100\n物理攻撃命中時、\n一定確率で15秒間、\n[猪突猛進]状態になる\n[警戒]の\n習得Lvが1上がる度に追加で\n攻撃速度 + 5%\n[群れの力]Lv5\n習得時、追加で\n必中攻撃 + 50%\nスキルディレイ - 50%\n[サベージの魂]の\n習得Lvが1上がる度に追加で\nアニマル系スキルの\n変動詠唱時間 - 10%\n[ぷりちー\nウリボウシューズ]の\n精錬値が5以上の時、追加で\nMaxHP + 7% , MaxSP + 7%\nスキルディレイ - 10%\n[ぷりちー\nウリボウシューズ]の\n精錬値が7以上の時、追加で\nMaxHP + 10% , MaxSP + 10%\nスキルディレイ - 10%",
+    "description_lines": [
+        "ルーンミッドガッツ王国で",
+        "人気のブランドで、",
+        "生まれたての",
+        "うりぼうのような",
+        "キュートでプリチーな靴。",
+        "MaxHP + 3% , MaxSP + 3%",
+        "[生命の魂]Lv1",
+        "習得時、追加で",
+        "Atk + 100",
+        "物理攻撃命中時、",
+        "一定確率で15秒間、",
+        "[猪突猛進]状態になる",
+        "[警戒]の",
+        "習得Lvが1上がる度に追加で",
+        "攻撃速度 + 5%",
+        "[群れの力]Lv5",
+        "習得時、追加で",
+        "必中攻撃 + 50%",
+        "スキルディレイ - 50%",
+        "[サベージの魂]の",
+        "習得Lvが1上がる度に追加で",
+        "アニマル系スキルの",
+        "変動詠唱時間 - 10%",
+        "[ぷりちー",
+        "ウリボウシューズ]の",
+        "精錬値が5以上の時、追加で",
+        "MaxHP + 7% , MaxSP + 7%",
+        "スキルディレイ - 10%",
+        "[ぷりちー",
+        "ウリボウシューズ]の",
+        "精錬値が7以上の時、追加で",
+        "MaxHP + 10% , MaxSP + 10%",
+        "スキルディレイ - 10%"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 12,
+        "atk": null,
+        "mdef": 10,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "12",
+            "Mdef": "10",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f7f27e3b1573abed645acb31bc71fc360d0b3d41221c362c93413ea6806150ca",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

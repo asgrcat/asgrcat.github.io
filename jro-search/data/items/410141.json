@@ -1,0 +1,101 @@
+{
+    "type": "item",
+    "item_id": "410141",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/410141\/"
+    },
+    "name": "ゴルゴーンの花冠[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "身に着けることで\n恐るべき力を発揮するが\nその力に溺れてしまうと\nやがて醜い怪物となり\n英雄に首を切り落とされると\n言い伝えられている。\nMaxHP + 15%\n全ての種族のモンスターから\n受けるダメージ - 5%\n[イージスシステム]と\n共に装備時、追加で\n移動速度増加\nプレイヤーから\n受けるダメージ - 5%",
+    "description_lines": [
+        "身に着けることで",
+        "恐るべき力を発揮するが",
+        "その力に溺れてしまうと",
+        "やがて醜い怪物となり",
+        "英雄に首を切り落とされると",
+        "言い伝えられている。",
+        "MaxHP + 15%",
+        "全ての種族のモンスターから",
+        "受けるダメージ - 5%",
+        "[イージスシステム]と",
+        "共に装備時、追加で",
+        "移動速度増加",
+        "プレイヤーから",
+        "受けるダメージ - 5%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": "-",
+        "slot": 0,
+        "def": 2,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "中段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "2",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "30",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "80e9aca657831af45ec248bb16712806f5a4a26f02b9746018c3b49b45caede8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,90 @@
+{
+    "type": "item",
+    "item_id": "2356",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2356\/"
+    },
+    "name": "恩寵の法衣[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "priest": true,
+                "monk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "不浄なるもの、汚れしものに対し高い防御力を持つ、祝福された聖なる衣服。\n暗闇に対する耐性 80%。\nMDEF + 5。",
+    "description_lines": [
+        "不浄なるもの、汚れしものに対し高い防御力を持つ、祝福された聖なる衣服。",
+        "暗闇に対する耐性 80%。",
+        "MDEF + 5。"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 45,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 250,
+        "weapon_level": null,
+        "required_level": 70,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "priest": true,
+                "monk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "45",
+            "重量": "250",
+            "要求レベル": "70",
+            "装備": "プリースト系 モンク系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "fe14bee3c4fac752c9516ac9fbcf31b18566c4d2073a5078ebb4b9800001dd4d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,125 @@
+{
+    "type": "item",
+    "item_id": "450521",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/450521\/"
+    },
+    "name": "影走白狐の紋服[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "shinkiro": true,
+                "shiranui": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "白狐と影をモチーフにした\n白黒の紋服。\n神使の白狐による\n祝福を感じる。\nプレイヤーから\n受けるダメージ - 7%\nBaseLvが10上がる度に追加で\n[影狩り]、\n[影の舞]、\n[影一閃]、\n[幻術 -影縫い-]で\n与えるダメージ + 1%\n[影走白狐の紋服]の\n精錬値が1上がる度に追加で\n物理攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 7%\n[影走白狐の紋服]の\n精錬値が7以上の時、追加で\n攻撃速度 + 10%\n一般・ボスモンスターから\n受けるダメージ - 5%\n[影走白狐の紋服]の\n精錬値が9以上の時、追加で\n絶対に壊れない\n[十六夜]の\n再使用待機時間 - 30秒\n[影走白狐の紋服]の\n精錬値が10の時、追加で\n物理攻撃時、\n全ての属性のモンスターに\n与えるダメージ + 15%",
+    "description_lines": [
+        "白狐と影をモチーフにした",
+        "白黒の紋服。",
+        "神使の白狐による",
+        "祝福を感じる。",
+        "プレイヤーから",
+        "受けるダメージ - 7%",
+        "BaseLvが10上がる度に追加で",
+        "[影狩り]、",
+        "[影の舞]、",
+        "[影一閃]、",
+        "[幻術 -影縫い-]で",
+        "与えるダメージ + 1%",
+        "[影走白狐の紋服]の",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 7%",
+        "[影走白狐の紋服]の",
+        "精錬値が7以上の時、追加で",
+        "攻撃速度 + 10%",
+        "一般・ボスモンスターから",
+        "受けるダメージ - 5%",
+        "[影走白狐の紋服]の",
+        "精錬値が9以上の時、追加で",
+        "絶対に壊れない",
+        "[十六夜]の",
+        "再使用待機時間 - 30秒",
+        "[影走白狐の紋服]の",
+        "精錬値が10の時、追加で",
+        "物理攻撃時、",
+        "全ての属性のモンスターに",
+        "与えるダメージ + 15%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": 100,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": true,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "shinkiro": true,
+                "shiranui": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "位置": "-",
+            "属性": "無",
+            "スロット": "1",
+            "Def": "100",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "100",
+            "要求レベル": "200",
+            "装備": "蜃気楼 不知火"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "a1fbd48aed34317353eb235f9abb68ff4fea57a88737b77e66da5aa88089b56a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

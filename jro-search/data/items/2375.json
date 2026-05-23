@@ -1,0 +1,178 @@
+{
+    "type": "item",
+    "item_id": "2375",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2375\/"
+    },
+    "name": "ディアボロスアーマー[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "人間界には存在しない\n金属で作られた鎧。\n未知なる力を\n隠し持っている。\nStr + 2 , Dex + 1\nMaxHP + 150\nスタン・石化に\n対する耐性 + 5%\n[ディアボロスリング]と\n共に装備時、追加で\n物理・魔法攻撃で、\n与えるダメージ + 3%\n[ディアボロスウィング]と\n共に装備時、追加で\nStr + 8 , Dex + 4\nMaxHP + 1350\n物理・魔法攻撃時、\nメモリアルダンジョン\n[魔神殿]に\n出現するモンスターに\n与えるダメージ + 20%\nメモリアルダンジョン\n[魔神殿]に\n出現するモンスターから\n受けるダメージ - 5%\n[ディアボロスアーマー]の\n精錬値が1上がる度に追加で\nAtk + 15\nスタン・石化に\n対する耐性 + 5%",
+    "description_lines": [
+        "人間界には存在しない",
+        "金属で作られた鎧。",
+        "未知なる力を",
+        "隠し持っている。",
+        "Str + 2 , Dex + 1",
+        "MaxHP + 150",
+        "スタン・石化に",
+        "対する耐性 + 5%",
+        "[ディアボロスリング]と",
+        "共に装備時、追加で",
+        "物理・魔法攻撃で、",
+        "与えるダメージ + 3%",
+        "[ディアボロスウィング]と",
+        "共に装備時、追加で",
+        "Str + 8 , Dex + 4",
+        "MaxHP + 1350",
+        "物理・魔法攻撃時、",
+        "メモリアルダンジョン",
+        "[魔神殿]に",
+        "出現するモンスターに",
+        "与えるダメージ + 20%",
+        "メモリアルダンジョン",
+        "[魔神殿]に",
+        "出現するモンスターから",
+        "受けるダメージ - 5%",
+        "[ディアボロスアーマー]の",
+        "精錬値が1上がる度に追加で",
+        "Atk + 15",
+        "スタン・石化に",
+        "対する耐性 + 5%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": 79,
+        "atk": null,
+        "mdef": 5,
+        "matk": null,
+        "refinement": true,
+        "breakable": true,
+        "weight": 60,
+        "weapon_level": null,
+        "required_level": 60,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "位置": "-",
+            "属性": "無",
+            "スロット": "1",
+            "Def": "79",
+            "Mdef": "5",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "60",
+            "要求レベル": "60",
+            "装備": "転生ソードマン系 転生シーフ系 転生マーチャント系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "魔王モロク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MOROCC"
+        },
+        {
+            "name": "傷ついた魔王モロク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MOROCC_"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_07",
+            "map_code": "2@la_07"
+        },
+        {
+            "name": "封印の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_07",
+            "map_code": "2@lb_07"
+        },
+        {
+            "name": "異形の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_07",
+            "map_code": "2@lc_07"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld207",
+            "map_code": "2@ld207"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf207",
+            "map_code": "2@lf207"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "次元の狭間 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild22",
+            "map_code": "moc_fild22"
+        }
+    ],
+    "source_html_sha256": "c3a667766837a396ad079ec6469853bd89d6e2bca3111db8812720a39a1c391d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,100 @@
+{
+    "type": "item",
+    "item_id": "1000639",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000639\/"
+    },
+    "name": "死屍のルーンの欠片",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "バルムントが管理していた\n標本環境(死屍)の\nモンスターから得られる\n死屍のルーンの欠片。",
+    "description_lines": [
+        "バルムントが管理していた",
+        "標本環境(死屍)の",
+        "モンスターから得られる",
+        "死屍のルーンの欠片。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0.1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "死屍のAマミー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_ANCIENT_MUMMY"
+        },
+        {
+            "name": "死屍のバンシー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_BANSHEE"
+        },
+        {
+            "name": "死屍のフレームスカル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_FLAME_SKULL"
+        },
+        {
+            "name": "死屍の深淵の騎士",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_KNIGHT_OF_ABYSS"
+        },
+        {
+            "name": "死屍のルード",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_LUDE"
+        },
+        {
+            "name": "死屍のラギッドゾンビ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_RAGGED_ZOMBIE"
+        },
+        {
+            "name": "死屍のレイス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_WRAITH"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "標本環境(死屍)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_death",
+            "map_code": "bl_death"
+        }
+    ],
+    "source_html_sha256": "5e43c3cb6936072434b24f9f373abb5ec485b6c27c466f8c7bb623f847d45e18",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

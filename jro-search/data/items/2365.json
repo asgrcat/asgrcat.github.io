@@ -1,0 +1,174 @@
+{
+    "type": "item",
+    "item_id": "2365",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2365\/"
+    },
+    "name": "オルレアンの制服[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ある潔癖症の宮廷料理人が\n着ていた制服。\n彼が料理の説明をし出すと、\n誰も彼の話を止める事が\n出来なかったらしい。\n詠唱が中断されない\n変動詠唱時間 + 15%\n[オルレアンネックレス]と\n共に装備時、追加で\n変動詠唱時間 - 15%",
+    "description_lines": [
+        "ある潔癖症の宮廷料理人が",
+        "着ていた制服。",
+        "彼が料理の説明をし出すと、",
+        "誰も彼の話を止める事が",
+        "出来なかったらしい。",
+        "詠唱が中断されない",
+        "変動詠唱時間 + 15%",
+        "[オルレアンネックレス]と",
+        "共に装備時、追加で",
+        "変動詠唱時間 - 15%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 15,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 55,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "15",
+            "重量": "30",
+            "要求レベル": "55",
+            "装備": "転生1次職 上位2次職 3次職 4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "バンシー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BANSHEE"
+        },
+        {
+            "name": "バンシーマスター",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BANSHEE_MASTER"
+        },
+        {
+            "name": "強化バンシー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WA_MONSTER_3"
+        },
+        {
+            "name": "強化バンシーマスター",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WA_MONSTER_4"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "封印された神殿（墓地）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@cata",
+            "map_code": "1@cata"
+        },
+        {
+            "name": "封印された神殿（大封印祭壇）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@cata",
+            "map_code": "2@cata"
+        },
+        {
+            "name": "試練の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_24",
+            "map_code": "2@la_24"
+        },
+        {
+            "name": "封印の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_29",
+            "map_code": "2@lb_29"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_28",
+            "map_code": "2@lc_28"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld224",
+            "map_code": "2@ld224"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf224",
+            "map_code": "2@lf224"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "修道院 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey01",
+            "map_code": "abbey01"
+        },
+        {
+            "name": "修道院 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey03",
+            "map_code": "abbey03"
+        },
+        {
+            "name": "ギルドダンジョン アルナベルツ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_dun01",
+            "map_code": "arug_dun01"
+        },
+        {
+            "name": "名もなき島 夜",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nameless_n",
+            "map_code": "nameless_n"
+        }
+    ],
+    "source_html_sha256": "746f22974c474e0313f14b01182cc594c1ae030e7a49671cf51e927a373e6034",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

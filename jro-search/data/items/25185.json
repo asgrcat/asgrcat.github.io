@@ -1,0 +1,71 @@
+{
+    "type": "item",
+    "item_id": "25185",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/25185\/"
+    },
+    "name": "古いロケットペンダント",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "古いロケットペンダント。\n中に男女の肖像画が\n入っている。\nプロンテラの酒場\n(座標:205,157)にいる\nNPC騎士ウィンザー\nに届けよう。\n[古いロケットペンダント]は\nあらゆる取引、移動が\nできません",
+    "description_lines": [
+        "古いロケットペンダント。",
+        "中に男女の肖像画が",
+        "入っている。",
+        "プロンテラの酒場",
+        "(座標:205,157)にいる",
+        "NPC騎士ウィンザー",
+        "に届けよう。",
+        "[古いロケットペンダント]は",
+        "あらゆる取引、移動が",
+        "できません"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6764f3485b05e97c86a42e7eda966f5b975b65dd9b933823a15e398dcde02df2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

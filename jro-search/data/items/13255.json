@@ -1,0 +1,67 @@
+{
+    "type": "item",
+    "item_id": "13255",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13255\/"
+    },
+    "name": "氷柱の苦無",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "水の力を帯びた苦無。この苦無で攻撃されると、骨まで冷気が染み込むと言う。",
+    "description_lines": [
+        "水の力を帯びた苦無。この苦無で攻撃されると、骨まで冷気が染み込むと言う。"
+    ],
+    "properties": {
+        "series": "throwing",
+        "series_normalized": [
+            "throwing"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "水",
+        "slot": null,
+        "def": null,
+        "atk": 30,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 2,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "投擲",
+            "攻撃": "30",
+            "重量": "2",
+            "属性": "水"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "9c598d28b24fe83222bb589e645653071820a39f69f6ad0b94696bcef3d0da03",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

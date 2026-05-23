@@ -1,0 +1,2685 @@
+{
+    "type": "item",
+    "item_id": "985",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/985\/"
+    },
+    "name": "エルニウム",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "軽くて毒性がない金属。防具の原料や精錬によく使われる。防具を強化することができる。\n_",
+    "description_lines": [
+        "軽くて毒性がない金属。防具の原料や精錬によく使われる。防具を強化することができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "20"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "バーニングファング",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP18_BURNING_FANG"
+        },
+        {
+            "name": "いたずら好きの狐の主",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_020"
+        },
+        {
+            "name": "狂えるオーク戦士",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_022"
+        },
+        {
+            "name": "黄泉国の呼び声",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_109"
+        },
+        {
+            "name": "魔王バフォメット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BAPHOMET_I"
+        },
+        {
+            "name": "ハードロックマンモス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HARDROCK_MOMMOTH"
+        },
+        {
+            "name": "堕ちたオークヒーロー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EVENT_ORCHERO"
+        },
+        {
+            "name": "悪夢のバフォメット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/NG_BAPHOMET"
+        },
+        {
+            "name": "堕ちた大神官ヒバム",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/FALLINGBISHOP"
+        },
+        {
+            "name": "バフォメット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BAPHOMET"
+        },
+        {
+            "name": "BAP",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_120"
+        },
+        {
+            "name": "バフォメット（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_BAPHOMET"
+        },
+        {
+            "name": "ダークロード（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_DARK_LORD"
+        },
+        {
+            "name": "ダークロード",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DARK_LORD"
+        },
+        {
+            "name": "ハートハンターリーダー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_69"
+        },
+        {
+            "name": "ビッグエッグリン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DR_BIG_EGGRING"
+        },
+        {
+            "name": "レディータニー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/LADY_TANEE"
+        },
+        {
+            "name": "怒りの月夜花",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_MOONLIGHT"
+        },
+        {
+            "name": "ウルトラリマキナ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_LIMACINA_BOSS"
+        },
+        {
+            "name": "オークヒーロー（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_ORK_HERO"
+        },
+        {
+            "name": "ストームナイト",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KNIGHT_OF_WINDSTORM"
+        },
+        {
+            "name": "オークヒーロー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ORK_HERO"
+        },
+        {
+            "name": "超兄貴",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_184"
+        },
+        {
+            "name": "女王蜂",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_183"
+        },
+        {
+            "name": "オークロード",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ORC_LORD"
+        },
+        {
+            "name": "ミストレス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MISTRESS"
+        },
+        {
+            "name": "ミストレス（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_MISTRESS"
+        },
+        {
+            "name": "オークロード（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_ORC_LORD"
+        },
+        {
+            "name": "ハティー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GARM"
+        },
+        {
+            "name": "アモンラー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AMON_RA"
+        },
+        {
+            "name": "アモンラー（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_AMON_RA"
+        },
+        {
+            "name": "ドッペルゲンガー（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_DOPPELGANGER"
+        },
+        {
+            "name": "ドッフルギャンガﾌﾌﾌﾌﾌﾌﾌﾌ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_071"
+        },
+        {
+            "name": "ドッペルゲンガー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DOPPELGANGER"
+        },
+        {
+            "name": "マヤー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MAYA"
+        },
+        {
+            "name": "マヤー（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_MAYA"
+        },
+        {
+            "name": "船長",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_260"
+        },
+        {
+            "name": "ドレイク（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_DRAKE"
+        },
+        {
+            "name": "ドレイク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DRAKE"
+        },
+        {
+            "name": "フリオニ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/PHREEONI"
+        },
+        {
+            "name": "鬼",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_209"
+        },
+        {
+            "name": "月夜花",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MOONLIGHT"
+        },
+        {
+            "name": "エドガ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EDDGA"
+        },
+        {
+            "name": "黄金蟲",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GOLDEN_BUG"
+        },
+        {
+            "name": "輝くベアドール",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_TEDDY_BEAR_S"
+        },
+        {
+            "name": "R48-85-ベスティア",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_1_R4885_BESTIA"
+        },
+        {
+            "name": "黄金蟲の幻影",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/E_GOLDEN_BUG"
+        },
+        {
+            "name": "バナスパティ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BANASPATY"
+        },
+        {
+            "name": "強靭な深淵の騎士団長",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CP_CH1_ABYSS_KNIGHT"
+        },
+        {
+            "name": "深淵の騎士団長",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CH1_ABYSS_KNIGHT"
+        },
+        {
+            "name": "ボイタタ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BOITATA"
+        },
+        {
+            "name": "強靭なガーリン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CP_GARLING"
+        },
+        {
+            "name": "強靭なヘカ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CP_HEKA"
+        },
+        {
+            "name": "強靭なジャックオネット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CP_JACKONETTE"
+        },
+        {
+            "name": "強靭なウプウアウト",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CP_OPHOIS"
+        },
+        {
+            "name": "フレイムギガンテス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AB_MOB_004"
+        },
+        {
+            "name": "フレイムソルジャー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AB_MOB_005"
+        },
+        {
+            "name": "フレイムアーチャー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AB_MOB_006"
+        },
+        {
+            "name": "ロックサベージ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AB_MOB_145"
+        },
+        {
+            "name": "キャットナインテイル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CAT_O_NINE_TAIL"
+        },
+        {
+            "name": "グレイヴクラウンマミー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/N_ANCIENT_MUMMY"
+        },
+        {
+            "name": "レッドクリスタル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CRYSTAL_3"
+        },
+        {
+            "name": "不凍花",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_UNFROST_FLOWER"
+        },
+        {
+            "name": "カラマリン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_CALMARING"
+        },
+        {
+            "name": "洞窟カラマリン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_CAVE_CALMARING"
+        },
+        {
+            "name": "洞窟不凍花",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_CAVE_FLOWER"
+        },
+        {
+            "name": "双眼ドロカリス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_DOLLOCARIS"
+        },
+        {
+            "name": "ハルキゲニア",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_HALLUCIGENIA"
+        },
+        {
+            "name": "ベビーハルキゲニア",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_HALLUCIGENIA_BABY"
+        },
+        {
+            "name": "ハートハンターAT",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_HEARTHUNTER_AT"
+        },
+        {
+            "name": "ビッグベン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BIG_BEN"
+        },
+        {
+            "name": "強化デッドリーレイス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_99"
+        },
+        {
+            "name": "キスミー・ペル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/PERE4"
+        },
+        {
+            "name": "強化ゾンビマスター",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_100"
+        },
+        {
+            "name": "強化ミニデモ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_101"
+        },
+        {
+            "name": "強化ダークプリースト",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_102"
+        },
+        {
+            "name": "強化Dイリュージョン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_103"
+        },
+        {
+            "name": "強化巨大ウィスパー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_104"
+        },
+        {
+            "name": "単眼ドロカリス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_ONE_EYE_DOLLOCARIS"
+        },
+        {
+            "name": "クマムシ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP20_ICEBEAR"
+        },
+        {
+            "name": "ルガンクリーナー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP20_JORGAN_CLEANER"
+        },
+        {
+            "name": "深淵の騎士",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KNIGHT_OF_ABYSS"
+        },
+        {
+            "name": "ヘラクレススカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/I_HORN_SCARABA"
+        },
+        {
+            "name": "コーカサススカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/I_HORN_SCARABA2"
+        },
+        {
+            "name": "アトラススカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/I_RAKE_SCARABA"
+        },
+        {
+            "name": "レギウススカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/I_ANTLER_SCARABA"
+        },
+        {
+            "name": "アイスフナムシ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_ICE_GANGU"
+        },
+        {
+            "name": "アイスストロー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_ICE_STRAW"
+        },
+        {
+            "name": "コポ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP20_COPO"
+        },
+        {
+            "name": "おしゃれさんコポ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP20_EGGCOPO"
+        },
+        {
+            "name": "怪しい訓練兵アーウィン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP20_FAKE_IWIN_SN"
+        },
+        {
+            "name": "怪しい二等兵アーウィン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP20_FAKE_IWIN_SY"
+        },
+        {
+            "name": "レクイエム",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/REQUIEM"
+        },
+        {
+            "name": "ウォッチャー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WATCHER"
+        },
+        {
+            "name": "ヨルムンガンド教団守衛",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP20_JORGAN_GUARDIAN"
+        },
+        {
+            "name": "上級ルガン治療師",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP20_RGAN_HEALER"
+        },
+        {
+            "name": "上級ルガン呪術師",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP20_RGAN_WARLOCK"
+        },
+        {
+            "name": "アイスウィンドの卵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP20_ICEEGG"
+        },
+        {
+            "name": "グレーアイスウィンド",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP20_ICEWIND1"
+        },
+        {
+            "name": "光るワカメ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_SHINING_SEAWEED"
+        },
+        {
+            "name": "ジェネラルオーク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GENERAL_ORC"
+        },
+        {
+            "name": "ヘカ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HEKA"
+        },
+        {
+            "name": "ジャックオネット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JACKONETTE"
+        },
+        {
+            "name": "ガーリン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GARLING"
+        },
+        {
+            "name": "ウプウアウト",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/OPHOIS"
+        },
+        {
+            "name": "ザクダム",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ZAKUDAM"
+        },
+        {
+            "name": "アークダム",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ARCHDAM"
+        },
+        {
+            "name": "カーリッツバーグ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KHALITZBURG"
+        },
+        {
+            "name": "死屍の深淵の騎士",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_KNIGHT_OF_ABYSS"
+        },
+        {
+            "name": "クロック",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CLOCK"
+        },
+        {
+            "name": "スタラクタイトゴーレム",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/STALACTIC_GOLEM"
+        },
+        {
+            "name": "モロクの現身（天使型）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MOROCC_1"
+        },
+        {
+            "name": "モロクの現身（人間型）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MOROCC_3"
+        },
+        {
+            "name": "黄色のベアドール",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_TEDDY_BEAR_Y"
+        },
+        {
+            "name": "パサナ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/PASANA"
+        },
+        {
+            "name": "ゾンビプリズナー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ZOMBIE_PRISONER"
+        },
+        {
+            "name": "レイドリック",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RAYDRIC"
+        },
+        {
+            "name": "レイドリックアーチャー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RAYDRIC_ARCHER"
+        },
+        {
+            "name": "ベアドール",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/TEDDY_BEAR"
+        },
+        {
+            "name": "プリズンブレイカー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RAGGED_ZOMBIE_H"
+        },
+        {
+            "name": "女騎士の思念",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_GH_KHALITZBURG_H"
+        },
+        {
+            "name": "エンシェントマミー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ANCIENT_MUMMY"
+        },
+        {
+            "name": "突撃赤バジルリスク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DR_BASILISK2"
+        },
+        {
+            "name": "ブギスギス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BUNGISNGIS"
+        },
+        {
+            "name": "怒りのゲイズティ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_GAZETI"
+        },
+        {
+            "name": "怨恨のカーリッツバーグ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MG_KHALITZBURG_H"
+        },
+        {
+            "name": "怨恨の弓兵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MG_RAYDRIC_ARCHER_H"
+        },
+        {
+            "name": "怨恨の兵士",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MG_RAYDRIC_H"
+        },
+        {
+            "name": "レギウススカラバの卵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/I_ANTLER_SCARABA_EGG"
+        },
+        {
+            "name": "コーカサススカラバの卵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/I_HORN_SCARABA2_EGG"
+        },
+        {
+            "name": "ヘラクレススカラバの卵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/I_HORN_SCARABA_EGG"
+        },
+        {
+            "name": "アトラススカラバの卵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/I_RAKE_SCARABA_EGG"
+        },
+        {
+            "name": "メガリス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MEGALITH"
+        },
+        {
+            "name": "怒りの九尾狐",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_NINE_TAIL"
+        },
+        {
+            "name": "怒りのスノウアー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_SNOWIER"
+        },
+        {
+            "name": "怨恨のソヒー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_SOHEE"
+        },
+        {
+            "name": "スカイプティット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/PETIT_"
+        },
+        {
+            "name": "チョコ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CHOCO"
+        },
+        {
+            "name": "腐敗した兵士",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MG_RAYDRIC"
+        },
+        {
+            "name": "徘徊する弓兵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MG_RAYDRIC_ARCHER"
+        },
+        {
+            "name": "深海のソードフィッシュ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_SWORD_FISH"
+        },
+        {
+            "name": "怨念のカーリッツバーグ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MG_KHALITZBURG"
+        },
+        {
+            "name": "オブシディアン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/OBSIDIAN"
+        },
+        {
+            "name": "混沌のポポリン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_POPORING"
+        },
+        {
+            "name": "強化デビルチ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_105"
+        },
+        {
+            "name": "強化グール",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_106"
+        },
+        {
+            "name": "邪念のオブシディアン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_OBSIDIAN"
+        },
+        {
+            "name": "ネレイド",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/NERAID"
+        },
+        {
+            "name": "ジャック",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JAKK"
+        },
+        {
+            "name": "古のメガリス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_MEGALITH"
+        },
+        {
+            "name": "上級ハートハンターSC",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_2_HEART_HUNTER_H"
+        },
+        {
+            "name": "ハートハンター・Mサナレ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_1_SANARE2"
+        },
+        {
+            "name": "ハートハンター・Mベラレ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_1_BELLARE2"
+        },
+        {
+            "name": "変種ヴェネヌム",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_1_VENENUM2"
+        },
+        {
+            "name": "火狐",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EVENT_FIREFOX"
+        },
+        {
+            "name": "ゲイズティ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GAZETI"
+        },
+        {
+            "name": "シーカー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEEKER"
+        },
+        {
+            "name": "剛角スカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RAKE_SCARABA"
+        },
+        {
+            "name": "鹿角スカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ANTLER_SCARABA"
+        },
+        {
+            "name": "双角スカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HORN_SCARABA2"
+        },
+        {
+            "name": "一角スカラバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HORN_SCARABA"
+        },
+        {
+            "name": "ハートハンター・ベラレ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_1_BELLARE1"
+        },
+        {
+            "name": "ハートハンター・ベラレ（CP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_A013_BELLARE"
+        },
+        {
+            "name": "ビホルダー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BEHOLDER"
+        },
+        {
+            "name": "ビホルダーマスター",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BEHOLDER_MASTER"
+        },
+        {
+            "name": "剛角スカラバの卵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RAKE_SCARABA_EGG"
+        },
+        {
+            "name": "ヴェナート",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/VENATU_1"
+        },
+        {
+            "name": "ウィンドヴェナート",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/VENATU_2"
+        },
+        {
+            "name": "アースヴェナート",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/VENATU_3"
+        },
+        {
+            "name": "アイスヴェナート",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/VENATU_4"
+        },
+        {
+            "name": "スカイビホルダー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/E2_BEHOLDER"
+        },
+        {
+            "name": "ワイバーン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/E2_G_S_NYDHOG"
+        },
+        {
+            "name": "ヴェネヌム",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_1_VENENUM1"
+        },
+        {
+            "name": "アイスガーゴイル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GARGOYLE_H"
+        },
+        {
+            "name": "エリセル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ALICEL"
+        },
+        {
+            "name": "エリオット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ALIOT"
+        },
+        {
+            "name": "一角スカラバの卵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HORN_SCARABA_EGG"
+        },
+        {
+            "name": "双角スカラバの卵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HORN_SCARABA2_EGG"
+        },
+        {
+            "name": "ヒェグン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HYEGUN"
+        },
+        {
+            "name": "鹿角スカラバの卵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ANTLER_SCARABA_EGG"
+        },
+        {
+            "name": "アポカリプス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/APOCALIPS"
+        },
+        {
+            "name": "ドラゴンの卵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DRAGON_EGG"
+        },
+        {
+            "name": "ヘルアポカリプス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HELL_APOCALIPS"
+        },
+        {
+            "name": "黒蛇王",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DARK_SNAKE_LORD"
+        },
+        {
+            "name": "黒蛇王（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_DARK_SNAKE_LORD"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "Ｗ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas5",
+            "map_code": "te_aldecas5"
+        },
+        {
+            "name": "アインブロックフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_fild03",
+            "map_code": "ein_fild03"
+        },
+        {
+            "name": "アインブロックフィールド 05",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_fild05",
+            "map_code": "ein_fild05"
+        },
+        {
+            "name": "アビスレイク地下洞窟 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abyss_01",
+            "map_code": "abyss_01"
+        },
+        {
+            "name": "アビスレイク地下洞窟 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abyss_02",
+            "map_code": "abyss_02"
+        },
+        {
+            "name": "アビスレイク地下洞窟 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abyss_03",
+            "map_code": "abyss_03"
+        },
+        {
+            "name": "アルデバラン時計塔地下 2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/alde_dun02",
+            "map_code": "alde_dun02"
+        },
+        {
+            "name": "アルデバラン時計塔地下 未知の空間",
+            "url": "https:\/\/rotool.gungho.jp\/map\/clock_01",
+            "map_code": "clock_01"
+        },
+        {
+            "name": "アルデバラン時計塔地上 2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower2",
+            "map_code": "c_tower2"
+        },
+        {
+            "name": "アルデバラン時計塔地上 4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower4",
+            "map_code": "c_tower4"
+        },
+        {
+            "name": "イスタナ洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/dew_dun02",
+            "map_code": "dew_dun02"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas01",
+            "map_code": "prtg_cas01"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas02",
+            "map_code": "prtg_cas02"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas03",
+            "map_code": "prtg_cas03"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas04",
+            "map_code": "prtg_cas04"
+        },
+        {
+            "name": "ヴァルキリーレルム 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prtg_cas05",
+            "map_code": "prtg_cas05"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas01",
+            "map_code": "arug_cas01"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas02",
+            "map_code": "arug_cas02"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas03",
+            "map_code": "arug_cas03"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas04",
+            "map_code": "arug_cas04"
+        },
+        {
+            "name": "ヴァルフレイヤ 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_cas05",
+            "map_code": "arug_cas05"
+        },
+        {
+            "name": "ウィグナー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas03",
+            "map_code": "te_prtcas03"
+        },
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "エンドレスタワー 覇王の間",
+            "url": "https:\/\/rotool.gungho.jp\/map\/6@tower",
+            "map_code": "6@tower"
+        },
+        {
+            "name": "オズの迷路 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/oz_dun02",
+            "map_code": "oz_dun02"
+        },
+        {
+            "name": "おもちゃ工場ダンジョン 02（分類所）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/xmas_dun02",
+            "map_code": "xmas_dun02"
+        },
+        {
+            "name": "カミダルトンネル",
+            "url": "https:\/\/rotool.gungho.jp\/map\/dic_dun01",
+            "map_code": "dic_dun01"
+        },
+        {
+            "name": "キエルの部屋 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/kh_kiehl01",
+            "map_code": "kh_kiehl01"
+        },
+        {
+            "name": "ギルドダンジョン アルデバラン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gld_dun02",
+            "map_code": "gld_dun02"
+        },
+        {
+            "name": "ギルドダンジョン アルナベルツ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/arug_dun01",
+            "map_code": "arug_dun01"
+        },
+        {
+            "name": "ギルドダンジョン ゲフェン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gld_dun04",
+            "map_code": "gld_dun04"
+        },
+        {
+            "name": "ギルドダンジョン シュバルツバルド",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_dun01",
+            "map_code": "schg_dun01"
+        },
+        {
+            "name": "ギルドダンジョン フェイヨン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gld_dun01",
+            "map_code": "gld_dun01"
+        },
+        {
+            "name": "ギルドダンジョン プロンテラ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gld_dun03",
+            "map_code": "gld_dun03"
+        },
+        {
+            "name": "グラストヘイム カタコンベ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_chyard",
+            "map_code": "gl_chyard"
+        },
+        {
+            "name": "グラストヘイム 階段ダンジョン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_step",
+            "map_code": "gl_step"
+        },
+        {
+            "name": "グラストヘイム 騎士団内01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_knt01",
+            "map_code": "gl_knt01"
+        },
+        {
+            "name": "グラストヘイム 騎士団内02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_knt02",
+            "map_code": "gl_knt02"
+        },
+        {
+            "name": "グラストヘイム 古城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/glast_01",
+            "map_code": "glast_01"
+        },
+        {
+            "name": "グラストヘイム 古城2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas02",
+            "map_code": "gl_cas02"
+        },
+        {
+            "name": "グラストヘイム 地下監獄01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_prison1",
+            "map_code": "gl_prison1"
+        },
+        {
+            "name": "グラストヘイムアビス(1)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas01_",
+            "map_code": "gl_cas01_"
+        },
+        {
+            "name": "グラストヘイムアビス(2)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas01_a",
+            "map_code": "gl_cas01_a"
+        },
+        {
+            "name": "グラストヘイムの没落 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@gl_prq",
+            "map_code": "2@gl_prq"
+        },
+        {
+            "name": "グラリス",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas1",
+            "map_code": "te_aldecas1"
+        },
+        {
+            "name": "ゲオルグ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas01",
+            "map_code": "te_prtcas01"
+        },
+        {
+            "name": "ゲフェニア 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefenia03",
+            "map_code": "gefenia03"
+        },
+        {
+            "name": "ゲフェンフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild02",
+            "map_code": "gef_fild02"
+        },
+        {
+            "name": "ゲフェンフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild03",
+            "map_code": "gef_fild03"
+        },
+        {
+            "name": "ゲフェンフィールド 06",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild06",
+            "map_code": "gef_fild06"
+        },
+        {
+            "name": "ゲフェン地下ダンジョン B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_dun01",
+            "map_code": "gef_dun01"
+        },
+        {
+            "name": "ゲフェン地下ダンジョン B3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_dun02",
+            "map_code": "gef_dun02"
+        },
+        {
+            "name": "コモドダンジョン 02（北洞窟ルワンダ）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/beach_dun2",
+            "map_code": "beach_dun2"
+        },
+        {
+            "name": "コモドフィールド 03（ジナイ沼）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/cmd_fild03",
+            "map_code": "cmd_fild03"
+        },
+        {
+            "name": "コンロンダンジョン 03（武陵桃源）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gon_dun03",
+            "map_code": "gon_dun03"
+        },
+        {
+            "name": "ジュピロス廃墟 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/juperos_01",
+            "map_code": "juperos_01"
+        },
+        {
+            "name": "ジュピロス廃墟 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/juperos_02",
+            "map_code": "juperos_02"
+        },
+        {
+            "name": "スカラバガーデン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/dic_dun03",
+            "map_code": "dic_dun03"
+        },
+        {
+            "name": "スカラバホール",
+            "url": "https:\/\/rotool.gungho.jp\/map\/dic_dun02",
+            "map_code": "dic_dun02"
+        },
+        {
+            "name": "スフィンクスダンジョン B3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/in_sphinx3",
+            "map_code": "in_sphinx3"
+        },
+        {
+            "name": "スフィンクスダンジョン B4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/in_sphinx4",
+            "map_code": "in_sphinx4"
+        },
+        {
+            "name": "スフィンクスダンジョン B5F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/in_sphinx5",
+            "map_code": "in_sphinx5"
+        },
+        {
+            "name": "ソグラト砂漠 17",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild17",
+            "map_code": "moc_fild17"
+        },
+        {
+            "name": "ソリン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas3",
+            "map_code": "te_aldecas3"
+        },
+        {
+            "name": "タナトスの記憶 13",
+            "url": "https:\/\/rotool.gungho.jp\/map\/9@thts23",
+            "map_code": "9@thts23"
+        },
+        {
+            "name": "チュンリム湖 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas01",
+            "map_code": "payg_cas01"
+        },
+        {
+            "name": "チュンリム湖 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas02",
+            "map_code": "payg_cas02"
+        },
+        {
+            "name": "チュンリム湖 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas03",
+            "map_code": "payg_cas03"
+        },
+        {
+            "name": "チュンリム湖 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas04",
+            "map_code": "payg_cas04"
+        },
+        {
+            "name": "チュンリム湖 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/payg_cas05",
+            "map_code": "payg_cas05"
+        },
+        {
+            "name": "ディフォルテー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas2",
+            "map_code": "te_aldecas2"
+        },
+        {
+            "name": "ニダヴェリール 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas02",
+            "map_code": "schg_cas02"
+        },
+        {
+            "name": "ニダヴェリール 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas03",
+            "map_code": "schg_cas03"
+        },
+        {
+            "name": "ニダヴェリール 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas04",
+            "map_code": "schg_cas04"
+        },
+        {
+            "name": "ニダヴェリール 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/schg_cas05",
+            "map_code": "schg_cas05"
+        },
+        {
+            "name": "ニブルヘイムカボチャ農場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nif_fild03",
+            "map_code": "nif_fild03"
+        },
+        {
+            "name": "ネジリアン帝国",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_d02_i",
+            "map_code": "ein_d02_i"
+        },
+        {
+            "name": "ネリウス",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas05",
+            "map_code": "te_prtcas05"
+        },
+        {
+            "name": "ハートハンター軍事基地(訓練場)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@swat",
+            "map_code": "2@swat"
+        },
+        {
+            "name": "ハイネン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas04",
+            "map_code": "te_prtcas04"
+        },
+        {
+            "name": "バリオ・フォレスト",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ma_fild02",
+            "map_code": "ma_fild02"
+        },
+        {
+            "name": "ビニット",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_aldecas4",
+            "map_code": "te_aldecas4"
+        },
+        {
+            "name": "ピラミッドダンジョン 4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd04",
+            "map_code": "moc_pryd04"
+        },
+        {
+            "name": "ピラミッドダンジョン B3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd06",
+            "map_code": "moc_pryd06"
+        },
+        {
+            "name": "ピラミッドダンジョン 秘密の地下室02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_prydn2",
+            "map_code": "moc_prydn2"
+        },
+        {
+            "name": "フィゲルフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild02",
+            "map_code": "hu_fild02"
+        },
+        {
+            "name": "フィゲルフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild04",
+            "map_code": "hu_fild04"
+        },
+        {
+            "name": "フィゲルフィールド 05（アビスレイク）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild05",
+            "map_code": "hu_fild05"
+        },
+        {
+            "name": "フェイヨン地下洞窟 B5F（地下寺院）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_dun04",
+            "map_code": "pay_dun04"
+        },
+        {
+            "name": "フェイヨン迷いの森 09",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild09",
+            "map_code": "pay_fild09"
+        },
+        {
+            "name": "ブリトニア 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas01",
+            "map_code": "gefg_cas01"
+        },
+        {
+            "name": "ブリトニア 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas02",
+            "map_code": "gefg_cas02"
+        },
+        {
+            "name": "ブリトニア 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas03",
+            "map_code": "gefg_cas03"
+        },
+        {
+            "name": "ブリトニア 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas04",
+            "map_code": "gefg_cas04"
+        },
+        {
+            "name": "ブリトニア 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas05",
+            "map_code": "gefg_cas05"
+        },
+        {
+            "name": "フレイムヴァレー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moro_vol",
+            "map_code": "moro_vol"
+        },
+        {
+            "name": "フレイヤ大神殿聖域 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_san01",
+            "map_code": "ra_san01"
+        },
+        {
+            "name": "フレイヤ大神殿聖域 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_san02",
+            "map_code": "ra_san02"
+        },
+        {
+            "name": "フレイヤ大神殿聖域 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_san03",
+            "map_code": "ra_san03"
+        },
+        {
+            "name": "フレイヤ大神殿聖域 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_san04",
+            "map_code": "ra_san04"
+        },
+        {
+            "name": "フレイヤ大神殿聖域 05",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_san05",
+            "map_code": "ra_san05"
+        },
+        {
+            "name": "フローズンメモリー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ice_d03_i",
+            "map_code": "ice_d03_i"
+        },
+        {
+            "name": "プロンテラフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild03",
+            "map_code": "prt_fild03"
+        },
+        {
+            "name": "プロンテラ地下監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_prison",
+            "map_code": "prt_prison"
+        },
+        {
+            "name": "プロンテラ地下水路 B4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_sewb4",
+            "map_code": "prt_sewb4"
+        },
+        {
+            "name": "ベインスフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ve_fild02",
+            "map_code": "ve_fild02"
+        },
+        {
+            "name": "マヌクフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/man_fild03",
+            "map_code": "man_fild03"
+        },
+        {
+            "name": "ミョルニール山脈 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mjolnir_03",
+            "map_code": "mjolnir_03"
+        },
+        {
+            "name": "ミョルニール山脈 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mjolnir_04",
+            "map_code": "mjolnir_04"
+        },
+        {
+            "name": "ミョルニール廃鉱 B3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mjo_dun03",
+            "map_code": "mjo_dun03"
+        },
+        {
+            "name": "ラヴィーネ山脈01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ravi",
+            "map_code": "1@ravi"
+        },
+        {
+            "name": "ラヴィーネ山脈02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ravi",
+            "map_code": "2@ravi"
+        },
+        {
+            "name": "ラビオル平原 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lasa_fild01",
+            "map_code": "lasa_fild01"
+        },
+        {
+            "name": "リハルト",
+            "url": "https:\/\/rotool.gungho.jp\/map\/te_prtcas02",
+            "map_code": "te_prtcas02"
+        },
+        {
+            "name": "リヒタルゼンフィールド 02(死神の峡谷)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_fild02",
+            "map_code": "lhz_fild02"
+        },
+        {
+            "name": "ルイーナ 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas01",
+            "map_code": "aldeg_cas01"
+        },
+        {
+            "name": "ルイーナ 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas02",
+            "map_code": "aldeg_cas02"
+        },
+        {
+            "name": "ルイーナ 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas03",
+            "map_code": "aldeg_cas03"
+        },
+        {
+            "name": "ルイーナ 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas04",
+            "map_code": "aldeg_cas04"
+        },
+        {
+            "name": "ルイーナ 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/aldeg_cas05",
+            "map_code": "aldeg_cas05"
+        },
+        {
+            "name": "ルティエフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/xmas_fild01",
+            "map_code": "xmas_fild01"
+        },
+        {
+            "name": "亜空の迷宮 淫靡な大聖堂",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg113",
+            "map_code": "2@lg113"
+        },
+        {
+            "name": "亜空の迷宮 隠匿された通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg107",
+            "map_code": "2@lg107"
+        },
+        {
+            "name": "亜空の迷宮 邪教徒の神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg124",
+            "map_code": "2@lg124"
+        },
+        {
+            "name": "亜空の迷宮 小さな聖域",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg118",
+            "map_code": "2@lg118"
+        },
+        {
+            "name": "亜空の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg101",
+            "map_code": "2@lg101"
+        },
+        {
+            "name": "亜空の迷宮 赤の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg102",
+            "map_code": "2@lg102"
+        },
+        {
+            "name": "亜空の迷宮 太古の神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg110",
+            "map_code": "2@lg110"
+        },
+        {
+            "name": "亜空の迷宮 転移魔法陣",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg127",
+            "map_code": "2@lg127"
+        },
+        {
+            "name": "亜空の迷宮 不吉な幽霊船",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg119",
+            "map_code": "2@lg119"
+        },
+        {
+            "name": "亜空の迷宮 不吉な幽霊船",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg120",
+            "map_code": "2@lg120"
+        },
+        {
+            "name": "亜空の迷宮 魔女の菜園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg114",
+            "map_code": "2@lg114"
+        },
+        {
+            "name": "亜空の迷宮 溶岩の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg104",
+            "map_code": "2@lg104"
+        },
+        {
+            "name": "亜空の迷宮 煌めきの氷河",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg116",
+            "map_code": "2@lg116"
+        },
+        {
+            "name": "亜空の迷宮 煌めきの氷河",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg117",
+            "map_code": "2@lg117"
+        },
+        {
+            "name": "亜空の迷宮 瘴気の谷底",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg115",
+            "map_code": "2@lg115"
+        },
+        {
+            "name": "悪夢のグラストヘイム古城2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas02_",
+            "map_code": "gl_cas02_"
+        },
+        {
+            "name": "悪夢のジターバグ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@jtb",
+            "map_code": "1@jtb"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_10",
+            "map_code": "2@lc_10"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_11",
+            "map_code": "2@lc_11"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_12",
+            "map_code": "2@lc_12"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_13",
+            "map_code": "2@lc_13"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_16",
+            "map_code": "2@lc_16"
+        },
+        {
+            "name": "異形の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_07",
+            "map_code": "2@lc_07"
+        },
+        {
+            "name": "異形の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_08",
+            "map_code": "2@lc_08"
+        },
+        {
+            "name": "異形の迷宮 最下層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_22",
+            "map_code": "2@lc_22"
+        },
+        {
+            "name": "異形の迷宮 最終実験室",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_31",
+            "map_code": "2@lc_31"
+        },
+        {
+            "name": "異形の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_17",
+            "map_code": "2@lc_17"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_29",
+            "map_code": "2@lc_29"
+        },
+        {
+            "name": "異形の迷宮 実験棟入口",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_25",
+            "map_code": "2@lc_25"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_01",
+            "map_code": "2@lc_01"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_02",
+            "map_code": "2@lc_02"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_03",
+            "map_code": "2@lc_03"
+        },
+        {
+            "name": "異形の迷宮 秘密の通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_23",
+            "map_code": "2@lc_23"
+        },
+        {
+            "name": "異形の迷宮 忘れられた炭鉱",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_20",
+            "map_code": "2@lc_20"
+        },
+        {
+            "name": "異形の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_04",
+            "map_code": "2@lc_04"
+        },
+        {
+            "name": "異形の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_06",
+            "map_code": "2@lc_06"
+        },
+        {
+            "name": "異形の迷宮 夢の終点",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@lc_00",
+            "map_code": "4@lc_00"
+        },
+        {
+            "name": "汚染された次元",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@gl_he",
+            "map_code": "4@gl_he"
+        },
+        {
+            "name": "汚染された次元（4th） 呪いの源",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@ghc4",
+            "map_code": "4@ghc4"
+        },
+        {
+            "name": "悔恨の墓(地下墓地)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@spa2",
+            "map_code": "3@spa2"
+        },
+        {
+            "name": "機械人形工場 B1F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/kh_dun01",
+            "map_code": "kh_dun01"
+        },
+        {
+            "name": "機械人形工場 B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/kh_dun02",
+            "map_code": "kh_dun02"
+        },
+        {
+            "name": "欺瞞の別荘(礼拝堂)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@advs",
+            "map_code": "3@advs"
+        },
+        {
+            "name": "蟻地獄ダンジョン B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/anthell02",
+            "map_code": "anthell02"
+        },
+        {
+            "name": "訓練の間",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@gld1",
+            "map_code": "1@gld1"
+        },
+        {
+            "name": "月夜花の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_d03_i",
+            "map_code": "pay_d03_i"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld119",
+            "map_code": "2@ld119"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld120",
+            "map_code": "2@ld120"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le119",
+            "map_code": "2@le119"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le120",
+            "map_code": "2@le120"
+        },
+        {
+            "name": "幻影の迷宮 陰鬱な倉庫",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld121",
+            "map_code": "2@ld121"
+        },
+        {
+            "name": "幻影の迷宮 陰鬱な倉庫",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le121",
+            "map_code": "2@le121"
+        },
+        {
+            "name": "幻影の迷宮 汚染された廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld122",
+            "map_code": "2@ld122"
+        },
+        {
+            "name": "幻影の迷宮 汚染された廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le122",
+            "map_code": "2@le122"
+        },
+        {
+            "name": "幻影の迷宮 汚染処理場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld116",
+            "map_code": "2@ld116"
+        },
+        {
+            "name": "幻影の迷宮 汚染処理場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le116",
+            "map_code": "2@le116"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld211",
+            "map_code": "2@ld211"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld212",
+            "map_code": "2@ld212"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf211",
+            "map_code": "2@lf211"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf212",
+            "map_code": "2@lf212"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld111",
+            "map_code": "2@ld111"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld112",
+            "map_code": "2@ld112"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld113",
+            "map_code": "2@ld113"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le111",
+            "map_code": "2@le111"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le112",
+            "map_code": "2@le112"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le113",
+            "map_code": "2@le113"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld213",
+            "map_code": "2@ld213"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld216",
+            "map_code": "2@ld216"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf213",
+            "map_code": "2@lf213"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf216",
+            "map_code": "2@lf216"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld207",
+            "map_code": "2@ld207"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld208",
+            "map_code": "2@ld208"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf207",
+            "map_code": "2@lf207"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf208",
+            "map_code": "2@lf208"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld217",
+            "map_code": "2@ld217"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf217",
+            "map_code": "2@lf217"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld108",
+            "map_code": "2@ld108"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld109",
+            "map_code": "2@ld109"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le108",
+            "map_code": "2@le108"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le109",
+            "map_code": "2@le109"
+        },
+        {
+            "name": "幻影の迷宮 湿った洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld107",
+            "map_code": "2@ld107"
+        },
+        {
+            "name": "幻影の迷宮 湿った洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le107",
+            "map_code": "2@le107"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld201",
+            "map_code": "2@ld201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld202",
+            "map_code": "2@ld202"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld203",
+            "map_code": "2@ld203"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le101",
+            "map_code": "2@le101"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf201",
+            "map_code": "2@lf201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf202",
+            "map_code": "2@lf202"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf203",
+            "map_code": "2@lf203"
+        },
+        {
+            "name": "幻影の迷宮 深海遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld130",
+            "map_code": "2@ld130"
+        },
+        {
+            "name": "幻影の迷宮 深海遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le130",
+            "map_code": "2@le130"
+        },
+        {
+            "name": "幻影の迷宮 赤の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld101",
+            "map_code": "2@ld101"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld219",
+            "map_code": "2@ld219"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld220",
+            "map_code": "2@ld220"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld221",
+            "map_code": "2@ld221"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld222",
+            "map_code": "2@ld222"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf219",
+            "map_code": "2@lf219"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf220",
+            "map_code": "2@lf220"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf221",
+            "map_code": "2@lf221"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf222",
+            "map_code": "2@lf222"
+        },
+        {
+            "name": "幻影の迷宮 凍える氷穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld103",
+            "map_code": "2@ld103"
+        },
+        {
+            "name": "幻影の迷宮 凍える氷穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le103",
+            "map_code": "2@le103"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld223",
+            "map_code": "2@ld223"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld224",
+            "map_code": "2@ld224"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf223",
+            "map_code": "2@lf223"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf224",
+            "map_code": "2@lf224"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld204",
+            "map_code": "2@ld204"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld206",
+            "map_code": "2@ld206"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf204",
+            "map_code": "2@lf204"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf206",
+            "map_code": "2@lf206"
+        },
+        {
+            "name": "幻影の迷宮 魔物の巣穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld105",
+            "map_code": "2@ld105"
+        },
+        {
+            "name": "幻影の迷宮 魔物の巣穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le105",
+            "map_code": "2@le105"
+        },
+        {
+            "name": "幻影の迷宮 夢の終点",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@ld100",
+            "map_code": "4@ld100"
+        },
+        {
+            "name": "幻影の迷宮 夢の終点",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@ld200",
+            "map_code": "4@ld200"
+        },
+        {
+            "name": "幻影の迷宮 夢の終点",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@le100",
+            "map_code": "4@le100"
+        },
+        {
+            "name": "幻影の迷宮 夢の終点",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@lf200",
+            "map_code": "4@lf200"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld227",
+            "map_code": "2@ld227"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld228",
+            "map_code": "2@ld228"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld229",
+            "map_code": "2@ld229"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf227",
+            "map_code": "2@lf227"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf228",
+            "map_code": "2@lf228"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf229",
+            "map_code": "2@lf229"
+        },
+        {
+            "name": "幻影の迷宮 穢れた廃村",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld110",
+            "map_code": "2@ld110"
+        },
+        {
+            "name": "幻影の迷宮 穢れた廃村",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le110",
+            "map_code": "2@le110"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld225",
+            "map_code": "2@ld225"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld226",
+            "map_code": "2@ld226"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf225",
+            "map_code": "2@lf225"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf226",
+            "map_code": "2@lf226"
+        },
+        {
+            "name": "幻想の北洞窟ルワンダ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/com_d02_i",
+            "map_code": "com_d02_i"
+        },
+        {
+            "name": "古の騎士団01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@gl_k",
+            "map_code": "1@gl_k"
+        },
+        {
+            "name": "古の騎士団01(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@gl_kh",
+            "map_code": "1@gl_kh"
+        },
+        {
+            "name": "古の騎士団02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@gl_k",
+            "map_code": "2@gl_k"
+        },
+        {
+            "name": "古の騎士団02(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@gl_kh",
+            "map_code": "2@gl_kh"
+        },
+        {
+            "name": "古代の氷の峡谷 東部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_back5j",
+            "map_code": "jor_back5j"
+        },
+        {
+            "name": "古代の氷の峡谷 東部(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_back5",
+            "map_code": "jor_back5"
+        },
+        {
+            "name": "古代神殿アケト",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_akhet",
+            "map_code": "moc_akhet"
+        },
+        {
+            "name": "鉱山ダンジョン 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun02",
+            "map_code": "ein_dun02"
+        },
+        {
+            "name": "死体保管所(4th)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@gol2b2",
+            "map_code": "1@gol2b2"
+        },
+        {
+            "name": "紫色の深海洞窟 下層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/iz_d05_i",
+            "map_code": "iz_d05_i"
+        },
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_11",
+            "map_code": "2@la_11"
+        },
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_12",
+            "map_code": "2@la_12"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_13",
+            "map_code": "2@la_13"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_16",
+            "map_code": "2@la_16"
+        },
+        {
+            "name": "試練の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_07",
+            "map_code": "2@la_07"
+        },
+        {
+            "name": "試練の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_08",
+            "map_code": "2@la_08"
+        },
+        {
+            "name": "試練の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_17",
+            "map_code": "2@la_17"
+        },
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_01",
+            "map_code": "2@la_01"
+        },
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_02",
+            "map_code": "2@la_02"
+        },
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_03",
+            "map_code": "2@la_03"
+        },
+        {
+            "name": "試練の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_19",
+            "map_code": "2@la_19"
+        },
+        {
+            "name": "試練の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_20",
+            "map_code": "2@la_20"
+        },
+        {
+            "name": "試練の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_21",
+            "map_code": "2@la_21"
+        },
+        {
+            "name": "試練の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_22",
+            "map_code": "2@la_22"
+        },
+        {
+            "name": "試練の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_23",
+            "map_code": "2@la_23"
+        },
+        {
+            "name": "試練の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_24",
+            "map_code": "2@la_24"
+        },
+        {
+            "name": "試練の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_04",
+            "map_code": "2@la_04"
+        },
+        {
+            "name": "試練の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_06",
+            "map_code": "2@la_06"
+        },
+        {
+            "name": "試練の迷宮 夢の終点",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@la_00",
+            "map_code": "4@la_00"
+        },
+        {
+            "name": "試練の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_27",
+            "map_code": "2@la_27"
+        },
+        {
+            "name": "試練の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_28",
+            "map_code": "2@la_28"
+        },
+        {
+            "name": "試練の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_29",
+            "map_code": "2@la_29"
+        },
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_25",
+            "map_code": "2@la_25"
+        },
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_26",
+            "map_code": "2@la_26"
+        },
+        {
+            "name": "次元の狭間 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild22",
+            "map_code": "moc_fild22"
+        },
+        {
+            "name": "捨てられた穴 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_ab01_",
+            "map_code": "jor_ab01_"
+        },
+        {
+            "name": "捨てられた穴 01(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_ab01",
+            "map_code": "jor_ab01"
+        },
+        {
+            "name": "捨てられた穴 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_ab02_",
+            "map_code": "jor_ab02_"
+        },
+        {
+            "name": "蛇の迷路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_maze",
+            "map_code": "jor_maze"
+        },
+        {
+            "name": "蛇神の温もり 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_dun01_",
+            "map_code": "jor_dun01_"
+        },
+        {
+            "name": "蛇神の温もり 01(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_dun01",
+            "map_code": "jor_dun01"
+        },
+        {
+            "name": "蛇神の温もり 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_dun02_",
+            "map_code": "jor_dun02_"
+        },
+        {
+            "name": "蛇神の温もり 02(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_dun02",
+            "map_code": "jor_dun02"
+        },
+        {
+            "name": "蛇神の根源 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_root1j",
+            "map_code": "jor_root1j"
+        },
+        {
+            "name": "蛇神の根源 01(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_root1",
+            "map_code": "jor_root1"
+        },
+        {
+            "name": "蛇神の根源 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_root2j",
+            "map_code": "jor_root2j"
+        },
+        {
+            "name": "蛇神の根源 02(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_root2",
+            "map_code": "jor_root2"
+        },
+        {
+            "name": "蛇神の根源 深い洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_root3",
+            "map_code": "jor_root3"
+        },
+        {
+            "name": "周辺エリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@letter",
+            "map_code": "3@letter"
+        },
+        {
+            "name": "修道院 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey02",
+            "map_code": "abbey02"
+        },
+        {
+            "name": "浸食されたゲフェニア 西部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ch1_gfn03",
+            "map_code": "ch1_gfn03"
+        },
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "星座の塔 女神の祭壇",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct4",
+            "map_code": "1@ct4"
+        },
+        {
+            "name": "生命の殿堂 攻略エリア3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@hol4",
+            "map_code": "1@hol4"
+        },
+        {
+            "name": "滝の中の洞窟 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bra_dun02",
+            "map_code": "bra_dun02"
+        },
+        {
+            "name": "貯蔵庫タルタロス上層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ba_2whs01_j",
+            "map_code": "ba_2whs01_j"
+        },
+        {
+            "name": "貯蔵庫タルタロス上層(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ba_2whs01",
+            "map_code": "ba_2whs01"
+        },
+        {
+            "name": "沈没船 2層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/treasure02",
+            "map_code": "treasure02"
+        },
+        {
+            "name": "凍て付いた尻尾",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_tail",
+            "map_code": "jor_tail"
+        },
+        {
+            "name": "凍て付いた鱗の丘",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_back1",
+            "map_code": "jor_back1"
+        },
+        {
+            "name": "凍て付いた鱗の氷河",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_back3_",
+            "map_code": "jor_back3_"
+        },
+        {
+            "name": "凍て付いた鱗の氷河(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_back3",
+            "map_code": "jor_back3"
+        },
+        {
+            "name": "凍て付いた鱗の平原",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_back2_",
+            "map_code": "jor_back2_"
+        },
+        {
+            "name": "凍て付いた鱗の平原(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_back2",
+            "map_code": "jor_back2"
+        },
+        {
+            "name": "特異点 生体工学研究所 02 観測エリア（インフェルノ）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lhj8",
+            "map_code": "2@lhj8"
+        },
+        {
+            "name": "特異点 名もなき島 隠された礼拝堂（インフェルノ）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@nls5",
+            "map_code": "2@nls5"
+        },
+        {
+            "name": "特異点 名もなき島 隠された礼拝堂（ノーマル）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@nls5",
+            "map_code": "1@nls5"
+        },
+        {
+            "name": "特訓の間",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@gld",
+            "map_code": "2@gld"
+        },
+        {
+            "name": "特殊警戒地域オース",
+            "url": "https:\/\/rotool.gungho.jp\/map\/sp_os",
+            "map_code": "sp_os"
+        },
+        {
+            "name": "特殊警戒地域オース(オース二次捜索)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@os_c",
+            "map_code": "1@os_c"
+        },
+        {
+            "name": "捻じれた時間の時計塔地上 2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower2_",
+            "map_code": "c_tower2_"
+        },
+        {
+            "name": "廃棄場ルドゥス 1階",
+            "url": "https:\/\/rotool.gungho.jp\/map\/sp_rudus",
+            "map_code": "sp_rudus"
+        },
+        {
+            "name": "廃棄場ルドゥス 2階",
+            "url": "https:\/\/rotool.gungho.jp\/map\/sp_rudus2",
+            "map_code": "sp_rudus2"
+        },
+        {
+            "name": "廃棄場ルドゥス 3階",
+            "url": "https:\/\/rotool.gungho.jp\/map\/sp_rudus3",
+            "map_code": "sp_rudus3"
+        },
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "飛行船",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@air1",
+            "map_code": "1@air1"
+        },
+        {
+            "name": "飛行船",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@air2",
+            "map_code": "1@air2"
+        },
+        {
+            "name": "飛行船（シュバルツバルド国外線）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/airplane_01",
+            "map_code": "airplane_01"
+        },
+        {
+            "name": "標本環境(死屍)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_death",
+            "map_code": "bl_death"
+        },
+        {
+            "name": "氷の洞窟 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ice_dun02",
+            "map_code": "ice_dun02"
+        },
+        {
+            "name": "氷の洞窟 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ice_dun03",
+            "map_code": "ice_dun03"
+        },
+        {
+            "name": "封印された神殿（大封印祭壇）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@cata",
+            "map_code": "2@cata"
+        },
+        {
+            "name": "封印された神殿（墓地）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@cata",
+            "map_code": "1@cata"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_30",
+            "map_code": "2@lb_30"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_31",
+            "map_code": "2@lb_31"
+        },
+        {
+            "name": "封印の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_12",
+            "map_code": "2@lb_12"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_13",
+            "map_code": "2@lb_13"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_14",
+            "map_code": "2@lb_14"
+        },
+        {
+            "name": "封印の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_07",
+            "map_code": "2@lb_07"
+        },
+        {
+            "name": "封印の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_08",
+            "map_code": "2@lb_08"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_01",
+            "map_code": "2@lb_01"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_02",
+            "map_code": "2@lb_02"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_03",
+            "map_code": "2@lb_03"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_20",
+            "map_code": "2@lb_20"
+        },
+        {
+            "name": "封印の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_23",
+            "map_code": "2@lb_23"
+        },
+        {
+            "name": "封印の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_24",
+            "map_code": "2@lb_24"
+        },
+        {
+            "name": "封印の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_04",
+            "map_code": "2@lb_04"
+        },
+        {
+            "name": "封印の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_05",
+            "map_code": "2@lb_05"
+        },
+        {
+            "name": "封印の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_06",
+            "map_code": "2@lb_06"
+        },
+        {
+            "name": "封印の迷宮 夢の終点",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@lb_00",
+            "map_code": "4@lb_00"
+        },
+        {
+            "name": "封印の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_27",
+            "map_code": "2@lb_27"
+        },
+        {
+            "name": "封印の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_28",
+            "map_code": "2@lb_28"
+        },
+        {
+            "name": "封印の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_29",
+            "map_code": "2@lb_29"
+        },
+        {
+            "name": "封印の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_25",
+            "map_code": "2@lb_25"
+        },
+        {
+            "name": "封印の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_26",
+            "map_code": "2@lb_26"
+        },
+        {
+            "name": "魔神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@eom",
+            "map_code": "1@eom"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(深部)(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/7@infi",
+            "map_code": "7@infi"
+        },
+        {
+            "name": "無限の空間(深部)(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/7@a_inf",
+            "map_code": "7@a_inf"
+        },
+        {
+            "name": "迷宮の森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze01",
+            "map_code": "prt_maze01"
+        },
+        {
+            "name": "迷宮の森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze03",
+            "map_code": "prt_maze03"
+        },
+        {
+            "name": "龍の巣 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lasa_dun02",
+            "map_code": "lasa_dun02"
+        },
+        {
+            "name": "龍之城ダンジョン 02（王陵 内部）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lou_dun02",
+            "map_code": "lou_dun02"
+        },
+        {
+            "name": "龍之城ダンジョン 03（白羊宮）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lou_dun03",
+            "map_code": "lou_dun03"
+        },
+        {
+            "name": "歪んだ迷宮の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_mz03_i",
+            "map_code": "prt_mz03_i"
+        }
+    ],
+    "source_html_sha256": "6492035fbad05846c5668993d627758750669853c92101fdc3e9ba104e16dc7b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

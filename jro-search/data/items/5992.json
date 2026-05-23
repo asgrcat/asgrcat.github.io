@@ -1,0 +1,151 @@
+{
+    "type": "item",
+    "item_id": "5992",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5992\/"
+    },
+    "name": "古びたミダスのささやき[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "genetic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "禍々しい力をもつ\nミダスのささやき。\n通常のそれとは\n全く異なる製法で\n作られており、\n異質な力を持つ。\n人間形モンスターから\n受けるダメージ - 5%\n[ハウリングオブ\nマンドラゴラ]の\n再使用待機時間 - 4秒\n[古びたミダスのささやき]の\n精錬値が1上がる度に追加で\nAtk + 7 , Matk + 7\n[古びたミダスのささやき]の\n精錬値が7以上の時、追加で\n人間形モンスターから\n受けるダメージ - 5%\n[ハウリングオブ\nマンドラゴラ]の\n再使用待機時間 - 6秒\n精錬値が9以上の時、追加で\n人間形モンスターから\n受けるダメージ - 2%\n[ハウリングオブ\nマンドラゴラ]の\n再使用待機時間 - 2秒\n精錬値が10の時、追加で\n[レッドスリムポーション]、\n[イエロースリムポーション]\n[ホワイトスリムポーション]\nのHP回復量 + 200%\n[戦死者のマント]と\n共に装備時、追加で\nMaxHP + 20%\n[戦死者のマント]の\n純粋なステータスで上がる\n効果が2倍になる\n[古びた派遣隊の指輪]と\n共に装備時、追加で\n[ハウリングオブ\nマンドラゴラ]の\n変動詠唱時間 - 100%\n[グレース\nカルティベイションコート]\nと共に装備時、\n[クレイジーウィード]\nLv10習得時、\n[古びた\nミダスのささやき]の\n[ハウリングオブ\nマンドラゴラ]の\n再使用待機時間減少効果が\n発動しない\n[古びた\nミダスのささやき]は、\nNPC売却が可能です。",
+    "description_lines": [
+        "禍々しい力をもつ",
+        "ミダスのささやき。",
+        "通常のそれとは",
+        "全く異なる製法で",
+        "作られており、",
+        "異質な力を持つ。",
+        "人間形モンスターから",
+        "受けるダメージ - 5%",
+        "[ハウリングオブ",
+        "マンドラゴラ]の",
+        "再使用待機時間 - 4秒",
+        "[古びたミダスのささやき]の",
+        "精錬値が1上がる度に追加で",
+        "Atk + 7 , Matk + 7",
+        "[古びたミダスのささやき]の",
+        "精錬値が7以上の時、追加で",
+        "人間形モンスターから",
+        "受けるダメージ - 5%",
+        "[ハウリングオブ",
+        "マンドラゴラ]の",
+        "再使用待機時間 - 6秒",
+        "精錬値が9以上の時、追加で",
+        "人間形モンスターから",
+        "受けるダメージ - 2%",
+        "[ハウリングオブ",
+        "マンドラゴラ]の",
+        "再使用待機時間 - 2秒",
+        "精錬値が10の時、追加で",
+        "[レッドスリムポーション]、",
+        "[イエロースリムポーション]",
+        "[ホワイトスリムポーション]",
+        "のHP回復量 + 200%",
+        "[戦死者のマント]と",
+        "共に装備時、追加で",
+        "MaxHP + 20%",
+        "[戦死者のマント]の",
+        "純粋なステータスで上がる",
+        "効果が2倍になる",
+        "[古びた派遣隊の指輪]と",
+        "共に装備時、追加で",
+        "[ハウリングオブ",
+        "マンドラゴラ]の",
+        "変動詠唱時間 - 100%",
+        "[グレース",
+        "カルティベイションコート]",
+        "と共に装備時、",
+        "[クレイジーウィード]",
+        "Lv10習得時、",
+        "[古びた",
+        "ミダスのささやき]の",
+        "[ハウリングオブ",
+        "マンドラゴラ]の",
+        "再使用待機時間減少効果が",
+        "発動しない",
+        "[古びた",
+        "ミダスのささやき]は、",
+        "NPC売却が可能です。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": "-",
+        "slot": 0,
+        "def": 12,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "genetic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "上段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "12",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "0",
+            "要求レベル": "100",
+            "装備": "ジェネティック系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c5acf5f7b427a8f2d2925d55903fb66a324f2e58231595cb6b61355e67e792ba",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

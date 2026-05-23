@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "25780",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/25780\/"
+    },
+    "name": "悪魔のエッセンス",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "悪魔のあらゆる邪気が\nこもった深紅のエッセンス。\n凄まじい邪気が\n宿ってるように見える。",
+    "description_lines": [
+        "悪魔のあらゆる邪気が",
+        "こもった深紅のエッセンス。",
+        "凄まじい邪気が",
+        "宿ってるように見える。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "混沌のバフォメット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_BAPHOMET"
+        },
+        {
+            "name": "大海より来る黒山羊",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_033"
+        },
+        {
+            "name": "ルキナ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_092"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "歪んだ迷宮の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_mz03_i",
+            "map_code": "prt_mz03_i"
+        }
+    ],
+    "source_html_sha256": "09c6ae4bec8a914d2ba038e6bc25f4b60b6f4df524d44cbc9852c6ed03a0bb5e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

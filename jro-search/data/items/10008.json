@@ -1,0 +1,116 @@
+{
+    "type": "item",
+    "item_id": "10008",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/10008\/"
+    },
+    "name": "精神棒[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "教育の目的で体罰をする時、使う棒。 もちろん脅威的な武器にもなる。",
+    "description_lines": [
+        "教育の目的で体罰をする時、使う棒。 もちろん脅威的な武器にもなる。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": "pet_equipment",
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "種類": "キューペット装備",
+            "装備": "ムナック",
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "キャットナインテイル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CAT_O_NINE_TAIL"
+        },
+        {
+            "name": "火狐",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EVENT_FIREFOX"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "幻影の迷宮 穢れた廃村",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld110",
+            "map_code": "2@ld110"
+        },
+        {
+            "name": "幻影の迷宮 穢れた廃村",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le110",
+            "map_code": "2@le110"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "ギルドダンジョン フェイヨン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gld_dun01",
+            "map_code": "gld_dun01"
+        },
+        {
+            "name": "フェイヨン地下洞窟 B5F（地下寺院）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_dun04",
+            "map_code": "pay_dun04"
+        }
+    ],
+    "source_html_sha256": "2bfc1e3ea5cd9bd8684f4b07f81b68e4f44a162d4c0e64cde2fcbb6cad22113b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

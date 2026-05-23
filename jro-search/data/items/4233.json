@@ -1,0 +1,119 @@
+{
+    "type": "item",
+    "item_id": "4233",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4233\/"
+    },
+    "name": "コウカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "armor"
+        ],
+        "card_attachable_positions": {
+            "armor": true
+        }
+    },
+    "description": "Luk + 3\nマーチャント系が装備時、\n追加で\n鎧が絶対に壊れない\n[チャッキーカード]、\n[ミストケースカード]、\n[ハイローゾイストカード]、\n[レグルロカード]と\n共に装備時、追加で\nLuk + 10\n攻撃命中時、SP + 2\n[メマーナイト]で\n与えるダメージ + 20%\nマーチャント系が装備時、\n追加で\nモンスターを倒した時、\n一定確率で\n[古い紫色の箱]をドロップ\n魔法攻撃を受けた時、\n一定確率で2秒間、\n受けた攻撃魔法を\n20%の確率で反射\n[古びた楯無の鎧]と\n共に装備時、\n[古びた楯無の鎧]の\n精錬値が5の時、\n鎧に地属性を付与する\n精錬値が6の時、\n鎧に水属性を付与する\n精錬値が7の時、\n鎧に風属性を付与する\n精錬値が8の時、\n鎧に火属性を付与する\n精錬値が9の時、\n鎧に闇属性を付与する\n精錬値が10の時、\n鎧に聖属性を付与する",
+    "description_lines": [
+        "Luk + 3",
+        "マーチャント系が装備時、",
+        "追加で",
+        "鎧が絶対に壊れない",
+        "[チャッキーカード]、",
+        "[ミストケースカード]、",
+        "[ハイローゾイストカード]、",
+        "[レグルロカード]と",
+        "共に装備時、追加で",
+        "Luk + 10",
+        "攻撃命中時、SP + 2",
+        "[メマーナイト]で",
+        "与えるダメージ + 20%",
+        "マーチャント系が装備時、",
+        "追加で",
+        "モンスターを倒した時、",
+        "一定確率で",
+        "[古い紫色の箱]をドロップ",
+        "魔法攻撃を受けた時、",
+        "一定確率で2秒間、",
+        "受けた攻撃魔法を",
+        "20%の確率で反射",
+        "[古びた楯無の鎧]と",
+        "共に装備時、",
+        "[古びた楯無の鎧]の",
+        "精錬値が5の時、",
+        "鎧に地属性を付与する",
+        "精錬値が6の時、",
+        "鎧に水属性を付与する",
+        "精錬値が7の時、",
+        "鎧に風属性を付与する",
+        "精錬値が8の時、",
+        "鎧に火属性を付与する",
+        "精錬値が9の時、",
+        "鎧に闇属性を付与する",
+        "精錬値が10の時、",
+        "鎧に聖属性を付与する"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "armor"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "鎧",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "コウ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BABY_LEOPARD"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "コンロンフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gon_fild01",
+            "map_code": "gon_fild01"
+        }
+    ],
+    "source_html_sha256": "2731cbf4fd55cb3093e4e100f0b1af34c96d6ff823626cf536d8ec84027664ba",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

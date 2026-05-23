@@ -1,0 +1,73 @@
+{
+    "type": "item",
+    "item_id": "14901",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/14901\/"
+    },
+    "name": "ラクダの呼び笛",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ロックリッジに生息する\nラクダの呼び笛。\n吹くと荒野の風景を\n思い出す。\n使用すると、ロックリッジに\n移動することができる。\n再使用待機時間5秒\n[ラクダの呼び笛]は\n使用しても消耗しない\n[ラクダの呼び笛]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "ロックリッジに生息する",
+        "ラクダの呼び笛。",
+        "吹くと荒野の風景を",
+        "思い出す。",
+        "使用すると、ロックリッジに",
+        "移動することができる。",
+        "再使用待機時間5秒",
+        "[ラクダの呼び笛]は",
+        "使用しても消耗しない",
+        "[ラクダの呼び笛]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "869650ada954b0e4cb7d632762346e5a53948e18985f509529ed51cb6b1259f3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,100 @@
+{
+    "type": "item",
+    "item_id": "20767",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20767\/"
+    },
+    "name": "冒険者のリュック[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "冒険者必携のリュック。\nポリンと尻尾のアクセサリー\nがチャームポイント。\n[プロンテラへの帰還]Lv1\n使用可能\nノービス、転生ノービス、\n1次職、2次職、転生1次職、\n特殊1次職、特殊2次職\nが装備時、\n[速度増加]Lv1\n使用可能\nキャラクターに\nグラフィックが反映される",
+    "description_lines": [
+        "冒険者必携のリュック。",
+        "ポリンと尻尾のアクセサリー",
+        "がチャームポイント。",
+        "[プロンテラへの帰還]Lv1",
+        "使用可能",
+        "ノービス、転生ノービス、",
+        "1次職、2次職、転生1次職、",
+        "特殊1次職、特殊2次職",
+        "が装備時、",
+        "[速度増加]Lv1",
+        "使用可能",
+        "キャラクターに",
+        "グラフィックが反映される"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "06c541cc1c36c4fb4879989af7ae80b86760e1c946ee96e4c5837b2e8fc3c9fc",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

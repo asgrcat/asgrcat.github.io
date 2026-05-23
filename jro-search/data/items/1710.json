@@ -1,0 +1,98 @@
+{
+    "type": "item",
+    "item_id": "1710",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1710\/"
+    },
+    "name": "クロスボウ[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "archer": true
+            },
+            "include_jobs": {
+                "archer": true,
+                "thief": true,
+                "rogue": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "十字弓",
+    "description_lines": [
+        "十字弓"
+    ],
+    "properties": {
+        "series": "bow",
+        "series_normalized": [
+            "bow"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 2,
+        "def": null,
+        "atk": 65,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 90,
+        "weapon_level": 2,
+        "required_level": 18,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "archer": true
+            },
+            "include_jobs": {
+                "archer": true,
+                "thief": true,
+                "rogue": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "弓",
+            "攻撃": "65",
+            "重量": "90",
+            "武器レベル": "2",
+            "要求レベル": "18",
+            "装備": "アーチャー系 シーフ ローグ系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c3857e38a2519c23eb9cf995f9a7da3278ff514880e04a0dc43eee1c3391800f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

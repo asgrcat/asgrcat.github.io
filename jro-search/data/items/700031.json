@@ -1,0 +1,101 @@
+{
+    "type": "item",
+    "item_id": "700031",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/700031\/"
+    },
+    "name": "アドゥルテル・フィデス・バリスタ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "windhawk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "偽りの信仰が宿った\nバリスタ。\n[アドゥルテル・フィデス・\nバリスタ]の\n精錬値が1上がる度に追加で\n物理攻撃で\n与えるダメージ + 10%",
+    "description_lines": [
+        "偽りの信仰が宿った",
+        "バリスタ。",
+        "[アドゥルテル・フィデス・",
+        "バリスタ]の",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃で",
+        "与えるダメージ + 10%"
+    ],
+    "properties": {
+        "series": "bow",
+        "series_normalized": [
+            "bow"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 160,
+        "mdef": null,
+        "matk": 170,
+        "refinement": true,
+        "breakable": true,
+        "weight": 90,
+        "weapon_level": 4,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "windhawk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "弓",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "160",
+            "Matk": "170",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "90",
+            "要求レベル": "200",
+            "装備": "ウィンドホーク"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c1b6972a8c9cdbeaf66e147521773000ca273374ca1d45a0d941e0bcd07d8ebc",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

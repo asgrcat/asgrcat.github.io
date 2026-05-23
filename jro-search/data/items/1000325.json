@@ -1,0 +1,79 @@
+{
+    "type": "item",
+    "item_id": "1000325",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000325\/"
+    },
+    "name": "エーテルアクアマリン",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "エーテルの魔力が\n込められたアクアマリン。",
+    "description_lines": [
+        "エーテルの魔力が",
+        "込められたアクアマリン。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "深海の魔女（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_129"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 夢の終わり",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@ld100",
+            "map_code": "5@ld100"
+        },
+        {
+            "name": "幻影の迷宮 夢の終わり",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@le100",
+            "map_code": "5@le100"
+        }
+    ],
+    "source_html_sha256": "83bd0f288277d6b17d53e5e7e4c8207b51b4369025798791c6201fae81e3150f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

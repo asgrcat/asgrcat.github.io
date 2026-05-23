@@ -1,0 +1,123 @@
+{
+    "type": "item",
+    "item_id": "19456",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19456\/"
+    },
+    "name": "鴉天狗の面[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "堕ちた忍者の\n怨みが詰まった仮面。\n物理攻撃で\n与えるダメージ + 1%\n遠距離物理攻撃で\n与えるダメージ + 2%\n純粋なStrが108以上の時、\n追加で\n物理攻撃で\n与えるダメージ + 1%\n遠距離物理攻撃で\n与えるダメージ + 2%\n純粋なStrが120以上の時、\n追加で\n物理攻撃で\n与えるダメージ + 2%\n遠距離物理攻撃で\n与えるダメージ + 3%\n[天狗の巻物]と\n共に装備時、追加で\n物理攻撃で\n与えるダメージ + 1%\n遠距離物理攻撃で\n与えるダメージ + 1%\n純粋なStrが108以上の時、\n追加で\n物理攻撃で\n与えるダメージ + 2%\n遠距離物理攻撃で\n与えるダメージ + 1%\n純粋なStrが120以上の時、\n追加で\n物理攻撃で\n与えるダメージ + 3%\n遠距離物理攻撃で\n与えるダメージ + 1%",
+    "description_lines": [
+        "堕ちた忍者の",
+        "怨みが詰まった仮面。",
+        "物理攻撃で",
+        "与えるダメージ + 1%",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 2%",
+        "純粋なStrが108以上の時、",
+        "追加で",
+        "物理攻撃で",
+        "与えるダメージ + 1%",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 2%",
+        "純粋なStrが120以上の時、",
+        "追加で",
+        "物理攻撃で",
+        "与えるダメージ + 2%",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 3%",
+        "[天狗の巻物]と",
+        "共に装備時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 1%",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 1%",
+        "純粋なStrが108以上の時、",
+        "追加で",
+        "物理攻撃で",
+        "与えるダメージ + 2%",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 1%",
+        "純粋なStrが120以上の時、",
+        "追加で",
+        "物理攻撃で",
+        "与えるダメージ + 3%",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": "-",
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 80,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "中段",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "30",
+            "要求レベル": "80",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c83fcfa0543f7a263eeb3fb0ab5dd411aa57e9867387cc95913d176039ee697e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

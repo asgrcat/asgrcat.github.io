@@ -1,0 +1,128 @@
+{
+    "type": "item",
+    "item_id": "21022",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/21022\/"
+    },
+    "name": "レクイエムクレイモア[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "国王から授かった両手剣。\n死者の魂を鎮める効果が\nあるようだ。\n物理攻撃時、\n[生体工学研究所]、\n[戦死者の墓]に\n出現するモンスターに\n与えるダメージ + 40%\n[生体工学研究所]、\n[戦死者の墓]に\n出現するモンスターから\n受けるダメージ - 5%\n[レクイエムクレイモア]の\n精錬値が5以上の時、追加で\n物理攻撃時、\n[生体工学研究所]、\n[戦死者の墓]に\n出現するモンスターに\n与えるダメージ + 30%\n[生体工学研究所]、\n[戦死者の墓]に\n出現するモンスターから\n受けるダメージ - 5%\n精錬値が6以上の時、\n精錬値が1上がる度に追加で\n物理攻撃時、\n[生体工学研究所]、\n[戦死者の墓]に\n出現するモンスターに\n与えるダメージ + 15%\n[生体工学研究所]、\n[戦死者の墓]に\n出現するモンスターから\n受けるダメージ - 1%\n絶対に壊れない",
+    "description_lines": [
+        "国王から授かった両手剣。",
+        "死者の魂を鎮める効果が",
+        "あるようだ。",
+        "物理攻撃時、",
+        "[生体工学研究所]、",
+        "[戦死者の墓]に",
+        "出現するモンスターに",
+        "与えるダメージ + 40%",
+        "[生体工学研究所]、",
+        "[戦死者の墓]に",
+        "出現するモンスターから",
+        "受けるダメージ - 5%",
+        "[レクイエムクレイモア]の",
+        "精錬値が5以上の時、追加で",
+        "物理攻撃時、",
+        "[生体工学研究所]、",
+        "[戦死者の墓]に",
+        "出現するモンスターに",
+        "与えるダメージ + 30%",
+        "[生体工学研究所]、",
+        "[戦死者の墓]に",
+        "出現するモンスターから",
+        "受けるダメージ - 5%",
+        "精錬値が6以上の時、",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃時、",
+        "[生体工学研究所]、",
+        "[戦死者の墓]に",
+        "出現するモンスターに",
+        "与えるダメージ + 15%",
+        "[生体工学研究所]、",
+        "[戦死者の墓]に",
+        "出現するモンスターから",
+        "受けるダメージ - 1%",
+        "絶対に壊れない"
+    ],
+    "properties": {
+        "series": "two_handed_sword",
+        "series_normalized": [
+            "two_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 220,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 150,
+        "weapon_level": 4,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手剣",
+            "攻撃": "220",
+            "重量": "150",
+            "武器レベル": "4",
+            "要求レベル": "100",
+            "装備": "ソードマン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "54fae06b28a7268dd3add77a8f86e0af7273fc4793d5a0db76f3f18529b5a851",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

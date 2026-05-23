@@ -1,0 +1,280 @@
+{
+    "type": "item",
+    "item_id": "924",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/924\/"
+    },
+    "name": "蝶の鱗粉",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "蝶の羽から落ちる粉を集めた物で、収集品商人に高く売る事ができる。\n_",
+    "description_lines": [
+        "蝶の羽から落ちる粉を集めた物で、収集品商人に高く売る事ができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "クリーミー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CREAMY"
+        },
+        {
+            "name": "クリーミー（変異種）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/META_CREAMY"
+        },
+        {
+            "name": "パピヨン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BLOOD_BUTTERFLY"
+        },
+        {
+            "name": "クリーミーフィアー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CREMY_FEAR"
+        },
+        {
+            "name": "上級パピラルバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_PAPILA_RUBA_H"
+        },
+        {
+            "name": "上級パピラカイ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_PAPILA_CAE_H"
+        },
+        {
+            "name": "上級パピラ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_PAPILA_H"
+        },
+        {
+            "name": "パピラルバ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_PAPILA_RUBA"
+        },
+        {
+            "name": "パピラ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_PAPILA"
+        },
+        {
+            "name": "パピラカイ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_PAPILA_CAE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "水上植物園オルトゥス・アクア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ghg",
+            "map_code": "1@ghg"
+        },
+        {
+            "name": "水上植物園オルトゥス・アクア(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ghg",
+            "map_code": "2@ghg"
+        },
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_02",
+            "map_code": "2@la_02"
+        },
+        {
+            "name": "試練の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_06",
+            "map_code": "2@la_06"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_02",
+            "map_code": "2@lb_02"
+        },
+        {
+            "name": "封印の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_06",
+            "map_code": "2@lb_06"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_02",
+            "map_code": "2@lc_02"
+        },
+        {
+            "name": "幻影の迷宮 夢の花園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld125",
+            "map_code": "2@ld125"
+        },
+        {
+            "name": "幻影の迷宮 夢の花園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld126",
+            "map_code": "2@ld126"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld202",
+            "map_code": "2@ld202"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld206",
+            "map_code": "2@ld206"
+        },
+        {
+            "name": "幻影の迷宮 夢の花園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le125",
+            "map_code": "2@le125"
+        },
+        {
+            "name": "幻影の迷宮 夢の花園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le126",
+            "map_code": "2@le126"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf202",
+            "map_code": "2@lf202"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf206",
+            "map_code": "2@lf206"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "特別室（湖）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_spec_01",
+            "map_code": "ac_spec_01"
+        },
+        {
+            "name": "ゲフェンフィールド 13（ブリトニア）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild13",
+            "map_code": "gef_fild13"
+        },
+        {
+            "name": "ギルドダンジョン プロンテラ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gld_dun03",
+            "map_code": "gld_dun03"
+        },
+        {
+            "name": "コンロンダンジョン 01（西王母神殿）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gon_dun01",
+            "map_code": "gon_dun01"
+        },
+        {
+            "name": "コンロンダンジョン 02（神仙の碁盤）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gon_dun02",
+            "map_code": "gon_dun02"
+        },
+        {
+            "name": "プロンテラフィールド 00",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild00",
+            "map_code": "prt_fild00"
+        },
+        {
+            "name": "プロンテラフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild03",
+            "map_code": "prt_fild03"
+        },
+        {
+            "name": "プロンテラフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild04",
+            "map_code": "prt_fild04"
+        },
+        {
+            "name": "プロンテラフィールド 05",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild05",
+            "map_code": "prt_fild05"
+        },
+        {
+            "name": "プロンテラフィールド 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild07",
+            "map_code": "prt_fild07"
+        },
+        {
+            "name": "プロンテラフィールド 11",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild11",
+            "map_code": "prt_fild11"
+        },
+        {
+            "name": "迷宮の森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze01",
+            "map_code": "prt_maze01"
+        },
+        {
+            "name": "迷宮の森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze03",
+            "map_code": "prt_maze03"
+        }
+    ],
+    "source_html_sha256": "79b9676c6fa1ffd652cbe40f31951c14ff47f1467fd82519ca55f48ad6f82d8a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

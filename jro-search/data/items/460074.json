@@ -1,0 +1,108 @@
+{
+    "type": "item",
+    "item_id": "460074",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/460074\/"
+    },
+    "name": "グラキエースアラネア[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "永久霜を纏い\n絶対零度すら耐える\n氷蜘蛛を模した盾。\n一般・ボスモンスターから\n受けるダメージ - 40%\nプレイヤーから\n受けるダメージ - 35%\n[グラキエースアラネア]\nの精錬値が1上がる度に\n追加で\nMaxHP + 3% , MaxSP + 3%\n[グラキエースアラネア]\nの精錬値が5以上の時、\n追加で\n移動速度増加\n[グラキエースアラネア]\nの精錬値が7以上の時、\n固定詠唱時間 - 70%",
+    "description_lines": [
+        "永久霜を纏い",
+        "絶対零度すら耐える",
+        "氷蜘蛛を模した盾。",
+        "一般・ボスモンスターから",
+        "受けるダメージ - 40%",
+        "プレイヤーから",
+        "受けるダメージ - 35%",
+        "[グラキエースアラネア]",
+        "の精錬値が1上がる度に",
+        "追加で",
+        "MaxHP + 3% , MaxSP + 3%",
+        "[グラキエースアラネア]",
+        "の精錬値が5以上の時、",
+        "追加で",
+        "移動速度増加",
+        "[グラキエースアラネア]",
+        "の精錬値が7以上の時、",
+        "固定詠唱時間 - 70%"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 60,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "60",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "30",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "7205a3fb4f7b378760323ff042b2dc66946f14dfb103b0b3e43d53f8e4916b4c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

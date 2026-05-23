@@ -1,0 +1,82 @@
+{
+    "type": "item",
+    "item_id": "200209",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/200209\/"
+    },
+    "name": "[2022summer]ドレッシークーポンの箱",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "[ドレッシークーポン]が\n1個入っている箱。\n[ドレッシークーポン]：\n・イズルード(izlude)\n座標(137 107)にいるNPC\n「ドレッシー」に\n持って行こう\n[ドレッシークーポン]は\n箱を開けてから840時間後に\n自動的に消滅します\nこのアイテムの利用期間は\n2022年6月28日(火)\n定期メンテナンス開始まで\nとなります\n利用期間終了後に箱を\n開けた場合、\n何も出現しません\n[[2022summer]\nドレッシークーポンの箱]は\n倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "[ドレッシークーポン]が",
+        "1個入っている箱。",
+        "[ドレッシークーポン]：",
+        "・イズルード(izlude)",
+        "座標(137 107)にいるNPC",
+        "「ドレッシー」に",
+        "持って行こう",
+        "[ドレッシークーポン]は",
+        "箱を開けてから840時間後に",
+        "自動的に消滅します",
+        "このアイテムの利用期間は",
+        "2022年6月28日(火)",
+        "定期メンテナンス開始まで",
+        "となります",
+        "利用期間終了後に箱を",
+        "開けた場合、",
+        "何も出現しません",
+        "[[2022summer]",
+        "ドレッシークーポンの箱]は",
+        "倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ba08fd900b7d4a62ed53c6e30fca1483d0f84917325a75dc06ddacdc807d5e40",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

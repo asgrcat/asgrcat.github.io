@@ -1,0 +1,123 @@
+{
+    "type": "item",
+    "item_id": "32253",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/32253\/"
+    },
+    "name": "巨蟹宮のリング[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "黄道を巡る星座の1つ、\n巨蟹宮の力を宿した\nリング。\nVit + 5\n攻撃速度 + 5%\nMaxSP + 100\n物理攻撃で\n与えるダメージ + 5%\n[アックスブーメラン]の\n変動詠唱時間 - 1.5秒\nモンスターを倒した時、\n一定確率で\n[ダイヤモンド２カラット]、\n[ダイヤモンド３カラット]を\nドロップ\nメカニック系が装備時、\n攻撃速度 + 5%\n物理攻撃で\n与えるダメージ + 5%\n[アックストルネード]で\n与えるダメージ + 50%\n[アックスブーメラン]で\n与えるダメージ + 50%\nメカニック系が装備時、\n[ゾディアック]と\n共に装備時、追加で\n物理攻撃で\n与えるダメージ + 15%\n[グリード]の\n変動詠唱時間 - 100%\n[巨蟹宮のリング]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "黄道を巡る星座の1つ、",
+        "巨蟹宮の力を宿した",
+        "リング。",
+        "Vit + 5",
+        "攻撃速度 + 5%",
+        "MaxSP + 100",
+        "物理攻撃で",
+        "与えるダメージ + 5%",
+        "[アックスブーメラン]の",
+        "変動詠唱時間 - 1.5秒",
+        "モンスターを倒した時、",
+        "一定確率で",
+        "[ダイヤモンド２カラット]、",
+        "[ダイヤモンド３カラット]を",
+        "ドロップ",
+        "メカニック系が装備時、",
+        "攻撃速度 + 5%",
+        "物理攻撃で",
+        "与えるダメージ + 5%",
+        "[アックストルネード]で",
+        "与えるダメージ + 50%",
+        "[アックスブーメラン]で",
+        "与えるダメージ + 50%",
+        "メカニック系が装備時、",
+        "[ゾディアック]と",
+        "共に装備時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 15%",
+        "[グリード]の",
+        "変動詠唱時間 - 100%",
+        "[巨蟹宮のリング]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "8b8b929b4bb0120896902f83bf4547bfd4c4e2d2ea7a3196d2a7b6a7062fa6a5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,82 @@
+{
+    "type": "item",
+    "item_id": "25771",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/25771\/"
+    },
+    "name": "壊れたイングリッドの鎧",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "オーディンを崇める\nヴァルキリーイングリッドが\n装備していた鎧。\n戦闘の影響により、\n深刻な被害を受けている。",
+    "description_lines": [
+        "オーディンを崇める",
+        "ヴァルキリーイングリッドが",
+        "装備していた鎧。",
+        "戦闘の影響により、",
+        "深刻な被害を受けている。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "イングリッド",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/INGRID"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "古のオーディン神殿(1)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/odin_past",
+            "map_code": "odin_past"
+        },
+        {
+            "name": "古のオーディン神殿(2)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/odin_past_j",
+            "map_code": "odin_past_j"
+        }
+    ],
+    "source_html_sha256": "d2cdb7529f9b1b2437a782387a9f48016d3c88368fc8d06f178b535d91b5e1fc",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

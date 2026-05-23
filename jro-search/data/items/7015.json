@@ -1,0 +1,351 @@
+{
+    "type": "item",
+    "item_id": "7015",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7015\/"
+    },
+    "name": "追憶のしおり",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "本のページの間に隠れていた落ち葉でできたしおり。これを入れた人にはどのような追憶が残っているだろうか。。。\n_",
+    "description_lines": [
+        "本のページの間に隠れていた落ち葉でできたしおり。これを入れた人にはどのような追憶が残っているだろうか。。。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 2,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "2"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "毀損された古書",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ANTIQUE_BOOK"
+        },
+        {
+            "name": "呪われた本",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/NG_RIDEWORD"
+        },
+        {
+            "name": "徘徊する魔導書",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_2_ROAMING_SPLBOOK"
+        },
+        {
+            "name": "ライドワード",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RIDEWORD"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_09",
+            "map_code": "2@la_09"
+        },
+        {
+            "name": "試練の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_19",
+            "map_code": "2@la_19"
+        },
+        {
+            "name": "試練の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_21",
+            "map_code": "2@la_21"
+        },
+        {
+            "name": "封印の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_10",
+            "map_code": "2@lb_10"
+        },
+        {
+            "name": "封印の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_23",
+            "map_code": "2@lb_23"
+        },
+        {
+            "name": "封印の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_24",
+            "map_code": "2@lb_24"
+        },
+        {
+            "name": "封印の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_26",
+            "map_code": "2@lb_26"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_09",
+            "map_code": "2@lc_09"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_13",
+            "map_code": "2@lc_13"
+        },
+        {
+            "name": "幻影の迷宮 未知の箱庭",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld118",
+            "map_code": "2@ld118"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld120",
+            "map_code": "2@ld120"
+        },
+        {
+            "name": "幻影の迷宮 陰鬱な倉庫",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld121",
+            "map_code": "2@ld121"
+        },
+        {
+            "name": "幻影の迷宮 汚染された廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld122",
+            "map_code": "2@ld122"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld209",
+            "map_code": "2@ld209"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld219",
+            "map_code": "2@ld219"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld221",
+            "map_code": "2@ld221"
+        },
+        {
+            "name": "幻影の迷宮 未知の箱庭",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le118",
+            "map_code": "2@le118"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le120",
+            "map_code": "2@le120"
+        },
+        {
+            "name": "幻影の迷宮 陰鬱な倉庫",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le121",
+            "map_code": "2@le121"
+        },
+        {
+            "name": "幻影の迷宮 汚染された廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le122",
+            "map_code": "2@le122"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf209",
+            "map_code": "2@lf209"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf219",
+            "map_code": "2@lf219"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf221",
+            "map_code": "2@lf221"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "周辺エリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@letter",
+            "map_code": "3@letter"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "図書館 記憶の回廊",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ba_lib",
+            "map_code": "ba_lib"
+        },
+        {
+            "name": "バルムント邸 庭園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ba_maison",
+            "map_code": "ba_maison"
+        },
+        {
+            "name": "アルデバラン時計塔地上 1F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower1",
+            "map_code": "c_tower1"
+        },
+        {
+            "name": "捻じれた時間の時計塔地上 1F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower1_",
+            "map_code": "c_tower1_"
+        },
+        {
+            "name": "アルデバラン時計塔地上 2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower2",
+            "map_code": "c_tower2"
+        },
+        {
+            "name": "捻じれた時間の時計塔地上 2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower2_",
+            "map_code": "c_tower2_"
+        },
+        {
+            "name": "アルデバラン時計塔地上 3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower3",
+            "map_code": "c_tower3"
+        },
+        {
+            "name": "捻じれた時間の時計塔地上 3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower3_",
+            "map_code": "c_tower3_"
+        },
+        {
+            "name": "アルデバラン時計塔地上 4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower4",
+            "map_code": "c_tower4"
+        },
+        {
+            "name": "捻じれた時間の時計塔地上 4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower4_",
+            "map_code": "c_tower4_"
+        },
+        {
+            "name": "ビフロストタワー 1階",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ecl_tdun01",
+            "map_code": "ecl_tdun01"
+        },
+        {
+            "name": "ビフロストタワー 2階",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ecl_tdun02",
+            "map_code": "ecl_tdun02"
+        },
+        {
+            "name": "グラストヘイム 古城1F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas01",
+            "map_code": "gl_cas01"
+        },
+        {
+            "name": "グラストヘイム 古城2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas02",
+            "map_code": "gl_cas02"
+        },
+        {
+            "name": "悪夢のグラストヘイム古城2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas02_",
+            "map_code": "gl_cas02_"
+        },
+        {
+            "name": "グラストヘイム 室内01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_in01",
+            "map_code": "gl_in01"
+        },
+        {
+            "name": "グラストヘイム 騎士団内01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_knt01",
+            "map_code": "gl_knt01"
+        },
+        {
+            "name": "タナトスタワー下層部 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tha_t01",
+            "map_code": "tha_t01"
+        },
+        {
+            "name": "タナトスタワー下層部 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tha_t02",
+            "map_code": "tha_t02"
+        },
+        {
+            "name": "タナトスタワー下層部 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tha_t03",
+            "map_code": "tha_t03"
+        }
+    ],
+    "source_html_sha256": "4db33b075499bd4f272c8fded35aa4004a111f5d01a24781f7da8cc965693fcf",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

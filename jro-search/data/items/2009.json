@@ -1,0 +1,118 @@
+{
+    "type": "item",
+    "item_id": "2009",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2009\/"
+    },
+    "name": "クリムゾンスタッフ[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "warlock": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "燃える火の力を\n集約させた魔法の杖。\nMatk + 230\nInt + 3\n[ファイアーボルト]、\n[ファイアーボール]で\n与えるダメージ + 10%\n[クリムゾンオーブ]、\n[クリムゾンシューズ]、\n[クリムゾンローブ]と\n共に装備時、追加で\n隠された力が発動する\n[クリムゾンスタッフ]、\n[クリムゾンシューズ]、\n[クリムゾンローブ]の\n精錬値が7以上の時、\n追加効果が発動する\n[アルティメット\nモードチェンジャー]と\n共に装備時、追加で\n秘められた効果が発動する\n[クリムゾンオーブ]、\n[クリムゾンシューズ]、\n[クリムゾンローブ]、\n[アルティメット\nモードチェンジャー]と\n共に装備時、追加で\n秘められた効果が発動する",
+    "description_lines": [
+        "燃える火の力を",
+        "集約させた魔法の杖。",
+        "Matk + 230",
+        "Int + 3",
+        "[ファイアーボルト]、",
+        "[ファイアーボール]で",
+        "与えるダメージ + 10%",
+        "[クリムゾンオーブ]、",
+        "[クリムゾンシューズ]、",
+        "[クリムゾンローブ]と",
+        "共に装備時、追加で",
+        "隠された力が発動する",
+        "[クリムゾンスタッフ]、",
+        "[クリムゾンシューズ]、",
+        "[クリムゾンローブ]の",
+        "精錬値が7以上の時、",
+        "追加効果が発動する",
+        "[アルティメット",
+        "モードチェンジャー]と",
+        "共に装備時、追加で",
+        "秘められた効果が発動する",
+        "[クリムゾンオーブ]、",
+        "[クリムゾンシューズ]、",
+        "[クリムゾンローブ]、",
+        "[アルティメット",
+        "モードチェンジャー]と",
+        "共に装備時、追加で",
+        "秘められた効果が発動する"
+    ],
+    "properties": {
+        "series": "two_handed_staff",
+        "series_normalized": [
+            "two_handed_staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "火",
+        "slot": 2,
+        "def": null,
+        "atk": 30,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 90,
+        "weapon_level": 4,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "warlock": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手杖",
+            "攻撃": "30",
+            "重量": "90",
+            "属性": "火",
+            "武器レベル": "4",
+            "要求レベル": "100",
+            "装備": "ウォーロック系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c9c8e45789a393a72966cbc89bcdbb7a4b801619c45ec0d9ac7485753995abfd",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,92 @@
+{
+    "type": "item",
+    "item_id": "300662",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300662\/"
+    },
+    "name": "シャイディエストカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "headgear"
+        ],
+        "card_attachable_positions": {
+            "upper": true,
+            "middle": true,
+            "lower": true
+        }
+    },
+    "description": "魔法攻撃で\n与えるダメージ + 5%\n超越段階が1以上の時、\n固定詠唱時間 - 70%",
+    "description_lines": [
+        "魔法攻撃で",
+        "与えるダメージ + 5%",
+        "超越段階が1以上の時、",
+        "固定詠唱時間 - 70%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "headgear"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "兜",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "シャイディエスト",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CH1_SHADIEST"
+        },
+        {
+            "name": "強靭なシャイディエスト",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CP_CH1_SHADIEST"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "浸食されたゲフェニア 東部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ch1_gfn01",
+            "map_code": "ch1_gfn01"
+        }
+    ],
+    "source_html_sha256": "ff69c0458d4e29363d6152b532f7a7ffa18aa55be80d1ceae3d5dc96fe959365",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

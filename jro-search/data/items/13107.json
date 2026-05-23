@@ -1,0 +1,170 @@
+{
+    "type": "item",
+    "item_id": "13107",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13107\/"
+    },
+    "name": "荒野の用心棒[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "gunslinger": true
+            },
+            "include_jobs": {
+                "gunslinger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "自分の銃だけを信じて、\n果てしない荒野での苦難を\n乗り越えた名も無い\nガンスリンガーを記念する\n為に作られた拳銃。\n純粋なAgi値が高い程、\nHitと攻撃速度が増加。",
+    "description_lines": [
+        "自分の銃だけを信じて、",
+        "果てしない荒野での苦難を",
+        "乗り越えた名も無い",
+        "ガンスリンガーを記念する",
+        "為に作られた拳銃。",
+        "純粋なAgi値が高い程、",
+        "Hitと攻撃速度が増加。"
+    ],
+    "properties": {
+        "series": "handgun",
+        "series_normalized": [
+            "handgun"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 2,
+        "def": null,
+        "atk": 68,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 58,
+        "weapon_level": 3,
+        "required_level": 70,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "gunslinger": true
+            },
+            "include_jobs": {
+                "gunslinger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "ハンドガン",
+            "攻撃": "68",
+            "重量": "58",
+            "武器レベル": "3",
+            "要求レベル": "70",
+            "装備": "ガンスリンガー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ラギッドゾンビ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RAGGED_ZOMBIE"
+        },
+        {
+            "name": "強化ラギッドゾンビ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WA_MONSTER_5"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "試練の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_24",
+            "map_code": "2@la_24"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_30",
+            "map_code": "2@lb_30"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_28",
+            "map_code": "2@lc_28"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld224",
+            "map_code": "2@ld224"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf224",
+            "map_code": "2@lf224"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "修道院 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey01",
+            "map_code": "abbey01"
+        },
+        {
+            "name": "修道院 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey02",
+            "map_code": "abbey02"
+        },
+        {
+            "name": "修道院 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey03",
+            "map_code": "abbey03"
+        }
+    ],
+    "source_html_sha256": "ef3545ffda27c351b5633b9ec3e65e24474652c9c72014ef52a51eb97430dc3e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

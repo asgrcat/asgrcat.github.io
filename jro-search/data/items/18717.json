@@ -1,0 +1,89 @@
+{
+    "type": "item",
+    "item_id": "18717",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18717\/"
+    },
+    "name": "スカルフード[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "死神が被るというフード。\n様々な不幸をばらまく事が\n出来るようになるらしい。\nMdef + 2\n近接物理攻撃時、\n一定確率で敵を\nスタン、呪い、沈黙、\n毒、出血状態にする\n精錬不可",
+    "description_lines": [
+        "死神が被るというフード。",
+        "様々な不幸をばらまく事が",
+        "出来るようになるらしい。",
+        "Mdef + 2",
+        "近接物理攻撃時、",
+        "一定確率で敵を",
+        "スタン、呪い、沈黙、",
+        "毒、出血状態にする",
+        "精錬不可"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 10,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 70,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "10",
+            "位置": "上中下段",
+            "重量": "50",
+            "要求レベル": "70",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "b0234195fcd1cf1b299c1fc1d609e692bb9498a790e0211483c3a9567d541f05",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

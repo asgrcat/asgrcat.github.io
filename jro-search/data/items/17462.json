@@ -1,0 +1,79 @@
+{
+    "type": "item",
+    "item_id": "17462",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/17462\/"
+    },
+    "name": "コスたまWingII",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する。\n・[衣装] 舞い降る天使の羽\n・[衣装] 蝶のはためき\n・[衣装] 天使のヴェール\n・[衣装] クラシカル\nフェザーハット\n・[衣装] 悪魔の忘れもの\n・[衣装] ヴァルキリー\nサークレット\n・[衣装] インペリアル\nフェザー\n・[衣装] 悪魔の下僕\n・[衣装] ヴィゾフニルの\n羽飾り\n・[衣装] アネモスの仮面",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する。",
+        "・[衣装] 舞い降る天使の羽",
+        "・[衣装] 蝶のはためき",
+        "・[衣装] 天使のヴェール",
+        "・[衣装] クラシカル",
+        "フェザーハット",
+        "・[衣装] 悪魔の忘れもの",
+        "・[衣装] ヴァルキリー",
+        "サークレット",
+        "・[衣装] インペリアル",
+        "フェザー",
+        "・[衣装] 悪魔の下僕",
+        "・[衣装] ヴィゾフニルの",
+        "羽飾り",
+        "・[衣装] アネモスの仮面"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "5b7e02000fe5d5eba53596cb832c20e5c60dcc1b237491159dc70cb184ba3090",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

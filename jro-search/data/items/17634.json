@@ -1,0 +1,70 @@
+{
+    "type": "item",
+    "item_id": "17634",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/17634\/"
+    },
+    "name": "コスチュームチェンジチケットの箱",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "[コスチュームチェンジ\nチケット]が\n1個入っている箱。\n[コスチュームチェンジ\nチケットの箱]は\n倉庫への移動のみ可能です\n利用方法は公式サイトを\nご確認ください。\n[公式サイト]",
+    "description_lines": [
+        "[コスチュームチェンジ",
+        "チケット]が",
+        "1個入っている箱。",
+        "[コスチュームチェンジ",
+        "チケットの箱]は",
+        "倉庫への移動のみ可能です",
+        "利用方法は公式サイトを",
+        "ご確認ください。",
+        "[公式サイト]"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "cf0df3842edd93232a7f65d0bc5dffb45d0735e192cfc45c249054d5820a0406",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,124 @@
+{
+    "type": "item",
+    "item_id": "18144",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18144\/"
+    },
+    "name": "一碧弓[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "archer": true
+            },
+            "include_jobs": {
+                "archer": true,
+                "thief": true,
+                "rogue": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "水の力を帯びた弓。\n\"水天\"の力を取り戻すことで\n本来の性能を発揮することが\nできると云われているが…。\n[一碧弓]装備時、\n180分間、矢に水属性を付与\n[矢]と共に装備時、追加で\n物理攻撃時、\n無・悪魔形モンスターに\n与えるダメージ + 15%\n火属性モンスターに\n与えるダメージ + 15%\n[一碧弓]の\n精錬値が7以上の時、追加で\n物理攻撃時、\n無・悪魔形モンスターに\n与えるダメージ + 10%\n火属性モンスターに\n与えるダメージ + 10%\n[一碧弓]の\n精錬値が9以上の時、追加で\n物理攻撃時、\n無・悪魔形モンスターに\n与えるダメージ + 15%\n火属性モンスターに\n与えるダメージ + 15%",
+    "description_lines": [
+        "水の力を帯びた弓。",
+        "\"水天\"の力を取り戻すことで",
+        "本来の性能を発揮することが",
+        "できると云われているが…。",
+        "[一碧弓]装備時、",
+        "180分間、矢に水属性を付与",
+        "[矢]と共に装備時、追加で",
+        "物理攻撃時、",
+        "無・悪魔形モンスターに",
+        "与えるダメージ + 15%",
+        "火属性モンスターに",
+        "与えるダメージ + 15%",
+        "[一碧弓]の",
+        "精錬値が7以上の時、追加で",
+        "物理攻撃時、",
+        "無・悪魔形モンスターに",
+        "与えるダメージ + 10%",
+        "火属性モンスターに",
+        "与えるダメージ + 10%",
+        "[一碧弓]の",
+        "精錬値が9以上の時、追加で",
+        "物理攻撃時、",
+        "無・悪魔形モンスターに",
+        "与えるダメージ + 15%",
+        "火属性モンスターに",
+        "与えるダメージ + 15%"
+    ],
+    "properties": {
+        "series": "bow",
+        "series_normalized": [
+            "bow"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "水",
+        "slot": 2,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 150,
+        "weapon_level": 3,
+        "required_level": 50,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "archer": true
+            },
+            "include_jobs": {
+                "archer": true,
+                "thief": true,
+                "rogue": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "弓",
+            "攻撃": "120",
+            "重量": "150",
+            "属性": "水",
+            "武器レベル": "3",
+            "要求レベル": "50",
+            "装備": "アーチャー系 シーフ ローグ系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ebcfe5ed7db32eb7d4f5982fc1bf8c670177fe1732119d1677d5f63cd67004b4",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

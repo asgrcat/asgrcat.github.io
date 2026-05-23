@@ -1,0 +1,118 @@
+{
+    "type": "item",
+    "item_id": "4556",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4556\/"
+    },
+    "name": "フェンリルカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "headgear"
+        ],
+        "card_attachable_positions": {
+            "upper": true,
+            "middle": true,
+            "lower": true
+        }
+    },
+    "description": "Matk + 50\n精錬値が1上がる度に追加で\nMatk + 5\n固定詠唱時間 - 70%\n[ゲートオブ\nネザーワールド]と\n共に装備時、追加で\nInt + 30 , Dex + 30\n[テトラボルテックス]の\n固定詠唱時間 - 100%\n[英雄の凱歌]と\n共に装備時、\n固定詠唱時間 - 80%",
+    "description_lines": [
+        "Matk + 50",
+        "精錬値が1上がる度に追加で",
+        "Matk + 5",
+        "固定詠唱時間 - 70%",
+        "[ゲートオブ",
+        "ネザーワールド]と",
+        "共に装備時、追加で",
+        "Int + 30 , Dex + 30",
+        "[テトラボルテックス]の",
+        "固定詠唱時間 - 100%",
+        "[英雄の凱歌]と",
+        "共に装備時、",
+        "固定詠唱時間 - 80%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "headgear"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "兜",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "フェンリル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GEFFEN_FENRIR"
+        },
+        {
+            "name": "真夜中のフェンリル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_GEFFEN_FENRIR_N"
+        },
+        {
+            "name": "シャドウフェンリル（A）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_08"
+        },
+        {
+            "name": "シャドウフェンリル（C）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_110"
+        },
+        {
+            "name": "シャドウフェンリル（B）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_94"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "ゲフェン夜間闘技場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ge_sn",
+            "map_code": "1@ge_sn"
+        },
+        {
+            "name": "ゲフェン魔法大会",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ge_st",
+            "map_code": "1@ge_st"
+        }
+    ],
+    "source_html_sha256": "d685eea6e043423864b5f76a98818496ee8086b90edb36df4c8929b66048b7a0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

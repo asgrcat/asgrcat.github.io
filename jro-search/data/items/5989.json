@@ -1,0 +1,151 @@
+{
+    "type": "item",
+    "item_id": "5989",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5989\/"
+    },
+    "name": "古びた風のささやき[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sorcerer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "禍々しい力をもつ\n風のささやき。\n通常のそれとは\n全く異なる製法で\n作られており、\n異質な力を持つ。\n人間形モンスターから\n受けるダメージ - 5%\n[ストライキング]の\n再使用待機時間 - 2秒\n[古びた風のささやき]の\n精錬値が1上がる度に追加で\nMaxHP + 1%\n[古びた風のささやき]の\n精錬値が7以上の時、追加で\n人間形モンスターから\n受けるダメージ - 5%\n[バキューム\nエクストリーム]の\n再使用待機時間 - 3秒\n[古びた風のささやき]の\n精錬値が9以上の時、追加で\n人間形モンスターから\n受けるダメージ - 2%\n[サモンアクア]の\n変動詠唱時間 - 100%\n[サモンアクア]の\n固定詠唱時間 - 100%\n[古びた風のささやき]の\n精錬値が10の時、追加で\n物理・魔法攻撃を受けた時、\n一定確率で11秒間、\n1秒毎にHP + 5000\n[戦死者のマント]と\n共に装備時、追加で\nMaxHP + 20%\n[戦死者のマント]の\n純粋なステータスで上がる\n効果が2倍になる\n[古びた派遣隊の指輪]と\n共に装備時、追加で\n[トランプル]Lv3使用可能\n[グレース\nサイキックローブ]と\n共に装備時、\n[サイキックウェーブ]Lv5\n習得時、\n[古びた風のささやき]の\n精錬値が7以上の時、\n[グレース\nサイキックローブ]の\n[バキューム\nエクストリーム]の\n再使用待機時間減少効果が\n発動しない\n[古びた風のささやき]は、\nNPC売却のみ可能です",
+    "description_lines": [
+        "禍々しい力をもつ",
+        "風のささやき。",
+        "通常のそれとは",
+        "全く異なる製法で",
+        "作られており、",
+        "異質な力を持つ。",
+        "人間形モンスターから",
+        "受けるダメージ - 5%",
+        "[ストライキング]の",
+        "再使用待機時間 - 2秒",
+        "[古びた風のささやき]の",
+        "精錬値が1上がる度に追加で",
+        "MaxHP + 1%",
+        "[古びた風のささやき]の",
+        "精錬値が7以上の時、追加で",
+        "人間形モンスターから",
+        "受けるダメージ - 5%",
+        "[バキューム",
+        "エクストリーム]の",
+        "再使用待機時間 - 3秒",
+        "[古びた風のささやき]の",
+        "精錬値が9以上の時、追加で",
+        "人間形モンスターから",
+        "受けるダメージ - 2%",
+        "[サモンアクア]の",
+        "変動詠唱時間 - 100%",
+        "[サモンアクア]の",
+        "固定詠唱時間 - 100%",
+        "[古びた風のささやき]の",
+        "精錬値が10の時、追加で",
+        "物理・魔法攻撃を受けた時、",
+        "一定確率で11秒間、",
+        "1秒毎にHP + 5000",
+        "[戦死者のマント]と",
+        "共に装備時、追加で",
+        "MaxHP + 20%",
+        "[戦死者のマント]の",
+        "純粋なステータスで上がる",
+        "効果が2倍になる",
+        "[古びた派遣隊の指輪]と",
+        "共に装備時、追加で",
+        "[トランプル]Lv3使用可能",
+        "[グレース",
+        "サイキックローブ]と",
+        "共に装備時、",
+        "[サイキックウェーブ]Lv5",
+        "習得時、",
+        "[古びた風のささやき]の",
+        "精錬値が7以上の時、",
+        "[グレース",
+        "サイキックローブ]の",
+        "[バキューム",
+        "エクストリーム]の",
+        "再使用待機時間減少効果が",
+        "発動しない",
+        "[古びた風のささやき]は、",
+        "NPC売却のみ可能です"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": "-",
+        "slot": 0,
+        "def": 12,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sorcerer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "上段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "12",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "0",
+            "要求レベル": "100",
+            "装備": "ソーサラー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "baa0e17c833801c4556da36d4585a089086317fef87c8934ce6b7f93c3d1bac7",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,100 @@
+{
+    "type": "item",
+    "item_id": "9136",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/9136\/"
+    },
+    "name": "エドガの卵[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ペット[エドガ]が\n眠っている卵。\n[携帯卵孵化機]で\n眠っているモンスターを\n目覚めさせる。\nBaseLv100以上の時、\n[速度増加]Lv10使用可能\n全てのモンスターに対し、\nサイズによる武器ダメージの\nペナルティが発生しない\n[ワンダーエッグバスケット]\nと共に装備時、追加で\nAtk + 200 , Matk + 200\n全ての基本ステータス + 10\n[エドガの卵]の\n効果は、攻城戦・新攻城戦・\n攻城戦TEの砦内・\nモンスターハウスでは\n発揮されず、解除されます\n[エドガの卵]は\nNPC売却のみ可能です\n詳細は公式サイトを\nご確認ください。\n[公式サイト]",
+    "description_lines": [
+        "ペット[エドガ]が",
+        "眠っている卵。",
+        "[携帯卵孵化機]で",
+        "眠っているモンスターを",
+        "目覚めさせる。",
+        "BaseLv100以上の時、",
+        "[速度増加]Lv10使用可能",
+        "全てのモンスターに対し、",
+        "サイズによる武器ダメージの",
+        "ペナルティが発生しない",
+        "[ワンダーエッグバスケット]",
+        "と共に装備時、追加で",
+        "Atk + 200 , Matk + 200",
+        "全ての基本ステータス + 10",
+        "[エドガの卵]の",
+        "効果は、攻城戦・新攻城戦・",
+        "攻城戦TEの砦内・",
+        "モンスターハウスでは",
+        "発揮されず、解除されます",
+        "[エドガの卵]は",
+        "NPC売却のみ可能です",
+        "詳細は公式サイトを",
+        "ご確認ください。",
+        "[公式サイト]"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": "monster_egg",
+        "accessory": "蝶ネクタイ",
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": "豪華なペットフード",
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "種類": "モンスターの卵",
+            "重量": "0",
+            "餌": "豪華なペットフード",
+            "アクセサリー": "蝶ネクタイ"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "75398ac2365a88ffb29e54b33981da1ba5c2e55a0f78a8f3480ed3af374268a2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,67 @@
+{
+    "type": "item",
+    "item_id": "7859",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7859\/"
+    },
+    "name": "試験官のメモ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "試験官が書きなぐった\nメモ書き。\n試験官の心意気が\n書かれているようだが\n字が汚すぎて\n読むことができない。",
+    "description_lines": [
+        "試験官が書きなぐった",
+        "メモ書き。",
+        "試験官の心意気が",
+        "書かれているようだが",
+        "字が汚すぎて",
+        "読むことができない。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "10"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "4712493326d01c12b8cc7b95735e64a6927f0f74c26347c906078ddc2038033b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

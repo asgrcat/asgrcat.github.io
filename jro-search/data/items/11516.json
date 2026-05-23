@@ -1,0 +1,68 @@
+{
+    "type": "item",
+    "item_id": "11516",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/11516\/"
+    },
+    "name": "アサイーの実",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ジュースやスムージーにして\n楽しめる、非常に栄養価が\n高い果実。\n健康にとても良さそうだ。\n少量のHPを回復。\n毒・沈黙・暗黒・\n混乱・幻覚を回復。",
+    "description_lines": [
+        "ジュースやスムージーにして",
+        "楽しめる、非常に栄養価が",
+        "高い果実。",
+        "健康にとても良さそうだ。",
+        "少量のHPを回復。",
+        "毒・沈黙・暗黒・",
+        "混乱・幻覚を回復。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 2,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "2"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f13e1b1da46085717d9e6eafcbe44d2f474b799dac020f26cffb92fa77135412",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,107 @@
+{
+    "type": "item",
+    "item_id": "420180",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/420180\/"
+    },
+    "name": "エイスシュピンネ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "永久霜を纏い\n絶対零度すら耐える\n氷蜘蛛を模した肩当て。\nプレイヤーから\n受けるダメージ - 3%\nスキルディレイ - 10%\n[氷結耐性]と\n共に装備時、追加で\n物理・魔法攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 15%\n[冷凍耐性]と\n共に装備時、追加で\n絶対に凍結状態にならない\n[ブリナラネアカード]と\n共に装備時、追加で\n無属性攻撃で\n受けるダメージ - 20%\n[サンダーストーム]\nLv10使用可能",
+    "description_lines": [
+        "永久霜を纏い",
+        "絶対零度すら耐える",
+        "氷蜘蛛を模した肩当て。",
+        "プレイヤーから",
+        "受けるダメージ - 3%",
+        "スキルディレイ - 10%",
+        "[氷結耐性]と",
+        "共に装備時、追加で",
+        "物理・魔法攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 15%",
+        "[冷凍耐性]と",
+        "共に装備時、追加で",
+        "絶対に凍結状態にならない",
+        "[ブリナラネアカード]と",
+        "共に装備時、追加で",
+        "無属性攻撃で",
+        "受けるダメージ - 20%",
+        "[サンダーストーム]",
+        "Lv10使用可能"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "下段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f98bbd14217c12aaa8abf792c21590324d3173dbe89b843000a720d1cdc26a38",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

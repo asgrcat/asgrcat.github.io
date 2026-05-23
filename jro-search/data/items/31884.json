@@ -1,0 +1,94 @@
+{
+    "type": "item",
+    "item_id": "31884",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31884\/"
+    },
+    "name": "[衣装] デモニッシュヘルム[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "upper": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "神々の中でも勇猛果敢な\n鬼神によって鍛え直された\nと伝わる伝説の兜を\n衣装用にこしらえたもの。\n大いなる冥加は炎や冷気、\n魔法からその身を守り、\nさらに敵を凍らせるという。",
+    "description_lines": [
+        "神々の中でも勇猛果敢な",
+        "鬼神によって鍛え直された",
+        "と伝わる伝説の兜を",
+        "衣装用にこしらえたもの。",
+        "大いなる冥加は炎や冷気、",
+        "魔法からその身を守り、",
+        "さらに敵を凍らせるという。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "位置": "上段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "410af27db8d64a2c9ba76efbbd853081fd04ba079b5a7ee18f8c002307487127",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

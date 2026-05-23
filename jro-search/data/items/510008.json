@@ -1,0 +1,123 @@
+{
+    "type": "item",
+    "item_id": "510008",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/510008\/"
+    },
+    "name": "ラースレック[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "どこにでも\n見掛けることができる\n短剣であったもの。\nイルシオンたちの設置した\n魔力干渉装置により、\n鬼気迫る姿に\n変貌してしまった。\n物理攻撃で\n与えるダメージ + 110%\n[ラースレック]の\n精錬値が7以上の時、\nBaseLvが2上がる度に追加で\n[八方苦無]で\n与えるダメージ + 1%\n[ラースレック]の\n精錬値が9以上の時、\nBaseLvが2上がる度に追加で\n[八方苦無]で\n与えるダメージ + 1%\n[ラースレック]の\n精錬値が10の時、追加で\n全てのモンスターに対し、\nサイズによる武器ダメージの\nペナルティが発生しない\n[デモンズファミリア]と\n共に装備時、追加で\nAtk + 200 , Matk + 200",
+    "description_lines": [
+        "どこにでも",
+        "見掛けることができる",
+        "短剣であったもの。",
+        "イルシオンたちの設置した",
+        "魔力干渉装置により、",
+        "鬼気迫る姿に",
+        "変貌してしまった。",
+        "物理攻撃で",
+        "与えるダメージ + 110%",
+        "[ラースレック]の",
+        "精錬値が7以上の時、",
+        "BaseLvが2上がる度に追加で",
+        "[八方苦無]で",
+        "与えるダメージ + 1%",
+        "[ラースレック]の",
+        "精錬値が9以上の時、",
+        "BaseLvが2上がる度に追加で",
+        "[八方苦無]で",
+        "与えるダメージ + 1%",
+        "[ラースレック]の",
+        "精錬値が10の時、追加で",
+        "全てのモンスターに対し、",
+        "サイズによる武器ダメージの",
+        "ペナルティが発生しない",
+        "[デモンズファミリア]と",
+        "共に装備時、追加で",
+        "Atk + 200 , Matk + 200"
+    ],
+    "properties": {
+        "series": "dagger",
+        "series_normalized": [
+            "dagger"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 0,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": 120,
+        "refinement": true,
+        "breakable": false,
+        "weight": 60,
+        "weapon_level": 4,
+        "required_level": 165,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "kagerou": true,
+                "oboro": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "短剣",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "0",
+            "Atk": "120",
+            "Matk": "120",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "60",
+            "要求レベル": "165",
+            "装備": "影狼系 朧系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "4c44a7980de0220d99738b71884d1546371bce92a1968b851e958c031c4e035c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

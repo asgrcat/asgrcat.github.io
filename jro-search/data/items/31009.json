@@ -1,0 +1,78 @@
+{
+    "type": "item",
+    "item_id": "31009",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31009\/"
+    },
+    "name": "[LoVA] 真化ルールーカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "shoes"
+        ],
+        "card_attachable_positions": {
+            "shoes": true
+        }
+    },
+    "description": "10秒毎にHPが回復\nBaseLvが1上がる度に\n10秒毎に回復するHPが上昇\n精錬値が7以上の時、\n純粋なStrが20上がる度に\n追加で\nAtk + 6 , MaxHP + 1%",
+    "description_lines": [
+        "10秒毎にHPが回復",
+        "BaseLvが1上がる度に",
+        "10秒毎に回復するHPが上昇",
+        "精錬値が7以上の時、",
+        "純粋なStrが20上がる度に",
+        "追加で",
+        "Atk + 6 , MaxHP + 1%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "shoes"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "靴",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "a757f9f183d1f8ddf3ace01b624db1b00682fa09ca682adfa80828c4576baa03",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

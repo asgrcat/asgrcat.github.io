@@ -1,0 +1,123 @@
+{
+    "type": "item",
+    "item_id": "2399",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2399\/"
+    },
+    "name": "ドラゴンベスト[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ドラコから得られる\n竜のたてがみで\n作られたシャツ\nMDEF + 3\nドラゴンのマント[1]と\n共に装備時、\nAGI + 5 , FLEE + 15",
+    "description_lines": [
+        "ドラコから得られる",
+        "竜のたてがみで",
+        "作られたシャツ",
+        "MDEF + 3",
+        "ドラゴンのマント[1]と",
+        "共に装備時、",
+        "AGI + 5 , FLEE + 15"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 20,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "20",
+            "重量": "50",
+            "要求レベル": "1",
+            "装備": "転生1次職 上位2次職 3次職 4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "働きブワヤ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BUWAYA_SLAVE"
+        },
+        {
+            "name": "ドラコ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DRACO"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "ブワヤの巣",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ma_c",
+            "map_code": "1@ma_c"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ブワヤの洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ma_c_jp",
+            "map_code": "ma_c_jp"
+        },
+        {
+            "name": "イグドラシル中心部 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/nyd_dun01",
+            "map_code": "nyd_dun01"
+        }
+    ],
+    "source_html_sha256": "6654068059c993dfa8ae4c7803d03385028251471e749115ccf5ebb0c03a14f3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

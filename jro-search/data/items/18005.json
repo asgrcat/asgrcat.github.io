@@ -1,0 +1,69 @@
+{
+    "type": "item",
+    "item_id": "18005",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18005\/"
+    },
+    "name": "アイスキャノンボール",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "水の力が宿った砲弾。",
+    "description_lines": [
+        "水の力が宿った砲弾。"
+    ],
+    "properties": {
+        "series": "cannonball",
+        "series_normalized": [
+            "cannonball"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "水",
+        "slot": null,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": 0,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "砲弾",
+            "属性": "水",
+            "Atk": "120",
+            "Matk": "0",
+            "重量": "1",
+            "要求レベル": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "0cc0a45fde507df853f8be5224d11e9dd76662af5e95ad6c048a59c0101dcba8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

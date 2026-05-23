@@ -1,0 +1,92 @@
+{
+    "type": "item",
+    "item_id": "2599",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2599\/"
+    },
+    "name": "ゴヴニュの肩飾り[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ゴヴニュが初めて作った防具。彼はこの肩飾りをとても大事にしたという。\n遠距離物理攻撃のダメージ10%減少,VIT + 1,MDEF + 2。\nゴヴニュの兜・ゴヴニュの鎧・ゴヴニュの肩飾り・ゴヴニュの軍靴を全て装備すると、VIT + 5, MHP + 15%, MSP + 5%, DEF + 5, MDEF + 15, 水、風、地、火属性に対する耐性10%向上。",
+    "description_lines": [
+        "ゴヴニュが初めて作った防具。彼はこの肩飾りをとても大事にしたという。",
+        "遠距離物理攻撃のダメージ10%減少,VIT + 1,MDEF + 2。",
+        "ゴヴニュの兜・ゴヴニュの鎧・ゴヴニュの肩飾り・ゴヴニュの軍靴を全て装備すると、VIT + 5, MHP + 15%, MSP + 5%, DEF + 5, MDEF + 15, 水、風、地、火属性に対する耐性10%向上。"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 11,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 70,
+        "weapon_level": null,
+        "required_level": 54,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "防御": "11",
+            "重量": "70",
+            "要求レベル": "54",
+            "装備": "ノービス系を除く全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "0dd7f2607140c429f7347e7d737a49222e9b17d727ae18c64a4f75c45eb7234d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

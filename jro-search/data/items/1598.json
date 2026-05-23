@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "1598",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1598\/"
+    },
+    "name": "蛇蝎大全集[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sorcerer": true,
+                "arch_bishop": true,
+                "star_emperor": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "蛇に関するありとあらゆる\n情報が網羅された本。\nMatk + 110\n精錬値が1上がる度に追加で\nAtk + 3 , Matk + 3\n絶対に壊れない\n[スネイクカード]\nと共に装備時、追加で\n攻撃速度 + 5%\n[サイドワインダーカード]\nと共に装備時、追加で\n攻撃速度 + 5%\n[スネイクカード]\n[サイドワインダーカード]\nと共に装備時、追加で\nAspd + 1",
+    "description_lines": [
+        "蛇に関するありとあらゆる",
+        "情報が網羅された本。",
+        "Matk + 110",
+        "精錬値が1上がる度に追加で",
+        "Atk + 3 , Matk + 3",
+        "絶対に壊れない",
+        "[スネイクカード]",
+        "と共に装備時、追加で",
+        "攻撃速度 + 5%",
+        "[サイドワインダーカード]",
+        "と共に装備時、追加で",
+        "攻撃速度 + 5%",
+        "[スネイクカード]",
+        "[サイドワインダーカード]",
+        "と共に装備時、追加で",
+        "Aspd + 1"
+    ],
+    "properties": {
+        "series": "book",
+        "series_normalized": [
+            "book"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 3,
+        "def": null,
+        "atk": 10,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 150,
+        "weapon_level": 4,
+        "required_level": 105,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sorcerer": true,
+                "arch_bishop": true,
+                "star_emperor": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "本",
+            "攻撃": "10",
+            "重量": "150",
+            "武器レベル": "4",
+            "要求レベル": "105",
+            "装備": "アークビショップ系 ソーサラー系 星帝系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "b1c00ebe98325fc59e70743de389daa5c8660d5f2bacc88fb0e10b7aa00fae33",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

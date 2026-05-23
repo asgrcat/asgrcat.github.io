@@ -1,0 +1,111 @@
+{
+    "type": "item",
+    "item_id": "1369",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1369\/"
+    },
+    "name": "ギロチン[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "首を切り落としやすくした\n惨酷な斧。\n人間形モンスターに\n攻撃命中時、SP + 2\n近接物理攻撃で\n人間形モンスターを倒した時\nSP + 20\n物理攻撃時、一定確率で\n人間形モンスターに\nコーマ発動",
+    "description_lines": [
+        "首を切り落としやすくした",
+        "惨酷な斧。",
+        "人間形モンスターに",
+        "攻撃命中時、SP + 2",
+        "近接物理攻撃で",
+        "人間形モンスターを倒した時",
+        "SP + 20",
+        "物理攻撃時、一定確率で",
+        "人間形モンスターに",
+        "コーマ発動"
+    ],
+    "properties": {
+        "series": "two_handed_axe",
+        "series_normalized": [
+            "two_handed_axe"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 215,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 300,
+        "weapon_level": 4,
+        "required_level": 44,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手斧",
+            "攻撃": "215",
+            "重量": "300",
+            "武器レベル": "4",
+            "要求レベル": "44",
+            "装備": "ソードマン系 マーチャント系 ドルイド系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "83c5e67d1fc84f1ee9060a77861ed27ef2ec4f940fecd5eb6d4aacfcfa12a313",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

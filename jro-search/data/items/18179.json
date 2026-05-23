@@ -1,0 +1,118 @@
+{
+    "type": "item",
+    "item_id": "18179",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18179\/"
+    },
+    "name": "MH-P89-OS[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "minstrel": true,
+                "wanderer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "試作品No89と刻印された\nクロスボウ。\n矢を射ると計器盤に\n威力に応じた値が\n浮かぶと云う。\n物理・魔法攻撃で\n与えるダメージ + 20%\n[MH-P89-OS]の\n精錬値が7以上の時、追加で\n物理・魔法攻撃で\n与えるダメージ + 10%\n[MH-P89-OS]の\n精錬値が9以上の時、追加で\n物理・魔法攻撃で\n与えるダメージ + 10%\n[MH-P89-OS]の\n精錬値が10の時、追加で\n無属性魔法攻撃で\n与えるダメージ + 50%\n[コル・コアヘッドフォン]\nと共に装備時、追加で\nAtk + 200 , Matk + 200",
+    "description_lines": [
+        "試作品No89と刻印された",
+        "クロスボウ。",
+        "矢を射ると計器盤に",
+        "威力に応じた値が",
+        "浮かぶと云う。",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 20%",
+        "[MH-P89-OS]の",
+        "精錬値が7以上の時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 10%",
+        "[MH-P89-OS]の",
+        "精錬値が9以上の時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 10%",
+        "[MH-P89-OS]の",
+        "精錬値が10の時、追加で",
+        "無属性魔法攻撃で",
+        "与えるダメージ + 50%",
+        "[コル・コアヘッドフォン]",
+        "と共に装備時、追加で",
+        "Atk + 200 , Matk + 200"
+    ],
+    "properties": {
+        "series": "bow",
+        "series_normalized": [
+            "bow"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 0,
+        "def": null,
+        "atk": 160,
+        "mdef": null,
+        "matk": 170,
+        "refinement": true,
+        "breakable": true,
+        "weight": 90,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "minstrel": true,
+                "wanderer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "弓",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "0",
+            "Atk": "160",
+            "Matk": "170",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "90",
+            "要求レベル": "150",
+            "装備": "ミンストレル系 ワンダラー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "09ac49db4e8c0354a007fcb48bc7db2ab3434ef1d850b4ac73ba44d0161a9f90",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

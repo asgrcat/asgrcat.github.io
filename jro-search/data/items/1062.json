@@ -1,0 +1,132 @@
+{
+    "type": "item",
+    "item_id": "1062",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1062\/"
+    },
+    "name": "カボチャの頭",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "中身を取り出して、そのカボチャに化け物の顔などを切り出した物。収集品商人に売ることができる。\n_",
+    "description_lines": [
+        "中身を取り出して、そのカボチャに化け物の顔などを切り出した物。収集品商人に売ることができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ジャッククリスマス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JAKK_XMAS"
+        },
+        {
+            "name": "ジャック",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JAKK"
+        },
+        {
+            "name": "火炎のジャック",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_JAKK"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld119",
+            "map_code": "2@ld119"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le119",
+            "map_code": "2@le119"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "標本環境(火炎)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_lava",
+            "map_code": "bl_lava"
+        },
+        {
+            "name": "ゲフェン地下ダンジョン B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_dun01",
+            "map_code": "gef_dun01"
+        },
+        {
+            "name": "ブリトニア 砦1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas01",
+            "map_code": "gefg_cas01"
+        },
+        {
+            "name": "ブリトニア 砦2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas02",
+            "map_code": "gefg_cas02"
+        },
+        {
+            "name": "ブリトニア 砦3",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas03",
+            "map_code": "gefg_cas03"
+        },
+        {
+            "name": "ブリトニア 砦4",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas04",
+            "map_code": "gefg_cas04"
+        },
+        {
+            "name": "ブリトニア 砦5",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefg_cas05",
+            "map_code": "gefg_cas05"
+        }
+    ],
+    "source_html_sha256": "e289f40f67b8ff89f6505c952a48d0c5225895c25b601ab586076d4a1d247f85",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

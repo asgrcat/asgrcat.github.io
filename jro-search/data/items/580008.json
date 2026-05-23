@@ -1,0 +1,147 @@
+{
+    "type": "item",
+    "item_id": "580008",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/580008\/"
+    },
+    "name": "イリュージョン電気ウナギ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "wanderer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "強力な電気エネルギーを放つ\n生き物で作った鞭。\nぬらぬらしていて、\n気持ち悪い。\n物理・魔法攻撃で\n与えるダメージ + 60%\n[サンダーストーム]\nLv1使用可能\nBaseLvが170以上の時、\n[イリュージョン\n電気ウナギ]の\n精錬値が7以上の時、追加で\n遠距離物理攻撃で\n受けるダメージ - 5%\n精錬値と同じLvの\n[サンダーストーム]\n使用可能\n[イリュージョン\n電気ウナギ]の\n精錬値が9以上の時、追加で\n遠距離物理攻撃で\n受けるダメージ - 5%",
+    "description_lines": [
+        "強力な電気エネルギーを放つ",
+        "生き物で作った鞭。",
+        "ぬらぬらしていて、",
+        "気持ち悪い。",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 60%",
+        "[サンダーストーム]",
+        "Lv1使用可能",
+        "BaseLvが170以上の時、",
+        "[イリュージョン",
+        "電気ウナギ]の",
+        "精錬値が7以上の時、追加で",
+        "遠距離物理攻撃で",
+        "受けるダメージ - 5%",
+        "精錬値と同じLvの",
+        "[サンダーストーム]",
+        "使用可能",
+        "[イリュージョン",
+        "電気ウナギ]の",
+        "精錬値が9以上の時、追加で",
+        "遠距離物理攻撃で",
+        "受けるダメージ - 5%"
+    ],
+    "properties": {
+        "series": "whip",
+        "series_normalized": [
+            "whip"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "風",
+        "slot": 1,
+        "def": null,
+        "atk": 140,
+        "mdef": null,
+        "matk": 120,
+        "refinement": true,
+        "breakable": true,
+        "weight": 100,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "wanderer": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鞭",
+            "武器レベル": "4",
+            "属性": "風",
+            "スロット": "1",
+            "Atk": "140",
+            "Matk": "120",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "100",
+            "要求レベル": "150",
+            "装備": "ワンダラー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "深海のデビアス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_DEVIACE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 深海遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld130",
+            "map_code": "2@ld130"
+        },
+        {
+            "name": "幻影の迷宮 深海遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le130",
+            "map_code": "2@le130"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "紫色の深海洞窟 下層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/iz_d05_i",
+            "map_code": "iz_d05_i"
+        }
+    ],
+    "source_html_sha256": "cd11383d30f3607704ab7ae0da9d35fdaddf57e057eefc6e9a2cf53d65562ef3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

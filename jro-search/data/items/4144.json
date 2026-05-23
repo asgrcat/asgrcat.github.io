@@ -1,0 +1,140 @@
+{
+    "type": "item",
+    "item_id": "4144",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4144\/"
+    },
+    "name": "オシリスカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "戦闘不能から復活時、\nHP・SPを100%回復する\n[古代モロクのショール]と\n共に装備時、追加で\nMaxHP + 15%\n火属性攻撃で\n受けるダメージ - 50%\n闇属性攻撃で\n受けるダメージ - 100%\n絶対に呪い状態にならない\n[起源の王]と\n共に装備時、追加で\n攻撃命中時、SP + 2\n[クァグマイア]\nLv5使用可能",
+    "description_lines": [
+        "戦闘不能から復活時、",
+        "HP・SPを100%回復する",
+        "[古代モロクのショール]と",
+        "共に装備時、追加で",
+        "MaxHP + 15%",
+        "火属性攻撃で",
+        "受けるダメージ - 50%",
+        "闇属性攻撃で",
+        "受けるダメージ - 100%",
+        "絶対に呪い状態にならない",
+        "[起源の王]と",
+        "共に装備時、追加で",
+        "攻撃命中時、SP + 2",
+        "[クァグマイア]",
+        "Lv5使用可能"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "オシリス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/OSIRIS"
+        },
+        {
+            "name": "オシリス（A）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_10"
+        },
+        {
+            "name": "オシリス（B）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_136"
+        },
+        {
+            "name": "オシリス（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_OSIRIS"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "試練の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@la_00",
+            "map_code": "3@la_00"
+        },
+        {
+            "name": "幻影の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@ld200",
+            "map_code": "3@ld200"
+        },
+        {
+            "name": "幻影の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@lf200",
+            "map_code": "3@lf200"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "ピラミッドダンジョン 4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd04",
+            "map_code": "moc_pryd04"
+        }
+    ],
+    "source_html_sha256": "d61d47857f72685e1b51cd9c5185b0b14ab09e7d15379b640312830db492f72d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,136 @@
+{
+    "type": "item",
+    "item_id": "5119",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5119\/"
+    },
+    "name": "スーパーノービス帽[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "novice": true
+            },
+            "include_jobs": {
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "スーパーノービスを象徴する帽子。スーパーノービスの服ととてもよく合うデザインだ。\n全ての基本ステータス + 1。",
+    "description_lines": [
+        "スーパーノービスを象徴する帽子。スーパーノービスの服ととてもよく合うデザインだ。",
+        "全ての基本ステータス + 1。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 8,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 40,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "novice": true
+            },
+            "include_jobs": {
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "8",
+            "位置": "上段",
+            "重量": "40",
+            "要求レベル": "40",
+            "装備": "ノービス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "モルデン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MOLE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "実習室（炭鉱）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_prac_04",
+            "map_code": "ac_prac_04"
+        },
+        {
+            "name": "アインブロックフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_fild03",
+            "map_code": "ein_fild03"
+        },
+        {
+            "name": "アインブロックフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_fild04",
+            "map_code": "ein_fild04"
+        },
+        {
+            "name": "フィゲルフィールド 06",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild06",
+            "map_code": "hu_fild06"
+        },
+        {
+            "name": "リヒタルゼンフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_fild01",
+            "map_code": "lhz_fild01"
+        },
+        {
+            "name": "リヒタルゼンフィールド 02(死神の峡谷)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_fild02",
+            "map_code": "lhz_fild02"
+        },
+        {
+            "name": "リヒタルゼンフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_fild03",
+            "map_code": "lhz_fild03"
+        }
+    ],
+    "source_html_sha256": "06e8ab6ecc304c152e1fbf53956e7943c56107b7e0c8a44b675b375bbbd09eda",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

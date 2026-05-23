@@ -1,0 +1,140 @@
+{
+    "type": "item",
+    "item_id": "27157",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27157\/"
+    },
+    "name": "ウッドゴブリンカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "shield"
+        ],
+        "card_attachable_positions": {
+            "shield": true
+        }
+    },
+    "description": "Mdef + 10\n精錬値が9以上の時、追加で\nMdef + 10",
+    "description_lines": [
+        "Mdef + 10",
+        "精錬値が9以上の時、追加で",
+        "Mdef + 10"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "shield"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "盾",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ウッドゴブリン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WOOD_GOBLIN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "ラヴィーネ山脈01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ravi",
+            "map_code": "1@ravi"
+        },
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_02",
+            "map_code": "2@la_02"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_02",
+            "map_code": "2@lb_02"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_02",
+            "map_code": "2@lc_02"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld202",
+            "map_code": "2@ld202"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf202",
+            "map_code": "2@lf202"
+        },
+        {
+            "name": "ラヴィーネ山脈02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ravi",
+            "map_code": "2@ravi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mosk_dun01",
+            "map_code": "mosk_dun01"
+        },
+        {
+            "name": "深い森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mosk_dun02",
+            "map_code": "mosk_dun02"
+        },
+        {
+            "name": "モスコビアフィールド",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mosk_fild02",
+            "map_code": "mosk_fild02"
+        }
+    ],
+    "source_html_sha256": "3c04558c1ac3e6d14c641f96bc18c9bdfd0b034cf8808c10858093da329cc7d6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

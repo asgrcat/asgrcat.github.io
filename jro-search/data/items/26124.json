@@ -1,0 +1,112 @@
+{
+    "type": "item",
+    "item_id": "26124",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/26124\/"
+    },
+    "name": "豊富な回復の猫じゃらし[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "summoner": true
+            },
+            "include_jobs": {
+                "summoner": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "豊富な猫じゃらしをまとめ、\n見ているだけで\n満足してしまう\n猫じゃらし杖。\nMatk + 175\n[豊富な回復の猫じゃらし]の\n精錬値が1上がる度に追加で\nヒール系スキル使用時、\nHP回復量 + 5%\n[豊富な回復の猫じゃらし]の\n精錬値が7以上の時、追加で\nヒール系スキル使用時、\nHP回復量 + 20%\n[豊富な回復の猫じゃらし]の\n精錬値が8以上の時、追加で\n変動詠唱時間 - 10%\nスキルディレイ - 10%\nヒール系スキル使用時、\nHP回復量 + 30%",
+    "description_lines": [
+        "豊富な猫じゃらしをまとめ、",
+        "見ているだけで",
+        "満足してしまう",
+        "猫じゃらし杖。",
+        "Matk + 175",
+        "[豊富な回復の猫じゃらし]の",
+        "精錬値が1上がる度に追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 5%",
+        "[豊富な回復の猫じゃらし]の",
+        "精錬値が7以上の時、追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 20%",
+        "[豊富な回復の猫じゃらし]の",
+        "精錬値が8以上の時、追加で",
+        "変動詠唱時間 - 10%",
+        "スキルディレイ - 10%",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 30%"
+    ],
+    "properties": {
+        "series": "one_handed_staff",
+        "series_normalized": [
+            "one_handed_staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 130,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": 4,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "summoner": true
+            },
+            "include_jobs": {
+                "summoner": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手杖",
+            "攻撃": "130",
+            "重量": "40",
+            "武器レベル": "4",
+            "要求レベル": "100",
+            "装備": "サモナー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "eaca67a5e166cf0f8a2d01b7f4956a14c5ca8e29f775ca27f8b0770a356b6388",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

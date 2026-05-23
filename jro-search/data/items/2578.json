@@ -1,0 +1,112 @@
+{
+    "type": "item",
+    "item_id": "2578",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2578\/"
+    },
+    "name": "ナブのフード[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "guillotine_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "二刀流の使い手として\n有名だったアサシンの\nアーティファクト。\n[ナブのフード]の\n精錬値が1上がる度に追加で\nAtk + 2 , Flee + 2\n[ナブのクロース]、\n[ナブのシューズ]、\n[ナブのリング]と\n共に装備時、追加で\n隠された力が発動する\n[ナブのクロース]、\n[ナブのシューズ]、\n[ナブのフード]の\n精錬値が7以上の時、\n追加効果が発動する\n[アルティメット\nモードチェンジャー]と\n共に装備時、追加で\n秘められた効果が発動する\n[ナブのクロース]、\n[ナブのシューズ]、\n[ナブのリング]、\n[アルティメット\nモードチェンジャー]と\n共に装備時、追加で\n秘められた効果が発動する",
+    "description_lines": [
+        "二刀流の使い手として",
+        "有名だったアサシンの",
+        "アーティファクト。",
+        "[ナブのフード]の",
+        "精錬値が1上がる度に追加で",
+        "Atk + 2 , Flee + 2",
+        "[ナブのクロース]、",
+        "[ナブのシューズ]、",
+        "[ナブのリング]と",
+        "共に装備時、追加で",
+        "隠された力が発動する",
+        "[ナブのクロース]、",
+        "[ナブのシューズ]、",
+        "[ナブのフード]の",
+        "精錬値が7以上の時、",
+        "追加効果が発動する",
+        "[アルティメット",
+        "モードチェンジャー]と",
+        "共に装備時、追加で",
+        "秘められた効果が発動する",
+        "[ナブのクロース]、",
+        "[ナブのシューズ]、",
+        "[ナブのリング]、",
+        "[アルティメット",
+        "モードチェンジャー]と",
+        "共に装備時、追加で",
+        "秘められた効果が発動する"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 13,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "guillotine_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "防御": "13",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "ギロチンクロス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "23f7889182d450ac60fba3a8087fd4fc319466400497b250c4e6e66fee567d49",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

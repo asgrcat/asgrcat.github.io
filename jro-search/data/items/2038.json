@@ -1,0 +1,173 @@
+{
+    "type": "item",
+    "item_id": "2038",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2038\/"
+    },
+    "name": "ひまわり少年[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "warlock": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "大魔法使いナゾヒナが\n使用していたことで\n知られている杖。\n杖からあふれ出す魔力が\n花をしおれないようにする。\nMatk + 210\n[サイトラッシャー]Lv10\n習得時、追加で\n火属性魔法攻撃で\n与えるダメージ + 20%\n[ひまわり少年]の\n精錬値が1上がる度に追加で\n火属性魔法攻撃で\n与えるダメージ + 3%\n敵のMdef 5%無視\n[メテオストーム]使用時、\n一定確率で5秒間、\n[メテオストーム]で\n与えるダメージ + 60%\n[ひまわり少年]の\n精錬値が1上がる度に\n発動率が上昇\n[不死の軍団認識票]と\n共に装備時、\n[ひまわり少年]の\n精錬値が1上がる度に追加で\nInt + 2\n[クリムゾンロック]で\n与えるダメージ + 1%\n[ひまわり少年]の\n精錬値が9以上の時、追加で\n魔法攻撃命中時、\n一定確率で10秒間、\n火属性魔法攻撃で\n与えるダメージ + 50%\n魔法攻撃で\nモンスターを倒した時、\nHP + 500",
+    "description_lines": [
+        "大魔法使いナゾヒナが",
+        "使用していたことで",
+        "知られている杖。",
+        "杖からあふれ出す魔力が",
+        "花をしおれないようにする。",
+        "Matk + 210",
+        "[サイトラッシャー]Lv10",
+        "習得時、追加で",
+        "火属性魔法攻撃で",
+        "与えるダメージ + 20%",
+        "[ひまわり少年]の",
+        "精錬値が1上がる度に追加で",
+        "火属性魔法攻撃で",
+        "与えるダメージ + 3%",
+        "敵のMdef 5%無視",
+        "[メテオストーム]使用時、",
+        "一定確率で5秒間、",
+        "[メテオストーム]で",
+        "与えるダメージ + 60%",
+        "[ひまわり少年]の",
+        "精錬値が1上がる度に",
+        "発動率が上昇",
+        "[不死の軍団認識票]と",
+        "共に装備時、",
+        "[ひまわり少年]の",
+        "精錬値が1上がる度に追加で",
+        "Int + 2",
+        "[クリムゾンロック]で",
+        "与えるダメージ + 1%",
+        "[ひまわり少年]の",
+        "精錬値が9以上の時、追加で",
+        "魔法攻撃命中時、",
+        "一定確率で10秒間、",
+        "火属性魔法攻撃で",
+        "与えるダメージ + 50%",
+        "魔法攻撃で",
+        "モンスターを倒した時、",
+        "HP + 500"
+    ],
+    "properties": {
+        "series": "two_handed_staff",
+        "series_normalized": [
+            "two_handed_staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 40,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 90,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "warlock": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手杖",
+            "攻撃": "40",
+            "重量": "90",
+            "武器レベル": "4",
+            "要求レベル": "150",
+            "装備": "ウォーロック系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "S・J・アーネストウルフ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AS_RAGGED_GOLEM"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "空中要塞最上階",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@sthd",
+            "map_code": "1@sthd"
+        },
+        {
+            "name": "異形の迷宮 秘密の通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_24",
+            "map_code": "2@lc_24"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        }
+    ],
+    "source_html_sha256": "856308a6895e550c88634a7998d2cb1ee9e5c7befe74f9a623720667b58407c6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

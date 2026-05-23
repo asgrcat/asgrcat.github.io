@@ -1,0 +1,100 @@
+{
+    "type": "item",
+    "item_id": "1000638",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000638\/"
+    },
+    "name": "氷河のルーンの欠片",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "バルムントが管理していた\n標本環境(氷河)の\nモンスターから得られる\n氷河のルーンの欠片。",
+    "description_lines": [
+        "バルムントが管理していた",
+        "標本環境(氷河)の",
+        "モンスターから得られる",
+        "氷河のルーンの欠片。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0.1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "氷河のエンジェゴルト",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_ANGELGOLT"
+        },
+        {
+            "name": "氷河のAエレメンタル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_AQUA_ELEMENTAL"
+        },
+        {
+            "name": "氷河のセンチピード",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_CENTIPEDE"
+        },
+        {
+            "name": "氷河のアイスタイタン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_ICE_TITAN"
+        },
+        {
+            "name": "氷河のリンコ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_RHYNCHO"
+        },
+        {
+            "name": "氷河のシロマ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_SIROMA"
+        },
+        {
+            "name": "氷河のスノウアー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_SNOWIER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "標本環境(氷河)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_ice",
+            "map_code": "bl_ice"
+        }
+    ],
+    "source_html_sha256": "92fbd8947f107818cca84fa228ffcf246d74f2a350663b9a344bcda8e61559bd",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

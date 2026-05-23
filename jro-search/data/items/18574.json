@@ -1,0 +1,108 @@
+{
+    "type": "item",
+    "item_id": "18574",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18574\/"
+    },
+    "name": "ロードオブデスの兜[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ニブルヘイムに君臨する\n骸骨の騎士の兜。\n白銀に輝く兜は\n強い者であるほど\nその価値がわかる。\nMdef + 5\n物理攻撃時、\nボスモンスターへの\nダメージ + 10%\n一般モンスターから\n受けるダメージ + 5%\n精錬値 5以上の時、\n精錬値が 1上がる度に\n追加で物理攻撃時、\nボスモンスターへの\nダメージ + 1%\n[ロードオブデスの盾]と共に\n装備時、追加で物理攻撃時、\nボスモンスターへの\nダメージ + 5%\n[ロードオブデスの兜]の\n精錬値が 7以上の時、\n追加で物理攻撃時、\nボスモンスターへの\nダメージ + 5%\n特定の装備と\n組み合わせる事により\n隠された力が発動する",
+    "description_lines": [
+        "ニブルヘイムに君臨する",
+        "骸骨の騎士の兜。",
+        "白銀に輝く兜は",
+        "強い者であるほど",
+        "その価値がわかる。",
+        "Mdef + 5",
+        "物理攻撃時、",
+        "ボスモンスターへの",
+        "ダメージ + 10%",
+        "一般モンスターから",
+        "受けるダメージ + 5%",
+        "精錬値 5以上の時、",
+        "精錬値が 1上がる度に",
+        "追加で物理攻撃時、",
+        "ボスモンスターへの",
+        "ダメージ + 1%",
+        "[ロードオブデスの盾]と共に",
+        "装備時、追加で物理攻撃時、",
+        "ボスモンスターへの",
+        "ダメージ + 5%",
+        "[ロードオブデスの兜]の",
+        "精錬値が 7以上の時、",
+        "追加で物理攻撃時、",
+        "ボスモンスターへの",
+        "ダメージ + 5%",
+        "特定の装備と",
+        "組み合わせる事により",
+        "隠された力が発動する"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 10,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 70,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "10",
+            "位置": "上中段",
+            "重量": "100",
+            "要求レベル": "70",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "7c1eeba4a3b1d770967b1fac971c96b8608c7dcdbb6a55a324e7a7405f3db2aa",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

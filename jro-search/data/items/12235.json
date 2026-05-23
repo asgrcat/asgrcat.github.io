@@ -1,0 +1,74 @@
+{
+    "type": "item",
+    "item_id": "12235",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12235\/"
+    },
+    "name": "ストロベリーチョコ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "新鮮なイチゴをチョコレート\nやホワイトチョコで\nコーティングした、\n一風変わったチョコレート。\n甘さと酸っぱさが絶妙に\n混ざり合い爽やかな味がする\nSPを5%回復する\n[ブレッシング]Lv5発動",
+    "description_lines": [
+        "新鮮なイチゴをチョコレート",
+        "やホワイトチョコで",
+        "コーティングした、",
+        "一風変わったチョコレート。",
+        "甘さと酸っぱさが絶妙に",
+        "混ざり合い爽やかな味がする",
+        "SPを5%回復する",
+        "[ブレッシング]Lv5発動"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "10"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "チョコルチ・グランデ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GIANT_DEVIRUCHI"
+        }
+    ],
+    "available_maps": [],
+    "source_html_sha256": "8efc76e6080d8ed721ee88d19d1dc325f80d3901717fbcc64de078638de2928d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

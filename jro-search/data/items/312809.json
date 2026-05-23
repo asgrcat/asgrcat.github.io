@@ -1,0 +1,66 @@
+{
+    "type": "item",
+    "item_id": "312809",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/312809\/"
+    },
+    "name": "潜在覚醒(ジャックフロストII)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "BaseLvが2上がる度に追加で\n[ジャックフロスト]で\n与えるダメージ + 1%\n[真理の解放]と\n共に装備時、\n[ジャックフロスト]の\n固定詠唱時間 - 100%",
+    "description_lines": [
+        "BaseLvが2上がる度に追加で",
+        "[ジャックフロスト]で",
+        "与えるダメージ + 1%",
+        "[真理の解放]と",
+        "共に装備時、",
+        "[ジャックフロスト]の",
+        "固定詠唱時間 - 100%"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "5117edc5911625472d7e1d773017a1d186fe280378870088a0f4abaa4a4635ae",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

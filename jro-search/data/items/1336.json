@@ -1,0 +1,144 @@
+{
+    "type": "item",
+    "item_id": "1336",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1336\/"
+    },
+    "name": "ガーディアンナイツアックス[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "mechanic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "グラストヘイムガードが\n使用していた祭礼用の斧。\n特別な点のない\n平凡な武器だが、\nヒメルメズの影響を受け、\n魔力のオーラを\n漂わせている。\n[ガーディアンナイツ\nアックス]の\n精錬値が1上がる度に追加で\n一部のダメージを\n反射する効果で\n受けるダメージ - 10%\n[ガーディアンナイツ\nアックス]の\n精錬値が7以上の時、\nBaseLvが2上がる度に追加で\n[パワースイング]で\n与えるダメージ + 1%\n[ガーディアンナイツ\nアックス]の\n精錬値が9以上の時、\nBaseLvが2上がる度に追加で\n[アックストルネード]で\n与えるダメージ + 1%\n[ガーディアンナイツ\nアックス]の\n超越段階が1以上の時、追加で\n[マグマイラプション]の\n再使用待機時間 - 3秒\nBaseLvが2上がる度に追加で\n[アックスブーメラン]で\n与えるダメージ + 1%\n[ガーディアンナイツ\nアックス]の\n超越段階が1以上の時、\n精錬値が10の時、追加で\nAtk + 150\n念属性攻撃で\n受けるダメージ - 10%\n[王の神威]と\n共に装備時、追加で\n攻撃速度 + 15%\nプレイヤーから\n受けるダメージ - 10%\n[ゴスペル]Lv1使用可能\n[ガーディアンナイツ\nアックス]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "グラストヘイムガードが",
+        "使用していた祭礼用の斧。",
+        "特別な点のない",
+        "平凡な武器だが、",
+        "ヒメルメズの影響を受け、",
+        "魔力のオーラを",
+        "漂わせている。",
+        "[ガーディアンナイツ",
+        "アックス]の",
+        "精錬値が1上がる度に追加で",
+        "一部のダメージを",
+        "反射する効果で",
+        "受けるダメージ - 10%",
+        "[ガーディアンナイツ",
+        "アックス]の",
+        "精錬値が7以上の時、",
+        "BaseLvが2上がる度に追加で",
+        "[パワースイング]で",
+        "与えるダメージ + 1%",
+        "[ガーディアンナイツ",
+        "アックス]の",
+        "精錬値が9以上の時、",
+        "BaseLvが2上がる度に追加で",
+        "[アックストルネード]で",
+        "与えるダメージ + 1%",
+        "[ガーディアンナイツ",
+        "アックス]の",
+        "超越段階が1以上の時、追加で",
+        "[マグマイラプション]の",
+        "再使用待機時間 - 3秒",
+        "BaseLvが2上がる度に追加で",
+        "[アックスブーメラン]で",
+        "与えるダメージ + 1%",
+        "[ガーディアンナイツ",
+        "アックス]の",
+        "超越段階が1以上の時、",
+        "精錬値が10の時、追加で",
+        "Atk + 150",
+        "念属性攻撃で",
+        "受けるダメージ - 10%",
+        "[王の神威]と",
+        "共に装備時、追加で",
+        "攻撃速度 + 15%",
+        "プレイヤーから",
+        "受けるダメージ - 10%",
+        "[ゴスペル]Lv1使用可能",
+        "[ガーディアンナイツ",
+        "アックス]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "one_handed_axe",
+        "series_normalized": [
+            "one_handed_axe"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 180,
+        "mdef": null,
+        "matk": 110,
+        "refinement": true,
+        "breakable": false,
+        "weight": 180,
+        "weapon_level": 4,
+        "required_level": 185,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "mechanic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手斧",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "180",
+            "Matk": "110",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "180",
+            "要求レベル": "185",
+            "装備": "メカニック系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "d0f5bdf0efdfe22d75f093a754c6c96e13f9df0a939a697ea94d62488509f4c7",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

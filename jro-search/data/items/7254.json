@@ -1,0 +1,101 @@
+{
+    "type": "item",
+    "item_id": "7254",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7254\/"
+    },
+    "name": "賛成派の証[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "バレンタインデー賛成派陣営\n『ハニーハーツ』\nに所属している証。\nモンスターを倒した時、\n一定確率で\n[チョコレート]、\n[ホワイトチョコ]、\n[チョコレートドリンク]を\nドロップ。\n2010年3月23日\n定期メンテナンス後、\n上記効果は消滅する。\n倉庫を含め、一切の\n移動が出来ない。\n2010年3月23日\n定期メンテナンス後、\n移動が可能になる。",
+    "description_lines": [
+        "バレンタインデー賛成派陣営",
+        "『ハニーハーツ』",
+        "に所属している証。",
+        "モンスターを倒した時、",
+        "一定確率で",
+        "[チョコレート]、",
+        "[ホワイトチョコ]、",
+        "[チョコレートドリンク]を",
+        "ドロップ。",
+        "2010年3月23日",
+        "定期メンテナンス後、",
+        "上記効果は消滅する。",
+        "倉庫を含め、一切の",
+        "移動が出来ない。",
+        "2010年3月23日",
+        "定期メンテナンス後、",
+        "移動が可能になる。"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c30f669f8fc71c11617b72d63837320b7e270c874a734857a4ea4debd494781e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

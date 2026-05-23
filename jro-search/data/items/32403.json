@@ -1,0 +1,141 @@
+{
+    "type": "item",
+    "item_id": "32403",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/32403\/"
+    },
+    "name": "ガーディアンアルケミックスタッフ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "genetic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "グラストヘイムの研究員が\n使用していた製作用棒。\n美しい形だったが、\nヒメルメズの影響を受け、\n魔力のオーラを\n漂わせている。\n[ガーディアン\nアルケミックスタッフ]の\n精錬値が1上がる度に追加で\n一部のダメージを\n反射する効果で\n受けるダメージ - 10%\n[ガーディアン\nアルケミックスタッフ]の\n精錬値が7以上の時、追加で\n[カートトルネード]の\n再使用待機時間 - 0.2秒\n[ガーディアン\nアルケミックスタッフ]の\n精錬値が9以上の時、\nBaseLvが1上がる度に追加で\n[カートトルネード]で\n与えるダメージ + 1%\n[ガーディアン\nアルケミックスタッフ]の\n超越段階が1以上の時、\nBaseLvが2上がる度に追加で\n[カートキャノン]、\n[スポアエクスプロージョン]\nで与えるダメージ + 1%\n[ガーディアン\nアルケミックスタッフ]の\n超越段階が1以上の時、\n精錬値が10の時、追加で\nAtk + 150\n念属性攻撃で\n受けるダメージ - 10%\n[王の神威]と\n共に装備時、追加で\n攻撃速度 + 15%\nプレイヤーから\n受けるダメージ - 10%\n[ゴスペル]Lv1使用可能\n[ガーディアン\nアルケミックスタッフ]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "グラストヘイムの研究員が",
+        "使用していた製作用棒。",
+        "美しい形だったが、",
+        "ヒメルメズの影響を受け、",
+        "魔力のオーラを",
+        "漂わせている。",
+        "[ガーディアン",
+        "アルケミックスタッフ]の",
+        "精錬値が1上がる度に追加で",
+        "一部のダメージを",
+        "反射する効果で",
+        "受けるダメージ - 10%",
+        "[ガーディアン",
+        "アルケミックスタッフ]の",
+        "精錬値が7以上の時、追加で",
+        "[カートトルネード]の",
+        "再使用待機時間 - 0.2秒",
+        "[ガーディアン",
+        "アルケミックスタッフ]の",
+        "精錬値が9以上の時、",
+        "BaseLvが1上がる度に追加で",
+        "[カートトルネード]で",
+        "与えるダメージ + 1%",
+        "[ガーディアン",
+        "アルケミックスタッフ]の",
+        "超越段階が1以上の時、",
+        "BaseLvが2上がる度に追加で",
+        "[カートキャノン]、",
+        "[スポアエクスプロージョン]",
+        "で与えるダメージ + 1%",
+        "[ガーディアン",
+        "アルケミックスタッフ]の",
+        "超越段階が1以上の時、",
+        "精錬値が10の時、追加で",
+        "Atk + 150",
+        "念属性攻撃で",
+        "受けるダメージ - 10%",
+        "[王の神威]と",
+        "共に装備時、追加で",
+        "攻撃速度 + 15%",
+        "プレイヤーから",
+        "受けるダメージ - 10%",
+        "[ゴスペル]Lv1使用可能",
+        "[ガーディアン",
+        "アルケミックスタッフ]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "mace",
+        "series_normalized": [
+            "mace"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": 110,
+        "refinement": true,
+        "breakable": false,
+        "weight": 150,
+        "weapon_level": 4,
+        "required_level": 185,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "genetic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鈍器",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "150",
+            "Matk": "110",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "150",
+            "要求レベル": "185",
+            "装備": "ジェネティック系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "da65b9cf7b83f139712102b13015c93b337e1ecf3672cd0659144423af00b805",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,223 @@
+{
+    "type": "item",
+    "item_id": "1038",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1038\/"
+    },
+    "name": "子悪魔の角",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "小さい悪魔の角。収集品商人に売ることができる。\n_",
+    "description_lines": [
+        "小さい悪魔の角。収集品商人に売ることができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "スイング・ペル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/PERE3"
+        },
+        {
+            "name": "強化ミニデモ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_101"
+        },
+        {
+            "name": "ディアボリック",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DIABOLIC"
+        },
+        {
+            "name": "デビルチ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DEVIRUCHI"
+        },
+        {
+            "name": "強化デビルチ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_105"
+        },
+        {
+            "name": "ミニデモ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MINI_DEMON"
+        },
+        {
+            "name": "羨望する影",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/FATAL_DAYS"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "訓練の間",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@gld1",
+            "map_code": "1@gld1"
+        },
+        {
+            "name": "悪夢のジターバグ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@jtb",
+            "map_code": "1@jtb"
+        },
+        {
+            "name": "亡霊の王宮",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@spa",
+            "map_code": "1@spa"
+        },
+        {
+            "name": "封印された神殿（大封印祭壇）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@cata",
+            "map_code": "2@cata"
+        },
+        {
+            "name": "試練の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_06",
+            "map_code": "2@la_06"
+        },
+        {
+            "name": "封印の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_06",
+            "map_code": "2@lb_06"
+        },
+        {
+            "name": "異形の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_06",
+            "map_code": "2@lc_06"
+        },
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld104",
+            "map_code": "2@ld104"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld206",
+            "map_code": "2@ld206"
+        },
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le104",
+            "map_code": "2@le104"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf206",
+            "map_code": "2@lf206"
+        },
+        {
+            "name": "周辺エリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@letter",
+            "map_code": "3@letter"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アルデバラン時計塔地上 2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower2",
+            "map_code": "c_tower2"
+        },
+        {
+            "name": "ゲフェン地下ダンジョン B3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_dun02",
+            "map_code": "gef_dun02"
+        },
+        {
+            "name": "ゲフェニア 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gefenia01",
+            "map_code": "gefenia01"
+        },
+        {
+            "name": "ギルドダンジョン ゲフェン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gld_dun04",
+            "map_code": "gld_dun04"
+        },
+        {
+            "name": "ノーグロード 2層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mag_dun02",
+            "map_code": "mag_dun02"
+        },
+        {
+            "name": "迷宮の森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze03",
+            "map_code": "prt_maze03"
+        }
+    ],
+    "source_html_sha256": "95ee90c5a8fcd721131a59c562a8a943c78462456771d04b4e12c29a2dc2f16e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,91 @@
+{
+    "type": "item",
+    "item_id": "20714",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20714\/"
+    },
+    "name": "暗殺者のマフラー[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "東方の暗殺集団が\n修行で使用するマフラー。\n地面にマフラーが\n触れないよう\n素早く動き続ける事で\n脚力が鍛えられるらしい。\n[暗殺者のマフラー]の\n精錬値が6以上の時、\n精錬値が1上がる度に追加で\nAgi + 2",
+    "description_lines": [
+        "東方の暗殺集団が",
+        "修行で使用するマフラー。",
+        "地面にマフラーが",
+        "触れないよう",
+        "素早く動き続ける事で",
+        "脚力が鍛えられるらしい。",
+        "[暗殺者のマフラー]の",
+        "精錬値が6以上の時、",
+        "精錬値が1上がる度に追加で",
+        "Agi + 2"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 16,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 50,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "防御": "16",
+            "重量": "10",
+            "要求レベル": "50",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "d3e5c4cc09d1ff958d915ca9c1c268cf94b3ae0e032e42ff68f9388444ea6678",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

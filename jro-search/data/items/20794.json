@@ -1,0 +1,515 @@
+{
+    "type": "item",
+    "item_id": "20794",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20794\/"
+    },
+    "name": "戦死者のマント[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "勇敢に戦い、死を迎えた者が\n受けたという伝説のマント。\nMdef + 3\n[戦死者のマント]の\n精錬値が2上がる度に追加で\n人間形モンスターから\n受けるダメージ - 1%\n純粋なStrが130以上の時、\n追加で\n物理攻撃で\n与えるダメージ + 5%\n純粋なAgiが130以上の時、\n追加で\nAspd + 1\n純粋なVitが130以上の時、\n追加で\nDef + 300\n純粋なIntが130以上の時、\n追加で\n魔法攻撃で\n与えるダメージ + 5%\n純粋なDexが130以上の時、\n追加で\n遠距離物理攻撃で\n与えるダメージ + 5%\n純粋なLukが130以上の時、\n追加で\nクリティカル攻撃で\n与えるダメージ + 5%\n[古びた風のささやき]、\n[古びたシャドウクラウン]、\n[古びた守護の冠]、\n[古びた\nドライバーバンド(赤)]、\n[古びた\nドライバーバンド(黄)]、\n[古びたバレリーナの髪飾り]\n[古びたブレイジングソウル]\n[古びたボーンサークレット]\n[古びた魔力石の帽子]、\n[古びたミダスのささやき]、\n[古びたミトラ]、\n[古びた\nミンストレルソングの帽子]\n[古びた迷彩ウサギフード]、\n[古びた\nルーンサークレット]の\nいずれかと共に装備時、\n追加で\nMaxHP + 20%\n[戦死者のマント]の\n純粋なステータスで上がる\n効果が2倍になる\n[アインヘリヤルの鎧]と\n共に装備時、\n[戦死者のマント]の\n精錬値が1上がる度に追加で\nAtk + 3\n[戦死者のマント]の\n精錬値が7以上の時、\n純粋なStrが10上がる度に\n追加でAtk + 5\n[戦死者のマント]の\n精錬値が8以上の時、\n純粋なStrが10上がる度に\n追加でAtk + 7",
+    "description_lines": [
+        "勇敢に戦い、死を迎えた者が",
+        "受けたという伝説のマント。",
+        "Mdef + 3",
+        "[戦死者のマント]の",
+        "精錬値が2上がる度に追加で",
+        "人間形モンスターから",
+        "受けるダメージ - 1%",
+        "純粋なStrが130以上の時、",
+        "追加で",
+        "物理攻撃で",
+        "与えるダメージ + 5%",
+        "純粋なAgiが130以上の時、",
+        "追加で",
+        "Aspd + 1",
+        "純粋なVitが130以上の時、",
+        "追加で",
+        "Def + 300",
+        "純粋なIntが130以上の時、",
+        "追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 5%",
+        "純粋なDexが130以上の時、",
+        "追加で",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 5%",
+        "純粋なLukが130以上の時、",
+        "追加で",
+        "クリティカル攻撃で",
+        "与えるダメージ + 5%",
+        "[古びた風のささやき]、",
+        "[古びたシャドウクラウン]、",
+        "[古びた守護の冠]、",
+        "[古びた",
+        "ドライバーバンド(赤)]、",
+        "[古びた",
+        "ドライバーバンド(黄)]、",
+        "[古びたバレリーナの髪飾り]",
+        "[古びたブレイジングソウル]",
+        "[古びたボーンサークレット]",
+        "[古びた魔力石の帽子]、",
+        "[古びたミダスのささやき]、",
+        "[古びたミトラ]、",
+        "[古びた",
+        "ミンストレルソングの帽子]",
+        "[古びた迷彩ウサギフード]、",
+        "[古びた",
+        "ルーンサークレット]の",
+        "いずれかと共に装備時、",
+        "追加で",
+        "MaxHP + 20%",
+        "[戦死者のマント]の",
+        "純粋なステータスで上がる",
+        "効果が2倍になる",
+        "[アインヘリヤルの鎧]と",
+        "共に装備時、",
+        "[戦死者のマント]の",
+        "精錬値が1上がる度に追加で",
+        "Atk + 3",
+        "[戦死者のマント]の",
+        "精錬値が7以上の時、",
+        "純粋なStrが10上がる度に",
+        "追加でAtk + 5",
+        "[戦死者のマント]の",
+        "精錬値が8以上の時、",
+        "純粋なStrが10上がる度に",
+        "追加でAtk + 7"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 15,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 60,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "防御": "15",
+            "重量": "60",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "アルフォシオ=バジル（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_ALPHOCCIO"
+        },
+        {
+            "name": "セリア=アルデ（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_CELIA"
+        },
+        {
+            "name": "チェン=リウ（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_CHEN"
+        },
+        {
+            "name": "エレメス=ガイル（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_EREMES"
+        },
+        {
+            "name": "エミュール=プラメール（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_FLAMEL"
+        },
+        {
+            "name": "ガーティー=ウー（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_GERTIE"
+        },
+        {
+            "name": "ハワード=アルトアイゼン（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_HARWORD"
+        },
+        {
+            "name": "カトリーヌ=ケイロン（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_KATRINN"
+        },
+        {
+            "name": "マーガレッタ=ソリン（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_MAGALETA"
+        },
+        {
+            "name": "ランデル=ロレンス（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_RANDEL"
+        },
+        {
+            "name": "セイレン=ウィンザー（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_SEYREN"
+        },
+        {
+            "name": "セシル=ディモン（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_SHECIL"
+        },
+        {
+            "name": "トレンティーニ（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_TRENTINI"
+        },
+        {
+            "name": "アルフォシオ=バジル（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_ALPHOCCIO"
+        },
+        {
+            "name": "セリア=アルデ（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_CELIA"
+        },
+        {
+            "name": "チェン=リウ（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_CHEN"
+        },
+        {
+            "name": "エレメス=ガイル（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_EREMES"
+        },
+        {
+            "name": "エミュール=プラメール（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_FLAMEL"
+        },
+        {
+            "name": "ガーティー=ウー（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_GERTIE"
+        },
+        {
+            "name": "ハワード=アルトアイゼン（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_HARWORD"
+        },
+        {
+            "name": "カトリーヌ=ケイロン（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_KATRINN"
+        },
+        {
+            "name": "マーガレッタ=ソリン（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_MAGALETA"
+        },
+        {
+            "name": "ランデル=ロレンス（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_RANDEL"
+        },
+        {
+            "name": "セイレン=ウィンザー（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_SEYREN"
+        },
+        {
+            "name": "セシル=ディモン（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_SHECIL"
+        },
+        {
+            "name": "トレンティーニ（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_TRENTINI"
+        },
+        {
+            "name": "アルフォシオ=バジル（三次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_G_ALPHOCCIO"
+        },
+        {
+            "name": "セリア=アルデ（三次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_G_CELIA"
+        },
+        {
+            "name": "チェン=リウ（三次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_G_CHEN"
+        },
+        {
+            "name": "エレメス=ガイル（三次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_G_EREMES"
+        },
+        {
+            "name": "エミュール=プラメール（三次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_G_FLAMEL"
+        },
+        {
+            "name": "ガーティー=ウー（三次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_G_GERTIE"
+        },
+        {
+            "name": "ハワード=アルトアイゼン（三次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_G_HARWORD"
+        },
+        {
+            "name": "カトリーヌ=ケイロン（三次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_G_KATRINN"
+        },
+        {
+            "name": "マーガレッタ=ソリン（三次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_G_MAGALETA"
+        },
+        {
+            "name": "ランデル=ロレンス（三次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_G_RANDEL"
+        },
+        {
+            "name": "セイレン=ウィンザー（三次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_G_SEYREN"
+        },
+        {
+            "name": "セシル=ディモン（三次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_G_SHECIL"
+        },
+        {
+            "name": "トレンティーニ（三次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_G_TRENTINI"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_13",
+            "map_code": "2@la_13"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_14",
+            "map_code": "2@la_14"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_15",
+            "map_code": "2@la_15"
+        },
+        {
+            "name": "試練の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_30",
+            "map_code": "2@la_30"
+        },
+        {
+            "name": "試練の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_31",
+            "map_code": "2@la_31"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_14",
+            "map_code": "2@lb_14"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_15",
+            "map_code": "2@lb_15"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_16",
+            "map_code": "2@lb_16"
+        },
+        {
+            "name": "封印の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_17",
+            "map_code": "2@lb_17"
+        },
+        {
+            "name": "封印の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_18",
+            "map_code": "2@lb_18"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_30",
+            "map_code": "2@lb_30"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_13",
+            "map_code": "2@lc_13"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_14",
+            "map_code": "2@lc_14"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_15",
+            "map_code": "2@lc_15"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_30",
+            "map_code": "2@lc_30"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld114",
+            "map_code": "2@ld114"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld115",
+            "map_code": "2@ld115"
+        },
+        {
+            "name": "幻影の迷宮 塔の地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld129",
+            "map_code": "2@ld129"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld213",
+            "map_code": "2@ld213"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld214",
+            "map_code": "2@ld214"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld215",
+            "map_code": "2@ld215"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld230",
+            "map_code": "2@ld230"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld231",
+            "map_code": "2@ld231"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le114",
+            "map_code": "2@le114"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le115",
+            "map_code": "2@le115"
+        },
+        {
+            "name": "幻影の迷宮 塔の地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le129",
+            "map_code": "2@le129"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf213",
+            "map_code": "2@lf213"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf214",
+            "map_code": "2@lf214"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf215",
+            "map_code": "2@lf215"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf230",
+            "map_code": "2@lf230"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf231",
+            "map_code": "2@lf231"
+        },
+        {
+            "name": "亜空の迷宮 生命の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg129",
+            "map_code": "2@lg129"
+        },
+        {
+            "name": "亜空の迷宮 生命の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg130",
+            "map_code": "2@lg130"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "戦死者の墓",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun_n",
+            "map_code": "lhz_dun_n"
+        },
+        {
+            "name": "生体工学研究所 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun03",
+            "map_code": "lhz_dun03"
+        },
+        {
+            "name": "生体工学研究所 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun04",
+            "map_code": "lhz_dun04"
+        }
+    ],
+    "source_html_sha256": "5822e337d6c6e2aeb1b5ccd16d66f860ad47be4f23df963aa93efa6c60e87251",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

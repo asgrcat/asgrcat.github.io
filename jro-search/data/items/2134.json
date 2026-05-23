@@ -1,0 +1,136 @@
+{
+    "type": "item",
+    "item_id": "2134",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2134\/"
+    },
+    "name": "ナーガの鱗盾[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ナーガの鱗で作った盾。\nとても硬く頑丈な造り。\n間違って触れると\n指を切ってしまいそうだ。\nMdef + 3。\n精錬値 1以上の時、\n近接物理攻撃で受けた\nダメージを一定確率で\n5秒間反射。\n反射するダメージは\n盾精錬値 1当たり\n3%ずつ増加。",
+    "description_lines": [
+        "ナーガの鱗で作った盾。",
+        "とても硬く頑丈な造り。",
+        "間違って触れると",
+        "指を切ってしまいそうだ。",
+        "Mdef + 3。",
+        "精錬値 1以上の時、",
+        "近接物理攻撃で受けた",
+        "ダメージを一定確率で",
+        "5秒間反射。",
+        "反射するダメージは",
+        "盾精錬値 1当たり",
+        "3%ずつ増加。"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 35,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "防御": "35",
+            "重量": "50",
+            "装備": "上位2次職 3次職 4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ナーガ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/NAGA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_17",
+            "map_code": "2@la_17"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_21",
+            "map_code": "2@lb_21"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld217",
+            "map_code": "2@ld217"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf217",
+            "map_code": "2@lf217"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ビフロスト 南部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bif_fild01",
+            "map_code": "bif_fild01"
+        },
+        {
+            "name": "スプレンディッドフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/spl_fild03",
+            "map_code": "spl_fild03"
+        }
+    ],
+    "source_html_sha256": "2822e9c70194a9fedcce958852c780e906cd006e46c4d7d59e30d507d659eea3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

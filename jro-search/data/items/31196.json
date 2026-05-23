@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "31196",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31196\/"
+    },
+    "name": "[衣装] たれチュウニペンギン[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "「チュウニペンギン」を\nモチーフとした\n衣装用の帽子。\n音楽を通じて異世界を紡ぐ\nスキルを持っているとか\n無いとか……。\n下記効果は街マップで\n使用時のみ効果があります\n[たれチュウニペンギン]と\n共に装備時、\n[チュウニズム筐体]に変身",
+    "description_lines": [
+        "「チュウニペンギン」を",
+        "モチーフとした",
+        "衣装用の帽子。",
+        "音楽を通じて異世界を紡ぐ",
+        "スキルを持っているとか",
+        "無いとか……。",
+        "下記効果は街マップで",
+        "使用時のみ効果があります",
+        "[たれチュウニペンギン]と",
+        "共に装備時、",
+        "[チュウニズム筐体]に変身"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "上段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "36fd6872e66955ca1295880f052a467318eef9023b038aa5210059cc6b3c9d79",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

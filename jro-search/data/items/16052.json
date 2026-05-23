@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "16052",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/16052\/"
+    },
+    "name": "アイアンドライバー[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "priest": true,
+                "monk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ある運動競技に使われた\nという鈍器で、\n先端は丸く仕上げられていて\n硬度の高い鋼鉄は\n殺傷力を高めてくれる。",
+    "description_lines": [
+        "ある運動競技に使われた",
+        "という鈍器で、",
+        "先端は丸く仕上げられていて",
+        "硬度の高い鋼鉄は",
+        "殺傷力を高めてくれる。"
+    ],
+    "properties": {
+        "series": "mace",
+        "series_normalized": [
+            "mace"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 3,
+        "def": null,
+        "atk": 155,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 300,
+        "weapon_level": 3,
+        "required_level": 78,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "priest": true,
+                "monk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鈍器",
+            "攻撃": "155",
+            "重量": "300",
+            "武器レベル": "3",
+            "要求レベル": "78",
+            "装備": "プリースト系 モンク系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "1e43f9aa6ac7059aa113417b2c4e31a8aed740bd8a20f3ef0db91dbcb55f4c88",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

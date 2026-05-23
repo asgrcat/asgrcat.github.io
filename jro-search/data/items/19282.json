@@ -1,0 +1,104 @@
+{
+    "type": "item",
+    "item_id": "19282",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19282\/"
+    },
+    "name": "抹消者のローブ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "かつてその名を聞いただけで\n子どもが泣き止むと言われた\n人物が身に着けていた\nローブ。\nMdef + 10\n固定詠唱時間 - 50%\n[抹消者のローブ]の\n精錬値が1上がる度に追加で\n魔法攻撃で\n与えるダメージ + 2%\n火属性魔法攻撃で\n与えるダメージ + 2%\n詠唱が中断されない\n[エントヴァイエンカード]と\n共に装備時、追加で\n[メテオストーム]で\n与えるダメージ + 50%\n絶対に凍結状態にならない\n[デイヴィッドシールド]と\n共に装備時、追加で\n変動詠唱時間 - 15%\n魔法攻撃で\n与えるダメージ + 10%",
+    "description_lines": [
+        "かつてその名を聞いただけで",
+        "子どもが泣き止むと言われた",
+        "人物が身に着けていた",
+        "ローブ。",
+        "Mdef + 10",
+        "固定詠唱時間 - 50%",
+        "[抹消者のローブ]の",
+        "精錬値が1上がる度に追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 2%",
+        "火属性魔法攻撃で",
+        "与えるダメージ + 2%",
+        "詠唱が中断されない",
+        "[エントヴァイエンカード]と",
+        "共に装備時、追加で",
+        "[メテオストーム]で",
+        "与えるダメージ + 50%",
+        "絶対に凍結状態にならない",
+        "[デイヴィッドシールド]と",
+        "共に装備時、追加で",
+        "変動詠唱時間 - 15%",
+        "魔法攻撃で",
+        "与えるダメージ + 10%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 35,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 80,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "35",
+            "重量": "80",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "df41c0ca8c1294fd5ca6a29daa73c9a92e2f6779895db3b095057f77242822e9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,110 @@
+{
+    "type": "item",
+    "item_id": "2782",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2782\/"
+    },
+    "name": "知恵の王の指輪[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "古代の知恵の王が所持し、\nあらゆる生物と話す事が\nできたという指輪の模造品。\nルーンミッドガッツの魔法力\nとシュバルツバルドの技術力\nとアルナベルツの言語能力\nが込められている。\nこの指輪を装備すると、\n異界の言葉が理解でき、\n話すこともできる。\nMaxHP + 50 , MaxSP + 20\n[ソロモンの魔導書]と\n共に装備時、追加で\nスキル使用時の消費SP - 5%\n[レインボウ]と\n共に装備時、追加で\n物理攻撃命中時、\n一定確率で敵にオートスペル\n[ウォーターボール]Lv4発動\n[レインボウ]の\n精錬値が5以上の時、\n[レインボウ]の\n精錬値が1上がる度に追加で\nオートスペル\n[ウォーターボール]の\n発動率と発動Lvが上昇",
+    "description_lines": [
+        "古代の知恵の王が所持し、",
+        "あらゆる生物と話す事が",
+        "できたという指輪の模造品。",
+        "ルーンミッドガッツの魔法力",
+        "とシュバルツバルドの技術力",
+        "とアルナベルツの言語能力",
+        "が込められている。",
+        "この指輪を装備すると、",
+        "異界の言葉が理解でき、",
+        "話すこともできる。",
+        "MaxHP + 50 , MaxSP + 20",
+        "[ソロモンの魔導書]と",
+        "共に装備時、追加で",
+        "スキル使用時の消費SP - 5%",
+        "[レインボウ]と",
+        "共に装備時、追加で",
+        "物理攻撃命中時、",
+        "一定確率で敵にオートスペル",
+        "[ウォーターボール]Lv4発動",
+        "[レインボウ]の",
+        "精錬値が5以上の時、",
+        "[レインボウ]の",
+        "精錬値が1上がる度に追加で",
+        "オートスペル",
+        "[ウォーターボール]の",
+        "発動率と発動Lvが上昇"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "66d990b3c910925be5549caa2ec5c5468d31f213cc64a7d9760451b56560e13f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

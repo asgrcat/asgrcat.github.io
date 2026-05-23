@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "12366",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12366\/"
+    },
+    "name": "女の子人形",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ホラー映画に出てきそうな\n古びた女の子の人形。\nモンスター雅人形が好む。",
+    "description_lines": [
+        "ホラー映画に出てきそうな",
+        "古びた女の子の人形。",
+        "モンスター雅人形が好む。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": "taming_item",
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 5,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "種類": "テイミングアイテム",
+            "重量": "5"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "68ec1ec2c7809d8abec83bf210eaacd0df59c2894815577ac863829854ee70ac",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

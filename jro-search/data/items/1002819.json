@@ -1,0 +1,82 @@
+{
+    "type": "item",
+    "item_id": "1002819",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1002819\/"
+    },
+    "name": "アリテア装備交換チケット",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "このアイテムの利用期間は\n2026年5月26日(火)\n定期メンテナンス開始\nまでとなります\nアリテア装備の中から\n好きなアイテムを\n選んで交換できるチケット。\n[アリテア装備\n交換チケット]：\n・ギムレットの部屋\n(iz_gimlet)\n座標(38 97)にいるNPC\n「ミスティア」\nに持って行こう\n・対象アイテム\nウィワートゥス・フィデス・ネイチャーアックス、\nポエニテンティア・セキュリス、\nセプルクルム・ホノリス・アックス、\nアスタロトアックス、\n時間のサークレット(アリテア)、\n暴食のクラウン（アリテア）",
+    "description_lines": [
+        "このアイテムの利用期間は",
+        "2026年5月26日(火)",
+        "定期メンテナンス開始",
+        "までとなります",
+        "アリテア装備の中から",
+        "好きなアイテムを",
+        "選んで交換できるチケット。",
+        "[アリテア装備",
+        "交換チケット]：",
+        "・ギムレットの部屋",
+        "(iz_gimlet)",
+        "座標(38 97)にいるNPC",
+        "「ミスティア」",
+        "に持って行こう",
+        "・対象アイテム",
+        "ウィワートゥス・フィデス・ネイチャーアックス、",
+        "ポエニテンティア・セキュリス、",
+        "セプルクルム・ホノリス・アックス、",
+        "アスタロトアックス、",
+        "時間のサークレット(アリテア)、",
+        "暴食のクラウン（アリテア）"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "0c558c53449ecf7703baf184678a6663770dfe913cfda92d35134eb3238b4bd7",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

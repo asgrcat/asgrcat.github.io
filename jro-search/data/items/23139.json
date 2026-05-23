@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "23139",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/23139\/"
+    },
+    "name": "劈風の玉",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "夜陰の力を封じた宝玉。\n不用意に使用するのは\n避けるべきだが……。\n睡眠状態になる",
+    "description_lines": [
+        "夜陰の力を封じた宝玉。",
+        "不用意に使用するのは",
+        "避けるべきだが……。",
+        "睡眠状態になる"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0.1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "d4efc1ce6670e358d56855527159ddbd8730554bd9b2ecb536d7e7c8c13b0890",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

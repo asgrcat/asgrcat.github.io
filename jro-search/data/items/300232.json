@@ -1,0 +1,131 @@
+{
+    "type": "item",
+    "item_id": "300232",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300232\/"
+    },
+    "name": "真面目なアンドレの幼虫カード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "shoes"
+        ],
+        "card_attachable_positions": {
+            "shoes": true
+        }
+    },
+    "description": "物理・魔法攻撃を受けた時、\n一定確率で自分を中心に\n11x11セルの\n敵を出血状態にする\n[ぐにゃぐにゃした\n蟻の卵カード]と\n共に装備時、追加で\n無属性攻撃で\n受けるダメージ - 5%\n物理・魔法攻撃を受けた時、\n一定確率で自分を中心に\n11x11セルの\n敵を出血状態にする\n確率が上昇",
+    "description_lines": [
+        "物理・魔法攻撃を受けた時、",
+        "一定確率で自分を中心に",
+        "11x11セルの",
+        "敵を出血状態にする",
+        "[ぐにゃぐにゃした",
+        "蟻の卵カード]と",
+        "共に装備時、追加で",
+        "無属性攻撃で",
+        "受けるダメージ - 5%",
+        "物理・魔法攻撃を受けた時、",
+        "一定確率で自分を中心に",
+        "11x11セルの",
+        "敵を出血状態にする",
+        "確率が上昇"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "shoes"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "靴",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "真面目なアンドレの幼虫",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_ANDRE_LARVA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "幻影の迷宮 魔物の巣穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld105",
+            "map_code": "2@ld105"
+        },
+        {
+            "name": "幻影の迷宮 魔物の巣穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le105",
+            "map_code": "2@le105"
+        },
+        {
+            "name": "亜空の迷宮 地下洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg106",
+            "map_code": "2@lg106"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "認識の庭",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ant_d02_i",
+            "map_code": "ant_d02_i"
+        },
+        {
+            "name": "認識の庭(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ant_d02_i_q",
+            "map_code": "ant_d02_i_q"
+        }
+    ],
+    "source_html_sha256": "7d480d5ede6282e0f86720efb676e6701f989b578507e309ec636dac38aad919",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

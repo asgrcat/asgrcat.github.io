@@ -1,0 +1,106 @@
+{
+    "type": "item",
+    "item_id": "20718",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20718\/"
+    },
+    "name": "巨神蛇の皮[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "歪曲した次元の狭間で倒した\nフェイスワームの鱗がついた\n頭の皮。\nこの魔物はかつて、\nヨルムンガンドの現身と\n呼ばれていた。\nMdef + 10\n[力の時空ブーツ]\nと共に装備時、追加で\nMaxHP + 15% , MaxSP + 5%\n[俊敏の時空ブーツ]\nと共に装備時、追加で\nMaxHP + 15% , MaxSP + 5%\n[体力の時空ブーツ]\nと共に装備時、追加で\nMaxHP + 15% , MaxSP + 5%\n[知力の時空ブーツ]\nと共に装備時、追加で\nMaxHP + 15% , MaxSP + 5%\n[技巧の時空ブーツ]\nと共に装備時、追加で\nMaxHP + 15% , MaxSP + 5%\n[幸運の時空ブーツ]\nと共に装備時、追加で\nMaxHP + 15% , MaxSP + 5%",
+    "description_lines": [
+        "歪曲した次元の狭間で倒した",
+        "フェイスワームの鱗がついた",
+        "頭の皮。",
+        "この魔物はかつて、",
+        "ヨルムンガンドの現身と",
+        "呼ばれていた。",
+        "Mdef + 10",
+        "[力の時空ブーツ]",
+        "と共に装備時、追加で",
+        "MaxHP + 15% , MaxSP + 5%",
+        "[俊敏の時空ブーツ]",
+        "と共に装備時、追加で",
+        "MaxHP + 15% , MaxSP + 5%",
+        "[体力の時空ブーツ]",
+        "と共に装備時、追加で",
+        "MaxHP + 15% , MaxSP + 5%",
+        "[知力の時空ブーツ]",
+        "と共に装備時、追加で",
+        "MaxHP + 15% , MaxSP + 5%",
+        "[技巧の時空ブーツ]",
+        "と共に装備時、追加で",
+        "MaxHP + 15% , MaxSP + 5%",
+        "[幸運の時空ブーツ]",
+        "と共に装備時、追加で",
+        "MaxHP + 15% , MaxSP + 5%"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 38,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "防御": "38",
+            "重量": "40",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "3fca7c7c47cef6ad4142b17b42ab5b2657c3bc53f886ee1bb2e018dd73b02922",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

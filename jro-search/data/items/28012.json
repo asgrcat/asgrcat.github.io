@@ -1,0 +1,107 @@
+{
+    "type": "item",
+    "item_id": "28012",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28012\/"
+    },
+    "name": "猫カタール・ツナ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "assassin": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "マラン島を生き抜くために\n製作された装備。\nマランエンチャントを\n行うことができる上、\n意外と高値でも売れる\n優れもの。\n物理・魔法攻撃時、追加で\nメモリアルダンジョン\n[地下排水路]、\n[暴窟王の洞窟]に\n出現するモンスターに\n与えるダメージ + 50%\nメモリアルダンジョン\n[地下排水路]、\n[暴窟王の洞窟]に\n出現するモンスターから\n受けるダメージ - 30%\n精錬不可",
+    "description_lines": [
+        "マラン島を生き抜くために",
+        "製作された装備。",
+        "マランエンチャントを",
+        "行うことができる上、",
+        "意外と高値でも売れる",
+        "優れもの。",
+        "物理・魔法攻撃時、追加で",
+        "メモリアルダンジョン",
+        "[地下排水路]、",
+        "[暴窟王の洞窟]に",
+        "出現するモンスターに",
+        "与えるダメージ + 50%",
+        "メモリアルダンジョン",
+        "[地下排水路]、",
+        "[暴窟王の洞窟]に",
+        "出現するモンスターから",
+        "受けるダメージ - 30%",
+        "精錬不可"
+    ],
+    "properties": {
+        "series": "katar",
+        "series_normalized": [
+            "katar"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 120,
+        "weapon_level": 3,
+        "required_level": 40,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "assassin": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カタール",
+            "攻撃": "120",
+            "重量": "120",
+            "武器レベル": "3",
+            "要求レベル": "40",
+            "装備": "アサシン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "2d9df80d9f54e3e014335349852df706cf06601956f8be175fe86de4888737a9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

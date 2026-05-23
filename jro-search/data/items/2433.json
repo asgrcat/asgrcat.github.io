@@ -1,0 +1,160 @@
+{
+    "type": "item",
+    "item_id": "2433",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2433\/"
+    },
+    "name": "ディアボロスブーツ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "履く者の足に合わせて、\n自らサイズを調整する\n神秘のブーツ。\nまるで生きているかの\nようだ。\nBaseLvの10倍、MaxHPが増加\n[ディアボロスマント]と\n共に装備時、追加で\nMaxHP + 6%\n[ディアボロスウィング]と\n共に装備時、追加で\n物理・魔法攻撃時、\nメモリアルダンジョン\n[魔神殿]に\n出現するモンスターに\n与えるダメージ + 20%\nメモリアルダンジョン\n[魔神殿]に\n出現するモンスターから\n受けるダメージ - 5%\nBaseLvが1上がる度に追加で\nMaxHP + 100\n[ディアボロスブーツ]の\n精錬値が1上がる度に追加で\nAtk + 20 , Matk + 20",
+    "description_lines": [
+        "履く者の足に合わせて、",
+        "自らサイズを調整する",
+        "神秘のブーツ。",
+        "まるで生きているかの",
+        "ようだ。",
+        "BaseLvの10倍、MaxHPが増加",
+        "[ディアボロスマント]と",
+        "共に装備時、追加で",
+        "MaxHP + 6%",
+        "[ディアボロスウィング]と",
+        "共に装備時、追加で",
+        "物理・魔法攻撃時、",
+        "メモリアルダンジョン",
+        "[魔神殿]に",
+        "出現するモンスターに",
+        "与えるダメージ + 20%",
+        "メモリアルダンジョン",
+        "[魔神殿]に",
+        "出現するモンスターから",
+        "受けるダメージ - 5%",
+        "BaseLvが1上がる度に追加で",
+        "MaxHP + 100",
+        "[ディアボロスブーツ]の",
+        "精錬値が1上がる度に追加で",
+        "Atk + 20 , Matk + 20"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 15,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 25,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "15",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "25",
+            "要求レベル": "1",
+            "装備": "上位2次職 3次職 4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "魔王モロク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MOROCC"
+        },
+        {
+            "name": "傷ついた魔王モロク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MOROCC_"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_07",
+            "map_code": "2@la_07"
+        },
+        {
+            "name": "封印の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_07",
+            "map_code": "2@lb_07"
+        },
+        {
+            "name": "異形の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_07",
+            "map_code": "2@lc_07"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld207",
+            "map_code": "2@ld207"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf207",
+            "map_code": "2@lf207"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "次元の狭間 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild22",
+            "map_code": "moc_fild22"
+        }
+    ],
+    "source_html_sha256": "c729965cbf212aa71d2e7812bbee1567e8f4cedbf455df9411458557af8459a2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

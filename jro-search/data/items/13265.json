@@ -1,0 +1,69 @@
+{
+    "type": "item",
+    "item_id": "13265",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13265\/"
+    },
+    "name": "黒い塊",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "黒い物体を固めた物。\n投げて当たると\n少し痛そうだ。",
+    "description_lines": [
+        "黒い物体を固めた物。",
+        "投げて当たると",
+        "少し痛そうだ。"
+    ],
+    "properties": {
+        "series": "throwing",
+        "series_normalized": [
+            "throwing"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無属性",
+        "slot": null,
+        "def": null,
+        "atk": 0,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 5,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "投擲",
+            "攻撃": "0",
+            "重量": "5",
+            "属性": "無属性"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c8a5e825da1397e6867ef6b1e13e735a0f778d6384f3834cc2480a63755f30d8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,173 @@
+{
+    "type": "item",
+    "item_id": "630003",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/630003\/"
+    },
+    "name": "ルクスリアピアース[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "knight": true,
+                "rune_knight": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "バルムント邸に\n保管されていた科学器具。\nイルシオンたちの設置した\n魔力干渉装置により、\n鬼気迫る姿に\n変貌してしまった。\n物理攻撃で\n与えるダメージ + 110%\n一般・ボスモンスターから\n受けるダメージ - 40%\n[ルクスリアピアース]の\n精錬値が7以上の時、\nBaseLvが2上がる度に追加で\n[ハンドレッドスピア]で\n与えるダメージ + 1%\n[ルクスリアピアース]の\n精錬値が9以上の時、\nBaseLvが2上がる度に追加で\n[ハンドレッドスピア]で\n与えるダメージ + 1%\n[ルクスリアピアース]の\n精錬値が10の時、追加で\n必中攻撃 + 50%\n[デモンズファミリア]と\n共に装備時、追加で\nAtk + 200 , Matk + 200",
+    "description_lines": [
+        "バルムント邸に",
+        "保管されていた科学器具。",
+        "イルシオンたちの設置した",
+        "魔力干渉装置により、",
+        "鬼気迫る姿に",
+        "変貌してしまった。",
+        "物理攻撃で",
+        "与えるダメージ + 110%",
+        "一般・ボスモンスターから",
+        "受けるダメージ - 40%",
+        "[ルクスリアピアース]の",
+        "精錬値が7以上の時、",
+        "BaseLvが2上がる度に追加で",
+        "[ハンドレッドスピア]で",
+        "与えるダメージ + 1%",
+        "[ルクスリアピアース]の",
+        "精錬値が9以上の時、",
+        "BaseLvが2上がる度に追加で",
+        "[ハンドレッドスピア]で",
+        "与えるダメージ + 1%",
+        "[ルクスリアピアース]の",
+        "精錬値が10の時、追加で",
+        "必中攻撃 + 50%",
+        "[デモンズファミリア]と",
+        "共に装備時、追加で",
+        "Atk + 200 , Matk + 200"
+    ],
+    "properties": {
+        "series": "two_handed_spear",
+        "series_normalized": [
+            "two_handed_spear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 0,
+        "def": null,
+        "atk": 200,
+        "mdef": null,
+        "matk": 230,
+        "refinement": true,
+        "breakable": false,
+        "weight": 350,
+        "weapon_level": 4,
+        "required_level": 165,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "knight": true,
+                "rune_knight": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手槍",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "0",
+            "Atk": "200",
+            "Matk": "230",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "350",
+            "要求レベル": "165",
+            "装備": "ルーンナイト系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "スウィーティ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_SWEETY"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "飛行船発着場（ヘイ！スウィーティ！）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bamq2",
+            "map_code": "1@bamq2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "幻影の迷宮 汚染処理場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld116",
+            "map_code": "2@ld116"
+        },
+        {
+            "name": "幻影の迷宮 汚染処理場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le116",
+            "map_code": "2@le116"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        }
+    ],
+    "source_html_sha256": "212cbc0538eaf717837db1af3b6d71c82b433a04a217bf75e57aad64cf166c5c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

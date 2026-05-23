@@ -1,0 +1,93 @@
+{
+    "type": "item",
+    "item_id": "27124",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27124\/"
+    },
+    "name": "ジャガーカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "garment"
+        ],
+        "card_attachable_positions": {
+            "garment": true
+        }
+    },
+    "description": "Hit + 5 , 攻撃速度 + 3%\n物理攻撃時、\n闇属性モンスターに\n与えるダメージ + 10%\n悪魔形モンスターに\nCri + 15",
+    "description_lines": [
+        "Hit + 5 , 攻撃速度 + 3%",
+        "物理攻撃時、",
+        "闇属性モンスターに",
+        "与えるダメージ + 10%",
+        "悪魔形モンスターに",
+        "Cri + 15"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "garment"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "肩にかける物",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ジャガー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JAGUAR"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ブラジリスフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bra_fild01",
+            "map_code": "bra_fild01"
+        }
+    ],
+    "source_html_sha256": "902c3c28274a9d930195bc36f49853ff47f28ed6044982461823ef676b617200",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

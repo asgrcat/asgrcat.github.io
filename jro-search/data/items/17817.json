@@ -1,0 +1,78 @@
+{
+    "type": "item",
+    "item_id": "17817",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/17817\/"
+    },
+    "name": "コスたまSpringParty",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する。\n・[衣装] 憂郷のサクラ\n・[衣装] やんちゃな\n妖精の耳\n・[衣装] 桜花冠\n・[衣装] いたずらな妖精\n・[衣装] 真っ赤な杯\n・[衣装] 蝶のヘアピン\n・[衣装] ミツバチの帽子\n・[衣装] エンジェリング\nヘアピン\n・[衣装] 皇帝の月桂冠\n・[衣装] マーヴェラス\nアフロかつら",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する。",
+        "・[衣装] 憂郷のサクラ",
+        "・[衣装] やんちゃな",
+        "妖精の耳",
+        "・[衣装] 桜花冠",
+        "・[衣装] いたずらな妖精",
+        "・[衣装] 真っ赤な杯",
+        "・[衣装] 蝶のヘアピン",
+        "・[衣装] ミツバチの帽子",
+        "・[衣装] エンジェリング",
+        "ヘアピン",
+        "・[衣装] 皇帝の月桂冠",
+        "・[衣装] マーヴェラス",
+        "アフロかつら"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "3d216d9bf560b2e54276b11daf3f8368181365056fb9680a7e5fe9396c709905",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

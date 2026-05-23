@@ -1,0 +1,193 @@
+{
+    "type": "item",
+    "item_id": "510188",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/510188\/"
+    },
+    "name": "フォーティファイドウィンガー[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "aletheia": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "エーテルの魔力を利用して\n強化した短剣。\nこれまで確認されていない\n能力が現れ始めた。\n魔法攻撃で\n与えるダメージ + 60%\n[フォーティファイド\nウィンガー]の\n精錬値が7以上の時、追加で\n[グレイシアモノリス]、\n[グレイシアノヴァ]、\n[グレイシアシャード]、\n[グレイシアストンプ]、\n[チリングブラスト]、\n[ロアリングピアサー]、\n[ロアリングチャージ]、\n[フューリアスストーム]、\n[テラウェーブ]、\n[テラハーベスト]、\n[ソリッドストンプ]、\n[グラビティホール]で\n与えるダメージ + 10%\n[フォーティファイド\nウィンガー]の\n精錬値が9以上の時、追加で\n[グレイシアモノリス]、\n[グレイシアノヴァ]、\n[グレイシアシャード]、\n[グレイシアストンプ]、\n[チリングブラスト]、\n[ロアリングピアサー]、\n[ロアリングチャージ]、\n[フューリアスストーム]、\n[テラウェーブ]、\n[テラハーベスト]、\n[ソリッドストンプ]、\n[グラビティホール]で\n与えるダメージ + 15%\n[フォーティファイド\nウィンガー]の\n精錬値が10の時、追加で\nSpl + 20",
+    "description_lines": [
+        "エーテルの魔力を利用して",
+        "強化した短剣。",
+        "これまで確認されていない",
+        "能力が現れ始めた。",
+        "魔法攻撃で",
+        "与えるダメージ + 60%",
+        "[フォーティファイド",
+        "ウィンガー]の",
+        "精錬値が7以上の時、追加で",
+        "[グレイシアモノリス]、",
+        "[グレイシアノヴァ]、",
+        "[グレイシアシャード]、",
+        "[グレイシアストンプ]、",
+        "[チリングブラスト]、",
+        "[ロアリングピアサー]、",
+        "[ロアリングチャージ]、",
+        "[フューリアスストーム]、",
+        "[テラウェーブ]、",
+        "[テラハーベスト]、",
+        "[ソリッドストンプ]、",
+        "[グラビティホール]で",
+        "与えるダメージ + 10%",
+        "[フォーティファイド",
+        "ウィンガー]の",
+        "精錬値が9以上の時、追加で",
+        "[グレイシアモノリス]、",
+        "[グレイシアノヴァ]、",
+        "[グレイシアシャード]、",
+        "[グレイシアストンプ]、",
+        "[チリングブラスト]、",
+        "[ロアリングピアサー]、",
+        "[ロアリングチャージ]、",
+        "[フューリアスストーム]、",
+        "[テラウェーブ]、",
+        "[テラハーベスト]、",
+        "[ソリッドストンプ]、",
+        "[グラビティホール]で",
+        "与えるダメージ + 15%",
+        "[フォーティファイド",
+        "ウィンガー]の",
+        "精錬値が10の時、追加で",
+        "Spl + 20"
+    ],
+    "properties": {
+        "series": "dagger",
+        "series_normalized": [
+            "dagger"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 2,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": 120,
+        "refinement": true,
+        "breakable": true,
+        "weight": 60,
+        "weapon_level": 4,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "aletheia": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "短剣",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "2",
+            "Atk": "120",
+            "Matk": "120",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "60",
+            "要求レベル": "200",
+            "装備": "アリテア"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "変異キメラ・ザ・ワン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CHIMERA_THEONE"
+        },
+        {
+            "name": "変異キメラフルゴル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CHIMERA_FULGOR"
+        },
+        {
+            "name": "変異キメラガレンシス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CHIMERA_GALENSIS"
+        },
+        {
+            "name": "変異キメララーヴァ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CHIMERA_LAVA"
+        },
+        {
+            "name": "変異キメラナペオ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CHIMERA_NAPEO"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "亜空の迷宮 荒廃した実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg108",
+            "map_code": "2@lg108"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "廃棄実験所アミシティア 02(1)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/amicitia2",
+            "map_code": "amicitia2"
+        },
+        {
+            "name": "廃棄実験所アミシティア 02(2)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/amicitia2b",
+            "map_code": "amicitia2b"
+        },
+        {
+            "name": "廃棄実験所アミシティア 02(3)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/amicitia2c",
+            "map_code": "amicitia2c"
+        }
+    ],
+    "source_html_sha256": "1a43488b06c18fd7c7010436ef37db6b72bb3cc28d14dfd073080fecf6444c86",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

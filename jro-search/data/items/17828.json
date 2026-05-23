@@ -1,0 +1,80 @@
+{
+    "type": "item",
+    "item_id": "17828",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/17828\/"
+    },
+    "name": "コスたまWing",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する。\n・[衣装] ボリューム\nフェザーハット\n・[衣装] ヴァンパイアの\nヘアバンド\n・[衣装] リョースアールヴ\n・[衣装] 主天使の忘れもの\n・[衣装] ブラギの羽耳\n・[衣装] リトルフェザー\nハット\n・[衣装] イドゥンの羽耳\n・[衣装] ウイングフレーム\nサングラス\n・[衣装] シャーマンの\n髪飾り\n・[衣装] ホワイトフェザー",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する。",
+        "・[衣装] ボリューム",
+        "フェザーハット",
+        "・[衣装] ヴァンパイアの",
+        "ヘアバンド",
+        "・[衣装] リョースアールヴ",
+        "・[衣装] 主天使の忘れもの",
+        "・[衣装] ブラギの羽耳",
+        "・[衣装] リトルフェザー",
+        "ハット",
+        "・[衣装] イドゥンの羽耳",
+        "・[衣装] ウイングフレーム",
+        "サングラス",
+        "・[衣装] シャーマンの",
+        "髪飾り",
+        "・[衣装] ホワイトフェザー"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ff3314d68b65ac02f780195daf072afa4efdbb4f2d87b0ac7181b736dd911481",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

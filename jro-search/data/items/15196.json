@@ -1,0 +1,104 @@
+{
+    "type": "item",
+    "item_id": "15196",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15196\/"
+    },
+    "name": "海竜の鎧[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "かつて世界を震撼させた\n海竜の鱗から作った鎧。\n何者も見下す冷徹な魔力が\n込められている。\n全ての基本ステータス + 1\nスキル使用時の\n消費SP - 10%\n[海竜の鎧]の\n精錬値が7以上の時、追加で\nスキル使用時の\n消費SP - 5%\n変動詠唱時間 - 5%\n魔法攻撃時、\nボスモンスターに\n与えるダメージ + 10%\n[海竜の鎧]の\n精錬値が9以上の時、追加で\nスキル使用時の\n消費SP - 5%\n変動詠唱時間 - 5%\n魔法攻撃時、\nボスモンスターに\n与えるダメージ + 10%",
+    "description_lines": [
+        "かつて世界を震撼させた",
+        "海竜の鱗から作った鎧。",
+        "何者も見下す冷徹な魔力が",
+        "込められている。",
+        "全ての基本ステータス + 1",
+        "スキル使用時の",
+        "消費SP - 10%",
+        "[海竜の鎧]の",
+        "精錬値が7以上の時、追加で",
+        "スキル使用時の",
+        "消費SP - 5%",
+        "変動詠唱時間 - 5%",
+        "魔法攻撃時、",
+        "ボスモンスターに",
+        "与えるダメージ + 10%",
+        "[海竜の鎧]の",
+        "精錬値が9以上の時、追加で",
+        "スキル使用時の",
+        "消費SP - 5%",
+        "変動詠唱時間 - 5%",
+        "魔法攻撃時、",
+        "ボスモンスターに",
+        "与えるダメージ + 10%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 100,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 90,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "100",
+            "重量": "40",
+            "要求レベル": "90",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "12e71ccd2f78667de4d3378b122c07ff2f589a11cf8adfb0dfa37df4c860eabf",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

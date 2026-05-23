@@ -1,0 +1,92 @@
+{
+    "type": "item",
+    "item_id": "1805",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1805\/"
+    },
+    "name": "ホラ[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "priest": true,
+                "monk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "遠い東方の小さい部族で使用する拳保護帯。",
+    "description_lines": [
+        "遠い東方の小さい部族で使用する拳保護帯。"
+    ],
+    "properties": {
+        "series": "claw",
+        "series_normalized": [
+            "claw"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 2,
+        "def": null,
+        "atk": 65,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 45,
+        "weapon_level": 2,
+        "required_level": 12,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "priest": true,
+                "monk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "爪",
+            "攻撃": "65",
+            "重量": "45",
+            "武器レベル": "2",
+            "要求レベル": "12",
+            "装備": "プリースト系 モンク系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f0b964631d169d96ecd56bc565cf71f9f2612cc9fb688d6eee7a01126933b8d6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

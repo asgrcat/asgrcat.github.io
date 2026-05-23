@@ -1,0 +1,110 @@
+{
+    "type": "item",
+    "item_id": "1270018",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1270018\/"
+    },
+    "name": "[シャドウ] エンペリウムウェポン[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "shadow",
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "眩い光を放つ\n華麗な籠手。\nこの世界の運命を\n変えられる者の前に出て、\n運命を共にするという。\n[[シャドウ] エンペリウム\nウェポン]の\n精錬値が1上がる度に追加で\nAtk + 10 , Matk + 10\n[[シャドウ] エンペリウム\nウェポン]の\n精錬値が7以上の時、追加で\nAtk + 20 , Matk + 20\n[[シャドウ] エンペリウム\nウェポン]の\n精錬値が8以上の時、追加で\nAtk + 30 , Matk + 30\n[[シャドウ] エンペリウム\nウェポン]の\n精錬値が9以上の時、追加で\nAtk + 50 , Matk + 50\n[[シャドウ] エンペリウム\nウェポン]の\n精錬値が10の時、追加で\nAtk + 100 , Matk + 100",
+    "description_lines": [
+        "眩い光を放つ",
+        "華麗な籠手。",
+        "この世界の運命を",
+        "変えられる者の前に出て、",
+        "運命を共にするという。",
+        "[[シャドウ] エンペリウム",
+        "ウェポン]の",
+        "精錬値が1上がる度に追加で",
+        "Atk + 10 , Matk + 10",
+        "[[シャドウ] エンペリウム",
+        "ウェポン]の",
+        "精錬値が7以上の時、追加で",
+        "Atk + 20 , Matk + 20",
+        "[[シャドウ] エンペリウム",
+        "ウェポン]の",
+        "精錬値が8以上の時、追加で",
+        "Atk + 30 , Matk + 30",
+        "[[シャドウ] エンペリウム",
+        "ウェポン]の",
+        "精錬値が9以上の時、追加で",
+        "Atk + 50 , Matk + 50",
+        "[[シャドウ] エンペリウム",
+        "ウェポン]の",
+        "精錬値が10の時、追加で",
+        "Atk + 100 , Matk + 100"
+    ],
+    "properties": {
+        "series": "shadow",
+        "series_normalized": [
+            "shadow"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "シャドウ",
+            "位置": "右手",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "0",
+            "要求レベル": "200",
+            "装備": "4次職 拡張4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e8b7871fdf762ec1cb1923902b267397781af4039aaa95b111942ac3aea4d27c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

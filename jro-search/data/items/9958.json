@@ -1,0 +1,74 @@
+{
+    "type": "item",
+    "item_id": "9958",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/9958\/"
+    },
+    "name": "ポリンケーキBOX(150台)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ポリンケーキが\n150台入った大きな箱。\n賞味期限内に頂こう。\n[ポリンケーキBOX]は\n受け取ってから168時間後に\n自動的に消滅します\n[ポリンケーキ]は\n[ポリンケーキBOX]を\n開けてから72時間後に\n自動的に消滅します\n[ポリンケーキBOX]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "ポリンケーキが",
+        "150台入った大きな箱。",
+        "賞味期限内に頂こう。",
+        "[ポリンケーキBOX]は",
+        "受け取ってから168時間後に",
+        "自動的に消滅します",
+        "[ポリンケーキ]は",
+        "[ポリンケーキBOX]を",
+        "開けてから72時間後に",
+        "自動的に消滅します",
+        "[ポリンケーキBOX]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 450,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "450"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ff76845e752ad4897449513326bcbe8319b186122a94382b1233b34e530d6239",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

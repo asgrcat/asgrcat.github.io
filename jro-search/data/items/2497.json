@@ -1,0 +1,112 @@
+{
+    "type": "item",
+    "item_id": "2497",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2497\/"
+    },
+    "name": "攻城戦TEブーツ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "攻城戦TE専用の\nレンタルアイテム\n攻城戦TEの砦内で\n以下の効果が追加される\n_\nMaxHP + 200 , MaxSP + 100\n_\n物理攻撃時、\nプレイヤーに\n与えるダメージ + 10%\n_\n凍結に対する耐性 + 25%",
+    "description_lines": [
+        "攻城戦TE専用の",
+        "レンタルアイテム",
+        "攻城戦TEの砦内で",
+        "以下の効果が追加される",
+        "_",
+        "MaxHP + 200 , MaxSP + 100",
+        "_",
+        "物理攻撃時、",
+        "プレイヤーに",
+        "与えるダメージ + 10%",
+        "_",
+        "凍結に対する耐性 + 25%"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 10,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 40,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "防御": "10",
+            "重量": "0",
+            "要求レベル": "40",
+            "装備": "ソードマン系 マーチャント系 ドルイド系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "9237e02d1efecb8ed28d0547606131dcf01ea947ce54f079a2f5ecd777d900b2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

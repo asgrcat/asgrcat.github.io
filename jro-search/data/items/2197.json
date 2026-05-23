@@ -1,0 +1,95 @@
+{
+    "type": "item",
+    "item_id": "2197",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2197\/"
+    },
+    "name": "アイアンシールド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "とても大きくて\n重い鋼鉄の盾。\nどんな衝撃にも\n耐える事ができるが、\nその重さから行動が\n遅くなってしまう。\n[アイアンシールド]の\n精錬値が8以上の時、追加で\n攻撃速度 - 3%\n絶対にノックバックしない\n絶対に壊れない",
+    "description_lines": [
+        "とても大きくて",
+        "重い鋼鉄の盾。",
+        "どんな衝撃にも",
+        "耐える事ができるが、",
+        "その重さから行動が",
+        "遅くなってしまう。",
+        "[アイアンシールド]の",
+        "精錬値が8以上の時、追加で",
+        "攻撃速度 - 3%",
+        "絶対にノックバックしない",
+        "絶対に壊れない"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 80,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 280,
+        "weapon_level": null,
+        "required_level": 90,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "防御": "80",
+            "重量": "280",
+            "要求レベル": "90",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "650fe0f862e76682cd1e568b57a0f441775e4b1ccf2052a3a2928fc6c02f9506",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

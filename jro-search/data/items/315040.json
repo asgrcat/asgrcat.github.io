@@ -1,0 +1,66 @@
+{
+    "type": "item",
+    "item_id": "315040",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/315040\/"
+    },
+    "name": "潜在覚醒(アースドリルI)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "BaseLvが10上がる度に追加で\n[アースドリル]で\n与えるダメージ + 1%\n[真理の解放]と\n共に装備時、\n[アースドリル]の\n固定詠唱時間 - 100%",
+    "description_lines": [
+        "BaseLvが10上がる度に追加で",
+        "[アースドリル]で",
+        "与えるダメージ + 1%",
+        "[真理の解放]と",
+        "共に装備時、",
+        "[アースドリル]の",
+        "固定詠唱時間 - 100%"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "a6a791c2811014153a675eb2cc6fd60d3447376aea48630e57488e91b4dbc378",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

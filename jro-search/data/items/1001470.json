@@ -1,0 +1,74 @@
+{
+    "type": "item",
+    "item_id": "1001470",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1001470\/"
+    },
+    "name": "龍神の金糸",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "龍神の加護を宿す\n魔除けの糸。\nアイテム合成の材料に\nなるようだ。\n[龍神の金糸]：\n・メロンフェスタ会場\n(melon_f1) 座標\n(112 68)にいるNPC\n「メロン鑑定士」に\n持って行こう\n[龍神の金糸]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "龍神の加護を宿す",
+        "魔除けの糸。",
+        "アイテム合成の材料に",
+        "なるようだ。",
+        "[龍神の金糸]：",
+        "・メロンフェスタ会場",
+        "(melon_f1) 座標",
+        "(112 68)にいるNPC",
+        "「メロン鑑定士」に",
+        "持って行こう",
+        "[龍神の金糸]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ed29f1bede5b993cac5b5227c022913ebbac30c9d13efd2c549f29f3cb7c158a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

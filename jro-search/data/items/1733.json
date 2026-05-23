@@ -1,0 +1,177 @@
+{
+    "type": "item",
+    "item_id": "1733",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1733\/"
+    },
+    "name": "疾風の弓[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "archer": true
+            },
+            "include_jobs": {
+                "archer": true,
+                "rogue": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "吹き荒ぶ風を模った弓。\nつむじ風がそのまま弓に\nなったかのようだ。\n[風の矢]と\n共に装備時、追加で\n遠距離物理攻撃で\n与えるダメージ + 25%\n遠距離物理攻撃命中時、\n一定確率で敵にオートスペル\n[風刃]Lv5発動\n純粋なIntが40以上の時、\nオートスペル[風刃]Lv5の\n発動率が上昇\n[精霊の王冠]と\n共に装備時、追加で\n遠距離物理攻撃で\n与えるダメージ + 45%\n[元素の服]、\n[風の矢]と\n共に装備時、追加で\n遠距離物理攻撃で\n与えるダメージ + 20%\n[疾風の弓]、\n[風の矢]の\nセット効果による\nオートスペル\n[風刃]が発動しない\n[疾風の弓]の\n精錬値が10の時、追加で\nAspd + 1\n[元素のタオル]、\n[風の矢]と\n共に装備時、\n[疾風の弓]の\n精錬値が1上がる度に追加で\n[アローストーム]、\n[シビアレインストーム]で\n与えるダメージ + 5%\n[疾風の弓]の\n精錬値が10の時、追加で\nAspd + 1",
+    "description_lines": [
+        "吹き荒ぶ風を模った弓。",
+        "つむじ風がそのまま弓に",
+        "なったかのようだ。",
+        "[風の矢]と",
+        "共に装備時、追加で",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 25%",
+        "遠距離物理攻撃命中時、",
+        "一定確率で敵にオートスペル",
+        "[風刃]Lv5発動",
+        "純粋なIntが40以上の時、",
+        "オートスペル[風刃]Lv5の",
+        "発動率が上昇",
+        "[精霊の王冠]と",
+        "共に装備時、追加で",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 45%",
+        "[元素の服]、",
+        "[風の矢]と",
+        "共に装備時、追加で",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 20%",
+        "[疾風の弓]、",
+        "[風の矢]の",
+        "セット効果による",
+        "オートスペル",
+        "[風刃]が発動しない",
+        "[疾風の弓]の",
+        "精錬値が10の時、追加で",
+        "Aspd + 1",
+        "[元素のタオル]、",
+        "[風の矢]と",
+        "共に装備時、",
+        "[疾風の弓]の",
+        "精錬値が1上がる度に追加で",
+        "[アローストーム]、",
+        "[シビアレインストーム]で",
+        "与えるダメージ + 5%",
+        "[疾風の弓]の",
+        "精錬値が10の時、追加で",
+        "Aspd + 1"
+    ],
+    "properties": {
+        "series": "bow",
+        "series_normalized": [
+            "bow"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 95,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 140,
+        "weapon_level": 3,
+        "required_level": 55,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "archer": true
+            },
+            "include_jobs": {
+                "archer": true,
+                "rogue": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "弓",
+            "攻撃": "95",
+            "重量": "140",
+            "武器レベル": "3",
+            "要求レベル": "55",
+            "装備": "アーチャー系 ローグ系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ブリーズ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BREEZE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 凍える氷穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld103",
+            "map_code": "2@ld103"
+        },
+        {
+            "name": "幻影の迷宮 凍える氷穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le103",
+            "map_code": "2@le103"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "フィゲルフィールド 01（タナトスタワー）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild01",
+            "map_code": "hu_fild01"
+        },
+        {
+            "name": "フィゲルフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild02",
+            "map_code": "hu_fild02"
+        },
+        {
+            "name": "フィゲルフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild04",
+            "map_code": "hu_fild04"
+        },
+        {
+            "name": "オーディン神殿 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/odin_tem01",
+            "map_code": "odin_tem01"
+        }
+    ],
+    "source_html_sha256": "0d73ab03b71aa1fd35352c7ec0c7ad8bb096d40db239b7ab92501de0d07da2f0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,64 @@
+{
+    "type": "item",
+    "item_id": "12079",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12079\/"
+    },
+    "name": "トリスタン12年",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "トリスタン3世の即位を記念して製造された最高級のお酒で、12年産の味が一番良いと言う。\nINT + 9\n_",
+    "description_lines": [
+        "トリスタン3世の即位を記念して製造された最高級のお酒で、12年産の味が一番良いと言う。",
+        "INT + 9",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "100"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "dbdeecdfc267eb6ec386169a1f36d665a4347ca5da6ca3e0b8fb886be3e9de83",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

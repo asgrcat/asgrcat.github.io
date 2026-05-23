@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "22065",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/22065\/"
+    },
+    "name": "プワゾンシューズ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "毒の力に染まった靴。\n毒のモンスターからの攻撃\nを軽減してくれる。\nMdef + 3\n毒属性攻撃で\n受けるダメージ - 5%\n[プワゾンシューズ]の\n精錬値が1上がる度に追加で\nMaxHP + 1% , MaxSP + 1%\n[プワゾンシールド]と\n共に装備時、追加で\n毒属性モンスターから\n受けるダメージ - 5%\n[プワゾンシールド]の\n精錬値が1上がる度に追加で\n毒属性攻撃で\n受けるダメージ - 2%\n[プワゾンマント]と\n共に装備時、追加で\n物理攻撃時、\n毒属性モンスターに\n与えるダメージ + 5%\n[プワゾンマント]の\n精錬値が1上がる度に追加で\nMaxHP + 1% , MaxSP + 1%",
+    "description_lines": [
+        "毒の力に染まった靴。",
+        "毒のモンスターからの攻撃",
+        "を軽減してくれる。",
+        "Mdef + 3",
+        "毒属性攻撃で",
+        "受けるダメージ - 5%",
+        "[プワゾンシューズ]の",
+        "精錬値が1上がる度に追加で",
+        "MaxHP + 1% , MaxSP + 1%",
+        "[プワゾンシールド]と",
+        "共に装備時、追加で",
+        "毒属性モンスターから",
+        "受けるダメージ - 5%",
+        "[プワゾンシールド]の",
+        "精錬値が1上がる度に追加で",
+        "毒属性攻撃で",
+        "受けるダメージ - 2%",
+        "[プワゾンマント]と",
+        "共に装備時、追加で",
+        "物理攻撃時、",
+        "毒属性モンスターに",
+        "与えるダメージ + 5%",
+        "[プワゾンマント]の",
+        "精錬値が1上がる度に追加で",
+        "MaxHP + 1% , MaxSP + 1%"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 12,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 25,
+        "weapon_level": null,
+        "required_level": 90,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "防御": "12",
+            "重量": "25",
+            "要求レベル": "90",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "2fb4d8f16a05750b3df4c8da6bb8ae4a87a924da3057c23bc30646c0fb9a9977",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

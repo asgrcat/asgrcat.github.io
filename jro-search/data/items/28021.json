@@ -1,0 +1,168 @@
+{
+    "type": "item",
+    "item_id": "28021",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28021\/"
+    },
+    "name": "ジュリエットディレイチェル[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "guillotine_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "暗殺者チョンウンが\n使用していたと\n知られているカタール。\n自身の武器に\n二度と会うことができない\n恋人の名前を付けたという。\n物理攻撃時、\n不死形モンスターに\n与えるダメージ + 10%\n物理攻撃時、\n不死属性モンスターに\n与えるダメージ + 10%\n物理攻撃命中時、\n一定確率で10秒間、\nAtk + 50\n[ジュリエット\nディレイチェル]の\n精錬値が1上がる度に\n発動率が上昇\n[不死の軍団認識票]と\n共に装備時、\n[ジュリエット\nディレイチェル]の\n精錬値が1上がる度に追加で\n物理攻撃で\n与えるダメージ + 5%\n[ジュリエット\nディレイチェル]の\n精錬値が9以上の時、追加で\n[ローリングカッター]使用時\n一定確率でオートスペル\n[オラティオ]Lv10発動",
+    "description_lines": [
+        "暗殺者チョンウンが",
+        "使用していたと",
+        "知られているカタール。",
+        "自身の武器に",
+        "二度と会うことができない",
+        "恋人の名前を付けたという。",
+        "物理攻撃時、",
+        "不死形モンスターに",
+        "与えるダメージ + 10%",
+        "物理攻撃時、",
+        "不死属性モンスターに",
+        "与えるダメージ + 10%",
+        "物理攻撃命中時、",
+        "一定確率で10秒間、",
+        "Atk + 50",
+        "[ジュリエット",
+        "ディレイチェル]の",
+        "精錬値が1上がる度に",
+        "発動率が上昇",
+        "[不死の軍団認識票]と",
+        "共に装備時、",
+        "[ジュリエット",
+        "ディレイチェル]の",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃で",
+        "与えるダメージ + 5%",
+        "[ジュリエット",
+        "ディレイチェル]の",
+        "精錬値が9以上の時、追加で",
+        "[ローリングカッター]使用時",
+        "一定確率でオートスペル",
+        "[オラティオ]Lv10発動"
+    ],
+    "properties": {
+        "series": "katar",
+        "series_normalized": [
+            "katar"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "聖",
+        "slot": 2,
+        "def": null,
+        "atk": 130,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 120,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "guillotine_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カタール",
+            "攻撃": "130",
+            "重量": "120",
+            "属性": "聖",
+            "武器レベル": "4",
+            "要求レベル": "150",
+            "装備": "ギロチンクロス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "S・J・アーネストウルフ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AS_RAGGED_GOLEM"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "空中要塞最上階",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@sthd",
+            "map_code": "1@sthd"
+        },
+        {
+            "name": "異形の迷宮 秘密の通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_24",
+            "map_code": "2@lc_24"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        }
+    ],
+    "source_html_sha256": "0f684a2c186520b6ace65d9b6051fb3555c055d081ea930fa5944404167751ff",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

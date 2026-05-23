@@ -1,0 +1,114 @@
+{
+    "type": "item",
+    "item_id": "580028",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/580028\/"
+    },
+    "name": "プレジションホイップ[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "trouvere": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "時計塔の部品を利用して、\n精巧に改良した鞭。\n改良前よりも\n精巧に振り回す技術が\n必要である。\n魔法攻撃で\n与えるダメージ + 60%\n[プレジションホイップ]の\n精錬値が7以上の時、追加で\n[サウンドブレンド]、\n[メタリックフューリー]で\n与えるダメージ + 10%\n[プレジションホイップ]の\n精錬値が9以上の時、追加で\n[サウンドブレンド]、\n[メタリックフューリー]で\n与えるダメージ + 15%\n[プレジションホイップ]の\n精錬値が10の時、追加で\nSpl + 20",
+    "description_lines": [
+        "時計塔の部品を利用して、",
+        "精巧に改良した鞭。",
+        "改良前よりも",
+        "精巧に振り回す技術が",
+        "必要である。",
+        "魔法攻撃で",
+        "与えるダメージ + 60%",
+        "[プレジションホイップ]の",
+        "精錬値が7以上の時、追加で",
+        "[サウンドブレンド]、",
+        "[メタリックフューリー]で",
+        "与えるダメージ + 10%",
+        "[プレジションホイップ]の",
+        "精錬値が9以上の時、追加で",
+        "[サウンドブレンド]、",
+        "[メタリックフューリー]で",
+        "与えるダメージ + 15%",
+        "[プレジションホイップ]の",
+        "精錬値が10の時、追加で",
+        "Spl + 20"
+    ],
+    "properties": {
+        "series": "whip",
+        "series_normalized": [
+            "whip"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 3,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": 120,
+        "refinement": true,
+        "breakable": true,
+        "weight": 50,
+        "weapon_level": 4,
+        "required_level": 220,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "trouvere": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鞭",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "3",
+            "Atk": "150",
+            "Matk": "120",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "50",
+            "要求レベル": "220",
+            "装備": "トルヴェール"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "03294c536840c0c8e0771695aa11758150737f8776960bbeb406d27db4f8ce9e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

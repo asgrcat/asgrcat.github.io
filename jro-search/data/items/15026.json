@@ -1,0 +1,132 @@
+{
+    "type": "item",
+    "item_id": "15026",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15026\/"
+    },
+    "name": "アクアローブ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "warlock": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "水の力が込められた\n綺麗な青色のローブ。\nMdef + 10\nInt + 1\n[ストームガスト]の\n変動詠唱時間 - 3秒\n純粋なIntが120以上の時、\n追加でInt + 1\n[アクアスタッフ]、\n[アクアオーブ]、\n[アクアシューズ]と\n共に装備時、追加で\n隠された力が発動する\n[アクアスタッフ]、\n[アクアシューズ]、\n[アクアローブ]の\n精錬値が7以上の時、\n追加効果が発動する\n[アクアスタッフⅡ]、\n[アクアオーブ]、\n[アクアシューズ]と\n共に装備時、追加で\n隠された力が発動する\n[アクアスタッフⅡ]、\n[アクアシューズ]、\n[アクアローブ]の\n精錬値が7以上の時、\n追加効果が発動する\n[アルティメット\nモードチェンジャー]と\n共に装備時、追加で\n秘められた効果が発動する\n[アクアスタッフ]、\n[アクアオーブ]、\n[アクアシューズ]、\n[アルティメット\nモードチェンジャー]と\n共に装備時、追加で\n秘められた効果が発動する\n[アクアスタッフⅡ]、\n[アクアオーブ]、\n[アクアシューズ]、\n[アルティメット\nモードチェンジャー]と\n共に装備時、追加で\n秘められた効果が発動する",
+    "description_lines": [
+        "水の力が込められた",
+        "綺麗な青色のローブ。",
+        "Mdef + 10",
+        "Int + 1",
+        "[ストームガスト]の",
+        "変動詠唱時間 - 3秒",
+        "純粋なIntが120以上の時、",
+        "追加でInt + 1",
+        "[アクアスタッフ]、",
+        "[アクアオーブ]、",
+        "[アクアシューズ]と",
+        "共に装備時、追加で",
+        "隠された力が発動する",
+        "[アクアスタッフ]、",
+        "[アクアシューズ]、",
+        "[アクアローブ]の",
+        "精錬値が7以上の時、",
+        "追加効果が発動する",
+        "[アクアスタッフⅡ]、",
+        "[アクアオーブ]、",
+        "[アクアシューズ]と",
+        "共に装備時、追加で",
+        "隠された力が発動する",
+        "[アクアスタッフⅡ]、",
+        "[アクアシューズ]、",
+        "[アクアローブ]の",
+        "精錬値が7以上の時、",
+        "追加効果が発動する",
+        "[アルティメット",
+        "モードチェンジャー]と",
+        "共に装備時、追加で",
+        "秘められた効果が発動する",
+        "[アクアスタッフ]、",
+        "[アクアオーブ]、",
+        "[アクアシューズ]、",
+        "[アルティメット",
+        "モードチェンジャー]と",
+        "共に装備時、追加で",
+        "秘められた効果が発動する",
+        "[アクアスタッフⅡ]、",
+        "[アクアオーブ]、",
+        "[アクアシューズ]、",
+        "[アルティメット",
+        "モードチェンジャー]と",
+        "共に装備時、追加で",
+        "秘められた効果が発動する"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "水",
+        "slot": 0,
+        "def": 40,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "warlock": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "40",
+            "重量": "50",
+            "属性": "水",
+            "要求レベル": "100",
+            "装備": "ウォーロック系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "4f05813199b8e137751ba18fa003f39fe84d40f24b9c4797ddae30bd34580db6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

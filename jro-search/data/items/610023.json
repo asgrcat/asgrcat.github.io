@@ -1,0 +1,139 @@
+{
+    "type": "item",
+    "item_id": "610023",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/610023\/"
+    },
+    "name": "ウィワートゥス・フィデス・カタール[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "shadow_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "浄化の儀式により、\n真なる信仰の力で再誕した\nカタール。\n[ウィワートゥス・フィデス・\nカタール]の\n精錬値が1上がる度に追加で\n物理攻撃時、\n全ての種族のモンスターに\n与えるダメージ + 13%\n[ウィワートゥス・フィデス・\nカタール]の\n超越段階が1以上の時、\n精錬値が1上がる度に追加で\n[クロスインパクト]、\n[クロスリッパー\nスラッシャー]、\n[ローリングカッター]で\n与えるダメージ + 50%\n[ウィワートゥス・フィデス・\nカタール]の\n超越段階が1以上の時、\n精錬値が10の時、追加で\nMaxHP + 50%\n聖属性攻撃で\n受けるダメージ - 25%\n[豊穣の女神]と\n共に装備時、追加で\n[インパクトクレーター]、\n[サベージインパクト]、\n[フェイタル\nシャドウクロー]で\n与えるダメージ + 25%\nプレイヤーから\n受けるダメージ - 40%\n[祈りの晩鐘]と\n共に装備時、追加で\nMaxHP + 15%\n一般モンスターから\n受けるダメージ - 40%\nボスモンスターから\n受けるダメージ - 50%\nプレイヤーから\n受けるダメージ - 5%\n[プロヴィデンス]\nLv3使用可能",
+    "description_lines": [
+        "浄化の儀式により、",
+        "真なる信仰の力で再誕した",
+        "カタール。",
+        "[ウィワートゥス・フィデス・",
+        "カタール]の",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃時、",
+        "全ての種族のモンスターに",
+        "与えるダメージ + 13%",
+        "[ウィワートゥス・フィデス・",
+        "カタール]の",
+        "超越段階が1以上の時、",
+        "精錬値が1上がる度に追加で",
+        "[クロスインパクト]、",
+        "[クロスリッパー",
+        "スラッシャー]、",
+        "[ローリングカッター]で",
+        "与えるダメージ + 50%",
+        "[ウィワートゥス・フィデス・",
+        "カタール]の",
+        "超越段階が1以上の時、",
+        "精錬値が10の時、追加で",
+        "MaxHP + 50%",
+        "聖属性攻撃で",
+        "受けるダメージ - 25%",
+        "[豊穣の女神]と",
+        "共に装備時、追加で",
+        "[インパクトクレーター]、",
+        "[サベージインパクト]、",
+        "[フェイタル",
+        "シャドウクロー]で",
+        "与えるダメージ + 25%",
+        "プレイヤーから",
+        "受けるダメージ - 40%",
+        "[祈りの晩鐘]と",
+        "共に装備時、追加で",
+        "MaxHP + 15%",
+        "一般モンスターから",
+        "受けるダメージ - 40%",
+        "ボスモンスターから",
+        "受けるダメージ - 50%",
+        "プレイヤーから",
+        "受けるダメージ - 5%",
+        "[プロヴィデンス]",
+        "Lv3使用可能"
+    ],
+    "properties": {
+        "series": "katar",
+        "series_normalized": [
+            "katar"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": 250,
+        "refinement": true,
+        "breakable": false,
+        "weight": 280,
+        "weapon_level": 4,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "shadow_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カタール",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "150",
+            "Matk": "250",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "280",
+            "要求レベル": "200",
+            "装備": "シャドウクロス"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "47e041e9dbf575a2e99d0614a8374272e1923bbe7a23c7b033da1f8b9cb4227b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

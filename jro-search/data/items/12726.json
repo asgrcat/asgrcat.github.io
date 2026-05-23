@@ -1,0 +1,79 @@
+{
+    "type": "item",
+    "item_id": "12726",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12726\/"
+    },
+    "name": "ライゾルーンストーン",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "30秒間、自分自身が\n装備している武器が\n破損する代わりに、\nその武器の持つ\n全ての力を引き出し、\n敵に強力な一撃を\n与える。\n再使用待機時間 1秒。\n最大所持量 20個。\n[ジャスパー\nサークレット]、\n[天秤宮のダイアデム]、\n[ファフニールヘルム]、\n[ルーンヘルム]の\nいずれかを装備時、\n[クラッシュストライク]\n発動時、追加で30秒間、\n絶対にノックバックしない",
+    "description_lines": [
+        "30秒間、自分自身が",
+        "装備している武器が",
+        "破損する代わりに、",
+        "その武器の持つ",
+        "全ての力を引き出し、",
+        "敵に強力な一撃を",
+        "与える。",
+        "再使用待機時間 1秒。",
+        "最大所持量 20個。",
+        "[ジャスパー",
+        "サークレット]、",
+        "[天秤宮のダイアデム]、",
+        "[ファフニールヘルム]、",
+        "[ルーンヘルム]の",
+        "いずれかを装備時、",
+        "[クラッシュストライク]",
+        "発動時、追加で30秒間、",
+        "絶対にノックバックしない"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "10"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6be2522022f26697ac34ee7ebcefda0390e73be39fd056ea129fd18d26d3a7ef",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

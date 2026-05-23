@@ -1,0 +1,147 @@
+{
+    "type": "item",
+    "item_id": "2116",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2116\/"
+    },
+    "name": "天使の守護[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "novice": true
+            },
+            "include_jobs": {
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "スーパーノービスの守護天使の盾。悪を退ける神聖な力が込められている。\n悪魔形モンスターからのダメージ5%減少。\n天使の加護、天使の再来、天使の守護、天使の温もり、天使の口づけをすべて装備時、\nHP + 900、 SP + 100\n物理攻撃を受けた場合低確率で自分にアスムプティオLv1をかける。",
+    "description_lines": [
+        "スーパーノービスの守護天使の盾。悪を退ける神聖な力が込められている。",
+        "悪魔形モンスターからのダメージ5%減少。",
+        "天使の加護、天使の再来、天使の守護、天使の温もり、天使の口づけをすべて装備時、",
+        "HP + 900、 SP + 100",
+        "物理攻撃を受けた場合低確率で自分にアスムプティオLv1をかける。"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 30,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 20,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "novice": true
+            },
+            "include_jobs": {
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "防御": "30",
+            "重量": "40",
+            "要求レベル": "20",
+            "装備": "ノービス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "マスターリング",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MASTERING"
+        },
+        {
+            "name": "アルヒ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GEFFEN_MAGE_1"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "ゲフェン魔法大会",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ge_st",
+            "map_code": "1@ge_st"
+        },
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "フェイヨン迷いの森 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild04",
+            "map_code": "pay_fild04"
+        },
+        {
+            "name": "迷宮の森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze03",
+            "map_code": "prt_maze03"
+        },
+        {
+            "name": "おもちゃ工場ダンジョン 01（倉庫）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/xmas_dun01",
+            "map_code": "xmas_dun01"
+        },
+        {
+            "name": "ジュノーフィールド 04（エルメスプレート）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/yuno_fild04",
+            "map_code": "yuno_fild04"
+        }
+    ],
+    "source_html_sha256": "42549a4e06fc17b294ab63551b616c9fa46b45a1e1d06b0ffa6917a4e64c5612",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

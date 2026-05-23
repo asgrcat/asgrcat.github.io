@@ -1,0 +1,97 @@
+{
+    "type": "item",
+    "item_id": "15244",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15244\/"
+    },
+    "name": "鉱員のベスト[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "鉱山で働いていた\n作業員のレザーベスト。\n革が柔らかく着心地が良い。\n物理攻撃時、\n風属性モンスターに\n与えるダメージ + 5%\n[鉱員のベスト]の\n精錬値が7以上の時、追加で\n物理攻撃時、\n風属性モンスターに\n与えるダメージ + 10%\n[鉱員のベスト]の\n精錬値が9以上の時、追加で\n物理攻撃時、\n風属性モンスターに\n与えるダメージ + 15%",
+    "description_lines": [
+        "鉱山で働いていた",
+        "作業員のレザーベスト。",
+        "革が柔らかく着心地が良い。",
+        "物理攻撃時、",
+        "風属性モンスターに",
+        "与えるダメージ + 5%",
+        "[鉱員のベスト]の",
+        "精錬値が7以上の時、追加で",
+        "物理攻撃時、",
+        "風属性モンスターに",
+        "与えるダメージ + 10%",
+        "[鉱員のベスト]の",
+        "精錬値が9以上の時、追加で",
+        "物理攻撃時、",
+        "風属性モンスターに",
+        "与えるダメージ + 15%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 80,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 150,
+        "weapon_level": null,
+        "required_level": 130,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "80",
+            "重量": "150",
+            "要求レベル": "130",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "2a4247d58c230b5b341054bd2d2fa4e1f6c7169b1378ab392dc4f09a7c150232",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,110 @@
+{
+    "type": "item",
+    "item_id": "15204",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15204\/"
+    },
+    "name": "深淵のドレス[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "全ての光を\n吸収するかのような\n真っ黒なドレス。\n人ならざる者ほど\n見入ってしまいそうだ。\n絶対にノックバックしない\n鎧に闇属性を付与する\n[深淵のドレス]の\n精錬値が5以上の時、追加で\n物理・魔法攻撃時、\n不死・悪魔形モンスターに\n与えるダメージ + 10%\n闇・不死属性モンスターに\n与えるダメージ + 10%\n[深淵のドレス]の\n精錬値が7以上の時、追加で\n物理・魔法攻撃時、\n不死・悪魔形モンスターに\n与えるダメージ + 15%\n闇・不死属性モンスターに\n与えるダメージ + 15%\n[深淵のドレス]の\n精錬値が9以上の時、追加で\n物理・魔法攻撃時、\n不死・悪魔形モンスターに\n与えるダメージ + 15%\n闇・不死属性モンスターに\n与えるダメージ + 15%\n絶対に壊れない",
+    "description_lines": [
+        "全ての光を",
+        "吸収するかのような",
+        "真っ黒なドレス。",
+        "人ならざる者ほど",
+        "見入ってしまいそうだ。",
+        "絶対にノックバックしない",
+        "鎧に闇属性を付与する",
+        "[深淵のドレス]の",
+        "精錬値が5以上の時、追加で",
+        "物理・魔法攻撃時、",
+        "不死・悪魔形モンスターに",
+        "与えるダメージ + 10%",
+        "闇・不死属性モンスターに",
+        "与えるダメージ + 10%",
+        "[深淵のドレス]の",
+        "精錬値が7以上の時、追加で",
+        "物理・魔法攻撃時、",
+        "不死・悪魔形モンスターに",
+        "与えるダメージ + 15%",
+        "闇・不死属性モンスターに",
+        "与えるダメージ + 15%",
+        "[深淵のドレス]の",
+        "精錬値が9以上の時、追加で",
+        "物理・魔法攻撃時、",
+        "不死・悪魔形モンスターに",
+        "与えるダメージ + 15%",
+        "闇・不死属性モンスターに",
+        "与えるダメージ + 15%",
+        "絶対に壊れない"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 120,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 90,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "120",
+            "重量": "40",
+            "要求レベル": "90",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "4d066f01a800eff8349d455f83a2934db7e9ae1c45910c429a85171568aee539",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

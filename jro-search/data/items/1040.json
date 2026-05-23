@@ -1,0 +1,153 @@
+{
+    "type": "item",
+    "item_id": "1040",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1040\/"
+    },
+    "name": "年寄り妖精のひげ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "年寄りの地の妖精のひげ。収集品商人に売ることができる。\n_",
+    "description_lines": [
+        "年寄りの地の妖精のひげ。収集品商人に売ることができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ノッカー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KNOCKER"
+        },
+        {
+            "name": "ガイアス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GIEARTH"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_01",
+            "map_code": "2@la_01"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_01",
+            "map_code": "2@lb_01"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_01",
+            "map_code": "2@lc_01"
+        },
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld104",
+            "map_code": "2@ld104"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld201",
+            "map_code": "2@ld201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le101",
+            "map_code": "2@le101"
+        },
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le104",
+            "map_code": "2@le104"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf201",
+            "map_code": "2@lf201"
+        },
+        {
+            "name": "亜空の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg101",
+            "map_code": "2@lg101"
+        },
+        {
+            "name": "亜空の迷宮 地下洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg106",
+            "map_code": "2@lg106"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "実習室（炭鉱）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_prac_04",
+            "map_code": "ac_prac_04"
+        },
+        {
+            "name": "アインブロックフィールド 06",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_fild06",
+            "map_code": "ein_fild06"
+        },
+        {
+            "name": "リヒタルゼンフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_fild03",
+            "map_code": "lhz_fild03"
+        },
+        {
+            "name": "ミョルニール廃鉱 B1F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mjo_dun01",
+            "map_code": "mjo_dun01"
+        },
+        {
+            "name": "ミョルニール廃鉱 B3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mjo_dun03",
+            "map_code": "mjo_dun03"
+        }
+    ],
+    "source_html_sha256": "f32868745b9d2df13064df2fdaca5d4892747855334fc35aa964d66785388fa1",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

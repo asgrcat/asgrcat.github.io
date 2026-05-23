@@ -1,0 +1,105 @@
+{
+    "type": "item",
+    "item_id": "20328",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20328\/"
+    },
+    "name": "[衣装] 黄金の秋刀魚[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "10数年に一度、\n産卵のためイズルード沿岸に\n群れをなして現れる\n黄金色の秋刀魚を\n模した衣装装備。\n人生のうちで\nこの黄金の秋刀魚に\n7回巡り会えたものには、\n一族の商売繁盛が約束\nされるという迷信がある。\nなおこの衣装は、\n天才テーラーであった\n父の失踪により傾きかけた\n老舗洋装店の娘が、\n今回の出現に合わせ、\n起死回生の\nご当地グッズとして\n商品化したものである。\n独特のデフォルメ具合が\nプロンテラ社交界の\n令嬢の心をつかみ、\nそこから人気が\n広まったらしい。",
+    "description_lines": [
+        "10数年に一度、",
+        "産卵のためイズルード沿岸に",
+        "群れをなして現れる",
+        "黄金色の秋刀魚を",
+        "模した衣装装備。",
+        "人生のうちで",
+        "この黄金の秋刀魚に",
+        "7回巡り会えたものには、",
+        "一族の商売繁盛が約束",
+        "されるという迷信がある。",
+        "なおこの衣装は、",
+        "天才テーラーであった",
+        "父の失踪により傾きかけた",
+        "老舗洋装店の娘が、",
+        "今回の出現に合わせ、",
+        "起死回生の",
+        "ご当地グッズとして",
+        "商品化したものである。",
+        "独特のデフォルメ具合が",
+        "プロンテラ社交界の",
+        "令嬢の心をつかみ、",
+        "そこから人気が",
+        "広まったらしい。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "下段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "51615611c3fbe9dd0b19a613c540454a0f7440026d45fd5c6bfd06333c3381c1",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "2906",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2906\/"
+    },
+    "name": "幸運のガントレット[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "数々の宝石を見つけた\nドワーフが使っていた\nというグローブ。\n身につけると幸運が\n舞い込むという。\nMdef + 3\nモンスターを倒した時、\n一定確率で\n「損傷したダイヤモンド」\n「ダイヤモンド２カラット」\n「ダイヤモンド３カラット」\nをドロップ",
+    "description_lines": [
+        "数々の宝石を見つけた",
+        "ドワーフが使っていた",
+        "というグローブ。",
+        "身につけると幸運が",
+        "舞い込むという。",
+        "Mdef + 3",
+        "モンスターを倒した時、",
+        "一定確率で",
+        "「損傷したダイヤモンド」",
+        "「ダイヤモンド２カラット」",
+        "「ダイヤモンド３カラット」",
+        "をドロップ"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 3,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 70,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "3",
+            "重量": "100",
+            "要求レベル": "70",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "4b588cc51359ebeb99ba3fe34a8e0d54c345219bf042c295af5bb1c918aaf1a1",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

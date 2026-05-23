@@ -1,0 +1,141 @@
+{
+    "type": "item",
+    "item_id": "480144",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/480144\/"
+    },
+    "name": "バルムントルーンポールドロン[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "バルムントの\nルーン魔力を\n宿した肩垂れ。\n特別な力はなさそうだ。",
+    "description_lines": [
+        "バルムントの",
+        "ルーン魔力を",
+        "宿した肩垂れ。",
+        "特別な力はなさそうだ。"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 60,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "60",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "100",
+            "要求レベル": "200",
+            "装備": "4次職 拡張4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "死屍の深淵の騎士",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_KNIGHT_OF_ABYSS"
+        },
+        {
+            "name": "死屍のルード",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_LUDE"
+        },
+        {
+            "name": "草原のヒルウィンド",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_HILL_WIND"
+        },
+        {
+            "name": "草原のハンターフライ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_HUNTER_FLY"
+        },
+        {
+            "name": "氷河のセンチピード",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_CENTIPEDE"
+        },
+        {
+            "name": "氷河のアイスタイタン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_ICE_TITAN"
+        },
+        {
+            "name": "火炎のジャック",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_JAKK"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "標本環境(死屍)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_death",
+            "map_code": "bl_death"
+        },
+        {
+            "name": "標本環境(草原)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_grass",
+            "map_code": "bl_grass"
+        },
+        {
+            "name": "標本環境(氷河)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_ice",
+            "map_code": "bl_ice"
+        },
+        {
+            "name": "標本環境(火炎)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_lava",
+            "map_code": "bl_lava"
+        }
+    ],
+    "source_html_sha256": "2532a55c74a4b25336c4d33e7a3bafcef35281ef8801e6cc791ad74ee432b201",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

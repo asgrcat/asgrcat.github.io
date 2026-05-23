@@ -1,0 +1,106 @@
+{
+    "type": "item",
+    "item_id": "13104",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13104\/"
+    },
+    "name": "ガリスン[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "gunslinger": true
+            },
+            "include_jobs": {
+                "gunslinger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "受注生産のみで作られるハンドガン。特に出来の良い物には、製造者の名が刻まれている。\nHIT - 10",
+    "description_lines": [
+        "受注生産のみで作られるハンドガン。特に出来の良い物には、製造者の名が刻まれている。",
+        "HIT - 10"
+    ],
+    "properties": {
+        "series": "handgun",
+        "series_normalized": [
+            "handgun"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 70,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": 2,
+        "required_level": 55,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "gunslinger": true
+            },
+            "include_jobs": {
+                "gunslinger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "ハンドガン",
+            "攻撃": "70",
+            "重量": "50",
+            "武器レベル": "2",
+            "要求レベル": "55",
+            "装備": "ガンスリンガー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ゴブリンライダー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/STEAM_GOBLIN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "コモドフィールド 08（サンダルマン要塞東）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/cmd_fild08",
+            "map_code": "cmd_fild08"
+        }
+    ],
+    "source_html_sha256": "2f31f94e6848dcc52e36386ee0223657162c910918199c5a4f16cfaea73adad6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

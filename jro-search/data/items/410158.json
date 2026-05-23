@@ -1,0 +1,99 @@
+{
+    "type": "item",
+    "item_id": "410158",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/410158\/"
+    },
+    "name": "マジックセレスティアルグローブ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "宙より注ぐ数多の\n星の石から作られた\n魔法の天球儀。\n術式は星外の理で\n構築されており\n現代の魔術・科学では\n全容を把握できない。\nBaseLvが1上がる度に追加で\nAtk + 1 , Matk + 1\n[ゾディアック]と\n共に装備時、追加で\n全ての基本ステータス + 10",
+    "description_lines": [
+        "宙より注ぐ数多の",
+        "星の石から作られた",
+        "魔法の天球儀。",
+        "術式は星外の理で",
+        "構築されており",
+        "現代の魔術・科学では",
+        "全容を把握できない。",
+        "BaseLvが1上がる度に追加で",
+        "Atk + 1 , Matk + 1",
+        "[ゾディアック]と",
+        "共に装備時、追加で",
+        "全ての基本ステータス + 10"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": "-",
+        "slot": 0,
+        "def": 2,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "中段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "2",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f3fed0b5ccc1abdac60267e3ee0db057d4185f37947e4dffa7e7ec00dea04c40",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,90 @@
+{
+    "type": "item",
+    "item_id": "31057",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/31057\/"
+    },
+    "name": "[衣装] エレメス=ガイルのスカーフ(黒)[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ボロボロに千切れている\n黒い衣装用のスカーフ。\n生体工学研究所で\n目撃されたと噂に聞く\nエレメス=ガイルの物に\nよく似ている気がするが\n色が異なっているため\n恐らく勘違いだろう。",
+    "description_lines": [
+        "ボロボロに千切れている",
+        "黒い衣装用のスカーフ。",
+        "生体工学研究所で",
+        "目撃されたと噂に聞く",
+        "エレメス=ガイルの物に",
+        "よく似ている気がするが",
+        "色が異なっているため",
+        "恐らく勘違いだろう。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "下段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "d51ea39e06aadfb7266b5a31f8ae9ebd5334af75e20425185db1dae291447b8f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,96 @@
+{
+    "type": "item",
+    "item_id": "15842",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15842\/"
+    },
+    "name": "[衣装] 懐中時計のマジックハット[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "upper": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "お供の子ウサギがかわいい\n衣装用のシルクハット。\n帽子からはとびきりの\nマジックが飛び出しそう。\nエフェクト装備のため、\nエフェクト(\/effect)を\nOFFにしていると\n装備グラフィックのみ\n表示される",
+    "description_lines": [
+        "お供の子ウサギがかわいい",
+        "衣装用のシルクハット。",
+        "帽子からはとびきりの",
+        "マジックが飛び出しそう。",
+        "エフェクト装備のため、",
+        "エフェクト(\/effect)を",
+        "OFFにしていると",
+        "装備グラフィックのみ",
+        "表示される"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "位置": "上段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c65bd70313f75d874187a7d933dda706ea241a8500e68344a425de9783dcfcb5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

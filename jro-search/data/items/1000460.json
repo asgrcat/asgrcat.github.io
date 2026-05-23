@@ -1,0 +1,72 @@
+{
+    "type": "item",
+    "item_id": "1000460",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000460\/"
+    },
+    "name": "ニブルレオン交換チケット",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "キューペット\n[ニブルレオン]を\n貰う為に必要な引き換え券。\nギムレットの部屋にいる\n「アッキーラ教授」に渡すと\n[ニブルレオンの卵]を\n受け取ることができる\n[ニブルレオン\n交換チケット]は\n倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "キューペット",
+        "[ニブルレオン]を",
+        "貰う為に必要な引き換え券。",
+        "ギムレットの部屋にいる",
+        "「アッキーラ教授」に渡すと",
+        "[ニブルレオンの卵]を",
+        "受け取ることができる",
+        "[ニブルレオン",
+        "交換チケット]は",
+        "倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "5b69458e9fb38a0a515d3f7f32f60fa4878a01591d6a0fb39af49c44f8d9c554",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

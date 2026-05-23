@@ -1,0 +1,95 @@
+{
+    "type": "item",
+    "item_id": "5469",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5469\/"
+    },
+    "name": "ノーブルハット[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "「一人は皆の為に、皆は一人\nの為に」という銃士の心得が\n刻まれている帽子。\nStr + 2\n物理攻撃命中時、一定確率で\nオートスペル[アドレナリン\nラッシュ]Lv1が発動\nオートスペル[アドレナリン\nラッシュ]は全ての武器で\n発動する",
+    "description_lines": [
+        "「一人は皆の為に、皆は一人",
+        "の為に」という銃士の心得が",
+        "刻まれている帽子。",
+        "Str + 2",
+        "物理攻撃命中時、一定確率で",
+        "オートスペル[アドレナリン",
+        "ラッシュ]Lv1が発動",
+        "オートスペル[アドレナリン",
+        "ラッシュ]は全ての武器で",
+        "発動する"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 4,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 30,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "4",
+            "位置": "上段",
+            "重量": "30",
+            "要求レベル": "30",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "fd44165c5660517c77b1d945e3d22480b987d597f182bc0c9dbd82c419da1a49",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

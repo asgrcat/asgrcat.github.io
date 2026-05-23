@@ -1,0 +1,237 @@
+{
+    "type": "item",
+    "item_id": "1422",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1422\/"
+    },
+    "name": "ハンティングスピア[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "狩りの為に作られた槍で、\n先に付いている刃が\n葉っぱの形をしている。\n刺す事より、重さを利用して\n殴る事を優先させている。\n動物形モンスターの\n防御力無視。\n動物形モンスターを倒した時\n一定確率でにくをドロップ。\n物理攻撃時、一定確率で\nジョイントビートLv3発動。",
+    "description_lines": [
+        "狩りの為に作られた槍で、",
+        "先に付いている刃が",
+        "葉っぱの形をしている。",
+        "刺す事より、重さを利用して",
+        "殴る事を優先させている。",
+        "動物形モンスターの",
+        "防御力無視。",
+        "動物形モンスターを倒した時",
+        "一定確率でにくをドロップ。",
+        "物理攻撃時、一定確率で",
+        "ジョイントビートLv3発動。"
+    ],
+    "properties": {
+        "series": "spear",
+        "series_normalized": [
+            "spear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 180,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 420,
+        "weapon_level": 4,
+        "required_level": 60,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "槍",
+            "攻撃": "180",
+            "重量": "420",
+            "武器レベル": "4",
+            "要求レベル": "60",
+            "装備": "転生ソードマン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "堕ちた大神官ヒバム",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/FALLINGBISHOP"
+        },
+        {
+            "name": "変異のシーラカンス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/COELACANTH_H_M"
+        },
+        {
+            "name": "ボイタタ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BOITATA"
+        },
+        {
+            "name": "レヤック",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/LEAK"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "地下排水路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@pump",
+            "map_code": "1@pump"
+        },
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "試練の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_04",
+            "map_code": "2@la_04"
+        },
+        {
+            "name": "試練の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_24",
+            "map_code": "2@la_24"
+        },
+        {
+            "name": "封印の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_04",
+            "map_code": "2@lb_04"
+        },
+        {
+            "name": "封印の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_24",
+            "map_code": "2@lb_24"
+        },
+        {
+            "name": "異形の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_04",
+            "map_code": "2@lc_04"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld204",
+            "map_code": "2@ld204"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld224",
+            "map_code": "2@ld224"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf204",
+            "map_code": "2@lf204"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf224",
+            "map_code": "2@lf224"
+        },
+        {
+            "name": "亜空の迷宮 転移魔法陣",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg127",
+            "map_code": "2@lg127"
+        },
+        {
+            "name": "地下排水路 最奥部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@pump",
+            "map_code": "2@pump"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "修道院 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey02",
+            "map_code": "abbey02"
+        },
+        {
+            "name": "滝の中の洞窟 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bra_dun02",
+            "map_code": "bra_dun02"
+        },
+        {
+            "name": "イスタナ洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/dew_dun02",
+            "map_code": "dew_dun02"
+        }
+    ],
+    "source_html_sha256": "4c1f4abd9af9fba17bf08bd041a7842750b00afa660d86cdef4ddcbfc8c8f758",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

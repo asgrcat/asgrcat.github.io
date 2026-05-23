@@ -1,0 +1,111 @@
+{
+    "type": "item",
+    "item_id": "28533",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28533\/"
+    },
+    "name": "ケミカルグローブ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "化学薬品を取り扱う為に\n身に着けるグローブ。\n様々な薬品を\n取り扱うことが出来る。\nHit + 20\n攻撃速度 + 5%\n[赤ポーション]、\n[紅ポーション]、\n[黄ポーション]、\n[白ポーション]の\nHP回復量 + 100%\n[カート改造]の\n習得Lvが1上がる度に追加で\nAtk + 15\n攻撃速度 + 1%\nMaxHP + 2%\n[カートトルネード]の\n消費SP - 1\nBaseLvが1上がる度に追加で\n[カートレボリューション]で\n与えるダメージ + 1%\nBaseLvが20上がる度に追加で\n[カートキャノン]で\n与えるダメージ + 2%\nBaseLvが30上がる度に追加で\n[カートトルネード]で\n与えるダメージ + 2%",
+    "description_lines": [
+        "化学薬品を取り扱う為に",
+        "身に着けるグローブ。",
+        "様々な薬品を",
+        "取り扱うことが出来る。",
+        "Hit + 20",
+        "攻撃速度 + 5%",
+        "[赤ポーション]、",
+        "[紅ポーション]、",
+        "[黄ポーション]、",
+        "[白ポーション]の",
+        "HP回復量 + 100%",
+        "[カート改造]の",
+        "習得Lvが1上がる度に追加で",
+        "Atk + 15",
+        "攻撃速度 + 1%",
+        "MaxHP + 2%",
+        "[カートトルネード]の",
+        "消費SP - 1",
+        "BaseLvが1上がる度に追加で",
+        "[カートレボリューション]で",
+        "与えるダメージ + 1%",
+        "BaseLvが20上がる度に追加で",
+        "[カートキャノン]で",
+        "与えるダメージ + 2%",
+        "BaseLvが30上がる度に追加で",
+        "[カートトルネード]で",
+        "与えるダメージ + 2%"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 20,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "10",
+            "要求レベル": "20",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "40573c2f4a770281fbd74635c91d539e28266fb92ebbbb7a89eb9841f3acff9b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

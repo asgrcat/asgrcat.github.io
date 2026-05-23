@@ -1,0 +1,114 @@
+{
+    "type": "item",
+    "item_id": "2650",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2650\/"
+    },
+    "name": "モリガンのベルト[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "クー・フーリンが\n戦死した後、彼の遺品として\n保存されていたベルト。\nAtk + 5 , Cri + 3\n[モリガンのヘルム]\n[モリガンのマント]\n[モリガンのペンダント]\nと共に装備時、\nStr + 2, Luk + 9 ,\nCri + 13 , Atk + 18 ,\n完全回避 + 13",
+    "description_lines": [
+        "クー・フーリンが",
+        "戦死した後、彼の遺品として",
+        "保存されていたベルト。",
+        "Atk + 5 , Cri + 3",
+        "[モリガンのヘルム]",
+        "[モリガンのマント]",
+        "[モリガンのペンダント]",
+        "と共に装備時、",
+        "Str + 2, Luk + 9 ,",
+        "Cri + 13 , Atk + 18 ,",
+        "完全回避 + 13"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": 61,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "20",
+            "要求レベル": "61",
+            "装備": "ノービス系を除く全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "キエル-D-01",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KIEL_"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "機械人形工場 B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/kh_dun02",
+            "map_code": "kh_dun02"
+        }
+    ],
+    "source_html_sha256": "3308d25fe9f12b7056bc552233a562bc3d29749ab507a85483ccadeeca4d6172",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

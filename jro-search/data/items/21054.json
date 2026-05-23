@@ -1,0 +1,157 @@
+{
+    "type": "item",
+    "item_id": "21054",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/21054\/"
+    },
+    "name": "クロウソード[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "knight": true,
+                "rune_knight": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "工事現場で瓦礫類を\n片付けるのに使われた道具。\n色んな用途に使える。\n物理攻撃で\n与えるダメージ + 60%\nプレイヤーから\n受けるダメージ - 40%\n[クロウソード]の\n精錬値が7以上の時、追加で\n物理攻撃で\n与えるダメージ + 25%\n[クロウソード]の\n精錬値が9以上の時、追加で\n物理攻撃で\n与えるダメージ + 25%\n[クロウソード]の\n精錬値が10の時、追加で\n[イグニッション\nブレイク]で\n与えるダメージ + 150%",
+    "description_lines": [
+        "工事現場で瓦礫類を",
+        "片付けるのに使われた道具。",
+        "色んな用途に使える。",
+        "物理攻撃で",
+        "与えるダメージ + 60%",
+        "プレイヤーから",
+        "受けるダメージ - 40%",
+        "[クロウソード]の",
+        "精錬値が7以上の時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 25%",
+        "[クロウソード]の",
+        "精錬値が9以上の時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 25%",
+        "[クロウソード]の",
+        "精錬値が10の時、追加で",
+        "[イグニッション",
+        "ブレイク]で",
+        "与えるダメージ + 150%"
+    ],
+    "properties": {
+        "series": "two_handed_sword",
+        "series_normalized": [
+            "two_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 3,
+        "def": null,
+        "atk": 280,
+        "mdef": null,
+        "matk": 230,
+        "refinement": true,
+        "breakable": true,
+        "weight": 340,
+        "weapon_level": 4,
+        "required_level": 175,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "knight": true,
+                "rune_knight": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手剣",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "3",
+            "Atk": "280",
+            "Matk": "230",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "340",
+            "要求レベル": "175",
+            "装備": "ルーンナイト系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "レッドネオミネラル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MINERAL_R"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld108",
+            "map_code": "2@ld108"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le108",
+            "map_code": "2@le108"
+        },
+        {
+            "name": "亜空の迷宮 地下洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg106",
+            "map_code": "2@lg106"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "鉱山ダンジョン 03(1)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun03",
+            "map_code": "ein_dun03"
+        },
+        {
+            "name": "鉱山ダンジョン 03(2)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun03_j",
+            "map_code": "ein_dun03_j"
+        }
+    ],
+    "source_html_sha256": "37085619c67e0aa9a1330a4b6c20abc983f00fadcd2a1c4a4b575bb9d6c36f91",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,112 @@
+{
+    "type": "item",
+    "item_id": "2935",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2935\/"
+    },
+    "name": "スプリントグローブ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "特定のアイテムと併せて\n装備することで、より一層\n力を引き出すことのできる\n不思議なグローブ。\n変動詠唱時間 - 1%\nスキルディレイ - 1%\n[スプリントリング]と共に\n装備時、追加で\n変動詠唱時間 - 4%\nスキルディレイ - 4%\n[スプリントシューズ]と\n共に装備時、追加で\nMaxSP + 3%\n[スプリントシューズ]の\n精錬値が 7以上の時追加で\nMaxHP + 2%\n[スプリントメイル]と\n共に装備時、追加で\nMaxHP + 3%\n[スプリントメイル]の\n精錬値が 7以上の時追加で\nMaxSP + 2%\n[スプリントリング]、\n[スプリントシューズ]、\n[スプリントメイル]と\n共に装備時、追加で\n変動詠唱時間 - 5%\nスキルディレイ - 5%",
+    "description_lines": [
+        "特定のアイテムと併せて",
+        "装備することで、より一層",
+        "力を引き出すことのできる",
+        "不思議なグローブ。",
+        "変動詠唱時間 - 1%",
+        "スキルディレイ - 1%",
+        "[スプリントリング]と共に",
+        "装備時、追加で",
+        "変動詠唱時間 - 4%",
+        "スキルディレイ - 4%",
+        "[スプリントシューズ]と",
+        "共に装備時、追加で",
+        "MaxSP + 3%",
+        "[スプリントシューズ]の",
+        "精錬値が 7以上の時追加で",
+        "MaxHP + 2%",
+        "[スプリントメイル]と",
+        "共に装備時、追加で",
+        "MaxHP + 3%",
+        "[スプリントメイル]の",
+        "精錬値が 7以上の時追加で",
+        "MaxSP + 2%",
+        "[スプリントリング]、",
+        "[スプリントシューズ]、",
+        "[スプリントメイル]と",
+        "共に装備時、追加で",
+        "変動詠唱時間 - 5%",
+        "スキルディレイ - 5%"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "上位2次職 3次職 4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "04a67b93e6aeee65270046e2490fb1ae732731b4f92a14c84a16c4ea40dbae47",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

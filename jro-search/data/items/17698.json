@@ -1,0 +1,75 @@
+{
+    "type": "item",
+    "item_id": "17698",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/17698\/"
+    },
+    "name": "コスたまJuneBride",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する。\n・[衣装] 虹色のヴェール\n・[衣装] 幸福と平和の証\n・[衣装] ホワイトリリー\n・[衣装] 大空の帽子\n・[衣装] 真実の愛\n・[衣装] 太極の耳飾り\n・[衣装] 聖母の慈愛\n・[衣装] 睡蓮の冠\n・[衣装] かえる王子の帽子\n・[衣装] アンブレラハット",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する。",
+        "・[衣装] 虹色のヴェール",
+        "・[衣装] 幸福と平和の証",
+        "・[衣装] ホワイトリリー",
+        "・[衣装] 大空の帽子",
+        "・[衣装] 真実の愛",
+        "・[衣装] 太極の耳飾り",
+        "・[衣装] 聖母の慈愛",
+        "・[衣装] 睡蓮の冠",
+        "・[衣装] かえる王子の帽子",
+        "・[衣装] アンブレラハット"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "1cdb0010b88e87c4d803c4b25eb6d55fe24061ed23ce08f7fd9d3e8a78aef0b0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

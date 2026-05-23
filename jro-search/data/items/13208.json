@@ -1,0 +1,76 @@
+{
+    "type": "item",
+    "item_id": "13208",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13208\/"
+    },
+    "name": "ダンゴムシ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "突っつくと身を丸くする。\n思ったより硬くマラン島では\n銃弾として使用されている。\n遠距離物理攻撃命中時、\n一定確率で\n敵をスタン状態にする\n[ダンゴムシ]は\nNPC売却・倉庫への移動が\n可能です。",
+    "description_lines": [
+        "突っつくと身を丸くする。",
+        "思ったより硬くマラン島では",
+        "銃弾として使用されている。",
+        "遠距離物理攻撃命中時、",
+        "一定確率で",
+        "敵をスタン状態にする",
+        "[ダンゴムシ]は",
+        "NPC売却・倉庫への移動が",
+        "可能です。"
+    ],
+    "properties": {
+        "series": "bullet",
+        "series_normalized": [
+            "bullet"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": null,
+        "def": null,
+        "atk": 50,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 50,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "弾",
+            "攻撃": "50",
+            "重量": "0.5",
+            "属性": "無",
+            "要求レベル": "50"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c44cc3022d930d9bc0b306355829505460b536ad4776c212cac2084a1af4d8c8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

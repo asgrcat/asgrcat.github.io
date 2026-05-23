@@ -1,0 +1,128 @@
+{
+    "type": "item",
+    "item_id": "27009",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27009\/"
+    },
+    "name": "殺戮の魔眼カード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "Hit + 50\n物理攻撃で\n与えるダメージ + 10%\n物理攻撃命中時、\n一定確率で\n自分を中心とした5x5セル\n範囲内の敵を\n睡眠・石化・呪い状態にする\n[魔眼のアムダライスカード]\nと共に装備時、追加で\n物理・魔法攻撃で\n与えるダメージ + 15%\n闇属性攻撃で\n受けるダメージ - 50%\n[英雄の凱歌]と\n共に装備時、追加で\n物理攻撃命中時、\n一定確率で敵に\nオートスペル\n[マーシュオブアビス]\nLv5発動",
+    "description_lines": [
+        "Hit + 50",
+        "物理攻撃で",
+        "与えるダメージ + 10%",
+        "物理攻撃命中時、",
+        "一定確率で",
+        "自分を中心とした5x5セル",
+        "範囲内の敵を",
+        "睡眠・石化・呪い状態にする",
+        "[魔眼のアムダライスカード]",
+        "と共に装備時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 15%",
+        "闇属性攻撃で",
+        "受けるダメージ - 50%",
+        "[英雄の凱歌]と",
+        "共に装備時、追加で",
+        "物理攻撃命中時、",
+        "一定確率で敵に",
+        "オートスペル",
+        "[マーシュオブアビス]",
+        "Lv5発動"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "殺戮の魔眼",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MG_CORRUPTION_ROOT_H"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "古の騎士団01(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@gl_kh",
+            "map_code": "1@gl_kh"
+        },
+        {
+            "name": "試練の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_22",
+            "map_code": "2@la_22"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_22",
+            "map_code": "2@lb_22"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld222",
+            "map_code": "2@ld222"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf222",
+            "map_code": "2@lf222"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        }
+    ],
+    "source_html_sha256": "08070d6a9b67dbd524ce8569505fc8ae47b22d6ebb4495bec31a6e6ac462621d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

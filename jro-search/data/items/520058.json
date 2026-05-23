@@ -1,0 +1,143 @@
+{
+    "type": "item",
+    "item_id": "520058",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/520058\/"
+    },
+    "name": "セレスティアルアックス[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "aletheia": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "天体より零れ落ちた\n流星の欠片で作られた\nアックス。\n奇跡によって\n英雄に勇気を授ける。\n変動詠唱時間 - 100%\nプレイヤーから\n受けるダメージ - 10%\n[セレスティアル\nアックス]の\n精錬値が1上がる度に追加で\n物理攻撃時、\n全ての種族のモンスターに\n与えるダメージ + 6%\n魔法攻撃時、\n全ての種族のモンスターに\n与えるダメージ + 3%\n[セレスティアル\nアックス]の\n超越段階が1以上の時、\n精錬値が1上がる度に追加で\n物理・魔法攻撃時、\n全ての種族のモンスターに\n与えるダメージ + 7%\n[セレスティアル\nアックス]の\n超越段階が1以上の時、\n精錬値が10の時、追加で\n全ての基本ステータス + 10\n[セレスティアル\nアックス]の\n超越段階が2以上の時、\n精錬値が1上がる度に追加で\nMaxHP + 1%\n[セレスティアル\nアックス]の\n超越段階が2以上の時、\n精錬値が10の時、追加で\n物理・魔法攻撃時、\n全ての種族のモンスターに\n与えるダメージ + 15%\n5秒毎にHP + 5% , SP + 5%\n[セレスティアルピース]と\n共に装備時、追加で\nMaxHP + 15%\nボスモンスターから\n受けるダメージ - 10%\n[テレポート]\nLv1使用可能",
+    "description_lines": [
+        "天体より零れ落ちた",
+        "流星の欠片で作られた",
+        "アックス。",
+        "奇跡によって",
+        "英雄に勇気を授ける。",
+        "変動詠唱時間 - 100%",
+        "プレイヤーから",
+        "受けるダメージ - 10%",
+        "[セレスティアル",
+        "アックス]の",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃時、",
+        "全ての種族のモンスターに",
+        "与えるダメージ + 6%",
+        "魔法攻撃時、",
+        "全ての種族のモンスターに",
+        "与えるダメージ + 3%",
+        "[セレスティアル",
+        "アックス]の",
+        "超越段階が1以上の時、",
+        "精錬値が1上がる度に追加で",
+        "物理・魔法攻撃時、",
+        "全ての種族のモンスターに",
+        "与えるダメージ + 7%",
+        "[セレスティアル",
+        "アックス]の",
+        "超越段階が1以上の時、",
+        "精錬値が10の時、追加で",
+        "全ての基本ステータス + 10",
+        "[セレスティアル",
+        "アックス]の",
+        "超越段階が2以上の時、",
+        "精錬値が1上がる度に追加で",
+        "MaxHP + 1%",
+        "[セレスティアル",
+        "アックス]の",
+        "超越段階が2以上の時、",
+        "精錬値が10の時、追加で",
+        "物理・魔法攻撃時、",
+        "全ての種族のモンスターに",
+        "与えるダメージ + 15%",
+        "5秒毎にHP + 5% , SP + 5%",
+        "[セレスティアルピース]と",
+        "共に装備時、追加で",
+        "MaxHP + 15%",
+        "ボスモンスターから",
+        "受けるダメージ - 10%",
+        "[テレポート]",
+        "Lv1使用可能"
+    ],
+    "properties": {
+        "series": "one_handed_axe",
+        "series_normalized": [
+            "one_handed_axe"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 0,
+        "def": null,
+        "atk": 180,
+        "mdef": null,
+        "matk": 110,
+        "refinement": true,
+        "breakable": false,
+        "weight": 180,
+        "weapon_level": 4,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "aletheia": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手斧",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "0",
+            "Atk": "180",
+            "Matk": "110",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "180",
+            "要求レベル": "200",
+            "装備": "アリテア"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c6bcb9fc5db03a82f110c1c4d9b133aa219de8b2e20f6a7966e2b97027e9363f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

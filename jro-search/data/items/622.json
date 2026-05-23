@@ -1,0 +1,162 @@
+{
+    "type": "item",
+    "item_id": "622",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/622\/"
+    },
+    "name": "虹色ニンジン",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "虹の彩りの光が出ているニンジン。 香りがすごく魅惑的。 モンスタールナティックの好物。",
+    "description_lines": [
+        "虹の彩りの光が出ているニンジン。 香りがすごく魅惑的。 モンスタールナティックの好物。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": "taming_item",
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 5,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "種類": "テイミングアイテム",
+            "重量": "5"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "エクリプス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECLIPSE"
+        },
+        {
+            "name": "ルナティック",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/LUNATIC"
+        },
+        {
+            "name": "ハートハンター・サナレ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP17_1_SANARE1"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld113",
+            "map_code": "2@ld113"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le113",
+            "map_code": "2@le113"
+        },
+        {
+            "name": "亜空の迷宮 淫靡な大聖堂",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg113",
+            "map_code": "2@lg113"
+        },
+        {
+            "name": "ラヴィーネ山脈02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ravi",
+            "map_code": "2@ravi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "フェイヨン迷いの森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild03",
+            "map_code": "pay_fild03"
+        },
+        {
+            "name": "プロンテラフィールド 00",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild00",
+            "map_code": "prt_fild00"
+        },
+        {
+            "name": "プロンテラフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild01",
+            "map_code": "prt_fild01"
+        },
+        {
+            "name": "プロンテラフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild02",
+            "map_code": "prt_fild02"
+        },
+        {
+            "name": "プロンテラフィールド 05",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild05",
+            "map_code": "prt_fild05"
+        },
+        {
+            "name": "プロンテラフィールド 06",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild06",
+            "map_code": "prt_fild06"
+        },
+        {
+            "name": "プロンテラフィールド 08",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild08",
+            "map_code": "prt_fild08"
+        },
+        {
+            "name": "迷宮の森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze01",
+            "map_code": "prt_maze01"
+        },
+        {
+            "name": "迷宮の森 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze03",
+            "map_code": "prt_maze03"
+        },
+        {
+            "name": "特殊警戒地域オース",
+            "url": "https:\/\/rotool.gungho.jp\/map\/sp_os",
+            "map_code": "sp_os"
+        }
+    ],
+    "source_html_sha256": "ccf311f29d0f5ae010f52f9f3be0b375be84b56f929c6a228287384059cea8d9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

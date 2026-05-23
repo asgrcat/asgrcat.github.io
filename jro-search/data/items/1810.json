@@ -1,0 +1,133 @@
+{
+    "type": "item",
+    "item_id": "1810",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1810\/"
+    },
+    "name": "クロー[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "priest": true,
+                "monk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "鋭い爪\nSTR + 2",
+    "description_lines": [
+        "鋭い爪",
+        "STR + 2"
+    ],
+    "properties": {
+        "series": "claw",
+        "series_normalized": [
+            "claw"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 2,
+        "def": null,
+        "atk": 86,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": 3,
+        "required_level": 24,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "priest": true,
+                "monk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "爪",
+            "攻撃": "86",
+            "重量": "50",
+            "武器レベル": "3",
+            "要求レベル": "24",
+            "装備": "プリースト系 モンク系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "エリオット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ALIOT"
+        },
+        {
+            "name": "ジャガー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JAGUAR"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ブラジリスフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bra_fild01",
+            "map_code": "bra_fild01"
+        },
+        {
+            "name": "機械人形工場 B1F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/kh_dun01",
+            "map_code": "kh_dun01"
+        },
+        {
+            "name": "機械人形工場 B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/kh_dun02",
+            "map_code": "kh_dun02"
+        },
+        {
+            "name": "キエルの部屋 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/kh_kiehl01",
+            "map_code": "kh_kiehl01"
+        }
+    ],
+    "source_html_sha256": "47c380ecfee99cf12dd7c55d84ebae4dfba938f1f665a90d7d6f48d3224f6aa5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

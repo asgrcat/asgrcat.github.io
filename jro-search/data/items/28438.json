@@ -1,0 +1,108 @@
+{
+    "type": "item",
+    "item_id": "28438",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28438\/"
+    },
+    "name": "フェアリーフのギリ粉[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "フェアリーフの木から\n作成したギリ粉。\n手が滑らなくなり、\n使用者の弓力を十分に\n発揮出来るようになる。\nDex + 2\n遠距離物理攻撃で\n与えるダメージ + 2%\nスキルディレイ - 5%\n[マグナムブレイク]Lv3\n使用可能\n純粋なDexが100以上の時、\n追加で遠距離物理攻撃で\n与えるダメージ + 5%\n[名弓1]と\n共に装備時、追加で\n遠距離物理攻撃で\n与えるダメージ + 5%\nスキルディレイ - 5%\n[名弓2]と\n共に装備時、追加で\n遠距離物理攻撃で\n与えるダメージ + 5%\nスキルディレイ - 5%",
+    "description_lines": [
+        "フェアリーフの木から",
+        "作成したギリ粉。",
+        "手が滑らなくなり、",
+        "使用者の弓力を十分に",
+        "発揮出来るようになる。",
+        "Dex + 2",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 2%",
+        "スキルディレイ - 5%",
+        "[マグナムブレイク]Lv3",
+        "使用可能",
+        "純粋なDexが100以上の時、",
+        "追加で遠距離物理攻撃で",
+        "与えるダメージ + 5%",
+        "[名弓1]と",
+        "共に装備時、追加で",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 5%",
+        "スキルディレイ - 5%",
+        "[名弓2]と",
+        "共に装備時、追加で",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 5%",
+        "スキルディレイ - 5%"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 90,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "40",
+            "要求レベル": "90",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "03cebc73d9ca9952cbe1e3f77976867a17776b6c73b278cf50f231fb69822551",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

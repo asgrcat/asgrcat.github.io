@@ -1,0 +1,107 @@
+{
+    "type": "item",
+    "item_id": "20796",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20796\/"
+    },
+    "name": "ソヒョンの羽衣[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ソヒョンが羽織っている衣。\n味方を守るための\n魔法が込められている。\nMdef + 10\nヒール系スキル使用時、\nHP回復量 + 5%\n[ソヒョンの羽衣]の\n精錬値が1上がる度に追加で\nヒール系スキル使用時、\nHP回復量 + 1%\n[ソヒョンの小太刀]と\n共に装備時、\n[ソヒョンの羽衣]の\n精錬値が1上がる度に追加で\nMatk + 5\nヒール系スキル使用時、\nHP回復量 + 2%",
+    "description_lines": [
+        "ソヒョンが羽織っている衣。",
+        "味方を守るための",
+        "魔法が込められている。",
+        "Mdef + 10",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 5%",
+        "[ソヒョンの羽衣]の",
+        "精錬値が1上がる度に追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 1%",
+        "[ソヒョンの小太刀]と",
+        "共に装備時、",
+        "[ソヒョンの羽衣]の",
+        "精錬値が1上がる度に追加で",
+        "Matk + 5",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 2%"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 20,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 60,
+        "weapon_level": null,
+        "required_level": 130,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "防御": "20",
+            "重量": "60",
+            "要求レベル": "130",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ソヒョン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AB_SOHEON"
+        },
+        {
+            "name": "小さなソヒョン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AB_MOB_064"
+        }
+    ],
+    "available_maps": [],
+    "source_html_sha256": "06269866e0e7ed2357d18f53965db6252467b2ec0d5c1d1a0bb1a16f40fc84a3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,119 @@
+{
+    "type": "item",
+    "item_id": "1667",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1667\/"
+    },
+    "name": "攻城戦TEスタッフ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true,
+                "soul_linker": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "攻城戦TE専用の\nレンタルアイテム\nMatk + 100\n攻城戦TEの砦内で\n以下の効果が追加される\n_\n魔法攻撃時、\nプレイヤーに\n与えるダメージ + 10%\n_\n魔法攻撃命中時、\n一定確率で敵を\n暗黒状態にする\n_\nヒール系スキル使用時、\nHP回復量 + 5%",
+    "description_lines": [
+        "攻城戦TE専用の",
+        "レンタルアイテム",
+        "Matk + 100",
+        "攻城戦TEの砦内で",
+        "以下の効果が追加される",
+        "_",
+        "魔法攻撃時、",
+        "プレイヤーに",
+        "与えるダメージ + 10%",
+        "_",
+        "魔法攻撃命中時、",
+        "一定確率で敵を",
+        "暗黒状態にする",
+        "_",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 5%"
+    ],
+    "properties": {
+        "series": "one_handed_staff",
+        "series_normalized": [
+            "one_handed_staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 50,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": 3,
+        "required_level": 40,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "magician": true,
+                "acolyte": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "acolyte": true,
+                "soul_linker": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手杖",
+            "攻撃": "50",
+            "重量": "0",
+            "武器レベル": "3",
+            "要求レベル": "40",
+            "装備": "ノービス系 マジシャン系 アコライト系 ソウルリンカー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c86995d7ea0f66dbb7a8ea938c471ea86a035408984408e617b1cdb1bca371e1",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

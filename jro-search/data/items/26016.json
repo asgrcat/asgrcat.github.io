@@ -1,0 +1,196 @@
+{
+    "type": "item",
+    "item_id": "26016",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/26016\/"
+    },
+    "name": "王室騎士の槍[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "名誉ある騎士団が\n使っていた白い槍。\n全ての種族のDef 50%無視\n[王室騎士の槍]の\n精錬値が1上がる度に追加で\n物理攻撃で\n与えるダメージ + 15%",
+    "description_lines": [
+        "名誉ある騎士団が",
+        "使っていた白い槍。",
+        "全ての種族のDef 50%無視",
+        "[王室騎士の槍]の",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃で",
+        "与えるダメージ + 15%"
+    ],
+    "properties": {
+        "series": "two_handed_spear",
+        "series_normalized": [
+            "two_handed_spear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 360,
+        "mdef": null,
+        "matk": 0,
+        "refinement": true,
+        "breakable": true,
+        "weight": 320,
+        "weapon_level": 4,
+        "required_level": 175,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手槍",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "360",
+            "Matk": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "320",
+            "要求レベル": "175",
+            "装備": "3次職ソードマン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "汚染されたレイドリック",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RAYDRIC_H"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "汚染された次元1",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@gl_he",
+            "map_code": "1@gl_he"
+        },
+        {
+            "name": "汚染された次元2",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@gl_he",
+            "map_code": "2@gl_he"
+        },
+        {
+            "name": "幻影の迷宮 汚染された廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld122",
+            "map_code": "2@ld122"
+        },
+        {
+            "name": "幻影の迷宮 汚染された廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le122",
+            "map_code": "2@le122"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "汚染された次元",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@gl_he",
+            "map_code": "4@gl_he"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "グラストヘイムアビス(1)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas01_",
+            "map_code": "gl_cas01_"
+        },
+        {
+            "name": "グラストヘイムアビス(2)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas01_a",
+            "map_code": "gl_cas01_a"
+        }
+    ],
+    "source_html_sha256": "fbd29ca1ce41fe04ca31cc20e1874e365cb0927991bf7947ba8187f1cc49827a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,68 @@
+{
+    "type": "item",
+    "item_id": "11542",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/11542\/"
+    },
+    "name": "ジョンダ職員の手作りチョコ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "(有)ジョンダイベントが\n総力をあげて最高の素材と\n感謝の気持ちを込めて\n作った手作りチョコ。\nとても素人が作ったとは\n思えない完成度だ。\nHPとSPが一定量回復する",
+    "description_lines": [
+        "(有)ジョンダイベントが",
+        "総力をあげて最高の素材と",
+        "感謝の気持ちを込めて",
+        "作った手作りチョコ。",
+        "とても素人が作ったとは",
+        "思えない完成度だ。",
+        "HPとSPが一定量回復する"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 8,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "8"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "b42d7d82b654cb7ecc22705f5e277e0e2c5b001df8fbc294ed573b617cc443a8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

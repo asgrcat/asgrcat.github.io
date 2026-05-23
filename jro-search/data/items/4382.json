@@ -1,0 +1,137 @@
+{
+    "type": "item",
+    "item_id": "4382",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4382\/"
+    },
+    "name": "イエローノーバスカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "armor"
+        ],
+        "card_attachable_positions": {
+            "armor": true
+        }
+    },
+    "description": "MaxHP + 500\nHP自然回復量 + 10%\n[天仙娘々カード]、\n[ハーピーカード]、\n[雅人形カード]、\n[パピヨンカード]と\n共に装備時、追加で\nInt + 3\n[ヘヴンズドライブ]、\n[サンダーストーム]で\n与えるダメージ + 10%\nセージ系が装備時、追加で\n変動詠唱時間 - 20%\nターゲッティング魔法を\n反射する確率 + 20%\nモンスターを倒した時、\n一定確率で\n[レッドジェムストーン]、\n[イエロージェムストーン]\nをドロップ\n[古びた楯無の鎧]と\n共に装備時、\n[古びた楯無の鎧]の\n精錬値が5の時、\n鎧に地属性を付与する\n精錬値が6の時、\n鎧に水属性を付与する\n精錬値が7の時、\n鎧に風属性を付与する\n精錬値が8の時、\n鎧に火属性を付与する\n精錬値が9の時、\n鎧に闇属性を付与する\n精錬値が10の時、\n鎧に聖属性を付与する",
+    "description_lines": [
+        "MaxHP + 500",
+        "HP自然回復量 + 10%",
+        "[天仙娘々カード]、",
+        "[ハーピーカード]、",
+        "[雅人形カード]、",
+        "[パピヨンカード]と",
+        "共に装備時、追加で",
+        "Int + 3",
+        "[ヘヴンズドライブ]、",
+        "[サンダーストーム]で",
+        "与えるダメージ + 10%",
+        "セージ系が装備時、追加で",
+        "変動詠唱時間 - 20%",
+        "ターゲッティング魔法を",
+        "反射する確率 + 20%",
+        "モンスターを倒した時、",
+        "一定確率で",
+        "[レッドジェムストーン]、",
+        "[イエロージェムストーン]",
+        "をドロップ",
+        "[古びた楯無の鎧]と",
+        "共に装備時、",
+        "[古びた楯無の鎧]の",
+        "精錬値が5の時、",
+        "鎧に地属性を付与する",
+        "精錬値が6の時、",
+        "鎧に水属性を付与する",
+        "精錬値が7の時、",
+        "鎧に風属性を付与する",
+        "精錬値が8の時、",
+        "鎧に火属性を付与する",
+        "精錬値が9の時、",
+        "鎧に闇属性を付与する",
+        "精錬値が10の時、",
+        "鎧に聖属性を付与する"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "armor"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "鎧",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "イエローノーバス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/NOVUS_"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "アビスレイク地下洞窟 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abyss_01",
+            "map_code": "abyss_01"
+        },
+        {
+            "name": "フィゲルフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild02",
+            "map_code": "hu_fild02"
+        },
+        {
+            "name": "フィゲルフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild04",
+            "map_code": "hu_fild04"
+        },
+        {
+            "name": "フィゲルフィールド 05（アビスレイク）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild05",
+            "map_code": "hu_fild05"
+        }
+    ],
+    "source_html_sha256": "73a7be7a08ebb5d7cf7ce2a4331ce330c8dc8765e752833471819287bbc520f5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

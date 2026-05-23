@@ -1,0 +1,92 @@
+{
+    "type": "item",
+    "item_id": "18525",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18525\/"
+    },
+    "name": "スイカ帽子[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "スイカをくりぬいて\n作られた帽子。\nかぶれば身も心も\n夏モード!!\nMdef + 4\nVit + 1 , Luk + 1\n精錬不可",
+    "description_lines": [
+        "スイカをくりぬいて",
+        "作られた帽子。",
+        "かぶれば身も心も",
+        "夏モード!!",
+        "Mdef + 4",
+        "Vit + 1 , Luk + 1",
+        "精錬不可"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 4,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 30,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "4",
+            "位置": "上段",
+            "重量": "10",
+            "要求レベル": "30",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "b7cee0efdc892173731a7431bac3df19195b18529914e0cd7a2c888d50f23f04",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

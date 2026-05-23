@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "480091",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/480091\/"
+    },
+    "name": "グレイウルフマント[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "グレイウルフの毛皮から\n作られたマント。\nDef + 150 , Mdef + 15\n念属性攻撃で\n受けるダメージ - 50%\n[グレイウルフマント]の\n精錬値が1上がる度に追加で\n念属性攻撃で\n受けるダメージ - 3%\n[グレイウルフスーツ]、\n[グレイウルフブーツ]と\n共に装備時、追加で\nCri + 100\nクリティカル攻撃で\n与えるダメージ + 50%\n[ワイルドビースト]、\n[グレイウルフスーツ]、\n[グレイウルフブーツ]と\n共に装備時、追加で\n念属性攻撃で\n受けるダメージ - 20%\n絶対に凍結状態にならない",
+    "description_lines": [
+        "グレイウルフの毛皮から",
+        "作られたマント。",
+        "Def + 150 , Mdef + 15",
+        "念属性攻撃で",
+        "受けるダメージ - 50%",
+        "[グレイウルフマント]の",
+        "精錬値が1上がる度に追加で",
+        "念属性攻撃で",
+        "受けるダメージ - 3%",
+        "[グレイウルフスーツ]、",
+        "[グレイウルフブーツ]と",
+        "共に装備時、追加で",
+        "Cri + 100",
+        "クリティカル攻撃で",
+        "与えるダメージ + 50%",
+        "[ワイルドビースト]、",
+        "[グレイウルフスーツ]、",
+        "[グレイウルフブーツ]と",
+        "共に装備時、追加で",
+        "念属性攻撃で",
+        "受けるダメージ - 20%",
+        "絶対に凍結状態にならない"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 60,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "60",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "100",
+            "要求レベル": "200",
+            "装備": "4次職 拡張4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "dc31be393e9551907bd08040b45c9620068a00941dd3e1308bf747e972702ec8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

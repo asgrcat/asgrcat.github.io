@@ -1,0 +1,93 @@
+{
+    "type": "item",
+    "item_id": "2128",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2128\/"
+    },
+    "name": "神の使者[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "crusader": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "神の御言葉を伝える使者に\n神が直接与えたと\n言われている盾。\nINT + 2、VIT + 3、MDEF + 3。\n絶対に壊れない。",
+    "description_lines": [
+        "神の御言葉を伝える使者に",
+        "神が直接与えたと",
+        "言われている盾。",
+        "INT + 2、VIT + 3、MDEF + 3。",
+        "絶対に壊れない。"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 120,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 160,
+        "weapon_level": null,
+        "required_level": 83,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "crusader": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "防御": "120",
+            "重量": "160",
+            "要求レベル": "83",
+            "装備": "クルセイダー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "1c5d7e8f8ebba3519ee612b8eb41762d767b52bfc817bd830efe69f6f5289a1b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

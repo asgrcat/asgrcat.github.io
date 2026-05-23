@@ -1,0 +1,94 @@
+{
+    "type": "item",
+    "item_id": "20439",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20439\/"
+    },
+    "name": "[衣装] 新春の輝き[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "一年の最初の日の出を模した\nめでたい衣装用の輝き。\nとある場所では\n初日の出には年神様が降臨\nされるといわれており\n神に対して去年の感謝と\n今年の健康と幸福を祈願する\n風習がある。\nエフェクト装備のため、\nエフェクト(\/effect)を\nOFFにしていると表示\nされない",
+    "description_lines": [
+        "一年の最初の日の出を模した",
+        "めでたい衣装用の輝き。",
+        "とある場所では",
+        "初日の出には年神様が降臨",
+        "されるといわれており",
+        "神に対して去年の感謝と",
+        "今年の健康と幸福を祈願する",
+        "風習がある。",
+        "エフェクト装備のため、",
+        "エフェクト(\/effect)を",
+        "OFFにしていると表示",
+        "されない"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "中段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6872b1757047dee62bd958e64a03cfe417b6f42126e8196bfff8e0ca4c55bf91",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

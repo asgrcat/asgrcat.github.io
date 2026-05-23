@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "15097",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15097\/"
+    },
+    "name": "勇者のヒドゥンクロース[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "thief": true
+            },
+            "include_jobs": {
+                "thief": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "モロクと戦う勇者に\n贈られる栄誉あるクロース。\n瞬間的に普段以上の力を\n発揮できるように\n工夫がされている。\nMaxHP + 5% , MaxSP + 5%\n[フェイタルメナス]、\n[トライアングルショット]、\n[クロスインパクト]、\n[クロスリッパー\nスラッシャー]で\n与えるダメージ + 10%\n物理攻撃命中時、\n一定確率で10秒間、\nCri + 20 , Flee + 20\n物理・魔法攻撃で\n与えるダメージ + 10%\n[勇者のヒドゥンクロース]の\n精錬値が1上がる度に\n発動率が上昇",
+    "description_lines": [
+        "モロクと戦う勇者に",
+        "贈られる栄誉あるクロース。",
+        "瞬間的に普段以上の力を",
+        "発揮できるように",
+        "工夫がされている。",
+        "MaxHP + 5% , MaxSP + 5%",
+        "[フェイタルメナス]、",
+        "[トライアングルショット]、",
+        "[クロスインパクト]、",
+        "[クロスリッパー",
+        "スラッシャー]で",
+        "与えるダメージ + 10%",
+        "物理攻撃命中時、",
+        "一定確率で10秒間、",
+        "Cri + 20 , Flee + 20",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 10%",
+        "[勇者のヒドゥンクロース]の",
+        "精錬値が1上がる度に",
+        "発動率が上昇"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 70,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 20,
+        "weapon_level": null,
+        "required_level": 160,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "thief": true
+            },
+            "include_jobs": {
+                "thief": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "70",
+            "重量": "20",
+            "要求レベル": "160",
+            "装備": "3次職シーフ系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "1540a3695bd946bba4e724442db4601a19c09b67bafde166a64f2cbfd847618b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

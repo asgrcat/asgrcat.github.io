@@ -1,0 +1,116 @@
+{
+    "type": "item",
+    "item_id": "28038",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28038\/"
+    },
+    "name": "モイスラ-OS[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "guillotine_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "黒い刃に青緑色の紋様が\n刻印されたカタール。\n完全回避 + 40\n物理攻撃で\n与えるダメージ + 60%\nBaseLvが1上がる度に追加で\nクリティカル攻撃で\n与えるダメージ + 1%\n[モイスラ-OS]の\n精錬値が7以上の時、追加で\n物理攻撃で\n与えるダメージ + 25%\n[モイスラ-OS]の\n精錬値が9以上の時、追加で\n物理攻撃で\n与えるダメージ + 25%\n[モイスラ-OS]の\n精錬値が10の時、追加で\nCri + 50\n[コル・コアヘッドフォン]\nと共に装備時、追加で\nAtk + 200 , Matk + 200",
+    "description_lines": [
+        "黒い刃に青緑色の紋様が",
+        "刻印されたカタール。",
+        "完全回避 + 40",
+        "物理攻撃で",
+        "与えるダメージ + 60%",
+        "BaseLvが1上がる度に追加で",
+        "クリティカル攻撃で",
+        "与えるダメージ + 1%",
+        "[モイスラ-OS]の",
+        "精錬値が7以上の時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 25%",
+        "[モイスラ-OS]の",
+        "精錬値が9以上の時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 25%",
+        "[モイスラ-OS]の",
+        "精錬値が10の時、追加で",
+        "Cri + 50",
+        "[コル・コアヘッドフォン]",
+        "と共に装備時、追加で",
+        "Atk + 200 , Matk + 200"
+    ],
+    "properties": {
+        "series": "katar",
+        "series_normalized": [
+            "katar"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 0,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": 250,
+        "refinement": true,
+        "breakable": true,
+        "weight": 280,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "guillotine_cross": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カタール",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "0",
+            "Atk": "150",
+            "Matk": "250",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "280",
+            "要求レベル": "150",
+            "装備": "ギロチンクロス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "a6a64695f444ed9239ba65917a90d1719c9d52f80dc6a1d8d78649e93f2222d6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,91 @@
+{
+    "type": "item",
+    "item_id": "300664",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300664\/"
+    },
+    "name": "ハイインキュバスカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "魔法攻撃で\n与えるダメージ + 4%\nBaseLvが250以上の時、追加で\n詠唱が中断されない",
+    "description_lines": [
+        "魔法攻撃で",
+        "与えるダメージ + 4%",
+        "BaseLvが250以上の時、追加で",
+        "詠唱が中断されない"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ハイインキュバス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CH1_INCCUBUS"
+        },
+        {
+            "name": "強靭なハイインキュバス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CP_CH1_INCCUBUS"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "浸食されたゲフェニア 西部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ch1_gfn03",
+            "map_code": "ch1_gfn03"
+        }
+    ],
+    "source_html_sha256": "235ee5872c4420b244db837dbb9a2f7e10c02a7a6be57960a932a11bc1d10299",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,156 @@
+{
+    "type": "item",
+    "item_id": "2678",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2678\/"
+    },
+    "name": "リングオブフレームロード[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "火炎の精霊王の力が\n込められた指輪。\nこの指輪をはめると、\n聖霊の力が溢れ出すと\n言われている。\nリングオブレゾナンスと\nセットになっている。\nStr + 2\nVit + 1\nAtk + 15\n火属性攻撃耐性 + 10%\n物理攻撃時、一定確率で\n様々なスキルが\nオートスペルで発動。\nリングオブレゾナンス\nと共に同時に装備すると、\nオートスペルで発動する\nスキルの種類が追加される。",
+    "description_lines": [
+        "火炎の精霊王の力が",
+        "込められた指輪。",
+        "この指輪をはめると、",
+        "聖霊の力が溢れ出すと",
+        "言われている。",
+        "リングオブレゾナンスと",
+        "セットになっている。",
+        "Str + 2",
+        "Vit + 1",
+        "Atk + 15",
+        "火属性攻撃耐性 + 10%",
+        "物理攻撃時、一定確率で",
+        "様々なスキルが",
+        "オートスペルで発動。",
+        "リングオブレゾナンス",
+        "と共に同時に装備すると、",
+        "オートスペルで発動する",
+        "スキルの種類が追加される。"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "10",
+            "装備": "上位2次職 3次職 4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "イフリート",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/IFRIT"
+        },
+        {
+            "name": "イフリート（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_IFRIT"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "試練の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_29",
+            "map_code": "2@la_29"
+        },
+        {
+            "name": "封印の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_29",
+            "map_code": "2@lb_29"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld229",
+            "map_code": "2@ld229"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf229",
+            "map_code": "2@lf229"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "トール火山ダンジョン 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/thor_v03",
+            "map_code": "thor_v03"
+        }
+    ],
+    "source_html_sha256": "8d8fb1990737486450726c758e0c81c9da084828e82d8da078d06e889b07b8ac",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

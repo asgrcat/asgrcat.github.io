@@ -1,0 +1,108 @@
+{
+    "type": "item",
+    "item_id": "28518",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28518\/"
+    },
+    "name": "魔呪の指輪[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "古王グローザが\n身に着けていた\n二つの指輪のうちの一つ。\n埋め込まれている魔石は\n呪詛の力と憎悪を増幅させ\n呪われた防具が持つ力を\n引き出すことができる。\nMdef + 15\n全ての基本ステータス + 1\n物理・魔法攻撃で\n与えるダメージ + 6%\n[魔呪のメイル]と\n共に装備時、追加で\n物理・魔法攻撃で\n与えるダメージ + 10%\n[魔呪のマント]と\n共に装備時、追加で\n水・風属性攻撃で\n受けるダメージ - 30%\n[魔呪のブーツ]と\n共に装備時、追加で\n変動詠唱時間 - 10%\n攻撃速度 + 10%\nスキルディレイ - 10%",
+    "description_lines": [
+        "古王グローザが",
+        "身に着けていた",
+        "二つの指輪のうちの一つ。",
+        "埋め込まれている魔石は",
+        "呪詛の力と憎悪を増幅させ",
+        "呪われた防具が持つ力を",
+        "引き出すことができる。",
+        "Mdef + 15",
+        "全ての基本ステータス + 1",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 6%",
+        "[魔呪のメイル]と",
+        "共に装備時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 10%",
+        "[魔呪のマント]と",
+        "共に装備時、追加で",
+        "水・風属性攻撃で",
+        "受けるダメージ - 30%",
+        "[魔呪のブーツ]と",
+        "共に装備時、追加で",
+        "変動詠唱時間 - 10%",
+        "攻撃速度 + 10%",
+        "スキルディレイ - 10%"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 150,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 130,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "150",
+            "重量": "10",
+            "要求レベル": "130",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "8bf7172a0b5bdf29df5d805c8e855b9b55d73c71c4804f3a2c14e59efc416b03",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

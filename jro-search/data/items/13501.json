@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "13501",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13501\/"
+    },
+    "name": "お試しスクロールの箱",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "色んな事を体験できる箱。\n役立つスクロールが数種類入っている。\nブレッシングLv10（15個）、速度増加Lv10（15個）、アスムプティオLv5（10個）、ウィンドウォークLv10（5個）の詰め合わせ。\n_",
+    "description_lines": [
+        "色んな事を体験できる箱。",
+        "役立つスクロールが数種類入っている。",
+        "ブレッシングLv10（15個）、速度増加Lv10（15個）、アスムプティオLv5（10個）、ウィンドウォークLv10（5個）の詰め合わせ。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重さ": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "7b03f4fb97e01ce4ec7f3dcfd7d5cc2a537537e0f5d263377c2fedafb236f336",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

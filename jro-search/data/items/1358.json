@@ -1,0 +1,128 @@
+{
+    "type": "item",
+    "item_id": "1358",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1358\/"
+    },
+    "name": "バスター[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "何でも一発で吹き飛ばしてしまうような斧",
+    "description_lines": [
+        "何でも一発で吹き飛ばしてしまうような斧"
+    ],
+    "properties": {
+        "series": "axe",
+        "series_normalized": [
+            "axe"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 2,
+        "def": null,
+        "atk": 155,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 220,
+        "weapon_level": 3,
+        "required_level": 30,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true,
+                "druid": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "斧",
+            "攻撃": "155",
+            "重量": "220",
+            "武器レベル": "3",
+            "要求レベル": "30",
+            "装備": "ソードマン系 マーチャント系 ドルイド系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "オークスケルトン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ORC_SKELETON"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "エンドレスタワー 覇王の間",
+            "url": "https:\/\/rotool.gungho.jp\/map\/6@tower",
+            "map_code": "6@tower"
+        },
+        {
+            "name": "特別室（廃墟）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_spec_02",
+            "map_code": "ac_spec_02"
+        },
+        {
+            "name": "オーク地下洞窟 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/orcsdun01",
+            "map_code": "orcsdun01"
+        },
+        {
+            "name": "オーク地下洞窟 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/orcsdun02",
+            "map_code": "orcsdun02"
+        }
+    ],
+    "source_html_sha256": "d4237aa824306b7555f33e38606a2888fb8d6e7da65e5edf1c6436f141db5846",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

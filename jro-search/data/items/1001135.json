@@ -1,0 +1,87 @@
+{
+    "type": "item",
+    "item_id": "1001135",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1001135\/"
+    },
+    "name": "硬い氷",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "使いにくい\n硬い氷塊。",
+    "description_lines": [
+        "使いにくい",
+        "硬い氷塊。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "氷河のエンジェゴルト",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_ANGELGOLT"
+        },
+        {
+            "name": "氷河のアイスタイタン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_ICE_TITAN"
+        },
+        {
+            "name": "聖殿のAエンジェリング",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_ARCHANGELING"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "標本環境(氷河)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_ice",
+            "map_code": "bl_ice"
+        },
+        {
+            "name": "標本環境(聖殿)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_temple",
+            "map_code": "bl_temple"
+        }
+    ],
+    "source_html_sha256": "3e4147d9faeeab80ca1216cbee5c16b78d25bce6946e24c5b3001991289c6fa8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,72 @@
+{
+    "type": "item",
+    "item_id": "1002302",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1002302\/"
+    },
+    "name": "クエストスキップチケット(死なない者)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "EPISODE：ISGARD\n～死なない者～とその前提\nクエストを完了状態に\nしてくれるチケット。\n[クエストスキップ\nチケット(死なない者)]：\n・ギムレットの部屋\n(iz_gimlet)\n座標(38 97)にいるNPC\n「ミスティア」\nに持って行こう",
+    "description_lines": [
+        "EPISODE：ISGARD",
+        "～死なない者～とその前提",
+        "クエストを完了状態に",
+        "してくれるチケット。",
+        "[クエストスキップ",
+        "チケット(死なない者)]：",
+        "・ギムレットの部屋",
+        "(iz_gimlet)",
+        "座標(38 97)にいるNPC",
+        "「ミスティア」",
+        "に持って行こう"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "8c917abd0b0b67ebbe05237279ac37f09da3af9dca379173188c8f197c6f52e4",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

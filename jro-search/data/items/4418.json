@@ -1,0 +1,106 @@
+{
+    "type": "item",
+    "item_id": "4418",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4418\/"
+    },
+    "name": "ゲイズティカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "物理攻撃時、一定確率で\nオートスペル[コールド\nボルト] Lv 2 発動。",
+    "description_lines": [
+        "物理攻撃時、一定確率で",
+        "オートスペル[コールド",
+        "ボルト] Lv 2 発動。"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ゲイズティ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GAZETI"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "氷の洞窟 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ice_dun02",
+            "map_code": "ice_dun02"
+        },
+        {
+            "name": "氷の洞窟 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ice_dun03",
+            "map_code": "ice_dun03"
+        }
+    ],
+    "source_html_sha256": "172ca3b12267da737fefec745fadd58921dfa4af7f874d81a634ae7edb9a2e9c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

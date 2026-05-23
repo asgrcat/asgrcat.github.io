@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "28579",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28579\/"
+    },
+    "name": "魔力の草のネックレス[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "summoner": true
+            },
+            "include_jobs": {
+                "summoner": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "クローバーの花を繋げて\n魔力が込められた\nネックレス。\n魔法攻撃で\n与えるダメージ + 5%\n変動詠唱時間 - 5%\nプラント系スキルの\n習得Lvの合計が\n5上がる度に追加で\nMaxHP + 1% , MaxSP + 1%\n変動詠唱時間 - 1%\n魔法攻撃で\n与えるダメージ + 2%\nサモナー系が装備時、\n[ゾディアック]と\n共に装備時、追加で\n魔法攻撃で\n与えるダメージ + 15%\nプラント系スキルの\n変動詠唱時間 - 50%\n[魔力の草のネックレス]は\nNPC売却、倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "クローバーの花を繋げて",
+        "魔力が込められた",
+        "ネックレス。",
+        "魔法攻撃で",
+        "与えるダメージ + 5%",
+        "変動詠唱時間 - 5%",
+        "プラント系スキルの",
+        "習得Lvの合計が",
+        "5上がる度に追加で",
+        "MaxHP + 1% , MaxSP + 1%",
+        "変動詠唱時間 - 1%",
+        "魔法攻撃で",
+        "与えるダメージ + 2%",
+        "サモナー系が装備時、",
+        "[ゾディアック]と",
+        "共に装備時、追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 15%",
+        "プラント系スキルの",
+        "変動詠唱時間 - 50%",
+        "[魔力の草のネックレス]は",
+        "NPC売却、倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "summoner": true
+            },
+            "include_jobs": {
+                "summoner": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "サモナー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "192d5021139bace5cf76a1beae7c865459281157beac61380ad1cc64138872e9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

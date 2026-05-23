@@ -1,0 +1,97 @@
+{
+    "type": "item",
+    "item_id": "18539",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18539\/"
+    },
+    "name": "スカルキャップ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "骸骨のアクセサリが\nワンポイントの帽子。\nMATK+2%\n精錬値が 5以上の時、\n追加でMATK + 3%。\n精錬値が 7以上の時、\nさらに追加でMATK + 3%\n妖精の耳と共に装備時\nSP消費量 - 3%。\n特定の装備と\n組み合わせる事により\n隠された力が発動する。",
+    "description_lines": [
+        "骸骨のアクセサリが",
+        "ワンポイントの帽子。",
+        "MATK+2%",
+        "精錬値が 5以上の時、",
+        "追加でMATK + 3%。",
+        "精錬値が 7以上の時、",
+        "さらに追加でMATK + 3%",
+        "妖精の耳と共に装備時",
+        "SP消費量 - 3%。",
+        "特定の装備と",
+        "組み合わせる事により",
+        "隠された力が発動する。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 5,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 10,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "5",
+            "位置": "上段",
+            "重量": "40",
+            "要求レベル": "10",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "94d12101400ea5b2234ea0cf98fe53ff2a9506cd44fdda48d1bee8e714ead1d6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

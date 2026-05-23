@@ -1,0 +1,103 @@
+{
+    "type": "item",
+    "item_id": "7156",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7156\/"
+    },
+    "name": "壊れた手裏剣",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "壊れて使えなくなった手裏剣。 はるか東方の国のスパイたちが使っていた秘密の武器。\n_",
+    "description_lines": [
+        "壊れて使えなくなった手裏剣。 はるか東方の国のスパイたちが使っていた秘密の武器。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "カブキ忍者",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SHINOBI"
+        },
+        {
+            "name": "カブキ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_212"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アマツダンジョン 01（畳の迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ama_dun01",
+            "map_code": "ama_dun01"
+        },
+        {
+            "name": "アマツダンジョン 02（地下戦場跡）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ama_dun02",
+            "map_code": "ama_dun02"
+        },
+        {
+            "name": "アマツダンジョン 03（アマツ地下神社）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ama_dun03",
+            "map_code": "ama_dun03"
+        }
+    ],
+    "source_html_sha256": "b2b4595f2292e4b53dbd1cd1482adce22f3f3e00d863506232af4a10633337e0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "15189",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15189\/"
+    },
+    "name": "アインヘリヤルの鎧[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "オーディンの戦士たちが\n着ていたとされる鎧。\n彼らは巨人族と戦うために\n日々腕を磨き続けていた\nという。\nMdef + 5\nAtk + 10\n人間形モンスターから\n受けるダメージ - 1%\n[アインヘリヤルの鎧]の\n精錬値が7以上の時、追加で\n人間形モンスターから\n受けるダメージ - 2%\n[アインヘリヤルの鎧]の\n精錬値が8以上の時、追加で\n人間形モンスターから\n受けるダメージ - 2%\n絶対に壊れない\n[アインヘリヤルの鎧]の\n精錬値が9以上の時、追加で\n人間形モンスターから\n受けるダメージ - 2%\n[イビルドルイドカード]と\n共に装備時、\n[アインヘリヤルの鎧]の\n精錬値が9以上の時、\n絶対に呪い状態にならない\n[戦死者のマント]と\n共に装備時、\n[戦死者のマント]の\n精錬値が1上がる度に追加で\nAtk + 3\n[戦死者のマント]の\n精錬値が7以上の時、\n純粋なStrが10上がる度に\n追加でAtk + 5\n[戦死者のマント]の\n精錬値が8以上の時、\n純粋なStrが10上がる度に\n追加でAtk + 7",
+    "description_lines": [
+        "オーディンの戦士たちが",
+        "着ていたとされる鎧。",
+        "彼らは巨人族と戦うために",
+        "日々腕を磨き続けていた",
+        "という。",
+        "Mdef + 5",
+        "Atk + 10",
+        "人間形モンスターから",
+        "受けるダメージ - 1%",
+        "[アインヘリヤルの鎧]の",
+        "精錬値が7以上の時、追加で",
+        "人間形モンスターから",
+        "受けるダメージ - 2%",
+        "[アインヘリヤルの鎧]の",
+        "精錬値が8以上の時、追加で",
+        "人間形モンスターから",
+        "受けるダメージ - 2%",
+        "絶対に壊れない",
+        "[アインヘリヤルの鎧]の",
+        "精錬値が9以上の時、追加で",
+        "人間形モンスターから",
+        "受けるダメージ - 2%",
+        "[イビルドルイドカード]と",
+        "共に装備時、",
+        "[アインヘリヤルの鎧]の",
+        "精錬値が9以上の時、",
+        "絶対に呪い状態にならない",
+        "[戦死者のマント]と",
+        "共に装備時、",
+        "[戦死者のマント]の",
+        "精錬値が1上がる度に追加で",
+        "Atk + 3",
+        "[戦死者のマント]の",
+        "精錬値が7以上の時、",
+        "純粋なStrが10上がる度に",
+        "追加でAtk + 5",
+        "[戦死者のマント]の",
+        "精錬値が8以上の時、",
+        "純粋なStrが10上がる度に",
+        "追加でAtk + 7"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 60,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 80,
+        "weapon_level": null,
+        "required_level": 90,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "60",
+            "重量": "80",
+            "要求レベル": "90",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "2218deac35a31386bcfc5ab90f8ea07ae00969a36e1daea1268ee8bd74061764",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

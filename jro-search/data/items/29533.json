@@ -1,0 +1,71 @@
+{
+    "type": "item",
+    "item_id": "29533",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/29533\/"
+    },
+    "name": "Q-Heal",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ヒール系スキル使用時、\nHP回復量 + 4%\n精錬値が6以上の時、追加で\nヒール系スキル使用時、\nHP回復量 + 6%\n精錬値が8以上の時、追加で\nヒール系スキル使用時、\nHP回復量 + 10%\n[ランナウェー・\nアクセラレータ]と\n共に装備時、追加で\nInt + 10",
+    "description_lines": [
+        "ヒール系スキル使用時、",
+        "HP回復量 + 4%",
+        "精錬値が6以上の時、追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 6%",
+        "精錬値が8以上の時、追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 10%",
+        "[ランナウェー・",
+        "アクセラレータ]と",
+        "共に装備時、追加で",
+        "Int + 10"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "34fa04b906d06cc5ed4364b3f694f4d9b6b86bc9b22eec7a212a6476c3d7aeb9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,91 @@
+{
+    "type": "item",
+    "item_id": "19101",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19101\/"
+    },
+    "name": "グラストヘイムの傍観者[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "グラストヘイムに\n古くから住んでいる蝙蝠。\nめったに人前には現れず、\nずっと昔から\nグラストヘイムで起こった\nことを見続けてきた。\n物理攻撃で\n与えるダメージ + 2%\nスキルディレイ - 5%",
+    "description_lines": [
+        "グラストヘイムに",
+        "古くから住んでいる蝙蝠。",
+        "めったに人前には現れず、",
+        "ずっと昔から",
+        "グラストヘイムで起こった",
+        "ことを見続けてきた。",
+        "物理攻撃で",
+        "与えるダメージ + 2%",
+        "スキルディレイ - 5%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 80,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "下段",
+            "重量": "10",
+            "要求レベル": "80",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6f60ff83a15d774da561420f3246e2ce75b403efa593532cfe63caf48744c6ba",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

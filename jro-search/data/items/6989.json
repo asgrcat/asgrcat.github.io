@@ -1,0 +1,73 @@
+{
+    "type": "item",
+    "item_id": "6989",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6989\/"
+    },
+    "name": "防壁強化の証(シルバー)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ワンタイムパスワード(OTP)\nまたはIDロック利用者が\n手にすることができる\n特別な銀色の証。\nNPC「シルト」に\n証を見せると、特別な魔法を\n受けることができるようだ。\n[防壁強化の証(シルバー)]\nは倉庫への移動が可能です。\n[防壁強化の証(シルバー)]\nは入手してから168時間後に\n自動的に消滅します。",
+    "description_lines": [
+        "ワンタイムパスワード(OTP)",
+        "またはIDロック利用者が",
+        "手にすることができる",
+        "特別な銀色の証。",
+        "NPC「シルト」に",
+        "証を見せると、特別な魔法を",
+        "受けることができるようだ。",
+        "[防壁強化の証(シルバー)]",
+        "は倉庫への移動が可能です。",
+        "[防壁強化の証(シルバー)]",
+        "は入手してから168時間後に",
+        "自動的に消滅します。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "efaf4375c6e502388a578e99bc30997f589db7612c76f104151d67e6688cb8ba",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,119 @@
+{
+    "type": "item",
+    "item_id": "300141",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300141\/"
+    },
+    "name": "深海のオボンヌカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "[リカバリー]Lv1使用可能",
+    "description_lines": [
+        "[リカバリー]Lv1使用可能"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "深海のオボンヌ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_OBEAUNE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "幻影の迷宮 深海遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld130",
+            "map_code": "2@ld130"
+        },
+        {
+            "name": "幻影の迷宮 深海遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le130",
+            "map_code": "2@le130"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "紫色の深海洞窟 上層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/iz_d04_i",
+            "map_code": "iz_d04_i"
+        }
+    ],
+    "source_html_sha256": "6ac815ec0b8a9fe23612f3efd8b7ff90a9b43ab77a51acc3992e2ff1fe0234fb",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

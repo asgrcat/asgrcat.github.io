@@ -1,0 +1,175 @@
+{
+    "type": "item",
+    "item_id": "954",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/954\/"
+    },
+    "name": "輝く鱗",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "キラキラ光が出る不思議な鱗。収集品商人に売る事ができる。\n_",
+    "description_lines": [
+        "キラキラ光が出る不思議な鱗。収集品商人に売る事ができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ミサイル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_080"
+        },
+        {
+            "name": "サイドワインダー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SIDE_WINDER"
+        },
+        {
+            "name": "ナーガ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/NAGA"
+        },
+        {
+            "name": "イシス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ISIS"
+        },
+        {
+            "name": "スネイク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SNAKE"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_17",
+            "map_code": "2@la_17"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_21",
+            "map_code": "2@lb_21"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld217",
+            "map_code": "2@ld217"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf217",
+            "map_code": "2@lf217"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ビフロスト 南部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bif_fild01",
+            "map_code": "bif_fild01"
+        },
+        {
+            "name": "ソグラト砂漠 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild02",
+            "map_code": "moc_fild02"
+        },
+        {
+            "name": "ソグラト砂漠 13",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild13",
+            "map_code": "moc_fild13"
+        },
+        {
+            "name": "ピラミッドダンジョン 1F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd01",
+            "map_code": "moc_pryd01"
+        },
+        {
+            "name": "ピラミッドダンジョン 3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd03",
+            "map_code": "moc_pryd03"
+        },
+        {
+            "name": "ピラミッドダンジョン B3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd06",
+            "map_code": "moc_pryd06"
+        },
+        {
+            "name": "フェイヨン迷いの森 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild02",
+            "map_code": "pay_fild02"
+        },
+        {
+            "name": "迷宮の森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze01",
+            "map_code": "prt_maze01"
+        },
+        {
+            "name": "スプレンディッドフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/spl_fild03",
+            "map_code": "spl_fild03"
+        },
+        {
+            "name": "ベインスフィールド 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ve_fild07",
+            "map_code": "ve_fild07"
+        },
+        {
+            "name": "ジュノーフィールド 03（エルメスプレート）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/yuno_fild03",
+            "map_code": "yuno_fild03"
+        }
+    ],
+    "source_html_sha256": "8725438f697a805e57a13c8ea9a4a34b8a8664cd32d8087a21f344207490bed5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

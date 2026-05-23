@@ -1,0 +1,98 @@
+{
+    "type": "item",
+    "item_id": "2490",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2490\/"
+    },
+    "name": "ルーンブーツ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ベルトの格好良さと\n布地のかわいらしさが\n見事に同居したブーツ。\n純粋なStrが 90以上の時、\nAtk + 10\n純粋なIntが 90以上の時、\nMatk + 3%\n純粋なStrが 120以上の時、\n追加でAtk + 10\n純粋なIntが 120以上の時、\n追加でMatk + 2%\n特定の装備と\n組み合わせる事により\n隠された力が発動する",
+    "description_lines": [
+        "ベルトの格好良さと",
+        "布地のかわいらしさが",
+        "見事に同居したブーツ。",
+        "純粋なStrが 90以上の時、",
+        "Atk + 10",
+        "純粋なIntが 90以上の時、",
+        "Matk + 3%",
+        "純粋なStrが 120以上の時、",
+        "追加でAtk + 10",
+        "純粋なIntが 120以上の時、",
+        "追加でMatk + 2%",
+        "特定の装備と",
+        "組み合わせる事により",
+        "隠された力が発動する"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 5,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "防御": "5",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f8083690dba338d12e633d36dc61252b7351f1f826192f2db76a178ee1240761",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,167 @@
+{
+    "type": "item",
+    "item_id": "27118",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27118\/"
+    },
+    "name": "不吉なフリーズタートルカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "garment"
+        ],
+        "card_attachable_positions": {
+            "garment": true
+        }
+    },
+    "description": "無属性攻撃で\n受けるダメージ - 15%\n精錬値が1上がる度に追加で\n水属性魔法攻撃で\n与えるダメージ + 3%\n[不吉な\nアサルトタートルカード]と\n共に装備時、追加で\n無属性攻撃で\n受けるダメージ - 5%\n物理・魔法攻撃を受けた時、\n一定確率で自分を中心に\n11x11セルの\n敵を沈黙状態にする\n確率が上昇",
+    "description_lines": [
+        "無属性攻撃で",
+        "受けるダメージ - 15%",
+        "精錬値が1上がる度に追加で",
+        "水属性魔法攻撃で",
+        "与えるダメージ + 3%",
+        "[不吉な",
+        "アサルトタートルカード]と",
+        "共に装備時、追加で",
+        "無属性攻撃で",
+        "受けるダメージ - 5%",
+        "物理・魔法攻撃を受けた時、",
+        "一定確率で自分を中心に",
+        "11x11セルの",
+        "敵を沈黙状態にする",
+        "確率が上昇"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "garment"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "肩にかける物",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "不吉なフリーズタートル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_FREEZER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "幻影の迷宮 地底洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld102",
+            "map_code": "2@ld102"
+        },
+        {
+            "name": "幻影の迷宮 地底洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le102",
+            "map_code": "2@le102"
+        },
+        {
+            "name": "周辺エリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@letter",
+            "map_code": "3@letter"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "悲しみの陽居村",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tur_d03_j",
+            "map_code": "tur_d03_j"
+        },
+        {
+            "name": "薄暗い久陽宮(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tur_d04_i",
+            "map_code": "tur_d04_i"
+        },
+        {
+            "name": "薄暗い久陽宮",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tur_d04_j",
+            "map_code": "tur_d04_j"
+        }
+    ],
+    "source_html_sha256": "8fd1a01b02c56aa9980ae4394fa5a1a68372e07fe4ca1acac18d78d20b48e9f7",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

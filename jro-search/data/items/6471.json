@@ -1,0 +1,335 @@
+{
+    "type": "item",
+    "item_id": "6471",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6471\/"
+    },
+    "name": "亡者の冷気",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "彷徨い続ける亡者の\nぞっとするほど冷たい\n魂の集まり。",
+    "description_lines": [
+        "彷徨い続ける亡者の",
+        "ぞっとするほど冷たい",
+        "魂の集まり。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ハワード=アルトアイゼン（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_HARWORD"
+        },
+        {
+            "name": "カトリーヌ=ケイロン（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_KATRINN"
+        },
+        {
+            "name": "マーガレッタ=ソリン（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_MAGALETA"
+        },
+        {
+            "name": "ランデル=ロレンス（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_RANDEL"
+        },
+        {
+            "name": "セイレン=ウィンザー（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_SEYREN"
+        },
+        {
+            "name": "セシル=ディモン（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_SHECIL"
+        },
+        {
+            "name": "トレンティーニ（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_TRENTINI"
+        },
+        {
+            "name": "アルフォシオ=バジル（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_ALPHOCCIO"
+        },
+        {
+            "name": "セリア=アルデ（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_CELIA"
+        },
+        {
+            "name": "チェン=リウ（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_CHEN"
+        },
+        {
+            "name": "エレメス=ガイル（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_EREMES"
+        },
+        {
+            "name": "エミュール=プラメール（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_FLAMEL"
+        },
+        {
+            "name": "ガーティー=ウー（転生二次職）（オーラ）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/G_GERTIE"
+        },
+        {
+            "name": "アルフォシオ=バジル（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ALPHOCCIO"
+        },
+        {
+            "name": "セリア=アルデ（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CELIA"
+        },
+        {
+            "name": "チェン=リウ（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CHEN"
+        },
+        {
+            "name": "エミュール=プラメール（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/FLAMEL"
+        },
+        {
+            "name": "ガーティー=ウー（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GERTIE"
+        },
+        {
+            "name": "ランデル=ロレンス（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RANDEL"
+        },
+        {
+            "name": "トレンティーニ（転生二次職）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/TRENTINI"
+        },
+        {
+            "name": "ジェミニ-S58",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GEMINI"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_04",
+            "map_code": "2@la_04"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_13",
+            "map_code": "2@la_13"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_14",
+            "map_code": "2@la_14"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_15",
+            "map_code": "2@la_15"
+        },
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_26",
+            "map_code": "2@la_26"
+        },
+        {
+            "name": "封印の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_04",
+            "map_code": "2@lb_04"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_14",
+            "map_code": "2@lb_14"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_15",
+            "map_code": "2@lb_15"
+        },
+        {
+            "name": "封印の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_16",
+            "map_code": "2@lb_16"
+        },
+        {
+            "name": "封印の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_17",
+            "map_code": "2@lb_17"
+        },
+        {
+            "name": "封印の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_18",
+            "map_code": "2@lb_18"
+        },
+        {
+            "name": "異形の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_04",
+            "map_code": "2@lc_04"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_13",
+            "map_code": "2@lc_13"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_14",
+            "map_code": "2@lc_14"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_15",
+            "map_code": "2@lc_15"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld114",
+            "map_code": "2@ld114"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld115",
+            "map_code": "2@ld115"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld204",
+            "map_code": "2@ld204"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld213",
+            "map_code": "2@ld213"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld214",
+            "map_code": "2@ld214"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld215",
+            "map_code": "2@ld215"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld226",
+            "map_code": "2@ld226"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le114",
+            "map_code": "2@le114"
+        },
+        {
+            "name": "幻影の迷宮 血濡れた研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le115",
+            "map_code": "2@le115"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf204",
+            "map_code": "2@lf204"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf213",
+            "map_code": "2@lf213"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf214",
+            "map_code": "2@lf214"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf215",
+            "map_code": "2@lf215"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf226",
+            "map_code": "2@lf226"
+        },
+        {
+            "name": "亜空の迷宮 生命の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg129",
+            "map_code": "2@lg129"
+        },
+        {
+            "name": "亜空の迷宮 生命の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg130",
+            "map_code": "2@lg130"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "生体工学研究所 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun02",
+            "map_code": "lhz_dun02"
+        },
+        {
+            "name": "生体工学研究所 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun03",
+            "map_code": "lhz_dun03"
+        },
+        {
+            "name": "生体工学研究所 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun04",
+            "map_code": "lhz_dun04"
+        }
+    ],
+    "source_html_sha256": "aab467449e4cf67fce652aef64ed35b68921c20ee5af14380b1a484b219ff30f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

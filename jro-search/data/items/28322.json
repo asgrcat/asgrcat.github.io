@@ -1,0 +1,111 @@
+{
+    "type": "item",
+    "item_id": "28322",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28322\/"
+    },
+    "name": "鳥狩の弓懸[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sniper": true,
+                "ranger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ファルコンの鋭い爪で\n主人が傷つかないよう\n肩口まで保護されている\nグローブ。\nDex + 1\nスキル使用時の消費SP - 5%\n[鳥狩の呼子]と\n共に装備時、追加で\n[ファルコンアサルト]で\n与えるダメージ + 50%\n[鳥狩の鉤爪]と\n共に装備時、\n[ビーストベイン]の\n習得Lvが1上がる度に追加で\nスキル使用時の消費SP - 2%\n[鳥狩の呼子]、\n[鳥狩の鉤爪]、\n[鳥狩の弓懸]\nを共に装備時、追加で\n[ブリッツビート]で\n与えるダメージ + 200%",
+    "description_lines": [
+        "ファルコンの鋭い爪で",
+        "主人が傷つかないよう",
+        "肩口まで保護されている",
+        "グローブ。",
+        "Dex + 1",
+        "スキル使用時の消費SP - 5%",
+        "[鳥狩の呼子]と",
+        "共に装備時、追加で",
+        "[ファルコンアサルト]で",
+        "与えるダメージ + 50%",
+        "[鳥狩の鉤爪]と",
+        "共に装備時、",
+        "[ビーストベイン]の",
+        "習得Lvが1上がる度に追加で",
+        "スキル使用時の消費SP - 2%",
+        "[鳥狩の呼子]、",
+        "[鳥狩の鉤爪]、",
+        "[鳥狩の弓懸]",
+        "を共に装備時、追加で",
+        "[ブリッツビート]で",
+        "与えるダメージ + 200%"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 5,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 85,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sniper": true,
+                "ranger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "5",
+            "重量": "10",
+            "要求レベル": "85",
+            "装備": "スナイパー レンジャー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "51da89aa490cc168e3f46d22155c72ac31ef0ce858b8b2a2d947b34aa31ff9ef",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

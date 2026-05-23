@@ -1,0 +1,135 @@
+{
+    "type": "item",
+    "item_id": "7070",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7070\/"
+    },
+    "name": "割れた甲羅",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "割れた亀の甲羅。予想外に高値で売れる。一時期、占星術にも使われたようだ。",
+    "description_lines": [
+        "割れた亀の甲羅。予想外に高値で売れる。一時期、占星術にも使われたようだ。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "タートルジェネラル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/TURTLE_GENERAL"
+        },
+        {
+            "name": "フリーズタートル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/FREEZER"
+        },
+        {
+            "name": "ヒートタートル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HEATER"
+        },
+        {
+            "name": "ソリッドタートル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SOLIDER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "幻影の迷宮 地底洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld102",
+            "map_code": "2@ld102"
+        },
+        {
+            "name": "幻影の迷宮 凍える氷穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld103",
+            "map_code": "2@ld103"
+        },
+        {
+            "name": "幻影の迷宮 地底洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le102",
+            "map_code": "2@le102"
+        },
+        {
+            "name": "幻影の迷宮 凍える氷穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le103",
+            "map_code": "2@le103"
+        },
+        {
+            "name": "ラヴィーネ山脈02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ravi",
+            "map_code": "2@ravi"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "タートルアイランドダンジョン 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tur_dun02",
+            "map_code": "tur_dun02"
+        },
+        {
+            "name": "タートルアイランドダンジョン 02（陽居村）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tur_dun03",
+            "map_code": "tur_dun03"
+        },
+        {
+            "name": "タートルアイランドダンジョン 03（久陽宮）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tur_dun04",
+            "map_code": "tur_dun04"
+        }
+    ],
+    "source_html_sha256": "b5f428df7efcfc5350e5ad359ff7852b937b562ebadd34a5be478473c5b4208b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

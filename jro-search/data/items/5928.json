@@ -1,0 +1,104 @@
+{
+    "type": "item",
+    "item_id": "5928",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5928\/"
+    },
+    "name": "チャームオブラフウィンド[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "風の精霊の力が\n宿っているお守り。\n水の精霊の力を借りることで\nより強い力を発揮できる。\n物理攻撃時、\n水属性モンスターに\n与えるダメージ + 2%\nモンスターを倒した時、\n一定確率で\n[ウィンドオブ\nヴェルデュール]をドロップ\n[シャピニハ海の叫び]と\n共に装備時、追加で\n物理攻撃時、\n水属性モンスターに\n与えるダメージ + 2%\n[シャピニハ海の叫び]の\n精錬値が5以上の時、\n精錬値が1上がる度に追加で\n物理攻撃時、\n水属性モンスターに\n与えるダメージ + 1%",
+    "description_lines": [
+        "風の精霊の力が",
+        "宿っているお守り。",
+        "水の精霊の力を借りることで",
+        "より強い力を発揮できる。",
+        "物理攻撃時、",
+        "水属性モンスターに",
+        "与えるダメージ + 2%",
+        "モンスターを倒した時、",
+        "一定確率で",
+        "[ウィンドオブ",
+        "ヴェルデュール]をドロップ",
+        "[シャピニハ海の叫び]と",
+        "共に装備時、追加で",
+        "物理攻撃時、",
+        "水属性モンスターに",
+        "与えるダメージ + 2%",
+        "[シャピニハ海の叫び]の",
+        "精錬値が5以上の時、",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃時、",
+        "水属性モンスターに",
+        "与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "下段",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "acdad118cbb405a409f329ee235600b9d13d45e95dd98c9a09c4a14f895ba452",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

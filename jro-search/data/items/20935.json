@@ -1,0 +1,143 @@
+{
+    "type": "item",
+    "item_id": "20935",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20935\/"
+    },
+    "name": "ラーヴァレザーマント[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ノーグロードに棲む\nモンスターの革から作った\nマント。\nまだ熱が\n籠っている気がする。\n[ラーヴァレザーマント]の\n精錬値が1上がる度に追加で\nStr + 3\n[ラーヴァレザーマント]の\n精錬値が8以上の時、追加で\nボスモンスターから\n受けるダメージ - 5%\n[ラーヴァレザー\nアーマー]、\n[ラーヴァレザーブーツ]と\n共に装備時、追加で\nMaxHP + 2000\nMaxSP + 200\n全ての種族の\nDef・Mdef 50%無視",
+    "description_lines": [
+        "ノーグロードに棲む",
+        "モンスターの革から作った",
+        "マント。",
+        "まだ熱が",
+        "籠っている気がする。",
+        "[ラーヴァレザーマント]の",
+        "精錬値が1上がる度に追加で",
+        "Str + 3",
+        "[ラーヴァレザーマント]の",
+        "精錬値が8以上の時、追加で",
+        "ボスモンスターから",
+        "受けるダメージ - 5%",
+        "[ラーヴァレザー",
+        "アーマー]、",
+        "[ラーヴァレザーブーツ]と",
+        "共に装備時、追加で",
+        "MaxHP + 2000",
+        "MaxSP + 200",
+        "全ての種族の",
+        "Def・Mdef 50%無視"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 25,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 170,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "25",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "30",
+            "要求レベル": "170",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "硬化ムスペルスコール",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MUSPELLSKOLL_H"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ノーグロード 3層(1)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mag_dun03",
+            "map_code": "mag_dun03"
+        },
+        {
+            "name": "ノーグロード 3層(2)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mag_dun03a",
+            "map_code": "mag_dun03a"
+        },
+        {
+            "name": "ノーグロード 3層(3)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mag_dun03b",
+            "map_code": "mag_dun03b"
+        }
+    ],
+    "source_html_sha256": "31a98cb7974d32066e08d39f67d070bf915acb591d0b0a936fbc0c06b5660313",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

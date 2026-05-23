@@ -1,0 +1,175 @@
+{
+    "type": "item",
+    "item_id": "600013",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/600013\/"
+    },
+    "name": "フォーティファイドクレイモア[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "knight": true,
+                "dragon_knight": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "エーテルの魔力を利用して\n強化した両手剣。\nこれまで確認されていない\n能力が現れ始めた。\n物理攻撃で\n与えるダメージ + 110%\n[フォーティファイド\nクレイモア]の\n精錬値が7以上の時、追加で\n[ハックアンドスラッシャー]\n[マッドネスクラッシャー]\nで与えるダメージ + 10%\n[フォーティファイド\nクレイモア]の\n精錬値が9以上の時、追加で\n[ハックアンドスラッシャー]\n[マッドネスクラッシャー]\nで与えるダメージ + 15%\n[フォーティファイド\nクレイモア]の\n精錬値が10の時、追加で\nPow + 20",
+    "description_lines": [
+        "エーテルの魔力を利用して",
+        "強化した両手剣。",
+        "これまで確認されていない",
+        "能力が現れ始めた。",
+        "物理攻撃で",
+        "与えるダメージ + 110%",
+        "[フォーティファイド",
+        "クレイモア]の",
+        "精錬値が7以上の時、追加で",
+        "[ハックアンドスラッシャー]",
+        "[マッドネスクラッシャー]",
+        "で与えるダメージ + 10%",
+        "[フォーティファイド",
+        "クレイモア]の",
+        "精錬値が9以上の時、追加で",
+        "[ハックアンドスラッシャー]",
+        "[マッドネスクラッシャー]",
+        "で与えるダメージ + 15%",
+        "[フォーティファイド",
+        "クレイモア]の",
+        "精錬値が10の時、追加で",
+        "Pow + 20"
+    ],
+    "properties": {
+        "series": "two_handed_sword",
+        "series_normalized": [
+            "two_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 2,
+        "def": null,
+        "atk": 280,
+        "mdef": null,
+        "matk": 230,
+        "refinement": true,
+        "breakable": true,
+        "weight": 900,
+        "weapon_level": 4,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "knight": true,
+                "dragon_knight": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手剣",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "2",
+            "Atk": "280",
+            "Matk": "230",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "900",
+            "要求レベル": "200",
+            "装備": "ドラゴンナイト"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "変異キメラ・ザ・ワン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CHIMERA_THEONE"
+        },
+        {
+            "name": "変異キメラフルゴル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CHIMERA_FULGOR"
+        },
+        {
+            "name": "変異キメラガレンシス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CHIMERA_GALENSIS"
+        },
+        {
+            "name": "変異キメララーヴァ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CHIMERA_LAVA"
+        },
+        {
+            "name": "変異キメラナペオ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CHIMERA_NAPEO"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "亜空の迷宮 荒廃した実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg108",
+            "map_code": "2@lg108"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "廃棄実験所アミシティア 02(1)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/amicitia2",
+            "map_code": "amicitia2"
+        },
+        {
+            "name": "廃棄実験所アミシティア 02(2)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/amicitia2b",
+            "map_code": "amicitia2b"
+        },
+        {
+            "name": "廃棄実験所アミシティア 02(3)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/amicitia2c",
+            "map_code": "amicitia2c"
+        }
+    ],
+    "source_html_sha256": "0266dcb17793ec320ec3a073af223601b399b8067d84a7e99f902767fb86eafd",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

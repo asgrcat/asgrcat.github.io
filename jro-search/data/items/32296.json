@@ -1,0 +1,118 @@
+{
+    "type": "item",
+    "item_id": "32296",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/32296\/"
+    },
+    "name": "クリスタルブレイドネックレス[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "精神力で出来た魔力の塊を\n結晶化したもの。\n簡単に持ち運べるように\nネックレスにしてある。\nStr + 5 , Dex + 5\n物理攻撃で\n与えるダメージ + 10%\n[オーラブレイド]Lv3\n使用可能\n[オーラブレイド]使用時、\n10秒間、\n物理攻撃時、\n全ての属性のモンスターに\n与えるダメージ + 15%\nノービス系、\nソードマン系、\nアーチャー系、\nアコライト系、\nマーチャント系、\nテコンキッド系、\nガンスリンガー系、\nサモナー系が装備時、\n[強撃1]、[強撃2]、\n[強撃3]、[強撃4]、\n[強撃5]の\nいずれかと共に装備時、\n追加で\n物理攻撃時、\n全ての種族のモンスターに\n与えるダメージ + 10%\n必中攻撃 + 30%",
+    "description_lines": [
+        "精神力で出来た魔力の塊を",
+        "結晶化したもの。",
+        "簡単に持ち運べるように",
+        "ネックレスにしてある。",
+        "Str + 5 , Dex + 5",
+        "物理攻撃で",
+        "与えるダメージ + 10%",
+        "[オーラブレイド]Lv3",
+        "使用可能",
+        "[オーラブレイド]使用時、",
+        "10秒間、",
+        "物理攻撃時、",
+        "全ての属性のモンスターに",
+        "与えるダメージ + 15%",
+        "ノービス系、",
+        "ソードマン系、",
+        "アーチャー系、",
+        "アコライト系、",
+        "マーチャント系、",
+        "テコンキッド系、",
+        "ガンスリンガー系、",
+        "サモナー系が装備時、",
+        "[強撃1]、[強撃2]、",
+        "[強撃3]、[強撃4]、",
+        "[強撃5]の",
+        "いずれかと共に装備時、",
+        "追加で",
+        "物理攻撃時、",
+        "全ての種族のモンスターに",
+        "与えるダメージ + 10%",
+        "必中攻撃 + 30%"
+    ],
+    "properties": {
+        "series": "accessory_2",
+        "series_normalized": [
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー(2)",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "50",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e1b4dbf36a7ddd97e1eb0c33cc7808242cc1ebc7a53cc5ec6d068c7c17a1e753",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,116 @@
+{
+    "type": "item",
+    "item_id": "5938",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5938\/"
+    },
+    "name": "タコ帽子[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "海を根城にする\nとある怪物を模して\n作られた帽子。\n海の幸をおいしくいただける\nようになるそうだ。\nMdef + 8\n[おいしい魚]の\n回復量 + 50%\n[おさしみ]、\n[お寿司]の\n回復量 + 125%\n[タコ帽子]の\n精錬値が5以上の時、追加で\n[おいしい魚]の\n回復量 + 50%\n[おさしみ]、\n[お寿司]の\n回復量 + 125%\n精錬値が6以上の時、追加で\n[おいしい魚]の\n回復量 + 50%\n[おさしみ]、\n[お寿司]の\n回復量 + 125%\n精錬値が7以上の時、追加で\n[おいしい魚]の\n回復量 + 50%\n[おさしみ]、\n[お寿司]の\n回復量 + 125%\n絶対に壊れない",
+    "description_lines": [
+        "海を根城にする",
+        "とある怪物を模して",
+        "作られた帽子。",
+        "海の幸をおいしくいただける",
+        "ようになるそうだ。",
+        "Mdef + 8",
+        "[おいしい魚]の",
+        "回復量 + 50%",
+        "[おさしみ]、",
+        "[お寿司]の",
+        "回復量 + 125%",
+        "[タコ帽子]の",
+        "精錬値が5以上の時、追加で",
+        "[おいしい魚]の",
+        "回復量 + 50%",
+        "[おさしみ]、",
+        "[お寿司]の",
+        "回復量 + 125%",
+        "精錬値が6以上の時、追加で",
+        "[おいしい魚]の",
+        "回復量 + 50%",
+        "[おさしみ]、",
+        "[お寿司]の",
+        "回復量 + 125%",
+        "精錬値が7以上の時、追加で",
+        "[おいしい魚]の",
+        "回復量 + 50%",
+        "[おさしみ]、",
+        "[お寿司]の",
+        "回復量 + 125%",
+        "絶対に壊れない"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 8,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 88,
+        "weapon_level": null,
+        "required_level": 60,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "8",
+            "位置": "上段",
+            "重量": "88",
+            "要求レベル": "60",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "443b144c2cf8c2a028c0584fce7054c97a4f7cae6f90afa6f6a24a24e00da2a5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

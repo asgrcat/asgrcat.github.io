@@ -1,0 +1,92 @@
+{
+    "type": "item",
+    "item_id": "20394",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20394\/"
+    },
+    "name": "[衣装] パンプキンコック帽[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "死立ブラック学園の主席に\n立った者にだけ贈られる\n名誉ある衣装装備。\nカボチャとコック帽の\nコラボレーションによる\n圧倒的な存在感が\n見る者を魅了する。",
+    "description_lines": [
+        "死立ブラック学園の主席に",
+        "立った者にだけ贈られる",
+        "名誉ある衣装装備。",
+        "カボチャとコック帽の",
+        "コラボレーションによる",
+        "圧倒的な存在感が",
+        "見る者を魅了する。"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "防御": "0",
+            "位置": "上段",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "b093adf2070ab4f9a1af29d04c03030cc97dc4a82ad65441648af146509401dc",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

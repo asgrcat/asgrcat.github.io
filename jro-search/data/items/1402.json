@@ -1,0 +1,125 @@
+{
+    "type": "item",
+    "item_id": "1402",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1402\/"
+    },
+    "name": "ジャベリン[4]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 4,
+        "enchant_slot_count": 0,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "槍投げ用の槍",
+    "description_lines": [
+        "槍投げ用の槍"
+    ],
+    "properties": {
+        "series": "spear",
+        "series_normalized": [
+            "spear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 4,
+        "def": null,
+        "atk": 28,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 70,
+        "weapon_level": 1,
+        "required_level": 4,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "槍",
+            "攻撃": "28",
+            "重量": "70",
+            "武器レベル": "1",
+            "要求レベル": "4",
+            "装備": "ソードマン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ロッカー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ROCKER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "亜空の迷宮 灰の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg103",
+            "map_code": "2@lg103"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "実習室（島）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_prac_02",
+            "map_code": "ac_prac_02"
+        },
+        {
+            "name": "プロンテラフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild04",
+            "map_code": "prt_fild04"
+        },
+        {
+            "name": "迷宮の森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze01",
+            "map_code": "prt_maze01"
+        }
+    ],
+    "source_html_sha256": "33236e3644a98179e787d231b03d3f2dcc652d34697d70ac3627c9c0d861ab37",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

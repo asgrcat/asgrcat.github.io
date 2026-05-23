@@ -1,0 +1,68 @@
+{
+    "type": "item",
+    "item_id": "11541",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/11541\/"
+    },
+    "name": "ミッドの手作りチョコ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ミッドが丁寧に作った\nハート型の手作りチョコ。\nアカデミーの生徒達に\nやさしく親切に接する\n姿勢がチョコからも\nうかがえる一品。\nHPとSPが一定量回復する",
+    "description_lines": [
+        "ミッドが丁寧に作った",
+        "ハート型の手作りチョコ。",
+        "アカデミーの生徒達に",
+        "やさしく親切に接する",
+        "姿勢がチョコからも",
+        "うかがえる一品。",
+        "HPとSPが一定量回復する"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 8,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "8"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "a8b7d48fb809fcd11e1cbf10546d82c5bdafd613b4f93d0ebefbc6440e4d46ce",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

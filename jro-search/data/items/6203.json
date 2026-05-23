@@ -1,0 +1,74 @@
+{
+    "type": "item",
+    "item_id": "6203",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6203\/"
+    },
+    "name": "魔法書（チェーンライトニング）",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ウォーロックの\nスキル\n[リーディング\nスペルブック]の為に\n必要な魔法書。\nこの本に書かれた\n文字を読むだけで\n魔法的な力を\n引き出せる。\n風属性魔法\n[チェーンライトニング]に\nついて魔法的言語で\n書かれている。",
+    "description_lines": [
+        "ウォーロックの",
+        "スキル",
+        "[リーディング",
+        "スペルブック]の為に",
+        "必要な魔法書。",
+        "この本に書かれた",
+        "文字を読むだけで",
+        "魔法的な力を",
+        "引き出せる。",
+        "風属性魔法",
+        "[チェーンライトニング]に",
+        "ついて魔法的言語で",
+        "書かれている。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "185754eb7370d86a81496d3f166f83b7e09f38228e66df2bcd8f05399f43a7c5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

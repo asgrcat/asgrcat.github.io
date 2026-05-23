@@ -1,0 +1,76 @@
+{
+    "type": "item",
+    "item_id": "17823",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/17823\/"
+    },
+    "name": "コスたまFrozen",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する。\n・[衣装] ゆきうさニット帽\n・[衣装] ムートンライフ\n・[衣装] ガランサスガード\n・[衣装] 冷たい空気\n・[衣装] うさ耳ニット帽\n・[衣装] オーラクォーツ\nの冠\n・[衣装] 氷の羽耳\n・[衣装] ルナティック帽子\n・[衣装] 毛糸の帽子（青）\n・[衣装] エルダークラウン",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する。",
+        "・[衣装] ゆきうさニット帽",
+        "・[衣装] ムートンライフ",
+        "・[衣装] ガランサスガード",
+        "・[衣装] 冷たい空気",
+        "・[衣装] うさ耳ニット帽",
+        "・[衣装] オーラクォーツ",
+        "の冠",
+        "・[衣装] 氷の羽耳",
+        "・[衣装] ルナティック帽子",
+        "・[衣装] 毛糸の帽子（青）",
+        "・[衣装] エルダークラウン"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "3370c45e730fafecfd614145b9fce4229d3128010175192c8d026f5dbed39720",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

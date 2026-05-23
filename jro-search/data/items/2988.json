@@ -1,0 +1,97 @@
+{
+    "type": "item",
+    "item_id": "2988",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2988\/"
+    },
+    "name": "ニュオーズの翼リング[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "minstrel": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ニュオーズの使用する\n翼の形を象ったリング。\n変動詠唱時間 - 25%\n[ニュオーズのウクレレ]と\n共に装備時、追加で\n[アローバルカン]で\n与えるダメージ + 200%\n[アローバルカン]\n使用時、消費SP + 50",
+    "description_lines": [
+        "ニュオーズの使用する",
+        "翼の形を象ったリング。",
+        "変動詠唱時間 - 25%",
+        "[ニュオーズのウクレレ]と",
+        "共に装備時、追加で",
+        "[アローバルカン]で",
+        "与えるダメージ + 200%",
+        "[アローバルカン]",
+        "使用時、消費SP + 50"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 130,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "minstrel": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "10",
+            "要求レベル": "130",
+            "装備": "ミンストレル系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "5e492a83ab0b435134bae902c05ab9d1e8c42239e10b89b580c7e91bdf46ee67",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

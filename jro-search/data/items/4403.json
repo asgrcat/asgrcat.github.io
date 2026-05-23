@@ -1,0 +1,110 @@
+{
+    "type": "item",
+    "item_id": "4403",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4403\/"
+    },
+    "name": "キエル-D-01カード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "headgear"
+        ],
+        "card_attachable_positions": {
+            "upper": true,
+            "middle": true,
+            "lower": true
+        }
+    },
+    "description": "スキルディレイ - 30%\n[異境の統轄者]と\n共に装備時、追加で\n念属性攻撃で\n受けるダメージ - 15%\n[スペルブレイカー]\nLv5使用可能\n[R48-85-ベスティアカード]\nと共に装備時、追加で\nスキルディレイ + 30%\n[お座り教皇(私服)]と\n共に装備時、追加で\nスキルディレイ + 30%",
+    "description_lines": [
+        "スキルディレイ - 30%",
+        "[異境の統轄者]と",
+        "共に装備時、追加で",
+        "念属性攻撃で",
+        "受けるダメージ - 15%",
+        "[スペルブレイカー]",
+        "Lv5使用可能",
+        "[R48-85-ベスティアカード]",
+        "と共に装備時、追加で",
+        "スキルディレイ + 30%",
+        "[お座り教皇(私服)]と",
+        "共に装備時、追加で",
+        "スキルディレイ + 30%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "headgear"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "兜",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "キエル-D-01",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KIEL_"
+        },
+        {
+            "name": "穢れを祓う機械人形",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_030"
+        },
+        {
+            "name": "キエル-D-01（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_66"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "異形の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@lc_00",
+            "map_code": "3@lc_00"
+        },
+        {
+            "name": "機械人形工場 B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/kh_dun02",
+            "map_code": "kh_dun02"
+        }
+    ],
+    "source_html_sha256": "6183b59d85bc2dc0f0406524ed1b1d20e670a860be4fc9d67cf2b6555fa6c72f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,163 @@
+{
+    "type": "item",
+    "item_id": "13467",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13467\/"
+    },
+    "name": "ミラージュブレイド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ディーヴァブレイドが\n迷宮の力の影響で\n変異をとげた武器。\nどのような素材で\n精製されているのかは不明で\n同じような武器でも、\nその性能は異なるという。\n射程距離5\nMatk + 130\n[ミラージュブレイド]の\n精錬値が7以上の時、追加で\nAtk + 30 , Hit + 5\n[ミラージュブレイド]の\n精錬値が9以上の時、追加で\nAtk + 30 , Hit + 5\n[迷宮のドラキュラカード]\nと共に装備時、\n追加で\n物理攻撃命中時、\n一定確率で敵に与えた\nダメージの5%を\nSPとして吸収",
+    "description_lines": [
+        "ディーヴァブレイドが",
+        "迷宮の力の影響で",
+        "変異をとげた武器。",
+        "どのような素材で",
+        "精製されているのかは不明で",
+        "同じような武器でも、",
+        "その性能は異なるという。",
+        "射程距離5",
+        "Matk + 130",
+        "[ミラージュブレイド]の",
+        "精錬値が7以上の時、追加で",
+        "Atk + 30 , Hit + 5",
+        "[ミラージュブレイド]の",
+        "精錬値が9以上の時、追加で",
+        "Atk + 30 , Hit + 5",
+        "[迷宮のドラキュラカード]",
+        "と共に装備時、",
+        "追加で",
+        "物理攻撃命中時、",
+        "一定確率で敵に与えた",
+        "ダメージの5%を",
+        "SPとして吸収"
+    ],
+    "properties": {
+        "series": "one_handed_sword",
+        "series_normalized": [
+            "one_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 120,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手剣",
+            "攻撃": "150",
+            "重量": "120",
+            "武器レベル": "4",
+            "要求レベル": "150",
+            "装備": "3次職ソードマン系 3次職マーチャント系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "神罰のオディール（B）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_50"
+        },
+        {
+            "name": "シャドウレチェニエ（B）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_93"
+        },
+        {
+            "name": "デッドエンド（C）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_95"
+        },
+        {
+            "name": "迷宮の宝箱（G）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_96"
+        },
+        {
+            "name": "クラーケン（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_26"
+        },
+        {
+            "name": "RSX-0806（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_31"
+        },
+        {
+            "name": "女帝スカラバ（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_35"
+        },
+        {
+            "name": "暴虐のシーラカンス（A）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_36"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "封印の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@lb_00",
+            "map_code": "3@lb_00"
+        },
+        {
+            "name": "封印の迷宮 夢の終わり",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@lb_00",
+            "map_code": "5@lb_00"
+        }
+    ],
+    "source_html_sha256": "60991639aa94f23e4d82deb03305081ce7e82f27d34e5118feb44c2877c32b8f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

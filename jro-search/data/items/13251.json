@@ -1,0 +1,68 @@
+{
+    "type": "item",
+    "item_id": "13251",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13251\/"
+    },
+    "name": "雨雲の手裏剣",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "雨の中で真価を発揮すると言われている手裏剣。",
+    "description_lines": [
+        "雨の中で真価を発揮すると言われている手裏剣。"
+    ],
+    "properties": {
+        "series": "throwing",
+        "series_normalized": [
+            "throwing"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": null,
+        "def": null,
+        "atk": 30,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 20,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "投擲",
+            "攻撃": "30",
+            "要求レベル": "20",
+            "重量": "0.5",
+            "属性": "無"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c31f21af0312df13810e32c5621de10cf5c04a3cd4017961e35bc3acf02e996f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

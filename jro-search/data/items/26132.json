@@ -1,0 +1,120 @@
+{
+    "type": "item",
+    "item_id": "26132",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/26132\/"
+    },
+    "name": "トンボがとまった黄色い猫じゃらし[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "summoner": true
+            },
+            "include_jobs": {
+                "summoner": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "トンボが止まっている\n黄色の猫じゃらし。\nMatk + 180\n魔法攻撃時、\nプレイヤーに\n与えるダメージ + 25%\n[トンボがとまった\n黄色い猫じゃらし]の\n精錬値が1上がる度に追加で\nヒール系スキル使用時、\nHP回復量 + 10%\n[トンボがとまった\n黄色い猫じゃらし]の\n精錬値が7以上の時、追加で\n魔法攻撃時、\nプレイヤーに\n与えるダメージ + 15%\n[トンボがとまった\n黄色い猫じゃらし]の\n精錬値が8以上の時、追加で\n魔法攻撃時、\nプレイヤーに\n与えるダメージ + 20%\n[トンボがとまった\n黄色い猫じゃらし]は\nNPC売却、倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "トンボが止まっている",
+        "黄色の猫じゃらし。",
+        "Matk + 180",
+        "魔法攻撃時、",
+        "プレイヤーに",
+        "与えるダメージ + 25%",
+        "[トンボがとまった",
+        "黄色い猫じゃらし]の",
+        "精錬値が1上がる度に追加で",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 10%",
+        "[トンボがとまった",
+        "黄色い猫じゃらし]の",
+        "精錬値が7以上の時、追加で",
+        "魔法攻撃時、",
+        "プレイヤーに",
+        "与えるダメージ + 15%",
+        "[トンボがとまった",
+        "黄色い猫じゃらし]の",
+        "精錬値が8以上の時、追加で",
+        "魔法攻撃時、",
+        "プレイヤーに",
+        "与えるダメージ + 20%",
+        "[トンボがとまった",
+        "黄色い猫じゃらし]は",
+        "NPC売却、倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "one_handed_staff",
+        "series_normalized": [
+            "one_handed_staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": 4,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "summoner": true
+            },
+            "include_jobs": {
+                "summoner": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手杖",
+            "攻撃": "120",
+            "重量": "0",
+            "武器レベル": "4",
+            "要求レベル": "100",
+            "装備": "サモナー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c18a7776cdea01fa8b00f8e3dad24514b4683c2822dff74f1ba554876c570d44",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

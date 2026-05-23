@@ -1,0 +1,99 @@
+{
+    "type": "item",
+    "item_id": "20747",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/20747\/"
+    },
+    "name": "マントオブグレイトネイチャ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "地の精霊の力が\n宿っているマント。\n外敵から着用者を護るように\n常に岩石が取り巻いている。\n地属性攻撃で\n受けるダメージ - 10%\n火属性攻撃で\n受けるダメージ + 10%\n物理攻撃を受けた時、\n一定確率で\n自分を中心に5x5セルの\n敵を石化状態にする\n[マントオブ\nグレイトネイチャ]の\n精錬値が5以上の時、\n精錬値が1上がる度に\n敵を石化状態にする\n確率が上昇",
+    "description_lines": [
+        "地の精霊の力が",
+        "宿っているマント。",
+        "外敵から着用者を護るように",
+        "常に岩石が取り巻いている。",
+        "地属性攻撃で",
+        "受けるダメージ - 10%",
+        "火属性攻撃で",
+        "受けるダメージ + 10%",
+        "物理攻撃を受けた時、",
+        "一定確率で",
+        "自分を中心に5x5セルの",
+        "敵を石化状態にする",
+        "[マントオブ",
+        "グレイトネイチャ]の",
+        "精錬値が5以上の時、",
+        "精錬値が1上がる度に",
+        "敵を石化状態にする",
+        "確率が上昇"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 10,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 70,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "防御": "10",
+            "重量": "30",
+            "要求レベル": "70",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "d430b75053af782cb43c3d46d4d5ec18b022e561fa8a3848446d1710a42ed167",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

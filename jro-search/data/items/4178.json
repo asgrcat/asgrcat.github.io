@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "4178",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4178\/"
+    },
+    "name": "ドラゴンテイルカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "garment"
+        ],
+        "card_attachable_positions": {
+            "garment": true
+        }
+    },
+    "description": "Agi + 1\nFlee + 10\n[ダブルストレイフィング]、\n[アローシャワー]で\n与えるダメージ + 5%\n[クルーザーカード]、\n[アノリアンカード]、\n[半漁人カード]、\n[アリゲーターカード]\nと共に装備時、追加で\nAgi + 5 , Dex + 3\n遠距離物理攻撃で\n与えるダメージ + 20%\n必中攻撃が20%の確率で発動\nアーチャー系が装備時、\n動物形モンスターを倒した時\n獲得する経験値 + 5%\n物理攻撃時、一定確率で\n動物形モンスターに\nコーマ発動\n[酸素ボンベ]と\n共に装備時、追加で\nBaseLvが高い程、\n攻撃速度が増加",
+    "description_lines": [
+        "Agi + 1",
+        "Flee + 10",
+        "[ダブルストレイフィング]、",
+        "[アローシャワー]で",
+        "与えるダメージ + 5%",
+        "[クルーザーカード]、",
+        "[アノリアンカード]、",
+        "[半漁人カード]、",
+        "[アリゲーターカード]",
+        "と共に装備時、追加で",
+        "Agi + 5 , Dex + 3",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 20%",
+        "必中攻撃が20%の確率で発動",
+        "アーチャー系が装備時、",
+        "動物形モンスターを倒した時",
+        "獲得する経験値 + 5%",
+        "物理攻撃時、一定確率で",
+        "動物形モンスターに",
+        "コーマ発動",
+        "[酸素ボンベ]と",
+        "共に装備時、追加で",
+        "BaseLvが高い程、",
+        "攻撃速度が増加"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "garment"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "肩にかける物",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ドラゴンテイル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DRAGON_TAIL"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "フェイヨン迷いの森 10",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild10",
+            "map_code": "pay_fild10"
+        },
+        {
+            "name": "タートルアイランド",
+            "url": "https:\/\/rotool.gungho.jp\/map\/tur_dun01",
+            "map_code": "tur_dun01"
+        }
+    ],
+    "source_html_sha256": "a8b508cca086f4e54c2265d97d8aee0fcc433b3e9c5a6c4d23b9e6a77b603379",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

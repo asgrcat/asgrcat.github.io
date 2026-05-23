@@ -1,0 +1,108 @@
+{
+    "type": "item",
+    "item_id": "410057",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/410057\/"
+    },
+    "name": "太極の耳飾り(黄)[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "陰と陽からなる\n万物の根源と称された\n太極をシンボルにした\n黄色の耳飾り。\n宇宙の理を悟し者のみ\n真の力を解放できる。\nMaxHP + 10% , MaxSP + 10%\nプレイヤーから\n受けるダメージ - 5%\n絶対に沈黙状態にならない\n[月の光]Lv5\n習得時、追加で\n固定詠唱時間 - 70%\n[満月脚]Lv10\n習得時、追加で\n物理攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 15%\n物理攻撃で\nモンスターを倒した時、\nHP + 150 , SP + 15",
+    "description_lines": [
+        "陰と陽からなる",
+        "万物の根源と称された",
+        "太極をシンボルにした",
+        "黄色の耳飾り。",
+        "宇宙の理を悟し者のみ",
+        "真の力を解放できる。",
+        "MaxHP + 10% , MaxSP + 10%",
+        "プレイヤーから",
+        "受けるダメージ - 5%",
+        "絶対に沈黙状態にならない",
+        "[月の光]Lv5",
+        "習得時、追加で",
+        "固定詠唱時間 - 70%",
+        "[満月脚]Lv10",
+        "習得時、追加で",
+        "物理攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 15%",
+        "物理攻撃で",
+        "モンスターを倒した時、",
+        "HP + 150 , SP + 15"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": "-",
+        "slot": 0,
+        "def": 2,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "中段",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "2",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "50",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "0d88c421ee37f479c341540f6ef21cfd7656f52ceefd9c9cc78ae3a1e438874e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

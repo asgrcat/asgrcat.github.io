@@ -1,0 +1,67 @@
+{
+    "type": "item",
+    "item_id": "7476",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7476\/"
+    },
+    "name": "料理本レベル5",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "「真の料理人を目指して\n生まれ変わる！\n神の一口に挑戦！」\nと書いてある表紙の本。\nLv5の全ての料理のレシピが\n書かれている。",
+    "description_lines": [
+        "「真の料理人を目指して",
+        "生まれ変わる！",
+        "神の一口に挑戦！」",
+        "と書いてある表紙の本。",
+        "Lv5の全ての料理のレシピが",
+        "書かれている。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "92cddf1c7f7a60551d8da4a59091c99987a64ee21728b5a84dd483e1b9342ce5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,173 @@
+{
+    "type": "item",
+    "item_id": "2111",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2111\/"
+    },
+    "name": "神の使者[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "crusader": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "神の御言葉を伝える使者に神が直接与えたと言われている盾。\nINT + 2\nVIT + 3\nMDEF + 3\n破壊不可",
+    "description_lines": [
+        "神の御言葉を伝える使者に神が直接与えたと言われている盾。",
+        "INT + 2",
+        "VIT + 3",
+        "MDEF + 3",
+        "破壊不可"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 120,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 160,
+        "weapon_level": null,
+        "required_level": 83,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "crusader": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "防御": "120",
+            "重量": "160",
+            "要求レベル": "83",
+            "装備": "クルセイダー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "クトルラナックス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/KTULLANUX"
+        },
+        {
+            "name": "モロクの現身（天使型）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MOROCC_1"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "魔神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@eom",
+            "map_code": "1@eom"
+        },
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "試練の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_07",
+            "map_code": "2@la_07"
+        },
+        {
+            "name": "封印の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_07",
+            "map_code": "2@lb_07"
+        },
+        {
+            "name": "異形の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_07",
+            "map_code": "2@lc_07"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld207",
+            "map_code": "2@ld207"
+        },
+        {
+            "name": "幻影の迷宮 砂の洞穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf207",
+            "map_code": "2@lf207"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "氷の洞窟 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ice_dun03",
+            "map_code": "ice_dun03"
+        },
+        {
+            "name": "次元の狭間 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild22",
+            "map_code": "moc_fild22"
+        },
+        {
+            "name": "フレイムヴァレー",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moro_vol",
+            "map_code": "moro_vol"
+        }
+    ],
+    "source_html_sha256": "5b8d2f7c4b70bd067021b5f0dc4b063943cc25326385644706d90276bcc2956b",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

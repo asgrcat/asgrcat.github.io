@@ -1,0 +1,135 @@
+{
+    "type": "item",
+    "item_id": "1206",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1206\/"
+    },
+    "name": "カッター[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "ninja": true,
+                "druid": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_linker": true,
+                "ninja": true,
+                "druid": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "短剣",
+    "description_lines": [
+        "短剣"
+    ],
+    "properties": {
+        "series": "dagger",
+        "series_normalized": [
+            "dagger"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 30,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": 1,
+        "required_level": null,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "ninja": true,
+                "druid": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_linker": true,
+                "ninja": true,
+                "druid": true,
+                "novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "短剣",
+            "攻撃": "30",
+            "重量": "50",
+            "武器レベル": "1",
+            "要求レベル": "無し",
+            "装備": "ノービス系 ソードマン系 マジシャン系 アーチャー系 シーフ系 マーチャント系 ソウルリンカー系 忍者系 ドルイド系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "チンピラ（ターボトラック）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/A_MOBSTER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "企業都市リヒタルゼン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lighthalzen",
+            "map_code": "lighthalzen"
+        }
+    ],
+    "source_html_sha256": "9624ba622f3b1f3bb39ff257d52dc866499434638feca454a111ebece9484639",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,88 @@
+{
+    "type": "item",
+    "item_id": "18563",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18563\/"
+    },
+    "name": "ハートウイングヘアバンド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "可愛らしいハートに\n真っ白な羽とフリルが\nあしらわれたヘアバンド。\nスキルディレイ - 5%、\nスキル使用時の消費SP - 5%\n[愛しさの欠片]と\n共に装備時、\n固定詠唱時間 - 10%",
+    "description_lines": [
+        "可愛らしいハートに",
+        "真っ白な羽とフリルが",
+        "あしらわれたヘアバンド。",
+        "スキルディレイ - 5%、",
+        "スキル使用時の消費SP - 5%",
+        "[愛しさの欠片]と",
+        "共に装備時、",
+        "固定詠唱時間 - 10%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 50,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "上中段",
+            "重量": "30",
+            "要求レベル": "50",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "269c3c7826b3873e3b1d4d1149336f72d0ff57c4d8c48d14202ba06da7fc7d56",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

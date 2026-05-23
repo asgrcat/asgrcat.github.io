@@ -1,0 +1,68 @@
+{
+    "type": "item",
+    "item_id": "11740",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/11740\/"
+    },
+    "name": "ソウルドリンク",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "一部に熱狂的な愛飲者を\n生み出した魂のドリンク。\nSPを80ほど回復する\n[ソウルドリンク]は\n攻城戦・新攻城戦・攻城戦TE\nマップで使用時のみ\n効果があります",
+    "description_lines": [
+        "一部に熱狂的な愛飲者を",
+        "生み出した魂のドリンク。",
+        "SPを80ほど回復する",
+        "[ソウルドリンク]は",
+        "攻城戦・新攻城戦・攻城戦TE",
+        "マップで使用時のみ",
+        "効果があります"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 3,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "3"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6fbd83998565ddfab2509c0ac72cba8e8b32ca462be036a933b8ae4f56e761d9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

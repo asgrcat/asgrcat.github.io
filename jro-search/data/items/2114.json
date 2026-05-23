@@ -1,0 +1,155 @@
+{
+    "type": "item",
+    "item_id": "2114",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2114\/"
+    },
+    "name": "ストーンバックラー[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shield": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "トールが巨人族の王フルングニルを殺して、その時手に入れた石で作ったという盾。神々と対立した巨人たちの底力が感じられる。\n大型モンスターから受けるダメージ5%減少。\nオーディンの祝福、マグニキャップと共に装備時、STR + 2, DEF + 5, MDEF + 5。 ソードマン系装備時 Def+ 6。",
+    "description_lines": [
+        "トールが巨人族の王フルングニルを殺して、その時手に入れた石で作ったという盾。神々と対立した巨人たちの底力が感じられる。",
+        "大型モンスターから受けるダメージ5%減少。",
+        "オーディンの祝福、マグニキャップと共に装備時、STR + 2, DEF + 5, MDEF + 5。 ソードマン系装備時 Def+ 6。"
+    ],
+    "properties": {
+        "series": "shield",
+        "series_normalized": [
+            "shield"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 45,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 150,
+        "weapon_level": null,
+        "required_level": 65,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "盾",
+            "防御": "45",
+            "重量": "150",
+            "要求レベル": "65",
+            "装備": "ノービス系を除く全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ゴールドオシドス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ACIDUS"
+        },
+        {
+            "name": "グラウンドデリーター",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DELETER_"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 財宝の眠る地底湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld106",
+            "map_code": "2@ld106"
+        },
+        {
+            "name": "幻影の迷宮 財宝の眠る地底湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le106",
+            "map_code": "2@le106"
+        },
+        {
+            "name": "亜空の迷宮 溶岩の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg104",
+            "map_code": "2@lg104"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アビスレイク地下洞窟 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abyss_03",
+            "map_code": "abyss_03"
+        },
+        {
+            "name": "フィゲルフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild02",
+            "map_code": "hu_fild02"
+        },
+        {
+            "name": "フィゲルフィールド 04",
+            "url": "https:\/\/rotool.gungho.jp\/map\/hu_fild04",
+            "map_code": "hu_fild04"
+        },
+        {
+            "name": "ノーグロード 2層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mag_dun02",
+            "map_code": "mag_dun02"
+        }
+    ],
+    "source_html_sha256": "f72d0dd3823b31363a0585fb7297728bd249b5f8b4b24a49ce0e0ceab5c6f198",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

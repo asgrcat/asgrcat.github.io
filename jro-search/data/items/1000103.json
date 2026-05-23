@@ -1,0 +1,69 @@
+{
+    "type": "item",
+    "item_id": "1000103",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000103\/"
+    },
+    "name": "バルミールチケット",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "バルムント邸を訪れた\nお客様をもてなすために\n自動人形たちが発行する\n食券。\nバルムント邸内では\n貨幣のように扱われ、\n食事以外のサービスにも\n利用することができる。",
+    "description_lines": [
+        "バルムント邸を訪れた",
+        "お客様をもてなすために",
+        "自動人形たちが発行する",
+        "食券。",
+        "バルムント邸内では",
+        "貨幣のように扱われ、",
+        "食事以外のサービスにも",
+        "利用することができる。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0.1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e52a1d60e2af85c4304eef82cf2ab94329832e88a3887450a6ef225159a640b6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

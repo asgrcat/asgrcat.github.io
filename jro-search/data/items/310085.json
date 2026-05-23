@@ -1,0 +1,68 @@
+{
+    "type": "item",
+    "item_id": "310085",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/310085\/"
+    },
+    "name": "B-Luk",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "Luk + 1\n精錬値が6以上の時、追加で\nLuk + 2\n精錬値が8以上の時、追加で\nLuk + 3\n[ランナウェー・\nアクセラレータ]と\n共に装備時、追加で\nLuk + 6",
+    "description_lines": [
+        "Luk + 1",
+        "精錬値が6以上の時、追加で",
+        "Luk + 2",
+        "精錬値が8以上の時、追加で",
+        "Luk + 3",
+        "[ランナウェー・",
+        "アクセラレータ]と",
+        "共に装備時、追加で",
+        "Luk + 6"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "498bb3e07d8d8cb6dc99cd18e9928edc0b3cc25e9a130e98febec56309208788",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

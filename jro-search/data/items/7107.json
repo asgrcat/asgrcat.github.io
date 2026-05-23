@@ -1,0 +1,103 @@
+{
+    "type": "item",
+    "item_id": "7107",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7107\/"
+    },
+    "name": "山羊の毛皮",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "山羊の汚い毛皮の切れ端。しかし結構暖かく見える毛皮だ。もちろん使用する前に洗濯をしなければならないだろう。\n_",
+    "description_lines": [
+        "山羊の汚い毛皮の切れ端。しかし結構暖かく見える毛皮だ。もちろん使用する前に洗濯をしなければならないだろう。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "グレイゴート",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP18_GREY_GOAT"
+        },
+        {
+            "name": "ゴート",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GOAT"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アインブロックフィールド 06",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_fild06",
+            "map_code": "ein_fild06"
+        },
+        {
+            "name": "ラヘルフィールド 10（オズ峡谷）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild10",
+            "map_code": "ra_fild10"
+        },
+        {
+            "name": "ラヘルフィールド 11（イダ平原）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild11",
+            "map_code": "ra_fild11"
+        },
+        {
+            "name": "ジュノーフィールド 03（エルメスプレート）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/yuno_fild03",
+            "map_code": "yuno_fild03"
+        },
+        {
+            "name": "ジュノーフィールド 06（エルメスプレート）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/yuno_fild06",
+            "map_code": "yuno_fild06"
+        }
+    ],
+    "source_html_sha256": "967ccef446a4ea9f233bce68fe7be9e00ddf623a1c2f5fd110425e3ac0418421",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

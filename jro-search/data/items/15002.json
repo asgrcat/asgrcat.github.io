@@ -1,0 +1,97 @@
+{
+    "type": "item",
+    "item_id": "15002",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15002\/"
+    },
+    "name": "ルーンプレート[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "knight": true,
+                "rune_knight": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ルーンと宝石で\n飾られた\nプレートアーマー。\n見た目より軽いが、\n魔力により防御力が\n強化されている。\n精錬不可\n絶対に壊れない\n[ルーンプレート]は\nNPC売却が可能です",
+    "description_lines": [
+        "ルーンと宝石で",
+        "飾られた",
+        "プレートアーマー。",
+        "見た目より軽いが、",
+        "魔力により防御力が",
+        "強化されている。",
+        "精錬不可",
+        "絶対に壊れない",
+        "[ルーンプレート]は",
+        "NPC売却が可能です"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 95,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 99,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "knight": true,
+                "rune_knight": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "95",
+            "重量": "0",
+            "要求レベル": "99",
+            "装備": "ルーンナイト系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "566cce9a12dc57e0135781bfafddb783fd628e4ef334accf7ab53daf2c58dd51",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

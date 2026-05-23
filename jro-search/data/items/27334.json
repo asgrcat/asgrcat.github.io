@@ -1,0 +1,141 @@
+{
+    "type": "item",
+    "item_id": "27334",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27334\/"
+    },
+    "name": "混沌のバフォメットカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "shoes"
+        ],
+        "card_attachable_positions": {
+            "shoes": true
+        }
+    },
+    "description": "魔法攻撃で\n与えるダメージ + 10%\n魔法攻撃時、\n不死・昆虫形モンスターに\n与えるダメージ + 50%\nMaxSP - 50%\n[厄災の魔将]と\n共に装備時、追加で\n魔法攻撃で\n与えるダメージ + 10%\n[ロードオブヴァーミリオン]\nLv10使用可能",
+    "description_lines": [
+        "魔法攻撃で",
+        "与えるダメージ + 10%",
+        "魔法攻撃時、",
+        "不死・昆虫形モンスターに",
+        "与えるダメージ + 50%",
+        "MaxSP - 50%",
+        "[厄災の魔将]と",
+        "共に装備時、追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 10%",
+        "[ロードオブヴァーミリオン]",
+        "Lv10使用可能"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "shoes"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "靴",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "混沌のバフォメット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_BAPHOMET"
+        },
+        {
+            "name": "大海より来る黒山羊",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_033"
+        },
+        {
+            "name": "混沌のバフォメット（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_114"
+        },
+        {
+            "name": "ルキナ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_092"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "幻影の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@ld100",
+            "map_code": "3@ld100"
+        },
+        {
+            "name": "幻影の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@le100",
+            "map_code": "3@le100"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "歪んだ迷宮の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_mz03_i",
+            "map_code": "prt_mz03_i"
+        }
+    ],
+    "source_html_sha256": "01e116ba9945290225782548549abd3f9ae8cfb3b9acddaa9e98fe1f0a9a7dc6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

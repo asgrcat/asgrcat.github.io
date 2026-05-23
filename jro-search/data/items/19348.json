@@ -1,0 +1,107 @@
+{
+    "type": "item",
+    "item_id": "19348",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19348\/"
+    },
+    "name": "抱きつきネコ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "summoner": true
+            },
+            "include_jobs": {
+                "summoner": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "抱きついて甘えている様子の\nネコをイメージした\n可愛らしい被り物。\nMdef + 5\nモンスターを倒した時、\nHP + 100 , SP + 10\n[グリード]Lv1使用可能\n[抱きつきネコ]の\n精錬値が1上がる度に追加で\nモンスターを倒した時、\nHP + 50 , SP + 5\n[抱きつきネコ]は\nNPC売却、倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "抱きついて甘えている様子の",
+        "ネコをイメージした",
+        "可愛らしい被り物。",
+        "Mdef + 5",
+        "モンスターを倒した時、",
+        "HP + 100 , SP + 10",
+        "[グリード]Lv1使用可能",
+        "[抱きつきネコ]の",
+        "精錬値が1上がる度に追加で",
+        "モンスターを倒した時、",
+        "HP + 50 , SP + 5",
+        "[抱きつきネコ]は",
+        "NPC売却、倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 12,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "summoner": true
+            },
+            "include_jobs": {
+                "summoner": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "12",
+            "位置": "上段",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "サモナー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "cc3daab57d2dda2e6227d6d631a72f8d9950aa7f29b92b25ffeb1dd8f7750505",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

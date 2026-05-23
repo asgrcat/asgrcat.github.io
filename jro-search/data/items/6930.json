@@ -1,0 +1,69 @@
+{
+    "type": "item",
+    "item_id": "6930",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6930\/"
+    },
+    "name": "新事業のアイテムサンプル",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "レベンブルグ家のヴォルフと\nウィグナー家のアイザックが\n手を結んで共同開発中である\n新事業のアイテムサンプル。\n[新事業の\nアイテムサンプル]は、\nあらゆる取引、移動が\nできません",
+    "description_lines": [
+        "レベンブルグ家のヴォルフと",
+        "ウィグナー家のアイザックが",
+        "手を結んで共同開発中である",
+        "新事業のアイテムサンプル。",
+        "[新事業の",
+        "アイテムサンプル]は、",
+        "あらゆる取引、移動が",
+        "できません"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "0988929488b1c80a0b13bf246adbb0455cf96c717581941e57a0e782cfbbde89",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

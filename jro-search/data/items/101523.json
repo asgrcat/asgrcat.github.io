@@ -1,0 +1,75 @@
+{
+    "type": "item",
+    "item_id": "101523",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/101523\/"
+    },
+    "name": "幻想叢書カード(ヴェルナー)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "幻想叢書\n『ある科学者の脱出記録』を\n読破した証となるカード。\n特定のマップで使用すると\n「ヴェルナーの幻影」が\n出現する\n再使用待機時間10秒\n[幻想叢書カード\n(ヴェルナー)]は\n使用しても消耗しない\n[幻想叢書カード\n(ヴェルナー)]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "幻想叢書",
+        "『ある科学者の脱出記録』を",
+        "読破した証となるカード。",
+        "特定のマップで使用すると",
+        "「ヴェルナーの幻影」が",
+        "出現する",
+        "再使用待機時間10秒",
+        "[幻想叢書カード",
+        "(ヴェルナー)]は",
+        "使用しても消耗しない",
+        "[幻想叢書カード",
+        "(ヴェルナー)]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e650d16bcd71e0748822ce87566139bb4a80bc5421931e4e9a9d9fbb73e81012",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

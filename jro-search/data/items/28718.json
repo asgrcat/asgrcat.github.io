@@ -1,0 +1,135 @@
+{
+    "type": "item",
+    "item_id": "28718",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28718\/"
+    },
+    "name": "布都御魂[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_reaper": true,
+                "kagerou": true,
+                "oboro": true,
+                "karnos": true,
+                "novice": true,
+                "super_novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "東方の国の神が持つ\n古くより伝わる霊剣。\nMatk + 160\n物理攻撃時、\n人間形モンスターに\n与えるダメージ + 50%\n[黄泉返し]の\n再使用待機時間 - 1秒\n[布都御魂]の\n精錬値が1上がる度に追加で\n[黄泉返し]で\n与えるダメージ + 2%",
+    "description_lines": [
+        "東方の国の神が持つ",
+        "古くより伝わる霊剣。",
+        "Matk + 160",
+        "物理攻撃時、",
+        "人間形モンスターに",
+        "与えるダメージ + 50%",
+        "[黄泉返し]の",
+        "再使用待機時間 - 1秒",
+        "[布都御魂]の",
+        "精錬値が1上がる度に追加で",
+        "[黄泉返し]で",
+        "与えるダメージ + 2%"
+    ],
+    "properties": {
+        "series": "dagger",
+        "series_normalized": [
+            "dagger"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 2,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 100,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "magician": true,
+                "archer": true,
+                "thief": true,
+                "merchant": true,
+                "soul_reaper": true,
+                "kagerou": true,
+                "oboro": true,
+                "karnos": true,
+                "novice": true,
+                "super_novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "短剣",
+            "攻撃": "120",
+            "重量": "100",
+            "武器レベル": "4",
+            "要求レベル": "150",
+            "装備": "スーパーノービス系 3次職ソードマン系 3次職マジシャン系 3次職アーチャー系 3次職シーフ系 3次職マーチャント系 ソウルリーパー系 影狼系 朧系 カルノス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c6d684eb212a9af1701fa9fe48323e99be8a2ab4d208463c4c30086c1ed4de66",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

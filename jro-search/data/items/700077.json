@@ -1,0 +1,106 @@
+{
+    "type": "item",
+    "item_id": "700077",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/700077\/"
+    },
+    "name": "朧げな月華の弓[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "windhawk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "月が隠れて\n本来の性能を\n発揮できなくなった弓。\n[朧げな月華の弓]の\n精錬値が1上がる度に追加で\n物理攻撃で\n与えるダメージ + 10%",
+    "description_lines": [
+        "月が隠れて",
+        "本来の性能を",
+        "発揮できなくなった弓。",
+        "[朧げな月華の弓]の",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃で",
+        "与えるダメージ + 10%"
+    ],
+    "properties": {
+        "series": "bow",
+        "series_normalized": [
+            "bow"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 160,
+        "mdef": null,
+        "matk": 170,
+        "refinement": true,
+        "breakable": true,
+        "weight": 90,
+        "weapon_level": 4,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "windhawk": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "弓",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "160",
+            "Matk": "170",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "90",
+            "要求レベル": "200",
+            "装備": "ウィンドホーク"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "眩惑の双子",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_110"
+        }
+    ],
+    "available_maps": [],
+    "source_html_sha256": "6f6fd106c063b683dae57ff92402408a4b17d764efad4451dee562c99a888b2a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

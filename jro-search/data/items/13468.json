@@ -1,0 +1,288 @@
+{
+    "type": "item",
+    "item_id": "13468",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13468\/"
+    },
+    "name": "邪念のセイバー[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "邪念が込められている\n片手剣。\n[邪念のセイバー]の\n精錬値が1上がる度に追加で\nAtkが上昇",
+    "description_lines": [
+        "邪念が込められている",
+        "片手剣。",
+        "[邪念のセイバー]の",
+        "精錬値が1上がる度に追加で",
+        "Atkが上昇"
+    ],
+    "properties": {
+        "series": "one_handed_sword",
+        "series_normalized": [
+            "one_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 105,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 60,
+        "weapon_level": 4,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手剣",
+            "攻撃": "105",
+            "重量": "60",
+            "武器レベル": "4",
+            "要求レベル": "100",
+            "装備": "3次職ソードマン系 3次職マーチャント系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "囚人 267BD184",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_54"
+        },
+        {
+            "name": "不死の軍団司令官",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/IMMORTAL_CO_CMDER"
+        },
+        {
+            "name": "不滅の呪われた騎士",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AS_BLOODY_KNIGHT"
+        },
+        {
+            "name": "不死の呪われた騎士",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_61"
+        },
+        {
+            "name": "リトルタフィー（1）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_25"
+        },
+        {
+            "name": "不死の要塞兵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AS_IMMORTAL_CORPS"
+        },
+        {
+            "name": "不死のゾンビスローター",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AS_ZOMBIE_SLAUGHTER"
+        },
+        {
+            "name": "不死の軍団班長",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/IMMORTAL_CORPS1"
+        },
+        {
+            "name": "不死の軍団分隊長",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/IMMORTAL_CORPS2"
+        },
+        {
+            "name": "不死の軍団兵士長",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/IMMORTAL_CORPS3"
+        },
+        {
+            "name": "不死の軍団兵",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/IMMOTAL_CORPS"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "空中要塞内部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@sthb",
+            "map_code": "1@sthb"
+        },
+        {
+            "name": "空中要塞秘密の部屋",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@sthc",
+            "map_code": "1@sthc"
+        },
+        {
+            "name": "試練の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_24",
+            "map_code": "2@la_24"
+        },
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_25",
+            "map_code": "2@la_25"
+        },
+        {
+            "name": "封印の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_25",
+            "map_code": "2@lb_25"
+        },
+        {
+            "name": "封印の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_29",
+            "map_code": "2@lb_29"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_30",
+            "map_code": "2@lb_30"
+        },
+        {
+            "name": "異形の迷宮 秘密の通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_24",
+            "map_code": "2@lc_24"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_29",
+            "map_code": "2@lc_29"
+        },
+        {
+            "name": "幻影の迷宮 穢れた廃村",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld110",
+            "map_code": "2@ld110"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld111",
+            "map_code": "2@ld111"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld119",
+            "map_code": "2@ld119"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld224",
+            "map_code": "2@ld224"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld225",
+            "map_code": "2@ld225"
+        },
+        {
+            "name": "幻影の迷宮 穢れた廃村",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le110",
+            "map_code": "2@le110"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le111",
+            "map_code": "2@le111"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le119",
+            "map_code": "2@le119"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf224",
+            "map_code": "2@lf224"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf225",
+            "map_code": "2@lf225"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "プロンテラ地下監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_prison",
+            "map_code": "prt_prison"
+        },
+        {
+            "name": "侵攻されたプロンテラ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_q_jp",
+            "map_code": "prt_q_jp"
+        }
+    ],
+    "source_html_sha256": "76d27dffe9737ebc9205899cb3bf1750690590bd4e50e32f713dfa14573f1e57",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,67 @@
+{
+    "type": "item",
+    "item_id": "1759",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1759\/"
+    },
+    "name": "氷の矢",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "氷の気をまとっている矢。低確率で対象を氷化状態にする。",
+    "description_lines": [
+        "氷の気をまとっている矢。低確率で対象を氷化状態にする。"
+    ],
+    "properties": {
+        "series": "arrow",
+        "series_normalized": [
+            "arrow"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "水",
+        "slot": null,
+        "def": null,
+        "atk": 1,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "矢",
+            "攻撃": "1",
+            "重量": "0.3",
+            "属性": "水"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "82a414ed7bfb6493da1d93d213726b0bfffe2a598cafaf45b468630e1481122f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,93 @@
+{
+    "type": "item",
+    "item_id": "300420",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300420\/"
+    },
+    "name": "迷宮のヴェルゼブブカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "全ての基本ステータス + 3\n[オルタネイトクリップ]と\n共に装備時、追加で\n全ての特性ステータス + 3\n変動詠唱時間 - 30%",
+    "description_lines": [
+        "全ての基本ステータス + 3",
+        "[オルタネイトクリップ]と",
+        "共に装備時、追加で",
+        "全ての特性ステータス + 3",
+        "変動詠唱時間 - 30%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "迷宮のヴェルゼブブ（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_113"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@ld100",
+            "map_code": "3@ld100"
+        },
+        {
+            "name": "幻影の迷宮 永遠の悪夢",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@le100",
+            "map_code": "3@le100"
+        }
+    ],
+    "source_html_sha256": "7878dd6f2029a4e6caa3f0a2189baed0d83110aa1b65fe300dc746a3cabbac70",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

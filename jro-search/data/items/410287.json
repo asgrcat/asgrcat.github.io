@@ -1,0 +1,102 @@
+{
+    "type": "item",
+    "item_id": "410287",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/410287\/"
+    },
+    "name": "[衣装] コズミックコネクション(肩にかける物)[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "support",
+        "support_equipment_type": "costume",
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "宙より注ぐ数多の\n魔力から作られた\n天体観測用の\n衣装用機器。\n術式は星外の理で\n構築されており\n現代の魔術・科学では\n全容を把握できない。\nキャラクターに\nグラフィックが反映される\nエフェクト装備のため、\nエフェクト(\/effect)を\nOFFにしていると\n装備グラフィックのみ\n表示される",
+    "description_lines": [
+        "宙より注ぐ数多の",
+        "魔力から作られた",
+        "天体観測用の",
+        "衣装用機器。",
+        "術式は星外の理で",
+        "構築されており",
+        "現代の魔術・科学では",
+        "全容を把握できない。",
+        "キャラクターに",
+        "グラフィックが反映される",
+        "エフェクト装備のため、",
+        "エフェクト(\/effect)を",
+        "OFFにしていると",
+        "装備グラフィックのみ",
+        "表示される"
+    ],
+    "properties": {
+        "series": "costume",
+        "series_normalized": [
+            "costume"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "garment",
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "衣装",
+            "位置": "肩にかける物",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "0",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e291aae7d64c972c5bdcdf3840fd14e0b5ad0d532558da61886d16146078e87f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

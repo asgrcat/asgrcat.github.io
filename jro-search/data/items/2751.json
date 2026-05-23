@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "2751",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2751\/"
+    },
+    "name": "アカデミーバッジ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "第1過程修了でもらえる\nアカデミーのバッジ。\nバッジの形には\n一人前の冒険者が\n知識を蓄えたのち\n巣立っていけるようにと\n祈りが込められている。\nBaseLv79以下の時、追加で\nMaxHP + 400 , MaxSP + 200\n[通学バック]と\n共に装備時、追加で\n攻撃速度 + 3%\n変動詠唱時間 - 3%\n[星タマゴバッジ]と\n共に装備時、\nBaseLv79以下の時、追加で\nMaxHP + 200 , MaxSP + 150\nBaseLv80以上の時、追加で\nMaxHP + 600 , MaxSP + 50\n[星タマゴバッジ]と\n[アカデミー新入生帽子]、\n[アカデミー第一修了帽子]の\nいずれかと共に装備時、\n追加で\nMaxHP - 200 , MaxSP - 150",
+    "description_lines": [
+        "第1過程修了でもらえる",
+        "アカデミーのバッジ。",
+        "バッジの形には",
+        "一人前の冒険者が",
+        "知識を蓄えたのち",
+        "巣立っていけるようにと",
+        "祈りが込められている。",
+        "BaseLv79以下の時、追加で",
+        "MaxHP + 400 , MaxSP + 200",
+        "[通学バック]と",
+        "共に装備時、追加で",
+        "攻撃速度 + 3%",
+        "変動詠唱時間 - 3%",
+        "[星タマゴバッジ]と",
+        "共に装備時、",
+        "BaseLv79以下の時、追加で",
+        "MaxHP + 200 , MaxSP + 150",
+        "BaseLv80以上の時、追加で",
+        "MaxHP + 600 , MaxSP + 50",
+        "[星タマゴバッジ]と",
+        "[アカデミー新入生帽子]、",
+        "[アカデミー第一修了帽子]の",
+        "いずれかと共に装備時、",
+        "追加で",
+        "MaxHP - 200 , MaxSP - 150"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "68b7a6ed2bc228e91db711a41509de7c572e6f723bb06f7167b95ba80c88415f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

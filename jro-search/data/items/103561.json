@@ -1,0 +1,69 @@
+{
+    "type": "item",
+    "item_id": "103561",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/103561\/"
+    },
+    "name": "ラグナロクワールドキャンディ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ラグナロクワールド\n人気グッズの1つ。\nほんのりしたイチゴ味と\nミルクの絶妙なバランスが\n笑顔をもたらします。\nまとめ買いされることが多い\n根強い人気商品です。\nSPを10%回復する",
+    "description_lines": [
+        "ラグナロクワールド",
+        "人気グッズの1つ。",
+        "ほんのりしたイチゴ味と",
+        "ミルクの絶妙なバランスが",
+        "笑顔をもたらします。",
+        "まとめ買いされることが多い",
+        "根強い人気商品です。",
+        "SPを10%回復する"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "d7a595ae34281a2d078d5072a46a3b5f9b577b7dff7fb823c9a00d55670aca73",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

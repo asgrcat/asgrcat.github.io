@@ -1,0 +1,103 @@
+{
+    "type": "item",
+    "item_id": "5926",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5926\/"
+    },
+    "name": "チャームオブフレイムハート[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "火の精霊の力が\n宿っているお守り。\n地の精霊の力を借りることで\nより強い力を発揮できる。\n物理攻撃時、\n地属性モンスターに\n与えるダメージ + 2%\nモンスターを倒した時、\n一定確率で\n[レッドブラッド]をドロップ\n[クレイトス大地の裂け目]と\n共に装備時、追加で\n物理攻撃時、\n地属性モンスターに\n与えるダメージ + 2%\n[クレイトス大地の裂け目]の\n精錬値が5以上の時、\n精錬値が1上がる度に追加で\n物理攻撃時、\n地属性モンスターに\n与えるダメージ + 1%",
+    "description_lines": [
+        "火の精霊の力が",
+        "宿っているお守り。",
+        "地の精霊の力を借りることで",
+        "より強い力を発揮できる。",
+        "物理攻撃時、",
+        "地属性モンスターに",
+        "与えるダメージ + 2%",
+        "モンスターを倒した時、",
+        "一定確率で",
+        "[レッドブラッド]をドロップ",
+        "[クレイトス大地の裂け目]と",
+        "共に装備時、追加で",
+        "物理攻撃時、",
+        "地属性モンスターに",
+        "与えるダメージ + 2%",
+        "[クレイトス大地の裂け目]の",
+        "精錬値が5以上の時、",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃時、",
+        "地属性モンスターに",
+        "与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "下段",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "4173fa518819a7ff1e85c35d628cfd787695216ecd9be8b4aa1ee26d3d5b32bd",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,119 @@
+{
+    "type": "item",
+    "item_id": "450247",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/450247\/"
+    },
+    "name": "光輝[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "全知全能の天空神は\n神罰の霹靂を降すべく\n天界の輝きを纏う。\n攻撃速度 + 10%\n[修羅身弾]の\n習得Lvが1上がる度に追加で\n物理攻撃時、\n全ての種族のモンスターに\n与えるダメージ + 7%\n[閃電歩]\nLv5習得時、\nBaseLvが1上がる度に追加で\n[雷光弾]で\n与えるダメージ + 2%\n[潜龍昇天]\nLv10習得時、追加で\n変動詠唱時間 - 15%\n物理攻撃で\nモンスターを倒した時、\nHP + 150 , SP + 15\n[光輝]の\n精錬値が5以上の時、\nBaseLvが2上がる度に追加で\nAtk + 1\n[光輝]の\n精錬値が7以上の時、\nBaseLvが2上がる度に追加で\nAtk + 1\n[光輝]の\n精錬値が10の時、追加で\n必中攻撃 + 25%\n絶対に壊れない",
+    "description_lines": [
+        "全知全能の天空神は",
+        "神罰の霹靂を降すべく",
+        "天界の輝きを纏う。",
+        "攻撃速度 + 10%",
+        "[修羅身弾]の",
+        "習得Lvが1上がる度に追加で",
+        "物理攻撃時、",
+        "全ての種族のモンスターに",
+        "与えるダメージ + 7%",
+        "[閃電歩]",
+        "Lv5習得時、",
+        "BaseLvが1上がる度に追加で",
+        "[雷光弾]で",
+        "与えるダメージ + 2%",
+        "[潜龍昇天]",
+        "Lv10習得時、追加で",
+        "変動詠唱時間 - 15%",
+        "物理攻撃で",
+        "モンスターを倒した時、",
+        "HP + 150 , SP + 15",
+        "[光輝]の",
+        "精錬値が5以上の時、",
+        "BaseLvが2上がる度に追加で",
+        "Atk + 1",
+        "[光輝]の",
+        "精錬値が7以上の時、",
+        "BaseLvが2上がる度に追加で",
+        "Atk + 1",
+        "[光輝]の",
+        "精錬値が10の時、追加で",
+        "必中攻撃 + 25%",
+        "絶対に壊れない"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": 100,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": true,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "位置": "-",
+            "属性": "無",
+            "スロット": "1",
+            "Def": "100",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "100",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "2c766c62ef2954bd78c90ef714b9958c9005b3aa2dc5ae8cf7e24dcc17576320",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

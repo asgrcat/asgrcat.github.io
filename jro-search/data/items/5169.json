@@ -1,0 +1,82 @@
+{
+    "type": "item",
+    "item_id": "5169",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5169\/"
+    },
+    "name": "花嫁の仮面[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "芝居で“花嫁”を演じる人が被る白い仮面。ほっぺの紅がかわいい。\nテコン系が装備すると、LUK + 2、クリティカル + 5。",
+    "description_lines": [
+        "芝居で“花嫁”を演じる人が被る白い仮面。ほっぺの紅がかわいい。",
+        "テコン系が装備すると、LUK + 2、クリティカル + 5。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 4,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 40,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "4",
+            "位置": "上中段",
+            "重量": "50",
+            "要求レベル": "40",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "bef94a04fcd9d4e2636809e24abe318e6c489429a687e63d980c3aae8a6168ab",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,116 @@
+{
+    "type": "item",
+    "item_id": "32006",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/32006\/"
+    },
+    "name": "猟乱槍[3]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 3,
+        "enchant_slot_count": 1,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "炎の力を帯びた槍。\n\"百火\"の力を取り戻すことで\n本来の性能を発揮することが\nできると云われているが…。\n[猟乱槍]の\n精錬値が7以上の時、追加で\n物理攻撃時、\n昆虫・人間形モンスターに\n与えるダメージ + 10%\nプレイヤーには\n発動しない\n水・地属性モンスターに\n与えるダメージ + 10%\n[猟乱槍]の\n精錬値が9以上の時、追加で\n物理攻撃時、\n昆虫・人間形モンスターに\n与えるダメージ + 15%\nプレイヤーには\n発動しない\n水・地属性モンスターに\n与えるダメージ + 15%",
+    "description_lines": [
+        "炎の力を帯びた槍。",
+        "\"百火\"の力を取り戻すことで",
+        "本来の性能を発揮することが",
+        "できると云われているが…。",
+        "[猟乱槍]の",
+        "精錬値が7以上の時、追加で",
+        "物理攻撃時、",
+        "昆虫・人間形モンスターに",
+        "与えるダメージ + 10%",
+        "プレイヤーには",
+        "発動しない",
+        "水・地属性モンスターに",
+        "与えるダメージ + 10%",
+        "[猟乱槍]の",
+        "精錬値が9以上の時、追加で",
+        "物理攻撃時、",
+        "昆虫・人間形モンスターに",
+        "与えるダメージ + 15%",
+        "プレイヤーには",
+        "発動しない",
+        "水・地属性モンスターに",
+        "与えるダメージ + 15%"
+    ],
+    "properties": {
+        "series": "one_handed_spear",
+        "series_normalized": [
+            "one_handed_spear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "火",
+        "slot": 3,
+        "def": null,
+        "atk": 140,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 200,
+        "weapon_level": 3,
+        "required_level": 50,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true
+            },
+            "include_jobs": {
+                "swordman": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手槍",
+            "攻撃": "140",
+            "重量": "200",
+            "属性": "火",
+            "武器レベル": "3",
+            "要求レベル": "50",
+            "装備": "ソードマン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "37d8ba2febf6c650d00a7de011ec096a2cdaab5ffdb922b30644a6ab99511b30",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

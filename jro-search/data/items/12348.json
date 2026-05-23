@@ -1,0 +1,72 @@
+{
+    "type": "item",
+    "item_id": "12348",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12348\/"
+    },
+    "name": "マヌクの信念",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "マヌクの研究所で\n作られている栄養剤。\n10分間、マヌクフィールドの\nモンスターに魔法攻撃で\n与えるダメージ + 10%\n（ネペンテス、タタチョ、\nセンチピード、\nセンチピード幼虫、\nヒルスリオン、\nブラディウムゴーレム、\nハードロックマンモス）",
+    "description_lines": [
+        "マヌクの研究所で",
+        "作られている栄養剤。",
+        "10分間、マヌクフィールドの",
+        "モンスターに魔法攻撃で",
+        "与えるダメージ + 10%",
+        "（ネペンテス、タタチョ、",
+        "センチピード、",
+        "センチピード幼虫、",
+        "ヒルスリオン、",
+        "ブラディウムゴーレム、",
+        "ハードロックマンモス）"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 5,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "5"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "0bb01ca41e5c885b47944b7ca4c104befc3d1c7fd57ee66acb06b0a8759644d2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

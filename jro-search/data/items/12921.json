@@ -1,0 +1,66 @@
+{
+    "type": "item",
+    "item_id": "12921",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12921\/"
+    },
+    "name": "濃縮オリデオコンの箱",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "[濃縮オリデオコン]が\n1個入っている箱。\n[濃縮オリデオコンの箱]は\n倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "[濃縮オリデオコン]が",
+        "1個入っている箱。",
+        "[濃縮オリデオコンの箱]は",
+        "倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "3ba175c3e478601c11435b4a7e71d1f6ac58bcc86690fdadb35f29c346d116e9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,220 @@
+{
+    "type": "item",
+    "item_id": "13473",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13473\/"
+    },
+    "name": "ゴッズソード[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true,
+                "novice": true,
+                "super_novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "強大な敵を討ち滅ぼす為に\n神々の手によって\n命を吹き込まれた\nと言われる両刃の剣。\n振れば真空の刃を生み出し\n敵の首を刎ねるという。\nAgi + 5\nCri + 50\n完全回避 + 20\n物理攻撃時、\n不死・悪魔形モンスターに\n与えるダメージ + 30%\n物理攻撃命中時、\n一定確率で敵にオートスペル\n[ソウルブレイカー]Lv3発動\n[ソウルブレイカー]の\n習得Lvが4以上の場合、\n習得Lvで発動\n[ゴッズソード]の\n精錬値が1上がる度に\n追加でオートスペル\n[ソウルブレイカー]の\n発動率が上昇\n[ゴッズソード]の\n精錬値が8以上の時、追加で\n[ソウルブレイカー]\nLv3使用可能\n[怨霊武士カード]と\n共に装備時、追加で\n攻撃速度 + 10%\n物理攻撃で\n与えるダメージ + 20%\n[ソウルブレイカー]使用時、\n一定確率で\n3秒間、完全回避 + 100\n[封印された\n怨霊武士カード]と\n共に装備時、追加で\n攻撃速度 + 10%\n物理攻撃で\n与えるダメージ + 20%\n[ソウルブレイカー]使用時、\n一定確率で\n3秒間、完全回避 + 30",
+    "description_lines": [
+        "強大な敵を討ち滅ぼす為に",
+        "神々の手によって",
+        "命を吹き込まれた",
+        "と言われる両刃の剣。",
+        "振れば真空の刃を生み出し",
+        "敵の首を刎ねるという。",
+        "Agi + 5",
+        "Cri + 50",
+        "完全回避 + 20",
+        "物理攻撃時、",
+        "不死・悪魔形モンスターに",
+        "与えるダメージ + 30%",
+        "物理攻撃命中時、",
+        "一定確率で敵にオートスペル",
+        "[ソウルブレイカー]Lv3発動",
+        "[ソウルブレイカー]の",
+        "習得Lvが4以上の場合、",
+        "習得Lvで発動",
+        "[ゴッズソード]の",
+        "精錬値が1上がる度に",
+        "追加でオートスペル",
+        "[ソウルブレイカー]の",
+        "発動率が上昇",
+        "[ゴッズソード]の",
+        "精錬値が8以上の時、追加で",
+        "[ソウルブレイカー]",
+        "Lv3使用可能",
+        "[怨霊武士カード]と",
+        "共に装備時、追加で",
+        "攻撃速度 + 10%",
+        "物理攻撃で",
+        "与えるダメージ + 20%",
+        "[ソウルブレイカー]使用時、",
+        "一定確率で",
+        "3秒間、完全回避 + 100",
+        "[封印された",
+        "怨霊武士カード]と",
+        "共に装備時、追加で",
+        "攻撃速度 + 10%",
+        "物理攻撃で",
+        "与えるダメージ + 20%",
+        "[ソウルブレイカー]使用時、",
+        "一定確率で",
+        "3秒間、完全回避 + 30"
+    ],
+    "properties": {
+        "series": "one_handed_sword",
+        "series_normalized": [
+            "one_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": 0,
+        "refinement": true,
+        "breakable": false,
+        "weight": 130,
+        "weapon_level": 4,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true,
+                "novice": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "thief": true,
+                "merchant": true,
+                "novice": true,
+                "super_novice": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手剣",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "150",
+            "Matk": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "130",
+            "要求レベル": "100",
+            "装備": "スーパーノービス系 3次職ソードマン系 3次職シーフ系 3次職マーチャント系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "肉団子野郎TM",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/C3_WILOW"
+        },
+        {
+            "name": "パワフル肉団子野郎TM",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/C4_WILD_ROSE"
+        },
+        {
+            "name": "魔眼の肉団子野郎TM",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/C5_WICKED_NYMPH"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "ソアマッスルA",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer17",
+            "map_code": "ev_summer17"
+        },
+        {
+            "name": "ソアマッスルB",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer18",
+            "map_code": "ev_summer18"
+        },
+        {
+            "name": "ソアマッスルC",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer19",
+            "map_code": "ev_summer19"
+        },
+        {
+            "name": "ソアマッスルD",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer20",
+            "map_code": "ev_summer20"
+        },
+        {
+            "name": "ソアマッスルE",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer21",
+            "map_code": "ev_summer21"
+        },
+        {
+            "name": "ソアマッスルF",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer22",
+            "map_code": "ev_summer22"
+        },
+        {
+            "name": "ソアマッスルG",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer23",
+            "map_code": "ev_summer23"
+        },
+        {
+            "name": "ソアマッスルH",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer24",
+            "map_code": "ev_summer24"
+        },
+        {
+            "name": "ソアマッスルI",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer25",
+            "map_code": "ev_summer25"
+        },
+        {
+            "name": "ソアマッスルJ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ev_summer26",
+            "map_code": "ev_summer26"
+        }
+    ],
+    "source_html_sha256": "8c23feb9d4cc51908332b8d32411033f742db5537aaa8589d13e24958079abd5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

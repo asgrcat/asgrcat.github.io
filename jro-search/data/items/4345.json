@@ -1,0 +1,151 @@
+{
+    "type": "item",
+    "item_id": "4345",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4345\/"
+    },
+    "name": "ヒルウィンドカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "装備解除時、SP - 50\n[サンダーストーム]、\n[ユピテルサンダー]、\n[ロードオブヴァーミリオン]\nで与えるダメージ + 5%\n[魔導剣]と\n共に装備時、追加で\n物理攻撃命中時、\nオートスペル\n[ライトニングボルト]Lv5発動\n[魔導剣]の\n精錬値が1上がる度に\nオートスペル\n[ライトニングボルト]Lv5の\n発動率が上昇\n[レインボウ]と\n共に装備時、追加で\n物理攻撃命中時、\n一定確率で敵にオートスペル\n[ライトニングボルト]Lv4、\n敵を中心にオートスペル\n[サンダーストーム]Lv4発動\n[レインボウ]の\n精錬値が5以上の時、\n[レインボウ]の\n精錬値が1上がる度に追加で\nオートスペル\n[ライトニングボルト]、\n[サンダーストーム]の\n発動率と発動Lvが上昇",
+    "description_lines": [
+        "装備解除時、SP - 50",
+        "[サンダーストーム]、",
+        "[ユピテルサンダー]、",
+        "[ロードオブヴァーミリオン]",
+        "で与えるダメージ + 5%",
+        "[魔導剣]と",
+        "共に装備時、追加で",
+        "物理攻撃命中時、",
+        "オートスペル",
+        "[ライトニングボルト]Lv5発動",
+        "[魔導剣]の",
+        "精錬値が1上がる度に",
+        "オートスペル",
+        "[ライトニングボルト]Lv5の",
+        "発動率が上昇",
+        "[レインボウ]と",
+        "共に装備時、追加で",
+        "物理攻撃命中時、",
+        "一定確率で敵にオートスペル",
+        "[ライトニングボルト]Lv4、",
+        "敵を中心にオートスペル",
+        "[サンダーストーム]Lv4発動",
+        "[レインボウ]の",
+        "精錬値が5以上の時、",
+        "[レインボウ]の",
+        "精錬値が1上がる度に追加で",
+        "オートスペル",
+        "[ライトニングボルト]、",
+        "[サンダーストーム]の",
+        "発動率と発動Lvが上昇"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ヒルウィンドランサー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HILL_WIND"
+        },
+        {
+            "name": "ヒルウィンド",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/HILL_WIND_1"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "ラヴィーネ山脈01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ravi",
+            "map_code": "1@ravi"
+        },
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "幻影の迷宮 凍える氷穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld103",
+            "map_code": "2@ld103"
+        },
+        {
+            "name": "幻影の迷宮 凍える氷穴",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le103",
+            "map_code": "2@le103"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "氷の洞窟 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ice_dun01",
+            "map_code": "ice_dun01"
+        },
+        {
+            "name": "ラヘルフィールド 05（アウドムラ草原）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild05",
+            "map_code": "ra_fild05"
+        }
+    ],
+    "source_html_sha256": "70edac3d7dabb16c955d3f7916235e85cffcdc98c890f1a829e5b01bf7130bc8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

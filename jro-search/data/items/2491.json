@@ -1,0 +1,120 @@
+{
+    "type": "item",
+    "item_id": "2491",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2491\/"
+    },
+    "name": "ビョンウンゴブーツ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "人間に対するビョンウンゴの\n復讐心が強烈に感じられる\n不吉なブーツ。\n精錬値が1上がる度に\nMdef + 1\n[カラサック]\n[ブワヤのフードマント]\n[バコナワの鱗鎧]\n[ビョンウンゴブーツ]\nを共に装備時、追加で\nMaxHP + 20%\nMaxSP + 10%\nブギスギス\nマナナンガル\nマンククーラム\nティクバラン\nチャナック\nワクワク\nジェジェリン\n働きブワヤ\nブワヤの影\nビョンウンゴ\nブワヤ\nバコナワ\nから受けるダメージ - 30%",
+    "description_lines": [
+        "人間に対するビョンウンゴの",
+        "復讐心が強烈に感じられる",
+        "不吉なブーツ。",
+        "精錬値が1上がる度に",
+        "Mdef + 1",
+        "[カラサック]",
+        "[ブワヤのフードマント]",
+        "[バコナワの鱗鎧]",
+        "[ビョンウンゴブーツ]",
+        "を共に装備時、追加で",
+        "MaxHP + 20%",
+        "MaxSP + 10%",
+        "ブギスギス",
+        "マナナンガル",
+        "マンククーラム",
+        "ティクバラン",
+        "チャナック",
+        "ワクワク",
+        "ジェジェリン",
+        "働きブワヤ",
+        "ブワヤの影",
+        "ビョンウンゴ",
+        "ブワヤ",
+        "バコナワ",
+        "から受けるダメージ - 30%"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 10,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 60,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "防御": "10",
+            "重量": "60",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "忌み木のビョンウンゴ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BANGUNGOT_3"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "闇のビョンウンゴ病院2階",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ma_h",
+            "map_code": "1@ma_h"
+        }
+    ],
+    "source_html_sha256": "01ad368982159c5a88623202530fde7cc4ab2b72421696868d18fc4e2c811691",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

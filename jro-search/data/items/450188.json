@@ -1,0 +1,120 @@
+{
+    "type": "item",
+    "item_id": "450188",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/450188\/"
+    },
+    "name": "覚醒魔呪のメイル[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "かつて古王が愛用した\n恐るべき力を宿す鎧。\n元は威風堂々たる\n白銀の甲冑だったが\n魔術にも秀でた王の\n強大な呪詛に侵食され\n敵対者の魂をも飲み込む\n漆黒の闇に染まった。\nなおも修羅の道を邁進し\nより多くの呪詛と怨嗟で\nその身を汚した結果、\n惨禍はさらに極大化する。\n全ての属性攻撃で\n受けるダメージ - 5%\n[覚醒魔呪のメイル]の\n精錬値が1上がる度に追加で\nMaxHP + 3%\n[覚醒魔呪のメイル]の\n精錬値が7以上の時、追加で\n[スペルブレイカー]Lv1\n使用可能\n[覚醒魔呪のマント]、\n[覚醒魔呪のブーツ]と\n共に装備時、追加で\n全ての属性攻撃で\n受けるダメージ - 5%\n遠距離物理攻撃で\n受けるダメージ - 5%\nBaseLvが1上がる度に追加で\nMaxHP + 66 , MaxSP + 6\n[覚醒魔呪の指輪]と\n共に装備時、追加で\nMaxHP + 30%",
+    "description_lines": [
+        "かつて古王が愛用した",
+        "恐るべき力を宿す鎧。",
+        "元は威風堂々たる",
+        "白銀の甲冑だったが",
+        "魔術にも秀でた王の",
+        "強大な呪詛に侵食され",
+        "敵対者の魂をも飲み込む",
+        "漆黒の闇に染まった。",
+        "なおも修羅の道を邁進し",
+        "より多くの呪詛と怨嗟で",
+        "その身を汚した結果、",
+        "惨禍はさらに極大化する。",
+        "全ての属性攻撃で",
+        "受けるダメージ - 5%",
+        "[覚醒魔呪のメイル]の",
+        "精錬値が1上がる度に追加で",
+        "MaxHP + 3%",
+        "[覚醒魔呪のメイル]の",
+        "精錬値が7以上の時、追加で",
+        "[スペルブレイカー]Lv1",
+        "使用可能",
+        "[覚醒魔呪のマント]、",
+        "[覚醒魔呪のブーツ]と",
+        "共に装備時、追加で",
+        "全ての属性攻撃で",
+        "受けるダメージ - 5%",
+        "遠距離物理攻撃で",
+        "受けるダメージ - 5%",
+        "BaseLvが1上がる度に追加で",
+        "MaxHP + 66 , MaxSP + 6",
+        "[覚醒魔呪の指輪]と",
+        "共に装備時、追加で",
+        "MaxHP + 30%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": 60,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 130,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "位置": "-",
+            "属性": "無",
+            "スロット": "1",
+            "Def": "60",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "100",
+            "要求レベル": "130",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "df5e1c917333857b2698614397b9bb67268e39b38910b264a105c78cb2742c03",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

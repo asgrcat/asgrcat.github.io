@@ -1,0 +1,72 @@
+{
+    "type": "item",
+    "item_id": "12690",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12690\/"
+    },
+    "name": "古いカード帖(兜)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "兜系のカードが\n入っていそうな手帖。\n非常に古く未知の力が\n感じられる。\n手帖を開けることで\nカードを入手可能。",
+    "description_lines": [
+        "兜系のカードが",
+        "入っていそうな手帖。",
+        "非常に古く未知の力が",
+        "感じられる。",
+        "手帖を開けることで",
+        "カードを入手可能。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 5,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "5"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ロックスネイク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AB_MOB_144"
+        }
+    ],
+    "available_maps": [],
+    "source_html_sha256": "4850c88585bc5fed1cef7400112f833417b2c222002ca79a60d274bc823028fd",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,66 @@
+{
+    "type": "item",
+    "item_id": "25660",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/25660\/"
+    },
+    "name": "アクエリアスの欠片",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "天空に輝く星座の力が\n零れ落ちて物質化した物。\nその小さな力を集めることで\n水瓶の加護が\n得られるという。",
+    "description_lines": [
+        "天空に輝く星座の力が",
+        "零れ落ちて物質化した物。",
+        "その小さな力を集めることで",
+        "水瓶の加護が",
+        "得られるという。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "50fa20756e8ce8be47e94e924c551690b37802b12f88cb44347cd22b3c3ef40d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

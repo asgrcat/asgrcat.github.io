@@ -1,0 +1,70 @@
+{
+    "type": "item",
+    "item_id": "1001150",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1001150\/"
+    },
+    "name": "ペット用くさった包帯",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "古くてくさった、\n価値のない包帯。\nキューペット\n[エンシェントマミー]に\n進化するためのアイテム。\n[ペット用\nくさった包帯]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "古くてくさった、",
+        "価値のない包帯。",
+        "キューペット",
+        "[エンシェントマミー]に",
+        "進化するためのアイテム。",
+        "[ペット用",
+        "くさった包帯]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "dab121c212d8e355c6f6600968fe1be74fdd51f2fbb241ed6db14e33542181f0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

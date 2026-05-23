@@ -1,0 +1,133 @@
+{
+    "type": "item",
+    "item_id": "27008",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/27008\/"
+    },
+    "name": "魔眼のアムダライスカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "armor"
+        ],
+        "card_attachable_positions": {
+            "armor": true
+        }
+    },
+    "description": "物理・魔法攻撃で\n与えるダメージ + 6%\n6秒毎にHP - 666 , SP - 66\n装備解除時、\nHP - 6666 , SP - 666\n精錬値が1上がる度に追加で\n物理・魔法攻撃で\n与えるダメージ + 1%\n精錬値が9以上の時、追加で\n絶対に凍結状態にならない\n[殺戮の魔眼カード]と\n共に装備時、追加で\n物理・魔法攻撃で\n与えるダメージ + 15%\n闇属性攻撃で\n受けるダメージ - 50%\n[英雄の凱歌]と\n共に装備時、追加で\n物理・魔法攻撃で\n与えるダメージ + 15%\n6秒毎にHP + 666 , SP + 66",
+    "description_lines": [
+        "物理・魔法攻撃で",
+        "与えるダメージ + 6%",
+        "6秒毎にHP - 666 , SP - 66",
+        "装備解除時、",
+        "HP - 6666 , SP - 666",
+        "精錬値が1上がる度に追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 1%",
+        "精錬値が9以上の時、追加で",
+        "絶対に凍結状態にならない",
+        "[殺戮の魔眼カード]と",
+        "共に装備時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 15%",
+        "闇属性攻撃で",
+        "受けるダメージ - 50%",
+        "[英雄の凱歌]と",
+        "共に装備時、追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 15%",
+        "6秒毎にHP + 666 , SP + 66"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "armor"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "鎧",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "魔眼のアムダライス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MG_AMDARAIS_H"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "古の騎士団02(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@gl_kh",
+            "map_code": "2@gl_kh"
+        },
+        {
+            "name": "試練の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_22",
+            "map_code": "2@la_22"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_22",
+            "map_code": "2@lb_22"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld222",
+            "map_code": "2@ld222"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf222",
+            "map_code": "2@lf222"
+        },
+        {
+            "name": "亜空の迷宮 悲哀の王城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg122",
+            "map_code": "2@lg122"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        }
+    ],
+    "source_html_sha256": "d49c1ca69d0fc84885c614bb16ebcb2a52a7dacb4bf9f7474cc458eb1bfd2388",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

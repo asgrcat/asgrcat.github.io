@@ -1,0 +1,176 @@
+{
+    "type": "item",
+    "item_id": "1552",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1552\/"
+    },
+    "name": "タブレット[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sage": true,
+                "priest": true,
+                "star_gladiator": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "知恵の言葉が秘められている石版。",
+    "description_lines": [
+        "知恵の言葉が秘められている石版。"
+    ],
+    "properties": {
+        "series": "book",
+        "series_normalized": [
+            "book"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 125,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 80,
+        "weapon_level": 3,
+        "required_level": 27,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "sage": true,
+                "priest": true,
+                "star_gladiator": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "本",
+            "攻撃": "125",
+            "重量": "80",
+            "武器レベル": "3",
+            "要求レベル": "27",
+            "装備": "プリースト系 セージ系 拳聖系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ファラオ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/PHARAOH"
+        },
+        {
+            "name": "鉛筆",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_072"
+        },
+        {
+            "name": "アモンラー（星座の塔）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_T_AMON_RA"
+        },
+        {
+            "name": "アモンラー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AMON_RA"
+        },
+        {
+            "name": "アメンホテプ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/N_AMON_RA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "試練の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_27",
+            "map_code": "2@la_27"
+        },
+        {
+            "name": "封印の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_27",
+            "map_code": "2@lb_27"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld227",
+            "map_code": "2@ld227"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf227",
+            "map_code": "2@lf227"
+        },
+        {
+            "name": "亜空の迷宮 太古の神殿",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg110",
+            "map_code": "2@lg110"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "スフィンクスダンジョン B5F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/in_sphinx5",
+            "map_code": "in_sphinx5"
+        },
+        {
+            "name": "ピラミッドダンジョン B3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd06",
+            "map_code": "moc_pryd06"
+        },
+        {
+            "name": "ピラミッドダンジョン 秘密の地下室02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_prydn2",
+            "map_code": "moc_prydn2"
+        }
+    ],
+    "source_html_sha256": "a2a9bfcec5d5fbb68d36f1280d39483b9d8b6242f61c754e3d2d3718204750ac",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

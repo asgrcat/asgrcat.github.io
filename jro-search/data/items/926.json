@@ -1,0 +1,246 @@
+{
+    "type": "item",
+    "item_id": "926",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/926\/"
+    },
+    "name": "蛇の鱗",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "蛇の鱗でいろんな衣類の製造に使う。収集品商人に売る事ができる。\n_",
+    "description_lines": [
+        "蛇の鱗でいろんな衣類の製造に使う。収集品商人に売る事ができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "スネイク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SNAKE"
+        },
+        {
+            "name": "混沌のサイドワインダー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_SIDE_WINDER"
+        },
+        {
+            "name": "ミサイル",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_080"
+        },
+        {
+            "name": "サイドワインダー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SIDE_WINDER"
+        },
+        {
+            "name": "偵察バジルリスク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DR_BASILISK1"
+        },
+        {
+            "name": "突撃赤バジルリスク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DR_BASILISK2"
+        },
+        {
+            "name": "突撃緑バジルリスク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DR_BASILISK3"
+        },
+        {
+            "name": "ロックスネイク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/AB_MOB_144"
+        },
+        {
+            "name": "アナコンダク",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ANACONDAQ"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "幻影の迷宮 赤の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld101",
+            "map_code": "2@ld101"
+        },
+        {
+            "name": "亜空の迷宮 赤の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg102",
+            "map_code": "2@lg102"
+        },
+        {
+            "name": "周辺エリア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@letter",
+            "map_code": "3@letter"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "実習室（砂漠）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_prac_05",
+            "map_code": "ac_prac_05"
+        },
+        {
+            "name": "龍の巣 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lasa_dun01",
+            "map_code": "lasa_dun01"
+        },
+        {
+            "name": "龍の巣 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lasa_dun02",
+            "map_code": "lasa_dun02"
+        },
+        {
+            "name": "龍の巣 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lasa_dun03",
+            "map_code": "lasa_dun03"
+        },
+        {
+            "name": "ラビオル森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lasa_fild02",
+            "map_code": "lasa_fild02"
+        },
+        {
+            "name": "龍之城フィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lou_fild01",
+            "map_code": "lou_fild01"
+        },
+        {
+            "name": "ソグラト砂漠 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild02",
+            "map_code": "moc_fild02"
+        },
+        {
+            "name": "ソグラト砂漠 13",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_fild13",
+            "map_code": "moc_fild13"
+        },
+        {
+            "name": "ピラミッドダンジョン 1F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd01",
+            "map_code": "moc_pryd01"
+        },
+        {
+            "name": "ピラミッドダンジョン B3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd06",
+            "map_code": "moc_pryd06"
+        },
+        {
+            "name": "フェイヨン迷いの森 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/pay_fild02",
+            "map_code": "pay_fild02"
+        },
+        {
+            "name": "迷宮の森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze01",
+            "map_code": "prt_maze01"
+        },
+        {
+            "name": "歪んだ迷宮の森",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_mz03_i",
+            "map_code": "prt_mz03_i"
+        },
+        {
+            "name": "ベインスフィールド 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ve_fild07",
+            "map_code": "ve_fild07"
+        },
+        {
+            "name": "ジュノーフィールド 03（エルメスプレート）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/yuno_fild03",
+            "map_code": "yuno_fild03"
+        }
+    ],
+    "source_html_sha256": "dd6826a6fe9903779dea5b90bae06ef8c02dbc64fa5b714c06c5b0abdb70bad4",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

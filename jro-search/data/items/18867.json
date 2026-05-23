@@ -1,0 +1,97 @@
+{
+    "type": "item",
+    "item_id": "18867",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18867\/"
+    },
+    "name": "ヴァジュラ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "lower": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "暴風神ルドラの持つ\n聖具のひとつ。\n口にくわえるサイズで\n作られている。\nDex + 1\n遠距離物理攻撃で\n与えるダメージ + 2%\n[ルドラの弓]と共に装備時、\n追加で遠距離物理攻撃で\n与えるダメージ + 3%\n[ルドラの弓]と共に装備時、\n追加で[ルドラの弓]の\n精錬値が7以上の時、\n遠距離物理攻撃で\n与えるダメージ + 5%",
+    "description_lines": [
+        "暴風神ルドラの持つ",
+        "聖具のひとつ。",
+        "口にくわえるサイズで",
+        "作られている。",
+        "Dex + 1",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 2%",
+        "[ルドラの弓]と共に装備時、",
+        "追加で遠距離物理攻撃で",
+        "与えるダメージ + 3%",
+        "[ルドラの弓]と共に装備時、",
+        "追加で[ルドラの弓]の",
+        "精錬値が7以上の時、",
+        "遠距離物理攻撃で",
+        "与えるダメージ + 5%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "lower",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 48,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "下段",
+            "重量": "30",
+            "要求レベル": "48",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f4f5f7d49db2fd8c4c7fd3958e7458450b7e4d3e0d6cc1f9a4ffb94dbc3e5ca0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

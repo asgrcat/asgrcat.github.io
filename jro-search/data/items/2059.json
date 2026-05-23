@@ -1,0 +1,180 @@
+{
+    "type": "item",
+    "item_id": "2059",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2059\/"
+    },
+    "name": "イリュージョンサバイバルスタッフ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "magician": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "soul_reaper": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "複数のサバイバルロッドを\n集めて作りだしたスタッフ。\nInt + 3 , Dex + 3\nMaxHP + 2000\n小・中・大型モンスターから\n受けるダメージ - 20%\nBaseLvが170以上の時、\n追加で\n小・中・大型モンスターから\n受けるダメージ - 10%\n[イリュージョン\nサバイバルマント]と\n共に装備時、追加で\n魔法攻撃で\n与えるダメージ + 10%\n火・水・風・地属性攻撃で\n受けるダメージ - 40%\n[イリュージョン\nサバイバルマント]の\n精錬値が1上がる度に追加で\nMaxHP + 1000\n[イリュージョン\nサバイバルマント]と\n共に装備時、\n[イリュージョン\nサバイバルスタッフ]の\n精錬値が1上がる度に追加で\n魔法攻撃で\n与えるダメージ + 3%",
+    "description_lines": [
+        "複数のサバイバルロッドを",
+        "集めて作りだしたスタッフ。",
+        "Int + 3 , Dex + 3",
+        "MaxHP + 2000",
+        "小・中・大型モンスターから",
+        "受けるダメージ - 20%",
+        "BaseLvが170以上の時、",
+        "追加で",
+        "小・中・大型モンスターから",
+        "受けるダメージ - 10%",
+        "[イリュージョン",
+        "サバイバルマント]と",
+        "共に装備時、追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 10%",
+        "火・水・風・地属性攻撃で",
+        "受けるダメージ - 40%",
+        "[イリュージョン",
+        "サバイバルマント]の",
+        "精錬値が1上がる度に追加で",
+        "MaxHP + 1000",
+        "[イリュージョン",
+        "サバイバルマント]と",
+        "共に装備時、",
+        "[イリュージョン",
+        "サバイバルスタッフ]の",
+        "精錬値が1上がる度に追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 3%"
+    ],
+    "properties": {
+        "series": "two_handed_staff",
+        "series_normalized": [
+            "two_handed_staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 100,
+        "mdef": null,
+        "matk": 240,
+        "refinement": true,
+        "breakable": false,
+        "weight": 120,
+        "weapon_level": 4,
+        "required_level": 150,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "magician": true
+            },
+            "include_jobs": {
+                "magician": true,
+                "soul_reaper": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手杖",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "100",
+            "Matk": "240",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "120",
+            "要求レベル": "150",
+            "装備": "3次職マジシャン系 ソウルリーパー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "邪念のオブシディアン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_OBSIDIAN"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld108",
+            "map_code": "2@ld108"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld109",
+            "map_code": "2@ld109"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le108",
+            "map_code": "2@le108"
+        },
+        {
+            "name": "幻影の迷宮 湿った鉱山",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le109",
+            "map_code": "2@le109"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ネジリアン帝国",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_d02_i",
+            "map_code": "ein_d02_i"
+        }
+    ],
+    "source_html_sha256": "d89899d4d7c8852ee40c874ca95c3555a47fd8e1352f2794cfb632cb8524dcfc",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

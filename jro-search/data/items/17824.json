@@ -1,0 +1,78 @@
+{
+    "type": "item",
+    "item_id": "17824",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/17824\/"
+    },
+    "name": "コスたまHelmCollection",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する。\n・[衣装] 虹色の羽耳\n・[衣装] 疾風迅雷\n・[衣装] ダブルホーン\nヘルム\n・[衣装] ヴァナルガンド\nの兜\n・[衣装] 天馬の羽耳\n・[衣装] ダークナイト\nマスク\n・[衣装] 角兜\n・[衣装] 海賊の短剣\n・[衣装] 龍将軍の兜\n・[衣装] 龍の骸骨",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する。",
+        "・[衣装] 虹色の羽耳",
+        "・[衣装] 疾風迅雷",
+        "・[衣装] ダブルホーン",
+        "ヘルム",
+        "・[衣装] ヴァナルガンド",
+        "の兜",
+        "・[衣装] 天馬の羽耳",
+        "・[衣装] ダークナイト",
+        "マスク",
+        "・[衣装] 角兜",
+        "・[衣装] 海賊の短剣",
+        "・[衣装] 龍将軍の兜",
+        "・[衣装] 龍の骸骨"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "4554a551e082d4668147d771d7fdc52a948499cc97616959ff70193245c62d10",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

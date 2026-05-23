@@ -1,0 +1,111 @@
+{
+    "type": "item",
+    "item_id": "18943",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18943\/"
+    },
+    "name": "無形なる地のシルクハット[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "地の神性を持つ\n邪神の力が封じられた\nシルクハット。\n地属性攻撃で\n受けるダメージ - 5%\n火属性攻撃で\n受けるダメージ + 5%\n物理・魔法攻撃を\n受けた時、一定確率で\n敵を深い睡眠状態にする\n物理・魔法攻撃を\n受けた時、一定確率で\n自分のSPが - 30\n[輝く偏四角多面体]と\n共に装備時、追加で\nMaxHP + 5%\n[ホワイトスリムポーション]\nの回復量 + 10%\n人間形モンスターから\n受けるダメージ - 5%\n[無形なる地の\nシルクハット]の\n精錬値が7以上の時、追加で\n人間形モンスターから\n受けるダメージ - 5%\n絶対に壊れない",
+    "description_lines": [
+        "地の神性を持つ",
+        "邪神の力が封じられた",
+        "シルクハット。",
+        "地属性攻撃で",
+        "受けるダメージ - 5%",
+        "火属性攻撃で",
+        "受けるダメージ + 5%",
+        "物理・魔法攻撃を",
+        "受けた時、一定確率で",
+        "敵を深い睡眠状態にする",
+        "物理・魔法攻撃を",
+        "受けた時、一定確率で",
+        "自分のSPが - 30",
+        "[輝く偏四角多面体]と",
+        "共に装備時、追加で",
+        "MaxHP + 5%",
+        "[ホワイトスリムポーション]",
+        "の回復量 + 10%",
+        "人間形モンスターから",
+        "受けるダメージ - 5%",
+        "[無形なる地の",
+        "シルクハット]の",
+        "精錬値が7以上の時、追加で",
+        "人間形モンスターから",
+        "受けるダメージ - 5%",
+        "絶対に壊れない"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 90,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "上段",
+            "重量": "100",
+            "要求レベル": "90",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "4cb3511222cbb498b9c16c6e87af6f147be01a63b8624418e8fad8cc8e23cbd0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

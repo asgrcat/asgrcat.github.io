@@ -1,0 +1,69 @@
+{
+    "type": "item",
+    "item_id": "12722",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/12722\/"
+    },
+    "name": "パイクレシア",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "熱病を引き起こす毒。\n300秒間、\n視野が減少する\nHit - 25%\nFlee - 25%\n3秒毎に100ダメージを受ける\nダメージ表示が\n異常な状態になる",
+    "description_lines": [
+        "熱病を引き起こす毒。",
+        "300秒間、",
+        "視野が減少する",
+        "Hit - 25%",
+        "Flee - 25%",
+        "3秒毎に100ダメージを受ける",
+        "ダメージ表示が",
+        "異常な状態になる"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 2,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "2"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6098cf2fb58304ed54436f546a48cdb4b369acda9ea5f623210638af107865a2",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

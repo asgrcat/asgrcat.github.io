@@ -1,0 +1,121 @@
+{
+    "type": "item",
+    "item_id": "2472",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2472\/"
+    },
+    "name": "審判の靴[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "arch_bishop": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "古代戦争時に多くの\n悪魔達を退けたといわれる\n神官が使っていた\nアーティファクト。\nMaxSP + 150\n[ジュデックス]で\n与えるダメージ + 30%\n[ジュデックス]を\n使用した時のSP消費量 + 40\n[審判のメイス]\n[審判のローブ]\n[審判の靴]\n[審判のショール]\nを共に装備時、\n隠された力が発動する\n[審判のメイス]\n[審判のローブ]\n[審判の靴]\n[審判のショール]\nの精錬値が7以上の場合、\n追加効果が発動する\n[審判のメイスⅡ]\n[審判のローブ]\n[審判の靴]\n[審判のショール]\nを共に装備時、\n隠された力が発動する\n[審判のメイスⅡ]\n[審判のローブ]\n[審判の靴]\n[審判のショール]\nの精錬値が7以上の場合、\n追加効果が発動する",
+    "description_lines": [
+        "古代戦争時に多くの",
+        "悪魔達を退けたといわれる",
+        "神官が使っていた",
+        "アーティファクト。",
+        "MaxSP + 150",
+        "[ジュデックス]で",
+        "与えるダメージ + 30%",
+        "[ジュデックス]を",
+        "使用した時のSP消費量 + 40",
+        "[審判のメイス]",
+        "[審判のローブ]",
+        "[審判の靴]",
+        "[審判のショール]",
+        "を共に装備時、",
+        "隠された力が発動する",
+        "[審判のメイス]",
+        "[審判のローブ]",
+        "[審判の靴]",
+        "[審判のショール]",
+        "の精錬値が7以上の場合、",
+        "追加効果が発動する",
+        "[審判のメイスⅡ]",
+        "[審判のローブ]",
+        "[審判の靴]",
+        "[審判のショール]",
+        "を共に装備時、",
+        "隠された力が発動する",
+        "[審判のメイスⅡ]",
+        "[審判のローブ]",
+        "[審判の靴]",
+        "[審判のショール]",
+        "の精錬値が7以上の場合、",
+        "追加効果が発動する"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 12,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "arch_bishop": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "防御": "12",
+            "重量": "30",
+            "要求レベル": "100",
+            "装備": "アークビショップ系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "45b3fc928358509545df038c796640e405af672aab6ae1a48e564bf319f978a8",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

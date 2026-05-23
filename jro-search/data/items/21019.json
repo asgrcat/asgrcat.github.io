@@ -1,0 +1,127 @@
+{
+    "type": "item",
+    "item_id": "21019",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/21019\/"
+    },
+    "name": "鬼丸[2]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 2,
+        "enchant_slot_count": 2,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "knight": true,
+                "rune_knight": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "天下に名を轟かせた\n5つの名剣のうちの1本。\n扱う者の力に比例して\n刃の鋭さが増す。\n純粋なStrが1上がる度に\n追加でAtk + 1\nただし、Atk増加に影響する\n純粋なStrは最大120まで\n純粋なStrが95以上の時、\n追加でAtk + 40\n純粋なStrが108以上の時、\n追加でAtk + 80\n純粋なStrが120以上の時、\n追加でAtk + 160\n[鬼丸]の\n精錬値が7以上の時、追加で\n武器が絶対に壊れない\n物理攻撃命中時、\n一定確率で自分を中心に\nオートスペル\n[ワイドカース]\nLv2発動\n[鬼丸]の\n精錬値が9以上の時、追加で\n[バーサーク]使用時、\nオートスペル\n[オーバートラストマックス]\nLv5発動\nオートスペル\n[オーバートラストマックス]\n発動時、5,000Zeny消費",
+    "description_lines": [
+        "天下に名を轟かせた",
+        "5つの名剣のうちの1本。",
+        "扱う者の力に比例して",
+        "刃の鋭さが増す。",
+        "純粋なStrが1上がる度に",
+        "追加でAtk + 1",
+        "ただし、Atk増加に影響する",
+        "純粋なStrは最大120まで",
+        "純粋なStrが95以上の時、",
+        "追加でAtk + 40",
+        "純粋なStrが108以上の時、",
+        "追加でAtk + 80",
+        "純粋なStrが120以上の時、",
+        "追加でAtk + 160",
+        "[鬼丸]の",
+        "精錬値が7以上の時、追加で",
+        "武器が絶対に壊れない",
+        "物理攻撃命中時、",
+        "一定確率で自分を中心に",
+        "オートスペル",
+        "[ワイドカース]",
+        "Lv2発動",
+        "[鬼丸]の",
+        "精錬値が9以上の時、追加で",
+        "[バーサーク]使用時、",
+        "オートスペル",
+        "[オーバートラストマックス]",
+        "Lv5発動",
+        "オートスペル",
+        "[オーバートラストマックス]",
+        "発動時、5,000Zeny消費"
+    ],
+    "properties": {
+        "series": "two_handed_sword",
+        "series_normalized": [
+            "two_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 2,
+        "def": null,
+        "atk": 75,
+        "mdef": null,
+        "matk": 0,
+        "refinement": true,
+        "breakable": true,
+        "weight": 420,
+        "weapon_level": 4,
+        "required_level": 130,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "knight": true,
+                "rune_knight": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手剣",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "2",
+            "Atk": "75",
+            "Matk": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "420",
+            "要求レベル": "130",
+            "装備": "ルーンナイト系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "691a82c70e8bf339942e9294f820a07cc046b3fea926680522a74432cc966bf1",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,91 @@
+{
+    "type": "item",
+    "item_id": "19273",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/19273\/"
+    },
+    "name": "ジェミニ-S58の目(赤)[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ジェミニ-S58の\n目を模して作成された\nカラーコンタクト。\n石化・睡眠に\n対する耐性 + 10%\n純粋なVitが90以上の時、\n追加で\n石化・睡眠に\n対する耐性 + 40%",
+    "description_lines": [
+        "ジェミニ-S58の",
+        "目を模して作成された",
+        "カラーコンタクト。",
+        "石化・睡眠に",
+        "対する耐性 + 10%",
+        "純粋なVitが90以上の時、",
+        "追加で",
+        "石化・睡眠に",
+        "対する耐性 + 40%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "中段",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "519ddcb7f28df07ac0395b8602d90100b119889d276a8069c8b42554eb713feb",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

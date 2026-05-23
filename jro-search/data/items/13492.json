@@ -1,0 +1,144 @@
+{
+    "type": "item",
+    "item_id": "13492",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13492\/"
+    },
+    "name": "アビスブレイド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "異形の者の魔力を受けて\n変異した武器。\n同じ外見でも、\nその性能は異なるという。\n[アビスブレイド]の\n精錬値が7以上の時、追加で\n物理攻撃で\n与えるダメージ + 5%\nプレイヤーから\n受けるダメージ - 5%\n[アビスブレイド]の\n精錬値が9以上の時、追加で\n物理攻撃で\n与えるダメージ + 5%\nプレイヤーから\n受けるダメージ - 5%\n[迷宮の\nドッペルゲンガーカード]と\n共に装備時、追加で\n攻撃速度 + 10%\n物理攻撃で\n与えるダメージ + 10%\n[ヘヴンリーオーダー]と\n共に装備時、追加で\nプレイヤーから\n受けるダメージ - 3%\n物理・魔法攻撃時、\n全ての属性のモンスターに\n与えるダメージ + 15%",
+    "description_lines": [
+        "異形の者の魔力を受けて",
+        "変異した武器。",
+        "同じ外見でも、",
+        "その性能は異なるという。",
+        "[アビスブレイド]の",
+        "精錬値が7以上の時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 5%",
+        "プレイヤーから",
+        "受けるダメージ - 5%",
+        "[アビスブレイド]の",
+        "精錬値が9以上の時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 5%",
+        "プレイヤーから",
+        "受けるダメージ - 5%",
+        "[迷宮の",
+        "ドッペルゲンガーカード]と",
+        "共に装備時、追加で",
+        "攻撃速度 + 10%",
+        "物理攻撃で",
+        "与えるダメージ + 10%",
+        "[ヘヴンリーオーダー]と",
+        "共に装備時、追加で",
+        "プレイヤーから",
+        "受けるダメージ - 3%",
+        "物理・魔法攻撃時、",
+        "全ての属性のモンスターに",
+        "与えるダメージ + 15%"
+    ],
+    "properties": {
+        "series": "one_handed_sword",
+        "series_normalized": [
+            "one_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": 130,
+        "refinement": true,
+        "breakable": false,
+        "weight": 120,
+        "weapon_level": 4,
+        "required_level": 165,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手剣",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "150",
+            "Matk": "130",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "120",
+            "要求レベル": "165",
+            "装備": "3次職ソードマン系 3次職マーチャント系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "シャドウフェモン（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_69"
+        },
+        {
+            "name": "デッドエンド（B）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_73"
+        },
+        {
+            "name": "迷宮の宝箱（E）（MD）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_MAZEMOB_75"
+        }
+    ],
+    "available_maps": [],
+    "source_html_sha256": "efef6d527a52d6865e1c7b4c2eeab8a1af207b0266226d9b77b482a9859e99c6",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

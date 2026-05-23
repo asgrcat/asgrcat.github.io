@@ -1,0 +1,148 @@
+{
+    "type": "item",
+    "item_id": "620014",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/620014\/"
+    },
+    "name": "メロンツーハンドアックス[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true,
+                "karnos": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "メロンの硬い皮すらも\n易々と叩き割る武器。\nそれによりメロンの\nなめらかな食感を\n堪能することができるのだ。\n物理・魔法攻撃命中時、\n一定確率で5秒間、\nスキル使用時の\n消費SP - 100%\n1秒毎にSP + 100\n[メロン\nツーハンドアックス]の\n精錬値が1上がる度に追加で\n物理攻撃で\n与えるダメージ + 10%\n魔法攻撃で\n与えるダメージ + 5%\n[メロン\nツーハンドアックス]の\n精錬値が7以上の時、追加で\n全ての種族の\nDef・Mdef 50%無視\n[メロン\nツーハンドアックス]の\n精錬値が9以上の時、追加で\n全ての種族の\nDef・Mdef 50%無視\n[メロン\nツーハンドアックス]の\n超越段階が1以上の時、追加で\nボスモンスターから\n受けるダメージ - 40%\n[メロン\nツーハンドアックス]の\n超越段階が1以上の時、\n精錬値が1上がる度に追加で\n物理・魔法攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 6%\n[メロン\nツーハンドアックス]の\n超越段階が1以上の時、\n精錬値が10の時、追加で\nMaxHP + 50% , MaxSP + 50%",
+    "description_lines": [
+        "メロンの硬い皮すらも",
+        "易々と叩き割る武器。",
+        "それによりメロンの",
+        "なめらかな食感を",
+        "堪能することができるのだ。",
+        "物理・魔法攻撃命中時、",
+        "一定確率で5秒間、",
+        "スキル使用時の",
+        "消費SP - 100%",
+        "1秒毎にSP + 100",
+        "[メロン",
+        "ツーハンドアックス]の",
+        "精錬値が1上がる度に追加で",
+        "物理攻撃で",
+        "与えるダメージ + 10%",
+        "魔法攻撃で",
+        "与えるダメージ + 5%",
+        "[メロン",
+        "ツーハンドアックス]の",
+        "精錬値が7以上の時、追加で",
+        "全ての種族の",
+        "Def・Mdef 50%無視",
+        "[メロン",
+        "ツーハンドアックス]の",
+        "精錬値が9以上の時、追加で",
+        "全ての種族の",
+        "Def・Mdef 50%無視",
+        "[メロン",
+        "ツーハンドアックス]の",
+        "超越段階が1以上の時、追加で",
+        "ボスモンスターから",
+        "受けるダメージ - 40%",
+        "[メロン",
+        "ツーハンドアックス]の",
+        "超越段階が1以上の時、",
+        "精錬値が1上がる度に追加で",
+        "物理・魔法攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 6%",
+        "[メロン",
+        "ツーハンドアックス]の",
+        "超越段階が1以上の時、",
+        "精錬値が10の時、追加で",
+        "MaxHP + 50% , MaxSP + 50%"
+    ],
+    "properties": {
+        "series": "two_handed_axe",
+        "series_normalized": [
+            "two_handed_axe"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 320,
+        "mdef": null,
+        "matk": 200,
+        "refinement": true,
+        "breakable": false,
+        "weight": 400,
+        "weapon_level": 4,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true,
+                "karnos": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手斧",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "320",
+            "Matk": "200",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "400",
+            "要求レベル": "100",
+            "装備": "3次職ソードマン系 3次職マーチャント系 カルノス系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "8010cc3188228ec5c8ef3d7a0540810a3119e474b2b7db04851bd1c175f806f0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

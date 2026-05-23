@@ -1,0 +1,74 @@
+{
+    "type": "item",
+    "item_id": "13291",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/13291\/"
+    },
+    "name": "星ヒトデ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "五角形のふっくらした\n星ヒトデ。\n角が硬くなっているため\n投げて使えそうだ。\n[星ヒトデ]は\nNPC売却・倉庫への移動が\n可能です。",
+    "description_lines": [
+        "五角形のふっくらした",
+        "星ヒトデ。",
+        "角が硬くなっているため",
+        "投げて使えそうだ。",
+        "[星ヒトデ]は",
+        "NPC売却・倉庫への移動が",
+        "可能です。"
+    ],
+    "properties": {
+        "series": "throwing",
+        "series_normalized": [
+            "throwing"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": null,
+        "def": null,
+        "atk": 110,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": 50,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "投擲",
+            "攻撃": "110",
+            "重量": "0.5",
+            "属性": "無",
+            "要求レベル": "50"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "bc740f837714223d914e64e1f5d25e075f649eab479b5e6454b665b9ec24ac0f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

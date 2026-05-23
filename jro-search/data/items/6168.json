@@ -1,0 +1,72 @@
+{
+    "type": "item",
+    "item_id": "6168",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6168\/"
+    },
+    "name": "グラウンドプティット交換チケット",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "キューペット\n[グラウンドプティット]を\n貰う為に必要な引き換え券。\nギムレットの部屋にいる\n「アッキーラ教授」に渡すと\n[グラウンドプティットの卵]\nを受け取ることができる\n[グラウンドプティット\n交換チケット]は\n倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "キューペット",
+        "[グラウンドプティット]を",
+        "貰う為に必要な引き換え券。",
+        "ギムレットの部屋にいる",
+        "「アッキーラ教授」に渡すと",
+        "[グラウンドプティットの卵]",
+        "を受け取ることができる",
+        "[グラウンドプティット",
+        "交換チケット]は",
+        "倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ab8e27eed133a456bbb0a9394fda1d4fa3763f4a4d27c3e482faf6e150af0b3c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

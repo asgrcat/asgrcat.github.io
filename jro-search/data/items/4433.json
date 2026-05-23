@@ -1,0 +1,130 @@
+{
+    "type": "item",
+    "item_id": "4433",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4433\/"
+    },
+    "name": "インプカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "accessory"
+        ],
+        "card_attachable_positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        }
+    },
+    "description": "[ファイアーボルト]で\n与えるダメージ + 25%\n[ファイアーボルト]の\n変動詠唱時間 - 25%\n[スタッフオブパフィ]と\n共に装備時、追加で\n[ファイアーボルト]の\n固定詠唱時間 + 10秒\n[サーキットボード-OS]と\n共に装備時、追加で\n[ファイアーボルト]の\n固定詠唱時間 + 10秒",
+    "description_lines": [
+        "[ファイアーボルト]で",
+        "与えるダメージ + 25%",
+        "[ファイアーボルト]の",
+        "変動詠唱時間 - 25%",
+        "[スタッフオブパフィ]と",
+        "共に装備時、追加で",
+        "[ファイアーボルト]の",
+        "固定詠唱時間 + 10秒",
+        "[サーキットボード-OS]と",
+        "共に装備時、追加で",
+        "[ファイアーボルト]の",
+        "固定詠唱時間 + 10秒"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "accessory"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "アクセサリー",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "インプ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/IMP"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld104",
+            "map_code": "2@ld104"
+        },
+        {
+            "name": "幻影の迷宮 火山地帯",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le104",
+            "map_code": "2@le104"
+        },
+        {
+            "name": "亜空の迷宮 溶岩の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg105",
+            "map_code": "2@lg105"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "トール火山ダンジョン 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/thor_v01",
+            "map_code": "thor_v01"
+        },
+        {
+            "name": "トール火山ダンジョン 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/thor_v03",
+            "map_code": "thor_v03"
+        }
+    ],
+    "source_html_sha256": "f3a7db359cf2198df92754aff27aea95006d94e5184ce5ba1fa3878fbaff8011",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

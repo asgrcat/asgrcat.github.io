@@ -1,0 +1,112 @@
+{
+    "type": "item",
+    "item_id": "480220",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/480220\/"
+    },
+    "name": "ジンベエザメフロート[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "garment": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ファンにはたまらない\n魅惑的なジンベエザメの\n浮き輪。サマーバカンスで\n解放的になった冒険者達の\n胸を刺激する夏にぴったりな\nアイテム。\n人間形モンスター・\nドラム形プレイヤーから\n受けるダメージ - 5%\n純粋なVitが10上がる度に\n追加で\n水属性攻撃で\n受けるダメージ - 7%\n[ジンベエザメフロート]の\n精錬値が1上がる度に追加で\n念属性攻撃で\n受けるダメージ - 3%\n[ジンベエザメフロート]の\n精錬値が5以上の時、追加で\nDef + 300 , MaxHP + 30%\n[ジンベエザメフロート]の\n精錬値が7以上の時、追加で\n魔法攻撃を受けた時、\n一定確率で\n氷結・冷凍状態を解除する",
+    "description_lines": [
+        "ファンにはたまらない",
+        "魅惑的なジンベエザメの",
+        "浮き輪。サマーバカンスで",
+        "解放的になった冒険者達の",
+        "胸を刺激する夏にぴったりな",
+        "アイテム。",
+        "人間形モンスター・",
+        "ドラム形プレイヤーから",
+        "受けるダメージ - 5%",
+        "純粋なVitが10上がる度に",
+        "追加で",
+        "水属性攻撃で",
+        "受けるダメージ - 7%",
+        "[ジンベエザメフロート]の",
+        "精錬値が1上がる度に追加で",
+        "念属性攻撃で",
+        "受けるダメージ - 3%",
+        "[ジンベエザメフロート]の",
+        "精錬値が5以上の時、追加で",
+        "Def + 300 , MaxHP + 30%",
+        "[ジンベエザメフロート]の",
+        "精錬値が7以上の時、追加で",
+        "魔法攻撃を受けた時、",
+        "一定確率で",
+        "氷結・冷凍状態を解除する"
+    ],
+    "properties": {
+        "series": "garment",
+        "series_normalized": [
+            "garment"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "肩にかける物",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "40",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f62f092b6abeb09ebb6b7f49518b8b902476c072b50149d1dde0caa6f57cf2a5",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

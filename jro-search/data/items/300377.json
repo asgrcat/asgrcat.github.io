@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "300377",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300377\/"
+    },
+    "name": "ウルトラリマキナカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "armor"
+        ],
+        "card_attachable_positions": {
+            "armor": true
+        }
+    },
+    "description": "純粋なDexが10上がる度に\n追加で\n物理攻撃で\n与えるダメージ + 2%\n純粋なDexが130の時、追加で\n物理攻撃で\n与えるダメージ + 20%\n[異境の統轄者]と\n共に装備時、追加で\nMaxHP + 50%\n[グロリア]\nLv5使用可能",
+    "description_lines": [
+        "純粋なDexが10上がる度に",
+        "追加で",
+        "物理攻撃で",
+        "与えるダメージ + 2%",
+        "純粋なDexが130の時、追加で",
+        "物理攻撃で",
+        "与えるダメージ + 20%",
+        "[異境の統轄者]と",
+        "共に装備時、追加で",
+        "MaxHP + 50%",
+        "[グロリア]",
+        "Lv5使用可能"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "armor"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "鎧",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ウルトラリマキナ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_LIMACINA_BOSS"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "亜空の迷宮 煌めきの氷河",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg116",
+            "map_code": "2@lg116"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "凍て付いた鱗の氷河",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_back3_",
+            "map_code": "jor_back3_"
+        }
+    ],
+    "source_html_sha256": "fc6c732e30b38f7a0922695c46dc803572a55cc1e352c6916d84611b4067ce87",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

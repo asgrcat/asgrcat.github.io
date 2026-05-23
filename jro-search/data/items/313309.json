@@ -1,0 +1,70 @@
+{
+    "type": "item",
+    "item_id": "313309",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/313309\/"
+    },
+    "name": "潜在覚醒(トライアングルショットII)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "BaseLvが3上がる度に追加で\n[トライアングルショット]\nで与えるダメージ + 1%\n[豪傑]と\n共に装備時、追加で\nアビスチェイサーが\n装備時、\n[アンリミット]\nLv5使用可能\n装備解除時、\n[アンリミット]を解除する",
+    "description_lines": [
+        "BaseLvが3上がる度に追加で",
+        "[トライアングルショット]",
+        "で与えるダメージ + 1%",
+        "[豪傑]と",
+        "共に装備時、追加で",
+        "アビスチェイサーが",
+        "装備時、",
+        "[アンリミット]",
+        "Lv5使用可能",
+        "装備解除時、",
+        "[アンリミット]を解除する"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e9296a3b02c73ee42415233ddb7a1cc9cb90b0586635d7c369332bf23642ac36",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

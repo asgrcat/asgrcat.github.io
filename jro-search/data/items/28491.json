@@ -1,0 +1,106 @@
+{
+    "type": "item",
+    "item_id": "28491",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28491\/"
+    },
+    "name": "マタギの剣鉈[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "山で狩りをする際には\n欠かせない短剣。\n獲物の解体から草払いなど、\n使用用途は幅広い。\nLuk + 2 , Hit + 10\n遠距離物理攻撃時、\nCri + 5\n[ハイディング]Lv1使用可能\n純粋なLukが100以上の時、\n追加でHit + 5\n遠距離物理攻撃時、\nCri + 10\n[鋭利1]と\n共に装備時、追加で\nHit + 15\n遠距離物理攻撃時、\nCri + 10\n[鋭利2]と\n共に装備時、追加で\nHit + 15\n遠距離物理攻撃時、\nCri + 10",
+    "description_lines": [
+        "山で狩りをする際には",
+        "欠かせない短剣。",
+        "獲物の解体から草払いなど、",
+        "使用用途は幅広い。",
+        "Luk + 2 , Hit + 10",
+        "遠距離物理攻撃時、",
+        "Cri + 5",
+        "[ハイディング]Lv1使用可能",
+        "純粋なLukが100以上の時、",
+        "追加でHit + 5",
+        "遠距離物理攻撃時、",
+        "Cri + 10",
+        "[鋭利1]と",
+        "共に装備時、追加で",
+        "Hit + 15",
+        "遠距離物理攻撃時、",
+        "Cri + 10",
+        "[鋭利2]と",
+        "共に装備時、追加で",
+        "Hit + 15",
+        "遠距離物理攻撃時、",
+        "Cri + 10"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 40,
+        "weapon_level": null,
+        "required_level": 90,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "40",
+            "要求レベル": "90",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "fdbc22e89ded53eee69ce0020697998c408f9d6cceb713f6216e818b98039b5a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

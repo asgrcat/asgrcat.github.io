@@ -1,0 +1,73 @@
+{
+    "type": "item",
+    "item_id": "29443",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/29443\/"
+    },
+    "name": "Z-Clairvoyance",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "[ハイディング]や\n[クローキング]をしている\nモンスターが見える\n[ライオットチップ]と\n共に装備時、\n[ライオットチップ]の\n精錬値が2上がる度に追加で\nMaxHP + 1%\n[<Extreme>]と\n共に装備時、追加で\nMaxHP + 5%\n[<Exam>]と\n共に装備時、追加で\nMaxHP + 7500",
+    "description_lines": [
+        "[ハイディング]や",
+        "[クローキング]をしている",
+        "モンスターが見える",
+        "[ライオットチップ]と",
+        "共に装備時、",
+        "[ライオットチップ]の",
+        "精錬値が2上がる度に追加で",
+        "MaxHP + 1%",
+        "[<Extreme>]と",
+        "共に装備時、追加で",
+        "MaxHP + 5%",
+        "[<Exam>]と",
+        "共に装備時、追加で",
+        "MaxHP + 7500"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "32c31dfa9ea8960509772e6df384c0c332d74e401c37bfa749d8e4093ced4d67",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

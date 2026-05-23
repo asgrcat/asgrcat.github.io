@@ -1,0 +1,101 @@
+{
+    "type": "item",
+    "item_id": "5457",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5457\/"
+    },
+    "name": "月ウサギの帽子[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "月に住んでいるという\n白いウサギの帽子。\n頭に乗せると体が軽くなった\nような気がする。\nそして、おもちを見ると\n無性につきたくなるという。\nAgi + 3 , Dex + 1\nスタンに対する耐性 + 15%\nキューペットモチリンを\n連れているとき、追加で\nスタンに対する耐性 + 10%\nモチリンの親密度が\n[きわめて親しい]場合、\n無形モンスターを倒した時、\n一定確率で\n[おもち]をドロップ",
+    "description_lines": [
+        "月に住んでいるという",
+        "白いウサギの帽子。",
+        "頭に乗せると体が軽くなった",
+        "ような気がする。",
+        "そして、おもちを見ると",
+        "無性につきたくなるという。",
+        "Agi + 3 , Dex + 1",
+        "スタンに対する耐性 + 15%",
+        "キューペットモチリンを",
+        "連れているとき、追加で",
+        "スタンに対する耐性 + 10%",
+        "モチリンの親密度が",
+        "[きわめて親しい]場合、",
+        "無形モンスターを倒した時、",
+        "一定確率で",
+        "[おもち]をドロップ"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 2,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "2",
+            "位置": "上段",
+            "重量": "30",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "8ea2d10d60f658681410683bad6e91f51207b93d2f0ec73efa8b354e5ccb1251",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

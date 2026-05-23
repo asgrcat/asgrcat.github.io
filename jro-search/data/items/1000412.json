@@ -1,0 +1,67 @@
+{
+    "type": "item",
+    "item_id": "1000412",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000412\/"
+    },
+    "name": "罠に掛かった動物",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "森に設置したトラップに\nかかった小さな動物。\n仕掛けた主の日ごとの糧。\n[罠に掛かった動物]は\nあらゆる取引、移動が\nできません",
+    "description_lines": [
+        "森に設置したトラップに",
+        "かかった小さな動物。",
+        "仕掛けた主の日ごとの糧。",
+        "[罠に掛かった動物]は",
+        "あらゆる取引、移動が",
+        "できません"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "84a7f1c95d118e883c629635f40b0b20f53323c9c0d46207d3f971889838fc8a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

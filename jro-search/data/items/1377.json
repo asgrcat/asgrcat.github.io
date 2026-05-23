@@ -1,0 +1,255 @@
+{
+    "type": "item",
+    "item_id": "1377",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1377\/"
+    },
+    "name": "ハリケーンフューリー[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ハリケーンの力を持つ\n巨大な両手斧。\n斧の先端にあるオーブには\nハリケーンの力が封じられて\nおり、武器が強くなる程、\nオーブの力も強くなると\n言われている。\n中型モンスターからの\n攻撃耐性 + 10%\n物理攻撃時、一定確率で\n自分を中心として、\n15x15セル範囲内の\n全ての敵に一定のダメージを\n与えると共に、\n7セルノックバックさせる。\n精錬値が高い程、追加で、\n中型モンスターからの\n攻撃耐性が増加。\n精錬値が高い程、追加で\n攻撃速度が増加。",
+    "description_lines": [
+        "ハリケーンの力を持つ",
+        "巨大な両手斧。",
+        "斧の先端にあるオーブには",
+        "ハリケーンの力が封じられて",
+        "おり、武器が強くなる程、",
+        "オーブの力も強くなると",
+        "言われている。",
+        "中型モンスターからの",
+        "攻撃耐性 + 10%",
+        "物理攻撃時、一定確率で",
+        "自分を中心として、",
+        "15x15セル範囲内の",
+        "全ての敵に一定のダメージを",
+        "与えると共に、",
+        "7セルノックバックさせる。",
+        "精錬値が高い程、追加で、",
+        "中型モンスターからの",
+        "攻撃耐性が増加。",
+        "精錬値が高い程、追加で",
+        "攻撃速度が増加。"
+    ],
+    "properties": {
+        "series": "axe",
+        "series_normalized": [
+            "axe"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": null,
+        "atk": 332,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 350,
+        "weapon_level": 4,
+        "required_level": 80,
+        "equip": {
+            "all": false,
+            "include_groups": {
+                "swordman": true,
+                "merchant": true
+            },
+            "include_jobs": {
+                "swordman": true,
+                "merchant": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "斧",
+            "攻撃": "332",
+            "重量": "350",
+            "武器レベル": "4",
+            "要求レベル": "80",
+            "装備": "転生ソードマン系、転生マーチャント系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ハワード=アルトアイゼン（三次職）（MVP）",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/V_B_HARWORD"
+        },
+        {
+            "name": "死のロイヤルナイト",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MG_M_UNDEAD_KNIGHT_H"
+        },
+        {
+            "name": "ボイタタ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/BOITATA"
+        },
+        {
+            "name": "グルームアンダーナイト",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GLOOMUNDERNIGHT"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "古の騎士団02(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@gl_kh",
+            "map_code": "2@gl_kh"
+        },
+        {
+            "name": "試練の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_04",
+            "map_code": "2@la_04"
+        },
+        {
+            "name": "試練の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_30",
+            "map_code": "2@la_30"
+        },
+        {
+            "name": "封印の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_04",
+            "map_code": "2@lb_04"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_30",
+            "map_code": "2@lb_30"
+        },
+        {
+            "name": "異形の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_04",
+            "map_code": "2@lc_04"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_30",
+            "map_code": "2@lc_30"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld120",
+            "map_code": "2@ld120"
+        },
+        {
+            "name": "幻影の迷宮 塔の地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld129",
+            "map_code": "2@ld129"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld204",
+            "map_code": "2@ld204"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld230",
+            "map_code": "2@ld230"
+        },
+        {
+            "name": "幻影の迷宮 逢魔の館",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le120",
+            "map_code": "2@le120"
+        },
+        {
+            "name": "幻影の迷宮 塔の地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le129",
+            "map_code": "2@le129"
+        },
+        {
+            "name": "幻影の迷宮 魔の湖",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf204",
+            "map_code": "2@lf204"
+        },
+        {
+            "name": "幻影の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf230",
+            "map_code": "2@lf230"
+        },
+        {
+            "name": "亜空の迷宮 生命の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg130",
+            "map_code": "2@lg130"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "滝の中の洞窟 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bra_dun02",
+            "map_code": "bra_dun02"
+        },
+        {
+            "name": "戦死者の墓",
+            "url": "https:\/\/rotool.gungho.jp\/map\/lhz_dun_n",
+            "map_code": "lhz_dun_n"
+        },
+        {
+            "name": "フレイヤ大神殿聖域 05",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_san05",
+            "map_code": "ra_san05"
+        }
+    ],
+    "source_html_sha256": "0fe381cbc41d385bd9a85d0fbc689a2037a50b72f872222122889dd14c38fd35",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

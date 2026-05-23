@@ -1,0 +1,129 @@
+{
+    "type": "item",
+    "item_id": "28220",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/28220\/"
+    },
+    "name": "アヴェンジャーガトリングガン[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "rebellion": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "戦場で未練を残して\nこの世を去った者によって\n作られた闇に染まった武器。\n両手武器でありながら\n人間種族に対して\n高い防御力を持つ。\n物理攻撃時、\n人間形モンスターに\n与えるダメージ + 25%\n人間形モンスターから\n受けるダメージ - 10%\n純粋なAgiが10上がる度に\n追加で\n[ラウンドトリップ]で\n与えるダメージ + 7%\n純粋なAgiが110以上の時、\n追加で\n[ラウンドトリップ]で\n与えるダメージ + 30%\n[アヴェンジャー\nガトリングガン]の\n精錬値が5以上の時、追加で\n物理攻撃時、\n人間形モンスターに\n与えるダメージ + 25%\n人間形モンスターから\n受けるダメージ - 10%\n精錬値が7以上の時、追加で\n物理攻撃時、\n人間形モンスターに\n与えるダメージ + 25%\n人間形モンスターから\n受けるダメージ - 10%\n精錬値が9以上の時、追加で\n[ヒートバレル]の\n再使用待機時間 - 20秒\n絶対に壊れない\n[アヴェンジャー\nガトリングガン]は、\nNPC売却が可能です。",
+    "description_lines": [
+        "戦場で未練を残して",
+        "この世を去った者によって",
+        "作られた闇に染まった武器。",
+        "両手武器でありながら",
+        "人間種族に対して",
+        "高い防御力を持つ。",
+        "物理攻撃時、",
+        "人間形モンスターに",
+        "与えるダメージ + 25%",
+        "人間形モンスターから",
+        "受けるダメージ - 10%",
+        "純粋なAgiが10上がる度に",
+        "追加で",
+        "[ラウンドトリップ]で",
+        "与えるダメージ + 7%",
+        "純粋なAgiが110以上の時、",
+        "追加で",
+        "[ラウンドトリップ]で",
+        "与えるダメージ + 30%",
+        "[アヴェンジャー",
+        "ガトリングガン]の",
+        "精錬値が5以上の時、追加で",
+        "物理攻撃時、",
+        "人間形モンスターに",
+        "与えるダメージ + 25%",
+        "人間形モンスターから",
+        "受けるダメージ - 10%",
+        "精錬値が7以上の時、追加で",
+        "物理攻撃時、",
+        "人間形モンスターに",
+        "与えるダメージ + 25%",
+        "人間形モンスターから",
+        "受けるダメージ - 10%",
+        "精錬値が9以上の時、追加で",
+        "[ヒートバレル]の",
+        "再使用待機時間 - 20秒",
+        "絶対に壊れない",
+        "[アヴェンジャー",
+        "ガトリングガン]は、",
+        "NPC売却が可能です。"
+    ],
+    "properties": {
+        "series": "gatling_gun",
+        "series_normalized": [
+            "gatling_gun"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": null,
+        "atk": 120,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": 4,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "rebellion": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "ガトリングガン",
+            "攻撃": "120",
+            "重量": "0",
+            "武器レベル": "4",
+            "要求レベル": "100",
+            "装備": "リベリオン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "64f91cb61d73a02655c49a19dbd746f149d57897ae372d3b08e535fa1f157860",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

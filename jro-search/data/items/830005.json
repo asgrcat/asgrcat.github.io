@@ -1,0 +1,138 @@
+{
+    "type": "item",
+    "item_id": "830005",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/830005\/"
+    },
+    "name": "アンティークガトリングガン[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "rebellion": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "骨董品として\nガラスケースに\n飾られていた\nガトリングガン。\n現代の技術では\n製造できないようだ。\nBaseLvが1上がる度に追加で\n[クイックドローショット]\nで与えるダメージ + 5%\n純粋なAgiが10上がる度に\n追加で\n[ラウンドトリップ]で\n与えるダメージ + 7%\n純粋なAgiが110以上の時、\n追加で\n[ラウンドトリップ]で\n与えるダメージ + 30%\n[アンティーク\nガトリングガン]の\n精錬値が1上がる度に追加で\n[ヒートバレル]の\n再使用待機時間 - 8秒\n[アンティーク\nガトリングガン]の\n超越段階が1以上の時、追加で\n一般・ボスモンスターから\n受けるダメージ - 40%\nBaseLvが2上がる度に追加で\n[ファイアーレイン]、\n[ラウンドトリップ]で\n与えるダメージ + 1%\n[アンティーク\nガトリングガン]の\n超越段階が1以上の時、\n精錬値が10の時、追加で\nAtk + 250\n念属性攻撃で\n受けるダメージ - 25%\n[王の神威]と\n共に装備時、追加で\n攻撃速度 + 15%\nプレイヤーから\n受けるダメージ - 40%\n[ゴスペル]Lv1使用可能",
+    "description_lines": [
+        "骨董品として",
+        "ガラスケースに",
+        "飾られていた",
+        "ガトリングガン。",
+        "現代の技術では",
+        "製造できないようだ。",
+        "BaseLvが1上がる度に追加で",
+        "[クイックドローショット]",
+        "で与えるダメージ + 5%",
+        "純粋なAgiが10上がる度に",
+        "追加で",
+        "[ラウンドトリップ]で",
+        "与えるダメージ + 7%",
+        "純粋なAgiが110以上の時、",
+        "追加で",
+        "[ラウンドトリップ]で",
+        "与えるダメージ + 30%",
+        "[アンティーク",
+        "ガトリングガン]の",
+        "精錬値が1上がる度に追加で",
+        "[ヒートバレル]の",
+        "再使用待機時間 - 8秒",
+        "[アンティーク",
+        "ガトリングガン]の",
+        "超越段階が1以上の時、追加で",
+        "一般・ボスモンスターから",
+        "受けるダメージ - 40%",
+        "BaseLvが2上がる度に追加で",
+        "[ファイアーレイン]、",
+        "[ラウンドトリップ]で",
+        "与えるダメージ + 1%",
+        "[アンティーク",
+        "ガトリングガン]の",
+        "超越段階が1以上の時、",
+        "精錬値が10の時、追加で",
+        "Atk + 250",
+        "念属性攻撃で",
+        "受けるダメージ - 25%",
+        "[王の神威]と",
+        "共に装備時、追加で",
+        "攻撃速度 + 15%",
+        "プレイヤーから",
+        "受けるダメージ - 40%",
+        "[ゴスペル]Lv1使用可能"
+    ],
+    "properties": {
+        "series": "gatling_gun",
+        "series_normalized": [
+            "gatling_gun"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": null,
+        "atk": 180,
+        "mdef": null,
+        "matk": 120,
+        "refinement": true,
+        "breakable": true,
+        "weight": 300,
+        "weapon_level": 4,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "rebellion": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "ガトリングガン",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "1",
+            "Atk": "180",
+            "Matk": "120",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "300",
+            "要求レベル": "100",
+            "装備": "リベリオン系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ace76a13c8056c61bb6713a38c4dbfde2ed65db8594038bec057260c40a8fa4e",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

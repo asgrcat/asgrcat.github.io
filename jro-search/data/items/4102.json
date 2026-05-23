@@ -1,0 +1,139 @@
+{
+    "type": "item",
+    "item_id": "4102",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4102\/"
+    },
+    "name": "ウィスパーカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "garment"
+        ],
+        "card_attachable_positions": {
+            "garment": true
+        }
+    },
+    "description": "回避率 + 20\n念属性攻撃に50%の追加ダメージを受ける。",
+    "description_lines": [
+        "回避率 + 20",
+        "念属性攻撃に50%の追加ダメージを受ける。"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "garment"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "肩にかける物",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ウィスパー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WHISPER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アルデバラン時計塔地下 4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/alde_dun04",
+            "map_code": "alde_dun04"
+        },
+        {
+            "name": "アユタヤダンジョン 01（古代遺跡迷宮）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ayo_dun01",
+            "map_code": "ayo_dun01"
+        },
+        {
+            "name": "アユタヤダンジョン 02（古代遺跡内部）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ayo_dun02",
+            "map_code": "ayo_dun02"
+        },
+        {
+            "name": "ゲフェン地下ダンジョン B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_dun01",
+            "map_code": "gef_dun01"
+        },
+        {
+            "name": "グラストヘイム 古城1F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_cas01",
+            "map_code": "gl_cas01"
+        },
+        {
+            "name": "グラストヘイム地下水路 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_sew01",
+            "map_code": "gl_sew01"
+        },
+        {
+            "name": "スフィンクスダンジョン B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/in_sphinx2",
+            "map_code": "in_sphinx2"
+        },
+        {
+            "name": "沈没船 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/treasure01",
+            "map_code": "treasure01"
+        },
+        {
+            "name": "沈没船 2層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/treasure02",
+            "map_code": "treasure02"
+        }
+    ],
+    "source_html_sha256": "3778474316009f16c4c9c1f5e83dd0b699f18896a6e642a4d0feaee29b2e3a56",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

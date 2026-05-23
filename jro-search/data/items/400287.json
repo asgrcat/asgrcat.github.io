@@ -1,0 +1,113 @@
+{
+    "type": "item",
+    "item_id": "400287",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/400287\/"
+    },
+    "name": "レガシーオブワイズワン[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "大賢者が遺した\n英知の結晶。\n過去と現在は出会い、\n冒険者達は\n未来へと歩み出す。\n一般・ボスモンスターから\n受けるダメージ - 20%\n物理・魔法攻撃時、\n全ての属性のモンスターに\n与えるダメージ + 10%\n[レガシーオブワイズワン]\nの精錬値が7以上の時、\n追加で\n物理・魔法攻撃時、\n全ての属性のモンスターに\n与えるダメージ + 15%\n全ての基本ステータス + 10\n[レガシーオブワイズワン]\nの精錬値が9以上の時、\n追加で\n全ての基本ステータス + 10\nプレイヤーから\n受けるダメージ - 13%",
+    "description_lines": [
+        "大賢者が遺した",
+        "英知の結晶。",
+        "過去と現在は出会い、",
+        "冒険者達は",
+        "未来へと歩み出す。",
+        "一般・ボスモンスターから",
+        "受けるダメージ - 20%",
+        "物理・魔法攻撃時、",
+        "全ての属性のモンスターに",
+        "与えるダメージ + 10%",
+        "[レガシーオブワイズワン]",
+        "の精錬値が7以上の時、",
+        "追加で",
+        "物理・魔法攻撃時、",
+        "全ての属性のモンスターに",
+        "与えるダメージ + 15%",
+        "全ての基本ステータス + 10",
+        "[レガシーオブワイズワン]",
+        "の精錬値が9以上の時、",
+        "追加で",
+        "全ての基本ステータス + 10",
+        "プレイヤーから",
+        "受けるダメージ - 13%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": "-",
+        "slot": 1,
+        "def": 10,
+        "atk": null,
+        "mdef": 10,
+        "matk": null,
+        "refinement": true,
+        "breakable": true,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "位置": "上段",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "10",
+            "Mdef": "10",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "50",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "17185c3a9c835f3f1f5b51361529acba360f46b26d84f0f660f8490ac6f4dd44",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

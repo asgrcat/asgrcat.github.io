@@ -1,0 +1,131 @@
+{
+    "type": "item",
+    "item_id": "4222",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4222\/"
+    },
+    "name": "スケルプリズナーカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "armor"
+        ],
+        "card_attachable_positions": {
+            "armor": true
+        }
+    },
+    "description": "物理攻撃を受けた時、\n一定確率で相手を\n睡眠状態にする。\n--カードセット効果--------\n・スケルトンカード\nと共に装備すると、追加で\n物理攻撃を受けた時、\nより高確率で相手を\n睡眠状態にする。",
+    "description_lines": [
+        "物理攻撃を受けた時、",
+        "一定確率で相手を",
+        "睡眠状態にする。",
+        "--カードセット効果--------",
+        "・スケルトンカード",
+        "と共に装備すると、追加で",
+        "物理攻撃を受けた時、",
+        "より高確率で相手を",
+        "睡眠状態にする。"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "armor"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "鎧",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "スケルプリズナー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SKEL_PRISONER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_25",
+            "map_code": "2@la_25"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_31",
+            "map_code": "2@lb_31"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld225",
+            "map_code": "2@ld225"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf225",
+            "map_code": "2@lf225"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "特別室（廃墟）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_spec_02",
+            "map_code": "ac_spec_02"
+        },
+        {
+            "name": "グラストヘイム カタコンベ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_chyard",
+            "map_code": "gl_chyard"
+        },
+        {
+            "name": "グラストヘイム 地下監獄01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_prison1",
+            "map_code": "gl_prison1"
+        }
+    ],
+    "source_html_sha256": "a7107d7c65664c4544e140f4571c37516e9ecb500c1a3f4bb207d3e1c6878879",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

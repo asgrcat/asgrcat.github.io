@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "490544",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/490544\/"
+    },
+    "name": "オーバードライブランページ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "誰知らぬ封印の祭壇で\n解放の時を待っていた\n大いなる力の奔流。\n手にしたものに齎すのは\n繁栄か破滅か。\n攻撃速度 + 15%\nプレイヤーから\n受けるダメージ - 3%\n物理・魔法攻撃時、\n小・中・大型モンスターに\n与えるダメージ + 15%\nBaseLvが5上がる度に追加で\n物理・魔法攻撃で\n与えるダメージ + 1%\n[限界突破]と\n共に装備時、追加で\nMaxHP + 15% , MaxSP + 15%\n物理・魔法攻撃命中時、\n一定確率で\n自分に発生している\n[リバウンド]状態を\n解除する",
+    "description_lines": [
+        "誰知らぬ封印の祭壇で",
+        "解放の時を待っていた",
+        "大いなる力の奔流。",
+        "手にしたものに齎すのは",
+        "繁栄か破滅か。",
+        "攻撃速度 + 15%",
+        "プレイヤーから",
+        "受けるダメージ - 3%",
+        "物理・魔法攻撃時、",
+        "小・中・大型モンスターに",
+        "与えるダメージ + 15%",
+        "BaseLvが5上がる度に追加で",
+        "物理・魔法攻撃で",
+        "与えるダメージ + 1%",
+        "[限界突破]と",
+        "共に装備時、追加で",
+        "MaxHP + 15% , MaxSP + 15%",
+        "物理・魔法攻撃命中時、",
+        "一定確率で",
+        "自分に発生している",
+        "[リバウンド]状態を",
+        "解除する"
+    ],
+    "properties": {
+        "series": "accessory_2",
+        "series_normalized": [
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー(2)",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "200",
+            "装備": "4次職 拡張4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "28366ce48e1f7a410fb9284e40482f0c6b516c5d27d4597de0f5884e43f3278a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,78 @@
+{
+    "type": "item",
+    "item_id": "1100014",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1100014\/"
+    },
+    "name": "直火焼き魚",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "強火で素早く焼き上げた魚。\n外はパリパリで、\n中はしっとりしている。\n骨が刺さらないように注意！\n下記特殊効果は\n2026年1月13日(火)\n定期メンテナンス終了時に\n削除される\nHPを1100ほど回復する\nSPを65ほど回復する\n暗黒・幻覚・混乱・沈黙\n毒・呪い・出血・猛毒・恐怖\n状態を回復する\n使用時、500秒間、\n[Vit増加\n(料理)]Lv10\n状態になる",
+    "description_lines": [
+        "強火で素早く焼き上げた魚。",
+        "外はパリパリで、",
+        "中はしっとりしている。",
+        "骨が刺さらないように注意！",
+        "下記特殊効果は",
+        "2026年1月13日(火)",
+        "定期メンテナンス終了時に",
+        "削除される",
+        "HPを1100ほど回復する",
+        "SPを65ほど回復する",
+        "暗黒・幻覚・混乱・沈黙",
+        "毒・呪い・出血・猛毒・恐怖",
+        "状態を回復する",
+        "使用時、500秒間、",
+        "[Vit増加",
+        "(料理)]Lv10",
+        "状態になる"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 2,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "2"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "afac574e41111bbd2f8c1b7c83ddac479fce3bb9551569ec55697b952f30216f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

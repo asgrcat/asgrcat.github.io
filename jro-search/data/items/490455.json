@@ -1,0 +1,102 @@
+{
+    "type": "item",
+    "item_id": "490455",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/490455\/"
+    },
+    "name": "グレイウルフイヤリング(取引不可)[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "グレイウルフをモチーフに\n作られたイヤリング。\n魔法攻撃で\n与えるダメージ + 15%\n[グレイウルフネックレス]\nと共に装備時、追加で\n全ての種族のMdef 100%無視\n[ワイルドビースト]と\n共に装備時、追加で\n魔法攻撃で\n与えるダメージ + 15%\n[グレイウルフイヤリング\n(取引不可)]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "グレイウルフをモチーフに",
+        "作られたイヤリング。",
+        "魔法攻撃で",
+        "与えるダメージ + 15%",
+        "[グレイウルフネックレス]",
+        "と共に装備時、追加で",
+        "全ての種族のMdef 100%無視",
+        "[ワイルドビースト]と",
+        "共に装備時、追加で",
+        "魔法攻撃で",
+        "与えるダメージ + 15%",
+        "[グレイウルフイヤリング",
+        "(取引不可)]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": "accessory_1",
+        "series_normalized": [
+            "accessory_1"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー(1)",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "0",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "200",
+            "装備": "4次職 拡張4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "dd26bd9b8ed36e7a343aa463f618c0fab094a00e2c8113f7600f73979f17618c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

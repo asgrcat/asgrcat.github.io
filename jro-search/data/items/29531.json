@@ -1,0 +1,68 @@
+{
+    "type": "item",
+    "item_id": "29531",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/29531\/"
+    },
+    "name": "B-MaxHP",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "MaxHP + 400\n精錬値が6以上の時、追加で\nMaxHP + 600\n精錬値が8以上の時、追加で\nMaxHP + 2000\n[ランナウェー・\nアクセラレータ]と\n共に装備時、追加で\nMaxHP + 7500",
+    "description_lines": [
+        "MaxHP + 400",
+        "精錬値が6以上の時、追加で",
+        "MaxHP + 600",
+        "精錬値が8以上の時、追加で",
+        "MaxHP + 2000",
+        "[ランナウェー・",
+        "アクセラレータ]と",
+        "共に装備時、追加で",
+        "MaxHP + 7500"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "96597f228e4a737386a95ca0a52b37b01065312d6cd80ff1b1fd5def03bdfed9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

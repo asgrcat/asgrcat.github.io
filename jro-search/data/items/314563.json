@@ -1,0 +1,63 @@
+{
+    "type": "item",
+    "item_id": "314563",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/314563\/"
+    },
+    "name": "潜在解放(ウィンドホークXVIII)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "[豪傑]と\n共に装備時、追加で\n[ソリッドトラップ]の\n再使用待機時間 - 2秒",
+    "description_lines": [
+        "[豪傑]と",
+        "共に装備時、追加で",
+        "[ソリッドトラップ]の",
+        "再使用待機時間 - 2秒"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6fa093950875879e8ca765617a4b30dccfba46f0e8748a5a4812629e0291c10a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,95 @@
+{
+    "type": "item",
+    "item_id": "4155",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4155\/"
+    },
+    "name": "ゴブリンリーダーカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "ゴブリン長男、ゴブリン次男\nゴブリン三男、ゴブリン四男\nゴブリン五男、\nゴブリンアーチャー、\nゴブリンリーダー\nに与えるダメージ + 30%\n（取り巻きモンスター、一部\nイベントモンスターは除く）",
+    "description_lines": [
+        "ゴブリン長男、ゴブリン次男",
+        "ゴブリン三男、ゴブリン四男",
+        "ゴブリン五男、",
+        "ゴブリンアーチャー、",
+        "ゴブリンリーダー",
+        "に与えるダメージ + 30%",
+        "（取り巻きモンスター、一部",
+        "イベントモンスターは除く）"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ゴブリンリーダー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GOBLIN_LEADER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "ゲフェンフィールド 11",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gef_fild11",
+            "map_code": "gef_fild11"
+        }
+    ],
+    "source_html_sha256": "2af9e329a0120c49bf52c3f418e92ea243d3ef45944d44c9eb3331115937e0ea",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

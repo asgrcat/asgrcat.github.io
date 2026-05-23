@@ -1,0 +1,64 @@
+{
+    "type": "item",
+    "item_id": "314125",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/314125\/"
+    },
+    "name": "スキルオーブ(インペリアルガードII)",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "BaseLvが10上がる度に追加で\n[クロスレイン]、\n[ジャッジメントクロス]、\n[インペリアルプレッシャー]\nで与えるダメージ + 1%",
+    "description_lines": [
+        "BaseLvが10上がる度に追加で",
+        "[クロスレイン]、",
+        "[ジャッジメントクロス]、",
+        "[インペリアルプレッシャー]",
+        "で与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": null,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": []
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c5abe02ef9b701b2dd87e052afe0a69c486fe1d93b27ad37de30a29b3b1c5371",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,111 @@
+{
+    "type": "item",
+    "item_id": "6607",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6607\/"
+    },
+    "name": "時間の結晶",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "時間が歪んでいる場所で\n稀に発見される小さな結晶。\n魔法で固形化された\n「流れる時間」の破片と\n似たような物。",
+    "description_lines": [
+        "時間が歪んでいる場所で",
+        "稀に発見される小さな結晶。",
+        "魔法で固形化された",
+        "「流れる時間」の破片と",
+        "似たような物。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "アムダライス",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MG_AMDARAIS"
+        },
+        {
+            "name": "誘いの魔眼",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MG_CORRUPTION_ROOT"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "古の騎士団01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@gl_k",
+            "map_code": "1@gl_k"
+        },
+        {
+            "name": "古の騎士団02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@gl_k",
+            "map_code": "2@gl_k"
+        },
+        {
+            "name": "試練の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_21",
+            "map_code": "2@la_21"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_21",
+            "map_code": "2@lb_21"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld221",
+            "map_code": "2@ld221"
+        },
+        {
+            "name": "幻影の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf221",
+            "map_code": "2@lf221"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        }
+    ],
+    "source_html_sha256": "166d73a2013261e9039bc34bf0f43baaf82de500c7e65d578e269d4703cce24d",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

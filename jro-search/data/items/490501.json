@@ -1,0 +1,110 @@
+{
+    "type": "item",
+    "item_id": "490501",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/490501\/"
+    },
+    "name": "天涯極地の腕輪[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "五徳を高める\n翡翠をあしらった腕飾り。\n成功と繁栄をもたらすと\n言い伝えられている。\nPow + 3\n物理攻撃で\n与えるダメージ + 10%\n必中攻撃 + 25%\nプレイヤーから\n受けるダメージ - 3%\nBaseLvが5上がる度に追加で\n[閃光脚]、\n[流星落下]で\n与えるダメージ + 1%\nBaseLvが10上がる度に追加で\n[天地万星]、\n[天命落星]、\n[天星]、\n[天星の行]で\n与えるダメージ + 1%",
+    "description_lines": [
+        "五徳を高める",
+        "翡翠をあしらった腕飾り。",
+        "成功と繁栄をもたらすと",
+        "言い伝えられている。",
+        "Pow + 3",
+        "物理攻撃で",
+        "与えるダメージ + 10%",
+        "必中攻撃 + 25%",
+        "プレイヤーから",
+        "受けるダメージ - 3%",
+        "BaseLvが5上がる度に追加で",
+        "[閃光脚]、",
+        "[流星落下]で",
+        "与えるダメージ + 1%",
+        "BaseLvが10上がる度に追加で",
+        "[天地万星]、",
+        "[天命落星]、",
+        "[天星]、",
+        "[天星の行]で",
+        "与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 0,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": false,
+        "breakable": false,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 200,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "0",
+            "Mdef": "0",
+            "精錬": "不可",
+            "破損": "しない",
+            "重量": "10",
+            "要求レベル": "200",
+            "装備": "4次職 拡張4次職"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "c54b02caebc130416e5bb4ab915e89719c25b4e65b42829b591ba3c2cc44e3ce",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

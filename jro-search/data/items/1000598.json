@@ -1,0 +1,74 @@
+{
+    "type": "item",
+    "item_id": "1000598",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1000598\/"
+    },
+    "name": "ネオンウォーター",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "暗いところで光る液体。\n綺麗だが、とても苦い。\nアイテム合成の材料に\nなるようだ。\n[ネオンウォーター]：\n・メロンフェスタ会場\n(melon_f1) 座標\n(112 68)にいるNPC\n「メロン鑑定士」に\n持って行こう\n[ネオンウォーター]は\nNPC売却・倉庫への移動のみ\n可能です",
+    "description_lines": [
+        "暗いところで光る液体。",
+        "綺麗だが、とても苦い。",
+        "アイテム合成の材料に",
+        "なるようだ。",
+        "[ネオンウォーター]：",
+        "・メロンフェスタ会場",
+        "(melon_f1) 座標",
+        "(112 68)にいるNPC",
+        "「メロン鑑定士」に",
+        "持って行こう",
+        "[ネオンウォーター]は",
+        "NPC売却・倉庫への移動のみ",
+        "可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "e71102b9cb75ec63145d5b2b34a77e58bf0706021c1d886969a0958e22bdb562",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

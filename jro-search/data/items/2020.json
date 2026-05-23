@@ -1,0 +1,108 @@
+{
+    "type": "item",
+    "item_id": "2020",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2020\/"
+    },
+    "name": "ヨルムンガンド[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": true,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "wizard": true,
+                "sage": true,
+                "soul_linker": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "強力な魔力と\n相手に強力な毒を与える\n能力を持つことから\nヨルムンガンドの名前を\n与えられた杖。\nInt + 20\nMatk + 280\n魔法攻撃命中時、\n一定確率で敵を\n毒状態にする\n物理攻撃を受けた時、\n一定確率で敵を\n猛毒状態にする\n精錬不可",
+    "description_lines": [
+        "強力な魔力と",
+        "相手に強力な毒を与える",
+        "能力を持つことから",
+        "ヨルムンガンドの名前を",
+        "与えられた杖。",
+        "Int + 20",
+        "Matk + 280",
+        "魔法攻撃命中時、",
+        "一定確率で敵を",
+        "毒状態にする",
+        "物理攻撃を受けた時、",
+        "一定確率で敵を",
+        "猛毒状態にする",
+        "精錬不可"
+    ],
+    "properties": {
+        "series": "two_handed_staff",
+        "series_normalized": [
+            "two_handed_staff"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "毒",
+        "slot": 0,
+        "def": null,
+        "atk": 200,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 300,
+        "weapon_level": 4,
+        "required_level": 90,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "wizard": true,
+                "sage": true,
+                "soul_linker": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "両手杖",
+            "攻撃": "200",
+            "重量": "300",
+            "属性": "毒",
+            "武器レベル": "4",
+            "要求レベル": "90",
+            "装備": "ウィザード系 セージ系 ソウルリンカー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "df649e6f339fb430e398090ce2e9aec36f7075c3c5532a969ba3a9afb04082ec",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,242 @@
+{
+    "type": "item",
+    "item_id": "15043",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15043\/"
+    },
+    "name": "黒羽のスーツ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "ranger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "集中力と精神力を安定させる\n不思議な力が宿った、\n黒い羽が特徴的な\nアーティファクト。\nInt + 2\n[黒羽のスーツ]の\n精錬値が1上がる度に追加で\nAtk + 3\n[黒羽のブーツ]、\n[黒羽のブローチ]、\n[黒羽のマント]と\n共に装備時、追加で\n隠された力が発動する\n[黒羽のスーツ]、\n[黒羽のブーツ]、\n[黒羽のマント]の\n精錬値が7以上の時、\n追加効果が発動する\n[アルティメット\nモードチェンジャー]と\n共に装備時、追加で\n秘められた効果が発動する\n[黒羽のブーツ]、\n[黒羽のブローチ]、\n[黒羽のマント]、\n[アルティメット\nモードチェンジャー]と\n共に装備時、追加で\n秘められた効果が発動する\n[灰羽のブーツ]と\n共に装備時、追加で\n移動速度増加\n[エレクトリックショッカー]\nの消費SP - 30\nモンスターを倒した時、\nHP + 500\n純粋なIntが20上がる度に\n追加で[クラスターボム]で\n与えるダメージ + 30%\n[黒羽のスーツ]の\n精錬値が7以上の時、追加で\n完全回避 + 6\n人間形モンスターから\n受けるダメージ - 8%\n[エイムドボルト]で\n与えるダメージ + 20%\n[クラスターボム]で\n与えるダメージ + 400%\n[黒羽のスーツ]の\n精錬値が9以上の時、追加で\n完全回避 + 3\n人間形モンスターから\n受けるダメージ - 4%\n[エイムドボルト]で\n与えるダメージ + 10%\n[クラスターボム]で\n与えるダメージ + 200%",
+    "description_lines": [
+        "集中力と精神力を安定させる",
+        "不思議な力が宿った、",
+        "黒い羽が特徴的な",
+        "アーティファクト。",
+        "Int + 2",
+        "[黒羽のスーツ]の",
+        "精錬値が1上がる度に追加で",
+        "Atk + 3",
+        "[黒羽のブーツ]、",
+        "[黒羽のブローチ]、",
+        "[黒羽のマント]と",
+        "共に装備時、追加で",
+        "隠された力が発動する",
+        "[黒羽のスーツ]、",
+        "[黒羽のブーツ]、",
+        "[黒羽のマント]の",
+        "精錬値が7以上の時、",
+        "追加効果が発動する",
+        "[アルティメット",
+        "モードチェンジャー]と",
+        "共に装備時、追加で",
+        "秘められた効果が発動する",
+        "[黒羽のブーツ]、",
+        "[黒羽のブローチ]、",
+        "[黒羽のマント]、",
+        "[アルティメット",
+        "モードチェンジャー]と",
+        "共に装備時、追加で",
+        "秘められた効果が発動する",
+        "[灰羽のブーツ]と",
+        "共に装備時、追加で",
+        "移動速度増加",
+        "[エレクトリックショッカー]",
+        "の消費SP - 30",
+        "モンスターを倒した時、",
+        "HP + 500",
+        "純粋なIntが20上がる度に",
+        "追加で[クラスターボム]で",
+        "与えるダメージ + 30%",
+        "[黒羽のスーツ]の",
+        "精錬値が7以上の時、追加で",
+        "完全回避 + 6",
+        "人間形モンスターから",
+        "受けるダメージ - 8%",
+        "[エイムドボルト]で",
+        "与えるダメージ + 20%",
+        "[クラスターボム]で",
+        "与えるダメージ + 400%",
+        "[黒羽のスーツ]の",
+        "精錬値が9以上の時、追加で",
+        "完全回避 + 3",
+        "人間形モンスターから",
+        "受けるダメージ - 4%",
+        "[エイムドボルト]で",
+        "与えるダメージ + 10%",
+        "[クラスターボム]で",
+        "与えるダメージ + 200%"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 45,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "ranger": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "45",
+            "重量": "10",
+            "要求レベル": "100",
+            "装備": "レンジャー系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ルシオラヴェスパ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/LUCIOLA_VESPA"
+        },
+        {
+            "name": "ダークプリースト",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DARK_PRIEST"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_03",
+            "map_code": "2@la_03"
+        },
+        {
+            "name": "試練の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_17",
+            "map_code": "2@la_17"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_03",
+            "map_code": "2@lb_03"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_21",
+            "map_code": "2@lb_21"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_03",
+            "map_code": "2@lc_03"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld203",
+            "map_code": "2@ld203"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld217",
+            "map_code": "2@ld217"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf203",
+            "map_code": "2@lf203"
+        },
+        {
+            "name": "幻影の迷宮 次元の裂け目",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf217",
+            "map_code": "2@lf217"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "ビフロスト 南部",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bif_fild01",
+            "map_code": "bif_fild01"
+        },
+        {
+            "name": "ギルドダンジョン ゲフェン",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gld_dun04",
+            "map_code": "gld_dun04"
+        },
+        {
+            "name": "スフィンクスダンジョン B4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/in_sphinx4",
+            "map_code": "in_sphinx4"
+        },
+        {
+            "name": "スフィンクスダンジョン B5F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/in_sphinx5",
+            "map_code": "in_sphinx5"
+        },
+        {
+            "name": "エイヴァント研究室",
+            "url": "https:\/\/rotool.gungho.jp\/map\/que_avan01",
+            "map_code": "que_avan01"
+        },
+        {
+            "name": "スプレンディッドフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/spl_fild01",
+            "map_code": "spl_fild01"
+        },
+        {
+            "name": "スプレンディッドフィールド 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/spl_fild02",
+            "map_code": "spl_fild02"
+        }
+    ],
+    "source_html_sha256": "bc7c8f6c85de3b740fe6b9072fc3f31274d16c1e6e4dc3600b5b50482479bb52",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

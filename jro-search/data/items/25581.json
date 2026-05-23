@@ -1,0 +1,73 @@
+{
+    "type": "item",
+    "item_id": "25581",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/25581\/"
+    },
+    "name": "[イベント] ウシパワーチケット",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "「デュウ」に渡すと、\n特別なスキルを\n教えてくれるらしい。\n[[イベント]\nウシパワーチケット]：\n・アルベルタ(alberta)\n座標(72 175)にいるNPC\n「デュウ」に\n持って行こう\n[[イベント]\nウシパワーチケット]は、\n倉庫への移動のみ可能です",
+    "description_lines": [
+        "「デュウ」に渡すと、",
+        "特別なスキルを",
+        "教えてくれるらしい。",
+        "[[イベント]",
+        "ウシパワーチケット]：",
+        "・アルベルタ(alberta)",
+        "座標(72 175)にいるNPC",
+        "「デュウ」に",
+        "持って行こう",
+        "[[イベント]",
+        "ウシパワーチケット]は、",
+        "倉庫への移動のみ可能です"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "7916079a97f5bc4b458fe98b7e2538af90031d4efb37beb60e06e93223199219",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

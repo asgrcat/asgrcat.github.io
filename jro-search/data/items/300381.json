@@ -1,0 +1,117 @@
+{
+    "type": "item",
+    "item_id": "300381",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/300381\/"
+    },
+    "name": "ハートハンターATカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "weapon"
+        ],
+        "card_attachable_positions": {
+            "weapon": true
+        }
+    },
+    "description": "カタールの場合、\nHit - 10 , Cri + 10\nクリティカル攻撃で\n与えるダメージ + 10%\nカタールの場合で、\nかつ精錬値が1上がる度に\n追加で\nHit - 1 , Cri + 1\nクリティカル攻撃で\n与えるダメージ + 1%",
+    "description_lines": [
+        "カタールの場合、",
+        "Hit - 10 , Cri + 10",
+        "クリティカル攻撃で",
+        "与えるダメージ + 10%",
+        "カタールの場合で、",
+        "かつ精錬値が1上がる度に",
+        "追加で",
+        "Hit - 1 , Cri + 1",
+        "クリティカル攻撃で",
+        "与えるダメージ + 1%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "weapon"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "武器",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ハートハンターAT",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_HEARTHUNTER_AT"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "蛇神の温もり 01(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_dun01",
+            "map_code": "jor_dun01"
+        },
+        {
+            "name": "蛇神の温もり 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_dun01_",
+            "map_code": "jor_dun01_"
+        },
+        {
+            "name": "蛇神の温もり 02(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_dun02",
+            "map_code": "jor_dun02"
+        },
+        {
+            "name": "蛇神の温もり 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_dun02_",
+            "map_code": "jor_dun02_"
+        }
+    ],
+    "source_html_sha256": "42f788c589672c08f8faa5c77fcb341d4c4ba563c97ec9a07ded38b337da35e3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

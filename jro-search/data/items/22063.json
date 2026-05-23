@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "22063",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/22063\/"
+    },
+    "name": "ルヴァンシューズ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "風の力に染まった靴。\n風のモンスターからの攻撃\nを軽減してくれる。\nMdef + 3\n風属性攻撃で\n受けるダメージ - 5%\n[ルヴァンシューズ]の\n精錬値が1上がる度に追加で\nMaxHP + 1% , MaxSP + 1%\n[ルヴァンシールド]と\n共に装備時、追加で\n風属性モンスターから\n受けるダメージ - 5%\n[ルヴァンシールド]の\n精錬値が1上がる度に追加で\n風属性攻撃で\n受けるダメージ - 2%\n[ルヴァンマント]と\n共に装備時、追加で\n物理攻撃時、\n風属性モンスターに\n与えるダメージ + 5%\n[ルヴァンマント]の\n精錬値が1上がる度に追加で\nMaxHP + 1% , MaxSP + 1%",
+    "description_lines": [
+        "風の力に染まった靴。",
+        "風のモンスターからの攻撃",
+        "を軽減してくれる。",
+        "Mdef + 3",
+        "風属性攻撃で",
+        "受けるダメージ - 5%",
+        "[ルヴァンシューズ]の",
+        "精錬値が1上がる度に追加で",
+        "MaxHP + 1% , MaxSP + 1%",
+        "[ルヴァンシールド]と",
+        "共に装備時、追加で",
+        "風属性モンスターから",
+        "受けるダメージ - 5%",
+        "[ルヴァンシールド]の",
+        "精錬値が1上がる度に追加で",
+        "風属性攻撃で",
+        "受けるダメージ - 2%",
+        "[ルヴァンマント]と",
+        "共に装備時、追加で",
+        "物理攻撃時、",
+        "風属性モンスターに",
+        "与えるダメージ + 5%",
+        "[ルヴァンマント]の",
+        "精錬値が1上がる度に追加で",
+        "MaxHP + 1% , MaxSP + 1%"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 12,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 25,
+        "weapon_level": null,
+        "required_level": 90,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "防御": "12",
+            "重量": "25",
+            "要求レベル": "90",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "8b05ee9366a6de10b12397e421095009c692a1074ca05d21153aff5728465c0f",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

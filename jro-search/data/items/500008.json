@@ -1,0 +1,191 @@
+{
+    "type": "item",
+    "item_id": "500008",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/500008\/"
+    },
+    "name": "インウィディアバンドル[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "weapon": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "genetic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "バルムント邸に\n保管されていた科学器具。\nイルシオンたちの設置した\n魔力干渉装置により、\n鬼気迫る姿に\n変貌してしまった。\n物理攻撃で\n与えるダメージ + 110%\n[インウィディアバンドル]\nの精錬値が7以上の時、\n追加で\n[カートキャノン]で\n与えるダメージ + 50%\n[インウィディアバンドル]\nの精錬値が9以上の時、\n追加で\n[カートキャノン]で\n与えるダメージ + 50%\n[インウィディアバンドル]\nの精錬値が10の時、\n追加で\n[カートキャノン]使用時、\n一定確率で3秒間、\n完全回避 + 100\n[デモンズファミリア]と\n共に装備時、追加で\nAtk + 200 , Matk + 200",
+    "description_lines": [
+        "バルムント邸に",
+        "保管されていた科学器具。",
+        "イルシオンたちの設置した",
+        "魔力干渉装置により、",
+        "鬼気迫る姿に",
+        "変貌してしまった。",
+        "物理攻撃で",
+        "与えるダメージ + 110%",
+        "[インウィディアバンドル]",
+        "の精錬値が7以上の時、",
+        "追加で",
+        "[カートキャノン]で",
+        "与えるダメージ + 50%",
+        "[インウィディアバンドル]",
+        "の精錬値が9以上の時、",
+        "追加で",
+        "[カートキャノン]で",
+        "与えるダメージ + 50%",
+        "[インウィディアバンドル]",
+        "の精錬値が10の時、",
+        "追加で",
+        "[カートキャノン]使用時、",
+        "一定確率で3秒間、",
+        "完全回避 + 100",
+        "[デモンズファミリア]と",
+        "共に装備時、追加で",
+        "Atk + 200 , Matk + 200"
+    ],
+    "properties": {
+        "series": "one_handed_sword",
+        "series_normalized": [
+            "one_handed_sword"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 0,
+        "def": null,
+        "atk": 150,
+        "mdef": null,
+        "matk": 130,
+        "refinement": true,
+        "breakable": false,
+        "weight": 120,
+        "weapon_level": 4,
+        "required_level": 165,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "genetic": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "片手剣",
+            "武器レベル": "4",
+            "属性": "無",
+            "スロット": "0",
+            "Atk": "150",
+            "Matk": "130",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "120",
+            "要求レベル": "165",
+            "装備": "ジェネティック系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "グランパピリア",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_GRAN_PAPILIA"
+        },
+        {
+            "name": "シルヴァパピリア",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_SILVA_PAPILIA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "水上植物園オルトゥス・アクア",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ghg",
+            "map_code": "1@ghg"
+        },
+        {
+            "name": "水上植物園オルトゥス・アクア(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ghg",
+            "map_code": "2@ghg"
+        },
+        {
+            "name": "幻影の迷宮 夢の花園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld125",
+            "map_code": "2@ld125"
+        },
+        {
+            "name": "幻影の迷宮 夢の花園",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le125",
+            "map_code": "2@le125"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        }
+    ],
+    "source_html_sha256": "c4f89129b0fa226d0c33f71cc89142138e0ad27e73b7ef84c14a7a79798717b0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

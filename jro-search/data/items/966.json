@@ -1,0 +1,161 @@
+{
+    "type": "item",
+    "item_id": "966",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/966\/"
+    },
+    "name": "貝のむきみ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "貝の肉。美味しいが泥の処理をしなければ食べにくい。収集品商人に売る事ができる。\n_",
+    "description_lines": [
+        "貝の肉。美味しいが泥の処理をしなければ食べにくい。収集品商人に売る事ができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "深海のお化け貝",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MD_SHELLFISH"
+        },
+        {
+            "name": "レッドエルマ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/RED_ERUMA"
+        },
+        {
+            "name": "お化け貝",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SHELLFISH"
+        },
+        {
+            "name": "火山貝",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CH1_VOLIMPET"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "地下排水路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@pump",
+            "map_code": "1@pump"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "コモドフィールド 02（ココモビーチ）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/cmd_fild02",
+            "map_code": "cmd_fild02"
+        },
+        {
+            "name": "コモドフィールド 04（ココモビーチ）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/cmd_fild04",
+            "map_code": "cmd_fild04"
+        },
+        {
+            "name": "コモドフィールド 07（ファロス燈台島）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/cmd_fild07",
+            "map_code": "cmd_fild07"
+        },
+        {
+            "name": "常夏の島 ジャワイ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jawaii",
+            "map_code": "jawaii"
+        },
+        {
+            "name": "星明りの珊瑚礁",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mal_dun01",
+            "map_code": "mal_dun01"
+        },
+        {
+            "name": "ヴェルンド渓谷 外郭(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mu_fild01",
+            "map_code": "mu_fild01"
+        },
+        {
+            "name": "ヴェルンド渓谷 外郭",
+            "url": "https:\/\/rotool.gungho.jp\/map\/mu_fild01j",
+            "map_code": "mu_fild01j"
+        },
+        {
+            "name": "ベインスフィールド 07",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ve_fild07",
+            "map_code": "ve_fild07"
+        }
+    ],
+    "source_html_sha256": "68923d659ffe7e040b5cd981dcbd6367771bbac359685494cf1550bcbe8a39ad",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

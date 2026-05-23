@@ -1,0 +1,149 @@
+{
+    "type": "item",
+    "item_id": "4340",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/4340\/"
+    },
+    "name": "ベアドールカード",
+    "classification": {
+        "is_equipment": false,
+        "is_card": true,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [
+            "shield"
+        ],
+        "card_attachable_positions": {
+            "shield": true
+        }
+    },
+    "description": "不死形モンスターから\n受けるダメージ - 30%\n[怪奇な装飾ツリーカード]と\n共に装備時、追加で\n魔法攻撃時、\n不死属性モンスターに\n与えるダメージ + 5%\n[捨てられたクマ人形カード]\nと共に装備時、追加で\n物理攻撃時、\n不死属性モンスターに\n与えるダメージ + 10%\n[幸福の盾]と\n共に装備時、追加で\n不死形モンスターを\n倒した時、\n獲得する経験値 + 5%\n[幸福の盾]の\n精錬値が6以上の時、追加で\n不死形モンスターを\n倒した時、\n獲得する経験値 + 5%\n[幸福の盾]の\n精錬値が8以上の時、追加で\n不死形モンスターを\n倒した時、\n獲得する経験値 + 5%",
+    "description_lines": [
+        "不死形モンスターから",
+        "受けるダメージ - 30%",
+        "[怪奇な装飾ツリーカード]と",
+        "共に装備時、追加で",
+        "魔法攻撃時、",
+        "不死属性モンスターに",
+        "与えるダメージ + 5%",
+        "[捨てられたクマ人形カード]",
+        "と共に装備時、追加で",
+        "物理攻撃時、",
+        "不死属性モンスターに",
+        "与えるダメージ + 10%",
+        "[幸福の盾]と",
+        "共に装備時、追加で",
+        "不死形モンスターを",
+        "倒した時、",
+        "獲得する経験値 + 5%",
+        "[幸福の盾]の",
+        "精錬値が6以上の時、追加で",
+        "不死形モンスターを",
+        "倒した時、",
+        "獲得する経験値 + 5%",
+        "[幸福の盾]の",
+        "精錬値が8以上の時、追加で",
+        "不死形モンスターを",
+        "倒した時、",
+        "獲得する経験値 + 5%"
+    ],
+    "properties": {
+        "series": "card",
+        "series_normalized": [
+            "card"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [
+            "shield"
+        ],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "カード",
+            "装備": "盾",
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "ベアドール",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/TEDDY_BEAR"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "ラヴィーネ山脈01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ravi",
+            "map_code": "1@ravi"
+        },
+        {
+            "name": "試練の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_16",
+            "map_code": "2@la_16"
+        },
+        {
+            "name": "封印の迷宮 嘆きの廃城",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_20",
+            "map_code": "2@lb_20"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld216",
+            "map_code": "2@ld216"
+        },
+        {
+            "name": "幻影の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf216",
+            "map_code": "2@lf216"
+        },
+        {
+            "name": "ラヴィーネ山脈02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ravi",
+            "map_code": "2@ravi"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "アルデバラン時計塔地上 4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/c_tower4",
+            "map_code": "c_tower4"
+        },
+        {
+            "name": "鉱山ダンジョン 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ein_dun02",
+            "map_code": "ein_dun02"
+        }
+    ],
+    "source_html_sha256": "d9feed2d2f2d80e69a595830f4309139d508536ba7f790737d86a616c0aad887",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

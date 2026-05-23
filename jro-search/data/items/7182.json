@@ -1,0 +1,249 @@
+{
+    "type": "item",
+    "item_id": "7182",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/7182\/"
+    },
+    "name": "カカオ",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ココアの木とも呼ばれる熱帯地域に生息する植物で、分類上はアオギリ科カカオ属。\nこの実の種を発酵させた後に乾燥させ、それを炒めて粉末状にするとカカオペーストになる。\nカカオペーストから脂肪を抜くとココアになり、脂肪の方はカカオバターとなる。\nカカオペーストの段階で牛乳や砂糖などを加えて固めるとチョコレートができあがる。\n_",
+    "description_lines": [
+        "ココアの木とも呼ばれる熱帯地域に生息する植物で、分類上はアオギリ科カカオ属。",
+        "この実の種を発酵させた後に乾燥させ、それを炒めて粉末状にするとカカオペーストになる。",
+        "カカオペーストから脂肪を抜くとココアになり、脂肪の方はカカオバターとなる。",
+        "カカオペーストの段階で牛乳や砂糖などを加えて固めるとチョコレートができあがる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 2,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "2"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "チョコルチ・ビター",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/E_DIABOLIC"
+        },
+        {
+            "name": "チョコルチ・グランデ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GIANT_DEVIRUCHI"
+        },
+        {
+            "name": "ﾎﾜｲﾄﾁｮｺﾙﾁ･ｸﾞﾗﾝﾃﾞ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GIANT_DEVIRUCHI_W"
+        },
+        {
+            "name": "チョコルチ・モカ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/C1_CARAMEL"
+        },
+        {
+            "name": "チョコルチ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DEVIRUCHI_H"
+        },
+        {
+            "name": "ホワイトチョコルチ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DEVIRUCHI_W"
+        },
+        {
+            "name": "ヨーヨー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/YOYO"
+        },
+        {
+            "name": "古のウータンシューター",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ILL_WOOTAN_SHOOTER"
+        },
+        {
+            "name": "ウータンシューター",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WOOTAN_SHOOTER"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond1",
+            "map_code": "1@bond1"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond2",
+            "map_code": "1@bond2"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond3",
+            "map_code": "1@bond3"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond4",
+            "map_code": "1@bond4"
+        },
+        {
+            "name": "Bond Of Lovers",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@bond5",
+            "map_code": "1@bond5"
+        },
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_01",
+            "map_code": "2@la_01"
+        },
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_02",
+            "map_code": "2@la_02"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_01",
+            "map_code": "2@lb_01"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_02",
+            "map_code": "2@lb_02"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_01",
+            "map_code": "2@lc_01"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_02",
+            "map_code": "2@lc_02"
+        },
+        {
+            "name": "幻影の迷宮 湿った洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld107",
+            "map_code": "2@ld107"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld201",
+            "map_code": "2@ld201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld202",
+            "map_code": "2@ld202"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le101",
+            "map_code": "2@le101"
+        },
+        {
+            "name": "幻影の迷宮 湿った洞窟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le107",
+            "map_code": "2@le107"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf201",
+            "map_code": "2@lf201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf202",
+            "map_code": "2@lf202"
+        },
+        {
+            "name": "亜空の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg101",
+            "map_code": "2@lg101"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "実習室（高原）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_prac_03",
+            "map_code": "ac_prac_03"
+        },
+        {
+            "name": "アユタヤフィールド 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ayo_fild01",
+            "map_code": "ayo_fild01"
+        },
+        {
+            "name": "幻想の北洞窟ルワンダ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/com_d02_i",
+            "map_code": "com_d02_i"
+        },
+        {
+            "name": "プロンテラフィールド 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_fild03",
+            "map_code": "prt_fild03"
+        },
+        {
+            "name": "迷宮の森 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/prt_maze01",
+            "map_code": "prt_maze01"
+        },
+        {
+            "name": "ウンバラフィールド 02（フムガ森）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/um_fild02",
+            "map_code": "um_fild02"
+        }
+    ],
+    "source_html_sha256": "8058c849eceb16a68383d09328c96a95b20b2ba2cc3fcf6940f80db5f91e7e35",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

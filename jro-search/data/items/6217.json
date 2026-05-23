@@ -1,0 +1,303 @@
+{
+    "type": "item",
+    "item_id": "6217",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6217\/"
+    },
+    "name": "マンドラゴラの鉢植え",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "食用として使われる\nマンドラゴラの鉢植え。\n取り扱い注意。\n勝手に抜いたりしては\nいけない。\nジェネティックの\nスキル\n[ハウリングオブ\nマンドラゴラ]\n使用時、消費する。",
+    "description_lines": [
+        "食用として使われる",
+        "マンドラゴラの鉢植え。",
+        "取り扱い注意。",
+        "勝手に抜いたりしては",
+        "いけない。",
+        "ジェネティックの",
+        "スキル",
+        "[ハウリングオブ",
+        "マンドラゴラ]",
+        "使用時、消費する。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 0,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "0.1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "マスキプラー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MUSCIPULAR"
+        },
+        {
+            "name": "老人参",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/WILD_GINSENG"
+        },
+        {
+            "name": "ドロセラ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/DROSERA"
+        },
+        {
+            "name": "実験成体ドロセラ型",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_91"
+        },
+        {
+            "name": "実験幼体ドロセラ型",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/JP_E_MONSTER_83"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "ラヴィーネ山脈01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ravi",
+            "map_code": "1@ravi"
+        },
+        {
+            "name": "エンドレスタワー 1層（1～25F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@tower",
+            "map_code": "1@tower"
+        },
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_01",
+            "map_code": "2@la_01"
+        },
+        {
+            "name": "試練の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_02",
+            "map_code": "2@la_02"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_01",
+            "map_code": "2@lb_01"
+        },
+        {
+            "name": "封印の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_02",
+            "map_code": "2@lb_02"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_01",
+            "map_code": "2@lc_01"
+        },
+        {
+            "name": "異形の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_02",
+            "map_code": "2@lc_02"
+        },
+        {
+            "name": "異形の迷宮 実験棟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_26",
+            "map_code": "2@lc_26"
+        },
+        {
+            "name": "異形の迷宮 実験棟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_27",
+            "map_code": "2@lc_27"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld111",
+            "map_code": "2@ld111"
+        },
+        {
+            "name": "幻影の迷宮 実験施設",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld117",
+            "map_code": "2@ld117"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld201",
+            "map_code": "2@ld201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld202",
+            "map_code": "2@ld202"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le101",
+            "map_code": "2@le101"
+        },
+        {
+            "name": "幻影の迷宮 荒れた廃棄場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le111",
+            "map_code": "2@le111"
+        },
+        {
+            "name": "幻影の迷宮 実験施設",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@le117",
+            "map_code": "2@le117"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf201",
+            "map_code": "2@lf201"
+        },
+        {
+            "name": "幻影の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf202",
+            "map_code": "2@lf202"
+        },
+        {
+            "name": "亜空の迷宮 新緑の大樹",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg101",
+            "map_code": "2@lg101"
+        },
+        {
+            "name": "ラヴィーネ山脈02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ravi",
+            "map_code": "2@ravi"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "特別室（湖）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_spec_01",
+            "map_code": "ac_spec_01"
+        },
+        {
+            "name": "蟻地獄ダンジョン B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/anthell02",
+            "map_code": "anthell02"
+        },
+        {
+            "name": "コンロンダンジョン 03（武陵桃源）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gon_dun03",
+            "map_code": "gon_dun03"
+        },
+        {
+            "name": "氷の洞窟 01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ice_dun01",
+            "map_code": "ice_dun01"
+        },
+        {
+            "name": "ラヘルフィールド 01（アウドムラ草原）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild01",
+            "map_code": "ra_fild01"
+        },
+        {
+            "name": "ラヘルフィールド 03（イダ平原）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild03",
+            "map_code": "ra_fild03"
+        },
+        {
+            "name": "ラヘルフィールド 05（アウドムラ草原）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild05",
+            "map_code": "ra_fild05"
+        },
+        {
+            "name": "ラヘルフィールド 06（ポルトルナ）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild06",
+            "map_code": "ra_fild06"
+        },
+        {
+            "name": "ラヘルフィールド 08（イダ平原）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild08",
+            "map_code": "ra_fild08"
+        },
+        {
+            "name": "ラヘルフィールド 10（オズ峡谷）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild10",
+            "map_code": "ra_fild10"
+        },
+        {
+            "name": "ラヘルフィールド 11（イダ平原）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ra_fild11",
+            "map_code": "ra_fild11"
+        },
+        {
+            "name": "ヴェルナー研究所 A棟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/slabw01",
+            "map_code": "slabw01"
+        },
+        {
+            "name": "ヴェルナー研究所 C棟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/slabw01_jp",
+            "map_code": "slabw01_jp"
+        },
+        {
+            "name": "ヴェルナー研究所 B棟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/slabw01_jp2",
+            "map_code": "slabw01_jp2"
+        },
+        {
+            "name": "ヴェルナー研究所 D棟",
+            "url": "https:\/\/rotool.gungho.jp\/map\/slabw01_jp3",
+            "map_code": "slabw01_jp3"
+        }
+    ],
+    "source_html_sha256": "2b0b71487fa21bc3305a4b74e073dd1f77fd9217cc5fde759b429cda4a727be9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

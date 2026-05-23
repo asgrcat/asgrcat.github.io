@@ -1,0 +1,100 @@
+{
+    "type": "item",
+    "item_id": "2949",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2949\/"
+    },
+    "name": "銀細工のブレスレット[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "正体不明のブレスレット。\n時間の注視者が\n持っている物と似た\n紋様が施されている。\n全ての基本ステータス + 1\nMdef + 3\n[スペルブレイカー]Lv5\n使用可能",
+    "description_lines": [
+        "正体不明のブレスレット。",
+        "時間の注視者が",
+        "持っている物と似た",
+        "紋様が施されている。",
+        "全ての基本ステータス + 1",
+        "Mdef + 3",
+        "[スペルブレイカー]Lv5",
+        "使用可能"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 1,
+        "def": 3,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 60,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {
+                "novice": true
+            },
+            "exclude_jobs": {
+                "novice": true
+            }
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "3",
+            "重量": "10",
+            "要求レベル": "60",
+            "装備": "ノービス系を除く全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6793b2cbcfe8567b953d20aa2ce9e3b63493a7f5591ca744a0b67eff1f95d54c",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

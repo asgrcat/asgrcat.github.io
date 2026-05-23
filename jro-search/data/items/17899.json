@@ -1,0 +1,79 @@
+{
+    "type": "item",
+    "item_id": "17899",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/17899\/"
+    },
+    "name": "コスたまMysticII",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "開けると衣装装備が飛び出す\n不思議なたまご。\n以下の衣装装備のいずれか\n1つがランダムで出現する\n・[衣装] 魔法陣\n・[衣装] ブックオブ\nマジック\n・[衣装] 魔導士のフード\n・[衣装] 瞬く細い目\n・[衣装] ダークネス\nヴェール\n・[衣装] 浮遊する賢者の石\n・[衣装] レーザーオブ\nイーグル\n・[衣装] 電波アンテナ\n・[衣装] ヴァジュラ\n・[衣装] とんがり\n帽子（白）",
+    "description_lines": [
+        "開けると衣装装備が飛び出す",
+        "不思議なたまご。",
+        "以下の衣装装備のいずれか",
+        "1つがランダムで出現する",
+        "・[衣装] 魔法陣",
+        "・[衣装] ブックオブ",
+        "マジック",
+        "・[衣装] 魔導士のフード",
+        "・[衣装] 瞬く細い目",
+        "・[衣装] ダークネス",
+        "ヴェール",
+        "・[衣装] 浮遊する賢者の石",
+        "・[衣装] レーザーオブ",
+        "イーグル",
+        "・[衣装] 電波アンテナ",
+        "・[衣装] ヴァジュラ",
+        "・[衣装] とんがり",
+        "帽子（白）"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "7f479f7672721c2b804bf1e60e77116ed47d7f101ed478f9371a678e4b3cb479",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

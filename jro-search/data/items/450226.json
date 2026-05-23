@@ -1,0 +1,123 @@
+{
+    "type": "item",
+    "item_id": "450226",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/450226\/"
+    },
+    "name": "フォー・オブ・ア・カインド[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "魔術師ギルドの魂と\n叡智の結晶。\nクラブに火、\nハートに水、\nスペードに風、\nダイヤに地の力が\n込められている。\nMaxHP + 10% , MaxSP + 10%\n[コメット]\nLv5習得時、追加で\n[テトラボルテックス]、\n[ジャックフロスト]の\n固定詠唱時間 - 100%\n[テトラボルテックス]の\n習得Lvが1上がる度に追加で\n魔法攻撃時、\n全ての種族のモンスターに\n与えるダメージ + 7%\n[ラディウス]の\n習得Lvが1上がる度に追加で\nInt + 10 , Matk + 50\n[フォー・オブ・ア・\nカインド]の\n精錬値が5以上の時、追加で\nMdef + 25\n[フォー・オブ・ア・\nカインド]の\n精錬値が7以上の時、追加で\nMdef + 25\n[フォー・オブ・ア・\nカインド]の\n精錬値が10の時、追加で\n火・水・風・地\n無属性魔法攻撃で\n与えるダメージ + 15%\n絶対に壊れない",
+    "description_lines": [
+        "魔術師ギルドの魂と",
+        "叡智の結晶。",
+        "クラブに火、",
+        "ハートに水、",
+        "スペードに風、",
+        "ダイヤに地の力が",
+        "込められている。",
+        "MaxHP + 10% , MaxSP + 10%",
+        "[コメット]",
+        "Lv5習得時、追加で",
+        "[テトラボルテックス]、",
+        "[ジャックフロスト]の",
+        "固定詠唱時間 - 100%",
+        "[テトラボルテックス]の",
+        "習得Lvが1上がる度に追加で",
+        "魔法攻撃時、",
+        "全ての種族のモンスターに",
+        "与えるダメージ + 7%",
+        "[ラディウス]の",
+        "習得Lvが1上がる度に追加で",
+        "Int + 10 , Matk + 50",
+        "[フォー・オブ・ア・",
+        "カインド]の",
+        "精錬値が5以上の時、追加で",
+        "Mdef + 25",
+        "[フォー・オブ・ア・",
+        "カインド]の",
+        "精錬値が7以上の時、追加で",
+        "Mdef + 25",
+        "[フォー・オブ・ア・",
+        "カインド]の",
+        "精錬値が10の時、追加で",
+        "火・水・風・地",
+        "無属性魔法攻撃で",
+        "与えるダメージ + 15%",
+        "絶対に壊れない"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "無",
+        "slot": 1,
+        "def": 100,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": true,
+        "weight": 100,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "位置": "-",
+            "属性": "無",
+            "スロット": "1",
+            "Def": "100",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "する",
+            "重量": "100",
+            "要求レベル": "100",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "186ad66a2a93ce10557aad2ac627d109ed9f43caaac3745ce6961ea3acd80d19",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

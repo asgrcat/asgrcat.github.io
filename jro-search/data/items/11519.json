@@ -1,0 +1,67 @@
+{
+    "type": "item",
+    "item_id": "11519",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/11519\/"
+    },
+    "name": "ビーフトースト",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "モーラの名物おやつ。\nよく焼いた二枚の肉の間に\n沢山の野菜や果物をサンド。\n食べやすいように包んでいる\n葉は口直しにもなる優れ物。\nHPを200ほど回復する",
+    "description_lines": [
+        "モーラの名物おやつ。",
+        "よく焼いた二枚の肉の間に",
+        "沢山の野菜や果物をサンド。",
+        "食べやすいように包んでいる",
+        "葉は口直しにもなる優れ物。",
+        "HPを200ほど回復する"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 4,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "4"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "6ff19c178c4b2032927ed336e396f4cbe2eaeb90c7cb8bcec837ec6cecce0aa0",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

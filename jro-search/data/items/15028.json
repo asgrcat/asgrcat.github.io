@@ -1,0 +1,132 @@
+{
+    "type": "item",
+    "item_id": "15028",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/15028\/"
+    },
+    "name": "フォレストローブ[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "armor": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "warlock": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "地の力が込められた\n清楚な緑色のローブ。\nMdef + 10\nInt + 1\n[ヘヴンズドライブ]の\n変動詠唱時間 - 3秒\n純粋なIntが120以上の時、\n追加でInt + 1\n[フォレストスタッフ]、\n[フォレストオーブ]、\n[フォレストシューズ]と\n共に装備時、追加で\n隠された力が発動する\n[フォレストスタッフ]、\n[フォレストシューズ]、\n[フォレストローブ]の\n精錬値が7以上の時、\n追加効果が発動する\n[フォレストスタッフⅡ]、\n[フォレストオーブ]、\n[フォレストシューズ]と\n共に装備時、追加で\n隠された力が発動する\n[フォレストスタッフⅡ]、\n[フォレストシューズ]、\n[フォレストローブ]の\n精錬値が7以上の時、\n追加効果が発動する\n[アルティメット\nモードチェンジャー]と\n共に装備時、追加で\n秘められた効果が発動する\n[フォレストスタッフ]、\n[フォレストオーブ]、\n[フォレストシューズ]、\n[アルティメット\nモードチェンジャー]と\n共に装備時、追加で\n秘められた効果が発動する\n[フォレストスタッフⅡ]、\n[フォレストオーブ]、\n[フォレストシューズ]、\n[アルティメット\nモードチェンジャー]と\n共に装備時、追加で\n秘められた効果が発動する",
+    "description_lines": [
+        "地の力が込められた",
+        "清楚な緑色のローブ。",
+        "Mdef + 10",
+        "Int + 1",
+        "[ヘヴンズドライブ]の",
+        "変動詠唱時間 - 3秒",
+        "純粋なIntが120以上の時、",
+        "追加でInt + 1",
+        "[フォレストスタッフ]、",
+        "[フォレストオーブ]、",
+        "[フォレストシューズ]と",
+        "共に装備時、追加で",
+        "隠された力が発動する",
+        "[フォレストスタッフ]、",
+        "[フォレストシューズ]、",
+        "[フォレストローブ]の",
+        "精錬値が7以上の時、",
+        "追加効果が発動する",
+        "[フォレストスタッフⅡ]、",
+        "[フォレストオーブ]、",
+        "[フォレストシューズ]と",
+        "共に装備時、追加で",
+        "隠された力が発動する",
+        "[フォレストスタッフⅡ]、",
+        "[フォレストシューズ]、",
+        "[フォレストローブ]の",
+        "精錬値が7以上の時、",
+        "追加効果が発動する",
+        "[アルティメット",
+        "モードチェンジャー]と",
+        "共に装備時、追加で",
+        "秘められた効果が発動する",
+        "[フォレストスタッフ]、",
+        "[フォレストオーブ]、",
+        "[フォレストシューズ]、",
+        "[アルティメット",
+        "モードチェンジャー]と",
+        "共に装備時、追加で",
+        "秘められた効果が発動する",
+        "[フォレストスタッフⅡ]、",
+        "[フォレストオーブ]、",
+        "[フォレストシューズ]、",
+        "[アルティメット",
+        "モードチェンジャー]と",
+        "共に装備時、追加で",
+        "秘められた効果が発動する"
+    ],
+    "properties": {
+        "series": "armor",
+        "series_normalized": [
+            "armor"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "地",
+        "slot": 0,
+        "def": 40,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 50,
+        "weapon_level": null,
+        "required_level": 100,
+        "equip": {
+            "all": false,
+            "include_groups": {},
+            "include_jobs": {
+                "warlock": true
+            },
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "鎧",
+            "防御": "40",
+            "重量": "50",
+            "属性": "地",
+            "要求レベル": "100",
+            "装備": "ウォーロック系"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "bd55ad0b9b5af542c52ed5fa4ed0f378644bc061eff2f80231f953365bb2ae01",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

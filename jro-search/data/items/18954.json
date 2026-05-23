@@ -1,0 +1,102 @@
+{
+    "type": "item",
+    "item_id": "18954",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/18954\/"
+    },
+    "name": "ホワイトラビットボンネット[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "ふわふわの兎耳が付いた\nエレガントなボンネット。\n兎の名の通り\"跳ね上がる\"\nスキルが発動するという。\n物理・魔法攻撃命中時、\n一定確率で自分に\nオートスペル\n[速度増加]Lv1発動\n物理・魔法攻撃命中時、\n一定確率で敵に\nオートスペル\n[レックスエーテルナ]\nLv1発動\n精錬値が3上がる度に\nオートスペル\n[レックスエーテルナ]\nLv1の発動確率増加",
+    "description_lines": [
+        "ふわふわの兎耳が付いた",
+        "エレガントなボンネット。",
+        "兎の名の通り\"跳ね上がる\"",
+        "スキルが発動するという。",
+        "物理・魔法攻撃命中時、",
+        "一定確率で自分に",
+        "オートスペル",
+        "[速度増加]Lv1発動",
+        "物理・魔法攻撃命中時、",
+        "一定確率で敵に",
+        "オートスペル",
+        "[レックスエーテルナ]",
+        "Lv1発動",
+        "精錬値が3上がる度に",
+        "オートスペル",
+        "[レックスエーテルナ]",
+        "Lv1の発動確率増加"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 1,
+        "def": 15,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 80,
+        "weapon_level": null,
+        "required_level": 30,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "15",
+            "位置": "上段",
+            "重量": "80",
+            "要求レベル": "30",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "ba4110d3a2c6da0fcf46b9a54cfe3fe3cd0e4945964f0963b4782b1d1dfa5969",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

@@ -1,0 +1,204 @@
+{
+    "type": "item",
+    "item_id": "2677",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2677\/"
+    },
+    "name": "スピリチュアルリング[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "accessory_1": true,
+            "accessory_2": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "精霊の力が込められている\n美しい指輪。\n相性の良いアイテムと共に\n装備すると、驚く程の\n増幅効果を発揮すると言う。\nInt + 2 , Dex + 1\n[ウィザードスタッフ]、\n[スタッフオブソウル]の\nいずれかと共に装備時、\n追加で\nDex + 2\n魔法攻撃で\n与えるダメージ + 6%\n[ウィザードスタッフ]、\n[スタッフオブソウル]の\nいずれかの\n精錬値が1上がる度に追加で\n変動詠唱時間 - 1%\n[クリップ]、\n[ロザリー]、\n[ロザリオ］の\nいずれかと共に装備時、\n追加で\nSP自然回復量 + 9%\n[ヒール]で\n不死属性モンスターに\n与えるダメージ + 50%\n[マグヌスエクソシズム]で\n与えるダメージ + 30%\n[ディバインクロス]と\n共に装備時、追加で\nDex + 2\n魔法攻撃で\n与えるダメージ + 10%\n不死・悪魔形モンスター\nから受けるダメージ - 10%\n[悪魔祓いの書]と\n共に装備時、追加で\n[マグヌスエクソシズム]の\n変動詠唱時間 - 25%",
+    "description_lines": [
+        "精霊の力が込められている",
+        "美しい指輪。",
+        "相性の良いアイテムと共に",
+        "装備すると、驚く程の",
+        "増幅効果を発揮すると言う。",
+        "Int + 2 , Dex + 1",
+        "[ウィザードスタッフ]、",
+        "[スタッフオブソウル]の",
+        "いずれかと共に装備時、",
+        "追加で",
+        "Dex + 2",
+        "魔法攻撃で",
+        "与えるダメージ + 6%",
+        "[ウィザードスタッフ]、",
+        "[スタッフオブソウル]の",
+        "いずれかの",
+        "精錬値が1上がる度に追加で",
+        "変動詠唱時間 - 1%",
+        "[クリップ]、",
+        "[ロザリー]、",
+        "[ロザリオ］の",
+        "いずれかと共に装備時、",
+        "追加で",
+        "SP自然回復量 + 9%",
+        "[ヒール]で",
+        "不死属性モンスターに",
+        "与えるダメージ + 50%",
+        "[マグヌスエクソシズム]で",
+        "与えるダメージ + 30%",
+        "[ディバインクロス]と",
+        "共に装備時、追加で",
+        "Dex + 2",
+        "魔法攻撃で",
+        "与えるダメージ + 10%",
+        "不死・悪魔形モンスター",
+        "から受けるダメージ - 10%",
+        "[悪魔祓いの書]と",
+        "共に装備時、追加で",
+        "[マグヌスエクソシズム]の",
+        "変動詠唱時間 - 25%"
+    ],
+    "properties": {
+        "series": "accessory",
+        "series_normalized": [
+            "accessory",
+            "accessory_1",
+            "accessory_2"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "アクセサリー",
+            "防御": "0",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "イフリート",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/IFRIT"
+        },
+        {
+            "name": "堕ちた大神官ヒバム",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/FALLINGBISHOP"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "秘密の研究所",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@selab",
+            "map_code": "1@selab"
+        },
+        {
+            "name": "試練の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_24",
+            "map_code": "2@la_24"
+        },
+        {
+            "name": "試練の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_29",
+            "map_code": "2@la_29"
+        },
+        {
+            "name": "封印の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_24",
+            "map_code": "2@lb_24"
+        },
+        {
+            "name": "封印の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_29",
+            "map_code": "2@lb_29"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld224",
+            "map_code": "2@ld224"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld229",
+            "map_code": "2@ld229"
+        },
+        {
+            "name": "幻影の迷宮 廃城の地下通路",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf224",
+            "map_code": "2@lf224"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf229",
+            "map_code": "2@lf229"
+        },
+        {
+            "name": "亜空の迷宮 転移魔法陣",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lg127",
+            "map_code": "2@lg127"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "エンドレスタワー 4層（76～99F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@tower",
+            "map_code": "4@tower"
+        },
+        {
+            "name": "修道院 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/abbey02",
+            "map_code": "abbey02"
+        },
+        {
+            "name": "トール火山ダンジョン 03",
+            "url": "https:\/\/rotool.gungho.jp\/map\/thor_v03",
+            "map_code": "thor_v03"
+        }
+    ],
+    "source_html_sha256": "1936c3a832f9ce659af2e5558f5ca585652826e799b058e4d2fb8f1f738e3503",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

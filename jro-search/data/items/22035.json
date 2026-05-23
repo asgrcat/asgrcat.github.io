@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "22035",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/22035\/"
+    },
+    "name": "勇者のネペンテスブーツ[1]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 1,
+        "enchant_slot_count": 3,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "shoes": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "モロクと戦う勇者に\n贈られる栄誉ある靴。\n筋弛緩効果で知られる\nネペンテスの葉で\n作られているため、\n技をより早く繰り出せる。\n変動詠唱時間 - 10%\n[勇者のネペンテスブーツ]\nの精錬値が8以上の時、\n追加で変動詠唱時間 - 5%\n精錬値が9以上の時、\n精錬値が1上がる度に追加で\n変動詠唱時間 - 1%\n[連合軍司令官のマント]と\n共に装備時、追加で\nAgi + 10 , Int + 10\n変動詠唱時間 - 10%\nプレイヤーから\n受けるダメージ - 5%",
+    "description_lines": [
+        "モロクと戦う勇者に",
+        "贈られる栄誉ある靴。",
+        "筋弛緩効果で知られる",
+        "ネペンテスの葉で",
+        "作られているため、",
+        "技をより早く繰り出せる。",
+        "変動詠唱時間 - 10%",
+        "[勇者のネペンテスブーツ]",
+        "の精錬値が8以上の時、",
+        "追加で変動詠唱時間 - 5%",
+        "精錬値が9以上の時、",
+        "精錬値が1上がる度に追加で",
+        "変動詠唱時間 - 1%",
+        "[連合軍司令官のマント]と",
+        "共に装備時、追加で",
+        "Agi + 10 , Int + 10",
+        "変動詠唱時間 - 10%",
+        "プレイヤーから",
+        "受けるダメージ - 5%"
+    ],
+    "properties": {
+        "series": "shoes",
+        "series_normalized": [
+            "shoes"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": "-",
+        "slot": 1,
+        "def": 10,
+        "atk": null,
+        "mdef": 0,
+        "matk": null,
+        "refinement": true,
+        "breakable": false,
+        "weight": 30,
+        "weapon_level": null,
+        "required_level": 160,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "靴",
+            "位置": "-",
+            "属性": "-",
+            "スロット": "1",
+            "Def": "10",
+            "Mdef": "0",
+            "精錬": "可",
+            "破損": "しない",
+            "重量": "30",
+            "要求レベル": "160",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "f17d25cd29a7787ddaf723e0c18648584915951bcdfdd4d6ba72ee225a98b8d9",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

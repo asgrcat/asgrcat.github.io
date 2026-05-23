@@ -1,0 +1,109 @@
+{
+    "type": "item",
+    "item_id": "2201",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/2201\/"
+    },
+    "name": "サングラス[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "middle": true
+        },
+        "refineable": false,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "黒い色の眼鏡。\n日光を遮断してくれるし、\n格好もよい。\n暗黒に対する耐性 + 5%\n[暴徒のスカーフ]と\n共に装備時、追加で\nプレイヤーから\n受けるダメージ - 2%\n純粋なStrとLukの合計が\n80上がる度に追加で\nCri + 5\n物理攻撃で\n与えるダメージ + 6%\nクリティカル攻撃で\n与えるダメージ + 10%\n純粋なIntとDexの合計が\n80上がる度に追加で\nMatk + 120\n変動詠唱時間 - 3%\nヒール系スキル使用時、\nHP回復量 + 10%\n純粋なAgiとVitの合計が\n80上がる度に追加で\n攻撃速度 + 5%\nMaxHP + 5%\nプレイヤーから\n受けるダメージ - 2%",
+    "description_lines": [
+        "黒い色の眼鏡。",
+        "日光を遮断してくれるし、",
+        "格好もよい。",
+        "暗黒に対する耐性 + 5%",
+        "[暴徒のスカーフ]と",
+        "共に装備時、追加で",
+        "プレイヤーから",
+        "受けるダメージ - 2%",
+        "純粋なStrとLukの合計が",
+        "80上がる度に追加で",
+        "Cri + 5",
+        "物理攻撃で",
+        "与えるダメージ + 6%",
+        "クリティカル攻撃で",
+        "与えるダメージ + 10%",
+        "純粋なIntとDexの合計が",
+        "80上がる度に追加で",
+        "Matk + 120",
+        "変動詠唱時間 - 3%",
+        "ヒール系スキル使用時、",
+        "HP回復量 + 10%",
+        "純粋なAgiとVitの合計が",
+        "80上がる度に追加で",
+        "攻撃速度 + 5%",
+        "MaxHP + 5%",
+        "プレイヤーから",
+        "受けるダメージ - 2%"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "middle",
+        "attribute": null,
+        "slot": 0,
+        "def": 0,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 10,
+        "weapon_level": null,
+        "required_level": 1,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "0",
+            "位置": "中段",
+            "重量": "10",
+            "要求レベル": "1",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "86a8bb9b6e46ea07b3eaf97bc0e5d83ff1791789b4d44b59b2960d78d89d1802",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

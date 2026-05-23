@@ -1,0 +1,65 @@
+{
+    "type": "item",
+    "item_id": "6392",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/6392\/"
+    },
+    "name": "ブラディウムの箱",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "マヌクで採取した沢山の\nブラディウムが詰まった箱。\n中身が何かわからないよう、\n特長の無い形をしている。",
+    "description_lines": [
+        "マヌクで採取した沢山の",
+        "ブラディウムが詰まった箱。",
+        "中身が何かわからないよう、",
+        "特長の無い形をしている。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "b18cca1f95efed6f0993e3912a0bfe74058f0bc2e44ba3df9533b55a0ca8b34a",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

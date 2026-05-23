@@ -1,0 +1,297 @@
+{
+    "type": "item",
+    "item_id": "930",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/930\/"
+    },
+    "name": "くさった包帯",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "古くてくさった、価値のない包帯。収集品商人に売る事ができる。\n_",
+    "description_lines": [
+        "古くてくさった、価値のない包帯。収集品商人に売る事ができる。",
+        "_"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "マミー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/MUMMY"
+        },
+        {
+            "name": "グレイヴマミー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/N_MUMMY"
+        },
+        {
+            "name": "グレイヴクラウンマミー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/N_ANCIENT_MUMMY"
+        },
+        {
+            "name": "エンシェントマミー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ANCIENT_MUMMY"
+        },
+        {
+            "name": "スケルプリズナー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SKEL_PRISONER"
+        },
+        {
+            "name": "ゾンビプリズナー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ZOMBIE_PRISONER"
+        },
+        {
+            "name": "死屍のAマミー",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ECO_ANCIENT_MUMMY"
+        },
+        {
+            "name": "悲痛の亡者",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/ZOMBIE_H"
+        },
+        {
+            "name": "沈痛の亡者",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/GHOUL_H"
+        },
+        {
+            "name": "腐犬",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/SEASON_MOB_185"
+        },
+        {
+            "name": "ベリット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/VERIT"
+        },
+        {
+            "name": "グレイヴベリット",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/N_VERIT"
+        },
+        {
+            "name": "廃棄された中級ルガン",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/EP19_WASTED_RGAN_C"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "星座の塔 1層",
+            "url": "https:\/\/rotool.gungho.jp\/map\/1@ct2",
+            "map_code": "1@ct2"
+        },
+        {
+            "name": "試練の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_10",
+            "map_code": "2@la_10"
+        },
+        {
+            "name": "試練の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_25",
+            "map_code": "2@la_25"
+        },
+        {
+            "name": "試練の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@la_27",
+            "map_code": "2@la_27"
+        },
+        {
+            "name": "封印の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_11",
+            "map_code": "2@lb_11"
+        },
+        {
+            "name": "封印の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_12",
+            "map_code": "2@lb_12"
+        },
+        {
+            "name": "封印の迷宮 禁忌の実験場",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lb_31",
+            "map_code": "2@lb_31"
+        },
+        {
+            "name": "異形の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_10",
+            "map_code": "2@lc_10"
+        },
+        {
+            "name": "異形の迷宮 魂の牢獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_16",
+            "map_code": "2@lc_16"
+        },
+        {
+            "name": "異形の迷宮 忘れられた炭鉱",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_20",
+            "map_code": "2@lc_20"
+        },
+        {
+            "name": "異形の迷宮 実験棟地下",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lc_29",
+            "map_code": "2@lc_29"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld210",
+            "map_code": "2@ld210"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld225",
+            "map_code": "2@ld225"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@ld227",
+            "map_code": "2@ld227"
+        },
+        {
+            "name": "幻影の迷宮 古代遺跡",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf210",
+            "map_code": "2@lf210"
+        },
+        {
+            "name": "幻影の迷宮 穢れの監獄",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf225",
+            "map_code": "2@lf225"
+        },
+        {
+            "name": "幻影の迷宮 夢幻の道",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@lf227",
+            "map_code": "2@lf227"
+        },
+        {
+            "name": "エンドレスタワー 2層（26～50F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/2@tower",
+            "map_code": "2@tower"
+        },
+        {
+            "name": "エンドレスタワー 3層（51～75F）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/3@tower",
+            "map_code": "3@tower"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@a_inf",
+            "map_code": "4@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/4@infi",
+            "map_code": "4@infi"
+        },
+        {
+            "name": "無限の空間(ハード)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@a_inf",
+            "map_code": "5@a_inf"
+        },
+        {
+            "name": "無限の空間(ノーマル)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/5@infi",
+            "map_code": "5@infi"
+        },
+        {
+            "name": "特別室（廃墟）",
+            "url": "https:\/\/rotool.gungho.jp\/map\/ac_spec_02",
+            "map_code": "ac_spec_02"
+        },
+        {
+            "name": "標本環境(死屍)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/bl_death",
+            "map_code": "bl_death"
+        },
+        {
+            "name": "グラストヘイム カタコンベ",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_chyard",
+            "map_code": "gl_chyard"
+        },
+        {
+            "name": "グラストヘイム 地下監獄01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/gl_prison1",
+            "map_code": "gl_prison1"
+        },
+        {
+            "name": "捨てられた穴 02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/jor_ab02_",
+            "map_code": "jor_ab02_"
+        },
+        {
+            "name": "ピラミッドダンジョン 2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd02",
+            "map_code": "moc_pryd02"
+        },
+        {
+            "name": "ピラミッドダンジョン 3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd03",
+            "map_code": "moc_pryd03"
+        },
+        {
+            "name": "ピラミッドダンジョン 4F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd04",
+            "map_code": "moc_pryd04"
+        },
+        {
+            "name": "ピラミッドダンジョン B2F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd05",
+            "map_code": "moc_pryd05"
+        },
+        {
+            "name": "ピラミッドダンジョン B3F",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_pryd06",
+            "map_code": "moc_pryd06"
+        },
+        {
+            "name": "ピラミッドダンジョン 秘密の地下室01",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_prydn1",
+            "map_code": "moc_prydn1"
+        },
+        {
+            "name": "ピラミッドダンジョン 秘密の地下室02",
+            "url": "https:\/\/rotool.gungho.jp\/map\/moc_prydn2",
+            "map_code": "moc_prydn2"
+        },
+        {
+            "name": "地下シェルター",
+            "url": "https:\/\/rotool.gungho.jp\/map\/un_bunker",
+            "map_code": "un_bunker"
+        }
+    ],
+    "source_html_sha256": "1766c90b4aa629d8762f5cd2a34da2e0874b4062b4dedc730162783306415a67",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

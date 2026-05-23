@@ -1,0 +1,80 @@
+{
+    "type": "item",
+    "item_id": "1002017",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/1002017\/"
+    },
+    "name": "スカビオサの花",
+    "classification": {
+        "is_equipment": false,
+        "is_card": false,
+        "card_slot_count": null,
+        "enchant_slot_count": null,
+        "equipment_group": null,
+        "support_equipment_type": null,
+        "positions": {},
+        "refineable": null,
+        "refine_range": null,
+        "is_two_handed_weapon": false,
+        "equip_jobs": null,
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "美しく密集した花びらを持つ\nスカビオサの花一輪。\n深い悲しみを思わせる。",
+    "description_lines": [
+        "美しく密集した花びらを持つ",
+        "スカビオサの花一輪。",
+        "深い悲しみを思わせる。"
+    ],
+    "properties": {
+        "series": null,
+        "series_normalized": [],
+        "kind": null,
+        "accessory": null,
+        "position": null,
+        "attribute": null,
+        "slot": null,
+        "def": null,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 1,
+        "weapon_level": null,
+        "required_level": null,
+        "equip": [],
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "重量": "1"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [
+        {
+            "name": "スカビオサ",
+            "url": "https:\/\/rotool.gungho.jp\/monster\/CH1_SCABIOSA"
+        }
+    ],
+    "available_maps": [
+        {
+            "name": "歪んだブリミル 1階(クエスト)",
+            "url": "https:\/\/rotool.gungho.jp\/map\/uknw_ruin",
+            "map_code": "uknw_ruin"
+        },
+        {
+            "name": "歪んだブリミル 1階",
+            "url": "https:\/\/rotool.gungho.jp\/map\/uknw_ruinj",
+            "map_code": "uknw_ruinj"
+        }
+    ],
+    "source_html_sha256": "1651a2013f4f0912adb47d93a5345b722bb3d9cdba2bc2da6b6934755b4ab805",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}

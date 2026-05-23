@@ -1,0 +1,95 @@
+{
+    "type": "item",
+    "item_id": "5467",
+    "source_urls": {
+        "rotool": "https:\/\/rotool.gungho.jp\/item\/5467\/"
+    },
+    "name": "ドラグーンヘルム[0]",
+    "classification": {
+        "is_equipment": true,
+        "is_card": false,
+        "card_slot_count": 0,
+        "enchant_slot_count": 4,
+        "equipment_group": "normal",
+        "support_equipment_type": null,
+        "positions": {
+            "upper": true
+        },
+        "refineable": true,
+        "refine_range": {
+            "min": 0,
+            "max": 10
+        },
+        "is_two_handed_weapon": false,
+        "equip_jobs": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "card_attachable_equipment": [],
+        "card_attachable_positions": {}
+    },
+    "description": "竜族の硬い鱗で作られた兜。\nこの兜を被る者は、偉大なる\n竜の力を得る事が出来る。\n竜族モンスターに\n20% の追加ダメージ。\n物理攻撃時、一定確率で\n自分を中心にした\n5 × 5 セルの範囲内にいる\n全ての敵に特定の状態異常\n効果を与える。",
+    "description_lines": [
+        "竜族の硬い鱗で作られた兜。",
+        "この兜を被る者は、偉大なる",
+        "竜の力を得る事が出来る。",
+        "竜族モンスターに",
+        "20% の追加ダメージ。",
+        "物理攻撃時、一定確率で",
+        "自分を中心にした",
+        "5 × 5 セルの範囲内にいる",
+        "全ての敵に特定の状態異常",
+        "効果を与える。"
+    ],
+    "properties": {
+        "series": "headgear",
+        "series_normalized": [
+            "headgear"
+        ],
+        "kind": null,
+        "accessory": null,
+        "position": "upper",
+        "attribute": null,
+        "slot": 0,
+        "def": 10,
+        "atk": null,
+        "mdef": null,
+        "matk": null,
+        "refinement": null,
+        "breakable": null,
+        "weight": 200,
+        "weapon_level": null,
+        "required_level": 50,
+        "equip": {
+            "all": true,
+            "include_groups": {},
+            "include_jobs": {},
+            "exclude_groups": {},
+            "exclude_jobs": {}
+        },
+        "pet_food": null,
+        "material": null,
+        "materials": [],
+        "cooldown": null,
+        "raw": {
+            "系列": "兜",
+            "防御": "10",
+            "位置": "上段",
+            "重量": "200",
+            "要求レベル": "50",
+            "装備": "全ての職業"
+        }
+    },
+    "movement_restrictions": {
+        "character": [],
+        "storage": []
+    },
+    "drop_monsters": [],
+    "available_maps": [],
+    "source_html_sha256": "cb8a1fbf8b49171560d0f37ad7d9609f675a985937c36fdeefe7094e3857fcb3",
+    "fetched_at": "2026-05-23T08:21:36+00:00",
+    "parsed_at": "2026-05-23T08:21:36+00:00"
+}
