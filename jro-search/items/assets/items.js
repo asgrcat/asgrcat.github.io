@@ -13,6 +13,12 @@
     const effectButtons = document.querySelectorAll('.effect-button');
     const filterChips = document.querySelectorAll('.chip[data-filter-group]');
     const enchantSetToggles = document.querySelectorAll('.enchant-set-toggle');
+    const previewEmpty = document.getElementById('previewEmpty');
+    const previewHeader = document.getElementById('previewHeader');
+    const enchantSummary = document.getElementById('enchantSummary');
+    const enchantEmpty = document.getElementById('enchantEmpty');
+    const enchantSets = document.querySelectorAll('.enchant-set[data-enchant-key]');
+    const iframeWrap = document.getElementById('iframeWrap');
     const previewTitle = document.getElementById('previewTitle');
     const previewUrl = document.getElementById('previewUrl');
     const officialFrame = document.getElementById('officialFrame');
@@ -306,6 +312,46 @@
       return terms.every((term) => matchesFuzzyText(text, term));
     };
 
+    const setPreviewEmptyState = (isEmpty) => {
+      previewEmpty.classList.toggle('is-visible', isEmpty);
+      previewHeader.hidden = isEmpty;
+      enchantSummary.hidden = isEmpty;
+      iframeWrap.hidden = isEmpty;
+
+      if (isEmpty) {
+        effectButtons.forEach((item) => item.classList.remove('is-active'));
+        previewTitle.textContent = '';
+        previewUrl.textContent = '';
+        officialFrame.src = 'about:blank';
+        openOfficial.href = 'about:blank';
+      }
+    };
+
+    const resetEnchantSetExpansion = (enchantSet, shouldExpand) => {
+      const toggle = enchantSet.querySelector('.enchant-set-toggle');
+
+      enchantSet.classList.toggle('is-collapsed', !shouldExpand);
+      toggle?.setAttribute('aria-expanded', String(shouldExpand));
+    };
+
+    const updateEnchantSummary = (button) => {
+      const itemEnchants = splitDataValues(button.dataset.enchants);
+      let visibleCount = 0;
+
+      enchantSets.forEach((enchantSet) => {
+        const isVisible = itemEnchants.includes(enchantSet.dataset.enchantKey || '');
+
+        enchantSet.hidden = !isVisible;
+
+        if (isVisible) {
+          resetEnchantSetExpansion(enchantSet, visibleCount === 0);
+          visibleCount += 1;
+        }
+      });
+
+      enchantEmpty.hidden = visibleCount > 0;
+    };
+
     const truncateDescription = (description) => {
       const maxLength = 30;
 
@@ -363,6 +409,8 @@
       resultButtons.forEach((item) => item.classList.remove('is-active'));
       effectButtons.forEach((item) => item.classList.remove('is-active'));
       button.classList.add('is-active');
+      setPreviewEmptyState(false);
+      updateEnchantSummary(button);
 
       const name = button.dataset.name || '公式アイテムページ';
       const url = button.dataset.url || 'about:blank';
@@ -411,6 +459,7 @@
 
       if (visibleCount === 0) {
         resultButtons.forEach((button) => button.classList.remove('is-active'));
+        setPreviewEmptyState(true);
         return;
       }
 

@@ -495,6 +495,32 @@
       background: var(--surface);
     }
 
+    .preview-empty {
+      display: none;
+      align-content: center;
+      min-height: 100%;
+      padding: 28px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .preview-empty.is-visible {
+      display: grid;
+    }
+
+    .preview-empty-title {
+      margin: 0 0 6px;
+      color: var(--text);
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .preview-empty-text {
+      max-width: 320px;
+      margin: 0 auto;
+      font-size: 12px;
+    }
+
     .preview-title-row {
       display: flex;
       align-items: start;
@@ -538,6 +564,16 @@
       border-radius: 8px;
       background: #ffffff;
       overflow: hidden;
+    }
+
+    .enchant-empty {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px;
+      background: #ffffff;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
     }
 
     .enchant-set-toggle {

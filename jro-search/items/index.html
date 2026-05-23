@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JRO Search - アイテム検索</title>
-  <link rel="stylesheet" href="./assets/items.css">
+  <link rel="stylesheet" href="./assets/items.css?v=20260523085956">
 </head>
 <body>
   <div class="app-shell">
@@ -130,6 +130,28 @@
                 </button>
               </li>
               <li class="result-item" hidden>
+                <button class="result-button" type="button" data-name="星座の印章(剛勇)[1]" data-description="星の力を宿した印章。勇猛な加護を与える。" data-search-aliases="星座 印章 剛勇 せいざ の いんしょう ごうゆう seiza insho gouyuu goyu" data-positions="accessory_1 accessory_2" data-enchants="star_insignia" data-enchant-text="星座の印章 星の力" data-url="https://rotool.gungho.jp/item/490137/">
+                  <span class="result-main">
+                    <span class="result-title-row">
+                      <span class="result-title">星座の印章(剛勇)[1]</span>
+                    </span>
+                    <span class="result-summary">星の力を宿した印章。勇猛な加護を与える。</span>
+                    <span class="tag-row"><span class="tag">アクセサリー</span></span>
+                  </span>
+                </button>
+              </li>
+              <li class="result-item" hidden>
+                <button class="result-button" type="button" data-name="星座の印章(幸運)[1]" data-description="星の力を宿した印章。幸運の加護を与える。" data-search-aliases="星座 印章 幸運 せいざ の いんしょう こううん seiza insho kouun koun" data-positions="accessory_1 accessory_2" data-enchants="star_insignia" data-enchant-text="星座の印章 星の力" data-url="https://rotool.gungho.jp/item/490137/">
+                  <span class="result-main">
+                    <span class="result-title-row">
+                      <span class="result-title">星座の印章(幸運)[1]</span>
+                    </span>
+                    <span class="result-summary">星の力を宿した印章。幸運の加護を与える。</span>
+                    <span class="tag-row"><span class="tag">アクセサリー</span></span>
+                  </span>
+                </button>
+              </li>
+              <li class="result-item" hidden>
                 <button class="result-button" type="button" data-name="時間の破片" data-description="時間の流れから零れ落ちた小さな破片。" data-search-aliases="じかん の はへん jikan hahen" data-positions="" data-enchants="" data-enchant-text="" data-url="https://rotool.gungho.jp/item/1000000/">
                   <span class="result-main">
                     <span class="result-title-row">
@@ -160,21 +182,28 @@
         </div>
 
         <section class="preview-pane" id="previewPane" role="tabpanel" aria-labelledby="previewTab" aria-label="公式ページプレビュー">
-          <div class="preview-header">
+          <div class="preview-empty is-visible" id="previewEmpty">
+            <p class="preview-empty-title">アイテムを選択してください</p>
+            <p class="preview-empty-text">検索結果からアイテムを選択すると、エンチャント情報と公式ページをここに表示します。</p>
+          </div>
+
+          <div class="preview-header" id="previewHeader" hidden>
             <div class="preview-title-row">
               <div>
-                <h2 class="preview-title" id="previewTitle">ブレッシングオブイグドラシル[0]</h2>
-                <div class="preview-url" id="previewUrl">https://rotool.gungho.jp/item/480516/</div>
+                <h2 class="preview-title" id="previewTitle"></h2>
+                <div class="preview-url" id="previewUrl"></div>
               </div>
               <div class="preview-actions">
-                <a class="button" id="openOfficial" href="https://rotool.gungho.jp/item/480516/" target="_blank" rel="noopener noreferrer">別タブで開く</a>
+                <a class="button" id="openOfficial" href="about:blank" target="_blank" rel="noopener noreferrer">別タブで開く</a>
                 <button class="button" type="button">詳細JSON表示</button>
               </div>
             </div>
           </div>
 
-          <div class="enchant-summary" aria-label="エンチャント対応情報">
-            <div class="enchant-set">
+          <div class="enchant-summary" id="enchantSummary" aria-label="エンチャント対応情報" hidden>
+            <div class="enchant-empty" id="enchantEmpty" hidden>このアイテムのエンチャント情報はありません。</div>
+
+            <div class="enchant-set" data-enchant-key="special">
               <button class="enchant-set-toggle" type="button" aria-expanded="true" aria-controls="specialEnchantSet">
                 <span class="enchant-meta">
                   <span class="meta-chip">スペシャル エンチャント</span>
@@ -235,7 +264,7 @@
               </div>
             </div>
 
-            <div class="enchant-set is-collapsed">
+            <div class="enchant-set is-collapsed" data-enchant-key="pharos">
               <button class="enchant-set-toggle" type="button" aria-expanded="false" aria-controls="pharosEnchantSet">
                 <span class="enchant-meta">
                   <span class="meta-chip">ファロス エンチャント</span>
@@ -280,14 +309,50 @@
                 </div>
               </div>
             </div>
+
+            <div class="enchant-set is-collapsed" data-enchant-key="star_insignia">
+              <button class="enchant-set-toggle" type="button" aria-expanded="false" aria-controls="starInsigniaEnchantSet">
+                <span class="enchant-meta">
+                  <span class="meta-chip">星座の印章 エンチャント</span>
+                  <span class="meta-chip">NPC: 星座の塔</span>
+                  <span class="meta-chip">エンチャ素材: 星座の印章 1個</span>
+                </span>
+                <span class="enchant-toggle-icon" aria-hidden="true">›</span>
+              </button>
+
+              <div class="enchant-set-body" id="starInsigniaEnchantSet">
+                <div class="enchant-table-wrap">
+                <table class="enchant-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">対象箇所</th>
+                      <th scope="col">エンチャント効果</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="slot-cell">第1エンチャント<br>(第4スロット)</td>
+                      <td>
+                        <div class="effect-list">
+                          <button class="effect-button" type="button" data-effect-name="聡明" data-effect-url="https://rotool.gungho.jp/item/490137/">聡明</button>
+                          <button class="effect-button" type="button" data-effect-name="剛勇" data-effect-url="https://rotool.gungho.jp/item/490137/">剛勇</button>
+                          <button class="effect-button" type="button" data-effect-name="幸運" data-effect-url="https://rotool.gungho.jp/item/490137/">幸運</button>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="iframe-wrap">
+          <div class="iframe-wrap" id="iframeWrap" hidden>
             <iframe
               class="official-frame"
               id="officialFrame"
               title="公式アイテムページ"
-              src="https://rotool.gungho.jp/item/480516/"
+              src="about:blank"
               loading="lazy"
               referrerpolicy="no-referrer"
             ></iframe>
@@ -297,6 +362,6 @@
     </div>
   </div>
 
-  <script src="./assets/items.js"></script>
+  <script src="./assets/items.js?v=20260523085956"></script>
 </body>
 </html>
