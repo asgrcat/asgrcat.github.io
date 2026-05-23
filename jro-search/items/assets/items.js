@@ -252,6 +252,7 @@
       slot.slot_label,
       slot.required_refine,
       slot.required_transcendence ? `超越${slot.required_transcendence}` : null,
+      slot.required_enchantment ? `前提: ${slot.required_enchantment}` : null,
     ].filter(Boolean).join('\n');
 
     const selectionMethodLabel = (selectionMethod) => {
