@@ -414,9 +414,7 @@
     }
 
     .result-button {
-      display: grid;
-      grid-template-columns: 42px minmax(0, 1fr);
-      gap: 10px;
+      display: block;
       width: 100%;
       border: 0;
       padding: 11px 14px;
@@ -428,19 +426,6 @@
     .result-button:hover,
     .result-button.is-active {
       background: var(--primary-soft);
-    }
-
-    .item-icon {
-      display: grid;
-      place-items: center;
-      width: 36px;
-      height: 36px;
-      border: 1px solid var(--border);
-      border-radius: 7px;
-      background: linear-gradient(135deg, #ffffff 0%, #eef7f6 100%);
-      color: var(--primary);
-      font-size: 16px;
-      font-weight: 800;
     }
 
     .result-main {
@@ -461,20 +446,14 @@
       white-space: nowrap;
     }
 
-    .item-id {
-      color: var(--muted);
-      font-size: 12px;
-      white-space: nowrap;
-    }
-
     .result-summary {
-      display: -webkit-box;
+      display: block;
       margin-top: 3px;
       overflow: hidden;
       color: var(--muted);
       font-size: 12px;
-      -webkit-box-orient: vertical;
-      -webkit-line-clamp: 2;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
     .tag-row {
@@ -538,9 +517,58 @@
     .enchant-summary {
       display: grid;
       gap: 10px;
+      max-height: 330px;
+      overflow: auto;
       padding: 12px 14px;
       border-bottom: 1px solid var(--border);
       background: var(--surface-muted);
+    }
+
+    .enchant-set {
+      display: grid;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #ffffff;
+      overflow: hidden;
+    }
+
+    .enchant-set-toggle {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      width: 100%;
+      border: 0;
+      padding: 9px;
+      background: #ffffff;
+      color: var(--text);
+      text-align: left;
+    }
+
+    .enchant-set-toggle:hover {
+      background: var(--primary-soft);
+    }
+
+    .enchant-toggle-icon {
+      align-self: center;
+      color: var(--muted);
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 1;
+      transition: transform 0.16s ease;
+    }
+
+    .enchant-set-toggle[aria-expanded="true"] .enchant-toggle-icon {
+      transform: rotate(90deg);
+    }
+
+    .enchant-set-body {
+      display: grid;
+      gap: 8px;
+      padding: 0 9px 9px;
+    }
+
+    .enchant-set.is-collapsed .enchant-set-body {
+      display: none;
     }
 
     .enchant-meta {
@@ -564,7 +592,7 @@
 
     .enchant-table-wrap {
       overflow: auto;
-      border: 1px solid var(--border);
+      border: 1px solid #c9d6e2;
       border-radius: 7px;
       background: #ffffff;
     }
@@ -782,9 +810,6 @@
         <p class="nav-section-title">Search</p>
         <ul class="nav-list">
           <li><a class="nav-link" href="./" aria-current="page">アイテム検索<span class="nav-badge">mock</span></a></li>
-          <li><a class="nav-link" href="../monsters/" aria-disabled="true">モンスター検索<span class="nav-badge">準備中</span></a></li>
-          <li><a class="nav-link" href="../maps/" aria-disabled="true">マップ検索<span class="nav-badge">準備中</span></a></li>
-          <li><a class="nav-link" href="#saved-searches">保存済み検索</a></li>
         </ul>
       </nav>
 
@@ -827,23 +852,6 @@
               <button class="button button-subtle" type="button">リセット</button>
               <button class="button" type="button">URLコピー</button>
               <button class="button" type="button">検索条件を保存</button>
-            </div>
-
-            <div class="filter-group">
-              <div class="filter-heading">
-                <span>主要フィルタ</span>
-                <span>AND 条件</span>
-              </div>
-              <div class="chip-row" aria-label="主要フィルタ">
-                <button class="chip" type="button" aria-pressed="true">アクセサリー</button>
-                <button class="chip" type="button" aria-pressed="false">カード</button>
-                <button class="chip" type="button" aria-pressed="true">エンチャント</button>
-                <button class="chip" type="button" aria-pressed="false">武器</button>
-                <button class="chip" type="button" aria-pressed="false">盾</button>
-                <button class="chip" type="button" aria-pressed="false">靴</button>
-                <button class="chip" type="button" aria-pressed="false">破壊不可</button>
-                <button class="chip" type="button" aria-pressed="false">ノックバック無効</button>
-              </div>
             </div>
 
             <div class="filter-group">
@@ -894,53 +902,44 @@
             <ul class="result-list" aria-label="検索結果">
               <li class="result-item">
                 <button class="result-button is-active" type="button" data-name="ブレッシングオブイグドラシル[0]" data-url="https://rotool.gungho.jp/item/480516/">
-                  <span class="item-icon">装</span>
                   <span class="result-main">
                     <span class="result-title-row">
                       <span class="result-title">ブレッシングオブイグドラシル[0]</span>
-                      <span class="item-id">480516</span>
                     </span>
-                    <span class="result-summary">アクセサリー。スペシャルエンチャント候補あり。検索結果選択時に公式ページを右側へ表示。</span>
-                    <span class="tag-row"><span class="tag">アクセサリー</span><span class="tag">エンチャント可</span><span class="tag">[0]</span></span>
+                    <span class="result-summary">世界樹ユグドラシルの祝福が込められたアクセサリー。</span>
+                    <span class="tag-row"><span class="tag">アクセサリー</span></span>
                   </span>
                 </button>
               </li>
               <li class="result-item">
                 <button class="result-button" type="button" data-name="星座の印章[1]" data-url="https://rotool.gungho.jp/item/490137/">
-                  <span class="item-icon">装</span>
                   <span class="result-main">
                     <span class="result-title-row">
                       <span class="result-title">星座の印章[1]</span>
-                      <span class="item-id">490137</span>
                     </span>
-                    <span class="result-summary">星座の印章シリーズ。カード1枚、エンチャント最大3枠の想定。</span>
-                    <span class="tag-row"><span class="tag">アクセサリー</span><span class="tag">星座</span><span class="tag">[1]</span></span>
+                    <span class="result-summary">星の力を宿した印章。装備者に不思議な加護を与える。</span>
+                    <span class="tag-row"><span class="tag">アクセサリー</span></span>
                   </span>
                 </button>
               </li>
               <li class="result-item">
                 <button class="result-button" type="button" data-name="時間の破片" data-url="https://rotool.gungho.jp/item/1000000/">
-                  <span class="item-icon">素</span>
                   <span class="result-main">
                     <span class="result-title-row">
                       <span class="result-title">時間の破片</span>
-                      <span class="item-id">1000000</span>
                     </span>
-                    <span class="result-summary">エンチャント手数料として扱う素材アイテムの表示例。</span>
-                    <span class="tag-row"><span class="tag">素材</span><span class="tag">手数料</span></span>
+                    <span class="result-summary">時間の流れから零れ落ちた小さな破片。</span>
                   </span>
                 </button>
               </li>
               <li class="result-item">
                 <button class="result-button" type="button" data-name="創星石のアミュレット[1]" data-url="https://rotool.gungho.jp/item/490337/">
-                  <span class="item-icon">装</span>
                   <span class="result-main">
                     <span class="result-title-row">
                       <span class="result-title">創星石のアミュレット[1]</span>
-                      <span class="item-id">490337</span>
                     </span>
-                    <span class="result-summary">超越段階条件を持つエンチャント候補の確認用モック。</span>
-                    <span class="tag-row"><span class="tag">アクセサリー</span><span class="tag">超越 0以上</span></span>
+                    <span class="result-summary">創星の力を秘めた石をあしらったアミュレット。</span>
+                    <span class="tag-row"><span class="tag">アクセサリー</span></span>
                   </span>
                 </button>
               </li>
@@ -967,59 +966,113 @@
           </div>
 
           <div class="enchant-summary" aria-label="エンチャント対応情報">
-            <div class="enchant-meta">
-              <span class="meta-chip">エンチャント種別: スペシャル</span>
-              <span class="meta-chip">NPC: キョウ</span>
-              <span class="meta-chip">エンチャ素材: 時間の破片</span>
-              <span class="meta-chip">必要個数: 20個</span>
+            <div class="enchant-set">
+              <button class="enchant-set-toggle" type="button" aria-expanded="true" aria-controls="specialEnchantSet">
+                <span class="enchant-meta">
+                  <span class="meta-chip">エンチャント種別: スペシャル</span>
+                  <span class="meta-chip">NPC: キョウ</span>
+                  <span class="meta-chip">エンチャ素材: 時間の破片</span>
+                  <span class="meta-chip">必要個数: 20個</span>
+                </span>
+                <span class="enchant-toggle-icon" aria-hidden="true">›</span>
+              </button>
+
+              <div class="enchant-set-body" id="specialEnchantSet">
+                <div class="enchant-table-wrap">
+                <table class="enchant-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">対象箇所</th>
+                      <th scope="col">エンチャント効果</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="slot-cell">第1エンチャント<br>(第4スロット : 精錬値6以上)</td>
+                      <td>
+                        <div class="effect-list">
+                          <button class="effect-button" type="button" data-effect-name="シンソウの王" data-effect-url="https://rotool.gungho.jp/item/310321/">シンソウの王</button>
+                          <button class="effect-button" type="button" data-effect-name="英雄の凱歌" data-effect-url="https://rotool.gungho.jp/item/311074/">英雄の凱歌</button>
+                          <button class="effect-button" type="button" data-effect-name="起源の王" data-effect-url="https://rotool.gungho.jp/item/311072/">起源の王</button>
+                          <button class="effect-button" type="button" data-effect-name="殺意の怨念" data-effect-url="https://rotool.gungho.jp/item/29724/">殺意の怨念</button>
+                          <button class="effect-button" type="button" data-effect-name="豊穣の女神" data-effect-url="https://rotool.gungho.jp/item/311073/">豊穣の女神</button>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="slot-cell">第2エンチャント<br>(第3スロット : 精錬値8以上)</td>
+                      <td>
+                        <div class="effect-list">
+                          <button class="effect-button" type="button" data-effect-name="厄災の魔将" data-effect-url="https://rotool.gungho.jp/item/311075/">厄災の魔将</button>
+                          <button class="effect-button" type="button" data-effect-name="異境の統轄者" data-effect-url="https://rotool.gungho.jp/item/311439/">異境の統轄者</button>
+                          <button class="effect-button" type="button" data-effect-name="知識の探求者" data-effect-url="https://rotool.gungho.jp/item/311883/">知識の探求者</button>
+                          <button class="effect-button" type="button" data-effect-name="最果ての支配者" data-effect-url="https://rotool.gungho.jp/item/312421/">最果ての支配者</button>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="slot-cell">第3エンチャント<br>(第2スロット : 精錬値10)</td>
+                      <td>
+                        <div class="effect-list">
+                          <button class="effect-button" type="button" data-effect-name="レジストファイア" data-effect-url="https://rotool.gungho.jp/item/300315/">レジストファイア</button>
+                          <button class="effect-button" type="button" data-effect-name="レジストウォーター" data-effect-url="https://rotool.gungho.jp/item/311070/">レジストウォーター</button>
+                          <button class="effect-button" type="button" data-effect-name="レジストウィンド" data-effect-url="https://rotool.gungho.jp/item/300316/">レジストウィンド</button>
+                          <button class="effect-button" type="button" data-effect-name="レジストアース" data-effect-url="https://rotool.gungho.jp/item/300317/">レジストアース</button>
+                          <button class="effect-button" type="button" data-effect-name="レジストポイズン" data-effect-url="https://rotool.gungho.jp/item/311065/">レジストポイズン</button>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div>
+              </div>
             </div>
 
-            <div class="enchant-table-wrap">
-              <table class="enchant-table">
-                <thead>
-                  <tr>
-                    <th scope="col">対象箇所</th>
-                    <th scope="col">エンチャント効果</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="slot-cell">第1エンチャント<br>(第4スロット : 精錬値6以上)</td>
-                    <td>
-                      <div class="effect-list">
-                        <button class="effect-button" type="button" data-effect-name="シンソウの王" data-effect-url="https://rotool.gungho.jp/item/310321/">シンソウの王</button>
-                        <button class="effect-button" type="button" data-effect-name="英雄の凱歌" data-effect-url="https://rotool.gungho.jp/item/311074/">英雄の凱歌</button>
-                        <button class="effect-button" type="button" data-effect-name="起源の王" data-effect-url="https://rotool.gungho.jp/item/311072/">起源の王</button>
-                        <button class="effect-button" type="button" data-effect-name="殺意の怨念" data-effect-url="https://rotool.gungho.jp/item/29724/">殺意の怨念</button>
-                        <button class="effect-button" type="button" data-effect-name="豊穣の女神" data-effect-url="https://rotool.gungho.jp/item/311073/">豊穣の女神</button>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="slot-cell">第2エンチャント<br>(第3スロット : 精錬値8以上)</td>
-                    <td>
-                      <div class="effect-list">
-                        <button class="effect-button" type="button" data-effect-name="厄災の魔将" data-effect-url="https://rotool.gungho.jp/item/311075/">厄災の魔将</button>
-                        <button class="effect-button" type="button" data-effect-name="異境の統轄者" data-effect-url="https://rotool.gungho.jp/item/311439/">異境の統轄者</button>
-                        <button class="effect-button" type="button" data-effect-name="知識の探求者" data-effect-url="https://rotool.gungho.jp/item/311883/">知識の探求者</button>
-                        <button class="effect-button" type="button" data-effect-name="最果ての支配者" data-effect-url="https://rotool.gungho.jp/item/312421/">最果ての支配者</button>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="slot-cell">第3エンチャント<br>(第2スロット : 精錬値10)</td>
-                    <td>
-                      <div class="effect-list">
-                        <button class="effect-button" type="button" data-effect-name="レジストファイア" data-effect-url="https://rotool.gungho.jp/item/300315/">レジストファイア</button>
-                        <button class="effect-button" type="button" data-effect-name="レジストウォーター" data-effect-url="https://rotool.gungho.jp/item/311070/">レジストウォーター</button>
-                        <button class="effect-button" type="button" data-effect-name="レジストウィンド" data-effect-url="https://rotool.gungho.jp/item/300316/">レジストウィンド</button>
-                        <button class="effect-button" type="button" data-effect-name="レジストアース" data-effect-url="https://rotool.gungho.jp/item/300317/">レジストアース</button>
-                        <button class="effect-button" type="button" data-effect-name="レジストポイズン" data-effect-url="https://rotool.gungho.jp/item/311065/">レジストポイズン</button>
-                      </div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="enchant-set is-collapsed">
+              <button class="enchant-set-toggle" type="button" aria-expanded="false" aria-controls="pharosEnchantSet">
+                <span class="enchant-meta">
+                  <span class="meta-chip">エンチャント種別: ファロス</span>
+                  <span class="meta-chip">NPC: 遺跡細工師</span>
+                  <span class="meta-chip">エンチャ素材: 壊れた魔法石</span>
+                  <span class="meta-chip">必要個数: 10個</span>
+                </span>
+                <span class="enchant-toggle-icon" aria-hidden="true">›</span>
+              </button>
+
+              <div class="enchant-set-body" id="pharosEnchantSet">
+                <div class="enchant-table-wrap">
+                <table class="enchant-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">対象箇所</th>
+                      <th scope="col">エンチャント効果</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="slot-cell">第1エンチャント<br>(第4スロット)</td>
+                      <td>
+                        <div class="effect-list">
+                          <button class="effect-button" type="button" data-effect-name="Special Str" data-effect-url="https://rotool.gungho.jp/item/4853/">Special Str</button>
+                          <button class="effect-button" type="button" data-effect-name="Special Agi" data-effect-url="https://rotool.gungho.jp/item/4854/">Special Agi</button>
+                          <button class="effect-button" type="button" data-effect-name="Special Vit" data-effect-url="https://rotool.gungho.jp/item/4855/">Special Vit</button>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="slot-cell">第2エンチャント<br>(第3スロット)</td>
+                      <td>
+                        <div class="effect-list">
+                          <button class="effect-button" type="button" data-effect-name="Def + 50" data-effect-url="https://rotool.gungho.jp/item/29061/">Def + 50</button>
+                          <button class="effect-button" type="button" data-effect-name="Mdef + 10" data-effect-url="https://rotool.gungho.jp/item/29062/">Mdef + 10</button>
+                          <button class="effect-button" type="button" data-effect-name="完全回避 + 5" data-effect-url="https://rotool.gungho.jp/item/29063/">完全回避 + 5</button>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -1048,6 +1101,7 @@
     const previewTab = document.getElementById('previewTab');
     const resultButtons = document.querySelectorAll('.result-button');
     const effectButtons = document.querySelectorAll('.effect-button');
+    const enchantSetToggles = document.querySelectorAll('.enchant-set-toggle');
     const previewTitle = document.getElementById('previewTitle');
     const previewUrl = document.getElementById('previewUrl');
     const officialFrame = document.getElementById('officialFrame');
@@ -1124,6 +1178,16 @@
 
     searchTab.addEventListener('click', () => setActiveMainTab('search'));
     previewTab.addEventListener('click', () => setActiveMainTab('preview'));
+
+    enchantSetToggles.forEach((toggle) => {
+      toggle.addEventListener('click', () => {
+        const enchantSet = toggle.closest('.enchant-set');
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        enchantSet?.classList.toggle('is-collapsed', expanded);
+      });
+    });
 
     resultButtons.forEach((button) => {
       button.addEventListener('click', () => {
