@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JRO Search - アイテム検索</title>
-  <link rel="stylesheet" href="./assets/items.css?v=20260523092750">
+  <link rel="stylesheet" href="./assets/items.css?v=20260523094401">
 </head>
 <body>
   <div class="app-shell">
@@ -49,7 +49,6 @@
               <select class="select-field" id="searchTargetSelect" aria-label="検索対象">
                 <option selected>アイテム名</option>
                 <option>説明</option>
-                <option>エンチャント情報</option>
                 <option>すべて</option>
               </select>
             </div>
@@ -61,11 +60,17 @@
               <button class="button" type="button">検索条件を保存</button>
             </div>
 
-            <div class="filter-group">
-              <div class="filter-heading">
+            <div class="selected-filters" aria-label="選択中フィルター">
+              <div class="selected-filter-heading">選択中</div>
+              <div class="selected-filter-list" id="selectedFilterList"></div>
+              <div class="selected-filter-empty" id="selectedFilterEmpty">未選択</div>
+            </div>
+
+            <details class="filter-group" open>
+              <summary class="filter-heading">
                 <span>装備位置</span>
                 <span>グループ内 OR</span>
-              </div>
+              </summary>
               <div class="chip-row" aria-label="装備位置">
                 <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="upper">上段</button>
                 <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="middle">中段</button>
@@ -78,13 +83,13 @@
                 <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="accessory_1">アクセサリー(1)</button>
                 <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="accessory_2">アクセサリー(2)</button>
               </div>
-            </div>
+            </details>
 
-            <div class="filter-group">
-              <div class="filter-heading">
+            <details class="filter-group" open>
+              <summary class="filter-heading">
                 <span>エンチャント種別</span>
                 <span>複数選択</span>
-              </div>
+              </summary>
               <div class="chip-row" aria-label="エンチャント種別">
                 <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="special">スペシャル</button>
                 <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="star_insignia">星座の印章</button>
@@ -93,17 +98,12 @@
                 <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="automatic">オートマティック</button>
                 <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="hall_of_life">生命の殿堂</button>
               </div>
-            </div>
+            </details>
           </div>
 
           <div class="results-area">
             <div class="results-toolbar">
               <div><span class="result-count" id="resultCount">0件</span> の候補</div>
-              <select class="sort-select" aria-label="並び順">
-                <option>関連度順</option>
-                <option>アイテムID順</option>
-                <option>名前順</option>
-              </select>
             </div>
 
             <ul class="result-list" id="resultList" aria-label="検索結果"></ul>
@@ -151,6 +151,6 @@
     </div>
   </div>
 
-  <script src="./assets/items.js?v=20260523092750"></script>
+  <script src="./assets/items.js?v=20260523094401"></script>
 </body>
 </html>

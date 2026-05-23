@@ -9,6 +9,7 @@
     const resultCount = document.getElementById('resultCount');
     const resultList = document.getElementById('resultList');
     const emptyResult = document.getElementById('emptyResult');
+    const selectedFilterList = document.getElementById('selectedFilterList');
     const filterChips = document.querySelectorAll('.chip[data-filter-group]');
     const previewEmpty = document.getElementById('previewEmpty');
     const previewHeader = document.getElementById('previewHeader');
@@ -20,6 +21,10 @@
     const openOfficial = document.getElementById('openOfficial');
     const paneWidthStorageKey = 'jro-search.items.searchPaneWidth';
     const itemIndexUrl = '../data/search/item-index.json';
+    const filterGroupLabels = {
+      enchant: 'エンチャント種別',
+      position: '装備位置',
+    };
     let itemIndex = [];
     let activeItemId = null;
     let hasSearched = false;
@@ -294,20 +299,28 @@
       )));
     };
 
+    const matchesPartialText = (text, query) => {
+      const normalizedText = normalizeSearchText(text);
+      const normalizedQuery = normalizeSearchText(query);
+
+      return normalizedQuery === '' || normalizedText.includes(normalizedQuery);
+    };
+
     const splitSearchTerms = (query) => query
       .normalize('NFKC')
       .trim()
       .split(/\s+/)
       .filter(Boolean);
 
-    const matchesSearchQuery = (text, query) => {
+    const matchesSearchQuery = (text, query, fuzzy) => {
       const terms = splitSearchTerms(query);
+      const matcher = fuzzy ? matchesFuzzyText : matchesPartialText;
 
       if (terms.length === 0) {
         return true;
       }
 
-      return terms.every((term) => matchesFuzzyText(text, term));
+      return terms.every((term) => matcher(text, term));
     };
 
     const setPreviewEmptyState = (isEmpty) => {
@@ -346,7 +359,12 @@
       }
 
       return fee
-        .map((item) => `${item.item_name || ''} ${item.amount || ''}個`.trim())
+        .map((item) => {
+          const name = item.item_name || '';
+          const amount = item.amount || item.quantity;
+
+          return amount ? `${name} ${amount}個` : name;
+        })
         .filter(Boolean)
         .join('、');
     };
@@ -460,7 +478,28 @@
       .filter((chip) => chip.dataset.filterGroup === group && chip.getAttribute('aria-pressed') === 'true')
       .map((chip) => chip.dataset.filterValue);
 
-    const splitDataValues = (value) => (value || '').split(/\s+/).filter(Boolean);
+    const getSelectedFilterChips = () => Array.from(filterChips)
+      .filter((chip) => chip.getAttribute('aria-pressed') === 'true');
+
+    const renderSelectedFilters = () => {
+      const fragment = document.createDocumentFragment();
+
+      getSelectedFilterChips().forEach((chip) => {
+        const item = createElement('span', 'selected-filter-chip');
+        const label = createElement('span', '', `${filterGroupLabels[chip.dataset.filterGroup] || ''}: ${chip.textContent}`);
+        const remove = createElement('button', 'selected-filter-remove', '×');
+
+        remove.type = 'button';
+        remove.setAttribute('aria-label', `${chip.textContent} を解除`);
+        remove.dataset.filterGroup = chip.dataset.filterGroup;
+        remove.dataset.filterValue = chip.dataset.filterValue;
+
+        item.append(label, remove);
+        fragment.append(item);
+      });
+
+      selectedFilterList.replaceChildren(fragment);
+    };
 
     const includesAny = (values, selectedValues) => (
       selectedValues.length === 0 || selectedValues.some((selectedValue) => values.includes(selectedValue))
@@ -478,10 +517,6 @@
 
       if (target === '説明') {
         return description;
-      }
-
-      if (target === 'エンチャント情報') {
-        return enchantText;
       }
 
       if (target === 'すべて') {
@@ -518,11 +553,13 @@
       const selectedPositions = getSelectedFilters('position');
       const selectedEnchants = getSelectedFilters('enchant');
 
+      renderSelectedFilters();
+
       const results = hasSearched ? itemIndex.filter((item) => {
         const searchableText = getSearchableText(item, target);
         const positions = Object.keys(item.classification?.positions || {});
         const enchants = item.enchantments?.filter_keys || [];
-        const matchesKeyword = matchesSearchQuery(searchableText, keyword);
+        const matchesKeyword = matchesSearchQuery(searchableText, keyword, target === 'アイテム名');
         const matchesPositions = includesAny(positions, selectedPositions);
         const matchesEnchants = includesAny(enchants, selectedEnchants);
 
@@ -722,6 +759,22 @@
         hasSearched = true;
         applyFilters();
       });
+    });
+
+    selectedFilterList.addEventListener('click', (event) => {
+      const remove = event.target.closest('.selected-filter-remove');
+
+      if (!remove) {
+        return;
+      }
+
+      const chip = Array.from(filterChips).find((item) => (
+        item.dataset.filterGroup === remove.dataset.filterGroup && item.dataset.filterValue === remove.dataset.filterValue
+      ));
+
+      chip?.setAttribute('aria-pressed', 'false');
+      hasSearched = true;
+      applyFilters();
     });
 
     restoreSearchPaneWidth();
