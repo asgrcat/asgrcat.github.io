@@ -448,15 +448,25 @@
       ...jobCodesForGroups(activeKeys(equipJobs.exclude_groups)),
     ]);
 
+    const hasJobConditions = (equipJobs) => (
+      equipJobs.all
+        || activeKeys(equipJobs.include_jobs).length > 0
+        || activeKeys(equipJobs.include_groups).length > 0
+        || activeKeys(equipJobs.exclude_jobs).length > 0
+        || activeKeys(equipJobs.exclude_groups).length > 0
+    );
+
     const allowedJobCodes = (equipJobs) => {
       const conditions = equipJobs || {};
       const excluded = excludedJobCodes(conditions);
+      const hasConditions = hasJobConditions(conditions);
       const included = conditions.all ? Object.keys(jobMaster.jobs || {}) : [
         ...activeKeys(conditions.include_jobs),
         ...jobCodesForGroups(activeKeys(conditions.include_groups)),
       ];
 
-      return Array.from(new Set(included)).filter((jobCode) => !excluded.has(jobCode));
+      return Array.from(new Set(hasConditions ? included : Object.keys(jobMaster.jobs || {})))
+        .filter((jobCode) => !excluded.has(jobCode));
     };
 
     const matchesJobFilters = (item, selectedJobs) => {
@@ -464,7 +474,13 @@
         return true;
       }
 
-      const allowedJobs = allowedJobCodes(item.classification?.equip_jobs);
+      const equipJobs = item.classification?.equip_jobs || {};
+
+      if (!hasJobConditions(equipJobs)) {
+        return item.classification?.equipment === true;
+      }
+
+      const allowedJobs = allowedJobCodes(equipJobs);
 
       return selectedJobs.some((jobCode) => allowedJobs.includes(jobCode));
     };
