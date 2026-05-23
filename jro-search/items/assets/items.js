@@ -6,6 +6,7 @@
     const searchTargetSelect = document.getElementById('searchTargetSelect');
     const searchButton = document.getElementById('searchButton');
     const resetButton = document.getElementById('resetButton');
+    const updateStatus = document.getElementById('updateStatus');
     const resultCount = document.getElementById('resultCount');
     const resultList = document.getElementById('resultList');
     const emptyResult = document.getElementById('emptyResult');
@@ -142,6 +143,30 @@
       }
 
       return terms.every((term) => matchesPartialText(text, term));
+    };
+
+    const formatGeneratedDate = (generatedAt) => {
+      const date = new Date(generatedAt || '');
+
+      if (Number.isNaN(date.getTime())) {
+        return null;
+      }
+
+      const parts = new Intl.DateTimeFormat('ja-JP', {
+        timeZone: 'Asia/Tokyo',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+      }).formatToParts(date);
+      const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+
+      return `${values.year}-${values.month}-${values.day}`;
+    };
+
+    const updateGeneratedAt = (generatedAt) => {
+      const date = formatGeneratedDate(generatedAt);
+
+      updateStatus.textContent = date ? `update: ${date}` : 'update: -';
     };
 
     const setPreviewEmptyState = (isEmpty) => {
@@ -287,8 +312,8 @@
         return;
       }
 
-      sets.forEach((set, index) => {
-        enchantSummary.append(renderEnchantSet(set, index === 0));
+      sets.forEach((set) => {
+        enchantSummary.append(renderEnchantSet(set, false));
       });
     };
 
@@ -653,6 +678,7 @@
         ]);
 
         itemIndex = Array.isArray(itemPayload.items) ? itemPayload.items : [];
+        updateGeneratedAt(itemPayload.generated_at);
         renderEnchantFilterOptions(enchantCatalog, itemIndex);
         renderJobFilterOptions(jobs);
         applyFilters();
