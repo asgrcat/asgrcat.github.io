@@ -17,6 +17,7 @@
     const previewUrl = document.getElementById('previewUrl');
     const officialFrame = document.getElementById('officialFrame');
     const openOfficial = document.getElementById('openOfficial');
+    const paneWidthStorageKey = 'jro-search.items.searchPaneWidth';
 
     const setActiveMainTab = (tabName) => {
       const isPreview = tabName === 'preview';
@@ -26,16 +27,55 @@
       previewTab.setAttribute('aria-selected', String(isPreview));
     };
 
-    const setSearchPaneWidth = (clientX) => {
+    const getSearchPaneWidthBounds = () => {
       const rect = mainGrid.getBoundingClientRect();
       const minLeft = 390;
       const minRight = 320;
       const resizerWidth = paneResizer.getBoundingClientRect().width || 10;
       const gapWidth = 20;
       const maxLeft = Math.max(minLeft, rect.width - minRight - resizerWidth - gapWidth);
-      const nextWidth = Math.min(Math.max(clientX - rect.left, minLeft), maxLeft);
+
+      return { maxLeft, minLeft, rect };
+    };
+
+    const applySearchPaneWidth = (width) => {
+      const { maxLeft, minLeft } = getSearchPaneWidthBounds();
+      const nextWidth = Math.min(Math.max(width, minLeft), maxLeft);
 
       mainGrid.style.setProperty('--search-pane-width', `${Math.round(nextWidth)}px`);
+
+      return nextWidth;
+    };
+
+    const saveSearchPaneWidth = (width) => {
+      try {
+        window.localStorage.setItem(paneWidthStorageKey, String(Math.round(width)));
+      } catch {
+        // Ignore storage failures in private browsing or restricted environments.
+      }
+    };
+
+    const restoreSearchPaneWidth = () => {
+      if (window.matchMedia('(max-width: 960px)').matches) {
+        return;
+      }
+
+      try {
+        const savedWidth = Number.parseInt(window.localStorage.getItem(paneWidthStorageKey) || '', 10);
+
+        if (!Number.isNaN(savedWidth)) {
+          applySearchPaneWidth(savedWidth);
+        }
+      } catch {
+        // Ignore storage failures in private browsing or restricted environments.
+      }
+    };
+
+    const setSearchPaneWidth = (clientX) => {
+      const { rect } = getSearchPaneWidthBounds();
+      const nextWidth = applySearchPaneWidth(clientX - rect.left);
+
+      saveSearchPaneWidth(nextWidth);
     };
 
     const stopResizing = () => {
@@ -178,7 +218,7 @@
 
       event.preventDefault();
 
-      const rect = mainGrid.getBoundingClientRect();
+      const { rect } = getSearchPaneWidthBounds();
       const current = parseInt(getComputedStyle(mainGrid).getPropertyValue('--search-pane-width'), 10);
       const fallback = Math.round(rect.width * 0.46);
       const currentWidth = Number.isNaN(current) ? fallback : current;
@@ -245,4 +285,5 @@
       });
     });
 
+    restoreSearchPaneWidth();
     applyFilters();
