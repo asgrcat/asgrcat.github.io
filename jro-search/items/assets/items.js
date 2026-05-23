@@ -18,6 +18,7 @@
     const officialFrame = document.getElementById('officialFrame');
     const openOfficial = document.getElementById('openOfficial');
     const paneWidthStorageKey = 'jro-search.items.searchPaneWidth';
+    let hasSearched = false;
 
     const setActiveMainTab = (tabName) => {
       const isPreview = tabName === 'preview';
@@ -90,10 +91,226 @@
       setSearchPaneWidth(event.clientX);
     };
 
-    const normalizeSearchText = (value) => value
-      .normalize('NFKC')
-      .toLowerCase()
-      .trim();
+    const kanaDigraphs = {
+      きゃ: 'kya',
+      きゅ: 'kyu',
+      きょ: 'kyo',
+      しゃ: 'sha',
+      しゅ: 'shu',
+      しょ: 'sho',
+      ちゃ: 'cha',
+      ちゅ: 'chu',
+      ちょ: 'cho',
+      にゃ: 'nya',
+      にゅ: 'nyu',
+      にょ: 'nyo',
+      ひゃ: 'hya',
+      ひゅ: 'hyu',
+      ひょ: 'hyo',
+      みゃ: 'mya',
+      みゅ: 'myu',
+      みょ: 'myo',
+      りゃ: 'rya',
+      りゅ: 'ryu',
+      りょ: 'ryo',
+      ぎゃ: 'gya',
+      ぎゅ: 'gyu',
+      ぎょ: 'gyo',
+      じゃ: 'ja',
+      じゅ: 'ju',
+      じょ: 'jo',
+      びゃ: 'bya',
+      びゅ: 'byu',
+      びょ: 'byo',
+      ぴゃ: 'pya',
+      ぴゅ: 'pyu',
+      ぴょ: 'pyo',
+      ふぁ: 'fa',
+      ふぃ: 'fi',
+      ふぇ: 'fe',
+      ふぉ: 'fo',
+      てぃ: 'ti',
+      でぃ: 'di',
+      うぃ: 'wi',
+      うぇ: 'we',
+      うぉ: 'wo',
+    };
+
+    const kanaRomanMap = {
+      あ: 'a',
+      い: 'i',
+      う: 'u',
+      え: 'e',
+      お: 'o',
+      か: 'ka',
+      き: 'ki',
+      く: 'ku',
+      け: 'ke',
+      こ: 'ko',
+      さ: 'sa',
+      し: 'shi',
+      す: 'su',
+      せ: 'se',
+      そ: 'so',
+      た: 'ta',
+      ち: 'chi',
+      つ: 'tsu',
+      て: 'te',
+      と: 'to',
+      な: 'na',
+      に: 'ni',
+      ぬ: 'nu',
+      ね: 'ne',
+      の: 'no',
+      は: 'ha',
+      ひ: 'hi',
+      ふ: 'fu',
+      へ: 'he',
+      ほ: 'ho',
+      ま: 'ma',
+      み: 'mi',
+      む: 'mu',
+      め: 'me',
+      も: 'mo',
+      や: 'ya',
+      ゆ: 'yu',
+      よ: 'yo',
+      ら: 'ra',
+      り: 'ri',
+      る: 'ru',
+      れ: 're',
+      ろ: 'ro',
+      わ: 'wa',
+      を: 'wo',
+      ん: 'n',
+      が: 'ga',
+      ぎ: 'gi',
+      ぐ: 'gu',
+      げ: 'ge',
+      ご: 'go',
+      ざ: 'za',
+      じ: 'ji',
+      ず: 'zu',
+      ぜ: 'ze',
+      ぞ: 'zo',
+      だ: 'da',
+      ぢ: 'ji',
+      づ: 'zu',
+      で: 'de',
+      ど: 'do',
+      ば: 'ba',
+      び: 'bi',
+      ぶ: 'bu',
+      べ: 'be',
+      ぼ: 'bo',
+      ぱ: 'pa',
+      ぴ: 'pi',
+      ぷ: 'pu',
+      ぺ: 'pe',
+      ぽ: 'po',
+      ぁ: 'a',
+      ぃ: 'i',
+      ぅ: 'u',
+      ぇ: 'e',
+      ぉ: 'o',
+      ゃ: 'ya',
+      ゅ: 'yu',
+      ょ: 'yo',
+    };
+
+    const toHiragana = (value) => value.replace(/[\u30a1-\u30f6]/g, (char) => (
+      String.fromCharCode(char.charCodeAt(0) - 0x60)
+    ));
+
+    const compactSearchText = (value) => value.replace(/[\s!"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~、。，．・：；？！「」『』【】（）［］｛｝〈〉《》〔〕〜～ー]/g, '');
+
+    const normalizeSearchText = (value) => compactSearchText(
+      toHiragana(value.normalize('NFKC').toLowerCase()).replace(/[っッ]/g, '')
+    );
+
+    const romanizeKana = (value) => {
+      const hiragana = toHiragana(value.normalize('NFKC').toLowerCase());
+      let result = '';
+
+      for (let index = 0; index < hiragana.length; index += 1) {
+        const current = hiragana[index];
+
+        if (current === 'っ') {
+          const pair = hiragana.slice(index + 1, index + 3);
+          const nextRoman = kanaDigraphs[pair] || kanaRomanMap[hiragana[index + 1]] || '';
+          result += nextRoman.charAt(0);
+          continue;
+        }
+
+        const pair = hiragana.slice(index, index + 2);
+
+        if (kanaDigraphs[pair]) {
+          result += kanaDigraphs[pair];
+          index += 1;
+          continue;
+        }
+
+        result += kanaRomanMap[current] || current;
+      }
+
+      return compactSearchText(result);
+    };
+
+    const getSearchVariants = (value) => {
+      const base = value.normalize('NFKC').toLowerCase();
+      const kana = normalizeSearchText(base);
+      const roman = romanizeKana(base);
+
+      return Array.from(new Set([
+        compactSearchText(base),
+        kana,
+        roman,
+        roman.replace(/shi/g, 'si').replace(/chi/g, 'ti').replace(/tsu/g, 'tu').replace(/fu/g, 'hu'),
+      ].filter(Boolean)));
+    };
+
+    const isSubsequence = (text, query) => {
+      let queryIndex = 0;
+
+      for (let textIndex = 0; textIndex < text.length && queryIndex < query.length; textIndex += 1) {
+        if (text[textIndex] === query[queryIndex]) {
+          queryIndex += 1;
+        }
+      }
+
+      return queryIndex === query.length;
+    };
+
+    const matchesFuzzyText = (text, query) => {
+      const textVariants = getSearchVariants(text);
+      const queryVariants = getSearchVariants(query);
+
+      return queryVariants.some((queryVariant) => textVariants.some((textVariant) => (
+        textVariant.includes(queryVariant) || (queryVariant.length >= 3 && isSubsequence(textVariant, queryVariant))
+      )));
+    };
+
+    const truncateDescription = (description) => {
+      const maxLength = 30;
+
+      if (description.length <= maxLength) {
+        return description;
+      }
+
+      return `${description.slice(0, maxLength)}...`;
+    };
+
+    const updateResultDescription = (button) => {
+      const summary = button.querySelector('.result-summary');
+      const description = button.dataset.description || '';
+
+      if (!summary) {
+        return;
+      }
+
+      summary.textContent = truncateDescription(description);
+      summary.title = description;
+    };
 
     const getSelectedFilters = (group) => Array.from(filterChips)
       .filter((chip) => chip.dataset.filterGroup === group && chip.getAttribute('aria-pressed') === 'true')
@@ -109,6 +326,7 @@
       const name = button.dataset.name || '';
       const description = button.dataset.description || '';
       const enchantText = button.dataset.enchantText || '';
+      const aliases = button.dataset.searchAliases || '';
 
       if (target === '説明') {
         return description;
@@ -119,10 +337,10 @@
       }
 
       if (target === 'すべて') {
-        return `${name} ${description} ${enchantText}`;
+        return `${name} ${aliases} ${description} ${enchantText}`;
       }
 
-      return name;
+      return `${name} ${aliases}`;
     };
 
     const activateResult = (button, shouldSwitchPreviewTab = false) => {
@@ -144,7 +362,7 @@
     };
 
     const applyFilters = () => {
-      const keyword = normalizeSearchText(keywordInput.value);
+      const keyword = keywordInput.value.trim();
       const target = searchTargetSelect.value;
       const selectedPositions = getSelectedFilters('position');
       const selectedEnchants = getSelectedFilters('enchant');
@@ -152,15 +370,16 @@
 
       resultItems.forEach((item) => {
         const button = item.querySelector('.result-button');
-        const searchableText = normalizeSearchText(getSearchableText(button, target));
+        const searchableText = getSearchableText(button, target);
         const positions = splitDataValues(button.dataset.positions);
         const enchants = splitDataValues(button.dataset.enchants);
-        const matchesKeyword = keyword === '' || searchableText.includes(keyword);
+        const matchesKeyword = keyword === '' || matchesFuzzyText(searchableText, keyword);
         const matchesPositions = includesAny(positions, selectedPositions);
         const matchesEnchants = includesAny(enchants, selectedEnchants);
-        const isVisible = matchesKeyword && matchesPositions && matchesEnchants;
+        const isVisible = hasSearched && matchesKeyword && matchesPositions && matchesEnchants;
 
         item.hidden = !isVisible;
+        updateResultDescription(button);
 
         if (isVisible) {
           visibleCount += 1;
@@ -168,6 +387,7 @@
       });
 
       resultCount.textContent = `${visibleCount}件`;
+      emptyResult.textContent = hasSearched ? '条件に一致するアイテムはありません。' : '検索条件を入力して検索してください。';
       emptyResult.classList.toggle('is-visible', visibleCount === 0);
 
       const activeButton = document.querySelector('.result-button.is-active');
@@ -193,6 +413,12 @@
       keywordInput.value = '';
       searchTargetSelect.value = 'アイテム名';
       filterChips.forEach((chip) => chip.setAttribute('aria-pressed', 'false'));
+      hasSearched = false;
+      applyFilters();
+    };
+
+    const searchItems = () => {
+      hasSearched = true;
       applyFilters();
     };
 
@@ -235,16 +461,20 @@
 
     searchTab.addEventListener('click', () => setActiveMainTab('search'));
     previewTab.addEventListener('click', () => setActiveMainTab('preview'));
-    searchButton.addEventListener('click', applyFilters);
+    searchButton.addEventListener('click', searchItems);
     resetButton.addEventListener('click', resetFilters);
     keywordInput.addEventListener('keydown', (event) => {
       if (event.key === 'Enter') {
         event.preventDefault();
-        applyFilters();
+        searchItems();
       }
     });
 
-    searchTargetSelect.addEventListener('change', applyFilters);
+    searchTargetSelect.addEventListener('change', () => {
+      if (hasSearched) {
+        applyFilters();
+      }
+    });
 
     enchantSetToggles.forEach((toggle) => {
       toggle.addEventListener('click', () => {
@@ -281,9 +511,11 @@
       chip.addEventListener('click', () => {
         const pressed = chip.getAttribute('aria-pressed') === 'true';
         chip.setAttribute('aria-pressed', String(!pressed));
+        hasSearched = true;
         applyFilters();
       });
     });
 
     restoreSearchPaneWidth();
+    resultButtons.forEach(updateResultDescription);
     applyFilters();
