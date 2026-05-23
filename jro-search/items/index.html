@@ -61,9 +61,12 @@
     }
 
     .sidebar {
+      position: sticky;
+      top: 0;
       display: flex;
       flex-direction: column;
       gap: 16px;
+      height: 100vh;
       padding: 18px 14px;
       border-right: 1px solid var(--border);
       background: #eef3f7;
@@ -139,7 +142,16 @@
       padding: 12px 8px 4px;
       border-top: 1px solid var(--border);
       color: var(--muted);
-      font-size: 12px;
+      font-size: 11px;
+      line-height: 1.55;
+    }
+
+    .sidebar-footer p {
+      margin: 0 0 7px;
+    }
+
+    .sidebar-footer p:last-child {
+      margin-bottom: 0;
     }
 
     .workspace {
@@ -526,6 +538,7 @@
         z-index: 2;
         flex-direction: row;
         align-items: center;
+        height: auto;
         overflow-x: auto;
         border-right: 0;
         border-bottom: 1px solid var(--border);
@@ -600,8 +613,9 @@
       </nav>
 
       <div class="sidebar-footer">
-        <div>Public path</div>
-        <strong>/jro-search/items/</strong>
+        <p>© Gravity Co., Ltd. &amp; Lee MyoungJin(studio DTDS). All rights reserved.</p>
+        <p>© GungHo Online Entertainment, Inc. All Rights Reserved.</p>
+        <p>当コンテンツの再利用（再転載・配布など）は、禁止しています。</p>
       </div>
     </aside>
 
