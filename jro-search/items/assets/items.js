@@ -9,8 +9,12 @@
     const resultCount = document.getElementById('resultCount');
     const resultList = document.getElementById('resultList');
     const emptyResult = document.getElementById('emptyResult');
+    const searchControls = document.querySelector('.search-controls');
+    const enchantFilterRow = document.getElementById('enchantFilterRow');
+    const jobGroupFilterRow = document.getElementById('jobGroupFilterRow');
+    const jobTierFilterRow = document.getElementById('jobTierFilterRow');
+    const jobFilterRow = document.getElementById('jobFilterRow');
     const selectedFilterList = document.getElementById('selectedFilterList');
-    const filterChips = document.querySelectorAll('.chip[data-filter-group]');
     const previewEmpty = document.getElementById('previewEmpty');
     const previewHeader = document.getElementById('previewHeader');
     const enchantSummary = document.getElementById('enchantSummary');
@@ -21,12 +25,18 @@
     const openOfficial = document.getElementById('openOfficial');
     const paneWidthStorageKey = 'jro-search.items.searchPaneWidth';
     const itemIndexUrl = '../data/search/item-index.json';
+    const enchantCatalogUrl = '../data/enchantments/catalog.json';
+    const jobMasterUrl = '../data/masters/jobs.json';
     const filterGroupLabels = {
       enchant: 'エンチャント種別',
+      job: '職業',
+      job_group: '職業系統',
+      job_tier: '職業段階',
       position: '装備位置',
     };
     const accessoryPositionKeys = ['accessory_1', 'accessory_2'];
     let itemIndex = [];
+    let jobMaster = { groups: {}, jobs: {}, tiers: {} };
     let activeItemId = null;
     let hasSearched = false;
 
@@ -354,6 +364,63 @@
       return element;
     };
 
+    const getFilterChips = () => Array.from(document.querySelectorAll('.chip[data-filter-group]'));
+
+    const orderedEntries = (values) => Object.entries(values || {})
+      .sort(([, left], [, right]) => (left.order || 0) - (right.order || 0));
+
+    const renderOptionChips = (container, group, entries) => {
+      const fragment = document.createDocumentFragment();
+
+      entries.forEach(([value, definition]) => {
+        const chip = createElement('button', 'chip', definition.label || value);
+
+        chip.type = 'button';
+        chip.setAttribute('aria-pressed', 'false');
+        chip.dataset.filterGroup = group;
+        chip.dataset.filterValue = value;
+        fragment.append(chip);
+      });
+
+      container.replaceChildren(fragment);
+    };
+
+    const enchantFilterKey = (set) => {
+      const type = set.type || '';
+      const key = set.key || '';
+
+      if (type.endsWith('_enchant')) {
+        return type.replace(/_enchant$/, '');
+      }
+
+      return type || key.replace(/-/g, '_');
+    };
+
+    const renderEnchantFilterOptions = (catalog) => {
+      const options = new Map();
+
+      (catalog?.sets || []).forEach((set, index) => {
+        options.set(enchantFilterKey(set), {
+          label: set.name || set.key || '',
+          order: index + 1,
+        });
+      });
+
+      renderOptionChips(enchantFilterRow, 'enchant', Array.from(options.entries()));
+    };
+
+    const renderJobFilterOptions = (master) => {
+      jobMaster = {
+        groups: master?.groups || {},
+        jobs: master?.jobs || {},
+        tiers: master?.tiers || {},
+      };
+
+      renderOptionChips(jobGroupFilterRow, 'job_group', orderedEntries(jobMaster.groups));
+      renderOptionChips(jobTierFilterRow, 'job_tier', orderedEntries(jobMaster.tiers));
+      renderOptionChips(jobFilterRow, 'job', orderedEntries(jobMaster.jobs));
+    };
+
     const feeLabel = (fee) => {
       if (!Array.isArray(fee) || fee.length === 0) {
         return null;
@@ -483,11 +550,11 @@
       return wrap;
     };
 
-    const getSelectedFilters = (group) => Array.from(filterChips)
+    const getSelectedFilters = (group) => getFilterChips()
       .filter((chip) => chip.dataset.filterGroup === group && chip.getAttribute('aria-pressed') === 'true')
       .map((chip) => chip.dataset.filterValue);
 
-    const getSelectedFilterChips = () => Array.from(filterChips)
+    const getSelectedFilterChips = () => getFilterChips()
       .filter((chip) => chip.getAttribute('aria-pressed') === 'true');
 
     const renderSelectedFilters = () => {
@@ -538,6 +605,48 @@
       ];
     };
 
+    const activeKeys = (values) => Object.keys(values || {}).filter((key) => values[key]);
+
+    const jobCodesForGroups = (groupCodes) => groupCodes.flatMap((groupCode) => (
+      jobMaster.groups[groupCode]?.jobs || []
+    ));
+
+    const jobCodesForTiers = (tierCodes) => tierCodes.flatMap((tierCode) => (
+      jobMaster.tiers[tierCode]?.jobs || []
+    ));
+
+    const selectedJobCodes = () => Array.from(new Set([
+      ...getSelectedFilters('job'),
+      ...jobCodesForGroups(getSelectedFilters('job_group')),
+      ...jobCodesForTiers(getSelectedFilters('job_tier')),
+    ]));
+
+    const excludedJobCodes = (equipJobs) => new Set([
+      ...activeKeys(equipJobs.exclude_jobs),
+      ...jobCodesForGroups(activeKeys(equipJobs.exclude_groups)),
+    ]);
+
+    const allowedJobCodes = (equipJobs) => {
+      const conditions = equipJobs || {};
+      const excluded = excludedJobCodes(conditions);
+      const included = conditions.all ? Object.keys(jobMaster.jobs || {}) : [
+        ...activeKeys(conditions.include_jobs),
+        ...jobCodesForGroups(activeKeys(conditions.include_groups)),
+      ];
+
+      return Array.from(new Set(included)).filter((jobCode) => !excluded.has(jobCode));
+    };
+
+    const matchesJobFilters = (item, selectedJobs) => {
+      if (selectedJobs.length === 0) {
+        return true;
+      }
+
+      const allowedJobs = allowedJobCodes(item.classification?.equip_jobs);
+
+      return selectedJobs.some((jobCode) => allowedJobs.includes(jobCode));
+    };
+
     const getSearchableText = (item, target) => {
       const name = item.name || '';
       const description = item.description || '';
@@ -585,23 +694,31 @@
       const target = searchTargetSelect.value;
       const selectedPositions = getSelectedFilters('position');
       const selectedEnchants = getSelectedFilters('enchant');
+      const selectedJobs = selectedJobCodes();
+      const hasConditions = keyword !== ''
+        || selectedPositions.length > 0
+        || selectedEnchants.length > 0
+        || selectedJobs.length > 0;
 
       renderSelectedFilters();
 
-      const results = hasSearched ? itemIndex.filter((item) => {
+      const results = hasSearched && hasConditions ? itemIndex.filter((item) => {
         const searchableText = getSearchableText(item, target);
         const positions = searchablePositions(item.classification?.positions);
         const enchants = item.enchantments?.filter_keys || [];
         const matchesKeyword = matchesSearchQuery(searchableText, keyword, target === 'アイテム名');
         const matchesPositions = includesAny(positions, selectedPositions);
         const matchesEnchants = includesAny(enchants, selectedEnchants);
+        const matchesJobs = matchesJobFilters(item, selectedJobs);
 
-        return matchesKeyword && matchesPositions && matchesEnchants;
+        return matchesKeyword && matchesPositions && matchesEnchants && matchesJobs;
       }) : [];
 
       renderResults(results);
       resultCount.textContent = `${results.length}件`;
-      emptyResult.textContent = hasSearched ? '条件に一致するアイテムはありません。' : '検索条件を入力して検索してください。';
+      emptyResult.textContent = hasSearched && hasConditions
+        ? '条件に一致するアイテムはありません。'
+        : '検索条件を入力または選択してください。';
       emptyResult.classList.toggle('is-visible', results.length === 0);
 
       if (results.length === 0) {
@@ -657,7 +774,7 @@
     const resetFilters = () => {
       keywordInput.value = '';
       searchTargetSelect.value = 'アイテム名';
-      filterChips.forEach((chip) => chip.setAttribute('aria-pressed', 'false'));
+      getFilterChips().forEach((chip) => chip.setAttribute('aria-pressed', 'false'));
       hasSearched = false;
       applyFilters();
     };
@@ -667,16 +784,27 @@
       applyFilters();
     };
 
-    const loadItemIndex = async () => {
+    const loadJson = async (url) => {
+      const response = await fetch(url, { cache: 'no-cache' });
+
+      if (!response.ok) {
+        throw new Error(`Failed to load JSON: ${url} ${response.status}`);
+      }
+
+      return response.json();
+    };
+
+    const loadSearchData = async () => {
       try {
-        const response = await fetch(itemIndexUrl, { cache: 'no-cache' });
+        const [itemPayload, enchantCatalog, jobs] = await Promise.all([
+          loadJson(itemIndexUrl),
+          loadJson(enchantCatalogUrl).catch(() => null),
+          loadJson(jobMasterUrl).catch(() => null),
+        ]);
 
-        if (!response.ok) {
-          throw new Error(`Failed to load item index: ${response.status}`);
-        }
-
-        const payload = await response.json();
-        itemIndex = Array.isArray(payload.items) ? payload.items : [];
+        itemIndex = Array.isArray(itemPayload.items) ? itemPayload.items : [];
+        renderEnchantFilterOptions(enchantCatalog);
+        renderJobFilterOptions(jobs);
         emptyResult.textContent = '検索条件を入力して検索してください。';
         applyFilters();
       } catch (error) {
@@ -785,13 +913,17 @@
       }
     });
 
-    filterChips.forEach((chip) => {
-      chip.addEventListener('click', () => {
-        const pressed = chip.getAttribute('aria-pressed') === 'true';
-        chip.setAttribute('aria-pressed', String(!pressed));
-        hasSearched = true;
-        applyFilters();
-      });
+    searchControls.addEventListener('click', (event) => {
+      const chip = event.target.closest('.chip[data-filter-group]');
+
+      if (!chip || !searchControls.contains(chip)) {
+        return;
+      }
+
+      const pressed = chip.getAttribute('aria-pressed') === 'true';
+      chip.setAttribute('aria-pressed', String(!pressed));
+      hasSearched = true;
+      applyFilters();
     });
 
     selectedFilterList.addEventListener('click', (event) => {
@@ -801,7 +933,7 @@
         return;
       }
 
-      const chip = Array.from(filterChips).find((item) => (
+      const chip = getFilterChips().find((item) => (
         item.dataset.filterGroup === remove.dataset.filterGroup && item.dataset.filterValue === remove.dataset.filterValue
       ));
 
@@ -811,4 +943,4 @@
     });
 
     restoreSearchPaneWidth();
-    loadItemIndex();
+    loadSearchData();

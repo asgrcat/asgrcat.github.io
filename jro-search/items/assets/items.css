@@ -358,6 +358,21 @@
       transform: rotate(90deg);
     }
 
+    .filter-subgroup {
+      display: grid;
+      gap: 5px;
+    }
+
+    .filter-subgroup + .filter-subgroup {
+      margin-top: 8px;
+    }
+
+    .filter-subheading {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
     .selected-filters {
       display: flex;
       align-items: center;

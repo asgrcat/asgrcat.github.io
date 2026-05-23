@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JRO Search - アイテム検索</title>
-  <link rel="stylesheet" href="./assets/items.css?v=20260523095933">
+  <link rel="stylesheet" href="./assets/items.css?v=20260523101003">
 </head>
 <body>
   <div class="app-shell">
@@ -91,13 +91,25 @@
                 <span>エンチャント種別</span>
                 <span>複数選択</span>
               </summary>
-              <div class="chip-row" aria-label="エンチャント種別">
-                <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="special">スペシャル</button>
-                <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="star_insignia">星座の印章</button>
-                <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="pharos">ファロス</button>
-                <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="illusion">イルシオン</button>
-                <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="automatic">オートマティック</button>
-                <button class="chip" type="button" aria-pressed="false" data-filter-group="enchant" data-filter-value="hall_of_life">生命の殿堂</button>
+              <div class="chip-row" id="enchantFilterRow" aria-label="エンチャント種別"></div>
+            </details>
+
+            <details class="filter-group">
+              <summary class="filter-heading">
+                <span>職業</span>
+                <span>複数選択</span>
+              </summary>
+              <div class="filter-subgroup">
+                <div class="filter-subheading">職業系統</div>
+                <div class="chip-row" id="jobGroupFilterRow" aria-label="職業系統"></div>
+              </div>
+              <div class="filter-subgroup">
+                <div class="filter-subheading">職業段階</div>
+                <div class="chip-row" id="jobTierFilterRow" aria-label="職業段階"></div>
+              </div>
+              <div class="filter-subgroup">
+                <div class="filter-subheading">職業</div>
+                <div class="chip-row" id="jobFilterRow" aria-label="職業"></div>
               </div>
             </details>
           </div>
@@ -152,6 +164,6 @@
     </div>
   </div>
 
-  <script src="./assets/items.js?v=20260523095933"></script>
+  <script src="./assets/items.js?v=20260523101003"></script>
 </body>
 </html>
