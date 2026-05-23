@@ -579,10 +579,10 @@
 
     .empty-result {
       display: none;
-      padding: 28px 16px;
+      padding: 16px 14px;
       color: var(--muted);
       font-size: 13px;
-      text-align: center;
+      text-align: left;
     }
 
     .empty-result.is-visible {
@@ -602,6 +602,12 @@
       padding: 13px 14px;
       border-bottom: 1px solid var(--border);
       background: var(--surface);
+    }
+
+    .preview-header[hidden],
+    .enchant-summary[hidden],
+    .iframe-wrap[hidden] {
+      display: none;
     }
 
     .preview-empty {
