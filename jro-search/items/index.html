@@ -200,10 +200,14 @@
 
     .main-grid {
       display: grid;
-      grid-template-columns: minmax(520px, 46%) minmax(0, 1fr);
-      gap: 14px;
+      grid-template-columns: minmax(420px, var(--search-pane-width, 46%)) 10px minmax(360px, 1fr);
+      gap: 10px;
       min-height: 0;
       padding: 14px;
+    }
+
+    .main-tabs {
+      display: none;
     }
 
     .search-pane,
@@ -217,9 +221,46 @@
     }
 
     .search-pane {
+      grid-column: 1;
       display: grid;
       grid-template-rows: auto minmax(0, 1fr);
       overflow: hidden;
+    }
+
+    .pane-resizer {
+      grid-column: 2;
+      position: relative;
+      min-width: 10px;
+      border: 0;
+      border-radius: 8px;
+      padding: 0;
+      background: transparent;
+      cursor: col-resize;
+      touch-action: none;
+    }
+
+    .pane-resizer::before {
+      position: absolute;
+      inset: 0 3px;
+      border-radius: 999px;
+      background: var(--border);
+      content: "";
+      transition: background 0.16s ease;
+    }
+
+    .pane-resizer:hover::before,
+    .pane-resizer:focus-visible::before,
+    .main-grid.is-resizing .pane-resizer::before {
+      background: var(--primary);
+    }
+
+    .pane-resizer-label {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
     }
 
     .search-controls {
@@ -452,8 +493,9 @@
     }
 
     .preview-pane {
+      grid-column: 3;
       display: grid;
-      grid-template-rows: auto minmax(0, 1fr);
+      grid-template-rows: auto auto minmax(0, 1fr);
       overflow: hidden;
     }
 
@@ -493,6 +535,95 @@
       gap: 8px;
     }
 
+    .enchant-summary {
+      display: grid;
+      gap: 10px;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface-muted);
+    }
+
+    .enchant-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .meta-chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 3px 9px;
+      background: #ffffff;
+      color: var(--text);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .enchant-table-wrap {
+      overflow: auto;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      background: #ffffff;
+    }
+
+    .enchant-table {
+      width: 100%;
+      min-width: 520px;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+
+    .enchant-table th,
+    .enchant-table td {
+      border-bottom: 1px solid var(--border);
+      padding: 7px 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .enchant-table th {
+      background: #d9f1f6;
+      color: #174151;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .enchant-table tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .slot-cell {
+      width: 150px;
+      color: #334155;
+      white-space: normal;
+    }
+
+    .effect-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .effect-button {
+      min-height: 26px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 3px 7px;
+      background: #ffffff;
+      color: var(--primary-strong);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .effect-button:hover,
+    .effect-button.is-active {
+      border-color: var(--primary);
+      background: var(--primary-soft);
+    }
+
     .iframe-wrap {
       position: relative;
       min-height: 0;
@@ -523,7 +654,7 @@
 
     @media (max-width: 1180px) {
       .main-grid {
-        grid-template-columns: minmax(430px, 48%) minmax(0, 1fr);
+        grid-template-columns: minmax(390px, var(--search-pane-width, 48%)) 10px minmax(320px, 1fr);
       }
     }
 
@@ -562,6 +693,51 @@
 
       .main-grid {
         grid-template-columns: 1fr;
+        grid-template-rows: auto minmax(0, 1fr);
+      }
+
+      .main-tabs {
+        display: flex;
+        gap: 8px;
+        min-width: 0;
+      }
+
+      .tab-button {
+        flex: 1 1 0;
+        min-height: 36px;
+        border: 1px solid var(--border-strong);
+        border-radius: 8px;
+        background: var(--surface);
+        color: var(--text);
+        font-weight: 700;
+      }
+
+      .tab-button[aria-selected="true"] {
+        border-color: var(--primary);
+        background: var(--primary);
+        color: #ffffff;
+      }
+
+      .search-pane,
+      .preview-pane {
+        grid-column: 1;
+        grid-row: 2;
+      }
+
+      .pane-resizer {
+        display: none;
+      }
+
+      .main-grid:not(.show-preview) .preview-pane {
+        display: none;
+      }
+
+      .main-grid.show-preview .search-pane {
+        display: none;
+      }
+
+      .main-grid.show-preview .preview-pane {
+        display: grid;
       }
 
       .official-frame {
@@ -628,8 +804,13 @@
         </div>
       </header>
 
-      <main class="main-grid">
-        <section class="search-pane" aria-label="検索フォームと検索結果">
+      <main class="main-grid" id="mainGrid">
+        <div class="main-tabs" role="tablist" aria-label="メイン表示切替">
+          <button class="tab-button" id="searchTab" type="button" role="tab" aria-selected="true" aria-controls="searchPane">検索</button>
+          <button class="tab-button" id="previewTab" type="button" role="tab" aria-selected="false" aria-controls="previewPane">公式プレビュー</button>
+        </div>
+
+        <section class="search-pane" id="searchPane" role="tabpanel" aria-labelledby="searchTab" aria-label="検索フォームと検索結果">
           <div class="search-controls">
             <div class="field-row">
               <input class="text-field" type="search" value="ブレッシング" aria-label="キーワード" placeholder="アイテム名、説明、読み、エンチャント名">
@@ -767,7 +948,11 @@
           </div>
         </section>
 
-        <section class="preview-pane" aria-label="公式ページプレビュー">
+        <div class="pane-resizer" id="paneResizer" role="separator" tabindex="0" aria-label="検索結果と公式プレビューの横幅を調整" aria-orientation="vertical">
+          <span class="pane-resizer-label">左右ペインの幅を調整</span>
+        </div>
+
+        <section class="preview-pane" id="previewPane" role="tabpanel" aria-labelledby="previewTab" aria-label="公式ページプレビュー">
           <div class="preview-header">
             <div class="preview-title-row">
               <div>
@@ -778,6 +963,61 @@
                 <a class="button" id="openOfficial" href="https://rotool.gungho.jp/item/490337/" target="_blank" rel="noopener noreferrer">別タブで開く</a>
                 <button class="button" type="button">詳細JSON表示</button>
               </div>
+            </div>
+          </div>
+
+          <div class="enchant-summary" aria-label="エンチャント対応情報">
+            <div class="enchant-meta">
+              <span class="meta-chip">エンチャント種別: スペシャル</span>
+              <span class="meta-chip">NPC: キョウ</span>
+            </div>
+
+            <div class="enchant-table-wrap">
+              <table class="enchant-table">
+                <thead>
+                  <tr>
+                    <th scope="col">対象箇所</th>
+                    <th scope="col">エンチャント効果</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="slot-cell">第1エンチャント<br>(第4スロット : 精錬値6以上)</td>
+                    <td>
+                      <div class="effect-list">
+                        <button class="effect-button" type="button" data-effect-name="シンソウの王" data-effect-url="https://rotool.gungho.jp/item/prediction_conversion_search_name/?item_name=%E3%82%B7%E3%83%B3%E3%82%BD%E3%82%A6%E3%81%AE%E7%8E%8B&amp;costume=1">シンソウの王</button>
+                        <button class="effect-button" type="button" data-effect-name="英雄の凱歌" data-effect-url="https://rotool.gungho.jp/item/prediction_conversion_search_name/?item_name=%E8%8B%B1%E9%9B%84%E3%81%AE%E5%87%B1%E6%AD%8C&amp;costume=1">英雄の凱歌</button>
+                        <button class="effect-button" type="button" data-effect-name="起源の王" data-effect-url="https://rotool.gungho.jp/item/prediction_conversion_search_name/?item_name=%E8%B5%B7%E6%BA%90%E3%81%AE%E7%8E%8B&amp;costume=1">起源の王</button>
+                        <button class="effect-button" type="button" data-effect-name="殺意の怨念" data-effect-url="https://rotool.gungho.jp/item/prediction_conversion_search_name/?item_name=%E6%AE%BA%E6%84%8F%E3%81%AE%E6%80%A8%E5%BF%B5&amp;costume=1">殺意の怨念</button>
+                        <button class="effect-button" type="button" data-effect-name="豊穣の女神" data-effect-url="https://rotool.gungho.jp/item/prediction_conversion_search_name/?item_name=%E8%B1%8A%E7%A9%A3%E3%81%AE%E5%A5%B3%E7%A5%9E&amp;costume=1">豊穣の女神</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="slot-cell">第2エンチャント<br>(第3スロット : 精錬値8以上)</td>
+                    <td>
+                      <div class="effect-list">
+                        <button class="effect-button" type="button" data-effect-name="厄災の魔将" data-effect-url="https://rotool.gungho.jp/item/prediction_conversion_search_name/?item_name=%E5%8E%84%E7%81%BD%E3%81%AE%E9%AD%94%E5%B0%86&amp;costume=1">厄災の魔将</button>
+                        <button class="effect-button" type="button" data-effect-name="異境の統轄者" data-effect-url="https://rotool.gungho.jp/item/prediction_conversion_search_name/?item_name=%E7%95%B0%E5%A2%83%E3%81%AE%E7%B5%B1%E8%BD%84%E8%80%85&amp;costume=1">異境の統轄者</button>
+                        <button class="effect-button" type="button" data-effect-name="知識の探求者" data-effect-url="https://rotool.gungho.jp/item/prediction_conversion_search_name/?item_name=%E7%9F%A5%E8%AD%98%E3%81%AE%E6%8E%A2%E6%B1%82%E8%80%85&amp;costume=1">知識の探求者</button>
+                        <button class="effect-button" type="button" data-effect-name="最果ての支配者" data-effect-url="https://rotool.gungho.jp/item/prediction_conversion_search_name/?item_name=%E6%9C%80%E6%9E%9C%E3%81%A6%E3%81%AE%E6%94%AF%E9%85%8D%E8%80%85&amp;costume=1">最果ての支配者</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="slot-cell">第3エンチャント<br>(第2スロット : 精錬値10)</td>
+                    <td>
+                      <div class="effect-list">
+                        <button class="effect-button" type="button" data-effect-name="レジストファイア" data-effect-url="https://rotool.gungho.jp/item/prediction_conversion_search_name/?item_name=%E3%83%AC%E3%82%B8%E3%82%B9%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2&amp;costume=1">レジストファイア</button>
+                        <button class="effect-button" type="button" data-effect-name="レジストウォーター" data-effect-url="https://rotool.gungho.jp/item/prediction_conversion_search_name/?item_name=%E3%83%AC%E3%82%B8%E3%82%B9%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BF%E3%83%BC&amp;costume=1">レジストウォーター</button>
+                        <button class="effect-button" type="button" data-effect-name="レジストウィンド" data-effect-url="https://rotool.gungho.jp/item/prediction_conversion_search_name/?item_name=%E3%83%AC%E3%82%B8%E3%82%B9%E3%83%88%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89&amp;costume=1">レジストウィンド</button>
+                        <button class="effect-button" type="button" data-effect-name="レジストアース" data-effect-url="https://rotool.gungho.jp/item/prediction_conversion_search_name/?item_name=%E3%83%AC%E3%82%B8%E3%82%B9%E3%83%88%E3%82%A2%E3%83%BC%E3%82%B9&amp;costume=1">レジストアース</button>
+                        <button class="effect-button" type="button" data-effect-name="レジストポイズン" data-effect-url="https://rotool.gungho.jp/item/prediction_conversion_search_name/?item_name=%E3%83%AC%E3%82%B8%E3%82%B9%E3%83%88%E3%83%9D%E3%82%A4%E3%82%BA%E3%83%B3&amp;costume=1">レジストポイズン</button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
 
@@ -800,21 +1040,118 @@
   </div>
 
   <script>
+    const mainGrid = document.getElementById('mainGrid');
+    const paneResizer = document.getElementById('paneResizer');
+    const searchTab = document.getElementById('searchTab');
+    const previewTab = document.getElementById('previewTab');
     const resultButtons = document.querySelectorAll('.result-button');
+    const effectButtons = document.querySelectorAll('.effect-button');
     const previewTitle = document.getElementById('previewTitle');
     const previewUrl = document.getElementById('previewUrl');
     const officialFrame = document.getElementById('officialFrame');
     const openOfficial = document.getElementById('openOfficial');
 
+    const setActiveMainTab = (tabName) => {
+      const isPreview = tabName === 'preview';
+
+      mainGrid.classList.toggle('show-preview', isPreview);
+      searchTab.setAttribute('aria-selected', String(!isPreview));
+      previewTab.setAttribute('aria-selected', String(isPreview));
+    };
+
+    const setSearchPaneWidth = (clientX) => {
+      const rect = mainGrid.getBoundingClientRect();
+      const minLeft = 390;
+      const minRight = 320;
+      const resizerWidth = paneResizer.getBoundingClientRect().width || 10;
+      const gapWidth = 20;
+      const maxLeft = Math.max(minLeft, rect.width - minRight - resizerWidth - gapWidth);
+      const nextWidth = Math.min(Math.max(clientX - rect.left, minLeft), maxLeft);
+
+      mainGrid.style.setProperty('--search-pane-width', `${Math.round(nextWidth)}px`);
+    };
+
+    const stopResizing = () => {
+      mainGrid.classList.remove('is-resizing');
+      document.body.style.userSelect = '';
+      window.removeEventListener('pointermove', resizeWithPointer);
+      window.removeEventListener('pointerup', stopResizing);
+      window.removeEventListener('pointercancel', stopResizing);
+    };
+
+    const resizeWithPointer = (event) => {
+      setSearchPaneWidth(event.clientX);
+    };
+
+    paneResizer.addEventListener('pointerdown', (event) => {
+      if (window.matchMedia('(max-width: 960px)').matches) {
+        return;
+      }
+
+      event.preventDefault();
+      mainGrid.classList.add('is-resizing');
+      document.body.style.userSelect = 'none';
+      paneResizer.setPointerCapture?.(event.pointerId);
+      setSearchPaneWidth(event.clientX);
+      window.addEventListener('pointermove', resizeWithPointer);
+      window.addEventListener('pointerup', stopResizing);
+      window.addEventListener('pointercancel', stopResizing);
+    });
+
+    paneResizer.addEventListener('keydown', (event) => {
+      if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) {
+        return;
+      }
+
+      event.preventDefault();
+
+      const rect = mainGrid.getBoundingClientRect();
+      const current = parseInt(getComputedStyle(mainGrid).getPropertyValue('--search-pane-width'), 10);
+      const fallback = Math.round(rect.width * 0.46);
+      const currentWidth = Number.isNaN(current) ? fallback : current;
+      const step = event.shiftKey ? 80 : 32;
+
+      if (event.key === 'Home') {
+        setSearchPaneWidth(rect.left + 390);
+      } else if (event.key === 'End') {
+        setSearchPaneWidth(rect.right - 320);
+      } else {
+        setSearchPaneWidth(rect.left + currentWidth + (event.key === 'ArrowRight' ? step : -step));
+      }
+    });
+
+    searchTab.addEventListener('click', () => setActiveMainTab('search'));
+    previewTab.addEventListener('click', () => setActiveMainTab('preview'));
+
     resultButtons.forEach((button) => {
       button.addEventListener('click', () => {
         resultButtons.forEach((item) => item.classList.remove('is-active'));
+        effectButtons.forEach((item) => item.classList.remove('is-active'));
         button.classList.add('is-active');
 
         const name = button.dataset.name || '公式アイテムページ';
         const url = button.dataset.url || 'about:blank';
 
         previewTitle.textContent = name;
+        previewUrl.textContent = url;
+        officialFrame.src = url;
+        openOfficial.href = url;
+
+        if (window.matchMedia('(max-width: 960px)').matches) {
+          setActiveMainTab('preview');
+        }
+      });
+    });
+
+    effectButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        effectButtons.forEach((item) => item.classList.remove('is-active'));
+        button.classList.add('is-active');
+
+        const name = button.dataset.effectName || 'エンチャント効果';
+        const url = button.dataset.effectUrl || 'about:blank';
+
+        previewTitle.textContent = `エンチャント効果: ${name}`;
         previewUrl.textContent = url;
         officialFrame.src = url;
         openOfficial.href = url;
