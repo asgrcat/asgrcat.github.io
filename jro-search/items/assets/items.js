@@ -206,11 +206,22 @@
       return type || key.replace(/-/g, '_');
     };
 
-    const renderEnchantFilterOptions = (catalog) => {
+    const availableEnchantFilterKeys = (items) => new Set(
+      (items || []).flatMap((item) => item.enchantments?.filter_keys || [])
+    );
+
+    const renderEnchantFilterOptions = (catalog, items) => {
       const options = new Map();
+      const availableKeys = availableEnchantFilterKeys(items);
 
       (catalog?.sets || []).forEach((set, index) => {
-        options.set(enchantFilterKey(set), {
+        const key = enchantFilterKey(set);
+
+        if (!availableKeys.has(key)) {
+          return;
+        }
+
+        options.set(key, {
           label: set.name || set.key || '',
           order: index + 1,
         });
@@ -642,7 +653,7 @@
         ]);
 
         itemIndex = Array.isArray(itemPayload.items) ? itemPayload.items : [];
-        renderEnchantFilterOptions(enchantCatalog);
+        renderEnchantFilterOptions(enchantCatalog, itemIndex);
         renderJobFilterOptions(jobs);
         applyFilters();
       } catch (error) {
