@@ -111,133 +111,6 @@
       setSearchPaneWidth(event.clientX);
     };
 
-    const kanaDigraphs = {
-      きゃ: 'kya',
-      きゅ: 'kyu',
-      きょ: 'kyo',
-      しゃ: 'sha',
-      しゅ: 'shu',
-      しょ: 'sho',
-      ちゃ: 'cha',
-      ちゅ: 'chu',
-      ちょ: 'cho',
-      にゃ: 'nya',
-      にゅ: 'nyu',
-      にょ: 'nyo',
-      ひゃ: 'hya',
-      ひゅ: 'hyu',
-      ひょ: 'hyo',
-      みゃ: 'mya',
-      みゅ: 'myu',
-      みょ: 'myo',
-      りゃ: 'rya',
-      りゅ: 'ryu',
-      りょ: 'ryo',
-      ぎゃ: 'gya',
-      ぎゅ: 'gyu',
-      ぎょ: 'gyo',
-      じゃ: 'ja',
-      じゅ: 'ju',
-      じょ: 'jo',
-      びゃ: 'bya',
-      びゅ: 'byu',
-      びょ: 'byo',
-      ぴゃ: 'pya',
-      ぴゅ: 'pyu',
-      ぴょ: 'pyo',
-      ふぁ: 'fa',
-      ふぃ: 'fi',
-      ふぇ: 'fe',
-      ふぉ: 'fo',
-      てぃ: 'ti',
-      でぃ: 'di',
-      うぃ: 'wi',
-      うぇ: 'we',
-      うぉ: 'wo',
-    };
-
-    const kanaRomanMap = {
-      あ: 'a',
-      い: 'i',
-      う: 'u',
-      え: 'e',
-      お: 'o',
-      か: 'ka',
-      き: 'ki',
-      く: 'ku',
-      け: 'ke',
-      こ: 'ko',
-      さ: 'sa',
-      し: 'shi',
-      す: 'su',
-      せ: 'se',
-      そ: 'so',
-      た: 'ta',
-      ち: 'chi',
-      つ: 'tsu',
-      て: 'te',
-      と: 'to',
-      な: 'na',
-      に: 'ni',
-      ぬ: 'nu',
-      ね: 'ne',
-      の: 'no',
-      は: 'ha',
-      ひ: 'hi',
-      ふ: 'fu',
-      へ: 'he',
-      ほ: 'ho',
-      ま: 'ma',
-      み: 'mi',
-      む: 'mu',
-      め: 'me',
-      も: 'mo',
-      や: 'ya',
-      ゆ: 'yu',
-      よ: 'yo',
-      ら: 'ra',
-      り: 'ri',
-      る: 'ru',
-      れ: 're',
-      ろ: 'ro',
-      わ: 'wa',
-      を: 'wo',
-      ん: 'n',
-      が: 'ga',
-      ぎ: 'gi',
-      ぐ: 'gu',
-      げ: 'ge',
-      ご: 'go',
-      ざ: 'za',
-      じ: 'ji',
-      ず: 'zu',
-      ぜ: 'ze',
-      ぞ: 'zo',
-      だ: 'da',
-      ぢ: 'ji',
-      づ: 'zu',
-      で: 'de',
-      ど: 'do',
-      ば: 'ba',
-      び: 'bi',
-      ぶ: 'bu',
-      べ: 'be',
-      ぼ: 'bo',
-      ぱ: 'pa',
-      ぴ: 'pi',
-      ぷ: 'pu',
-      ぺ: 'pe',
-      ぽ: 'po',
-      ぁ: 'a',
-      ぃ: 'i',
-      ぅ: 'u',
-      ぇ: 'e',
-      ぉ: 'o',
-      ゃ: 'ya',
-      ゅ: 'yu',
-      ょ: 'yo',
-    };
-
     const toHiragana = (value) => value.replace(/[\u30a1-\u30f6]/g, (char) => (
       String.fromCharCode(char.charCodeAt(0) - 0x60)
     ));
@@ -247,68 +120,6 @@
     const normalizeSearchText = (value) => compactSearchText(
       toHiragana(value.normalize('NFKC').toLowerCase()).replace(/[っッ]/g, '')
     );
-
-    const romanizeKana = (value) => {
-      const hiragana = toHiragana(value.normalize('NFKC').toLowerCase());
-      let result = '';
-
-      for (let index = 0; index < hiragana.length; index += 1) {
-        const current = hiragana[index];
-
-        if (current === 'っ') {
-          const pair = hiragana.slice(index + 1, index + 3);
-          const nextRoman = kanaDigraphs[pair] || kanaRomanMap[hiragana[index + 1]] || '';
-          result += nextRoman.charAt(0);
-          continue;
-        }
-
-        const pair = hiragana.slice(index, index + 2);
-
-        if (kanaDigraphs[pair]) {
-          result += kanaDigraphs[pair];
-          index += 1;
-          continue;
-        }
-
-        result += kanaRomanMap[current] || current;
-      }
-
-      return compactSearchText(result);
-    };
-
-    const getSearchVariants = (value) => {
-      const base = value.normalize('NFKC').toLowerCase();
-      const kana = normalizeSearchText(base);
-      const roman = romanizeKana(base);
-
-      return Array.from(new Set([
-        compactSearchText(base),
-        kana,
-        roman,
-        roman.replace(/shi/g, 'si').replace(/chi/g, 'ti').replace(/tsu/g, 'tu').replace(/fu/g, 'hu'),
-      ].filter(Boolean)));
-    };
-
-    const isSubsequence = (text, query) => {
-      let queryIndex = 0;
-
-      for (let textIndex = 0; textIndex < text.length && queryIndex < query.length; textIndex += 1) {
-        if (text[textIndex] === query[queryIndex]) {
-          queryIndex += 1;
-        }
-      }
-
-      return queryIndex === query.length;
-    };
-
-    const matchesFuzzyText = (text, query) => {
-      const textVariants = getSearchVariants(text);
-      const queryVariants = getSearchVariants(query);
-
-      return queryVariants.some((queryVariant) => textVariants.some((textVariant) => (
-        textVariant.includes(queryVariant) || (queryVariant.length >= 3 && isSubsequence(textVariant, queryVariant))
-      )));
-    };
 
     const matchesPartialText = (text, query) => {
       const normalizedText = normalizeSearchText(text);
@@ -323,15 +134,14 @@
       .split(/\s+/)
       .filter(Boolean);
 
-    const matchesSearchQuery = (text, query, fuzzy) => {
+    const matchesSearchQuery = (text, query) => {
       const terms = splitSearchTerms(query);
-      const matcher = fuzzy ? matchesFuzzyText : matchesPartialText;
 
       if (terms.length === 0) {
         return true;
       }
 
-      return terms.every((term) => matcher(text, term));
+      return terms.every((term) => matchesPartialText(text, term));
     };
 
     const setPreviewEmptyState = (isEmpty) => {
@@ -581,14 +391,26 @@
       selectedValues.length === 0 || selectedValues.some((selectedValue) => values.includes(selectedValue))
     );
 
-    const searchablePositions = (positions) => {
-      const values = new Set(Object.keys(positions || {}));
-
-      if (accessoryPositionKeys.some((key) => values.has(key))) {
-        values.add('accessory');
+    const matchesPositionFilters = (positions, selectedPositions) => {
+      if (selectedPositions.length === 0) {
+        return true;
       }
 
-      return Array.from(values);
+      return selectedPositions.some((position) => {
+        if (position === 'accessory') {
+          return accessoryPositionKeys.some((key) => positions[key]);
+        }
+
+        if (position === 'accessory_1') {
+          return positions.accessory_1 === true && positions.accessory_2 !== true;
+        }
+
+        if (position === 'accessory_2') {
+          return positions.accessory_2 === true && positions.accessory_1 !== true;
+        }
+
+        return positions[position] === true && positions.accessory !== true;
+      });
     };
 
     const displayPositionLabels = (item) => {
@@ -704,10 +526,10 @@
 
       const results = hasSearched && hasConditions ? itemIndex.filter((item) => {
         const searchableText = getSearchableText(item, target);
-        const positions = searchablePositions(item.classification?.positions);
+        const positions = item.classification?.positions || {};
         const enchants = item.enchantments?.filter_keys || [];
-        const matchesKeyword = matchesSearchQuery(searchableText, keyword, target === 'アイテム名');
-        const matchesPositions = includesAny(positions, selectedPositions);
+        const matchesKeyword = matchesSearchQuery(searchableText, keyword);
+        const matchesPositions = matchesPositionFilters(positions, selectedPositions);
         const matchesEnchants = includesAny(enchants, selectedEnchants);
         const matchesJobs = matchesJobFilters(item, selectedJobs);
 
