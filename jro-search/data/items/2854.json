@@ -36,19 +36,7 @@
                 "shadow_chaser": true,
                 "mechanic": true,
                 "genetic": true,
-                "dragon_knight": true,
-                "imperial_guard": true,
-                "arch_mage": true,
-                "elemental_master": true,
-                "windhawk": true,
-                "troubadour": true,
-                "trouvere": true,
-                "cardinal": true,
-                "inquisitor": true,
-                "shadow_cross": true,
-                "abyss_chaser": true,
-                "meister": true,
-                "biolo": true
+                "summoner": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -115,19 +103,7 @@
                 "shadow_chaser": true,
                 "mechanic": true,
                 "genetic": true,
-                "dragon_knight": true,
-                "imperial_guard": true,
-                "arch_mage": true,
-                "elemental_master": true,
-                "windhawk": true,
-                "troubadour": true,
-                "trouvere": true,
-                "cardinal": true,
-                "inquisitor": true,
-                "shadow_cross": true,
-                "abyss_chaser": true,
-                "meister": true,
-                "biolo": true
+                "summoner": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -353,6 +329,6 @@
         }
     ],
     "source_html_sha256": "6eb2579068252de0b91dfc9c80ecb19aa783c8d2095a9f6de811f30205c361f5",
-    "fetched_at": "2026-05-23T12:05:40+00:00",
-    "parsed_at": "2026-05-23T12:05:40+00:00"
+    "fetched_at": "2026-05-23T12:22:08+00:00",
+    "parsed_at": "2026-05-23T12:22:08+00:00"
 }

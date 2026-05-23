@@ -48,6 +48,7 @@
                 "shadow_chaser": true,
                 "mechanic": true,
                 "genetic": true,
+                "summoner": true,
                 "dragon_knight": true,
                 "imperial_guard": true,
                 "arch_mage": true,
@@ -130,6 +131,7 @@
                 "shadow_chaser": true,
                 "mechanic": true,
                 "genetic": true,
+                "summoner": true,
                 "dragon_knight": true,
                 "imperial_guard": true,
                 "arch_mage": true,
@@ -166,6 +168,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "f369fcc27f82b14e39ceb6e7065a5cae796620a2337502dfcfb5b68edd935147",
-    "fetched_at": "2026-05-23T12:05:40+00:00",
-    "parsed_at": "2026-05-23T12:05:40+00:00"
+    "fetched_at": "2026-05-23T12:22:08+00:00",
+    "parsed_at": "2026-05-23T12:22:08+00:00"
 }

@@ -22,9 +22,24 @@
         },
         "is_two_handed_weapon": false,
         "equip_jobs": {
-            "all": true,
+            "all": false,
             "include_groups": {},
-            "include_jobs": {},
+            "include_jobs": {
+                "rune_knight": true,
+                "royal_guard": true,
+                "warlock": true,
+                "sorcerer": true,
+                "ranger": true,
+                "minstrel": true,
+                "wanderer": true,
+                "arch_bishop": true,
+                "sura": true,
+                "guillotine_cross": true,
+                "shadow_chaser": true,
+                "mechanic": true,
+                "genetic": true,
+                "summoner": true
+            },
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -81,9 +96,24 @@
         "weapon_level": null,
         "required_level": 100,
         "equip": {
-            "all": true,
+            "all": false,
             "include_groups": {},
-            "include_jobs": {},
+            "include_jobs": {
+                "rune_knight": true,
+                "royal_guard": true,
+                "warlock": true,
+                "sorcerer": true,
+                "ranger": true,
+                "minstrel": true,
+                "wanderer": true,
+                "arch_bishop": true,
+                "sura": true,
+                "guillotine_cross": true,
+                "shadow_chaser": true,
+                "mechanic": true,
+                "genetic": true,
+                "summoner": true
+            },
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -112,6 +142,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "046ec05fb578376ffeb5fa47aca3222913416089b2db06ffa86cfd2f72bd1d7e",
-    "fetched_at": "2026-05-23T12:05:40+00:00",
-    "parsed_at": "2026-05-23T12:05:40+00:00"
+    "fetched_at": "2026-05-23T12:22:08+00:00",
+    "parsed_at": "2026-05-23T12:22:08+00:00"
 }

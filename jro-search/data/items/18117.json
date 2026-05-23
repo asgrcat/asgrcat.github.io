@@ -23,10 +23,12 @@
         "is_two_handed_weapon": false,
         "equip_jobs": {
             "all": false,
-            "include_groups": {
-                "archer": true
+            "include_groups": {},
+            "include_jobs": {
+                "ranger": true,
+                "minstrel": true,
+                "wanderer": true
             },
-            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -97,10 +99,12 @@
         "required_level": 105,
         "equip": {
             "all": false,
-            "include_groups": {
-                "archer": true
+            "include_groups": {},
+            "include_jobs": {
+                "ranger": true,
+                "minstrel": true,
+                "wanderer": true
             },
-            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -124,6 +128,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "50e51563b75ec40676d84a8c47d26eb1b823cbc25652b1ab1c8a24b08c522459",
-    "fetched_at": "2026-05-23T12:05:40+00:00",
-    "parsed_at": "2026-05-23T12:05:40+00:00"
+    "fetched_at": "2026-05-23T12:22:08+00:00",
+    "parsed_at": "2026-05-23T12:22:08+00:00"
 }

@@ -23,10 +23,11 @@
         "is_two_handed_weapon": false,
         "equip_jobs": {
             "all": false,
-            "include_groups": {
-                "acolyte": true
+            "include_groups": {},
+            "include_jobs": {
+                "arch_bishop": true,
+                "sura": true
             },
-            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -67,10 +68,11 @@
         "required_level": 105,
         "equip": {
             "all": false,
-            "include_groups": {
-                "acolyte": true
+            "include_groups": {},
+            "include_jobs": {
+                "arch_bishop": true,
+                "sura": true
             },
-            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -174,6 +176,6 @@
         }
     ],
     "source_html_sha256": "e26e9e29d5d02fa751f475141225aee310d3bd28f0bf536207aefef4ae743a28",
-    "fetched_at": "2026-05-23T12:05:40+00:00",
-    "parsed_at": "2026-05-23T12:05:40+00:00"
+    "fetched_at": "2026-05-23T12:22:08+00:00",
+    "parsed_at": "2026-05-23T12:22:08+00:00"
 }

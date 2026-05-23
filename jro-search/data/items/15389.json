@@ -19,9 +19,24 @@
         "refine_range": null,
         "is_two_handed_weapon": false,
         "equip_jobs": {
-            "all": true,
+            "all": false,
             "include_groups": {},
-            "include_jobs": {},
+            "include_jobs": {
+                "rune_knight": true,
+                "royal_guard": true,
+                "warlock": true,
+                "sorcerer": true,
+                "ranger": true,
+                "minstrel": true,
+                "wanderer": true,
+                "arch_bishop": true,
+                "sura": true,
+                "guillotine_cross": true,
+                "shadow_chaser": true,
+                "mechanic": true,
+                "genetic": true,
+                "summoner": true
+            },
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -76,9 +91,24 @@
         "weapon_level": null,
         "required_level": 130,
         "equip": {
-            "all": true,
+            "all": false,
             "include_groups": {},
-            "include_jobs": {},
+            "include_jobs": {
+                "rune_knight": true,
+                "royal_guard": true,
+                "warlock": true,
+                "sorcerer": true,
+                "ranger": true,
+                "minstrel": true,
+                "wanderer": true,
+                "arch_bishop": true,
+                "sura": true,
+                "guillotine_cross": true,
+                "shadow_chaser": true,
+                "mechanic": true,
+                "genetic": true,
+                "summoner": true
+            },
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -158,6 +188,6 @@
         }
     ],
     "source_html_sha256": "bd6968b1c88b04408f85db7978efd25594e323325fa0f39cef935b6ea8d3401c",
-    "fetched_at": "2026-05-23T12:05:40+00:00",
-    "parsed_at": "2026-05-23T12:05:40+00:00"
+    "fetched_at": "2026-05-23T12:22:08+00:00",
+    "parsed_at": "2026-05-23T12:22:08+00:00"
 }

@@ -20,9 +20,24 @@
         "refine_range": null,
         "is_two_handed_weapon": false,
         "equip_jobs": {
-            "all": true,
+            "all": false,
             "include_groups": {},
-            "include_jobs": {},
+            "include_jobs": {
+                "rune_knight": true,
+                "royal_guard": true,
+                "warlock": true,
+                "sorcerer": true,
+                "ranger": true,
+                "minstrel": true,
+                "wanderer": true,
+                "arch_bishop": true,
+                "sura": true,
+                "guillotine_cross": true,
+                "shadow_chaser": true,
+                "mechanic": true,
+                "genetic": true,
+                "summoner": true
+            },
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -87,9 +102,24 @@
         "weapon_level": null,
         "required_level": 100,
         "equip": {
-            "all": true,
+            "all": false,
             "include_groups": {},
-            "include_jobs": {},
+            "include_jobs": {
+                "rune_knight": true,
+                "royal_guard": true,
+                "warlock": true,
+                "sorcerer": true,
+                "ranger": true,
+                "minstrel": true,
+                "wanderer": true,
+                "arch_bishop": true,
+                "sura": true,
+                "guillotine_cross": true,
+                "shadow_chaser": true,
+                "mechanic": true,
+                "genetic": true,
+                "summoner": true
+            },
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -118,6 +148,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "0716b7e6ecb5556f9d6d3d0f57db68b19113e9b6b9ec791cce7f215467b751bc",
-    "fetched_at": "2026-05-23T12:05:40+00:00",
-    "parsed_at": "2026-05-23T12:05:40+00:00"
+    "fetched_at": "2026-05-23T12:22:08+00:00",
+    "parsed_at": "2026-05-23T12:22:08+00:00"
 }
