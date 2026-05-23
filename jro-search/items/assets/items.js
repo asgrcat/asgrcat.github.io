@@ -596,13 +596,13 @@
       const labels = item.classification?.position_labels || [];
 
       if (! accessoryPositionKeys.every((key) => positions[key])) {
-        return labels;
+        return Array.from(new Set(labels));
       }
 
-      return [
+      return Array.from(new Set([
         ...labels.filter((label) => label !== 'アクセサリー(1)' && label !== 'アクセサリー(2)'),
         'アクセサリー',
-      ];
+      ]));
     };
 
     const activeKeys = (values) => Object.keys(values || {}).filter((key) => values[key]);

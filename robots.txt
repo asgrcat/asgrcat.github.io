@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /jro-search/items/$
+Allow: /jro-search/items/index.html$
+Disallow: /jro-search/data/
+Disallow: /jro-search/items/assets/
+Disallow: /jro-search/
