@@ -7,23 +7,21 @@
     const searchButton = document.getElementById('searchButton');
     const resetButton = document.getElementById('resetButton');
     const resultCount = document.getElementById('resultCount');
+    const resultList = document.getElementById('resultList');
     const emptyResult = document.getElementById('emptyResult');
-    const resultItems = document.querySelectorAll('.result-item');
-    const resultButtons = document.querySelectorAll('.result-button');
-    const effectButtons = document.querySelectorAll('.effect-button');
     const filterChips = document.querySelectorAll('.chip[data-filter-group]');
-    const enchantSetToggles = document.querySelectorAll('.enchant-set-toggle');
     const previewEmpty = document.getElementById('previewEmpty');
     const previewHeader = document.getElementById('previewHeader');
     const enchantSummary = document.getElementById('enchantSummary');
-    const enchantEmpty = document.getElementById('enchantEmpty');
-    const enchantSets = document.querySelectorAll('.enchant-set[data-enchant-key]');
     const iframeWrap = document.getElementById('iframeWrap');
     const previewTitle = document.getElementById('previewTitle');
     const previewUrl = document.getElementById('previewUrl');
     const officialFrame = document.getElementById('officialFrame');
     const openOfficial = document.getElementById('openOfficial');
     const paneWidthStorageKey = 'jro-search.items.searchPaneWidth';
+    const itemIndexUrl = '../data/search/item-index.json';
+    let itemIndex = [];
+    let activeItemId = null;
     let hasSearched = false;
 
     const setActiveMainTab = (tabName) => {
@@ -319,37 +317,133 @@
       iframeWrap.hidden = isEmpty;
 
       if (isEmpty) {
-        effectButtons.forEach((item) => item.classList.remove('is-active'));
+        activeItemId = null;
         previewTitle.textContent = '';
         previewUrl.textContent = '';
         officialFrame.src = 'about:blank';
         openOfficial.href = 'about:blank';
+        enchantSummary.replaceChildren();
       }
     };
 
-    const resetEnchantSetExpansion = (enchantSet, shouldExpand) => {
-      const toggle = enchantSet.querySelector('.enchant-set-toggle');
+    const createElement = (tagName, className, textContent = '') => {
+      const element = document.createElement(tagName);
 
-      enchantSet.classList.toggle('is-collapsed', !shouldExpand);
-      toggle?.setAttribute('aria-expanded', String(shouldExpand));
+      if (className) {
+        element.className = className;
+      }
+
+      if (textContent !== '') {
+        element.textContent = textContent;
+      }
+
+      return element;
     };
 
-    const updateEnchantSummary = (button) => {
-      const itemEnchants = splitDataValues(button.dataset.enchants);
-      let visibleCount = 0;
+    const feeLabel = (fee) => {
+      if (!Array.isArray(fee) || fee.length === 0) {
+        return null;
+      }
 
-      enchantSets.forEach((enchantSet) => {
-        const isVisible = itemEnchants.includes(enchantSet.dataset.enchantKey || '');
+      return fee
+        .map((item) => `${item.item_name || ''} ${item.amount || ''}個`.trim())
+        .filter(Boolean)
+        .join('、');
+    };
 
-        enchantSet.hidden = !isVisible;
+    const slotLabel = (slot) => [
+      slot.enchant_step_label,
+      slot.slot_label,
+      slot.required_refine,
+      slot.required_transcendence ? `超越${slot.required_transcendence}` : null,
+    ].filter(Boolean).join('\n');
 
-        if (isVisible) {
-          resetEnchantSetExpansion(enchantSet, visibleCount === 0);
-          visibleCount += 1;
-        }
+    const renderEnchantSummary = (item) => {
+      const sets = item.enchantments?.sets || [];
+      enchantSummary.replaceChildren();
+
+      if (sets.length === 0) {
+        enchantSummary.append(createElement('div', 'enchant-empty', 'このアイテムのエンチャント情報はありません。'));
+        return;
+      }
+
+      sets.forEach((set, index) => {
+        enchantSummary.append(renderEnchantSet(set, index === 0));
+      });
+    };
+
+    const renderEnchantSet = (set, expanded) => {
+      const wrapper = createElement('div', `enchant-set${expanded ? '' : ' is-collapsed'}`);
+      const toggle = createElement('button', 'enchant-set-toggle');
+      const meta = createElement('span', 'enchant-meta');
+      const bodyId = `enchantSet-${set.key || Math.random().toString(36).slice(2)}`;
+      const body = createElement('div', 'enchant-set-body');
+
+      toggle.type = 'button';
+      toggle.setAttribute('aria-expanded', String(expanded));
+      toggle.setAttribute('aria-controls', bodyId);
+      body.id = bodyId;
+
+      meta.append(createElement('span', 'meta-chip', set.name || 'エンチャント'));
+
+      if (set.npc_name) {
+        meta.append(createElement('span', 'meta-chip', `NPC: ${set.npc_name}`));
+      }
+
+      const fee = feeLabel(set.fee);
+
+      if (fee) {
+        meta.append(createElement('span', 'meta-chip', `エンチャ素材: ${fee}`));
+      }
+
+      toggle.append(meta, createElement('span', 'enchant-toggle-icon', '›'));
+      body.append(renderEnchantTable(set.slots || []));
+      wrapper.append(toggle, body);
+
+      return wrapper;
+    };
+
+    const renderEnchantTable = (slots) => {
+      const wrap = createElement('div', 'enchant-table-wrap');
+      const table = createElement('table', 'enchant-table');
+      const thead = document.createElement('thead');
+      const headerRow = document.createElement('tr');
+      const tbody = document.createElement('tbody');
+
+      ['対象箇所', 'エンチャント効果'].forEach((label) => {
+        const th = document.createElement('th');
+        th.scope = 'col';
+        th.textContent = label;
+        headerRow.append(th);
       });
 
-      enchantEmpty.hidden = visibleCount > 0;
+      thead.append(headerRow);
+
+      slots.forEach((slot) => {
+        const row = document.createElement('tr');
+        const slotCell = createElement('td', 'slot-cell');
+        const candidatesCell = document.createElement('td');
+        const effects = createElement('div', 'effect-list');
+
+        slotCell.textContent = slotLabel(slot);
+
+        (slot.candidates || []).forEach((candidate) => {
+          const button = createElement('button', 'effect-button', candidate.name || '');
+          button.type = 'button';
+          button.dataset.effectName = candidate.name || '';
+          button.dataset.effectUrl = candidate.item_id ? `https://rotool.gungho.jp/item/${candidate.item_id}/` : '';
+          effects.append(button);
+        });
+
+        candidatesCell.append(effects);
+        row.append(slotCell, candidatesCell);
+        tbody.append(row);
+      });
+
+      table.append(thead, tbody);
+      wrap.append(table);
+
+      return wrap;
     };
 
     const truncateDescription = (description) => {
@@ -362,18 +456,6 @@
       return `${description.slice(0, maxLength)}...`;
     };
 
-    const updateResultDescription = (button) => {
-      const summary = button.querySelector('.result-summary');
-      const description = button.dataset.description || '';
-
-      if (!summary) {
-        return;
-      }
-
-      summary.textContent = truncateDescription(description);
-      summary.title = description;
-    };
-
     const getSelectedFilters = (group) => Array.from(filterChips)
       .filter((chip) => chip.dataset.filterGroup === group && chip.getAttribute('aria-pressed') === 'true')
       .map((chip) => chip.dataset.filterValue);
@@ -384,11 +466,15 @@
       selectedValues.length === 0 || selectedValues.some((selectedValue) => values.includes(selectedValue))
     );
 
-    const getSearchableText = (button, target) => {
-      const name = button.dataset.name || '';
-      const description = button.dataset.description || '';
-      const enchantText = button.dataset.enchantText || '';
-      const aliases = button.dataset.searchAliases || '';
+    const getSearchableText = (item, target) => {
+      const name = item.name || '';
+      const description = item.description || '';
+      const aliases = (item.aliases || []).join(' ');
+      const enchantText = [
+        ...(item.enchantments?.candidate_names || []),
+        ...(item.enchantments?.source_keys || []),
+        ...(item.enchantments?.filter_keys || []),
+      ].join(' ');
 
       if (target === '説明') {
         return description;
@@ -405,15 +491,16 @@
       return `${name} ${aliases}`;
     };
 
-    const activateResult = (button, shouldSwitchPreviewTab = false) => {
-      resultButtons.forEach((item) => item.classList.remove('is-active'));
-      effectButtons.forEach((item) => item.classList.remove('is-active'));
-      button.classList.add('is-active');
+    const activateResult = (item, shouldSwitchPreviewTab = false) => {
+      activeItemId = item.item_id;
+      resultList.querySelectorAll('.result-button').forEach((button) => {
+        button.classList.toggle('is-active', button.dataset.itemId === item.item_id);
+      });
       setPreviewEmptyState(false);
-      updateEnchantSummary(button);
+      renderEnchantSummary(item);
 
-      const name = button.dataset.name || '公式アイテムページ';
-      const url = button.dataset.url || 'about:blank';
+      const name = item.name || '公式アイテムページ';
+      const url = item.official_url || 'about:blank';
 
       previewTitle.textContent = name;
       previewUrl.textContent = url;
@@ -430,48 +517,71 @@
       const target = searchTargetSelect.value;
       const selectedPositions = getSelectedFilters('position');
       const selectedEnchants = getSelectedFilters('enchant');
-      let visibleCount = 0;
 
-      resultItems.forEach((item) => {
-        const button = item.querySelector('.result-button');
-        const searchableText = getSearchableText(button, target);
-        const positions = splitDataValues(button.dataset.positions);
-        const enchants = splitDataValues(button.dataset.enchants);
+      const results = hasSearched ? itemIndex.filter((item) => {
+        const searchableText = getSearchableText(item, target);
+        const positions = Object.keys(item.classification?.positions || {});
+        const enchants = item.enchantments?.filter_keys || [];
         const matchesKeyword = matchesSearchQuery(searchableText, keyword);
         const matchesPositions = includesAny(positions, selectedPositions);
         const matchesEnchants = includesAny(enchants, selectedEnchants);
-        const isVisible = hasSearched && matchesKeyword && matchesPositions && matchesEnchants;
 
-        item.hidden = !isVisible;
-        updateResultDescription(button);
+        return matchesKeyword && matchesPositions && matchesEnchants;
+      }) : [];
 
-        if (isVisible) {
-          visibleCount += 1;
-        }
-      });
-
-      resultCount.textContent = `${visibleCount}件`;
+      renderResults(results);
+      resultCount.textContent = `${results.length}件`;
       emptyResult.textContent = hasSearched ? '条件に一致するアイテムはありません。' : '検索条件を入力して検索してください。';
-      emptyResult.classList.toggle('is-visible', visibleCount === 0);
+      emptyResult.classList.toggle('is-visible', results.length === 0);
 
-      const activeButton = document.querySelector('.result-button.is-active');
-      const activeItem = activeButton?.closest('.result-item');
-
-      if (visibleCount === 0) {
-        resultButtons.forEach((button) => button.classList.remove('is-active'));
+      if (results.length === 0) {
         setPreviewEmptyState(true);
         return;
       }
 
-      if (visibleCount > 0 && (!activeItem || activeItem.hidden)) {
-        const firstVisibleButton = Array.from(resultItems)
-          .find((item) => !item.hidden)
-          ?.querySelector('.result-button');
+      const activeItem = results.find((item) => item.item_id === activeItemId);
+      activateResult(activeItem || results[0]);
+    };
 
-        if (firstVisibleButton) {
-          activateResult(firstVisibleButton);
-        }
+    const renderResults = (items) => {
+      const fragment = document.createDocumentFragment();
+
+      items.forEach((item) => {
+        fragment.append(renderResultItem(item));
+      });
+
+      resultList.replaceChildren(fragment);
+    };
+
+    const renderResultItem = (item) => {
+      const listItem = createElement('li', 'result-item');
+      const button = createElement('button', 'result-button');
+      const main = createElement('span', 'result-main');
+      const titleRow = createElement('span', 'result-title-row');
+      const title = createElement('span', 'result-title', item.name || '');
+      const summary = createElement('span', 'result-summary', truncateDescription(item.description || ''));
+      const tagRow = createElement('span', 'tag-row');
+
+      button.type = 'button';
+      button.dataset.itemId = item.item_id;
+      button.classList.toggle('is-active', item.item_id === activeItemId);
+      summary.title = item.description || '';
+      titleRow.append(title);
+
+      (item.classification?.position_labels || []).forEach((label) => {
+        tagRow.append(createElement('span', 'tag', label));
+      });
+
+      main.append(titleRow, summary);
+
+      if (tagRow.children.length > 0) {
+        main.append(tagRow);
       }
+
+      button.append(main);
+      listItem.append(button);
+
+      return listItem;
     };
 
     const resetFilters = () => {
@@ -485,6 +595,29 @@
     const searchItems = () => {
       hasSearched = true;
       applyFilters();
+    };
+
+    const loadItemIndex = async () => {
+      try {
+        const response = await fetch(itemIndexUrl, { cache: 'no-cache' });
+
+        if (!response.ok) {
+          throw new Error(`Failed to load item index: ${response.status}`);
+        }
+
+        const payload = await response.json();
+        itemIndex = Array.isArray(payload.items) ? payload.items : [];
+        emptyResult.textContent = '検索条件を入力して検索してください。';
+        applyFilters();
+      } catch (error) {
+        itemIndex = [];
+        resultCount.textContent = '0件';
+        resultList.replaceChildren();
+        emptyResult.textContent = '検索データを読み込めませんでした。';
+        emptyResult.classList.add('is-visible');
+        setPreviewEmptyState(true);
+        console.error(error);
+      }
     };
 
     paneResizer.addEventListener('pointerdown', (event) => {
@@ -541,35 +674,45 @@
       }
     });
 
-    enchantSetToggles.forEach((toggle) => {
-      toggle.addEventListener('click', () => {
+    enchantSummary.addEventListener('click', (event) => {
+      const toggle = event.target.closest('.enchant-set-toggle');
+      const effectButton = event.target.closest('.effect-button');
+
+      if (toggle) {
         const enchantSet = toggle.closest('.enchant-set');
         const expanded = toggle.getAttribute('aria-expanded') === 'true';
 
         toggle.setAttribute('aria-expanded', String(!expanded));
         enchantSet?.classList.toggle('is-collapsed', expanded);
-      });
-    });
+        return;
+      }
 
-    resultButtons.forEach((button) => {
-      button.addEventListener('click', () => {
-        activateResult(button, true);
-      });
-    });
+      if (effectButton) {
+        enchantSummary.querySelectorAll('.effect-button').forEach((item) => item.classList.remove('is-active'));
+        effectButton.classList.add('is-active');
 
-    effectButtons.forEach((button) => {
-      button.addEventListener('click', () => {
-        effectButtons.forEach((item) => item.classList.remove('is-active'));
-        button.classList.add('is-active');
-
-        const name = button.dataset.effectName || 'エンチャント効果';
-        const url = button.dataset.effectUrl || 'about:blank';
+        const name = effectButton.dataset.effectName || 'エンチャント効果';
+        const url = effectButton.dataset.effectUrl || 'about:blank';
 
         previewTitle.textContent = `エンチャント効果: ${name}`;
         previewUrl.textContent = url;
-        officialFrame.src = url;
-        openOfficial.href = url;
-      });
+        officialFrame.src = url || 'about:blank';
+        openOfficial.href = url || 'about:blank';
+      }
+    });
+
+    resultList.addEventListener('click', (event) => {
+      const button = event.target.closest('.result-button');
+
+      if (!button) {
+        return;
+      }
+
+      const item = itemIndex.find((candidate) => candidate.item_id === button.dataset.itemId);
+
+      if (item) {
+        activateResult(item, true);
+      }
     });
 
     filterChips.forEach((chip) => {
@@ -582,5 +725,4 @@
     });
 
     restoreSearchPaneWidth();
-    resultButtons.forEach(updateResultDescription);
-    applyFilters();
+    loadItemIndex();

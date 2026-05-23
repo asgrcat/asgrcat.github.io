@@ -1,0 +1,982 @@
+{
+    "groups": {
+        "swordman": {
+            "label": "ソードマン系",
+            "order": 10,
+            "official_code": "SWORDMAN",
+            "jobs": [
+                "swordman",
+                "knight",
+                "crusader",
+                "lord_knight",
+                "paladin",
+                "rune_knight",
+                "royal_guard",
+                "dragon_knight",
+                "imperial_guard"
+            ]
+        },
+        "magician": {
+            "label": "マジシャン系",
+            "order": 20,
+            "official_code": "MAGICIAN",
+            "jobs": [
+                "magician",
+                "wizard",
+                "sage",
+                "high_wizard",
+                "professor",
+                "warlock",
+                "sorcerer",
+                "arch_mage",
+                "elemental_master"
+            ]
+        },
+        "archer": {
+            "label": "アーチャー系",
+            "order": 30,
+            "official_code": "ARCHER",
+            "jobs": [
+                "archer",
+                "hunter",
+                "bard",
+                "dancer",
+                "clown",
+                "gypsy",
+                "sniper",
+                "ranger",
+                "minstrel",
+                "wanderer",
+                "windhawk",
+                "troubadour",
+                "trouvere"
+            ]
+        },
+        "acolyte": {
+            "label": "アコライト系",
+            "order": 40,
+            "official_code": "ACOLYTE",
+            "jobs": [
+                "acolyte",
+                "priest",
+                "monk",
+                "high_priest",
+                "champion",
+                "arch_bishop",
+                "sura",
+                "cardinal",
+                "inquisitor"
+            ]
+        },
+        "thief": {
+            "label": "シーフ系",
+            "order": 50,
+            "official_code": "THIEF",
+            "jobs": [
+                "thief",
+                "assassin",
+                "rogue",
+                "assassin_cross",
+                "chaser",
+                "guillotine_cross",
+                "shadow_chaser",
+                "shadow_cross",
+                "abyss_chaser"
+            ]
+        },
+        "merchant": {
+            "label": "マーチャント系",
+            "order": 60,
+            "official_code": "MERCHANT",
+            "jobs": [
+                "merchant",
+                "blacksmith",
+                "alchemist",
+                "whitesmith",
+                "creator",
+                "mechanic",
+                "genetic",
+                "meister",
+                "biolo"
+            ]
+        },
+        "taekwon": {
+            "label": "テコンキッド系",
+            "order": 70,
+            "official_code": "TAEKWON",
+            "jobs": [
+                "taekwon_kid",
+                "star_gladiator",
+                "star_emperor",
+                "sky_emperor",
+                "soul_linker",
+                "soul_reaper",
+                "soul_ascetic"
+            ]
+        },
+        "ninja": {
+            "label": "忍者系",
+            "order": 80,
+            "official_code": "NINJA",
+            "jobs": [
+                "ninja",
+                "kagerou",
+                "oboro",
+                "shinkiro",
+                "shiranui"
+            ]
+        },
+        "gunslinger": {
+            "label": "ガンスリンガー系",
+            "order": 90,
+            "official_code": "GUNSLINGER",
+            "jobs": [
+                "gunslinger",
+                "rebellion",
+                "night_watch"
+            ]
+        },
+        "druid": {
+            "label": "ドルイド系",
+            "order": 100,
+            "official_code": "DRUID",
+            "jobs": [
+                "druid",
+                "karnos",
+                "aletheia"
+            ]
+        },
+        "novice": {
+            "label": "ノービス系",
+            "order": 110,
+            "official_code": "NOVICE",
+            "jobs": [
+                "novice",
+                "super_novice",
+                "super_novice_limit_break",
+                "hyper_novice"
+            ]
+        },
+        "summoner": {
+            "label": "サモナー系",
+            "order": 120,
+            "official_code": "DO_SUMMONER",
+            "jobs": [
+                "summoner",
+                "spirit_handler"
+            ]
+        }
+    },
+    "jobs": {
+        "swordman": {
+            "label": "ソードマン",
+            "order": 10,
+            "group": "swordman",
+            "tiers": [
+                "first"
+            ]
+        },
+        "knight": {
+            "label": "ナイト",
+            "order": 20,
+            "group": "swordman",
+            "tiers": [
+                "second"
+            ]
+        },
+        "crusader": {
+            "label": "クルセイダー",
+            "order": 30,
+            "group": "swordman",
+            "tiers": [
+                "second"
+            ]
+        },
+        "lord_knight": {
+            "label": "ロードナイト",
+            "order": 40,
+            "group": "swordman",
+            "tiers": [
+                "transcendent_second"
+            ]
+        },
+        "paladin": {
+            "label": "パラディン",
+            "order": 50,
+            "group": "swordman",
+            "tiers": [
+                "transcendent_second"
+            ]
+        },
+        "rune_knight": {
+            "label": "ルーンナイト",
+            "order": 60,
+            "group": "swordman",
+            "tiers": [
+                "third"
+            ]
+        },
+        "royal_guard": {
+            "label": "ロイヤルガード",
+            "order": 70,
+            "group": "swordman",
+            "tiers": [
+                "third"
+            ]
+        },
+        "dragon_knight": {
+            "label": "ドラゴンナイト",
+            "order": 80,
+            "group": "swordman",
+            "tiers": [
+                "fourth"
+            ]
+        },
+        "imperial_guard": {
+            "label": "インペリアルガード",
+            "order": 90,
+            "group": "swordman",
+            "tiers": [
+                "fourth"
+            ]
+        },
+        "magician": {
+            "label": "マジシャン",
+            "order": 100,
+            "group": "magician",
+            "tiers": [
+                "first"
+            ]
+        },
+        "wizard": {
+            "label": "ウィザード",
+            "order": 110,
+            "group": "magician",
+            "tiers": [
+                "second"
+            ]
+        },
+        "sage": {
+            "label": "セージ",
+            "order": 120,
+            "group": "magician",
+            "tiers": [
+                "second"
+            ]
+        },
+        "high_wizard": {
+            "label": "ハイウィザード",
+            "order": 130,
+            "group": "magician",
+            "tiers": [
+                "transcendent_second"
+            ]
+        },
+        "professor": {
+            "label": "プロフェッサー",
+            "order": 140,
+            "group": "magician",
+            "tiers": [
+                "transcendent_second"
+            ]
+        },
+        "warlock": {
+            "label": "ウォーロック",
+            "order": 150,
+            "group": "magician",
+            "tiers": [
+                "third"
+            ]
+        },
+        "sorcerer": {
+            "label": "ソーサラー",
+            "order": 160,
+            "group": "magician",
+            "tiers": [
+                "third"
+            ]
+        },
+        "arch_mage": {
+            "label": "アークメイジ",
+            "order": 170,
+            "group": "magician",
+            "tiers": [
+                "fourth"
+            ]
+        },
+        "elemental_master": {
+            "label": "エレメンタルマスター",
+            "order": 180,
+            "group": "magician",
+            "tiers": [
+                "fourth"
+            ]
+        },
+        "archer": {
+            "label": "アーチャー",
+            "order": 190,
+            "group": "archer",
+            "tiers": [
+                "first"
+            ]
+        },
+        "hunter": {
+            "label": "ハンター",
+            "order": 200,
+            "group": "archer",
+            "tiers": [
+                "second"
+            ]
+        },
+        "bard": {
+            "label": "バード",
+            "order": 210,
+            "group": "archer",
+            "tiers": [
+                "second"
+            ]
+        },
+        "dancer": {
+            "label": "ダンサー",
+            "order": 220,
+            "group": "archer",
+            "tiers": [
+                "second"
+            ]
+        },
+        "clown": {
+            "label": "クラウン",
+            "order": 230,
+            "group": "archer",
+            "tiers": [
+                "transcendent_second"
+            ]
+        },
+        "gypsy": {
+            "label": "ジプシー",
+            "order": 240,
+            "group": "archer",
+            "tiers": [
+                "transcendent_second"
+            ]
+        },
+        "sniper": {
+            "label": "スナイパー",
+            "order": 250,
+            "group": "archer",
+            "tiers": [
+                "transcendent_second"
+            ]
+        },
+        "ranger": {
+            "label": "レンジャー",
+            "order": 260,
+            "group": "archer",
+            "tiers": [
+                "third"
+            ]
+        },
+        "minstrel": {
+            "label": "ミンストレル",
+            "order": 270,
+            "group": "archer",
+            "tiers": [
+                "third"
+            ]
+        },
+        "wanderer": {
+            "label": "ワンダラー",
+            "order": 280,
+            "group": "archer",
+            "tiers": [
+                "third"
+            ]
+        },
+        "windhawk": {
+            "label": "ウィンドホーク",
+            "order": 290,
+            "group": "archer",
+            "tiers": [
+                "fourth"
+            ]
+        },
+        "troubadour": {
+            "label": "トルバドゥール",
+            "order": 300,
+            "group": "archer",
+            "tiers": [
+                "fourth"
+            ]
+        },
+        "trouvere": {
+            "label": "トルヴェール",
+            "order": 310,
+            "group": "archer",
+            "tiers": [
+                "fourth"
+            ]
+        },
+        "acolyte": {
+            "label": "アコライト",
+            "order": 320,
+            "group": "acolyte",
+            "tiers": [
+                "first"
+            ]
+        },
+        "priest": {
+            "label": "プリースト",
+            "order": 330,
+            "group": "acolyte",
+            "tiers": [
+                "second"
+            ]
+        },
+        "monk": {
+            "label": "モンク",
+            "order": 340,
+            "group": "acolyte",
+            "tiers": [
+                "second"
+            ]
+        },
+        "high_priest": {
+            "label": "ハイプリースト",
+            "order": 350,
+            "group": "acolyte",
+            "tiers": [
+                "transcendent_second"
+            ]
+        },
+        "champion": {
+            "label": "チャンピオン",
+            "order": 360,
+            "group": "acolyte",
+            "tiers": [
+                "transcendent_second"
+            ]
+        },
+        "arch_bishop": {
+            "label": "アークビショップ",
+            "order": 370,
+            "group": "acolyte",
+            "tiers": [
+                "third"
+            ]
+        },
+        "sura": {
+            "label": "修羅",
+            "order": 380,
+            "group": "acolyte",
+            "tiers": [
+                "third"
+            ]
+        },
+        "cardinal": {
+            "label": "カーディナル",
+            "order": 390,
+            "group": "acolyte",
+            "tiers": [
+                "fourth"
+            ]
+        },
+        "inquisitor": {
+            "label": "インクイジター",
+            "order": 400,
+            "group": "acolyte",
+            "tiers": [
+                "fourth"
+            ]
+        },
+        "thief": {
+            "label": "シーフ",
+            "order": 410,
+            "group": "thief",
+            "tiers": [
+                "first"
+            ]
+        },
+        "assassin": {
+            "label": "アサシン",
+            "order": 420,
+            "group": "thief",
+            "tiers": [
+                "second"
+            ]
+        },
+        "rogue": {
+            "label": "ローグ",
+            "order": 430,
+            "group": "thief",
+            "tiers": [
+                "second"
+            ]
+        },
+        "assassin_cross": {
+            "label": "アサシンクロス",
+            "order": 440,
+            "group": "thief",
+            "tiers": [
+                "transcendent_second"
+            ]
+        },
+        "chaser": {
+            "label": "チェイサー",
+            "order": 450,
+            "group": "thief",
+            "tiers": [
+                "transcendent_second"
+            ]
+        },
+        "guillotine_cross": {
+            "label": "ギロチンクロス",
+            "order": 460,
+            "group": "thief",
+            "tiers": [
+                "third"
+            ]
+        },
+        "shadow_chaser": {
+            "label": "シャドウチェイサー",
+            "order": 470,
+            "group": "thief",
+            "tiers": [
+                "third"
+            ]
+        },
+        "shadow_cross": {
+            "label": "シャドウクロス",
+            "order": 480,
+            "group": "thief",
+            "tiers": [
+                "fourth"
+            ]
+        },
+        "abyss_chaser": {
+            "label": "アビスチェイサー",
+            "order": 490,
+            "group": "thief",
+            "tiers": [
+                "fourth"
+            ]
+        },
+        "merchant": {
+            "label": "マーチャント",
+            "order": 500,
+            "group": "merchant",
+            "tiers": [
+                "first"
+            ]
+        },
+        "blacksmith": {
+            "label": "ブラックスミス",
+            "order": 510,
+            "group": "merchant",
+            "tiers": [
+                "second"
+            ]
+        },
+        "alchemist": {
+            "label": "アルケミスト",
+            "order": 520,
+            "group": "merchant",
+            "tiers": [
+                "second"
+            ]
+        },
+        "whitesmith": {
+            "label": "ホワイトスミス",
+            "order": 530,
+            "group": "merchant",
+            "tiers": [
+                "transcendent_second"
+            ]
+        },
+        "creator": {
+            "label": "クリエイター",
+            "order": 540,
+            "group": "merchant",
+            "tiers": [
+                "transcendent_second"
+            ]
+        },
+        "mechanic": {
+            "label": "メカニック",
+            "order": 550,
+            "group": "merchant",
+            "tiers": [
+                "third"
+            ]
+        },
+        "genetic": {
+            "label": "ジェネティック",
+            "order": 560,
+            "group": "merchant",
+            "tiers": [
+                "third"
+            ]
+        },
+        "meister": {
+            "label": "マイスター",
+            "order": 570,
+            "group": "merchant",
+            "tiers": [
+                "fourth"
+            ]
+        },
+        "biolo": {
+            "label": "バイオロ",
+            "order": 580,
+            "group": "merchant",
+            "tiers": [
+                "fourth"
+            ]
+        },
+        "taekwon_kid": {
+            "label": "テコンキッド",
+            "order": 590,
+            "group": "taekwon",
+            "tiers": [
+                "special_first"
+            ]
+        },
+        "star_gladiator": {
+            "label": "拳聖",
+            "order": 600,
+            "group": "taekwon",
+            "tiers": [
+                "special_second"
+            ]
+        },
+        "star_emperor": {
+            "label": "星帝",
+            "order": 610,
+            "group": "taekwon",
+            "tiers": [
+                "advanced_special_first"
+            ]
+        },
+        "sky_emperor": {
+            "label": "天帝",
+            "order": 620,
+            "group": "taekwon",
+            "tiers": [
+                "advanced_special_second",
+                "expanded_fourth"
+            ]
+        },
+        "soul_linker": {
+            "label": "ソウルリンカー",
+            "order": 630,
+            "group": "taekwon",
+            "tiers": [
+                "special_second"
+            ]
+        },
+        "soul_reaper": {
+            "label": "ソウルリーパー",
+            "order": 640,
+            "group": "taekwon",
+            "tiers": [
+                "advanced_special_first"
+            ]
+        },
+        "soul_ascetic": {
+            "label": "ソウルアセティック",
+            "order": 650,
+            "group": "taekwon",
+            "tiers": [
+                "advanced_special_second",
+                "expanded_fourth"
+            ]
+        },
+        "ninja": {
+            "label": "忍者",
+            "order": 660,
+            "group": "ninja",
+            "tiers": [
+                "special_first"
+            ]
+        },
+        "kagerou": {
+            "label": "影狼",
+            "order": 670,
+            "group": "ninja",
+            "tiers": [
+                "advanced_special_first"
+            ]
+        },
+        "oboro": {
+            "label": "朧",
+            "order": 680,
+            "group": "ninja",
+            "tiers": [
+                "advanced_special_first"
+            ]
+        },
+        "shinkiro": {
+            "label": "蜃気楼",
+            "order": 690,
+            "group": "ninja",
+            "tiers": [
+                "advanced_special_second",
+                "expanded_fourth"
+            ]
+        },
+        "shiranui": {
+            "label": "不知火",
+            "order": 700,
+            "group": "ninja",
+            "tiers": [
+                "advanced_special_second",
+                "expanded_fourth"
+            ]
+        },
+        "gunslinger": {
+            "label": "ガンスリンガー",
+            "order": 710,
+            "group": "gunslinger",
+            "tiers": [
+                "special_first"
+            ]
+        },
+        "rebellion": {
+            "label": "リベリオン",
+            "order": 720,
+            "group": "gunslinger",
+            "tiers": [
+                "advanced_special_first"
+            ]
+        },
+        "night_watch": {
+            "label": "ナイトウォッチ",
+            "order": 730,
+            "group": "gunslinger",
+            "tiers": [
+                "advanced_special_second",
+                "expanded_fourth"
+            ]
+        },
+        "druid": {
+            "label": "ドルイド",
+            "order": 740,
+            "group": "druid",
+            "tiers": [
+                "special_first"
+            ]
+        },
+        "karnos": {
+            "label": "カルノス",
+            "order": 750,
+            "group": "druid",
+            "tiers": [
+                "advanced_special_first"
+            ]
+        },
+        "aletheia": {
+            "label": "アリテア",
+            "order": 760,
+            "group": "druid",
+            "tiers": [
+                "advanced_special_second",
+                "expanded_fourth"
+            ]
+        },
+        "novice": {
+            "label": "ノービス",
+            "order": 770,
+            "group": "novice",
+            "tiers": []
+        },
+        "super_novice": {
+            "label": "スーパーノービス",
+            "order": 780,
+            "group": "novice",
+            "tiers": [
+                "special_first"
+            ]
+        },
+        "super_novice_limit_break": {
+            "label": "スーパーノービス(限界突破)",
+            "order": 790,
+            "group": "novice",
+            "tiers": [
+                "advanced_special_first"
+            ]
+        },
+        "hyper_novice": {
+            "label": "ハイパーノービス",
+            "order": 800,
+            "group": "novice",
+            "tiers": [
+                "advanced_special_second",
+                "expanded_fourth"
+            ]
+        },
+        "summoner": {
+            "label": "サモナー",
+            "order": 810,
+            "group": "summoner",
+            "tiers": []
+        },
+        "spirit_handler": {
+            "label": "スピリットハンドラー",
+            "order": 820,
+            "group": "summoner",
+            "tiers": [
+                "advanced_special_second",
+                "expanded_fourth"
+            ]
+        }
+    },
+    "tiers": {
+        "first": {
+            "label": "1次職",
+            "order": 10,
+            "jobs": [
+                "swordman",
+                "magician",
+                "archer",
+                "acolyte",
+                "thief",
+                "merchant"
+            ]
+        },
+        "second": {
+            "label": "2次職",
+            "order": 20,
+            "jobs": [
+                "knight",
+                "crusader",
+                "wizard",
+                "sage",
+                "hunter",
+                "bard",
+                "dancer",
+                "priest",
+                "monk",
+                "assassin",
+                "rogue",
+                "blacksmith",
+                "alchemist"
+            ]
+        },
+        "transcendent_second": {
+            "label": "上位2次職",
+            "order": 30,
+            "jobs": [
+                "lord_knight",
+                "paladin",
+                "high_wizard",
+                "professor",
+                "clown",
+                "gypsy",
+                "sniper",
+                "high_priest",
+                "champion",
+                "assassin_cross",
+                "chaser",
+                "whitesmith",
+                "creator"
+            ]
+        },
+        "third": {
+            "label": "3次職",
+            "order": 40,
+            "jobs": [
+                "rune_knight",
+                "royal_guard",
+                "warlock",
+                "sorcerer",
+                "ranger",
+                "minstrel",
+                "wanderer",
+                "arch_bishop",
+                "sura",
+                "guillotine_cross",
+                "shadow_chaser",
+                "mechanic",
+                "genetic"
+            ]
+        },
+        "fourth": {
+            "label": "4次職",
+            "order": 50,
+            "jobs": [
+                "dragon_knight",
+                "imperial_guard",
+                "arch_mage",
+                "elemental_master",
+                "windhawk",
+                "troubadour",
+                "trouvere",
+                "cardinal",
+                "inquisitor",
+                "shadow_cross",
+                "abyss_chaser",
+                "meister",
+                "biolo"
+            ]
+        },
+        "special_first": {
+            "label": "特殊1次職",
+            "order": 60,
+            "jobs": [
+                "taekwon_kid",
+                "ninja",
+                "gunslinger",
+                "druid",
+                "super_novice"
+            ]
+        },
+        "special_second": {
+            "label": "特殊2次職",
+            "order": 70,
+            "jobs": [
+                "star_gladiator",
+                "soul_linker"
+            ]
+        },
+        "advanced_special_first": {
+            "label": "上位特殊1次職",
+            "order": 80,
+            "jobs": [
+                "star_emperor",
+                "soul_reaper",
+                "kagerou",
+                "oboro",
+                "rebellion",
+                "karnos",
+                "super_novice_limit_break"
+            ]
+        },
+        "advanced_special_second": {
+            "label": "上位特殊2次職",
+            "order": 90,
+            "jobs": [
+                "sky_emperor",
+                "soul_ascetic",
+                "shinkiro",
+                "shiranui",
+                "night_watch",
+                "aletheia",
+                "hyper_novice",
+                "spirit_handler"
+            ]
+        },
+        "expanded_fourth": {
+            "label": "拡張4次職",
+            "order": 100,
+            "jobs": [
+                "sky_emperor",
+                "soul_ascetic",
+                "shinkiro",
+                "shiranui",
+                "night_watch",
+                "aletheia",
+                "hyper_novice",
+                "spirit_handler"
+            ]
+        }
+    }
+}

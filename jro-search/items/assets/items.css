@@ -670,7 +670,7 @@
     .slot-cell {
       width: 150px;
       color: #334155;
-      white-space: normal;
+      white-space: pre-line;
     }
 
     .effect-list {

@@ -1,0 +1,314 @@
+{
+    "equipment_groups": {
+        "normal": {
+            "label": "一般装備",
+            "order": 10
+        },
+        "support": {
+            "label": "補助装備",
+            "order": 20
+        }
+    },
+    "support_equipment_types": {
+        "costume": {
+            "label": "[衣装]",
+            "order": 10
+        },
+        "shadow": {
+            "label": "[シャドウ]",
+            "order": 20
+        }
+    },
+    "item_series": {
+        "accessory": {
+            "label": "アクセサリー",
+            "order": 10
+        },
+        "accessory_1": {
+            "label": "アクセサリー(1)",
+            "order": 20
+        },
+        "accessory_2": {
+            "label": "アクセサリー(2)",
+            "order": 30
+        },
+        "armor": {
+            "label": "鎧",
+            "order": 40
+        },
+        "arrow": {
+            "label": "矢",
+            "order": 50
+        },
+        "axe": {
+            "label": "斧",
+            "order": 60
+        },
+        "book": {
+            "label": "本",
+            "order": 70
+        },
+        "bow": {
+            "label": "弓",
+            "order": 80
+        },
+        "bullet": {
+            "label": "弾",
+            "order": 90
+        },
+        "cannonball": {
+            "label": "砲弾",
+            "order": 100
+        },
+        "card": {
+            "label": "カード",
+            "order": 110
+        },
+        "claw": {
+            "label": "爪",
+            "order": 120
+        },
+        "costume": {
+            "label": "衣装",
+            "order": 130
+        },
+        "dagger": {
+            "label": "短剣",
+            "order": 140
+        },
+        "fishing_rod": {
+            "label": "釣り竿",
+            "order": 150
+        },
+        "garment": {
+            "label": "肩にかける物",
+            "order": 160
+        },
+        "gatling_gun": {
+            "label": "ガトリングガン",
+            "order": 170
+        },
+        "grenade_gun": {
+            "label": "グレネードガン",
+            "order": 180
+        },
+        "handgun": {
+            "label": "ハンドガン",
+            "order": 190
+        },
+        "headgear": {
+            "label": "兜",
+            "order": 200
+        },
+        "huuma_shuriken": {
+            "label": "風魔手裏剣",
+            "order": 210
+        },
+        "instrument": {
+            "label": "楽器",
+            "order": 220
+        },
+        "katar": {
+            "label": "カタール",
+            "order": 230
+        },
+        "mace": {
+            "label": "鈍器",
+            "order": 240
+        },
+        "monster_egg": {
+            "label": "モンスターの卵",
+            "order": 250
+        },
+        "one_handed_axe": {
+            "label": "片手斧",
+            "order": 260
+        },
+        "one_handed_spear": {
+            "label": "片手槍",
+            "order": 270
+        },
+        "one_handed_staff": {
+            "label": "片手杖",
+            "order": 280
+        },
+        "one_handed_sword": {
+            "label": "片手剣",
+            "order": 290
+        },
+        "rifle": {
+            "label": "ライフル",
+            "order": 300
+        },
+        "shadow": {
+            "label": "シャドウ",
+            "order": 310
+        },
+        "shield": {
+            "label": "盾",
+            "order": 320
+        },
+        "shoes": {
+            "label": "靴",
+            "order": 330
+        },
+        "shotgun": {
+            "label": "ショットガン",
+            "order": 340
+        },
+        "shuriken": {
+            "label": "手裏剣",
+            "order": 350
+        },
+        "spear": {
+            "label": "槍",
+            "order": 360
+        },
+        "staff": {
+            "label": "杖",
+            "order": 370
+        },
+        "sword": {
+            "label": "剣",
+            "order": 380
+        },
+        "taming_item": {
+            "label": "テイミングアイテム",
+            "order": 390
+        },
+        "throwing": {
+            "label": "投擲",
+            "order": 400
+        },
+        "two_handed_axe": {
+            "label": "両手斧",
+            "order": 410
+        },
+        "two_handed_spear": {
+            "label": "両手槍",
+            "order": 420
+        },
+        "two_handed_staff": {
+            "label": "両手杖",
+            "order": 430
+        },
+        "two_handed_sword": {
+            "label": "両手剣",
+            "order": 440
+        },
+        "whip": {
+            "label": "鞭",
+            "order": 450
+        }
+    },
+    "item_kinds": {
+        "pet_equipment": {
+            "label": "キューペット装備",
+            "order": 10
+        },
+        "taming_item": {
+            "label": "テイミングアイテム",
+            "order": 20
+        },
+        "monster_egg": {
+            "label": "モンスターの卵",
+            "order": 30
+        },
+        "weapon": {
+            "label": "武器",
+            "order": 40
+        }
+    },
+    "card_attachable_equipment": {
+        "all_positions": {
+            "label": "全ての部位",
+            "order": 10
+        },
+        "headgear": {
+            "label": "兜",
+            "order": 20
+        },
+        "middle": {
+            "label": "兜(中段)",
+            "order": 30
+        },
+        "armor": {
+            "label": "鎧",
+            "order": 40
+        },
+        "weapon": {
+            "label": "武器",
+            "order": 50
+        },
+        "shield": {
+            "label": "盾",
+            "order": 60
+        },
+        "shoes": {
+            "label": "靴",
+            "order": 70
+        },
+        "garment": {
+            "label": "肩にかける物",
+            "order": 80
+        },
+        "accessory": {
+            "label": "アクセサリー",
+            "order": 90
+        },
+        "accessory_1": {
+            "label": "アクセサリー(1)",
+            "order": 100
+        }
+    },
+    "positions": {
+        "upper": {
+            "label": "上段",
+            "order": 10
+        },
+        "middle": {
+            "label": "中段",
+            "order": 20
+        },
+        "lower": {
+            "label": "下段",
+            "order": 30
+        },
+        "armor": {
+            "label": "鎧",
+            "order": 40
+        },
+        "weapon": {
+            "label": "武器",
+            "order": 50
+        },
+        "shield": {
+            "label": "盾",
+            "order": 60
+        },
+        "shoes": {
+            "label": "靴",
+            "order": 70
+        },
+        "garment": {
+            "label": "肩にかける物",
+            "order": 80
+        },
+        "accessory_1": {
+            "label": "アクセサリー(1)",
+            "order": 90
+        },
+        "accessory_2": {
+            "label": "アクセサリー(2)",
+            "order": 100
+        }
+    },
+    "refine_range": {
+        "min": 0,
+        "max": 10
+    },
+    "transcendence_range": {
+        "min": 0,
+        "max": 4
+    }
+}
