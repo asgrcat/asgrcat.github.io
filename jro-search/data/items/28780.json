@@ -24,10 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "chaser": true,
-                "shadow_chaser": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -81,10 +78,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "chaser": true,
-                "shadow_chaser": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -113,6 +107,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "2c2b37fca0164023d3a336ddde032671875d63d8b83140ec3b75d07b5309610e",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

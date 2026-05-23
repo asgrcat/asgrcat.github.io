@@ -24,11 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "hunter": true,
-                "bard": true,
-                "dancer": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -61,11 +57,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "hunter": true,
-                "bard": true,
-                "dancer": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -110,6 +102,6 @@
         }
     ],
     "source_html_sha256": "b75385bcf4f0c5766ea6312732bbe70b5bc076cc277c763fbf7f7a75ca5609b0",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

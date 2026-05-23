@@ -26,9 +26,7 @@
             "include_groups": {
                 "summoner": true
             },
-            "include_jobs": {
-                "summoner": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -118,9 +116,7 @@
             "include_groups": {
                 "summoner": true
             },
-            "include_jobs": {
-                "summoner": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -149,6 +145,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "d2c5d13e2ac8626dd863ffcb103404155aeeba34a2ac2541ec1f395dc52ee91d",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

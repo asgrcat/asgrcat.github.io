@@ -24,11 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "sage": true,
-                "priest": true,
-                "star_gladiator": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -78,11 +74,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "sage": true,
-                "priest": true,
-                "star_gladiator": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -106,6 +98,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "f21da89b7254434269f46ffab9f19086ed56184c9217826c3ce0e3812257fec1",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

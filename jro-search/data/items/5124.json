@@ -28,9 +28,7 @@
             "exclude_groups": {
                 "novice": true
             },
-            "exclude_jobs": {
-                "novice": true
-            }
+            "exclude_jobs": {}
         },
         "card_attachable_equipment": [],
         "card_attachable_positions": {}
@@ -68,9 +66,7 @@
             "exclude_groups": {
                 "novice": true
             },
-            "exclude_jobs": {
-                "novice": true
-            }
+            "exclude_jobs": {}
         },
         "pet_food": null,
         "material": null,
@@ -138,6 +134,6 @@
         }
     ],
     "source_html_sha256": "f5c7736ddd7852b03be68761ea27cb4791e75fc0ac4b45774089e4bbdcf666e6",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

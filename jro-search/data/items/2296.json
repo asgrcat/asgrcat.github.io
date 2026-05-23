@@ -23,9 +23,7 @@
             "include_groups": {
                 "archer": true
             },
-            "include_jobs": {
-                "archer": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -61,9 +59,7 @@
             "include_groups": {
                 "archer": true
             },
-            "include_jobs": {
-                "archer": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -102,6 +98,6 @@
         }
     ],
     "source_html_sha256": "a9c53065115c71a0abf616ae5a61106177e722ef669fd827dd6bf297369bac57",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

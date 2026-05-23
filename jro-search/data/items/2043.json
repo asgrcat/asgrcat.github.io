@@ -24,9 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "sorcerer": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -83,9 +81,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "sorcerer": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -202,6 +198,6 @@
         }
     ],
     "source_html_sha256": "0f1deac42a8d68cc10b74603753804d2c58b372ada5cfd81be4b69c7f5bcb5d6",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

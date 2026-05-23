@@ -23,12 +23,8 @@
         "is_two_handed_weapon": false,
         "equip_jobs": {
             "all": false,
-            "include_groups": {
-                "acolyte": true
-            },
-            "include_jobs": {
-                "acolyte": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -88,12 +84,8 @@
         "required_level": 165,
         "equip": {
             "all": false,
-            "include_groups": {
-                "acolyte": true
-            },
-            "include_jobs": {
-                "acolyte": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -153,6 +145,6 @@
         }
     ],
     "source_html_sha256": "6e27612c09a250454a43ac2f74b8b15806a1981ba69ee7c7273a8618dead161a",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

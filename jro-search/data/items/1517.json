@@ -29,12 +29,7 @@
                 "merchant": true,
                 "druid": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "acolyte": true,
-                "merchant": true,
-                "druid": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -72,12 +67,7 @@
                 "merchant": true,
                 "druid": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "acolyte": true,
-                "merchant": true,
-                "druid": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -170,6 +160,6 @@
         }
     ],
     "source_html_sha256": "8acf228b732a5fd547143113507b9ae4a89b601931479fb37efed1235e5cf356",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

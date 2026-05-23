@@ -23,12 +23,8 @@
         "is_two_handed_weapon": false,
         "equip_jobs": {
             "all": false,
-            "include_groups": {
-                "merchant": true
-            },
-            "include_jobs": {
-                "merchant": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -81,12 +77,8 @@
         "required_level": 100,
         "equip": {
             "all": false,
-            "include_groups": {
-                "merchant": true
-            },
-            "include_jobs": {
-                "merchant": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -120,6 +112,6 @@
     ],
     "available_maps": [],
     "source_html_sha256": "9aa663c446624fe462395896edb283cb38d6b0720e7afdb09e0abe61abf812ab",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

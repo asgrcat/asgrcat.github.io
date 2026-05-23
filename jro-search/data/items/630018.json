@@ -25,7 +25,6 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "knight": true,
                 "dragon_knight": true
             },
             "exclude_groups": {},
@@ -87,7 +86,6 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "knight": true,
                 "dragon_knight": true
             },
             "exclude_groups": {},
@@ -118,6 +116,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "af84fe821243dbb46300a0c92ea520ad7a4d2a46e6490e1a8fb6a7b4b41a0a31",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

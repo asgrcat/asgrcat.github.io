@@ -23,23 +23,8 @@
         "is_two_handed_weapon": false,
         "equip_jobs": {
             "all": false,
-            "include_groups": {
-                "swordman": true,
-                "magician": true,
-                "archer": true,
-                "thief": true,
-                "merchant": true
-            },
-            "include_jobs": {
-                "swordman": true,
-                "magician": true,
-                "archer": true,
-                "thief": true,
-                "merchant": true,
-                "soul_reaper": true,
-                "kagerou": true,
-                "oboro": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -82,23 +67,8 @@
         "required_level": 130,
         "equip": {
             "all": false,
-            "include_groups": {
-                "swordman": true,
-                "magician": true,
-                "archer": true,
-                "thief": true,
-                "merchant": true
-            },
-            "include_jobs": {
-                "swordman": true,
-                "magician": true,
-                "archer": true,
-                "thief": true,
-                "merchant": true,
-                "soul_reaper": true,
-                "kagerou": true,
-                "oboro": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -123,6 +93,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "2af26fb46110b06441c8d37b917be565b95d77aa147953ee5a9443ff9a8e8477",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

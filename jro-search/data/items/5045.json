@@ -27,11 +27,7 @@
                 "magician": true,
                 "acolyte": true
             },
-            "include_jobs": {
-                "magician": true,
-                "acolyte": true,
-                "soul_linker": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -68,11 +64,7 @@
                 "magician": true,
                 "acolyte": true
             },
-            "include_jobs": {
-                "magician": true,
-                "acolyte": true,
-                "soul_linker": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -191,6 +183,6 @@
         }
     ],
     "source_html_sha256": "e3b56bcc22df0cfeb03cf1b4140df61d46fc8069bd0a4adc7f9e12b4272aa00a",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

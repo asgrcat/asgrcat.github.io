@@ -23,11 +23,7 @@
                 "thief": true,
                 "merchant": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "thief": true,
-                "merchant": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -64,11 +60,7 @@
                 "thief": true,
                 "merchant": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "thief": true,
-                "merchant": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -265,6 +257,6 @@
         }
     ],
     "source_html_sha256": "e3a738442dee43722ebc9d15eb2cb3d3cf5a66224b709caab84228544f3e4131",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

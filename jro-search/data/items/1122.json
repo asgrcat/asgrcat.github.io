@@ -23,11 +23,7 @@
                 "thief": true,
                 "merchant": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "thief": true,
-                "merchant": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -64,11 +60,7 @@
                 "thief": true,
                 "merchant": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "thief": true,
-                "merchant": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -92,6 +84,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "32ac41f13262ea2f1d8565634be8d94927cc803aafe42277bd52d6430fd61738",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

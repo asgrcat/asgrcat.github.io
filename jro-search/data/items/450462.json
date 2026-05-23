@@ -22,15 +22,26 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "knight": true,
                 "sky_emperor": true,
                 "soul_ascetic": true,
                 "shinkiro": true,
                 "shiranui": true,
                 "night_watch": true,
                 "aletheia": true,
-                "novice": true,
-                "hyper_novice": true
+                "hyper_novice": true,
+                "dragon_knight": true,
+                "imperial_guard": true,
+                "arch_mage": true,
+                "elemental_master": true,
+                "windhawk": true,
+                "troubadour": true,
+                "trouvere": true,
+                "cardinal": true,
+                "inquisitor": true,
+                "shadow_cross": true,
+                "abyss_chaser": true,
+                "meister": true,
+                "biolo": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -121,15 +132,26 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "knight": true,
                 "sky_emperor": true,
                 "soul_ascetic": true,
                 "shinkiro": true,
                 "shiranui": true,
                 "night_watch": true,
                 "aletheia": true,
-                "novice": true,
-                "hyper_novice": true
+                "hyper_novice": true,
+                "dragon_knight": true,
+                "imperial_guard": true,
+                "arch_mage": true,
+                "elemental_master": true,
+                "windhawk": true,
+                "troubadour": true,
+                "trouvere": true,
+                "cardinal": true,
+                "inquisitor": true,
+                "shadow_cross": true,
+                "abyss_chaser": true,
+                "meister": true,
+                "biolo": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -159,6 +181,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "626de77cc1fa2dcc162b944b5e93d9bce76774d2d043fdfaab9ed4404b76e7b0",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

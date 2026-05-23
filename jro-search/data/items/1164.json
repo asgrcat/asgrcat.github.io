@@ -26,9 +26,7 @@
             "include_groups": {
                 "swordman": true
             },
-            "include_jobs": {
-                "swordman": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -69,9 +67,7 @@
             "include_groups": {
                 "swordman": true
             },
-            "include_jobs": {
-                "swordman": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -279,6 +275,6 @@
         }
     ],
     "source_html_sha256": "79d0bbf2a26dc467eeba3f0a822759b3ed3ff960c7c72fe606c00e1f51793ac6",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

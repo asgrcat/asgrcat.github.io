@@ -24,11 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "sage": true,
-                "priest": true,
-                "star_gladiator": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -78,11 +74,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "sage": true,
-                "priest": true,
-                "star_gladiator": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -120,6 +112,6 @@
         }
     ],
     "source_html_sha256": "491108fd5eea2072e4b24aec99ffbdb420715563b30966a0c24f8db949cf43b4",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

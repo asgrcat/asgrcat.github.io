@@ -24,10 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "kagerou": true,
-                "oboro": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -86,10 +83,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "kagerou": true,
-                "oboro": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -127,6 +121,6 @@
     ],
     "available_maps": [],
     "source_html_sha256": "0a91f1e6b565160f4b7c07a9d993ba1e996b7d9db8fd21b5b65c265e082eb9b0",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

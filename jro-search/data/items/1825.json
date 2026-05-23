@@ -25,8 +25,7 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "champion": true,
-                "sura": true
+                "champion": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -69,8 +68,7 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "champion": true,
-                "sura": true
+                "champion": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -146,6 +144,6 @@
         }
     ],
     "source_html_sha256": "ae625dc1399d6a5a64c7d8d53dd7f6539413217019b22753591b7f2d76311dc4",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

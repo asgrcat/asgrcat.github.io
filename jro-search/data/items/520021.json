@@ -23,13 +23,8 @@
         "is_two_handed_weapon": false,
         "equip_jobs": {
             "all": false,
-            "include_groups": {
-                "swordman": true,
-                "merchant": true
-            },
+            "include_groups": {},
             "include_jobs": {
-                "swordman": true,
-                "merchant": true,
                 "aletheia": true
             },
             "exclude_groups": {},
@@ -117,13 +112,8 @@
         "required_level": 220,
         "equip": {
             "all": false,
-            "include_groups": {
-                "swordman": true,
-                "merchant": true
-            },
+            "include_groups": {},
             "include_jobs": {
-                "swordman": true,
-                "merchant": true,
                 "aletheia": true
             },
             "exclude_groups": {},
@@ -154,6 +144,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "b8d42e5c4b406d54d11dd61d25b9d600bbf61b66591f8cc53b3d47f9251e05b3",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

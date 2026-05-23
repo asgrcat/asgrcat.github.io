@@ -20,16 +20,8 @@
         "is_two_handed_weapon": false,
         "equip_jobs": {
             "all": false,
-            "include_groups": {
-                "magician": true,
-                "archer": true,
-                "acolyte": true
-            },
-            "include_jobs": {
-                "magician": true,
-                "archer": true,
-                "acolyte": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -90,16 +82,8 @@
         "required_level": 60,
         "equip": {
             "all": false,
-            "include_groups": {
-                "magician": true,
-                "archer": true,
-                "acolyte": true
-            },
-            "include_jobs": {
-                "magician": true,
-                "archer": true,
-                "acolyte": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -173,6 +157,6 @@
         }
     ],
     "source_html_sha256": "ed2679c38bf117030b8824eeb6f3590bd5cb73cc7ff9402b4b1d23f9c431e07d",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

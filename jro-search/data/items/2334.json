@@ -23,10 +23,7 @@
             "include_groups": {
                 "magician": true
             },
-            "include_jobs": {
-                "magician": true,
-                "soul_linker": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -62,10 +59,7 @@
             "include_groups": {
                 "magician": true
             },
-            "include_jobs": {
-                "magician": true,
-                "soul_linker": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -287,6 +281,6 @@
         }
     ],
     "source_html_sha256": "0ba96e4851612ea0a7f65e8286893e0cc1a8c7cf2999120f59f1dc7af361a11f",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

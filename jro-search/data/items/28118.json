@@ -23,15 +23,8 @@
         "is_two_handed_weapon": true,
         "equip_jobs": {
             "all": false,
-            "include_groups": {
-                "swordman": true,
-                "merchant": true
-            },
-            "include_jobs": {
-                "swordman": true,
-                "merchant": true,
-                "karnos": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -87,15 +80,8 @@
         "required_level": 150,
         "equip": {
             "all": false,
-            "include_groups": {
-                "swordman": true,
-                "merchant": true
-            },
-            "include_jobs": {
-                "swordman": true,
-                "merchant": true,
-                "karnos": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -163,6 +149,6 @@
         }
     ],
     "source_html_sha256": "b87da7ffae50034e34d2da2d895a97877168cbd3c68f90bd04ebc9a8a20633ea",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

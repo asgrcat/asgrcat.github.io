@@ -25,8 +25,7 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "gypsy": true,
-                "wanderer": true
+                "gypsy": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -71,8 +70,7 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "gypsy": true,
-                "wanderer": true
+                "gypsy": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -118,6 +116,6 @@
         }
     ],
     "source_html_sha256": "1b78ab41ad31f81cdc9413108dbf4f79beedf1d61646a5786ea1b7a17518de8c",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

@@ -23,12 +23,8 @@
         "is_two_handed_weapon": false,
         "equip_jobs": {
             "all": false,
-            "include_groups": {
-                "acolyte": true
-            },
-            "include_jobs": {
-                "acolyte": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -108,12 +104,8 @@
         "required_level": 200,
         "equip": {
             "all": false,
-            "include_groups": {
-                "acolyte": true
-            },
-            "include_jobs": {
-                "acolyte": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -142,6 +134,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "9b32062ee3468f08af326a9c8969f2b1a8089a92fe10d2ef964aef3c1df6b76d",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

@@ -24,10 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "knight": true,
-                "crusader": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -80,10 +77,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "knight": true,
-                "crusader": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -107,6 +101,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "16db836dd3d14c9c4a40003ce5cf20aa37227b4330bdbdd4c2d2d15adc45ee25",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

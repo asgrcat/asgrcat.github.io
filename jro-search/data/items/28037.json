@@ -24,9 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "guillotine_cross": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -89,9 +87,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "guillotine_cross": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -164,6 +160,6 @@
         }
     ],
     "source_html_sha256": "50a459dd830045e91738865f0b3410e3e5dc8ef838e0113e331cd35cb1b42c20",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

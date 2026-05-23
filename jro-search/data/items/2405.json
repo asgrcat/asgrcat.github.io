@@ -31,13 +31,7 @@
                 "gunslinger": true
             },
             "include_jobs": {
-                "swordman": true,
-                "archer": true,
-                "thief": true,
-                "merchant": true,
-                "taekwon_kid": true,
-                "star_gladiator": true,
-                "gunslinger": true
+                "taekwon_kid": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -78,13 +72,7 @@
                 "gunslinger": true
             },
             "include_jobs": {
-                "swordman": true,
-                "archer": true,
-                "thief": true,
-                "merchant": true,
-                "taekwon_kid": true,
-                "star_gladiator": true,
-                "gunslinger": true
+                "taekwon_kid": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -153,6 +141,6 @@
         }
     ],
     "source_html_sha256": "9a14fb6c592d63afb00460805d8e2339454112c8dfa1832392268de3b48b9d33",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

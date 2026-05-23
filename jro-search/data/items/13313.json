@@ -24,10 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "kagerou": true,
-                "oboro": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -68,10 +65,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "kagerou": true,
-                "oboro": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -95,6 +89,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "4ddd390f57fb875aa7b90e4d3254c9ef8ea672a2ef2ede570fcdf1e91cb1117a",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

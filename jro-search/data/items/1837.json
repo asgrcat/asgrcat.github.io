@@ -24,10 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "priest": true,
-                "monk": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -76,10 +73,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "priest": true,
-                "monk": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -103,6 +97,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "cd52a23acbc71f9e818d5ff009fa306198fe63033c1d20b9d814d63a366232eb",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

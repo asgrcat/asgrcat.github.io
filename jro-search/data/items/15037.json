@@ -21,10 +21,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "knight": true,
-                "rune_knight": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -104,10 +101,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "knight": true,
-                "rune_knight": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -241,6 +235,6 @@
         }
     ],
     "source_html_sha256": "6b1ce5fab8d0f547ea5dc77261f177387302d7ce0c17f979d052b2eb2f2cb85f",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

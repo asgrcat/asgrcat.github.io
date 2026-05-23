@@ -26,13 +26,7 @@
                 "acolyte": true,
                 "merchant": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "magician": true,
-                "acolyte": true,
-                "merchant": true,
-                "soul_linker": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -71,13 +65,7 @@
                 "acolyte": true,
                 "merchant": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "magician": true,
-                "acolyte": true,
-                "merchant": true,
-                "soul_linker": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -99,6 +87,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "37469e76cef2fe75e88aa5d04a13fa1540fa3bca02c1c92f7b4519b4a076cc4a",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

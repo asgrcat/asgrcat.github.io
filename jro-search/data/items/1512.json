@@ -29,12 +29,7 @@
                 "merchant": true,
                 "druid": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "acolyte": true,
-                "merchant": true,
-                "druid": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -72,12 +67,7 @@
                 "merchant": true,
                 "druid": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "acolyte": true,
-                "merchant": true,
-                "druid": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -101,6 +91,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "84d545ad6b2bb34fd5492f218121328d9eceb8b3269c23d368d469c7e829db15",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

@@ -33,17 +33,7 @@
                 "druid": true,
                 "novice": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "magician": true,
-                "archer": true,
-                "thief": true,
-                "merchant": true,
-                "soul_linker": true,
-                "ninja": true,
-                "druid": true,
-                "novice": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -85,17 +75,7 @@
                 "druid": true,
                 "novice": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "magician": true,
-                "archer": true,
-                "thief": true,
-                "merchant": true,
-                "soul_linker": true,
-                "ninja": true,
-                "druid": true,
-                "novice": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -119,6 +99,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "0dbafffcaa433e5faebd387adbd175077de031a0d5287130fe6e2b1af9337890",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

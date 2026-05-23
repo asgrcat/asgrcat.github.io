@@ -31,15 +31,7 @@
                 "merchant": true,
                 "ninja": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "magician": true,
-                "archer": true,
-                "thief": true,
-                "merchant": true,
-                "soul_linker": true,
-                "ninja": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -81,15 +73,7 @@
                 "merchant": true,
                 "ninja": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "magician": true,
-                "archer": true,
-                "thief": true,
-                "merchant": true,
-                "soul_linker": true,
-                "ninja": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -208,6 +192,6 @@
         }
     ],
     "source_html_sha256": "444d949d9fa999a5a05b6bafb8cc8ba99163f4ae3e48719462d22f68c421f621",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

@@ -27,9 +27,7 @@
                 "archer": true
             },
             "include_jobs": {
-                "archer": true,
-                "thief": true,
-                "rogue": true
+                "thief": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -66,9 +64,7 @@
                 "archer": true
             },
             "include_jobs": {
-                "archer": true,
-                "thief": true,
-                "rogue": true
+                "thief": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -267,6 +263,6 @@
         }
     ],
     "source_html_sha256": "f2feb91a464913a0fba95f8504ca6e48243df8d1d51572e578368fd900f65529",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

@@ -24,9 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "rebellion": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -77,9 +75,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "rebellion": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -169,6 +165,6 @@
         }
     ],
     "source_html_sha256": "4d6c03d1b6ef3487d7a1da0f0a75a81fecbb740a4ef9a5a744a9b001c090872d",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

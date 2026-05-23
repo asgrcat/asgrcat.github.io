@@ -29,12 +29,7 @@
                 "merchant": true,
                 "novice": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "thief": true,
-                "merchant": true,
-                "novice": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -80,12 +75,7 @@
                 "merchant": true,
                 "novice": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "thief": true,
-                "merchant": true,
-                "novice": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -150,6 +140,6 @@
         }
     ],
     "source_html_sha256": "d5a2906349f9b892b411786022bc731cfdc7355f5144842dd9a33aad603228c2",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

@@ -24,10 +24,7 @@
                 "acolyte": true,
                 "merchant": true
             },
-            "include_jobs": {
-                "acolyte": true,
-                "merchant": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -64,10 +61,7 @@
                 "acolyte": true,
                 "merchant": true
             },
-            "include_jobs": {
-                "acolyte": true,
-                "merchant": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -237,6 +231,6 @@
         }
     ],
     "source_html_sha256": "584465199d4cb1044c280c9c6e88311d001de466c7742e049c19e046bd3bc523",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

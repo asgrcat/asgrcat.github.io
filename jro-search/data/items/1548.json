@@ -26,9 +26,7 @@
             "include_groups": {
                 "acolyte": true
             },
-            "include_jobs": {
-                "acolyte": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -122,9 +120,7 @@
             "include_groups": {
                 "acolyte": true
             },
-            "include_jobs": {
-                "acolyte": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -224,6 +220,6 @@
         }
     ],
     "source_html_sha256": "cb9ea6f13efaa17d07b48691d9384be7746e83312398aadaa50cc5663b543d5f",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

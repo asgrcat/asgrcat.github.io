@@ -23,12 +23,8 @@
         "is_two_handed_weapon": true,
         "equip_jobs": {
             "all": false,
-            "include_groups": {
-                "swordman": true
-            },
-            "include_jobs": {
-                "swordman": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -87,12 +83,8 @@
         "required_level": 150,
         "equip": {
             "all": false,
-            "include_groups": {
-                "swordman": true
-            },
-            "include_jobs": {
-                "swordman": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -142,6 +134,6 @@
         }
     ],
     "source_html_sha256": "8507090c67ae87103778be442bed7c5bbd93bc00fa3aa7aefb1b2a5b339e22c7",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

@@ -30,12 +30,7 @@
                 "merchant": true
             },
             "include_jobs": {
-                "swordman": true,
-                "acolyte": true,
-                "thief": true,
-                "merchant": true,
-                "taekwon_kid": true,
-                "star_gladiator": true
+                "taekwon_kid": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -75,12 +70,7 @@
                 "merchant": true
             },
             "include_jobs": {
-                "swordman": true,
-                "acolyte": true,
-                "thief": true,
-                "merchant": true,
-                "taekwon_kid": true,
-                "star_gladiator": true
+                "taekwon_kid": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -105,6 +95,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "aa8663a16a379ac74a0633c1f5199ba7c17455e8c4fe88a74cd7d3fc11332f95",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

@@ -23,13 +23,8 @@
         "is_two_handed_weapon": false,
         "equip_jobs": {
             "all": false,
-            "include_groups": {
-                "magician": true,
-                "acolyte": true
-            },
+            "include_groups": {},
             "include_jobs": {
-                "magician": true,
-                "acolyte": true,
                 "soul_ascetic": true
             },
             "exclude_groups": {},
@@ -106,13 +101,8 @@
         "required_level": 200,
         "equip": {
             "all": false,
-            "include_groups": {
-                "magician": true,
-                "acolyte": true
-            },
+            "include_groups": {},
             "include_jobs": {
-                "magician": true,
-                "acolyte": true,
                 "soul_ascetic": true
             },
             "exclude_groups": {},
@@ -143,6 +133,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "57cbb1221d639de90eba44733f047f5c38acedbb00666295fa0ddf9d7ced6e2e",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

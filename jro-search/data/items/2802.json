@@ -22,9 +22,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "mechanic": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -63,9 +61,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "mechanic": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -88,6 +84,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "15c38a14b77b9503a6676790aef332ee1cf4ff0fd59b9f5558098d049d808683",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

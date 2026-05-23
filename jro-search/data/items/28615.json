@@ -24,11 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "sorcerer": true,
-                "arch_bishop": true,
-                "star_emperor": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -88,11 +84,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "sorcerer": true,
-                "arch_bishop": true,
-                "star_emperor": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -121,6 +113,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "1efdaa85c810da1e5949866a3b07d0f576cb931589bce5f7f8a0f862887f9665",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

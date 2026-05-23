@@ -25,9 +25,7 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "assassin": true,
-                "assassin_cross": true,
-                "guillotine_cross": true
+                "assassin_cross": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -71,9 +69,7 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "assassin": true,
-                "assassin_cross": true,
-                "guillotine_cross": true
+                "assassin_cross": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -99,6 +95,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "6f54ac9382ab6baff8754849d48465e9c2b64336a4c7bb992ee4479ed069bbaf",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

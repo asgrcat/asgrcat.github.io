@@ -26,13 +26,7 @@
                 "acolyte": true,
                 "merchant": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "magician": true,
-                "acolyte": true,
-                "merchant": true,
-                "soul_linker": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -71,13 +65,7 @@
                 "acolyte": true,
                 "merchant": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "magician": true,
-                "acolyte": true,
-                "merchant": true,
-                "soul_linker": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -221,6 +209,6 @@
         }
     ],
     "source_html_sha256": "2b8593a8fbc5612c2e42c354945bb70ecf562e23072bf05ba3d6771463d4d19a",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

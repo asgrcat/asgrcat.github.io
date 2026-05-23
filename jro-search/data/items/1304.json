@@ -29,13 +29,7 @@
                 "druid": true,
                 "novice": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "assassin": true,
-                "merchant": true,
-                "druid": true,
-                "novice": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -88,13 +82,7 @@
                 "druid": true,
                 "novice": true
             },
-            "include_jobs": {
-                "swordman": true,
-                "assassin": true,
-                "merchant": true,
-                "druid": true,
-                "novice": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -226,6 +214,6 @@
         }
     ],
     "source_html_sha256": "572fa6d18e43e6175228d08e4c8e81c6a724e445146939258430cdaec06eaf93",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

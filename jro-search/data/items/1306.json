@@ -24,10 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "blacksmith": true,
-                "alchemist": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -66,10 +63,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "blacksmith": true,
-                "alchemist": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -296,6 +290,6 @@
         }
     ],
     "source_html_sha256": "49fe1af7be96b35f05fba741642b5ea98e8d7fa3642f382ab59b10eabe3e0c5b",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

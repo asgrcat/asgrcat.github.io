@@ -23,14 +23,8 @@
         "is_two_handed_weapon": false,
         "equip_jobs": {
             "all": false,
-            "include_groups": {
-                "archer": true
-            },
-            "include_jobs": {
-                "archer": true,
-                "chaser": true,
-                "shadow_chaser": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -99,14 +93,8 @@
         "required_level": 100,
         "equip": {
             "all": false,
-            "include_groups": {
-                "archer": true
-            },
-            "include_jobs": {
-                "archer": true,
-                "chaser": true,
-                "shadow_chaser": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -135,6 +123,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "59f279f1586aeae08315e2d489c706318fc3e24df2415dd7b8f682c6882905ea",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

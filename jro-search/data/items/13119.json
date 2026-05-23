@@ -26,9 +26,7 @@
             "include_groups": {
                 "gunslinger": true
             },
-            "include_jobs": {
-                "gunslinger": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -71,9 +69,7 @@
             "include_groups": {
                 "gunslinger": true
             },
-            "include_jobs": {
-                "gunslinger": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -97,6 +93,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "af29142a28a2e8999725b68b3f9b1ab71a7d5afe7466c6a940547ff8d1de1fdf",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

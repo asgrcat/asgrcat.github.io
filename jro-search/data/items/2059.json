@@ -23,13 +23,8 @@
         "is_two_handed_weapon": true,
         "equip_jobs": {
             "all": false,
-            "include_groups": {
-                "magician": true
-            },
-            "include_jobs": {
-                "magician": true,
-                "soul_reaper": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -89,13 +84,8 @@
         "required_level": 150,
         "equip": {
             "all": false,
-            "include_groups": {
-                "magician": true
-            },
-            "include_jobs": {
-                "magician": true,
-                "soul_reaper": true
-            },
+            "include_groups": {},
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -175,6 +165,6 @@
         }
     ],
     "source_html_sha256": "d89899d4d7c8852ee40c874ca95c3555a47fd8e1352f2794cfb632cb8524dcfc",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

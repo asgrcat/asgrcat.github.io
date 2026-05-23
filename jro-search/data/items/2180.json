@@ -28,12 +28,7 @@
                 "acolyte": true,
                 "novice": true
             },
-            "include_jobs": {
-                "magician": true,
-                "acolyte": true,
-                "soul_linker": true,
-                "novice": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -79,12 +74,7 @@
                 "acolyte": true,
                 "novice": true
             },
-            "include_jobs": {
-                "magician": true,
-                "acolyte": true,
-                "soul_linker": true,
-                "novice": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -107,6 +97,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "a3676388369bc88d822e922bd8fa4cd0292c8bdeb35ecda4d5556a4a6f7edd5c",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

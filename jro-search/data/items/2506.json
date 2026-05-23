@@ -26,11 +26,7 @@
                 "merchant": true
             },
             "include_jobs": {
-                "swordman": true,
-                "thief": true,
-                "merchant": true,
-                "taekwon_kid": true,
-                "star_gladiator": true
+                "taekwon_kid": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -69,11 +65,7 @@
                 "merchant": true
             },
             "include_jobs": {
-                "swordman": true,
-                "thief": true,
-                "merchant": true,
-                "taekwon_kid": true,
-                "star_gladiator": true
+                "taekwon_kid": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -529,6 +521,6 @@
         }
     ],
     "source_html_sha256": "3f6754b2dd7ce2ad4dc6f4f0d30b6eb780207efb45d5569e73d376487b89e6c5",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

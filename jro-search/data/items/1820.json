@@ -24,10 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "priest": true,
-                "monk": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -70,10 +67,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "priest": true,
-                "monk": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -133,6 +127,6 @@
         }
     ],
     "source_html_sha256": "085f1c4daf1ff39b8b81e97b667120fc0773b4cff65589dc3e0f5d955ec32f38",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

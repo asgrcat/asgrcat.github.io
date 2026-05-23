@@ -25,7 +25,6 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "novice": true,
                 "hyper_novice": true
             },
             "exclude_groups": {},
@@ -128,7 +127,6 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "novice": true,
                 "hyper_novice": true
             },
             "exclude_groups": {},
@@ -159,6 +157,6 @@
     "drop_monsters": [],
     "available_maps": [],
     "source_html_sha256": "3a988439e405516d6b43251a35a4f89d87855a39300a7763f72284b64dce374a",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

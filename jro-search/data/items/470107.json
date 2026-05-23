@@ -24,7 +24,29 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {},
+            "include_jobs": {
+                "dragon_knight": true,
+                "imperial_guard": true,
+                "arch_mage": true,
+                "elemental_master": true,
+                "windhawk": true,
+                "troubadour": true,
+                "trouvere": true,
+                "cardinal": true,
+                "inquisitor": true,
+                "shadow_cross": true,
+                "abyss_chaser": true,
+                "meister": true,
+                "biolo": true,
+                "sky_emperor": true,
+                "soul_ascetic": true,
+                "shinkiro": true,
+                "shiranui": true,
+                "night_watch": true,
+                "aletheia": true,
+                "hyper_novice": true,
+                "spirit_handler": true
+            },
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -60,7 +82,29 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {},
+            "include_jobs": {
+                "dragon_knight": true,
+                "imperial_guard": true,
+                "arch_mage": true,
+                "elemental_master": true,
+                "windhawk": true,
+                "troubadour": true,
+                "trouvere": true,
+                "cardinal": true,
+                "inquisitor": true,
+                "shadow_cross": true,
+                "abyss_chaser": true,
+                "meister": true,
+                "biolo": true,
+                "sky_emperor": true,
+                "soul_ascetic": true,
+                "shinkiro": true,
+                "shiranui": true,
+                "night_watch": true,
+                "aletheia": true,
+                "hyper_novice": true,
+                "spirit_handler": true
+            },
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -135,6 +179,6 @@
         }
     ],
     "source_html_sha256": "dfe9da364c4a5f75371833388d2cb2d0263b7e4227ea3c2e93023d889c57168d",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

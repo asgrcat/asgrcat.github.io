@@ -25,7 +25,6 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "knight": true,
                 "night_watch": true
             },
             "exclude_groups": {},
@@ -92,7 +91,6 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "knight": true,
                 "night_watch": true
             },
             "exclude_groups": {},
@@ -172,6 +170,6 @@
         }
     ],
     "source_html_sha256": "3cb88c226359ae4fa2eb94be61b9c6635d5319a98b0c6db7295a58b2ef93876c",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

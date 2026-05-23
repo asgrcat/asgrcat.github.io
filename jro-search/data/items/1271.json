@@ -25,9 +25,7 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "assassin": true,
-                "assassin_cross": true,
-                "guillotine_cross": true
+                "assassin_cross": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -71,9 +69,7 @@
             "all": false,
             "include_groups": {},
             "include_jobs": {
-                "assassin": true,
-                "assassin_cross": true,
-                "guillotine_cross": true
+                "assassin_cross": true
             },
             "exclude_groups": {},
             "exclude_jobs": {}
@@ -173,6 +169,6 @@
         }
     ],
     "source_html_sha256": "78a5fa88a7ffe7ec6913443f0bef11e8f7afe1b5c77ea2bf44206fda2d30f46a",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

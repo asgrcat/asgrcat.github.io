@@ -22,11 +22,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "wizard": true,
-                "sage": true,
-                "soul_linker": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -67,11 +63,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "wizard": true,
-                "sage": true,
-                "soul_linker": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -135,6 +127,6 @@
         }
     ],
     "source_html_sha256": "97324016b108412e31e78476e230f72f3fe44e8f3c18992698d68c58cd400ddd",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

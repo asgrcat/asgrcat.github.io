@@ -24,11 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "sorcerer": true,
-                "arch_bishop": true,
-                "star_emperor": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -87,11 +83,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "sorcerer": true,
-                "arch_bishop": true,
-                "star_emperor": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -356,6 +348,6 @@
         }
     ],
     "source_html_sha256": "3e25b1b9d6cfd3c634ab3cc2ac14dabcd056e90ce54fad23915859addd1f3039",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }

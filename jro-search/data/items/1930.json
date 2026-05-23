@@ -24,9 +24,7 @@
         "equip_jobs": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "minstrel": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -69,9 +67,7 @@
         "equip": {
             "all": false,
             "include_groups": {},
-            "include_jobs": {
-                "minstrel": true
-            },
+            "include_jobs": {},
             "exclude_groups": {},
             "exclude_jobs": {}
         },
@@ -338,6 +334,6 @@
         }
     ],
     "source_html_sha256": "d2c866f92c1f310e098703aa5f31425a97adbf9c38c5e38fa5bcbe312570ea7d",
-    "fetched_at": "2026-05-23T11:46:27+00:00",
-    "parsed_at": "2026-05-23T11:46:27+00:00"
+    "fetched_at": "2026-05-23T12:05:40+00:00",
+    "parsed_at": "2026-05-23T12:05:40+00:00"
 }
