@@ -1,0 +1,818 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JRO Search - アイテム検索</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fa;
+      --surface: #ffffff;
+      --surface-muted: #f8fafc;
+      --border: #d9e1ea;
+      --border-strong: #aebdcc;
+      --text: #1f2933;
+      --muted: #64748b;
+      --primary: #006d77;
+      --primary-strong: #00535c;
+      --primary-soft: #e4f4f2;
+      --accent: #8a5a00;
+      --focus: #0ea5a4;
+      --shadow: 0 12px 30px rgba(31, 41, 51, 0.08);
+      font-family: Inter, "BIZ UDPGothic", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", Meiryo, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-width: 320px;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    button:focus-visible,
+    input:focus-visible,
+    select:focus-visible,
+    a:focus-visible {
+      outline: 3px solid rgba(14, 165, 164, 0.28);
+      outline-offset: 2px;
+    }
+
+    .app-shell {
+      display: grid;
+      grid-template-columns: 224px minmax(0, 1fr);
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding: 18px 14px;
+      border-right: 1px solid var(--border);
+      background: #eef3f7;
+    }
+
+    .brand {
+      padding: 4px 8px 14px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand-title {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .brand-subtitle {
+      margin: 2px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .nav-section-title {
+      margin: 0 8px 6px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .nav-list {
+      display: grid;
+      gap: 4px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .nav-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 38px;
+      padding: 8px 10px;
+      border-radius: 8px;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .nav-link[aria-current="page"] {
+      background: var(--primary);
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    .nav-link[aria-disabled="true"] {
+      color: #94a3b8;
+      pointer-events: none;
+    }
+
+    .nav-badge {
+      border-radius: 999px;
+      padding: 1px 7px;
+      background: rgba(100, 116, 139, 0.12);
+      color: inherit;
+      font-size: 11px;
+    }
+
+    .sidebar-footer {
+      margin-top: auto;
+      padding: 12px 8px 4px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .workspace {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      min-width: 0;
+    }
+
+    .app-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      min-height: 58px;
+      padding: 12px 20px;
+      border-bottom: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.86);
+      backdrop-filter: blur(10px);
+    }
+
+    .page-title {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .header-meta {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .header-pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 2px 9px;
+      background: var(--surface);
+      white-space: nowrap;
+    }
+
+    .main-grid {
+      display: grid;
+      grid-template-columns: minmax(520px, 46%) minmax(0, 1fr);
+      gap: 14px;
+      min-height: 0;
+      padding: 14px;
+    }
+
+    .search-pane,
+    .preview-pane {
+      min-width: 0;
+      min-height: 0;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .search-pane {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      overflow: hidden;
+    }
+
+    .search-controls {
+      display: grid;
+      gap: 12px;
+      padding: 14px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .field-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 132px;
+      gap: 10px;
+    }
+
+    .text-field,
+    .select-field {
+      width: 100%;
+      min-height: 38px;
+      border: 1px solid var(--border-strong);
+      border-radius: 7px;
+      padding: 8px 10px;
+      background: #ffffff;
+      color: var(--text);
+    }
+
+    .text-field::placeholder {
+      color: #94a3b8;
+    }
+
+    .action-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      min-height: 34px;
+      border: 1px solid var(--border-strong);
+      border-radius: 7px;
+      padding: 7px 11px;
+      background: #ffffff;
+      color: var(--text);
+      font-weight: 650;
+      white-space: nowrap;
+    }
+
+    .button-primary {
+      border-color: var(--primary);
+      background: var(--primary);
+      color: #ffffff;
+    }
+
+    .button-primary:hover {
+      background: var(--primary-strong);
+    }
+
+    .button-subtle {
+      background: var(--surface-muted);
+    }
+
+    .filter-group {
+      display: grid;
+      gap: 6px;
+    }
+
+    .filter-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      max-height: 88px;
+      overflow: auto;
+      padding-right: 2px;
+    }
+
+    .chip {
+      min-height: 28px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 4px 9px;
+      background: #ffffff;
+      color: var(--text);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .chip[aria-pressed="true"] {
+      border-color: var(--primary);
+      background: var(--primary-soft);
+      color: var(--primary-strong);
+      font-weight: 700;
+    }
+
+    .results-area {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      min-height: 0;
+    }
+
+    .results-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      min-height: 42px;
+      padding: 8px 14px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface-muted);
+    }
+
+    .result-count {
+      font-weight: 700;
+    }
+
+    .sort-select {
+      width: 150px;
+      min-height: 30px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 4px 8px;
+      background: #ffffff;
+      color: var(--text);
+      font-size: 12px;
+    }
+
+    .result-list {
+      min-height: 0;
+      margin: 0;
+      padding: 0;
+      overflow: auto;
+      list-style: none;
+    }
+
+    .result-item {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .result-button {
+      display: grid;
+      grid-template-columns: 42px minmax(0, 1fr);
+      gap: 10px;
+      width: 100%;
+      border: 0;
+      padding: 11px 14px;
+      background: #ffffff;
+      color: inherit;
+      text-align: left;
+    }
+
+    .result-button:hover,
+    .result-button.is-active {
+      background: var(--primary-soft);
+    }
+
+    .item-icon {
+      display: grid;
+      place-items: center;
+      width: 36px;
+      height: 36px;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      background: linear-gradient(135deg, #ffffff 0%, #eef7f6 100%);
+      color: var(--primary);
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .result-main {
+      min-width: 0;
+    }
+
+    .result-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .result-title {
+      overflow: hidden;
+      font-weight: 700;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .item-id {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .result-summary {
+      display: -webkit-box;
+      margin-top: 3px;
+      overflow: hidden;
+      color: var(--muted);
+      font-size: 12px;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 7px;
+    }
+
+    .tag {
+      border-radius: 999px;
+      padding: 2px 7px;
+      background: #edf2f7;
+      color: #475569;
+      font-size: 11px;
+    }
+
+    .preview-pane {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      overflow: hidden;
+    }
+
+    .preview-header {
+      display: grid;
+      gap: 8px;
+      padding: 13px 14px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .preview-title-row {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .preview-title {
+      min-width: 0;
+      margin: 0;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .preview-url {
+      overflow: hidden;
+      color: var(--muted);
+      font-size: 12px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .preview-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .iframe-wrap {
+      position: relative;
+      min-height: 0;
+      background: #eef3f7;
+    }
+
+    .official-frame {
+      width: 100%;
+      height: 100%;
+      min-height: 520px;
+      border: 0;
+      background: #ffffff;
+    }
+
+    .frame-note {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      max-width: 360px;
+      border: 1px solid rgba(100, 116, 139, 0.32);
+      border-radius: 7px;
+      padding: 7px 9px;
+      background: rgba(255, 255, 255, 0.92);
+      color: var(--muted);
+      font-size: 11px;
+      box-shadow: 0 8px 22px rgba(31, 41, 51, 0.12);
+    }
+
+    @media (max-width: 1180px) {
+      .main-grid {
+        grid-template-columns: minmax(430px, 48%) minmax(0, 1fr);
+      }
+    }
+
+    @media (max-width: 960px) {
+      .app-shell {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        flex-direction: row;
+        align-items: center;
+        overflow-x: auto;
+        border-right: 0;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .brand {
+        min-width: 174px;
+        border-bottom: 0;
+        padding-bottom: 4px;
+      }
+
+      .nav-section-title,
+      .sidebar-footer {
+        display: none;
+      }
+
+      .nav-list {
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+      }
+
+      .main-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .official-frame {
+        height: 620px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .app-header {
+        align-items: start;
+        flex-direction: column;
+      }
+
+      .header-meta {
+        justify-content: flex-start;
+      }
+
+      .main-grid {
+        padding: 8px;
+      }
+
+      .field-row {
+        grid-template-columns: 1fr;
+      }
+
+      .preview-title-row {
+        align-items: stretch;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="メインナビゲーション">
+      <div class="brand">
+        <p class="brand-title">JRO Search</p>
+        <p class="brand-subtitle">アイテム検索モック</p>
+      </div>
+
+      <nav aria-label="検索カテゴリ">
+        <p class="nav-section-title">Search</p>
+        <ul class="nav-list">
+          <li><a class="nav-link" href="./" aria-current="page">アイテム検索<span class="nav-badge">mock</span></a></li>
+          <li><a class="nav-link" href="../monsters/" aria-disabled="true">モンスター検索<span class="nav-badge">準備中</span></a></li>
+          <li><a class="nav-link" href="../maps/" aria-disabled="true">マップ検索<span class="nav-badge">準備中</span></a></li>
+          <li><a class="nav-link" href="#saved-searches">保存済み検索</a></li>
+        </ul>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div>Public path</div>
+        <strong>/jro-search/items/</strong>
+      </div>
+    </aside>
+
+    <div class="workspace">
+      <header class="app-header">
+        <h1 class="page-title">アイテム検索</h1>
+        <div class="header-meta" aria-label="データ状態">
+          <span class="header-pill">最終更新: 2026-05-23</span>
+          <span class="header-pill">検索 index: mock</span>
+        </div>
+      </header>
+
+      <main class="main-grid">
+        <section class="search-pane" aria-label="検索フォームと検索結果">
+          <div class="search-controls">
+            <div class="field-row">
+              <input class="text-field" type="search" value="ブレッシング" aria-label="キーワード" placeholder="アイテム名、説明、読み、エンチャント名">
+              <select class="select-field" aria-label="検索対象">
+                <option>すべて</option>
+                <option>アイテム名</option>
+                <option>説明</option>
+                <option>エンチャント情報</option>
+              </select>
+            </div>
+
+            <div class="action-row" aria-label="検索操作">
+              <button class="button button-primary" type="button">検索</button>
+              <button class="button button-subtle" type="button">リセット</button>
+              <button class="button" type="button">URLコピー</button>
+              <button class="button" type="button">検索条件を保存</button>
+            </div>
+
+            <div class="filter-group">
+              <div class="filter-heading">
+                <span>主要フィルタ</span>
+                <span>AND 条件</span>
+              </div>
+              <div class="chip-row" aria-label="主要フィルタ">
+                <button class="chip" type="button" aria-pressed="true">アクセサリー</button>
+                <button class="chip" type="button" aria-pressed="false">カード</button>
+                <button class="chip" type="button" aria-pressed="true">エンチャント</button>
+                <button class="chip" type="button" aria-pressed="false">武器</button>
+                <button class="chip" type="button" aria-pressed="false">盾</button>
+                <button class="chip" type="button" aria-pressed="false">靴</button>
+                <button class="chip" type="button" aria-pressed="false">破壊不可</button>
+                <button class="chip" type="button" aria-pressed="false">ノックバック無効</button>
+              </div>
+            </div>
+
+            <div class="filter-group">
+              <div class="filter-heading">
+                <span>装備位置</span>
+                <span>グループ内 OR</span>
+              </div>
+              <div class="chip-row" aria-label="装備位置">
+                <button class="chip" type="button" aria-pressed="false">上段</button>
+                <button class="chip" type="button" aria-pressed="false">中段</button>
+                <button class="chip" type="button" aria-pressed="false">下段</button>
+                <button class="chip" type="button" aria-pressed="false">鎧</button>
+                <button class="chip" type="button" aria-pressed="false">武器</button>
+                <button class="chip" type="button" aria-pressed="false">盾</button>
+                <button class="chip" type="button" aria-pressed="false">靴</button>
+                <button class="chip" type="button" aria-pressed="false">肩にかける物</button>
+                <button class="chip" type="button" aria-pressed="true">アクセサリー(1)</button>
+                <button class="chip" type="button" aria-pressed="true">アクセサリー(2)</button>
+              </div>
+            </div>
+
+            <div class="filter-group">
+              <div class="filter-heading">
+                <span>エンチャント種別</span>
+                <span>複数選択</span>
+              </div>
+              <div class="chip-row" aria-label="エンチャント種別">
+                <button class="chip" type="button" aria-pressed="true">スペシャル</button>
+                <button class="chip" type="button" aria-pressed="false">星座の印章</button>
+                <button class="chip" type="button" aria-pressed="false">ファロス</button>
+                <button class="chip" type="button" aria-pressed="false">イルシオン</button>
+                <button class="chip" type="button" aria-pressed="false">オートマティック</button>
+                <button class="chip" type="button" aria-pressed="false">生命の殿堂</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="results-area">
+            <div class="results-toolbar">
+              <div><span class="result-count">8件</span> の候補</div>
+              <select class="sort-select" aria-label="並び順">
+                <option>関連度順</option>
+                <option>アイテムID順</option>
+                <option>名前順</option>
+              </select>
+            </div>
+
+            <ul class="result-list" aria-label="検索結果">
+              <li class="result-item">
+                <button class="result-button is-active" type="button" data-name="ブレッシングオブイグドラシル[0]" data-url="https://rotool.gungho.jp/item/490337/">
+                  <span class="item-icon">装</span>
+                  <span class="result-main">
+                    <span class="result-title-row">
+                      <span class="result-title">ブレッシングオブイグドラシル[0]</span>
+                      <span class="item-id">490337</span>
+                    </span>
+                    <span class="result-summary">アクセサリー。スペシャルエンチャント候補あり。検索結果選択時に公式ページを右側へ表示。</span>
+                    <span class="tag-row"><span class="tag">アクセサリー</span><span class="tag">エンチャント可</span><span class="tag">[0]</span></span>
+                  </span>
+                </button>
+              </li>
+              <li class="result-item">
+                <button class="result-button" type="button" data-name="星座の印章[1]" data-url="https://rotool.gungho.jp/item/490137/">
+                  <span class="item-icon">装</span>
+                  <span class="result-main">
+                    <span class="result-title-row">
+                      <span class="result-title">星座の印章[1]</span>
+                      <span class="item-id">490137</span>
+                    </span>
+                    <span class="result-summary">星座の印章シリーズ。カード1枚、エンチャント最大3枠の想定。</span>
+                    <span class="tag-row"><span class="tag">アクセサリー</span><span class="tag">星座</span><span class="tag">[1]</span></span>
+                  </span>
+                </button>
+              </li>
+              <li class="result-item">
+                <button class="result-button" type="button" data-name="時間の破片" data-url="https://rotool.gungho.jp/item/1000000/">
+                  <span class="item-icon">素</span>
+                  <span class="result-main">
+                    <span class="result-title-row">
+                      <span class="result-title">時間の破片</span>
+                      <span class="item-id">1000000</span>
+                    </span>
+                    <span class="result-summary">エンチャント手数料として扱う素材アイテムの表示例。</span>
+                    <span class="tag-row"><span class="tag">素材</span><span class="tag">手数料</span></span>
+                  </span>
+                </button>
+              </li>
+              <li class="result-item">
+                <button class="result-button" type="button" data-name="創星石のアミュレット[1]" data-url="https://rotool.gungho.jp/item/490337/">
+                  <span class="item-icon">装</span>
+                  <span class="result-main">
+                    <span class="result-title-row">
+                      <span class="result-title">創星石のアミュレット[1]</span>
+                      <span class="item-id">490337</span>
+                    </span>
+                    <span class="result-summary">超越段階条件を持つエンチャント候補の確認用モック。</span>
+                    <span class="tag-row"><span class="tag">アクセサリー</span><span class="tag">超越 0以上</span></span>
+                  </span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="preview-pane" aria-label="公式ページプレビュー">
+          <div class="preview-header">
+            <div class="preview-title-row">
+              <div>
+                <h2 class="preview-title" id="previewTitle">ブレッシングオブイグドラシル[0]</h2>
+                <div class="preview-url" id="previewUrl">https://rotool.gungho.jp/item/490337/</div>
+              </div>
+              <div class="preview-actions">
+                <a class="button" id="openOfficial" href="https://rotool.gungho.jp/item/490337/" target="_blank" rel="noopener noreferrer">別タブで開く</a>
+                <button class="button" type="button">詳細JSON表示</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="iframe-wrap">
+            <iframe
+              class="official-frame"
+              id="officialFrame"
+              title="公式アイテムページ"
+              src="https://rotool.gungho.jp/item/490337/"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            ></iframe>
+            <div class="frame-note">
+              公式側の制限で iframe 表示できない場合は、別タブで開く導線を利用する想定です。
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script>
+    const resultButtons = document.querySelectorAll('.result-button');
+    const previewTitle = document.getElementById('previewTitle');
+    const previewUrl = document.getElementById('previewUrl');
+    const officialFrame = document.getElementById('officialFrame');
+    const openOfficial = document.getElementById('openOfficial');
+
+    resultButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        resultButtons.forEach((item) => item.classList.remove('is-active'));
+        button.classList.add('is-active');
+
+        const name = button.dataset.name || '公式アイテムページ';
+        const url = button.dataset.url || 'about:blank';
+
+        previewTitle.textContent = name;
+        previewUrl.textContent = url;
+        officialFrame.src = url;
+        openOfficial.href = url;
+      });
+    });
+
+    document.querySelectorAll('.chip').forEach((chip) => {
+      chip.addEventListener('click', () => {
+        const pressed = chip.getAttribute('aria-pressed') === 'true';
+        chip.setAttribute('aria-pressed', String(!pressed));
+      });
+    });
+  </script>
+</body>
+</html>
