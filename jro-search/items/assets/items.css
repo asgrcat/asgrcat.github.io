@@ -335,7 +335,7 @@
 
     .filter-heading {
       display: grid;
-      grid-template-columns: auto minmax(0, 1fr) auto;
+      grid-template-columns: minmax(0, 1fr) auto;
       align-items: center;
       gap: 8px;
       color: var(--muted);
@@ -347,10 +347,6 @@
 
     .filter-heading::-webkit-details-marker {
       display: none;
-    }
-
-    .filter-heading span:last-child {
-      justify-self: end;
     }
 
     .filter-heading::after {
