@@ -310,14 +310,81 @@
         .join('、');
     };
 
-    const slotLabel = (slot) => [
-      slot.enchant_step_label,
-      slot.slot_label,
+    const pairedSlotNumber = (label, suffix) => {
+      const match = String(label || '').match(new RegExp(`^第([1-4])${suffix}$`, 'u'));
+
+      if (!match) {
+        return '';
+      }
+
+      return String(5 - Number.parseInt(match[1], 10));
+    };
+
+    const slotPrimaryLabels = (slot) => {
+      const pairedEnchantStep = pairedSlotNumber(slot.slot_label, 'スロット');
+      const pairedSlot = pairedSlotNumber(slot.enchant_step_label, 'エンチャント');
+      const enchantStepLabel = slot.enchant_step_label
+        || (pairedEnchantStep ? `第${pairedEnchantStep}エンチャント` : '');
+      const slotLabel = slot.slot_label
+        || (pairedSlot ? `第${pairedSlot}スロット` : '');
+
+      return [enchantStepLabel || '', slotLabel || ''];
+    };
+
+    const formatRefineLabel = (label) => {
+      const value = String(label).trim();
+
+      if (value === '精錬不要') {
+        return '精錬値: 不要';
+      }
+
+      if (value.startsWith('精錬値')) {
+        return `精錬値: ${value.replace(/^精錬値/u, '').trim()}`;
+      }
+
+      return value;
+    };
+
+    const splitSlotDetailLabel = (label) => {
+      if (!label) {
+        return [];
+      }
+
+      return String(label).split(/\s+:\s+/).map((value) => formatRefineLabel(value)).filter(Boolean);
+    };
+
+    const slotDetailLabels = (slot) => [
       selectionMethodLabel(slot.selection_method),
-      slot.required_refine,
-      slot.required_transcendence ? `超越${slot.required_transcendence}` : null,
+      ...splitSlotDetailLabel(slot.required_refine),
+      slot.required_transcendence ? `超越: ${slot.required_transcendence}` : null,
       slot.required_enchantment ? `前提: ${slot.required_enchantment}` : null,
-    ].filter(Boolean).join('\n');
+    ].filter(Boolean);
+
+    const renderSlotCellContent = (slot) => {
+      const wrapper = createElement('div', 'slot-content');
+      const primary = createElement('div', 'slot-primary');
+      const details = slotDetailLabels(slot);
+
+      slotPrimaryLabels(slot).forEach((label) => {
+        const line = createElement('span', 'slot-primary-line');
+        line.textContent = label || '\u00a0';
+        primary.append(line);
+      });
+
+      wrapper.append(primary);
+
+      if (details.length > 0) {
+        const chips = createElement('div', 'slot-chip-list');
+
+        details.forEach((detail) => {
+          chips.append(createElement('span', 'slot-chip', detail));
+        });
+
+        wrapper.append(chips);
+      }
+
+      return wrapper;
+    };
 
     const selectionMethodLabel = (selectionMethod) => {
       const labels = {
@@ -499,7 +566,7 @@
         const candidatesCell = document.createElement('td');
         const effects = createElement('div', 'effect-list');
 
-        slotCell.textContent = slotLabel(slot);
+        slotCell.append(renderSlotCellContent(slot));
 
         (slot.candidates || []).forEach((candidate) => {
           const button = createElement('button', 'effect-button', candidate.name || '');
