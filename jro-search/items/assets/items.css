@@ -369,6 +369,23 @@
       color: var(--text);
     }
 
+    .select-field {
+      appearance: none;
+      padding-right: 30px;
+      background-image:
+        linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+        linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+      background-position:
+        calc(100% - 16px) 50%,
+        calc(100% - 11px) 50%;
+      background-repeat: no-repeat;
+      background-size: 5px 5px;
+    }
+
+    .select-field::-ms-expand {
+      display: none;
+    }
+
     .text-field::placeholder {
       color: var(--placeholder);
     }
@@ -447,9 +464,9 @@
     }
 
     .filter-panel-heading::after {
-      color: var(--muted);
+      color: var(--text);
       content: "›";
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 800;
       line-height: 1;
       transition: transform 0.16s ease;
@@ -496,9 +513,9 @@
     }
 
     .filter-heading::after {
-      color: var(--muted);
+      color: var(--text);
       content: "›";
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 800;
       line-height: 1;
       transition: transform 0.16s ease;
@@ -598,11 +615,13 @@
       height: 18px;
       border: 0;
       border-radius: 50%;
+      padding: 0;
       background: var(--primary-soft);
       color: var(--primary-strong);
       font-size: 13px;
       font-weight: 800;
       line-height: 1;
+      transform: translateY(1px);
     }
 
     .selected-filter-remove:hover,
@@ -974,8 +993,8 @@
 
     .enchant-toggle-icon {
       align-self: center;
-      color: var(--muted);
-      font-size: 16px;
+      color: var(--text);
+      font-size: 20px;
       font-weight: 800;
       line-height: 1;
       transition: transform 0.16s ease;
