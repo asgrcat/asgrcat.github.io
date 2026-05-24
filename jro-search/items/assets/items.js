@@ -34,6 +34,7 @@
       job_group: '職業系統',
       job_tier: '職業段階',
       position: '装備位置',
+      weapon: '武器',
     };
     const accessoryPositionKeys = ['accessory_1', 'accessory_2'];
     let itemIndex = [];
@@ -428,6 +429,14 @@
       selectedValues.length === 0 || selectedValues.some((selectedValue) => values.includes(selectedValue))
     );
 
+    const matchesWeaponFilters = (weaponCategories, selectedWeapons) => {
+      if (selectedWeapons.length === 0) {
+        return true;
+      }
+
+      return selectedWeapons.some((weapon) => weaponCategories[weapon] === true);
+    };
+
     const matchesPositionFilters = (positions, selectedPositions) => {
       if (selectedPositions.length === 0) {
         return true;
@@ -568,10 +577,12 @@
       const keyword = keywordInput.value.trim();
       const target = searchTargetSelect.value;
       const selectedPositions = getSelectedFilters('position');
+      const selectedWeapons = getSelectedFilters('weapon');
       const selectedEnchants = getSelectedFilters('enchant');
       const selectedJobs = selectedJobCodes();
       const hasConditions = keyword !== ''
         || selectedPositions.length > 0
+        || selectedWeapons.length > 0
         || selectedEnchants.length > 0
         || selectedJobs.length > 0;
 
@@ -580,13 +591,15 @@
       const results = hasSearched && hasConditions ? itemIndex.filter((item) => {
         const searchableText = getSearchableText(item, target);
         const positions = item.classification?.positions || {};
+        const weaponCategories = item.classification?.weapon_categories || {};
         const enchants = item.enchantments?.filter_keys || [];
         const matchesKeyword = matchesSearchQuery(searchableText, keyword);
         const matchesPositions = matchesPositionFilters(positions, selectedPositions);
+        const matchesWeapons = matchesWeaponFilters(weaponCategories, selectedWeapons);
         const matchesEnchants = includesAny(enchants, selectedEnchants);
         const matchesJobs = matchesJobFilters(item, selectedJobs);
 
-        return matchesKeyword && matchesPositions && matchesEnchants && matchesJobs;
+        return matchesKeyword && matchesPositions && matchesWeapons && matchesEnchants && matchesJobs;
       }) : [];
 
       renderResults(results);

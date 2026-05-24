@@ -460,6 +460,10 @@
       padding-right: 2px;
     }
 
+    .filter-row-offset {
+      margin-top: 8px;
+    }
+
     .chip {
       min-height: 28px;
       border: 1px solid var(--border);
