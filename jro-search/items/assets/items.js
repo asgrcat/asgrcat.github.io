@@ -39,6 +39,8 @@
     const accessoryPositionKeys = ['accessory_1', 'accessory_2'];
     let itemIndex = [];
     let jobMaster = { groups: {}, jobs: {}, tiers: {} };
+    let enchantmentTargetsByItemId = new Map();
+    let enchantmentTargetsByName = new Map();
     let activeItemId = null;
     let hasSearched = false;
 
@@ -304,12 +306,81 @@
       return labels[selectionMethod] || null;
     };
 
+    const targetSourceLabel = (set, slot) => [
+      set.name || 'エンチャント',
+      slot.enchant_step_label,
+      slot.slot_label,
+    ].filter(Boolean).join(' / ');
+
+    const registerEnchantmentTarget = (targetMap, key, targetItem, set, slot) => {
+      const normalizedKey = key === null || key === undefined ? '' : String(key);
+
+      if (!normalizedKey) {
+        return;
+      }
+
+      const existing = targetMap.get(normalizedKey) || new Map();
+      const target = existing.get(targetItem.item_id) || {
+        item_id: targetItem.item_id,
+        name: targetItem.name || '',
+        official_url: targetItem.official_url || '',
+        sources: new Set(),
+      };
+
+      target.sources.add(targetSourceLabel(set, slot));
+      existing.set(targetItem.item_id, target);
+      targetMap.set(normalizedKey, existing);
+    };
+
+    const buildEnchantmentTargetIndexes = (items) => {
+      const byItemId = new Map();
+      const byName = new Map();
+
+      items.forEach((targetItem) => {
+        (targetItem.enchantments?.sets || []).forEach((set) => {
+          (set.slots || []).forEach((slot) => {
+            (slot.candidates || []).forEach((candidate) => {
+              registerEnchantmentTarget(byItemId, candidate.item_id, targetItem, set, slot);
+              registerEnchantmentTarget(byName, candidate.name, targetItem, set, slot);
+            });
+          });
+        });
+      });
+
+      enchantmentTargetsByItemId = byItemId;
+      enchantmentTargetsByName = byName;
+    };
+
+    const enchantmentTargetsForItem = (item) => {
+      const merged = new Map();
+      const buckets = [
+        enchantmentTargetsByItemId.get(item.item_id),
+        enchantmentTargetsByName.get(item.name),
+      ].filter(Boolean);
+
+      buckets.forEach((bucket) => {
+        bucket.forEach((target) => merged.set(target.item_id, target));
+      });
+
+      return Array.from(merged.values());
+    };
+
+    const isEnchantmentItem = (item) => enchantmentTargetsForItem(item).length > 0;
+
     const renderEnchantSummary = (item) => {
       const sets = item.enchantments?.sets || [];
+      const targetItems = enchantmentTargetsForItem(item);
       enchantSummary.replaceChildren();
 
+      if (targetItems.length > 0) {
+        enchantSummary.append(renderEnchantmentTargetItems(item, targetItems));
+      }
+
       if (sets.length === 0) {
-        enchantSummary.append(createElement('div', 'enchant-empty', 'このアイテムのエンチャント情報はありません。'));
+        if (targetItems.length === 0) {
+          enchantSummary.append(createElement('div', 'enchant-empty', 'このアイテムのエンチャント情報はありません。'));
+        }
+
         return;
       }
 
@@ -351,6 +422,32 @@
       toggle.append(meta, createElement('span', 'enchant-toggle-icon', '›'));
       body.append(renderEnchantTable(set.slots || []));
       wrapper.append(toggle, body);
+
+      return wrapper;
+    };
+
+    const renderEnchantmentTargetItems = (item, targetItems) => {
+      const wrapper = createElement('div', 'enchant-targets');
+      const header = createElement('div', 'enchant-targets-header');
+      const title = createElement('div', 'enchant-targets-title', '設定可能アイテム');
+      const count = createElement('span', 'meta-chip', `${targetItems.length}件`);
+      const list = createElement('div', 'enchant-target-list');
+
+      header.append(title, count);
+
+      targetItems.forEach((target) => {
+        const button = createElement('button', 'enchant-target-button');
+        const name = createElement('span', 'enchant-target-name', target.name);
+        const sources = createElement('span', 'enchant-target-source', Array.from(target.sources).join('、'));
+
+        button.type = 'button';
+        button.dataset.itemId = target.item_id;
+        button.setAttribute('aria-label', `${item.name || 'エンチャント'}を設定可能な${target.name}を表示`);
+        button.append(name, sources);
+        list.append(button);
+      });
+
+      wrapper.append(header, list);
 
       return wrapper;
     };
@@ -647,6 +744,10 @@
         tagRow.append(createElement('span', 'tag', label));
       });
 
+      if (isEnchantmentItem(item)) {
+        tagRow.append(createElement('span', 'tag tag-enchant', 'エンチャント'));
+      }
+
       main.append(titleRow, summary);
 
       if (tagRow.children.length > 0) {
@@ -691,6 +792,7 @@
         ]);
 
         itemIndex = Array.isArray(itemPayload.items) ? itemPayload.items : [];
+        buildEnchantmentTargetIndexes(itemIndex);
         updateGeneratedAt(itemPayload.generated_at);
         renderEnchantFilterOptions(enchantCatalog, itemIndex);
         renderJobFilterOptions(jobs);
@@ -761,8 +863,19 @@
     });
 
     enchantSummary.addEventListener('click', (event) => {
+      const targetButton = event.target.closest('.enchant-target-button');
       const toggle = event.target.closest('.enchant-set-toggle');
       const effectButton = event.target.closest('.effect-button');
+
+      if (targetButton) {
+        const item = itemIndex.find((candidate) => candidate.item_id === targetButton.dataset.itemId);
+
+        if (item) {
+          activateResult(item, true);
+        }
+
+        return;
+      }
 
       if (toggle) {
         const enchantSet = toggle.closest('.enchant-set');
