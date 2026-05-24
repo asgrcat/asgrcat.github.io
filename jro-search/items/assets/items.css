@@ -382,6 +382,7 @@
       align-items: center;
       gap: 8px;
       flex-wrap: wrap;
+      min-height: 48px;
       border: 1px solid var(--border);
       border-radius: 7px;
       padding: 9px;
