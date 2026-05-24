@@ -20,7 +20,7 @@
     const previewHeader = document.getElementById('previewHeader');
     const enchantSummary = document.getElementById('enchantSummary');
     const iframeWrap = document.getElementById('iframeWrap');
-    const previewTitle = document.getElementById('previewTitle');
+    const previewTitleButton = document.getElementById('previewTitleButton');
     const previewUrl = document.getElementById('previewUrl');
     const officialFrame = document.getElementById('officialFrame');
     const openOfficial = document.getElementById('openOfficial');
@@ -203,7 +203,8 @@
 
       if (isEmpty) {
         activeItemId = null;
-        previewTitle.textContent = '';
+        previewTitleButton.textContent = '';
+        previewTitleButton.dataset.officialUrl = '';
         previewUrl.textContent = '';
         officialFrame.src = 'about:blank';
         openOfficial.href = 'about:blank';
@@ -312,6 +313,7 @@
     const slotLabel = (slot) => [
       slot.enchant_step_label,
       slot.slot_label,
+      selectionMethodLabel(slot.selection_method),
       slot.required_refine,
       slot.required_transcendence ? `超越${slot.required_transcendence}` : null,
       slot.required_enchantment ? `前提: ${slot.required_enchantment}` : null,
@@ -683,7 +685,8 @@
       const name = item.name || '公式アイテムページ';
       const url = item.official_url || 'about:blank';
 
-      previewTitle.textContent = name;
+      previewTitleButton.textContent = name;
+      previewTitleButton.dataset.officialUrl = url;
       previewUrl.textContent = url;
       officialFrame.src = url;
       openOfficial.href = url;
@@ -872,6 +875,11 @@
     previewTab.addEventListener('click', () => setActiveMainTab('preview'));
     searchButton.addEventListener('click', searchItems);
     resetButton.addEventListener('click', resetFilters);
+    previewTitleButton.addEventListener('click', () => {
+      enchantSummary.querySelectorAll('.effect-button').forEach((item) => item.classList.remove('is-active'));
+      officialFrame.src = previewTitleButton.dataset.officialUrl || 'about:blank';
+    });
+
     keywordInput.addEventListener('keydown', (event) => {
       if (event.key === 'Enter') {
         event.preventDefault();
