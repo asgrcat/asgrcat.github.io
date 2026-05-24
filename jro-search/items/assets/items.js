@@ -342,8 +342,14 @@
         return `精錬値: ${value.replace(/^精錬値/u, '').trim()}`;
       }
 
+      if (/^[0-9０-９]+(?:以上)?$/u.test(value)) {
+        return `精錬値: ${value}`;
+      }
+
       return value;
     };
+
+    const formatTranscendenceLabel = (value) => (value ? `超越: ${value}` : null);
 
     const splitSlotDetailLabel = (label) => {
       if (!label) {
@@ -356,7 +362,7 @@
     const slotDetailLabels = (slot) => [
       selectionMethodLabel(slot.selection_method),
       ...splitSlotDetailLabel(slot.required_refine),
-      slot.required_transcendence ? `超越: ${slot.required_transcendence}` : null,
+      formatTranscendenceLabel(slot.required_transcendence),
       slot.required_enchantment ? `前提: ${slot.required_enchantment}` : null,
     ].filter(Boolean);
 
@@ -485,7 +491,7 @@
       const wrapper = createElement('div', `enchant-set${expanded ? '' : ' is-collapsed'}`);
       const toggle = createElement('button', 'enchant-set-toggle');
       const meta = createElement('span', 'enchant-meta');
-      const bodyId = `enchantSet-${set.key || Math.random().toString(36).slice(2)}`;
+      const bodyId = `enchantSet-${set.group_key || set.key || Math.random().toString(36).slice(2)}`;
       const body = createElement('div', 'enchant-set-body');
 
       toggle.type = 'button';
@@ -495,12 +501,6 @@
 
       meta.append(createElement('span', 'meta-chip', set.name || 'エンチャント'));
 
-      const selectionMethod = selectionMethodLabel(set.selection_method);
-
-      if (selectionMethod) {
-        meta.append(createElement('span', 'meta-chip', selectionMethod));
-      }
-
       if (set.npc_name) {
         meta.append(createElement('span', 'meta-chip', `NPC: ${set.npc_name}`));
       }
@@ -509,6 +509,24 @@
 
       if (fee) {
         meta.append(createElement('span', 'meta-chip', `エンチャ素材: ${fee}`));
+      }
+
+      const selectionMethod = selectionMethodLabel(set.selection_method);
+
+      if (selectionMethod) {
+        meta.append(createElement('span', 'meta-chip', selectionMethod));
+      }
+
+      const requiredRefine = set.required_refine ? formatRefineLabel(set.required_refine) : null;
+
+      if (requiredRefine) {
+        meta.append(createElement('span', 'meta-chip', requiredRefine));
+      }
+
+      const requiredTranscendence = formatTranscendenceLabel(set.required_transcendence);
+
+      if (requiredTranscendence) {
+        meta.append(createElement('span', 'meta-chip', requiredTranscendence));
       }
 
       toggle.append(meta, createElement('span', 'enchant-toggle-icon', '›'));
