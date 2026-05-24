@@ -4,7 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JRO Search - アイテム検索</title>
-  <link rel="stylesheet" href="./assets/items.css?v=20260524084434">
+  <script>
+    (() => {
+      try {
+        const theme = window.localStorage.getItem('jro-search.items.theme');
+
+        if (theme === 'dark' || theme === 'light') {
+          document.documentElement.dataset.theme = theme;
+        }
+      } catch {
+        // Keep the default light theme when storage is unavailable.
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="./assets/items.css?v=20260524090446">
 </head>
 <body>
   <div class="app-shell">
@@ -32,7 +45,11 @@
     <div class="workspace">
       <header class="app-header">
         <h1 class="page-title">アイテム検索</h1>
-        <div class="header-meta" aria-label="データ状態">
+        <div class="header-meta">
+          <div class="theme-switch" role="group" aria-label="表示テーマ">
+            <button class="theme-option" type="button" data-theme-value="light" aria-pressed="true">ライト</button>
+            <button class="theme-option" type="button" data-theme-value="dark" aria-pressed="false">ダーク</button>
+          </div>
           <span class="header-pill" id="updateStatus">update: 2026-05-24</span>
         </div>
       </header>
@@ -190,6 +207,6 @@
     </div>
   </div>
 
-  <script src="./assets/items.js?v=20260524084434"></script>
+  <script src="./assets/items.js?v=20260524090446"></script>
 </body>
 </html>

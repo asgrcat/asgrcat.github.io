@@ -24,7 +24,9 @@
     const previewUrl = document.getElementById('previewUrl');
     const officialFrame = document.getElementById('officialFrame');
     const openOfficial = document.getElementById('openOfficial');
+    const themeButtons = Array.from(document.querySelectorAll('.theme-option[data-theme-value]'));
     const paneWidthStorageKey = 'jro-search.items.searchPaneWidth';
+    const themeStorageKey = 'jro-search.items.theme';
     const itemIndexUrl = '../data/search/item-index.json';
     const enchantCatalogUrl = '../data/enchantments/catalog.json';
     const jobMasterUrl = '../data/masters/jobs.json';
@@ -43,6 +45,27 @@
     let enchantmentTargetsByName = new Map();
     let activeItemId = null;
     let hasSearched = false;
+
+    const currentTheme = () => (document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light');
+
+    const applyTheme = (theme, shouldSave = false) => {
+      const nextTheme = theme === 'dark' ? 'dark' : 'light';
+
+      document.documentElement.dataset.theme = nextTheme;
+      themeButtons.forEach((button) => {
+        button.setAttribute('aria-pressed', String(button.dataset.themeValue === nextTheme));
+      });
+
+      if (!shouldSave) {
+        return;
+      }
+
+      try {
+        window.localStorage.setItem(themeStorageKey, nextTheme);
+      } catch {
+        // Ignore storage failures in private browsing or restricted environments.
+      }
+    };
 
     const setActiveMainTab = (tabName) => {
       const isPreview = tabName === 'preview';
@@ -429,7 +452,7 @@
     const renderEnchantmentTargetItems = (item, targetItems) => {
       const wrapper = createElement('div', 'enchant-targets');
       const header = createElement('div', 'enchant-targets-header');
-      const title = createElement('div', 'enchant-targets-title', '設定可能アイテム');
+      const title = createElement('div', 'enchant-targets-title', 'エンチャント可能アイテム');
       const count = createElement('span', 'meta-chip', `${targetItems.length}件`);
       const list = createElement('div', 'enchant-target-list');
 
@@ -442,7 +465,7 @@
 
         button.type = 'button';
         button.dataset.itemId = target.item_id;
-        button.setAttribute('aria-label', `${item.name || 'エンチャント'}を設定可能な${target.name}を表示`);
+        button.setAttribute('aria-label', `${item.name || 'エンチャント'}をエンチャント可能な${target.name}を公式プレビューに表示`);
         button.append(name, sources);
         list.append(button);
       });
@@ -871,7 +894,7 @@
         const item = itemIndex.find((candidate) => candidate.item_id === targetButton.dataset.itemId);
 
         if (item) {
-          activateResult(item, true);
+          officialFrame.src = item.official_url || 'about:blank';
         }
 
         return;
@@ -890,13 +913,9 @@
         enchantSummary.querySelectorAll('.effect-button').forEach((item) => item.classList.remove('is-active'));
         effectButton.classList.add('is-active');
 
-        const name = effectButton.dataset.effectName || 'エンチャント効果';
         const url = effectButton.dataset.effectUrl || 'about:blank';
 
-        previewTitle.textContent = `エンチャント効果: ${name}`;
-        previewUrl.textContent = url;
         officialFrame.src = url || 'about:blank';
-        openOfficial.href = url || 'about:blank';
       }
     });
 
@@ -943,5 +962,10 @@
       applyFilters();
     });
 
+    themeButtons.forEach((button) => {
+      button.addEventListener('click', () => applyTheme(button.dataset.themeValue, true));
+    });
+
+    applyTheme(currentTheme());
     restoreSearchPaneWidth();
     loadSearchData();
