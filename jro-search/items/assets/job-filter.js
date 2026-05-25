@@ -9,6 +9,14 @@
     jobMaster.tiers?.[tierCode]?.jobs || []
   ));
 
+  const intersectJobCodeSets = (sets) => {
+    if (sets.length === 0) {
+      return [];
+    }
+
+    return sets[0].filter((jobCode) => sets.every((set) => set.includes(jobCode)));
+  };
+
   const excludedJobCodes = (jobMaster, equipJobs) => new Set([
     ...activeKeys(equipJobs.exclude_jobs),
     ...jobCodesForGroups(jobMaster, activeKeys(equipJobs.exclude_groups)),
@@ -61,11 +69,23 @@
     const jobWeaponRule = (jobCode) => (
       normalizedJobMaster.weapon_categories_by_job?.[jobCode] || { weapon_categories: [] }
     );
-    const selectedJobCodes = (selectedJobs, selectedGroups = [], selectedTiers = []) => Array.from(new Set([
-      ...selectedJobs,
-      ...jobCodesForGroups(normalizedJobMaster, selectedGroups),
-      ...jobCodesForTiers(normalizedJobMaster, selectedTiers),
-    ]));
+    const selectedJobCodes = (selectedJobs, selectedGroups = [], selectedTiers = []) => {
+      const selectedSets = [];
+
+      if (selectedJobs.length > 0) {
+        selectedSets.push(selectedJobs);
+      }
+
+      if (selectedGroups.length > 0) {
+        selectedSets.push(jobCodesForGroups(normalizedJobMaster, selectedGroups));
+      }
+
+      if (selectedTiers.length > 0) {
+        selectedSets.push(jobCodesForTiers(normalizedJobMaster, selectedTiers));
+      }
+
+      return Array.from(new Set(intersectJobCodeSets(selectedSets)));
+    };
     const matchesJobWeaponRule = (item, jobCode) => {
       if (!isWeaponEquipment(item)) {
         return true;

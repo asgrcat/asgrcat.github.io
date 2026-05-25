@@ -625,10 +625,20 @@
       selectedFilterList.replaceChildren(fragment);
     };
 
-    const selectedJobCodes = () => jobFilterMatcher.selectedJobCodes(
-      getSelectedFilters('job'),
-      getSelectedFilters('job_group'),
-      getSelectedFilters('job_tier'),
+    const selectedJobFilters = () => ({
+      jobs: getSelectedFilters('job'),
+      groups: getSelectedFilters('job_group'),
+      tiers: getSelectedFilters('job_tier'),
+    });
+
+    const hasSelectedJobFilters = (filters) => (
+      filters.jobs.length > 0 || filters.groups.length > 0 || filters.tiers.length > 0
+    );
+
+    const selectedJobCodes = (filters) => jobFilterMatcher.selectedJobCodes(
+      filters.jobs,
+      filters.groups,
+      filters.tiers,
     );
 
     const getSearchableText = (item, target) => {
@@ -683,7 +693,9 @@
       const target = searchTargetSelect.value;
       const selectedPositions = getSelectedFilters('position');
       const selectedEnchants = getSelectedFilters('enchant');
-      const selectedJobs = selectedJobCodes();
+      const jobFilters = selectedJobFilters();
+      const hasJobFilters = hasSelectedJobFilters(jobFilters);
+      const selectedJobs = selectedJobCodes(jobFilters);
       const selectedWeapons = getSelectedFilters('weapon');
       const costumeScope = selectedCostumeScope();
       const keywordSupportScope = supportScopeFromSearchQuery(keyword);
@@ -691,7 +703,7 @@
         || selectedPositions.length > 0
         || selectedWeapons.length > 0
         || selectedEnchants.length > 0
-        || selectedJobs.length > 0
+        || hasJobFilters
         || costumeScope !== 'all'
         || keywordSupportScope !== 'all';
 
@@ -706,7 +718,9 @@
         const matchesPositions = matchesPositionFilters(positions, selectedPositions);
         const matchesWeapons = matchesWeaponFilters(weaponCategories, selectedWeapons);
         const matchesEnchants = includesAny(enchants, selectedEnchants);
-        const matchesJobs = jobFilterMatcher.matchesJobFilters(item, selectedJobs);
+        const matchesJobs = selectedJobs.length > 0
+          ? jobFilterMatcher.matchesJobFilters(item, selectedJobs)
+          : !hasJobFilters;
         const matchesCostume = matchesCostumeScope(item, costumeScope);
         const matchesSupport = matchesSupportScope(item, keywordSupportScope);
 
