@@ -40,6 +40,16 @@
       position: '装備位置',
       weapon: '武器',
     };
+    const analyticsClickableSelector = [
+      'a[href]',
+      'button',
+      'select',
+      'summary',
+      '[role="button"]',
+      '[role="radio"]',
+      '[role="separator"]',
+      '[role="tab"]',
+    ].join(',');
     const {
       displayPositionLabels,
       includesAny,
@@ -59,8 +69,233 @@
     let renderedResultCount = 0;
     let activeItemId = null;
     let hasSearched = false;
+    let analyticsImpressionObserver = null;
+    const observedAnalyticsClickables = new WeakSet();
 
     const currentTheme = () => (document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light');
+
+    const normalizeAnalyticsText = (value, maxLength = 100) => {
+      const text = String(value || '').replace(/\s+/g, ' ').trim();
+
+      return text.length > maxLength ? `${text.slice(0, maxLength - 1)}…` : text;
+    };
+
+    const analyticsClickArea = (element) => {
+      if (element.closest('.app-header')) {
+        return 'header';
+      }
+
+      if (element.closest('.main-tabs')) {
+        return 'main_tabs';
+      }
+
+      if (element.closest('.search-controls')) {
+        return 'search_controls';
+      }
+
+      if (element.closest('.results-area')) {
+        return 'results';
+      }
+
+      if (element.closest('.preview-pane')) {
+        return 'preview';
+      }
+
+      if (element.closest('.pane-resizer')) {
+        return 'pane_resizer';
+      }
+
+      return 'workspace';
+    };
+
+    const analyticsClickTarget = (element) => {
+      if (element.id) {
+        return element.id;
+      }
+
+      if (element.dataset.filterGroup) {
+        return `filter:${element.dataset.filterGroup}`;
+      }
+
+      if (element.dataset.costumeScope) {
+        return 'costume_scope';
+      }
+
+      if (element.dataset.themeValue) {
+        return 'theme';
+      }
+
+      const classTarget = [
+        'result-button',
+        'enchant-target-button',
+        'effect-button',
+        'enchant-set-toggle',
+        'selected-filter-remove',
+        'chip',
+        'button',
+        'tab-button',
+      ].find((className) => element.classList.contains(className));
+
+      return classTarget || element.tagName.toLowerCase();
+    };
+
+    const analyticsClickLabel = (element) => {
+      if (element.classList.contains('result-button')) {
+        return normalizeAnalyticsText(element.querySelector('.result-title')?.textContent);
+      }
+
+      if (element.classList.contains('selected-filter-remove')) {
+        const label = filterGroupLabels[element.dataset.filterGroup] || element.dataset.filterGroup || '';
+
+        return normalizeAnalyticsText(`${label}: ${element.dataset.filterValue || ''}`);
+      }
+
+      if (element instanceof HTMLSelectElement) {
+        return normalizeAnalyticsText(element.getAttribute('aria-label') || element.id);
+      }
+
+      return normalizeAnalyticsText(
+        element.getAttribute('aria-label')
+        || element.textContent
+        || element.getAttribute('title')
+        || element.id
+      );
+    };
+
+    const analyticsClickParameters = (element) => {
+      const parameters = {
+        click_area: analyticsClickArea(element),
+        click_target: analyticsClickTarget(element),
+        click_label: analyticsClickLabel(element),
+      };
+
+      if (element.dataset.itemId) {
+        parameters.item_id = element.dataset.itemId;
+      }
+
+      if (element.dataset.filterGroup) {
+        parameters.filter_group = element.dataset.filterGroup;
+      }
+
+      if (element.dataset.filterValue) {
+        parameters.filter_value = element.dataset.filterValue;
+      }
+
+      if (element.dataset.costumeScope) {
+        parameters.costume_scope = element.dataset.costumeScope;
+      }
+
+      if (element.dataset.themeValue) {
+        parameters.theme = element.dataset.themeValue;
+      }
+
+      if (element instanceof HTMLAnchorElement) {
+        parameters.link_url = element.href;
+      }
+
+      return parameters;
+    };
+
+    const sendAnalyticsEvent = (eventName, parameters) => {
+      if (typeof window.gtag !== 'function') {
+        return;
+      }
+
+      window.gtag('event', eventName, {
+        content_group: 'items',
+        jro_search_section: 'items',
+        ...parameters,
+      });
+    };
+
+    const trackAnalyticsClick = (event) => {
+      if (!(event.target instanceof Element)) {
+        return;
+      }
+
+      const clickable = event.target.closest(analyticsClickableSelector);
+
+      if (!clickable || clickable.closest('.sidebar')) {
+        return;
+      }
+
+      if (clickable.disabled || clickable.getAttribute('aria-disabled') === 'true') {
+        return;
+      }
+
+      sendAnalyticsEvent('ui_click', analyticsClickParameters(clickable));
+    };
+
+    const trackAnalyticsImpression = (element) => {
+      sendAnalyticsEvent('ui_clickable_impression', analyticsClickParameters(element));
+    };
+
+    const observeAnalyticsClickable = (element) => {
+      if (!(element instanceof Element) || observedAnalyticsClickables.has(element)) {
+        return;
+      }
+
+      if (!element.matches(analyticsClickableSelector) || element.closest('.sidebar')) {
+        return;
+      }
+
+      if (element.disabled || element.getAttribute('aria-disabled') === 'true') {
+        return;
+      }
+
+      observedAnalyticsClickables.add(element);
+
+      if (analyticsImpressionObserver) {
+        analyticsImpressionObserver.observe(element);
+        return;
+      }
+
+      trackAnalyticsImpression(element);
+    };
+
+    const observeAnalyticsClickables = (root) => {
+      if (root instanceof Element) {
+        observeAnalyticsClickable(root);
+      }
+
+      root.querySelectorAll?.(analyticsClickableSelector).forEach(observeAnalyticsClickable);
+    };
+
+    const setupAnalyticsImpressionTracking = () => {
+      if ('IntersectionObserver' in window) {
+        analyticsImpressionObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) {
+              return;
+            }
+
+            analyticsImpressionObserver?.unobserve(entry.target);
+            trackAnalyticsImpression(entry.target);
+          });
+        }, {
+          threshold: 0.25,
+        });
+      }
+
+      observeAnalyticsClickables(document);
+
+      if (!('MutationObserver' in window)) {
+        return;
+      }
+
+      const mutationObserver = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+          mutation.addedNodes.forEach((node) => {
+            observeAnalyticsClickables(node);
+          });
+        });
+      });
+
+      mutationObserver.observe(document.body, {
+        childList: true,
+        subtree: true,
+      });
+    };
 
     const applyTheme = (theme, shouldSave = false) => {
       const nextTheme = theme === 'dark' ? 'dark' : 'light';
@@ -641,6 +876,26 @@
       filters.tiers,
     );
 
+    const joinedAnalyticsFilters = (group) => getSelectedFilters(group).join('|');
+
+    const trackSearchAnalytics = (resultTotal) => {
+      const keyword = keywordInput.value.trim();
+
+      sendAnalyticsEvent('search', {
+        has_search_term: String(keyword !== ''),
+        search_target: searchTargetSelect.value,
+        result_count: resultTotal,
+        costume_scope: selectedCostumeScope(),
+        keyword_support_scope: supportScopeFromSearchQuery(keyword),
+        position_filters: joinedAnalyticsFilters('position'),
+        weapon_filters: joinedAnalyticsFilters('weapon'),
+        enchant_filters: joinedAnalyticsFilters('enchant'),
+        job_group_filters: joinedAnalyticsFilters('job_group'),
+        job_tier_filters: joinedAnalyticsFilters('job_tier'),
+        job_filters: joinedAnalyticsFilters('job'),
+      });
+    };
+
     const getSearchableText = (item, target) => {
       const name = item.name || '';
       const description = item.description || '';
@@ -736,11 +991,13 @@
 
       if (results.length === 0) {
         setPreviewEmptyState(true);
-        return;
+        return 0;
       }
 
       const activeItem = results.find((item) => item.item_id === activeItemId);
       activateResult(activeItem || results[0]);
+
+      return results.length;
     };
 
     const renderResults = (items) => {
@@ -821,7 +1078,9 @@
 
     const searchItems = () => {
       hasSearched = true;
-      applyFilters();
+      const resultTotal = applyFilters();
+
+      trackSearchAnalytics(resultTotal);
     };
 
     const loadJson = async (url) => {
@@ -1015,6 +1274,8 @@
       button.addEventListener('click', () => applyTheme(button.dataset.themeValue, true));
     });
 
+    document.addEventListener('click', trackAnalyticsClick);
+    setupAnalyticsImpressionTracking();
     applyTheme(currentTheme());
     restoreSearchPaneWidth();
     loadSearchData();
