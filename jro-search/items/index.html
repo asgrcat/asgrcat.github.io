@@ -17,7 +17,7 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="./assets/items.css?v=20260525000820">
+  <link rel="stylesheet" href="./assets/items.css?v=20260525051403">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FBS7Y3XEZ"></script>
   <script>
@@ -86,6 +86,13 @@
             <div class="action-row" aria-label="検索操作">
               <button class="button button-primary" id="searchButton" type="button">検索</button>
               <button class="button button-subtle" id="resetButton" type="button">リセット</button>
+            </div>
+
+            <div class="costume-scope-row" id="costumeScopeRow" role="radiogroup" aria-label="衣装・シャドウフィルター">
+              <button class="chip" type="button" role="radio" aria-checked="true" data-costume-scope="all">全て</button>
+              <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="non-costume">衣装以外</button>
+              <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="costume">衣装のみ</button>
+              <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="shadow">シャドウ装備のみ</button>
             </div>
 
             <div class="selected-filters" aria-label="選択中フィルター">
@@ -227,6 +234,6 @@
 
   <script src="./assets/search-core.js"></script>
   <script src="./assets/job-filter.js"></script>
-  <script src="./assets/items.js?v=20260525000820"></script>
+  <script src="./assets/items.js?v=20260525051403"></script>
 </body>
 </html>

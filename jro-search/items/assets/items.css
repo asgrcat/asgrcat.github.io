@@ -397,6 +397,15 @@
       gap: 8px;
     }
 
+    .costume-scope-row {
+      grid-column: 1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      align-items: center;
+      min-height: 34px;
+    }
+
     .button {
       display: inline-flex;
       align-items: center;
@@ -655,6 +664,13 @@
     }
 
     .chip[aria-pressed="true"] {
+      border-color: var(--primary);
+      background: var(--primary-soft);
+      color: var(--primary-strong);
+      font-weight: 700;
+    }
+
+    .chip[aria-checked="true"] {
       border-color: var(--primary);
       background: var(--primary-soft);
       color: var(--primary-strong);

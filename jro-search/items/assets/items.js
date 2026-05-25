@@ -15,6 +15,7 @@
     const jobGroupFilterRow = document.getElementById('jobGroupFilterRow');
     const jobTierFilterRow = document.getElementById('jobTierFilterRow');
     const jobFilterRow = document.getElementById('jobFilterRow');
+    const costumeScopeRow = document.getElementById('costumeScopeRow');
     const selectedFilterList = document.getElementById('selectedFilterList');
     const previewEmpty = document.getElementById('previewEmpty');
     const previewHeader = document.getElementById('previewHeader');
@@ -30,6 +31,7 @@
     const itemIndexUrl = '../data/search/item-index.json';
     const enchantCatalogUrl = '../data/enchantments/catalog.json';
     const jobMasterUrl = '../data/masters/jobs.json';
+    const resultRenderBatchSize = 160;
     const filterGroupLabels = {
       enchant: 'エンチャント種別',
       job: '職業',
@@ -41,15 +43,20 @@
     const {
       displayPositionLabels,
       includesAny,
+      matchesCostumeScope,
       matchesPositionFilters,
       matchesSearchQuery,
+      matchesSupportScope,
       matchesWeaponFilters,
+      supportScopeFromSearchQuery,
     } = globalThis.JroSearchItemSearchCore;
     let itemIndex = [];
     let jobMaster = { groups: {}, jobs: {}, tiers: {}, weapon_categories_by_job: {} };
     let jobFilterMatcher = globalThis.JroSearchJobFilter.createMatcher(jobMaster);
     let enchantmentTargetsByItemId = new Map();
     let enchantmentTargetsByName = new Map();
+    let currentResults = [];
+    let renderedResultCount = 0;
     let activeItemId = null;
     let hasSearched = false;
 
@@ -588,6 +595,16 @@
     const getSelectedFilterChips = () => getFilterChips()
       .filter((chip) => chip.getAttribute('aria-pressed') === 'true');
 
+    const selectedCostumeScope = () => (
+      costumeScopeRow.querySelector('[data-costume-scope][aria-checked="true"]')?.dataset.costumeScope || 'all'
+    );
+
+    const setCostumeScope = (scope) => {
+      costumeScopeRow.querySelectorAll('[data-costume-scope]').forEach((button) => {
+        button.setAttribute('aria-checked', String(button.dataset.costumeScope === scope));
+      });
+    };
+
     const renderSelectedFilters = () => {
       const fragment = document.createDocumentFragment();
 
@@ -668,11 +685,15 @@
       const selectedEnchants = getSelectedFilters('enchant');
       const selectedJobs = selectedJobCodes();
       const selectedWeapons = getSelectedFilters('weapon');
+      const costumeScope = selectedCostumeScope();
+      const keywordSupportScope = supportScopeFromSearchQuery(keyword);
       const hasConditions = keyword !== ''
         || selectedPositions.length > 0
         || selectedWeapons.length > 0
         || selectedEnchants.length > 0
-        || selectedJobs.length > 0;
+        || selectedJobs.length > 0
+        || costumeScope !== 'all'
+        || keywordSupportScope !== 'all';
 
       renderSelectedFilters();
 
@@ -686,8 +707,10 @@
         const matchesWeapons = matchesWeaponFilters(weaponCategories, selectedWeapons);
         const matchesEnchants = includesAny(enchants, selectedEnchants);
         const matchesJobs = jobFilterMatcher.matchesJobFilters(item, selectedJobs);
+        const matchesCostume = matchesCostumeScope(item, costumeScope);
+        const matchesSupport = matchesSupportScope(item, keywordSupportScope);
 
-        return matchesKeyword && matchesPositions && matchesWeapons && matchesEnchants && matchesJobs;
+        return matchesKeyword && matchesPositions && matchesWeapons && matchesEnchants && matchesJobs && matchesCostume && matchesSupport;
       }) : [];
 
       renderResults(results);
@@ -707,13 +730,35 @@
     };
 
     const renderResults = (items) => {
-      const fragment = document.createDocumentFragment();
+      currentResults = items;
+      renderedResultCount = 0;
+      resultList.replaceChildren();
+      resultList.scrollTop = 0;
+      appendResultBatch();
+    };
 
-      items.forEach((item) => {
+    const appendResultBatch = () => {
+      if (renderedResultCount >= currentResults.length) {
+        return;
+      }
+
+      const fragment = document.createDocumentFragment();
+      const nextCount = Math.min(renderedResultCount + resultRenderBatchSize, currentResults.length);
+
+      currentResults.slice(renderedResultCount, nextCount).forEach((item) => {
         fragment.append(renderResultItem(item));
       });
 
-      resultList.replaceChildren(fragment);
+      resultList.append(fragment);
+      renderedResultCount = nextCount;
+    };
+
+    const appendResultsNearScrollEnd = () => {
+      const remaining = resultList.scrollHeight - resultList.scrollTop - resultList.clientHeight;
+
+      if (remaining < 480) {
+        appendResultBatch();
+      }
     };
 
     const renderResultItem = (item) => {
@@ -754,6 +799,7 @@
     const resetFilters = () => {
       keywordInput.value = '';
       searchTargetSelect.value = 'アイテム名';
+      setCostumeScope('all');
       getFilterChips().forEach((chip) => chip.setAttribute('aria-pressed', 'false'));
       hasSearched = false;
       applyFilters();
@@ -790,6 +836,8 @@
         applyFilters();
       } catch (error) {
         itemIndex = [];
+        currentResults = [];
+        renderedResultCount = 0;
         resultCount.textContent = '0件';
         resultList.replaceChildren();
         emptyResult.textContent = '検索データを読み込めませんでした。';
@@ -904,6 +952,20 @@
       if (item) {
         activateResult(item, true);
       }
+    });
+
+    resultList.addEventListener('scroll', appendResultsNearScrollEnd, { passive: true });
+
+    costumeScopeRow.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-costume-scope]');
+
+      if (!button || !costumeScopeRow.contains(button)) {
+        return;
+      }
+
+      setCostumeScope(button.dataset.costumeScope || 'all');
+      hasSearched = true;
+      applyFilters();
     });
 
     searchControls.addEventListener('click', (event) => {

@@ -11,27 +11,48 @@
     toHiragana(String(value).normalize('NFKC').toLowerCase()).replace(/[っッ]/g, '')
   );
 
-  const matchesPartialText = (text, query) => {
-    const normalizedText = normalizeSearchText(text);
-    const normalizedQuery = normalizeSearchText(query);
-
-    return normalizedQuery === '' || normalizedText.includes(normalizedQuery);
-  };
-
   const splitSearchTerms = (query) => String(query)
     .normalize('NFKC')
     .trim()
     .split(/\s+/)
     .filter(Boolean);
 
+  const supportScopeFromSearchQuery = (query) => {
+    const normalizedQuery = String(query).normalize('NFKC');
+
+    if (/[［\[]\s*シャドウ\s*[］\]]/.test(normalizedQuery)) {
+      return 'shadow';
+    }
+
+    if (/[［\[]\s*衣装\s*[］\]]/.test(normalizedQuery)) {
+      return 'costume';
+    }
+
+    return 'all';
+  };
+
+  const stripSupportScopeTerms = (query) => String(query)
+    .normalize('NFKC')
+    .replace(/[［\[]\s*(?:衣装|シャドウ)\s*[］\]]/g, ' ');
+
   const matchesSearchQuery = (text, query) => {
-    const terms = splitSearchTerms(query);
+    const terms = splitSearchTerms(stripSupportScopeTerms(query));
 
     if (terms.length === 0) {
       return true;
     }
 
-    return terms.every((term) => matchesPartialText(text, term));
+    const normalizedTerms = terms
+      .map((term) => normalizeSearchText(term))
+      .filter(Boolean);
+
+    if (normalizedTerms.length === 0) {
+      return false;
+    }
+
+    const normalizedText = normalizeSearchText(text);
+
+    return normalizedTerms.every((term) => normalizedText.includes(term));
   };
 
   const includesAny = (values, selectedValues) => (
@@ -44,6 +65,37 @@
     }
 
     return selectedWeapons.some((weapon) => weaponCategories[weapon] === true);
+  };
+
+  const isCostumeItem = (item) => item.classification?.support_equipment_type === 'costume';
+  const isShadowItem = (item) => item.classification?.support_equipment_type === 'shadow';
+
+  const matchesSupportScope = (item, scope) => {
+    if (scope === 'costume') {
+      return isCostumeItem(item);
+    }
+
+    if (scope === 'shadow') {
+      return isShadowItem(item);
+    }
+
+    return true;
+  };
+
+  const matchesCostumeScope = (item, scope) => {
+    if (scope === 'costume') {
+      return isCostumeItem(item);
+    }
+
+    if (scope === 'shadow') {
+      return isShadowItem(item);
+    }
+
+    if (scope === 'non-costume') {
+      return !isCostumeItem(item);
+    }
+
+    return true;
   };
 
   const matchesPositionFilters = (positions, selectedPositions) => {
@@ -85,9 +137,13 @@
   global.JroSearchItemSearchCore = {
     displayPositionLabels,
     includesAny,
+    matchesCostumeScope,
     matchesPositionFilters,
     matchesSearchQuery,
+    matchesSupportScope,
     matchesWeaponFilters,
     normalizeSearchText,
+    stripSupportScopeTerms,
+    supportScopeFromSearchQuery,
   };
 })(globalThis);
