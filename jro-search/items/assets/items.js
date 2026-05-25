@@ -38,9 +38,16 @@
       position: '装備位置',
       weapon: '武器',
     };
-    const accessoryPositionKeys = ['accessory_1', 'accessory_2'];
+    const {
+      displayPositionLabels,
+      includesAny,
+      matchesPositionFilters,
+      matchesSearchQuery,
+      matchesWeaponFilters,
+    } = globalThis.JroSearchItemSearchCore;
     let itemIndex = [];
-    let jobMaster = { groups: {}, jobs: {}, tiers: {} };
+    let jobMaster = { groups: {}, jobs: {}, tiers: {}, weapon_categories_by_job: {} };
+    let jobFilterMatcher = globalThis.JroSearchJobFilter.createMatcher(jobMaster);
     let enchantmentTargetsByItemId = new Map();
     let enchantmentTargetsByName = new Map();
     let activeItemId = null;
@@ -136,39 +143,6 @@
 
     const resizeWithPointer = (event) => {
       setSearchPaneWidth(event.clientX);
-    };
-
-    const toHiragana = (value) => value.replace(/[\u30a1-\u30f6]/g, (char) => (
-      String.fromCharCode(char.charCodeAt(0) - 0x60)
-    ));
-
-    const compactSearchText = (value) => value.replace(/[\s!"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~、。，．・：；？！「」『』【】（）［］｛｝〈〉《》〔〕〜～ー]/g, '');
-
-    const normalizeSearchText = (value) => compactSearchText(
-      toHiragana(value.normalize('NFKC').toLowerCase()).replace(/[っッ]/g, '')
-    );
-
-    const matchesPartialText = (text, query) => {
-      const normalizedText = normalizeSearchText(text);
-      const normalizedQuery = normalizeSearchText(query);
-
-      return normalizedQuery === '' || normalizedText.includes(normalizedQuery);
-    };
-
-    const splitSearchTerms = (query) => query
-      .normalize('NFKC')
-      .trim()
-      .split(/\s+/)
-      .filter(Boolean);
-
-    const matchesSearchQuery = (text, query) => {
-      const terms = splitSearchTerms(query);
-
-      if (terms.length === 0) {
-        return true;
-      }
-
-      return terms.every((term) => matchesPartialText(text, term));
     };
 
     const formatGeneratedDate = (generatedAt) => {
@@ -287,7 +261,9 @@
         groups: master?.groups || {},
         jobs: master?.jobs || {},
         tiers: master?.tiers || {},
+        weapon_categories_by_job: master?.weapon_categories_by_job || {},
       };
+      jobFilterMatcher = globalThis.JroSearchJobFilter.createMatcher(jobMaster);
 
       renderOptionChips(jobGroupFilterRow, 'job_group', orderedEntries(jobMaster.groups));
       renderOptionChips(jobTierFilterRow, 'job_tier', orderedEntries(jobMaster.tiers));
@@ -632,111 +608,11 @@
       selectedFilterList.replaceChildren(fragment);
     };
 
-    const includesAny = (values, selectedValues) => (
-      selectedValues.length === 0 || selectedValues.some((selectedValue) => values.includes(selectedValue))
+    const selectedJobCodes = () => jobFilterMatcher.selectedJobCodes(
+      getSelectedFilters('job'),
+      getSelectedFilters('job_group'),
+      getSelectedFilters('job_tier'),
     );
-
-    const matchesWeaponFilters = (weaponCategories, selectedWeapons) => {
-      if (selectedWeapons.length === 0) {
-        return true;
-      }
-
-      return selectedWeapons.some((weapon) => weaponCategories[weapon] === true);
-    };
-
-    const matchesPositionFilters = (positions, selectedPositions) => {
-      if (selectedPositions.length === 0) {
-        return true;
-      }
-
-      return selectedPositions.some((position) => {
-        if (position === 'accessory') {
-          return accessoryPositionKeys.some((key) => positions[key]);
-        }
-
-        if (position === 'accessory_1') {
-          return positions.accessory_1 === true && positions.accessory_2 !== true;
-        }
-
-        if (position === 'accessory_2') {
-          return positions.accessory_2 === true && positions.accessory_1 !== true;
-        }
-
-        return positions[position] === true && positions.accessory !== true;
-      });
-    };
-
-    const displayPositionLabels = (item) => {
-      const positions = item.classification?.positions || {};
-      const labels = item.classification?.position_labels || [];
-
-      if (! accessoryPositionKeys.every((key) => positions[key])) {
-        return Array.from(new Set(labels));
-      }
-
-      return Array.from(new Set([
-        ...labels.filter((label) => label !== 'アクセサリー(1)' && label !== 'アクセサリー(2)'),
-        'アクセサリー',
-      ]));
-    };
-
-    const activeKeys = (values) => Object.keys(values || {}).filter((key) => values[key]);
-
-    const jobCodesForGroups = (groupCodes) => groupCodes.flatMap((groupCode) => (
-      jobMaster.groups[groupCode]?.jobs || []
-    ));
-
-    const jobCodesForTiers = (tierCodes) => tierCodes.flatMap((tierCode) => (
-      jobMaster.tiers[tierCode]?.jobs || []
-    ));
-
-    const selectedJobCodes = () => Array.from(new Set([
-      ...getSelectedFilters('job'),
-      ...jobCodesForGroups(getSelectedFilters('job_group')),
-      ...jobCodesForTiers(getSelectedFilters('job_tier')),
-    ]));
-
-    const excludedJobCodes = (equipJobs) => new Set([
-      ...activeKeys(equipJobs.exclude_jobs),
-      ...jobCodesForGroups(activeKeys(equipJobs.exclude_groups)),
-    ]);
-
-    const hasJobConditions = (equipJobs) => (
-      equipJobs.all
-        || activeKeys(equipJobs.include_jobs).length > 0
-        || activeKeys(equipJobs.include_groups).length > 0
-        || activeKeys(equipJobs.exclude_jobs).length > 0
-        || activeKeys(equipJobs.exclude_groups).length > 0
-    );
-
-    const allowedJobCodes = (equipJobs) => {
-      const conditions = equipJobs || {};
-      const excluded = excludedJobCodes(conditions);
-      const hasConditions = hasJobConditions(conditions);
-      const included = conditions.all ? Object.keys(jobMaster.jobs || {}) : [
-        ...activeKeys(conditions.include_jobs),
-        ...jobCodesForGroups(activeKeys(conditions.include_groups)),
-      ];
-
-      return Array.from(new Set(hasConditions ? included : Object.keys(jobMaster.jobs || {})))
-        .filter((jobCode) => !excluded.has(jobCode));
-    };
-
-    const matchesJobFilters = (item, selectedJobs) => {
-      if (selectedJobs.length === 0) {
-        return true;
-      }
-
-      const equipJobs = item.classification?.equip_jobs || {};
-
-      if (!hasJobConditions(equipJobs)) {
-        return item.classification?.equipment === true;
-      }
-
-      const allowedJobs = allowedJobCodes(equipJobs);
-
-      return selectedJobs.some((jobCode) => allowedJobs.includes(jobCode));
-    };
 
     const getSearchableText = (item, target) => {
       const name = item.name || '';
@@ -760,21 +636,25 @@
     };
 
     const activateResult = (item, shouldSwitchPreviewTab = false) => {
+      const isSameItem = activeItemId === item.item_id;
+
       activeItemId = item.item_id;
       resultList.querySelectorAll('.result-button').forEach((button) => {
         button.classList.toggle('is-active', button.dataset.itemId === item.item_id);
       });
       setPreviewEmptyState(false);
-      renderEnchantSummary(item);
 
       const name = item.name || '公式アイテムページ';
       const url = item.official_url || 'about:blank';
 
-      previewTitleButton.textContent = name;
-      previewTitleButton.dataset.officialUrl = url;
-      previewUrl.textContent = url;
-      officialFrame.src = url;
-      openOfficial.href = url;
+      if (!isSameItem) {
+        renderEnchantSummary(item);
+        previewTitleButton.textContent = name;
+        previewTitleButton.dataset.officialUrl = url;
+        previewUrl.textContent = url;
+        officialFrame.src = url;
+        openOfficial.href = url;
+      }
 
       if (shouldSwitchPreviewTab && window.matchMedia('(max-width: 960px)').matches) {
         setActiveMainTab('preview');
@@ -785,9 +665,9 @@
       const keyword = keywordInput.value.trim();
       const target = searchTargetSelect.value;
       const selectedPositions = getSelectedFilters('position');
-      const selectedWeapons = getSelectedFilters('weapon');
       const selectedEnchants = getSelectedFilters('enchant');
       const selectedJobs = selectedJobCodes();
+      const selectedWeapons = getSelectedFilters('weapon');
       const hasConditions = keyword !== ''
         || selectedPositions.length > 0
         || selectedWeapons.length > 0
@@ -805,7 +685,7 @@
         const matchesPositions = matchesPositionFilters(positions, selectedPositions);
         const matchesWeapons = matchesWeaponFilters(weaponCategories, selectedWeapons);
         const matchesEnchants = includesAny(enchants, selectedEnchants);
-        const matchesJobs = matchesJobFilters(item, selectedJobs);
+        const matchesJobs = jobFilterMatcher.matchesJobFilters(item, selectedJobs);
 
         return matchesKeyword && matchesPositions && matchesWeapons && matchesEnchants && matchesJobs;
       }) : [];

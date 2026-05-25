@@ -981,5 +981,952 @@
                 "spirit_handler"
             ]
         }
+    },
+    "weapon_sets": {
+        "swordman_weapon_set": {
+            "jobs": [
+                "swordman",
+                "knight",
+                "crusader",
+                "lord_knight",
+                "paladin",
+                "rune_knight",
+                "royal_guard",
+                "imperial_guard"
+            ],
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "two_handed_sword",
+                "one_handed_spear",
+                "two_handed_spear",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "magician_weapon_set": {
+            "jobs": [
+                "magician",
+                "wizard",
+                "high_wizard",
+                "warlock",
+                "arch_mage"
+            ],
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "sage_weapon_set": {
+            "jobs": [
+                "sage",
+                "professor",
+                "sorcerer",
+                "elemental_master"
+            ],
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff",
+                "book"
+            ]
+        },
+        "archer_weapon_set": {
+            "jobs": [
+                "archer",
+                "hunter",
+                "sniper",
+                "ranger",
+                "windhawk"
+            ],
+            "weapon_categories": [
+                "dagger",
+                "bow"
+            ]
+        },
+        "dancer_weapon_set": {
+            "jobs": [
+                "dancer",
+                "gypsy",
+                "wanderer",
+                "trouvere"
+            ],
+            "weapon_categories": [
+                "dagger",
+                "bow",
+                "whip"
+            ]
+        },
+        "bard_weapon_set": {
+            "jobs": [
+                "bard",
+                "clown",
+                "minstrel",
+                "troubadour"
+            ],
+            "weapon_categories": [
+                "dagger",
+                "bow",
+                "instrument"
+            ]
+        },
+        "priest_weapon_set": {
+            "jobs": [
+                "acolyte",
+                "priest",
+                "high_priest",
+                "arch_bishop",
+                "cardinal"
+            ],
+            "weapon_categories": [
+                "one_handed_staff",
+                "two_handed_staff",
+                "mace"
+            ]
+        },
+        "monk_weapon_set": {
+            "jobs": [
+                "monk",
+                "champion",
+                "sura",
+                "inquisitor"
+            ],
+            "weapon_categories": [
+                "mace",
+                "one_handed_staff",
+                "two_handed_staff",
+                "knuckle"
+            ]
+        },
+        "thief_rogue_weapon_set": {
+            "jobs": [
+                "thief",
+                "rogue",
+                "chaser",
+                "shadow_chaser",
+                "abyss_chaser"
+            ],
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "bow",
+                "one_handed_axe"
+            ]
+        },
+        "assassin_weapon_set": {
+            "jobs": [
+                "assassin",
+                "assassin_cross",
+                "guillotine_cross"
+            ],
+            "weapon_categories": [
+                "dagger",
+                "katar",
+                "one_handed_sword",
+                "one_handed_axe"
+            ]
+        },
+        "shadow_cross_weapon_set": {
+            "jobs": [
+                "shadow_cross"
+            ],
+            "weapon_categories": [
+                "one_handed_sword",
+                "katar",
+                "one_handed_axe"
+            ]
+        },
+        "blacksmith_weapon_set": {
+            "jobs": [
+                "merchant",
+                "blacksmith",
+                "whitesmith",
+                "mechanic",
+                "meister"
+            ],
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "alchemist_weapon_set": {
+            "jobs": [
+                "alchemist",
+                "creator",
+                "genetic",
+                "biolo"
+            ],
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "taekwon_kid_weapon_set": {
+            "jobs": [
+                "taekwon_kid"
+            ],
+            "weapon_categories": []
+        },
+        "star_gladiator_weapon_set": {
+            "jobs": [
+                "star_gladiator",
+                "star_emperor",
+                "sky_emperor"
+            ],
+            "weapon_categories": [
+                "book"
+            ]
+        },
+        "soul_linker_weapon_set": {
+            "jobs": [
+                "soul_linker",
+                "soul_reaper",
+                "soul_ascetic"
+            ],
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "ninja_weapon_set": {
+            "jobs": [
+                "ninja",
+                "kagerou",
+                "oboro",
+                "shinkiro",
+                "shiranui"
+            ],
+            "weapon_categories": [
+                "huuma_shuriken",
+                "dagger"
+            ]
+        },
+        "gunslinger_weapon_set": {
+            "jobs": [
+                "gunslinger",
+                "rebellion",
+                "night_watch"
+            ],
+            "weapon_categories": [
+                "gun"
+            ]
+        },
+        "druid_weapon_set": {
+            "jobs": [
+                "druid",
+                "karnos",
+                "aletheia"
+            ],
+            "weapon_categories": [
+                "dagger",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "novice_weapon_set": {
+            "jobs": [
+                "novice",
+                "super_novice",
+                "super_novice_limit_break",
+                "hyper_novice"
+            ],
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "summoner_weapon_set": {
+            "jobs": [
+                "summoner"
+            ],
+            "weapon_categories": [
+                "one_handed_staff"
+            ],
+            "requires_explicit_equip_job": true,
+            "explicit_equip_groups": [
+                "summoner"
+            ],
+            "explicit_equip_jobs": [
+                "summoner"
+            ]
+        },
+        "spirit_handler_weapon_set": {
+            "jobs": [
+                "spirit_handler"
+            ],
+            "weapon_categories": [
+                "one_handed_staff"
+            ],
+            "requires_explicit_equip_job": true,
+            "explicit_equip_groups": [
+                "summoner"
+            ],
+            "explicit_equip_jobs": [
+                "summoner",
+                "spirit_handler"
+            ]
+        }
+    },
+    "weapon_categories_by_job": {
+        "swordman": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "two_handed_sword",
+                "one_handed_spear",
+                "two_handed_spear",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "knight": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "two_handed_sword",
+                "one_handed_spear",
+                "two_handed_spear",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "crusader": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "two_handed_sword",
+                "one_handed_spear",
+                "two_handed_spear",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "lord_knight": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "two_handed_sword",
+                "one_handed_spear",
+                "two_handed_spear",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "paladin": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "two_handed_sword",
+                "one_handed_spear",
+                "two_handed_spear",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "rune_knight": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "two_handed_sword",
+                "one_handed_spear",
+                "two_handed_spear",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "royal_guard": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "two_handed_sword",
+                "one_handed_spear",
+                "two_handed_spear",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "imperial_guard": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "two_handed_sword",
+                "one_handed_spear",
+                "two_handed_spear",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "magician": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "wizard": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "high_wizard": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "warlock": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "arch_mage": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "sage": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff",
+                "book"
+            ]
+        },
+        "professor": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff",
+                "book"
+            ]
+        },
+        "sorcerer": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff",
+                "book"
+            ]
+        },
+        "elemental_master": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff",
+                "book"
+            ]
+        },
+        "archer": {
+            "weapon_categories": [
+                "dagger",
+                "bow"
+            ]
+        },
+        "hunter": {
+            "weapon_categories": [
+                "dagger",
+                "bow"
+            ]
+        },
+        "sniper": {
+            "weapon_categories": [
+                "dagger",
+                "bow"
+            ]
+        },
+        "ranger": {
+            "weapon_categories": [
+                "dagger",
+                "bow"
+            ]
+        },
+        "windhawk": {
+            "weapon_categories": [
+                "dagger",
+                "bow"
+            ]
+        },
+        "dancer": {
+            "weapon_categories": [
+                "dagger",
+                "bow",
+                "whip"
+            ]
+        },
+        "gypsy": {
+            "weapon_categories": [
+                "dagger",
+                "bow",
+                "whip"
+            ]
+        },
+        "wanderer": {
+            "weapon_categories": [
+                "dagger",
+                "bow",
+                "whip"
+            ]
+        },
+        "trouvere": {
+            "weapon_categories": [
+                "dagger",
+                "bow",
+                "whip"
+            ]
+        },
+        "bard": {
+            "weapon_categories": [
+                "dagger",
+                "bow",
+                "instrument"
+            ]
+        },
+        "clown": {
+            "weapon_categories": [
+                "dagger",
+                "bow",
+                "instrument"
+            ]
+        },
+        "minstrel": {
+            "weapon_categories": [
+                "dagger",
+                "bow",
+                "instrument"
+            ]
+        },
+        "troubadour": {
+            "weapon_categories": [
+                "dagger",
+                "bow",
+                "instrument"
+            ]
+        },
+        "acolyte": {
+            "weapon_categories": [
+                "one_handed_staff",
+                "two_handed_staff",
+                "mace"
+            ]
+        },
+        "priest": {
+            "weapon_categories": [
+                "one_handed_staff",
+                "two_handed_staff",
+                "mace"
+            ]
+        },
+        "high_priest": {
+            "weapon_categories": [
+                "one_handed_staff",
+                "two_handed_staff",
+                "mace"
+            ]
+        },
+        "arch_bishop": {
+            "weapon_categories": [
+                "one_handed_staff",
+                "two_handed_staff",
+                "mace"
+            ]
+        },
+        "cardinal": {
+            "weapon_categories": [
+                "one_handed_staff",
+                "two_handed_staff",
+                "mace"
+            ]
+        },
+        "monk": {
+            "weapon_categories": [
+                "mace",
+                "one_handed_staff",
+                "two_handed_staff",
+                "knuckle"
+            ]
+        },
+        "champion": {
+            "weapon_categories": [
+                "mace",
+                "one_handed_staff",
+                "two_handed_staff",
+                "knuckle"
+            ]
+        },
+        "sura": {
+            "weapon_categories": [
+                "mace",
+                "one_handed_staff",
+                "two_handed_staff",
+                "knuckle"
+            ]
+        },
+        "inquisitor": {
+            "weapon_categories": [
+                "mace",
+                "one_handed_staff",
+                "two_handed_staff",
+                "knuckle"
+            ]
+        },
+        "thief": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "bow",
+                "one_handed_axe"
+            ]
+        },
+        "rogue": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "bow",
+                "one_handed_axe"
+            ]
+        },
+        "chaser": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "bow",
+                "one_handed_axe"
+            ]
+        },
+        "shadow_chaser": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "bow",
+                "one_handed_axe"
+            ]
+        },
+        "abyss_chaser": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "bow",
+                "one_handed_axe"
+            ]
+        },
+        "assassin": {
+            "weapon_categories": [
+                "dagger",
+                "katar",
+                "one_handed_sword",
+                "one_handed_axe"
+            ]
+        },
+        "assassin_cross": {
+            "weapon_categories": [
+                "dagger",
+                "katar",
+                "one_handed_sword",
+                "one_handed_axe"
+            ]
+        },
+        "guillotine_cross": {
+            "weapon_categories": [
+                "dagger",
+                "katar",
+                "one_handed_sword",
+                "one_handed_axe"
+            ]
+        },
+        "shadow_cross": {
+            "weapon_categories": [
+                "one_handed_sword",
+                "katar",
+                "one_handed_axe"
+            ]
+        },
+        "merchant": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "blacksmith": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "whitesmith": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "mechanic": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "meister": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "alchemist": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "creator": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "genetic": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "biolo": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "taekwon_kid": {
+            "weapon_categories": []
+        },
+        "star_gladiator": {
+            "weapon_categories": [
+                "book"
+            ]
+        },
+        "star_emperor": {
+            "weapon_categories": [
+                "book"
+            ]
+        },
+        "sky_emperor": {
+            "weapon_categories": [
+                "book"
+            ]
+        },
+        "soul_linker": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "soul_reaper": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "soul_ascetic": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "ninja": {
+            "weapon_categories": [
+                "huuma_shuriken",
+                "dagger"
+            ]
+        },
+        "kagerou": {
+            "weapon_categories": [
+                "huuma_shuriken",
+                "dagger"
+            ]
+        },
+        "oboro": {
+            "weapon_categories": [
+                "huuma_shuriken",
+                "dagger"
+            ]
+        },
+        "shinkiro": {
+            "weapon_categories": [
+                "huuma_shuriken",
+                "dagger"
+            ]
+        },
+        "shiranui": {
+            "weapon_categories": [
+                "huuma_shuriken",
+                "dagger"
+            ]
+        },
+        "gunslinger": {
+            "weapon_categories": [
+                "gun"
+            ]
+        },
+        "rebellion": {
+            "weapon_categories": [
+                "gun"
+            ]
+        },
+        "night_watch": {
+            "weapon_categories": [
+                "gun"
+            ]
+        },
+        "druid": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "karnos": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "aletheia": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace"
+            ]
+        },
+        "novice": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "super_novice": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "super_novice_limit_break": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "hyper_novice": {
+            "weapon_categories": [
+                "dagger",
+                "one_handed_sword",
+                "one_handed_axe",
+                "two_handed_axe",
+                "mace",
+                "one_handed_staff",
+                "two_handed_staff"
+            ]
+        },
+        "summoner": {
+            "weapon_categories": [
+                "one_handed_staff"
+            ],
+            "requires_explicit_equip_job": true,
+            "explicit_equip_groups": [
+                "summoner"
+            ],
+            "explicit_equip_jobs": [
+                "summoner"
+            ]
+        },
+        "spirit_handler": {
+            "weapon_categories": [
+                "one_handed_staff"
+            ],
+            "requires_explicit_equip_job": true,
+            "explicit_equip_groups": [
+                "summoner"
+            ],
+            "explicit_equip_jobs": [
+                "summoner",
+                "spirit_handler"
+            ]
+        }
     }
 }
