@@ -70,6 +70,8 @@
 
   const isCostumeItem = (item) => item.classification?.support_equipment_type === 'costume';
   const isShadowItem = (item) => item.classification?.support_equipment_type === 'shadow';
+  const isEquipmentItem = (item) => ['normal', 'support'].includes(item.classification?.equipment_group);
+  const isCardItem = (item) => item.classification?.card === true;
 
   const matchesSupportScope = (item, scope) => {
     if (scope === 'costume') {
@@ -90,6 +92,14 @@
 
     if (scope === 'shadow') {
       return isShadowItem(item);
+    }
+
+    if (scope === 'equipment') {
+      return isEquipmentItem(item);
+    }
+
+    if (scope === 'card') {
+      return isCardItem(item);
     }
 
     if (scope === 'non-costume') {
