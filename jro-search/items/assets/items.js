@@ -20,6 +20,7 @@
     const previewEmpty = document.getElementById('previewEmpty');
     const previewHeader = document.getElementById('previewHeader');
     const enchantSummary = document.getElementById('enchantSummary');
+    const itemDetails = document.getElementById('itemDetails');
     const iframeWrap = document.getElementById('iframeWrap');
     const previewTitleButton = document.getElementById('previewTitleButton');
     const previewUrl = document.getElementById('previewUrl');
@@ -415,6 +416,7 @@
       previewEmpty.classList.toggle('is-visible', isEmpty);
       previewHeader.hidden = isEmpty;
       enchantSummary.hidden = isEmpty;
+      itemDetails.hidden = isEmpty;
       iframeWrap.hidden = isEmpty;
 
       if (isEmpty) {
@@ -425,6 +427,7 @@
         officialFrame.src = 'about:blank';
         openOfficial.href = 'about:blank';
         enchantSummary.replaceChildren();
+        itemDetails.replaceChildren();
       }
     };
 
@@ -705,6 +708,51 @@
       });
     };
 
+    const renderItemDetails = (item) => {
+      const description = String(item.description || '').trim();
+      const details = item.details && typeof item.details === 'object' ? Object.entries(item.details) : [];
+      const wasOpen = itemDetails.querySelector('.item-details-disclosure')?.open ?? false;
+      itemDetails.replaceChildren();
+
+      if (!description && details.length === 0) {
+        itemDetails.hidden = true;
+        return;
+      }
+
+      const disclosure = createElement('details', 'preview-disclosure item-details-disclosure');
+      const heading = createElement('summary', 'preview-disclosure-heading', 'アイテム説明');
+      const body = createElement('div', 'preview-disclosure-body item-details-body');
+
+      disclosure.open = wasOpen;
+      disclosure.append(heading, body);
+
+      if (description) {
+        body.append(createElement('p', 'item-description', description));
+      }
+
+      if (details.length > 0) {
+        const list = createElement('dl', 'item-detail-list');
+
+        details.forEach(([label, value]) => {
+          if (!label || value === undefined || value === null) {
+            return;
+          }
+
+          list.append(
+            createElement('dt', 'item-detail-label', label),
+            createElement('dd', 'item-detail-value', String(value))
+          );
+        });
+
+        if (list.children.length > 0) {
+          body.append(list);
+        }
+      }
+
+      itemDetails.append(disclosure);
+      itemDetails.hidden = body.children.length === 0;
+    };
+
     const renderEnchantSet = (set, expanded) => {
       const wrapper = createElement('div', `enchant-set${expanded ? '' : ' is-collapsed'}`);
       const toggle = createElement('button', 'enchant-set-toggle');
@@ -931,6 +979,7 @@
 
       if (!isSameItem) {
         renderEnchantSummary(item);
+        renderItemDetails(item);
         previewTitleButton.textContent = name;
         previewTitleButton.dataset.officialUrl = url;
         previewUrl.textContent = url;

@@ -801,12 +801,13 @@
       position: sticky;
       top: 0;
       align-self: start;
-      display: grid;
-      grid-template-rows: auto auto minmax(0, 1fr);
+      display: flex;
+      flex-direction: column;
       height: 100%;
       max-height: 100%;
       overflow-x: hidden;
       overflow-y: auto;
+      scrollbar-gutter: stable;
       overscroll-behavior: contain;
     }
 
@@ -820,6 +821,7 @@
 
     .preview-header[hidden],
     .enchant-summary[hidden],
+    .item-details[hidden],
     .iframe-wrap[hidden] {
       display: none;
     }
@@ -835,6 +837,7 @@
 
     .preview-empty.is-visible {
       display: grid;
+      flex: 1 1 auto;
     }
 
     .preview-empty-title {
@@ -907,6 +910,89 @@
       padding: 12px 14px;
       border-bottom: 1px solid var(--border);
       background: var(--surface-muted);
+    }
+
+    .item-details {
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .preview-disclosure {
+      min-width: 0;
+    }
+
+    .preview-disclosure-heading {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 8px;
+      min-height: 40px;
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .preview-disclosure-heading::-webkit-details-marker {
+      display: none;
+    }
+
+    .preview-disclosure-heading::after {
+      color: var(--text);
+      content: "›";
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 1;
+      transition: transform 0.16s ease;
+    }
+
+    .preview-disclosure[open] > .preview-disclosure-heading::after {
+      transform: rotate(90deg);
+    }
+
+    .preview-disclosure-heading:hover {
+      background: var(--surface-muted);
+    }
+
+    .preview-disclosure-body {
+      min-width: 0;
+    }
+
+    .item-details-body {
+      display: grid;
+      gap: 10px;
+      padding: 12px 14px;
+    }
+
+    .item-description {
+      margin: 0;
+      color: var(--text);
+      font-size: 13px;
+      white-space: pre-wrap;
+    }
+
+    .item-detail-list {
+      display: grid;
+      grid-template-columns: max-content minmax(0, 1fr);
+      gap: 6px 10px;
+      margin: 0;
+      font-size: 12px;
+    }
+
+    .item-detail-label {
+      min-width: 0;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .item-detail-value {
+      min-width: 0;
+      margin: 0;
+      color: var(--text);
+      overflow-wrap: anywhere;
     }
 
     .enchant-set {
@@ -1152,9 +1238,17 @@
     }
 
     .iframe-wrap {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      flex: 1 1 auto;
       position: relative;
       min-height: 0;
       background: var(--frame-bg);
+    }
+
+    .iframe-wrap:not([open]):not([hidden]) {
+      display: block;
+      flex: 0 0 auto;
     }
 
     .official-frame {

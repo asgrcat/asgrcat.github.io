@@ -17,7 +17,7 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="./assets/items.css?v=20260526044302">
+  <link rel="stylesheet" href="./assets/items.css?v=20260526125533">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FBS7Y3XEZ"></script>
   <script>
@@ -217,23 +217,28 @@
 
           <div class="enchant-summary" id="enchantSummary" aria-label="エンチャント対応情報" hidden></div>
 
-          <div class="iframe-wrap" id="iframeWrap" hidden>
-            <iframe
-              class="official-frame"
-              id="officialFrame"
-              title="公式アイテムページ"
-              src="about:blank"
-              loading="lazy"
-              referrerpolicy="no-referrer"
-            ></iframe>
-          </div>
+          <div class="item-details" id="itemDetails" aria-label="アイテム説明と詳細" hidden></div>
+
+          <details class="iframe-wrap preview-disclosure" id="iframeWrap" hidden>
+            <summary class="preview-disclosure-heading">公式ページ</summary>
+            <div class="preview-disclosure-body">
+              <iframe
+                class="official-frame"
+                id="officialFrame"
+                title="公式アイテムページ"
+                src="about:blank"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              ></iframe>
+            </div>
+          </details>
         </section>
       </main>
     </div>
   </div>
 
-  <script src="./assets/search-core.js?v=20260526044302"></script>
-  <script src="./assets/job-filter.js?v=20260526044302"></script>
-  <script src="./assets/items.js?v=20260526044302"></script>
+  <script src="./assets/search-core.js?v=20260526125533"></script>
+  <script src="./assets/job-filter.js?v=20260526125533"></script>
+  <script src="./assets/items.js?v=20260526125533"></script>
 </body>
 </html>
