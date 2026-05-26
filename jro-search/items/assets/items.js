@@ -54,7 +54,9 @@
     const {
       displayPositionLabels,
       includesAny,
+      itemCategoryKeys,
       matchesCostumeScope,
+      matchesItemCategoryFilters,
       matchesPositionFilters,
       matchesSearchQuery,
       matchesSupportScope,
@@ -72,6 +74,14 @@
     let hasSearched = false;
     let analyticsImpressionObserver = null;
     const observedAnalyticsClickables = new WeakSet();
+    const enchantTargetCategoryOptions = [
+      ['weapon', '武器'],
+      ['armor', '防具'],
+      ['accessory', 'アクセ'],
+      ['costume', '衣装'],
+      ['shadow', 'シャドウ'],
+      ['other', 'その他'],
+    ];
 
     const currentTheme = () => (document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light');
 
@@ -631,6 +641,8 @@
       slot.slot_label,
     ].filter(Boolean).join(' / ');
 
+    const targetEnchantTypeLabel = (set) => set.name || set.key || set.type || 'エンチャント';
+
     const registerEnchantmentTarget = (targetMap, key, targetItem, set, slot) => {
       const normalizedKey = key === null || key === undefined ? '' : String(key);
 
@@ -643,9 +655,13 @@
         item_id: targetItem.item_id,
         name: targetItem.name || '',
         official_url: targetItem.official_url || '',
+        classification: targetItem.classification || {},
+        category_keys: itemCategoryKeys(targetItem),
+        enchant_types: new Map(),
         sources: new Set(),
       };
 
+      target.enchant_types.set(enchantFilterKey(set), targetEnchantTypeLabel(set));
       target.sources.add(targetSourceLabel(set, slot));
       existing.set(targetItem.item_id, target);
       targetMap.set(normalizedKey, existing);
@@ -689,6 +705,8 @@
     const renderEnchantSummary = (item) => {
       const sets = item.enchantments?.sets || [];
       const targetItems = enchantmentTargetsForItem(item);
+
+      enchantSummary.classList.toggle('is-targets-only', targetItems.length > 0 && sets.length === 0);
       enchantSummary.replaceChildren();
 
       if (targetItems.length > 0) {
@@ -802,28 +820,140 @@
       return wrapper;
     };
 
+    const renderEnchantmentTargetFilterGroup = (label, controls) => {
+      const wrapper = createElement('div', 'enchant-target-filter-group');
+      const heading = createElement('div', 'enchant-target-filter-label', label);
+
+      wrapper.append(heading, controls);
+
+      return wrapper;
+    };
+
     const renderEnchantmentTargetItems = (item, targetItems) => {
-      const wrapper = createElement('div', 'enchant-targets');
-      const header = createElement('div', 'enchant-targets-header');
+      const wrapper = createElement('details', 'enchant-targets');
+      const header = createElement('summary', 'enchant-targets-header');
       const title = createElement('div', 'enchant-targets-title', 'エンチャント可能アイテム');
       const count = createElement('span', 'meta-chip', `${targetItems.length}件`);
+      const body = createElement('div', 'enchant-targets-body');
+      const controls = createElement('div', 'enchant-target-controls');
+      const search = createElement('input', 'text-field enchant-target-filter-input');
+      const categoryRow = createElement('div', 'chip-row enchant-target-category-row');
+      const enchantTypeRow = createElement('div', 'chip-row enchant-target-enchant-row');
       const list = createElement('div', 'enchant-target-list');
-
-      header.append(title, count);
+      const empty = createElement('div', 'enchant-target-empty', '条件に一致するアイテムはありません。');
+      const availableCategories = new Set(targetItems.flatMap((target) => target.category_keys || []));
+      const categoryOptions = enchantTargetCategoryOptions.filter(([key]) => availableCategories.has(key));
+      const enchantTypeOptions = new Map();
 
       targetItems.forEach((target) => {
-        const button = createElement('button', 'enchant-target-button');
-        const name = createElement('span', 'enchant-target-name', target.name);
-        const sources = createElement('span', 'enchant-target-source', Array.from(target.sources).join('、'));
-
-        button.type = 'button';
-        button.dataset.itemId = target.item_id;
-        button.setAttribute('aria-label', `${item.name || 'エンチャント'}をエンチャント可能な${target.name}を公式プレビューに表示`);
-        button.append(name, sources);
-        list.append(button);
+        target.enchant_types?.forEach((label, key) => enchantTypeOptions.set(key, label));
       });
 
-      wrapper.append(header, list);
+      const renderList = () => {
+        const keyword = search.value.trim();
+        const selectedCategories = Array.from(categoryRow.querySelectorAll('[data-target-category][aria-pressed="true"]'))
+          .map((button) => button.dataset.targetCategory);
+        const selectedEnchantTypes = Array.from(enchantTypeRow.querySelectorAll('[data-target-enchant][aria-pressed="true"]'))
+          .map((button) => button.dataset.targetEnchant);
+        const filteredItems = targetItems.filter((target) => {
+          const categoryLabels = (target.category_keys || [])
+            .map((category) => categoryOptions.find(([key]) => key === category)?.[1] || category)
+            .join(' ');
+          const enchantTypeLabels = Array.from(target.enchant_types?.values() || []).join(' ');
+          const searchableText = `${target.name} ${Array.from(target.sources).join(' ')} ${enchantTypeLabels} ${categoryLabels}`;
+          const matchesKeyword = matchesSearchQuery(searchableText, keyword);
+          const matchesCategory = matchesItemCategoryFilters({ classification: target.classification || {} }, selectedCategories);
+          const matchesEnchantType = selectedEnchantTypes.length === 0
+            || selectedEnchantTypes.some((key) => target.enchant_types?.has(key));
+
+          return matchesKeyword && matchesCategory && matchesEnchantType;
+        });
+
+        const fragment = document.createDocumentFragment();
+
+        filteredItems.forEach((target) => {
+          const button = createElement('button', 'enchant-target-button');
+          const name = createElement('span', 'enchant-target-name', target.name);
+          const sources = createElement('span', 'enchant-target-source', Array.from(target.sources).join('、'));
+
+          button.type = 'button';
+          button.dataset.itemId = target.item_id;
+          button.setAttribute('aria-label', `${item.name || 'エンチャント'}をエンチャント可能な${target.name}を公式プレビューに表示`);
+          button.append(name, sources);
+          fragment.append(button);
+        });
+
+        list.replaceChildren(fragment);
+        count.textContent = filteredItems.length === targetItems.length
+          ? `${targetItems.length}件`
+          : `${filteredItems.length}/${targetItems.length}件`;
+        empty.hidden = filteredItems.length > 0;
+      };
+
+      wrapper.open = targetItems.length <= 12;
+      header.append(title, count);
+
+      search.type = 'search';
+      search.placeholder = 'アイテム名・エンチャント名で絞り込み';
+      search.setAttribute('aria-label', 'エンチャント可能アイテムの絞り込み');
+
+      categoryOptions.forEach(([key, label]) => {
+        const chip = createElement('button', 'chip', label);
+
+        chip.type = 'button';
+        chip.setAttribute('aria-pressed', 'false');
+        chip.dataset.targetCategory = key;
+        categoryRow.append(chip);
+      });
+
+      enchantTypeOptions.forEach((label, key) => {
+        const chip = createElement('button', 'chip', label);
+
+        chip.type = 'button';
+        chip.setAttribute('aria-pressed', 'false');
+        chip.dataset.targetEnchant = key;
+        enchantTypeRow.append(chip);
+      });
+
+      search.addEventListener('input', renderList);
+      categoryRow.addEventListener('click', (event) => {
+        const chip = event.target.closest('[data-target-category]');
+
+        if (!chip || !categoryRow.contains(chip)) {
+          return;
+        }
+
+        const pressed = chip.getAttribute('aria-pressed') === 'true';
+
+        chip.setAttribute('aria-pressed', String(!pressed));
+        renderList();
+      });
+      enchantTypeRow.addEventListener('click', (event) => {
+        const chip = event.target.closest('[data-target-enchant]');
+
+        if (!chip || !enchantTypeRow.contains(chip)) {
+          return;
+        }
+
+        const pressed = chip.getAttribute('aria-pressed') === 'true';
+
+        chip.setAttribute('aria-pressed', String(!pressed));
+        renderList();
+      });
+
+      controls.append(search);
+
+      if (enchantTypeRow.children.length > 1) {
+        controls.append(renderEnchantmentTargetFilterGroup('エンチャント種別', enchantTypeRow));
+      }
+
+      if (categoryRow.children.length > 1) {
+        controls.append(renderEnchantmentTargetFilterGroup('アイテム種別', categoryRow));
+      }
+
+      body.append(controls, list, empty);
+      wrapper.append(header, body);
+      renderList();
 
       return wrapper;
     };

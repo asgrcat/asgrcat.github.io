@@ -912,6 +912,12 @@
       background: var(--surface-muted);
     }
 
+    .enchant-summary.is-targets-only {
+      gap: 0;
+      padding: 0;
+      background: var(--surface);
+    }
+
     .item-details {
       border-bottom: 1px solid var(--border);
       background: var(--surface);
@@ -1014,24 +1020,94 @@
     }
 
     .enchant-targets {
-      display: grid;
-      gap: 8px;
       border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 9px;
       background: var(--surface-panel);
+      overflow: hidden;
+    }
+
+    .enchant-summary.is-targets-only .enchant-targets {
+      border: 0;
+      border-radius: 0;
+      background: transparent;
     }
 
     .enchant-targets-header {
-      display: flex;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto;
       align-items: center;
-      justify-content: space-between;
       gap: 10px;
+      min-height: 44px;
+      padding: 8px 9px;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .enchant-summary.is-targets-only .enchant-targets-header {
+      min-height: 40px;
+      padding: 10px 14px;
+    }
+
+    .enchant-targets-header::-webkit-details-marker {
+      display: none;
+    }
+
+    .enchant-targets-header::after {
+      color: var(--text);
+      content: "›";
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 1;
+      transition: transform 0.16s ease;
+    }
+
+    .enchant-targets[open] > .enchant-targets-header::after {
+      transform: rotate(90deg);
+    }
+
+    .enchant-targets-header:hover {
+      background: var(--primary-soft);
     }
 
     .enchant-targets-title {
       font-size: 13px;
       font-weight: 700;
+    }
+
+    .enchant-targets-body {
+      display: grid;
+      gap: 8px;
+      padding: 0 9px 9px;
+    }
+
+    .enchant-summary.is-targets-only .enchant-targets-body {
+      padding: 0 14px 12px;
+    }
+
+    .enchant-target-controls {
+      display: grid;
+      gap: 7px;
+    }
+
+    .enchant-target-filter-group {
+      display: grid;
+      gap: 5px;
+    }
+
+    .enchant-target-filter-label {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .enchant-target-filter-input {
+      min-height: 34px;
+      font-size: 12px;
+    }
+
+    .enchant-target-category-row,
+    .enchant-target-enchant-row {
+      max-height: 66px;
     }
 
     .enchant-target-list {
@@ -1040,6 +1116,24 @@
       overflow: auto;
       border: 1px solid var(--border);
       border-radius: 7px;
+    }
+
+    .enchant-target-list:empty {
+      display: none;
+    }
+
+    .enchant-target-empty {
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      padding: 10px;
+      background: var(--surface-panel-muted);
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .enchant-target-empty[hidden] {
+      display: none;
     }
 
     .enchant-target-button {

@@ -1,5 +1,6 @@
 ((global) => {
   const accessoryPositionKeys = ['accessory_1', 'accessory_2'];
+  const armorPositionKeys = ['upper', 'middle', 'lower', 'armor', 'shield', 'shoes', 'garment'];
 
   const toHiragana = (value) => value.replace(/[\u30a1-\u30f6]/g, (char) => (
     String.fromCharCode(char.charCodeAt(0) - 0x60)
@@ -120,6 +121,43 @@
     });
   };
 
+  const itemCategoryKeys = (item) => {
+    const classification = item.classification || {};
+    const positions = classification.positions || {};
+    const weaponCategories = classification.weapon_categories || {};
+    const categories = [];
+
+    if (positions.weapon === true || weaponCategories.weapon === true) {
+      categories.push('weapon');
+    }
+
+    if (armorPositionKeys.some((position) => positions[position] === true)) {
+      categories.push('armor');
+    }
+
+    if (positions.accessory === true || accessoryPositionKeys.some((position) => positions[position] === true)) {
+      categories.push('accessory');
+    }
+
+    if (isCostumeItem(item)) {
+      categories.push('costume');
+    }
+
+    if (isShadowItem(item)) {
+      categories.push('shadow');
+    }
+
+    if (categories.length === 0) {
+      categories.push('other');
+    }
+
+    return categories;
+  };
+
+  const matchesItemCategoryFilters = (item, selectedCategories) => (
+    selectedCategories.length === 0 || includesAny(itemCategoryKeys(item), selectedCategories)
+  );
+
   const displayPositionLabels = (item) => {
     const positions = item.classification?.positions || {};
     const labels = item.classification?.position_labels || [];
@@ -137,7 +175,9 @@
   global.JroSearchItemSearchCore = {
     displayPositionLabels,
     includesAny,
+    itemCategoryKeys,
     matchesCostumeScope,
+    matchesItemCategoryFilters,
     matchesPositionFilters,
     matchesSearchQuery,
     matchesSupportScope,
