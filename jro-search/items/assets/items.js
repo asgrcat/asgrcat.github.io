@@ -718,19 +718,29 @@
 
     const isEnchantmentItem = (item) => enchantmentTargetsForItem(item).length > 0;
 
+    const costumeTargetItemsForItem = (item) => (
+      Array.isArray(item.costume_targets) ? item.costume_targets : []
+    );
+
     const renderEnchantSummary = (item) => {
       const sets = item.enchantments?.sets || [];
       const targetItems = enchantmentTargetsForItem(item);
+      const costumeTargetItems = costumeTargetItemsForItem(item);
+      const hasTargetItems = targetItems.length > 0 || costumeTargetItems.length > 0;
 
-      enchantSummary.classList.toggle('is-targets-only', targetItems.length > 0 && sets.length === 0);
+      enchantSummary.classList.toggle('is-targets-only', hasTargetItems && sets.length === 0);
       enchantSummary.replaceChildren();
 
       if (targetItems.length > 0) {
         enchantSummary.append(renderEnchantmentTargetItems(item, targetItems));
       }
 
+      if (costumeTargetItems.length > 0) {
+        enchantSummary.append(renderCostumeTargetItems(item, costumeTargetItems));
+      }
+
       if (sets.length === 0) {
-        if (targetItems.length === 0) {
+        if (!hasTargetItems) {
           enchantSummary.append(createElement('div', 'enchant-empty', 'このアイテムのエンチャント情報はありません。'));
         }
 
@@ -894,6 +904,7 @@
 
           button.type = 'button';
           button.dataset.itemId = target.item_id;
+          button.dataset.officialUrl = target.official_url || '';
           button.setAttribute('aria-label', `${item.name || 'エンチャント'}をエンチャント可能な${target.name}を公式プレビューに表示`);
           button.append(name, sources);
           fragment.append(button);
@@ -970,6 +981,36 @@
       body.append(controls, list, empty);
       wrapper.append(header, body);
       renderList();
+
+      return wrapper;
+    };
+
+    const renderCostumeTargetItems = (item, targetItems) => {
+      const wrapper = createElement('details', 'enchant-targets costume-targets');
+      const header = createElement('summary', 'enchant-targets-header');
+      const title = createElement('div', 'enchant-targets-title', '対象アイテム');
+      const count = createElement('span', 'meta-chip', `${targetItems.length}件`);
+      const body = createElement('div', 'enchant-targets-body');
+      const list = createElement('div', 'enchant-target-list');
+      const fragment = document.createDocumentFragment();
+
+      targetItems.forEach((target) => {
+        const button = createElement('button', 'enchant-target-button');
+        const name = createElement('span', 'enchant-target-name', target.name);
+
+        button.type = 'button';
+        button.dataset.itemId = target.item_id || '';
+        button.dataset.officialUrl = target.official_url || '';
+        button.setAttribute('aria-label', `${item.name || 'コスたま'}の対象アイテム ${target.name} を公式プレビューに表示`);
+        button.append(name);
+        fragment.append(button);
+      });
+
+      wrapper.open = true;
+      header.append(title, count);
+      list.append(fragment);
+      body.append(list);
+      wrapper.append(header, body);
 
       return wrapper;
     };
@@ -1388,6 +1429,12 @@
     resetButton.addEventListener('click', resetFilters);
     previewTitleButton.addEventListener('click', () => {
       enchantSummary.querySelectorAll('.effect-button').forEach((item) => item.classList.remove('is-active'));
+      const item = itemIndex.find((candidate) => candidate.item_id === activeItemId);
+
+      if (item) {
+        renderItemDetails(item);
+      }
+
       officialFrame.src = previewTitleButton.dataset.officialUrl || 'about:blank';
     });
 
@@ -1413,7 +1460,10 @@
         const item = itemIndex.find((candidate) => candidate.item_id === targetButton.dataset.itemId);
 
         if (item) {
+          renderItemDetails(item);
           officialFrame.src = item.official_url || 'about:blank';
+        } else {
+          officialFrame.src = targetButton.dataset.officialUrl || 'about:blank';
         }
 
         return;
