@@ -32,6 +32,7 @@
       --table-heading-text: #174151;
       --slot-text: #334155;
       --nav-badge-bg: rgba(100, 116, 139, 0.12);
+      --tooltip-bg: #ffffff;
       --shadow: 0 12px 30px rgba(31, 41, 51, 0.08);
       font-family: Inter, "BIZ UDPGothic", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", Meiryo, sans-serif;
     }
@@ -70,6 +71,7 @@
       --table-heading-text: #a8e4e6;
       --slot-text: #c4ccd1;
       --nav-badge-bg: rgba(167, 176, 182, 0.16);
+      --tooltip-bg: #20262a;
       --shadow: 0 12px 30px rgba(0, 0, 0, 0.32);
     }
 
@@ -653,6 +655,7 @@
     }
 
     .chip {
+      position: relative;
       min-height: 28px;
       border: 1px solid var(--border);
       border-radius: 6px;
@@ -661,6 +664,37 @@
       color: var(--text);
       font-size: 12px;
       white-space: nowrap;
+    }
+
+    .chip[data-tooltip]::after {
+      position: absolute;
+      z-index: 20;
+      bottom: calc(100% + 8px);
+      left: 50%;
+      width: max-content;
+      max-width: min(280px, 80vw);
+      padding: 7px 9px;
+      border: 1px solid var(--border-strong);
+      border-radius: 6px;
+      background: var(--tooltip-bg);
+      box-shadow: var(--shadow);
+      color: var(--text);
+      content: attr(data-tooltip);
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 1.45;
+      opacity: 0;
+      pointer-events: none;
+      text-align: left;
+      transform: translate(-50%, 4px);
+      transition: opacity 0.12s ease, transform 0.12s ease;
+      white-space: normal;
+    }
+
+    .chip[data-tooltip]:hover::after,
+    .chip[data-tooltip]:focus-visible::after {
+      opacity: 1;
+      transform: translate(-50%, 0);
     }
 
     .chip[aria-pressed="true"] {
