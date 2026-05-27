@@ -304,8 +304,10 @@
     .search-pane {
       grid-column: 1;
       display: grid;
-      grid-template-rows: auto minmax(0, 1fr);
-      overflow: hidden;
+      grid-template-rows: auto auto;
+      align-content: start;
+      overflow-x: hidden;
+      overflow-y: auto;
     }
 
     .pane-resizer {
@@ -713,8 +715,8 @@
 
     .results-area {
       display: grid;
-      grid-template-rows: auto minmax(0, 1fr);
-      min-height: 0;
+      grid-template-rows: auto auto;
+      min-width: 0;
     }
 
     .results-toolbar {
@@ -734,14 +736,14 @@
     .result-list {
       grid-row: 2;
       grid-column: 1;
-      min-height: 0;
+      min-width: 0;
       margin: 0;
       padding: 0;
-      overflow: auto;
       list-style: none;
     }
 
     .result-item {
+      min-width: 0;
       border-bottom: 1px solid var(--border);
     }
 
@@ -752,7 +754,9 @@
     .result-button {
       display: block;
       width: 100%;
+      max-width: 100%;
       border: 0;
+      overflow: hidden;
       padding: 11px 14px;
       background: var(--surface);
       color: inherit;
@@ -765,17 +769,21 @@
     }
 
     .result-main {
+      display: block;
       min-width: 0;
+      max-width: 100%;
     }
 
     .result-title-row {
       display: flex;
+      min-width: 0;
       align-items: center;
       justify-content: space-between;
       gap: 8px;
     }
 
     .result-title {
+      min-width: 0;
       overflow: hidden;
       font-weight: 700;
       text-overflow: ellipsis;
@@ -784,6 +792,7 @@
 
     .result-summary {
       display: block;
+      width: 100%;
       max-width: 100%;
       margin-top: 3px;
       overflow: hidden;
@@ -796,6 +805,7 @@
     .tag-row {
       display: flex;
       flex-wrap: wrap;
+      min-width: 0;
       gap: 5px;
       margin-top: 7px;
     }
