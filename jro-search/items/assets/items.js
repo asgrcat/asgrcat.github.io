@@ -173,6 +173,13 @@
       );
     };
 
+    const analyticsFilterControlLabel = (element) => {
+      const group = filterGroupLabels[element.dataset.filterGroup] || element.dataset.filterGroup || '';
+      const value = normalizeAnalyticsText(element.textContent || element.dataset.filterValue || '');
+
+      return group && value ? `${group}: ${value}` : value;
+    };
+
     const analyticsClickParameters = (element) => {
       const parameters = {
         click_area: analyticsClickArea(element),
@@ -186,10 +193,19 @@
 
       if (element.dataset.filterGroup) {
         parameters.filter_group = element.dataset.filterGroup;
+        parameters.filter_label = analyticsFilterControlLabel(element);
       }
 
       if (element.dataset.filterValue) {
         parameters.filter_value = element.dataset.filterValue;
+      }
+
+      if (element.dataset.filterGroup && element.getAttribute('aria-pressed')) {
+        parameters.filter_state = element.getAttribute('aria-pressed') === 'true' ? 'selected' : 'unselected';
+      }
+
+      if (element.classList.contains('selected-filter-remove')) {
+        parameters.filter_action = 'remove';
       }
 
       if (element.dataset.costumeScope) {
@@ -1056,6 +1072,25 @@
 
     const joinedAnalyticsFilters = (group) => getSelectedFilters(group).join('|');
 
+    const analyticsFilterState = () => ({
+      active_filter_count: getSelectedFilterChips().length,
+      costume_scope: selectedCostumeScope(),
+      position_filters: joinedAnalyticsFilters('position'),
+      weapon_filters: joinedAnalyticsFilters('weapon'),
+      enchant_filters: joinedAnalyticsFilters('enchant'),
+      job_group_filters: joinedAnalyticsFilters('job_group'),
+      job_tier_filters: joinedAnalyticsFilters('job_tier'),
+      job_filters: joinedAnalyticsFilters('job'),
+    });
+
+    const trackFilterChangeAnalytics = (parameters, resultTotal) => {
+      sendAnalyticsEvent('filter_change', {
+        ...parameters,
+        result_count: resultTotal,
+        ...analyticsFilterState(),
+      });
+    };
+
     const trackSearchAnalytics = (resultTotal) => {
       const keyword = keywordInput.value.trim();
 
@@ -1063,14 +1098,25 @@
         has_search_term: String(keyword !== ''),
         search_target: searchTargetSelect.value,
         result_count: resultTotal,
-        costume_scope: selectedCostumeScope(),
         keyword_support_scope: supportScopeFromSearchQuery(keyword),
-        position_filters: joinedAnalyticsFilters('position'),
-        weapon_filters: joinedAnalyticsFilters('weapon'),
-        enchant_filters: joinedAnalyticsFilters('enchant'),
-        job_group_filters: joinedAnalyticsFilters('job_group'),
-        job_tier_filters: joinedAnalyticsFilters('job_tier'),
-        job_filters: joinedAnalyticsFilters('job'),
+        ...analyticsFilterState(),
+      });
+    };
+
+    const trackSearchResultClickAnalytics = (item) => {
+      const keyword = keywordInput.value.trim();
+      const resultIndex = currentResults.findIndex((result) => result.item_id === item.item_id);
+
+      sendAnalyticsEvent('search_result_click', {
+        item_id: item.item_id,
+        item_name: normalizeAnalyticsText(item.name || ''),
+        item_url: item.official_url || '',
+        result_position: resultIndex >= 0 ? resultIndex + 1 : null,
+        result_count: currentResults.length,
+        has_search_term: String(keyword !== ''),
+        search_target: searchTargetSelect.value,
+        keyword_support_scope: supportScopeFromSearchQuery(keyword),
+        ...analyticsFilterState(),
       });
     };
 
@@ -1403,6 +1449,7 @@
 
       if (item) {
         activateResult(item, true);
+        trackSearchResultClickAnalytics(item);
       }
     });
 
@@ -1415,9 +1462,18 @@
         return;
       }
 
-      setCostumeScope(button.dataset.costumeScope || 'all');
+      const scope = button.dataset.costumeScope || 'all';
+
+      setCostumeScope(scope);
       hasSearched = true;
-      applyFilters();
+      const resultTotal = applyFilters();
+
+      trackFilterChangeAnalytics({
+        filter_group: 'item_category',
+        filter_value: scope,
+        filter_label: normalizeAnalyticsText(button.textContent || scope),
+        filter_action: 'set',
+      }, resultTotal);
     });
 
     searchControls.addEventListener('click', (event) => {
@@ -1430,7 +1486,14 @@
       const pressed = chip.getAttribute('aria-pressed') === 'true';
       chip.setAttribute('aria-pressed', String(!pressed));
       hasSearched = true;
-      applyFilters();
+      const resultTotal = applyFilters();
+
+      trackFilterChangeAnalytics({
+        filter_group: chip.dataset.filterGroup,
+        filter_value: chip.dataset.filterValue,
+        filter_label: analyticsFilterControlLabel(chip),
+        filter_action: pressed ? 'remove' : 'add',
+      }, resultTotal);
     });
 
     selectedFilterList.addEventListener('click', (event) => {
@@ -1446,7 +1509,14 @@
 
       chip?.setAttribute('aria-pressed', 'false');
       hasSearched = true;
-      applyFilters();
+      const resultTotal = applyFilters();
+
+      trackFilterChangeAnalytics({
+        filter_group: remove.dataset.filterGroup,
+        filter_value: remove.dataset.filterValue,
+        filter_label: chip ? analyticsFilterControlLabel(chip) : analyticsClickLabel(remove),
+        filter_action: 'remove',
+      }, resultTotal);
     });
 
     themeButtons.forEach((button) => {
