@@ -32,18 +32,30 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="./assets/items.css?v=20260530171702">
+  <link rel="stylesheet" href="./assets/items.css?v=20260531073157">
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FBS7Y3XEZ"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    (() => {
+      const analyticsHosts = new Set(['asgrcat.github.io']);
 
-    gtag('config', 'G-6FBS7Y3XEZ', {
-      content_group: 'items',
-      jro_search_section: 'items',
-    });
+      if (!analyticsHosts.has(window.location.hostname)) {
+        return;
+      }
+
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-6FBS7Y3XEZ';
+      document.head.append(script);
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function gtag(){window.dataLayer.push(arguments);};
+      window.gtag('js', new Date());
+
+      window.gtag('config', 'G-6FBS7Y3XEZ', {
+        content_group: 'items',
+        jro_search_section: 'items',
+      });
+    })();
   </script>
 </head>
 <body>
@@ -180,11 +192,19 @@
                     </div>
                   </div>
                   <div class="filter-subgroup filter-row-offset">
+                    <div class="filter-subheading">武器Lv</div>
+                    <div class="chip-row" id="weaponLevelFilterRow" aria-label="武器レベル"></div>
+                  </div>
+                  <div class="filter-subgroup filter-row-offset">
                     <div class="filter-subheading">超越段階</div>
                     <div class="chip-row" aria-label="超越段階">
                       <button class="chip" type="button" aria-pressed="false" data-filter-group="transcendence" data-filter-value="1">★1</button>
                       <button class="chip" type="button" aria-pressed="false" data-filter-group="transcendence" data-filter-value="2">★2</button>
                     </div>
+                  </div>
+                  <div class="filter-subgroup filter-row-offset">
+                    <div class="filter-subheading">要求Lv</div>
+                    <div class="chip-row" id="requiredLevelFilterRow" aria-label="要求Lv"></div>
                   </div>
                 </details>
 
@@ -272,8 +292,8 @@
     </div>
   </div>
 
-  <script src="./assets/search-core.js?v=20260530171702"></script>
-  <script src="./assets/job-filter.js?v=20260530171702"></script>
-  <script src="./assets/items.js?v=20260530171702"></script>
+  <script src="./assets/search-core.js?v=20260531073157"></script>
+  <script src="./assets/job-filter.js?v=20260531073157"></script>
+  <script src="./assets/items.js?v=20260531073157"></script>
 </body>
 </html>

@@ -652,6 +652,7 @@
       max-height: 88px;
       overflow: auto;
       padding-right: 2px;
+      scrollbar-gutter: stable;
     }
 
     .filter-row-offset {
@@ -667,6 +668,7 @@
       background: var(--control-bg);
       color: var(--text);
       font-size: 12px;
+      font-weight: 700;
       white-space: nowrap;
     }
 
