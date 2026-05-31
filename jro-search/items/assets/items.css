@@ -146,8 +146,13 @@
       display: none;
     }
 
-    .nav-menu:not([open]) > nav {
-      display: block;
+    .nav-menu-check {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: 0;
+      opacity: 0;
+      pointer-events: none;
     }
 
     .nav-section-title {
@@ -1438,10 +1443,10 @@
         gap: 12px;
         width: 100%;
         height: auto;
-        padding: 8px 14px;
+        padding: 8px 14px 6px;
         overflow: visible;
         border-right: 0;
-        border-bottom: 1px solid var(--border);
+        border-bottom: 0;
       }
 
       .brand {
@@ -1470,10 +1475,6 @@
         cursor: pointer;
       }
 
-      .nav-menu-toggle::-webkit-details-marker {
-        display: none;
-      }
-
       .nav-menu-toggle::after {
         width: 7px;
         height: 7px;
@@ -1483,15 +1484,20 @@
         transform: rotate(45deg) translateY(-2px);
       }
 
-      .nav-menu[open] .nav-menu-toggle::after {
+      .nav-menu-check:focus-visible + .nav-menu-toggle {
+        outline: 3px solid color-mix(in srgb, var(--focus) 28%, transparent);
+        outline-offset: 2px;
+      }
+
+      .nav-menu-check:checked + .nav-menu-toggle::after {
         transform: rotate(225deg) translate(-1px, -1px);
       }
 
-      .nav-menu:not([open]) > nav {
+      .nav-menu-check:not(:checked) ~ nav {
         display: none;
       }
 
-      .nav-menu[open] > nav {
+      .nav-menu-check:checked ~ nav {
         position: absolute;
         top: calc(100% + 8px);
         right: 0;
@@ -1511,6 +1517,24 @@
 
       .workspace {
         height: auto;
+      }
+
+      .app-header {
+        display: flex;
+        justify-content: flex-end;
+        min-height: 0;
+        padding: 0 14px 8px;
+        border-bottom: 1px solid var(--border);
+        background: var(--sidebar-bg);
+        backdrop-filter: none;
+      }
+
+      .page-title {
+        display: none;
+      }
+
+      .header-meta {
+        justify-content: flex-end;
       }
 
       .nav-section-title,
@@ -1598,7 +1622,7 @@
     @media (max-width: 640px) {
       .sidebar {
         gap: 10px;
-        padding: 7px 12px;
+        padding: 7px 12px 5px;
       }
 
       .brand {
@@ -1606,20 +1630,43 @@
       }
 
       .app-header {
-        align-items: start;
-        flex-direction: column;
+        padding: 0 12px 8px;
       }
 
       .header-meta {
-        justify-content: flex-start;
+        justify-content: flex-end;
       }
 
       .main-grid {
         padding: 8px;
       }
 
+      .search-controls {
+        grid-template-columns: minmax(0, 1fr) auto;
+      }
+
       .field-row {
-        grid-template-columns: 1fr;
+        display: contents;
+      }
+
+      .text-field {
+        grid-column: 1 / -1;
+      }
+
+      .select-field {
+        grid-column: 1;
+        min-width: 0;
+      }
+
+      .action-row {
+        grid-column: 2;
+        gap: 6px;
+      }
+
+      .costume-scope-row,
+      .selected-filters,
+      .filter-panel {
+        grid-column: 1 / -1;
       }
 
       .filter-subgroup {
