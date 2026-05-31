@@ -142,6 +142,14 @@
       font-size: 12px;
     }
 
+    .nav-menu-toggle {
+      display: none;
+    }
+
+    .nav-menu:not([open]) > nav {
+      display: block;
+    }
+
     .nav-section-title {
       margin: 0 8px 6px;
       color: var(--muted);
@@ -1415,24 +1423,90 @@
     @media (max-width: 960px) {
       .app-shell {
         grid-template-columns: 1fr;
+        grid-template-rows: auto minmax(0, 1fr);
+        align-content: start;
       }
 
       .sidebar {
         position: sticky;
         top: 0;
         z-index: 2;
-        flex-direction: row;
+        align-self: start;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
         align-items: center;
+        gap: 12px;
+        width: 100%;
         height: auto;
-        overflow-x: auto;
+        padding: 8px 14px;
+        overflow: visible;
         border-right: 0;
         border-bottom: 1px solid var(--border);
       }
 
       .brand {
-        min-width: 174px;
+        min-width: 0;
         border-bottom: 0;
-        padding-bottom: 4px;
+        padding: 0;
+      }
+
+      .nav-menu {
+        position: relative;
+        justify-self: end;
+      }
+
+      .nav-menu-toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        min-height: 32px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 5px 10px;
+        background: var(--surface);
+        color: var(--text);
+        font-weight: 700;
+        list-style: none;
+        cursor: pointer;
+      }
+
+      .nav-menu-toggle::-webkit-details-marker {
+        display: none;
+      }
+
+      .nav-menu-toggle::after {
+        width: 7px;
+        height: 7px;
+        border-right: 2px solid currentColor;
+        border-bottom: 2px solid currentColor;
+        content: "";
+        transform: rotate(45deg) translateY(-2px);
+      }
+
+      .nav-menu[open] .nav-menu-toggle::after {
+        transform: rotate(225deg) translate(-1px, -1px);
+      }
+
+      .nav-menu:not([open]) > nav {
+        display: none;
+      }
+
+      .nav-menu[open] > nav {
+        position: absolute;
+        top: calc(100% + 8px);
+        right: 0;
+        z-index: 4;
+        min-width: min(240px, calc(100vw - 24px));
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 8px;
+        background: var(--surface);
+        box-shadow: var(--shadow);
+      }
+
+      .nav-link {
+        min-height: 34px;
+        padding: 6px 10px;
       }
 
       .workspace {
@@ -1445,8 +1519,8 @@
       }
 
       .nav-list {
-        grid-auto-flow: column;
-        grid-auto-columns: max-content;
+        grid-auto-flow: row;
+        grid-auto-columns: auto;
       }
 
       .main-grid {
@@ -1522,6 +1596,15 @@
     }
 
     @media (max-width: 640px) {
+      .sidebar {
+        gap: 10px;
+        padding: 7px 12px;
+      }
+
+      .brand {
+        min-width: 0;
+      }
+
       .app-header {
         align-items: start;
         flex-direction: column;
