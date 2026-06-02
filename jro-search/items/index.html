@@ -33,7 +33,7 @@
     })();
   </script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="./assets/items.css?v=f20fbe65a1cf">
+  <link rel="stylesheet" href="./assets/items.css?v=4b35730353c8">
   <!-- Google tag (gtag.js) -->
   <script>
     (() => {
@@ -90,7 +90,7 @@
       <header class="app-header">
         <h1 class="page-title">アイテム検索</h1>
         <div class="header-meta">
-          <span class="header-pill" id="updateStatus">v26.6.8</span>
+          <span class="header-pill" id="updateStatus">v26.6.9</span>
           <button class="update-info-button" id="updateInfoButton" type="button" aria-label="追加情報を表示" aria-expanded="false" aria-controls="updateInfoPopover" hidden>
             <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
           </button>
@@ -131,6 +131,10 @@
             <div class="action-row" aria-label="検索操作">
               <button class="button button-primary" id="searchButton" type="button">検索</button>
               <button class="button button-subtle" id="resetButton" type="button">リセット</button>
+              <button class="button button-subtle" id="compareToolButton" type="button">
+                <i class="fa-solid fa-code-compare" aria-hidden="true"></i>
+                比較
+              </button>
             </div>
 
             <div class="costume-scope-row" id="costumeScopeRow" role="radiogroup" aria-label="アイテム種別フィルター">
@@ -310,8 +314,43 @@
     </div>
   </div>
 
+  <div class="compare-modal" id="compareModal" role="dialog" aria-modal="true" aria-labelledby="compareModalTitle" hidden>
+    <div class="compare-modal-panel">
+      <header class="compare-modal-header">
+        <h2 class="compare-modal-title" id="compareModalTitle">アイテム比較</h2>
+        <button class="compare-modal-close" id="compareModalClose" type="button" aria-label="比較を閉じる">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </header>
+      <div class="compare-modal-body">
+        <section class="compare-picker" aria-label="比較対象を選択">
+          <div class="compare-side-switch" role="group" aria-label="候補の設定先">
+            <button class="compare-side-button" id="compareSideLeft" type="button" data-compare-side="left" aria-pressed="false">左に設定</button>
+            <button class="compare-side-button" id="compareSideRight" type="button" data-compare-side="right" aria-pressed="true">右に設定</button>
+          </div>
+          <input class="text-field compare-search" id="compareSearchInput" type="search" placeholder="比較するアイテム名で検索">
+          <div class="compare-candidate-list" id="compareCandidateList"></div>
+          <div class="compare-candidate-empty" id="compareCandidateEmpty">候補がありません。</div>
+        </section>
+        <section class="compare-result" aria-label="比較結果">
+          <div class="compare-column-headings">
+            <div class="compare-column-heading">
+              <span class="compare-column-label">左</span>
+              <span class="compare-column-title" id="compareLeftTitle">未選択</span>
+            </div>
+            <div class="compare-column-heading">
+              <span class="compare-column-label">右</span>
+              <span class="compare-column-title" id="compareRightTitle">未選択</span>
+            </div>
+          </div>
+          <div class="compare-rows" id="compareRows"></div>
+        </section>
+      </div>
+    </div>
+  </div>
+
   <script src="./assets/search-core.js?v=baca2fb5ecba"></script>
   <script src="./assets/job-filter.js?v=d99a7da54926"></script>
-  <script src="./assets/items.js?v=5464de18c835"></script>
+  <script src="./assets/items.js?v=0c449805bc51"></script>
 </body>
 </html>
