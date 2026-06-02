@@ -826,6 +826,60 @@
       scrollbar-gutter: stable;
     }
 
+    .filter-resizable-row {
+      height: var(--filter-row-height, 88px);
+      max-height: none;
+      padding: 6px 8px 4px;
+      align-content: flex-start;
+    }
+
+    .filter-resizable-shell {
+      --filter-row-height: 88px;
+      display: grid;
+      grid-template-rows: minmax(44px, var(--filter-row-height)) 16px;
+      min-width: 0;
+      min-height: 60px;
+      max-height: 276px;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      background: var(--surface-panel);
+      overflow: hidden;
+    }
+
+    .filter-resize-handle {
+      display: grid;
+      place-items: center;
+      height: 16px;
+      border: 0;
+      border-top: 1px solid var(--border);
+      border-radius: 0;
+      padding: 0;
+      background: var(--surface-muted);
+      color: var(--muted);
+      cursor: ns-resize;
+      touch-action: none;
+    }
+
+    .filter-resize-handle:hover,
+    .filter-resize-handle:focus-visible,
+    .filter-resize-handle.is-dragging {
+      background: color-mix(in srgb, var(--primary) 14%, var(--surface-muted));
+      color: var(--primary-strong);
+    }
+
+    .filter-resize-handle:focus-visible {
+      outline: 3px solid color-mix(in srgb, var(--focus) 28%, transparent);
+      outline-offset: -2px;
+    }
+
+    .filter-resize-handle span {
+      width: 38px;
+      height: 3px;
+      border-radius: 999px;
+      background: currentColor;
+      opacity: 0.76;
+    }
+
     .filter-row-offset {
       margin-top: 8px;
     }
@@ -1037,6 +1091,9 @@
 
     .preview-header {
       display: grid;
+      align-content: start;
+      align-items: start;
+      grid-auto-rows: max-content;
       gap: 8px;
       padding: 13px 14px;
       border-bottom: 1px solid var(--border);
@@ -1083,6 +1140,7 @@
       align-items: start;
       justify-content: space-between;
       gap: 12px;
+      align-self: start;
     }
 
     .preview-title-row > :first-child {
@@ -1131,6 +1189,7 @@
       display: flex;
       flex: 0 1 auto;
       flex-wrap: wrap;
+      align-self: flex-start;
       justify-content: flex-end;
       gap: 8px;
       max-width: 100%;
@@ -1299,7 +1358,7 @@
 
     .compare-picker {
       display: grid;
-      grid-template-rows: auto auto minmax(0, 1fr) auto;
+      grid-template-rows: auto auto auto auto minmax(0, 1fr) auto;
       gap: 10px;
       min-height: 0;
       padding: 12px;
@@ -1342,6 +1401,21 @@
 
     .compare-search {
       min-width: 0;
+    }
+
+    .compare-target-row,
+    .compare-scope-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      min-width: 0;
+    }
+
+    .compare-target-row .chip,
+    .compare-scope-row .chip {
+      min-height: 27px;
+      padding: 3px 9px;
+      font-size: 11px;
     }
 
     .compare-candidate-list {
@@ -1924,10 +1998,12 @@
 
       .nav-menu-check:checked ~ nav {
         position: absolute;
-        top: calc(100% + 8px);
+        top: calc(100% + 48px);
         right: 0;
         z-index: 4;
         min-width: min(240px, calc(100vw - 24px));
+        max-height: calc(100vh - 108px);
+        overflow-y: auto;
         border: 1px solid var(--border);
         border-radius: 8px;
         padding: 8px;
@@ -2001,6 +2077,11 @@
       .field-row,
       .action-row {
         grid-column: 1;
+      }
+
+      #compareToolButton,
+      .compare-modal {
+        display: none !important;
       }
 
       .compare-modal {
@@ -2145,5 +2226,14 @@
       .preview-title-row {
         align-items: stretch;
         flex-direction: column;
+        justify-content: flex-start;
+      }
+
+      .preview-title-row > :first-child {
+        flex-basis: auto;
+      }
+
+      .preview-actions {
+        align-self: flex-end;
       }
     }

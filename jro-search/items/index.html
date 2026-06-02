@@ -33,7 +33,7 @@
     })();
   </script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="./assets/items.css?v=4b35730353c8">
+  <link rel="stylesheet" href="./assets/items.css?v=4df75b8ee445">
   <!-- Google tag (gtag.js) -->
   <script>
     (() => {
@@ -90,7 +90,7 @@
       <header class="app-header">
         <h1 class="page-title">アイテム検索</h1>
         <div class="header-meta">
-          <span class="header-pill" id="updateStatus">v26.6.9</span>
+          <span class="header-pill" id="updateStatus">v26.6.10</span>
           <button class="update-info-button" id="updateInfoButton" type="button" aria-label="追加情報を表示" aria-expanded="false" aria-controls="updateInfoPopover" hidden>
             <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
           </button>
@@ -114,7 +114,7 @@
       <main class="main-grid" id="mainGrid">
         <div class="main-tabs" role="tablist" aria-label="メイン表示切替">
           <button class="tab-button" id="searchTab" type="button" role="tab" aria-selected="true" aria-controls="searchPane">検索</button>
-          <button class="tab-button" id="previewTab" type="button" role="tab" aria-selected="false" aria-controls="previewPane">公式プレビュー</button>
+          <button class="tab-button" id="previewTab" type="button" role="tab" aria-selected="false" aria-controls="previewPane">アイテム詳細</button>
         </div>
 
         <section class="search-pane" id="searchPane" role="tabpanel" aria-labelledby="searchTab" aria-label="検索フォームと検索結果">
@@ -130,11 +130,11 @@
 
             <div class="action-row" aria-label="検索操作">
               <button class="button button-primary" id="searchButton" type="button">検索</button>
-              <button class="button button-subtle" id="resetButton" type="button">リセット</button>
               <button class="button button-subtle" id="compareToolButton" type="button">
                 <i class="fa-solid fa-code-compare" aria-hidden="true"></i>
                 比較
               </button>
+              <button class="button button-subtle" id="resetButton" type="button">リセット</button>
             </div>
 
             <div class="costume-scope-row" id="costumeScopeRow" role="radiogroup" aria-label="アイテム種別フィルター">
@@ -226,7 +226,12 @@
                   </div>
                   <div class="filter-subgroup filter-row-offset">
                     <div class="filter-subheading">要求Lv</div>
-                    <div class="chip-row" id="requiredLevelFilterRow" aria-label="要求Lv"></div>
+                    <div class="filter-resizable-shell">
+                      <div class="chip-row filter-resizable-row" id="requiredLevelFilterRow" aria-label="要求Lv"></div>
+                      <button class="filter-resize-handle" type="button" aria-label="要求Lvの表示高さを調整" aria-controls="requiredLevelFilterRow">
+                        <span aria-hidden="true"></span>
+                      </button>
+                    </div>
                   </div>
                 </details>
 
@@ -234,7 +239,12 @@
                   <summary class="filter-heading">
                     <span>エンチャント種別</span>
                   </summary>
-                  <div class="chip-row" id="enchantFilterRow" aria-label="エンチャント種別"></div>
+                  <div class="filter-resizable-shell">
+                    <div class="chip-row filter-resizable-row" id="enchantFilterRow" aria-label="エンチャント種別"></div>
+                    <button class="filter-resize-handle" type="button" aria-label="エンチャント種別の表示高さを調整" aria-controls="enchantFilterRow">
+                      <span aria-hidden="true"></span>
+                    </button>
+                  </div>
                 </details>
 
                 <details class="filter-group">
@@ -251,7 +261,12 @@
                   </div>
                   <div class="filter-subgroup">
                     <div class="filter-subheading">職業</div>
-                    <div class="chip-row" id="jobFilterRow" aria-label="職業"></div>
+                    <div class="filter-resizable-shell">
+                      <div class="chip-row filter-resizable-row" id="jobFilterRow" aria-label="職業"></div>
+                      <button class="filter-resize-handle" type="button" aria-label="職業の表示高さを調整" aria-controls="jobFilterRow">
+                        <span aria-hidden="true"></span>
+                      </button>
+                    </div>
                   </div>
                 </details>
               </div>
@@ -268,11 +283,11 @@
           </div>
         </section>
 
-        <div class="pane-resizer" id="paneResizer" role="separator" tabindex="0" aria-label="検索結果と公式プレビューの横幅を調整" aria-orientation="vertical">
+        <div class="pane-resizer" id="paneResizer" role="separator" tabindex="0" aria-label="検索結果とアイテム詳細の横幅を調整" aria-orientation="vertical">
           <span class="pane-resizer-label">左右ペインの幅を調整</span>
         </div>
 
-        <section class="preview-pane" id="previewPane" role="tabpanel" aria-labelledby="previewTab" aria-label="公式ページプレビュー">
+        <section class="preview-pane" id="previewPane" role="tabpanel" aria-labelledby="previewTab" aria-label="アイテム詳細">
           <div class="preview-empty is-visible" id="previewEmpty">
             <p class="preview-empty-title">アイテムを選択してください</p>
             <p class="preview-empty-text">検索結果からアイテムを選択すると、エンチャント情報と公式ページをここに表示します。</p>
@@ -329,6 +344,17 @@
             <button class="compare-side-button" id="compareSideRight" type="button" data-compare-side="right" aria-pressed="true">右に設定</button>
           </div>
           <input class="text-field compare-search" id="compareSearchInput" type="search" placeholder="比較するアイテム名で検索">
+          <div class="compare-target-row" id="compareTargetRow" role="group" aria-label="比較検索の対象">
+            <button class="chip" type="button" data-compare-target="name" aria-pressed="true">アイテム名</button>
+            <button class="chip" type="button" data-compare-target="description" aria-pressed="false">説明</button>
+            <button class="chip" type="button" data-compare-target="all" aria-pressed="false">全部</button>
+          </div>
+          <div class="compare-scope-row" id="compareScopeRow" role="group" aria-label="比較候補の絞り込み">
+            <button class="chip" type="button" data-compare-scope="all" aria-pressed="true">全て</button>
+            <button class="chip" type="button" data-compare-scope="card" aria-pressed="false">カード</button>
+            <button class="chip" type="button" data-compare-scope="enchantment" aria-pressed="false">エンチャント</button>
+            <button class="chip" type="button" data-compare-scope="equipment" aria-pressed="false">装備</button>
+          </div>
           <div class="compare-candidate-list" id="compareCandidateList"></div>
           <div class="compare-candidate-empty" id="compareCandidateEmpty">候補がありません。</div>
         </section>
@@ -351,6 +377,6 @@
 
   <script src="./assets/search-core.js?v=baca2fb5ecba"></script>
   <script src="./assets/job-filter.js?v=d99a7da54926"></script>
-  <script src="./assets/items.js?v=0c449805bc51"></script>
+  <script src="./assets/items.js?v=0263376753b3"></script>
 </body>
 </html>
