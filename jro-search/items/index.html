@@ -32,7 +32,8 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="./assets/items.css?v=248f0307e033">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/items.css?v=f20fbe65a1cf">
   <!-- Google tag (gtag.js) -->
   <script>
     (() => {
@@ -89,11 +90,24 @@
       <header class="app-header">
         <h1 class="page-title">アイテム検索</h1>
         <div class="header-meta">
-          <div class="theme-switch" role="group" aria-label="表示テーマ">
-            <button class="theme-option" type="button" data-theme-value="light" aria-pressed="true">ライト</button>
-            <button class="theme-option" type="button" data-theme-value="dark" aria-pressed="false">ダーク</button>
+          <span class="header-pill" id="updateStatus">v26.6.6</span>
+          <button class="update-info-button" id="updateInfoButton" type="button" aria-label="追加情報を表示" aria-expanded="false" aria-controls="updateInfoPopover" hidden>
+            <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+          </button>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="ダークモードに切り替え" aria-pressed="false" data-theme-value="light">
+            <i class="fa-solid fa-sun theme-toggle-icon" aria-hidden="true"></i>
+          </button>
+          <div class="update-info-popover" id="updateInfoPopover" role="dialog" aria-label="追加情報" hidden>
+            <div class="update-info-head">
+              <p class="update-info-title">追加情報</p>
+              <button class="update-info-close" id="updateInfoClose" type="button" aria-label="追加情報を閉じる">
+                <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+              </button>
+            </div>
+            <button class="update-info-summary" id="updateInfoSummary" type="button"></button>
+            <ul class="update-info-list" id="updateInfoList"></ul>
+            <p class="update-info-empty" id="updateInfoEmpty">今回追加されたアイテムはありません。</p>
           </div>
-          <span class="header-pill" id="updateStatus">v26.6.5</span>
         </div>
       </header>
 
@@ -298,6 +312,6 @@
 
   <script src="./assets/search-core.js?v=baca2fb5ecba"></script>
   <script src="./assets/job-filter.js?v=d99a7da54926"></script>
-  <script src="./assets/items.js?v=591074f66355"></script>
+  <script src="./assets/items.js?v=fc138c25bed0"></script>
 </body>
 </html>
