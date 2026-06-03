@@ -23,17 +23,22 @@
     (() => {
       try {
         const theme = window.localStorage.getItem('jro-search.items.theme');
+        const accent = window.localStorage.getItem('jro-search.items.accent');
 
         if (theme === 'dark' || theme === 'light') {
           document.documentElement.dataset.theme = theme;
         }
+
+        if (['blue', 'teal', 'violet', 'rose', 'amber'].includes(accent)) {
+          document.documentElement.dataset.accent = accent;
+        }
       } catch {
-        // Keep the default light theme when storage is unavailable.
+        // Keep the default dark theme when storage is unavailable.
       }
     })();
   </script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="./assets/items.css?v=4df75b8ee445">
+  <link rel="stylesheet" href="./assets/items.css?v=684b0f618037">
   <!-- Google tag (gtag.js) -->
   <script>
     (() => {
@@ -61,42 +66,69 @@
 </head>
 <body>
   <div class="app-shell">
-    <aside class="sidebar" aria-label="メインナビゲーション">
-      <div class="brand">
-        <p class="brand-title">JRO Search</p>
-        <p class="brand-subtitle">アイテム検索</p>
-      </div>
-
-      <div class="nav-menu">
-        <input class="nav-menu-check" id="navMenuToggle" type="checkbox" aria-label="メニューを開く">
-        <label class="nav-menu-toggle" for="navMenuToggle">メニュー</label>
-        <nav aria-label="検索カテゴリ">
-          <p class="nav-section-title">Search</p>
-          <ul class="nav-list">
-            <li><a class="nav-link" href="./" aria-current="page">アイテム検索</a></li>
-            <li><a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdXCycYpzNo10uk7OQH8SkYWCtEPN2WPfTvuBzbHrFYyhdyBg/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">問い合わせ</a></li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="sidebar-footer">
-        <p>© Gravity Co., Ltd. &amp; Lee MyoungJin(studio DTDS). All rights reserved.</p>
-        <p>© GungHo Online Entertainment, Inc. All Rights Reserved.</p>
-        <p>当コンテンツの再利用（再転載・配布など）は、禁止しています。</p>
-      </div>
-    </aside>
-
     <div class="workspace">
       <header class="app-header">
-        <h1 class="page-title">アイテム検索</h1>
+        <div class="brand">
+          <p class="brand-title">JRO Search</p>
+          <p class="brand-subtitle">アイテム検索</p>
+        </div>
+
+        <div class="nav-menu">
+          <input class="nav-menu-check" id="navMenuToggle" type="checkbox" aria-label="メニューを開く">
+          <label class="nav-menu-toggle" for="navMenuToggle">メニュー</label>
+          <nav aria-label="検索カテゴリ">
+            <p class="nav-section-title">Search</p>
+            <ul class="nav-list">
+              <li>
+                <a class="nav-link" href="./" aria-current="page">
+                  <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                  <span>アイテム検索</span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdXCycYpzNo10uk7OQH8SkYWCtEPN2WPfTvuBzbHrFYyhdyBg/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-solid fa-message" aria-hidden="true"></i>
+                  <span>問い合わせ</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square nav-link-external" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
         <div class="header-meta">
-          <span class="header-pill" id="updateStatus">v26.6.11</span>
+          <span class="header-pill" id="updateStatus">v26.6.12</span>
           <button class="update-info-button" id="updateInfoButton" type="button" aria-label="追加情報を表示" aria-expanded="false" aria-controls="updateInfoPopover" hidden>
             <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
           </button>
-          <button class="theme-toggle" id="themeToggle" type="button" aria-label="ダークモードに切り替え" aria-pressed="false" data-theme-value="light">
-            <i class="fa-solid fa-sun theme-toggle-icon" aria-hidden="true"></i>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="カラーモードを変更" aria-expanded="false" aria-controls="colorModePopover" data-theme-value="dark" data-accent-value="blue">
+            <i class="fa-solid fa-gear theme-toggle-icon" aria-hidden="true"></i>
           </button>
+          <div class="color-mode-popover" id="colorModePopover" role="dialog" aria-label="カラーモード" hidden>
+            <div class="color-mode-section">
+              <p class="color-mode-title">テーマ</p>
+              <div class="color-mode-options" role="group" aria-label="テーマ">
+                <button class="color-mode-option" type="button" data-theme-choice="dark" aria-pressed="true">
+                  <i class="fa-solid fa-moon" aria-hidden="true"></i>
+                  ダーク
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="light" aria-pressed="false">
+                  <i class="fa-solid fa-sun" aria-hidden="true"></i>
+                  ライト
+                </button>
+              </div>
+            </div>
+            <div class="color-mode-section">
+              <p class="color-mode-title">カラー</p>
+              <div class="color-swatch-row" role="group" aria-label="アクセントカラー">
+                <button class="color-swatch" type="button" data-accent-choice="blue" aria-pressed="true">青</button>
+                <button class="color-swatch" type="button" data-accent-choice="teal" aria-pressed="false">緑</button>
+                <button class="color-swatch" type="button" data-accent-choice="violet" aria-pressed="false">紫</button>
+                <button class="color-swatch" type="button" data-accent-choice="rose" aria-pressed="false">ローズ</button>
+                <button class="color-swatch" type="button" data-accent-choice="amber" aria-pressed="false">琥珀</button>
+              </div>
+            </div>
+          </div>
           <div class="update-info-popover" id="updateInfoPopover" role="dialog" aria-label="追加情報" hidden>
             <div class="update-info-head">
               <p class="update-info-title">追加情報</p>
@@ -114,60 +146,25 @@
       <main class="main-grid" id="mainGrid">
         <div class="main-tabs" role="tablist" aria-label="メイン表示切替">
           <button class="tab-button" id="searchTab" type="button" role="tab" aria-selected="true" aria-controls="searchPane">検索</button>
+          <button class="tab-button" id="filtersTab" type="button" role="tab" aria-selected="false" aria-controls="searchPane">絞り込み</button>
           <button class="tab-button" id="previewTab" type="button" role="tab" aria-selected="false" aria-controls="previewPane">アイテム詳細</button>
         </div>
 
         <section class="search-pane" id="searchPane" role="tabpanel" aria-labelledby="searchTab" aria-label="検索フォームと検索結果">
           <div class="search-controls">
-            <div class="field-row">
-              <input class="text-field" id="keywordInput" type="search" aria-label="キーワード" placeholder="アイテム名、エンチャント名、説明">
-              <select class="select-field" id="searchTargetSelect" aria-label="検索対象">
-                <option selected>アイテム名</option>
-                <option>説明</option>
-                <option>すべて</option>
-              </select>
+            <div class="search-intro">
+              <p class="search-kicker">Item finder</p>
             </div>
 
-            <div class="action-row" aria-label="検索操作">
-              <button class="button button-primary" id="searchButton" type="button">検索</button>
-              <button class="button button-subtle" id="compareToolButton" type="button">
-                <i class="fa-solid fa-code-compare" aria-hidden="true"></i>
-                比較
-              </button>
-              <button class="button button-subtle" id="resetButton" type="button">リセット</button>
-            </div>
-
-            <div class="costume-scope-row" id="costumeScopeRow" role="radiogroup" aria-label="アイテム種別フィルター">
-              <button class="chip" type="button" role="radio" aria-checked="true" data-costume-scope="all">全て</button>
-              <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="card">カード</button>
-              <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="enchantment">エンチャント</button>
-              <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="equipment" data-tooltip="一般装備と補助装備を含む" title="一般装備と補助装備を含む">装備</button>
-              <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="normal-equipment" data-tooltip="衣装とシャドウ装備以外" title="衣装とシャドウ装備以外">一般装備</button>
-              <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="support-equipment" data-tooltip="衣装とシャドウ装備のみ" title="衣装とシャドウ装備のみ">補助装備</button>
-              <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="non-costume" data-tooltip="衣装以外のアイテム全て" title="衣装以外のアイテム全て">衣装以外</button>
-              <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="costume">衣装のみ</button>
-              <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="shadow">シャドウ装備のみ</button>
-            </div>
-
-            <div class="selected-filters" aria-label="選択中フィルター">
-              <div class="selected-filter-heading">選択中</div>
-              <div class="selected-filter-list" id="selectedFilterList"></div>
-              <div class="selected-filter-empty" id="selectedFilterEmpty">未選択</div>
-            </div>
-
-            <details class="filter-panel">
-              <summary class="filter-panel-heading">
-                <span>絞り込み条件</span>
-              </summary>
-
+            <div class="filter-panel" aria-label="絞り込み条件">
               <div class="filter-panel-body">
-                <details class="filter-group">
+                <details class="filter-group" open>
                   <summary class="filter-heading">
                     <span>装備</span>
                   </summary>
                   <div class="filter-subgroup">
                     <div class="filter-subheading">装備位置</div>
-                    <div class="chip-row" aria-label="装備位置">
+                    <div class="chip-row filter-grid-row filter-grid-row-position" aria-label="装備位置">
                       <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="upper">上段</button>
                       <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="middle">中段</button>
                       <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="lower">下段</button>
@@ -176,14 +173,14 @@
                       <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="shoes">靴</button>
                       <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="garment">肩にかける物</button>
                       <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="accessory">アクセサリー</button>
-                      <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="accessory_1">アクセサリー(1)</button>
-                      <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="accessory_2">アクセサリー(2)</button>
+                      <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="accessory_1" aria-label="アクセサリー(1)">アクセ(1)</button>
+                      <button class="chip" type="button" aria-pressed="false" data-filter-group="position" data-filter-value="accessory_2" aria-label="アクセサリー(2)">アクセ(2)</button>
                     </div>
                   </div>
                   <div class="filter-subgroup filter-row-offset">
                     <div class="filter-subheading">武器系列</div>
                     <div>
-                      <div class="chip-row" aria-label="武器系列">
+                      <div class="chip-row filter-grid-row filter-grid-row-wide" aria-label="武器系列">
                         <button class="chip" type="button" aria-pressed="false" data-filter-group="weapon" data-filter-value="weapon">武器</button>
                         <button class="chip" type="button" aria-pressed="false" data-filter-group="weapon" data-filter-value="sword">剣</button>
                         <button class="chip" type="button" aria-pressed="false" data-filter-group="weapon" data-filter-value="one_handed_sword">片手剣</button>
@@ -200,7 +197,7 @@
                         <button class="chip" type="button" aria-pressed="false" data-filter-group="weapon" data-filter-value="instrument">楽器</button>
                         <button class="chip" type="button" aria-pressed="false" data-filter-group="weapon" data-filter-value="book">本</button>
                       </div>
-                      <div class="chip-row filter-row-offset" aria-label="両手武器系列">
+                      <div class="chip-row filter-row-offset filter-grid-row filter-grid-row-wide" aria-label="両手武器系列">
                         <button class="chip" type="button" aria-pressed="false" data-filter-group="weapon" data-filter-value="two_handed_weapon">両手武器</button>
                         <button class="chip" type="button" aria-pressed="false" data-filter-group="weapon" data-filter-value="bow">弓</button>
                         <button class="chip" type="button" aria-pressed="false" data-filter-group="weapon" data-filter-value="two_handed_sword">両手剣</button>
@@ -215,18 +212,18 @@
                   </div>
                   <div class="filter-subgroup filter-row-offset">
                     <div class="filter-subheading">武器Lv</div>
-                    <div class="chip-row" id="weaponLevelFilterRow" aria-label="武器レベル"></div>
+                    <div class="chip-row filter-grid-row filter-grid-row-compact" id="weaponLevelFilterRow" aria-label="武器レベル"></div>
                   </div>
                   <div class="filter-subgroup filter-row-offset">
                     <div class="filter-subheading">超越段階</div>
-                    <div class="chip-row" aria-label="超越段階">
+                    <div class="chip-row filter-grid-row filter-grid-row-compact" aria-label="超越段階">
                       <button class="chip" type="button" aria-pressed="false" data-filter-group="transcendence" data-filter-value="1">★1</button>
                       <button class="chip" type="button" aria-pressed="false" data-filter-group="transcendence" data-filter-value="2">★2</button>
                     </div>
                   </div>
                   <div class="filter-subgroup filter-row-offset">
                     <div class="filter-subheading">要求Lv</div>
-                    <div class="filter-resizable-shell">
+                    <div class="filter-resizable-shell filter-expanded-shell filter-borderless-shell">
                       <div class="chip-row filter-resizable-row" id="requiredLevelFilterRow" aria-label="要求Lv"></div>
                       <button class="filter-resize-handle" type="button" aria-label="要求Lvの表示高さを調整" aria-controls="requiredLevelFilterRow">
                         <span aria-hidden="true"></span>
@@ -239,7 +236,7 @@
                   <summary class="filter-heading">
                     <span>エンチャント種別</span>
                   </summary>
-                  <div class="filter-resizable-shell">
+                  <div class="filter-resizable-shell filter-expanded-shell filter-borderless-shell">
                     <div class="chip-row filter-resizable-row" id="enchantFilterRow" aria-label="エンチャント種別"></div>
                     <button class="filter-resize-handle" type="button" aria-label="エンチャント種別の表示高さを調整" aria-controls="enchantFilterRow">
                       <span aria-hidden="true"></span>
@@ -247,21 +244,17 @@
                   </div>
                 </details>
 
-                <details class="filter-group">
+                <details class="filter-group" open>
                   <summary class="filter-heading">
                     <span>職業</span>
                   </summary>
-                  <div class="filter-subgroup">
-                    <div class="filter-subheading">職業系統</div>
-                    <div class="chip-row" id="jobGroupFilterRow" aria-label="職業系統"></div>
-                  </div>
                   <div class="filter-subgroup">
                     <div class="filter-subheading">職業段階</div>
                     <div class="chip-row" id="jobTierFilterRow" aria-label="職業段階"></div>
                   </div>
                   <div class="filter-subgroup">
                     <div class="filter-subheading">職業</div>
-                    <div class="filter-resizable-shell">
+                    <div class="filter-resizable-shell filter-expanded-shell filter-borderless-shell">
                       <div class="chip-row filter-resizable-row" id="jobFilterRow" aria-label="職業"></div>
                       <button class="filter-resize-handle" type="button" aria-label="職業の表示高さを調整" aria-controls="jobFilterRow">
                         <span aria-hidden="true"></span>
@@ -269,13 +262,52 @@
                     </div>
                   </div>
                 </details>
+
               </div>
-            </details>
+            </div>
           </div>
 
           <div class="results-area">
             <div class="results-toolbar">
-              <div><span class="result-count" id="resultCount">0件</span>ヒット</div>
+              <div class="results-heading">
+                <div><span class="result-count" id="resultCount">0件</span>ヒット</div>
+                <p class="results-summary" id="resultSummary">検索条件を入力または選択してください。</p>
+              </div>
+              <div class="results-control-stack">
+                <div class="field-row results-search-row">
+                  <input class="text-field" id="keywordInput" type="search" aria-label="キーワード" placeholder="アイテム名・効果・説明文で検索...">
+                  <select class="select-field" id="searchTargetSelect" aria-label="検索対象">
+                    <option selected>アイテム名</option>
+                    <option>説明</option>
+                    <option>すべて</option>
+                  </select>
+                  <div class="results-action-row" aria-label="検索操作">
+                    <button class="button button-primary" id="searchButton" type="button">
+                      <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                      検索
+                    </button>
+                    <button class="button button-subtle" id="resetButton" type="button">リセット</button>
+                  </div>
+                </div>
+
+                <div class="costume-scope-row" id="costumeScopeRow" role="radiogroup" aria-label="アイテム種別フィルター">
+                  <button class="chip" type="button" role="radio" aria-checked="true" data-costume-scope="all">全て</button>
+                  <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="card">カード</button>
+                  <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="enchantment">エンチャント</button>
+                  <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="equipment" data-tooltip="一般装備と補助装備を含む" title="一般装備と補助装備を含む">装備</button>
+                  <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="normal-equipment" data-tooltip="衣装とシャドウ装備以外" title="衣装とシャドウ装備以外">一般装備</button>
+                  <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="support-equipment" data-tooltip="衣装とシャドウ装備のみ" title="衣装とシャドウ装備のみ">補助装備</button>
+                  <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="non-costume" data-tooltip="衣装以外のアイテム全て" title="衣装以外のアイテム全て">衣装以外</button>
+                  <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="costume">衣装のみ</button>
+                  <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="shadow">シャドウ装備のみ</button>
+                </div>
+
+                <div class="selected-filters" aria-label="選択中フィルター" hidden>
+                  <div class="selected-filter-heading">選択中</div>
+                  <div class="selected-filter-list" id="selectedFilterList"></div>
+                  <div class="selected-filter-empty" id="selectedFilterEmpty">未選択</div>
+                </div>
+              </div>
             </div>
 
             <ul class="result-list" id="resultList" aria-label="検索結果"></ul>
@@ -301,18 +333,16 @@
                 </h2>
                 <div class="preview-url" id="previewUrl"></div>
               </div>
-              <div class="preview-actions">
-                <a class="button" id="openOfficial" href="about:blank" target="_blank" rel="noopener noreferrer">別タブで開く</a>
-              </div>
             </div>
           </div>
 
           <div class="enchant-summary" id="enchantSummary" aria-label="エンチャント対応情報" hidden></div>
 
-          <div class="item-details" id="itemDetails" aria-label="アイテム説明と詳細" hidden></div>
-
           <details class="iframe-wrap preview-disclosure" id="iframeWrap" hidden>
-            <summary class="preview-disclosure-heading">公式ページ</summary>
+            <summary class="preview-disclosure-heading">
+              <span>公式ページ</span>
+              <a class="button preview-official-link" id="openOfficial" href="about:blank" target="_blank" rel="noopener noreferrer">別タブで開く</a>
+            </summary>
             <div class="preview-disclosure-body">
               <iframe
                 class="official-frame"
@@ -324,8 +354,16 @@
               ></iframe>
             </div>
           </details>
+
+          <div class="item-details" id="itemDetails" aria-label="アイテム説明と詳細" hidden></div>
         </section>
       </main>
+
+      <footer class="site-footer">
+        <p>© Gravity Co., Ltd. &amp; Lee MyoungJin(studio DTDS). All rights reserved.</p>
+        <p>© GungHo Online Entertainment, Inc. All Rights Reserved.</p>
+        <p>当コンテンツの再利用（再転載・配布など）は、禁止しています。</p>
+      </footer>
     </div>
   </div>
 
@@ -355,8 +393,9 @@
             <button class="chip" type="button" data-compare-scope="enchantment" aria-pressed="false">エンチャント</button>
             <button class="chip" type="button" data-compare-scope="equipment" aria-pressed="false">装備</button>
           </div>
-          <div class="compare-candidate-list" id="compareCandidateList"></div>
-          <div class="compare-candidate-empty" id="compareCandidateEmpty">候補がありません。</div>
+          <div class="compare-candidate-list" id="compareCandidateList">
+            <div class="compare-candidate-empty" id="compareCandidateEmpty">候補がありません。</div>
+          </div>
         </section>
         <section class="compare-result" aria-label="比較結果">
           <div class="compare-column-headings">
@@ -375,8 +414,23 @@
     </div>
   </div>
 
+  <div class="mobile-action-bar" aria-label="スマホ操作">
+    <button class="mobile-action-button" id="mobileResultsButton" type="button" aria-pressed="true">
+      <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+      検索
+    </button>
+    <button class="mobile-action-button" id="mobileFilterButton" type="button" aria-pressed="false">
+      <i class="fa-solid fa-sliders" aria-hidden="true"></i>
+      絞り込み
+    </button>
+    <button class="mobile-action-button" id="mobilePreviewButton" type="button" aria-pressed="false">
+      <i class="fa-regular fa-rectangle-list" aria-hidden="true"></i>
+      アイテム詳細
+    </button>
+  </div>
+
   <script src="./assets/search-core.js?v=baca2fb5ecba"></script>
   <script src="./assets/job-filter.js?v=d99a7da54926"></script>
-  <script src="./assets/items.js?v=d587d036415a"></script>
+  <script src="./assets/items.js?v=60d15e568dcc"></script>
 </body>
 </html>
