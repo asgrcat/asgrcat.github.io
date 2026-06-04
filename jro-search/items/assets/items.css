@@ -30,6 +30,8 @@
       --table-heading-bg: #132840;
       --table-heading-text: #bae6fd;
       --slot-text: #cbd5e1;
+      --warning-border: rgba(250, 204, 21, 0.34);
+      --warning-bg: rgba(250, 204, 21, 0.08);
       --nav-badge-bg: rgba(148, 163, 184, 0.16);
       --tooltip-bg: #1f2937;
       --shadow: 0 18px 42px rgba(0, 0, 0, 0.30);
@@ -68,6 +70,8 @@
       --table-heading-bg: #d9f1f6;
       --table-heading-text: #174151;
       --slot-text: #334155;
+      --warning-border: rgba(183, 121, 31, 0.46);
+      --warning-bg: rgba(183, 121, 31, 0.10);
       --nav-badge-bg: rgba(100, 116, 139, 0.12);
       --tooltip-bg: #ffffff;
       --shadow: 0 12px 30px rgba(31, 41, 51, 0.08);
@@ -367,6 +371,15 @@
       --nav-badge-bg: rgba(251, 191, 36, 0.13);
       --tooltip-bg: #3a2a15;
       --shadow: 0 18px 42px rgba(0, 0, 0, 0.34);
+    }
+
+    :root[data-theme="light"],
+    :root[data-theme="sunlight"],
+    :root[data-theme="mint"],
+    :root[data-theme="sky"],
+    :root[data-theme="sakura"] {
+      --warning-border: rgba(183, 121, 31, 0.46);
+      --warning-bg: rgba(183, 121, 31, 0.10);
     }
 
     :root[data-accent="blue"] {
@@ -2705,6 +2718,12 @@
       color: var(--text);
       font-size: 12px;
       font-weight: 700;
+    }
+
+    .meta-chip-warning {
+      border-color: var(--warning-border);
+      background: var(--warning-bg);
+      color: var(--text);
     }
 
     .enchant-table-wrap {
