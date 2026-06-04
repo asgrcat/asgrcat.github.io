@@ -2625,25 +2625,59 @@
       display: none;
     }
 
+    .enchant-target-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      border-bottom: 1px solid var(--border);
+      background: var(--surface-panel);
+    }
+
+    .enchant-target-row.has-open-link {
+      grid-template-columns: minmax(0, 1fr) 36px;
+    }
+
+    .enchant-target-row:last-child {
+      border-bottom: 0;
+    }
+
     .enchant-target-button {
       display: grid;
       gap: 2px;
       width: 100%;
       border: 0;
-      border-bottom: 1px solid var(--border);
       padding: 8px 9px;
-      background: var(--surface-panel);
+      background: transparent;
       color: var(--text);
       text-align: left;
-    }
-
-    .enchant-target-button:last-child {
-      border-bottom: 0;
     }
 
     .enchant-target-button:hover,
     .enchant-target-button:focus-visible {
       background: var(--primary-soft);
+    }
+
+    .enchant-target-open-link {
+      display: grid;
+      place-items: center;
+      min-width: 36px;
+      min-height: 100%;
+      border-left: 1px solid var(--border);
+      background: transparent;
+      color: var(--primary-strong);
+      font-size: 14px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .enchant-target-open-link:hover,
+    .enchant-target-open-link:focus-visible {
+      background: var(--primary-soft);
+      color: var(--text);
+      outline: none;
+    }
+
+    .enchant-target-open-link[hidden] {
+      display: none;
     }
 
     .enchant-target-name {
