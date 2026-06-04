@@ -25,7 +25,7 @@
         const theme = window.localStorage.getItem('jro-search.items.theme');
         const accent = window.localStorage.getItem('jro-search.items.accent');
 
-        if (theme === 'dark' || theme === 'light') {
+        if (['dark', 'light', 'ocean', 'sky', 'forest', 'mint', 'violet', 'sakura', 'amber', 'sunlight'].includes(theme)) {
           document.documentElement.dataset.theme = theme;
         }
 
@@ -38,7 +38,7 @@
     })();
   </script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="./assets/items.css?v=684b0f618037">
+  <link rel="stylesheet" href="./assets/items.css?v=ee050f4e662d">
   <!-- Google tag (gtag.js) -->
   <script>
     (() => {
@@ -97,11 +97,11 @@
         </div>
 
         <div class="header-meta">
-          <span class="header-pill" id="updateStatus">v26.6.12</span>
+          <span class="header-pill" id="updateStatus">v26.6.13</span>
           <button class="update-info-button" id="updateInfoButton" type="button" aria-label="追加情報を表示" aria-expanded="false" aria-controls="updateInfoPopover" hidden>
             <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
           </button>
-          <button class="theme-toggle" id="themeToggle" type="button" aria-label="カラーモードを変更" aria-expanded="false" aria-controls="colorModePopover" data-theme-value="dark" data-accent-value="blue">
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="カラーモードを変更" aria-expanded="false" aria-controls="colorModePopover" data-theme-value="dark" data-accent-value="">
             <i class="fa-solid fa-gear theme-toggle-icon" aria-hidden="true"></i>
           </button>
           <div class="color-mode-popover" id="colorModePopover" role="dialog" aria-label="カラーモード" hidden>
@@ -116,12 +116,44 @@
                   <i class="fa-solid fa-sun" aria-hidden="true"></i>
                   ライト
                 </button>
+                <button class="color-mode-option" type="button" data-theme-choice="ocean" aria-pressed="false">
+                  <i class="fa-solid fa-water" aria-hidden="true"></i>
+                  青夜
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="sky" aria-pressed="false">
+                  <i class="fa-solid fa-cloud" aria-hidden="true"></i>
+                  朝空
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="forest" aria-pressed="false">
+                  <i class="fa-solid fa-leaf" aria-hidden="true"></i>
+                  翠森
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="mint" aria-pressed="false">
+                  <i class="fa-solid fa-seedling" aria-hidden="true"></i>
+                  若草
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="violet" aria-pressed="false">
+                  <i class="fa-solid fa-gem" aria-hidden="true"></i>
+                  紫宵
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="sakura" aria-pressed="false">
+                  <i class="fa-solid fa-spa" aria-hidden="true"></i>
+                  桜色
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="amber" aria-pressed="false">
+                  <i class="fa-solid fa-fire-flame-simple" aria-hidden="true"></i>
+                  琥珀
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="sunlight" aria-pressed="false">
+                  <i class="fa-solid fa-cloud-sun" aria-hidden="true"></i>
+                  陽光
+                </button>
               </div>
             </div>
             <div class="color-mode-section">
               <p class="color-mode-title">カラー</p>
               <div class="color-swatch-row" role="group" aria-label="アクセントカラー">
-                <button class="color-swatch" type="button" data-accent-choice="blue" aria-pressed="true">青</button>
+                <button class="color-swatch" type="button" data-accent-choice="blue" aria-pressed="false">青</button>
                 <button class="color-swatch" type="button" data-accent-choice="teal" aria-pressed="false">緑</button>
                 <button class="color-swatch" type="button" data-accent-choice="violet" aria-pressed="false">紫</button>
                 <button class="color-swatch" type="button" data-accent-choice="rose" aria-pressed="false">ローズ</button>
@@ -431,6 +463,6 @@
 
   <script src="./assets/search-core.js?v=baca2fb5ecba"></script>
   <script src="./assets/job-filter.js?v=d99a7da54926"></script>
-  <script src="./assets/items.js?v=60d15e568dcc"></script>
+  <script src="./assets/items.js?v=986670a0a8c4"></script>
 </body>
 </html>
