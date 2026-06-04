@@ -1542,25 +1542,28 @@
       white-space: normal;
     }
 
-    #jobFilterRow {
+    #jobFilterRow,
+    #packageFilterRow {
       display: grid;
       grid-template-columns: 1fr;
       gap: 10px;
       align-items: start;
     }
 
-    .job-filter-group {
+    .job-filter-group,
+    .package-filter-group {
       display: grid;
       gap: 6px;
       min-width: 0;
     }
 
-    .filter-panel .chip.job-filter-group-heading {
+    .filter-panel .chip.job-filter-group-heading,
+    .filter-panel .chip.package-filter-group-heading {
       width: 100%;
       min-width: 0;
       border-color: var(--border-soft);
       border-radius: 4px;
-      padding: 3px 8px;
+      padding: 3px 8px 3px 28px;
       background: color-mix(in srgb, var(--surface-subheading) 88%, var(--surface));
       color: var(--text);
       font-size: 11px;
@@ -1574,11 +1577,13 @@
       padding-left: 30px;
     }
 
-    .filter-panel .chip.job-filter-group-toggle::before {
+    .filter-panel .chip.job-filter-group-toggle::before,
+    .filter-panel .chip.package-filter-group-heading::before {
       left: 10px;
     }
 
-    .job-filter-group-body {
+    .job-filter-group-body,
+    .package-filter-group-body {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 6px 8px;
@@ -1586,7 +1591,12 @@
       min-width: 0;
     }
 
-    .job-filter-group-body .chip {
+    .package-filter-group-body {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .job-filter-group-body .chip,
+    .package-filter-group-body .chip {
       width: 100%;
       justify-content: flex-start;
       min-width: 0;
