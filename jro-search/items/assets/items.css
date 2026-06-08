@@ -1315,16 +1315,19 @@
     }
 
     .filter-heading::after {
-      color: var(--muted);
-      content: "›";
-      font-size: 17px;
-      font-weight: 800;
-      line-height: 1;
+      align-self: center;
+      width: 6px;
+      height: 6px;
+      border-right: 2px solid var(--muted);
+      border-bottom: 2px solid var(--muted);
+      content: "";
+      justify-self: center;
+      transform: rotate(-45deg);
       transition: transform 0.16s ease;
     }
 
     .filter-group[open] .filter-heading::after {
-      transform: rotate(90deg);
+      transform: rotate(45deg);
     }
 
     .filter-subgroup {
@@ -1543,7 +1546,8 @@
     }
 
     #jobFilterRow,
-    #packageFilterRow {
+    #packageFilterRow,
+    #effectFilterRow {
       display: grid;
       grid-template-columns: 1fr;
       gap: 10px;
@@ -1573,6 +1577,19 @@
       white-space: normal;
     }
 
+    .effect-filter-heading {
+      width: 100%;
+      min-width: 0;
+      border: 1px solid var(--border-soft);
+      border-radius: 4px;
+      padding: 3px 8px;
+      background: color-mix(in srgb, var(--surface-subheading) 88%, var(--surface));
+      color: var(--text);
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
     .filter-panel .chip.job-filter-group-toggle {
       padding-left: 30px;
     }
@@ -1593,6 +1610,10 @@
 
     .package-filter-group-body {
       grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .effect-filter-group-body {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
     .job-filter-group-body .chip,
@@ -2167,16 +2188,23 @@
     }
 
     .preview-disclosure-heading::after {
-      color: var(--text);
-      content: "›";
-      font-size: 20px;
-      font-weight: 800;
-      line-height: 1;
+      align-self: center;
+      width: 6px;
+      height: 6px;
+      border-right: 2px solid var(--text);
+      border-bottom: 2px solid var(--text);
+      content: "";
+      justify-self: center;
+      transform: rotate(-45deg);
       transition: transform 0.16s ease;
     }
 
+    .item-details-disclosure > .preview-disclosure-heading {
+      grid-template-columns: minmax(0, 1fr) auto;
+    }
+
     .preview-disclosure[open] > .preview-disclosure-heading::after {
-      transform: rotate(90deg);
+      transform: rotate(45deg);
     }
 
     .preview-disclosure-heading:hover {
@@ -2518,16 +2546,19 @@
     }
 
     .enchant-targets-header::after {
-      color: var(--text);
-      content: "›";
-      font-size: 20px;
-      font-weight: 800;
-      line-height: 1;
+      align-self: center;
+      width: 6px;
+      height: 6px;
+      border-right: 2px solid var(--text);
+      border-bottom: 2px solid var(--text);
+      content: "";
+      justify-self: center;
+      transform: rotate(-45deg);
       transition: transform 0.16s ease;
     }
 
     .enchant-targets[open] > .enchant-targets-header::after {
-      transform: rotate(90deg);
+      transform: rotate(45deg);
     }
 
     .enchant-targets-header:hover {
