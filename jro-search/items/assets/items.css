@@ -2703,6 +2703,61 @@
       white-space: nowrap;
     }
 
+    .enchant-target-category-chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 20px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 2px 6px;
+      background: var(--surface-panel-muted);
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .enchant-target-condition-list {
+      display: grid;
+      gap: 5px;
+      min-width: 0;
+    }
+
+    .enchant-target-condition {
+      display: grid;
+      gap: 4px;
+      min-width: 0;
+    }
+
+    .enchant-target-condition-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      min-width: 0;
+    }
+
+    .enchant-target-condition-chip,
+    .enchant-target-condition-more {
+      display: inline-flex;
+      align-items: center;
+      max-width: 100%;
+      min-height: 20px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 2px 6px;
+      background: var(--control-bg);
+      color: var(--text);
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1.2;
+      overflow-wrap: anywhere;
+    }
+
+    .enchant-target-condition-more {
+      width: fit-content;
+      color: var(--muted);
+    }
+
     .enchant-set-toggle {
       display: grid;
       grid-template-columns: minmax(0, 1fr) auto;
