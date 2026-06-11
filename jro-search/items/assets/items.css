@@ -3795,11 +3795,26 @@
         flex: 1 1 100%;
       }
 
+      .scope-chip-group-primary {
+        grid-row: 2;
+        padding-right: 0;
+      }
+
+      .scope-chip-group-detail {
+        grid-row: 3;
+      }
+
       .scope-chip-group-detail,
       .scope-chip-group-personal {
         margin-left: 0;
         border-left: 0;
         padding-left: 0;
+      }
+
+      .scope-chip-group-personal {
+        position: static;
+        grid-row: 1;
+        justify-content: flex-end;
       }
 
       .filter-subgroup {
