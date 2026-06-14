@@ -1379,6 +1379,10 @@
       background: transparent;
     }
 
+    .filter-group[hidden] {
+      display: none;
+    }
+
     .filter-group[open] {
       background: transparent;
     }
