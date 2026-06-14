@@ -1636,7 +1636,8 @@
 
     #jobFilterRow,
     #packageFilterRow,
-    #effectFilterRow {
+    #effectFilterRow,
+    #enchantNpcFilterRow {
       display: grid;
       grid-template-columns: 1fr;
       gap: 10px;
@@ -1666,7 +1667,8 @@
       white-space: normal;
     }
 
-    .effect-filter-heading {
+    .effect-filter-heading,
+    .enchant-npc-filter-heading {
       width: 100%;
       min-width: 0;
       border: 1px solid var(--border-soft);
@@ -1703,6 +1705,10 @@
 
     .effect-filter-group-body {
       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .enchant-npc-filter-group-body {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .job-filter-group-body .chip,
