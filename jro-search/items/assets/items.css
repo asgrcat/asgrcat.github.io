@@ -2042,6 +2042,13 @@
       padding: 7px 12px;
     }
 
+    .results-search-row .results-action-row .button-icon {
+      width: 44px;
+      height: 44px;
+      min-height: 44px;
+      padding: 0;
+    }
+
     .result-count {
       color: var(--primary);
       font-size: 18px;
