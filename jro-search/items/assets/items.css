@@ -2700,6 +2700,60 @@
       background: var(--surface-muted);
     }
 
+    .movement-restriction-panel {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 38px;
+      padding: 8px 14px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .movement-restriction-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 4px;
+      min-width: 0;
+    }
+
+    .movement-restriction-badge {
+      position: relative;
+      display: inline-grid;
+      place-items: center;
+      width: 22px;
+      height: 22px;
+      border: 1px solid var(--border-strong);
+      border-radius: 6px;
+      background: var(--surface-elevated);
+      color: var(--primary);
+      font-size: 11px;
+      line-height: 1;
+    }
+
+    .movement-restriction-badge[data-state="blocked"] {
+      color: var(--muted);
+      opacity: 0.74;
+    }
+
+    .movement-restriction-badge[data-state="blocked"]::after {
+      position: absolute;
+      top: 50%;
+      left: 3px;
+      right: 3px;
+      height: 2px;
+      border-radius: 999px;
+      background: #ef4444;
+      content: "";
+      transform: rotate(-42deg);
+      transform-origin: center;
+    }
+
+    .movement-restriction-glyph {
+      pointer-events: none;
+    }
+
     .preview-official-link {
       min-height: 30px;
       padding: 5px 10px;
