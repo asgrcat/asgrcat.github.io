@@ -949,6 +949,20 @@
       white-space: nowrap;
     }
 
+    .version-history-button {
+      color: var(--muted);
+      cursor: pointer;
+    }
+
+    .version-history-button:hover,
+    .version-history-button:focus-visible,
+    .version-history-button[aria-expanded="true"] {
+      border-color: var(--primary);
+      background: var(--primary-soft);
+      color: var(--primary-strong);
+      outline: none;
+    }
+
     .update-info-button[hidden] {
       display: none;
     }
@@ -959,69 +973,8 @@
       background: var(--primary-soft);
     }
 
-    .update-info-popover {
-      display: grid;
-      grid-template-rows: auto auto minmax(0, 1fr) auto;
-      position: absolute;
-      z-index: 20;
-      top: calc(100% + 8px);
-      right: 0;
-      width: min(360px, calc(100vw - 32px));
-      max-height: min(440px, calc(100vh - 86px));
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      overflow: hidden;
-      padding: 0;
-      background: var(--surface-elevated);
-      box-shadow: var(--shadow);
-      color: var(--text);
-      text-align: left;
-    }
-
-    .update-info-popover[hidden] {
-      display: none;
-    }
-
-    .update-info-head {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      padding: 12px 12px 10px;
-      border-bottom: 1px solid var(--border-soft);
-      background: var(--surface-panel-heading);
-    }
-
-    .update-info-title {
-      margin: 0;
-      color: var(--text);
-      font-size: 14px;
-      font-weight: 700;
-    }
-
-    .update-info-close {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 26px;
-      height: 26px;
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      padding: 0;
-      background: var(--surface);
-      color: var(--muted);
-      font-size: 16px;
-      line-height: 1;
-    }
-
-    .update-info-close:hover {
-      border-color: var(--primary);
-      background: var(--surface);
-      color: var(--primary-strong);
-    }
-
     .update-info-empty {
-      margin: 12px;
+      margin: 0;
       color: var(--muted);
       font-size: 12px;
     }
@@ -1032,7 +985,7 @@
       border: 0;
       border-radius: 6px;
       overflow: hidden;
-      margin: 10px 12px 0;
+      margin: 0;
       padding: 7px 10px;
       background: var(--primary-soft);
       color: var(--primary-strong);
@@ -1051,14 +1004,10 @@
     .update-info-list {
       display: grid;
       gap: 4px;
-      margin: 10px 12px 12px;
-      max-height: 280px;
-      overflow: auto;
+      margin: 0;
       padding: 0;
       padding-right: 2px;
       list-style: none;
-      overscroll-behavior: contain;
-      scrollbar-gutter: stable;
     }
 
     .update-info-item {
@@ -1640,7 +1589,9 @@
 
     #jobFilterRow,
     #packageFilterRow,
-    #effectFilterRow,
+    #resistanceEffectFilterRow,
+    #offenseEffectFilterRow,
+    #utilityEffectFilterRow,
     #enchantNpcFilterRow {
       display: grid;
       grid-template-columns: 1fr;
@@ -2441,6 +2392,54 @@
     }
 
     .help-list {
+      display: grid;
+      gap: 4px;
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    .version-history-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .version-history-entry {
+      display: grid;
+      gap: 8px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 11px 12px;
+      background: var(--surface-muted);
+    }
+
+    .version-history-entry.is-current {
+      border-color: var(--primary);
+    }
+
+    .version-history-entry-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .version-history-version {
+      margin: 0;
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .version-history-date {
+      color: var(--muted);
+      font-size: 11px;
+      white-space: nowrap;
+    }
+
+    .version-history-changes {
       display: grid;
       gap: 4px;
       margin: 0;
@@ -3665,15 +3664,6 @@
       .header-meta {
         grid-column: 1 / -1;
         justify-content: flex-end;
-      }
-
-      .update-info-popover {
-        position: fixed;
-        top: 78px;
-        right: 12px;
-        left: 12px;
-        width: auto;
-        max-height: calc(100vh - 96px);
       }
 
       .nav-list {
