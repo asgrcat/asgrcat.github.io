@@ -1686,8 +1686,8 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
-    .filter-grid-row-position .chip:nth-child(n+8) {
-      grid-row: 4;
+    .filter-grid-row-position .chip[data-filter-value="garment"] {
+      grid-column: span 2;
     }
 
     #requiredLevelFilterRow .chip,
