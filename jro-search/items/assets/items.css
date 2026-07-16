@@ -1658,6 +1658,10 @@
       grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 
+    .campaign-filter-group-body {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
     .effect-filter-group-body {
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
