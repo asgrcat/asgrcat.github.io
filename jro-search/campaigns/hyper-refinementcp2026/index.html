@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ハイパー精錬キャンペーン2026の対象装備を絞り込み、消費エナジーの通常と10確定を合計できます。">
+  <title>ハイパー精錬キャンペーン2026 消費エナジー計算 | JRO Search</title>
+  <link rel="icon" href="../../favicon/transparent/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/hyper-refinementcp2026.css">
+  <!-- Google tag (gtag.js) -->
+  <script>
+    (() => {
+      const analyticsHosts = new Set(['asgrcat.github.io']);
+
+      if (!analyticsHosts.has(window.location.hostname)) {
+        return;
+      }
+
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-6FBS7Y3XEZ';
+      document.head.append(script);
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function gtag(){window.dataLayer.push(arguments);};
+      window.gtag('js', new Date());
+
+      window.gtag('config', 'G-6FBS7Y3XEZ', {
+        content_group: 'campaigns',
+        jro_search_section: 'hyper-refinementcp2026',
+      });
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../../items/">JRO Search</a>
+    <a class="header-link" href="https://ragnarokonline.gungho.jp/cms/news/hyper-refinementcp2026" target="_blank" rel="noreferrer">公式ページ</a>
+  </header>
+
+  <main class="app-shell">
+    <section class="tool-head" aria-labelledby="pageTitle">
+      <div>
+        <p class="eyebrow">Hyper Refinement 2026</p>
+        <h1 id="pageTitle">ハイパー精錬キャンペーン2026 消費エナジー計算</h1>
+      </div>
+    </section>
+
+    <section class="summary-grid" aria-label="選択中の合計">
+      <article class="summary-panel">
+        <div class="summary-label">選択中</div>
+        <div class="summary-count" id="selectedCount">0件</div>
+        <dl class="energy-pair">
+          <div>
+            <dt>通常</dt>
+            <dd id="selectedNormalTotal">0 deg</dd>
+            <dd class="jpy-total" id="selectedNormalJpyTotal">0 JPY</dd>
+          </div>
+          <div>
+            <dt>10確定</dt>
+            <dd id="selectedGuaranteedTotal">0 deg</dd>
+            <dd class="jpy-total" id="selectedGuaranteedJpyTotal">0 JPY</dd>
+          </div>
+        </dl>
+      </article>
+    </section>
+
+    <section class="controls" aria-label="フィルター">
+      <label class="search-field">
+        <span>装備名</span>
+        <input id="keywordInput" type="search" autocomplete="off" placeholder="装備名で検索">
+      </label>
+      <label>
+        <span>部位</span>
+        <select id="positionFilter"></select>
+      </label>
+      <label>
+        <span>超越段階</span>
+        <select id="transcendenceFilter"></select>
+      </label>
+      <label>
+        <span>職</span>
+        <select id="jobGroupFilter"></select>
+      </label>
+      <div class="control-actions">
+        <button id="resetFiltersButton" type="button">リセット</button>
+      </div>
+    </section>
+
+    <section class="table-panel" aria-label="対象装備">
+      <div class="table-status" id="tableStatus">読み込み中</div>
+      <table>
+        <thead>
+          <tr>
+            <th class="select-col">選択</th>
+            <th>対象アイテム名</th>
+            <th>
+              <button class="sort-button" type="button" data-sort-key="position" aria-label="部位で並び替え">部位</button>
+            </th>
+            <th>超越</th>
+            <th class="number-col">
+              <button class="sort-button" type="button" data-sort-key="normal_energy" aria-label="通常消費で並び替え">通常</button>
+            </th>
+            <th class="number-col">
+              <button class="sort-button" type="button" data-sort-key="guaranteed_10_energy" aria-label="10確定消費で並び替え">10確定</button>
+            </th>
+          </tr>
+        </thead>
+        <tbody id="itemTableBody"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="./assets/hyper-refinementcp2026.js" defer></script>
+</body>
+</html>
