@@ -3312,6 +3312,38 @@
       white-space: nowrap;
     }
 
+    .pet-box-target-list {
+      max-height: 280px;
+    }
+
+    .pet-box-target-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      min-width: 0;
+    }
+
+    .pet-box-target-grade,
+    .pet-box-target-count {
+      display: inline-flex;
+      align-items: center;
+      min-height: 20px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 2px 6px;
+      background: var(--control-bg);
+      color: var(--text);
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .pet-box-target-grade {
+      border-color: var(--primary-border);
+      background: var(--primary-soft);
+      color: var(--primary-strong);
+    }
+
     .enchant-target-category-chip {
       display: inline-flex;
       align-items: center;
