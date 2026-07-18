@@ -684,6 +684,17 @@
       min-width: 0;
     }
 
+    @media (min-width: 961px) {
+      html,
+      body,
+      .app-shell,
+      .workspace {
+        height: 100%;
+        min-height: 0;
+        overflow: hidden;
+      }
+    }
+
     .app-header {
       position: relative;
       z-index: 30;
@@ -1314,8 +1325,54 @@
 
     .filter-panel-body {
       display: grid;
-      gap: 10px;
+      gap: 16px;
       padding: 0;
+    }
+
+    .filter-section {
+      display: grid;
+      gap: 7px;
+      min-width: 0;
+    }
+
+    .filter-section + .filter-section {
+      border-top: 1px solid var(--border-soft);
+      padding-top: 13px;
+    }
+
+    .filter-section-heading {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      margin: 0;
+      padding: 0 3px;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 750;
+      letter-spacing: 0.08em;
+      line-height: 1.4;
+    }
+
+    .filter-section-heading::before {
+      width: 3px;
+      height: 11px;
+      border-radius: 999px;
+      background: var(--primary);
+      content: "";
+      flex: 0 0 auto;
+    }
+
+    .filter-section-heading::after {
+      height: 1px;
+      background: var(--border-soft);
+      content: "";
+      flex: 1 1 auto;
+    }
+
+    .filter-section-groups {
+      display: grid;
+      gap: 8px;
+      min-width: 0;
     }
 
     .filter-group {
@@ -1350,6 +1407,20 @@
       font-size: 11px;
       font-weight: 700;
       list-style: none;
+    }
+
+    .filter-heading:hover {
+      background: color-mix(in srgb, var(--surface-subheading) 84%, var(--primary));
+    }
+
+    .filter-heading:focus-visible {
+      outline: 2px solid var(--primary);
+      outline-offset: 2px;
+    }
+
+    .filter-group:has(.chip[aria-pressed="true"], .chip[aria-checked="true"]) .filter-heading {
+      background: var(--primary-soft);
+      color: var(--primary-strong);
     }
 
     .filter-heading::-webkit-details-marker {
@@ -1513,7 +1584,7 @@
       grid-template-rows: minmax(44px, var(--filter-row-height)) 16px;
       min-width: 0;
       min-height: 60px;
-      max-height: 276px;
+      max-height: none;
       border: 1px solid var(--border);
       border-radius: 4px;
       background: var(--surface-panel);
@@ -1522,6 +1593,7 @@
 
     .filter-expanded-shell {
       grid-template-rows: auto;
+      min-height: 0;
       max-height: none;
       overflow: visible;
     }
@@ -1559,6 +1631,20 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
+    #updateFilterRow {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 6px 8px;
+      align-items: start;
+    }
+
+    #updateFilterRow .chip {
+      width: 100%;
+      min-width: 0;
+      justify-content: flex-start;
+      white-space: nowrap;
+    }
+
     #jobTierFilterRow {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1592,6 +1678,7 @@
     #resistanceEffectFilterRow,
     #offenseEffectFilterRow,
     #utilityEffectFilterRow,
+    #skillFilterRow,
     #enchantNpcFilterRow {
       display: grid;
       grid-template-columns: 1fr;
@@ -1623,6 +1710,7 @@
     }
 
     .effect-filter-heading,
+    .skill-filter-heading,
     .enchant-npc-filter-heading {
       width: 100%;
       min-width: 0;
@@ -1664,6 +1752,36 @@
 
     .effect-filter-group-body {
       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .skill-filter-group-body {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    #skillFilterRow [hidden],
+    #skillFilterRow > [hidden] {
+      display: none;
+    }
+
+    .skill-filter-search {
+      padding: 6px 0;
+    }
+
+    .skill-filter-search input {
+      width: 100%;
+      min-height: 30px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 5px 8px;
+      background: var(--surface-panel);
+      color: var(--text);
+      font: inherit;
+    }
+
+    .skill-filter-search input:focus-visible {
+      border-color: var(--primary);
+      outline: 2px solid var(--primary-soft);
+      outline-offset: 1px;
     }
 
     .enchant-npc-filter-group-body {
