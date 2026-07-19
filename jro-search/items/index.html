@@ -44,7 +44,7 @@
     })();
   </script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="./assets/items.css?v=bb2d1f831f7e">
+  <link rel="stylesheet" href="./assets/items.css?v=8619b0c9341d">
   <!-- Google tag (gtag.js) -->
   <script>
     (() => {
@@ -103,7 +103,7 @@
         </div>
 
         <div class="header-meta">
-          <button class="header-pill version-history-button" id="updateStatus" type="button" aria-label="更新履歴を表示" aria-expanded="false" aria-controls="versionHistoryPanel">v26.7.9</button>
+          <button class="header-pill version-history-button" id="updateStatus" type="button" aria-label="更新履歴を表示" aria-expanded="false" aria-controls="versionHistoryPanel">v26.7.10</button>
           <button class="update-info-button" id="updateInfoButton" type="button" aria-label="追加情報を表示" aria-expanded="false" aria-controls="updateInfoPanel" hidden>
             <i class="fa-solid fa-bell" aria-hidden="true"></i>
           </button>
@@ -491,7 +491,7 @@
         <section class="preview-pane" id="previewPane" role="tabpanel" aria-labelledby="previewTab" aria-label="アイテム詳細">
           <div class="preview-empty is-visible" id="previewEmpty">
             <p class="preview-empty-title">アイテムを選択してください</p>
-            <p class="preview-empty-text">検索結果からアイテムを選択すると、エンチャント情報と公式ページをここに表示します。</p>
+            <p class="preview-empty-text">検索結果からアイテムを選択すると、説明やエンチャント、公式ページをここに表示します。</p>
           </div>
 
           <div class="preview-header" id="previewHeader" hidden>
@@ -500,7 +500,11 @@
                 <h2 class="preview-title">
                   <button class="preview-title-button" id="previewTitleButton" type="button"></button>
                 </h2>
-                <div class="preview-url" id="previewUrl"></div>
+                <a class="preview-url" id="openOfficial" href="about:blank" target="_blank" rel="noopener noreferrer" aria-label="公式ページを別タブで開く" title="公式ページを別タブで開く">
+                  <span class="preview-url-text" id="previewUrl"></span>
+                  <i class="fa-solid fa-arrow-up-right-from-square preview-url-external" aria-hidden="true"></i>
+                </a>
+                <div class="movement-restrictions" id="movementRestrictions" aria-label="取引・移動制限" hidden></div>
               </div>
               <button class="favorite-toggle preview-favorite-toggle" id="favoriteToggle" type="button" aria-label="お気に入りに追加" aria-pressed="false" title="お気に入り">
                 <i class="fa-regular fa-heart" aria-hidden="true"></i>
@@ -508,26 +512,29 @@
             </div>
           </div>
 
-          <div class="enchant-summary" id="enchantSummary" aria-label="エンチャント対応情報" hidden></div>
+          <div class="preview-detail-tabs" id="previewDetailTabs" role="tablist" aria-label="アイテム詳細の表示項目" hidden>
+            <button class="preview-detail-tab" id="descriptionDetailTab" type="button" role="tab" aria-selected="true" aria-controls="itemDetails" data-preview-detail-tab="description">説明</button>
+            <button class="preview-detail-tab" id="enchantmentDetailTab" type="button" role="tab" aria-selected="false" aria-controls="enchantSummary" data-preview-detail-tab="enchantment" tabindex="-1">エンチャント</button>
+            <button class="preview-detail-tab" id="simulatorDetailTab" type="button" role="tab" aria-selected="false" aria-controls="performanceSimulatorSlot" data-preview-detail-tab="simulator" tabindex="-1">シミュレーター(β)</button>
+            <button class="preview-detail-tab" id="officialDetailTab" type="button" role="tab" aria-selected="false" aria-controls="iframeWrap" data-preview-detail-tab="official" tabindex="-1">公式ページ</button>
+          </div>
 
-          <details class="iframe-wrap preview-disclosure" id="iframeWrap" hidden>
-            <summary class="preview-disclosure-heading">
-              <span>公式ページ</span>
-              <a class="button preview-official-link" id="openOfficial" href="about:blank" target="_blank" rel="noopener noreferrer">別タブで開く</a>
-            </summary>
-            <div class="preview-disclosure-body">
-              <iframe
-                class="official-frame"
-                id="officialFrame"
-                title="公式アイテムページ"
-                src="about:blank"
-                loading="eager"
-                referrerpolicy="no-referrer"
-              ></iframe>
-            </div>
-          </details>
+          <div class="item-details preview-detail-panel" id="itemDetails" role="tabpanel" aria-labelledby="descriptionDetailTab" aria-label="アイテム説明と詳細" hidden></div>
 
-          <div class="item-details" id="itemDetails" aria-label="アイテム説明と詳細" hidden></div>
+          <div class="performance-simulator-slot preview-detail-panel" id="performanceSimulatorSlot" role="tabpanel" aria-labelledby="simulatorDetailTab" hidden></div>
+
+          <div class="enchant-summary preview-detail-panel" id="enchantSummary" role="tabpanel" aria-labelledby="enchantmentDetailTab" aria-label="エンチャント対応情報" hidden></div>
+
+          <div class="iframe-wrap preview-detail-panel" id="iframeWrap" role="tabpanel" aria-labelledby="officialDetailTab" hidden>
+            <iframe
+              class="official-frame"
+              id="officialFrame"
+              title="公式アイテムページ"
+              src="about:blank"
+              loading="eager"
+              referrerpolicy="no-referrer"
+            ></iframe>
+          </div>
           <div class="help-panel version-history-panel" id="versionHistoryPanel" aria-label="更新履歴" hidden>
             <div class="help-panel-header">
               <div>
@@ -691,8 +698,8 @@
     </button>
   </div>
 
-  <script src="./assets/search-core.js?v=8eec2b5a5ac9"></script>
+  <script src="./assets/search-core.js?v=815c24bde059"></script>
   <script src="./assets/job-filter.js?v=d99a7da54926"></script>
-  <script src="./assets/items.js?v=173ba69e8ea9"></script>
+  <script src="./assets/items.js?v=47dda2250b25"></script>
 </body>
 </html>

@@ -1924,7 +1924,8 @@
     }
 
     .chip[data-tooltip]::after,
-    .button[data-tooltip]::after {
+    .button[data-tooltip]::after,
+    .movement-restriction-badge[data-tooltip]::after {
       position: absolute;
       z-index: 20;
       bottom: calc(100% + 8px);
@@ -1978,10 +1979,18 @@
       transform: translateY(-4px);
     }
 
+    .movement-restriction-badge[data-tooltip]::after {
+      right: auto;
+      left: 0;
+      max-width: min(220px, calc(100vw - 32px));
+      transform: translateY(4px);
+    }
+
     .chip[data-tooltip]:hover::after,
     .chip[data-tooltip]:focus-visible::after,
     .button[data-tooltip]:hover::after,
-    .button[data-tooltip]:focus-visible::after {
+    .button[data-tooltip]:focus-visible::after,
+    .movement-restriction-badge[data-tooltip]:hover::after {
       opacity: 1;
       transform: translate(-50%, 0);
     }
@@ -2003,6 +2012,10 @@
 
     .search-input-wrap .button[data-tooltip]:hover::after,
     .search-input-wrap .button[data-tooltip]:focus-visible::after {
+      transform: translateY(0);
+    }
+
+    .movement-restriction-badge[data-tooltip]:hover::after {
       transform: translateY(0);
     }
 
@@ -2399,8 +2412,13 @@
     }
 
     .preview-header[hidden],
+    .preview-detail-tabs[hidden],
+    .preview-detail-tab[hidden],
+    .preview-detail-panel[hidden],
+    .performance-simulator-slot[hidden],
     .enchant-summary[hidden],
     .item-details[hidden],
+    .movement-restrictions[hidden],
     .iframe-wrap[hidden],
     .help-panel[hidden],
     .preset-manager[hidden] {
@@ -2739,11 +2757,35 @@
     }
 
     .preview-url {
-      overflow: hidden;
-      color: var(--muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      max-width: 100%;
+      color: var(--primary-strong);
       font-size: 12px;
+      text-decoration: none;
+    }
+
+    .preview-url:hover,
+    .preview-url:focus-visible {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .preview-url-text {
+      min-width: 0;
+      overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+    }
+
+    .preview-url-external {
+      flex: 0 0 auto;
+      font-size: 10px;
+    }
+
+    .preview-header .movement-restrictions {
+      margin-top: 8px;
     }
 
     .favorite-items,
@@ -2754,6 +2796,56 @@
     .favorite-items[hidden],
     .recent-items[hidden] {
       display: none;
+    }
+
+    .preview-detail-tabs {
+      display: flex;
+      flex: 0 0 auto;
+      align-items: stretch;
+      gap: 2px;
+      min-width: 0;
+      padding: 0 12px;
+      overflow-x: auto;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+      scrollbar-width: thin;
+    }
+
+    .preview-detail-tab {
+      appearance: none;
+      position: relative;
+      flex: 0 0 auto;
+      min-height: 42px;
+      padding: 9px 12px 8px;
+      border: 0;
+      border-bottom: 2px solid transparent;
+      background: transparent;
+      color: var(--muted);
+      font: inherit;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .preview-detail-tab:hover {
+      background: var(--surface-muted);
+      color: var(--text);
+    }
+
+    .preview-detail-tab[aria-selected="true"] {
+      border-bottom-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .preview-detail-tab:focus-visible {
+      outline: 2px solid var(--primary);
+      outline-offset: -3px;
+    }
+
+    .preview-detail-panel {
+      flex: 0 0 auto;
+      min-width: 0;
     }
 
     .enchant-summary {
@@ -2823,12 +2915,12 @@
 
     .movement-restriction-panel {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       justify-content: flex-start;
-      min-height: 38px;
-      padding: 8px 14px;
-      border-bottom: 1px solid var(--border);
-      background: var(--surface);
+      min-height: 0;
+      padding: 0;
+      background: transparent;
     }
 
     .movement-restriction-list {
@@ -2845,20 +2937,28 @@
       place-items: center;
       width: 22px;
       height: 22px;
-      border: 1px solid var(--border-strong);
-      border-radius: 6px;
-      background: var(--surface-elevated);
-      color: var(--primary);
       font-size: 11px;
       line-height: 1;
     }
 
-    .movement-restriction-badge[data-state="blocked"] {
+    .movement-restriction-visual {
+      position: relative;
+      display: inline-grid;
+      place-items: center;
+      width: 100%;
+      height: 100%;
+      border: 1px solid var(--border-strong);
+      border-radius: 6px;
+      background: var(--surface-elevated);
+      color: var(--primary);
+    }
+
+    .movement-restriction-badge[data-state="blocked"] .movement-restriction-visual {
       color: var(--muted);
       opacity: 0.74;
     }
 
-    .movement-restriction-badge[data-state="blocked"]::after {
+    .movement-restriction-badge[data-state="blocked"] .movement-restriction-visual::after {
       position: absolute;
       top: 50%;
       left: 3px;
@@ -2873,12 +2973,6 @@
 
     .movement-restriction-glyph {
       pointer-events: none;
-    }
-
-    .preview-official-link {
-      min-height: 30px;
-      padding: 5px 10px;
-      font-size: 12px;
     }
 
     .preview-disclosure-body {
@@ -2896,6 +2990,187 @@
       color: var(--text);
       font-size: 13px;
       white-space: pre-wrap;
+    }
+
+    .performance-simulator-body {
+      display: grid;
+      gap: 12px;
+      padding: 12px 14px;
+    }
+
+    .performance-simulator-controls {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 9px;
+    }
+
+    .performance-simulator-field {
+      display: grid;
+      gap: 5px;
+      min-width: 0;
+    }
+
+    .performance-simulator-field.is-checkbox {
+      grid-template-columns: auto minmax(0, 1fr);
+      align-items: center;
+      min-height: 36px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 7px 9px;
+      background: var(--surface-panel);
+      cursor: pointer;
+    }
+
+    .performance-simulator-label {
+      min-width: 0;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .performance-simulator-field.is-checkbox .performance-simulator-label {
+      color: var(--text);
+      font-size: 12px;
+    }
+
+    .performance-simulator-input {
+      width: 100%;
+      min-width: 0;
+      min-height: 36px;
+      border: 1px solid var(--border-strong);
+      border-radius: 8px;
+      padding: 7px 9px;
+      background-color: var(--control-bg);
+      color: var(--text);
+      font-size: 12px;
+    }
+
+    select.performance-simulator-input {
+      appearance: none;
+      padding-right: 30px;
+      background-image:
+        linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+        linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+      background-position:
+        calc(100% - 16px) 50%,
+        calc(100% - 11px) 50%;
+      background-repeat: no-repeat;
+      background-size: 5px 5px;
+    }
+
+    select.performance-simulator-input option {
+      background: var(--surface-elevated);
+      color: var(--text);
+    }
+
+    .performance-simulator-checkbox {
+      width: 16px;
+      height: 16px;
+      margin: 0;
+      accent-color: var(--primary);
+    }
+
+    .performance-simulator-result {
+      display: grid;
+      gap: 8px;
+      min-width: 0;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      padding: 10px;
+      background: var(--surface-panel);
+    }
+
+    .performance-simulator-result-heading {
+      margin: 0;
+      color: var(--text);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .performance-simulator-effect-list {
+      display: grid;
+      gap: 8px;
+      margin: 0;
+      padding: 0 0 0 17px;
+      color: var(--text);
+      font-size: 12px;
+      list-style: none;
+    }
+
+    .performance-simulator-effect-list[hidden],
+    .performance-simulator-empty[hidden] {
+      display: none;
+    }
+
+    .performance-simulator-effect {
+      display: grid;
+      gap: 2px;
+      position: relative;
+      white-space: normal;
+    }
+
+    .performance-simulator-effect-source {
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 700;
+    }
+
+    .performance-simulator-effect::before {
+      position: absolute;
+      top: 0.45em;
+      left: -13px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--primary);
+      content: "";
+    }
+
+    .performance-simulator-empty,
+    .performance-simulator-note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.5;
+    }
+
+    .performance-simulator-totals {
+      display: grid;
+      gap: 8px;
+      border-top: 1px solid var(--border-soft);
+      padding-top: 10px;
+    }
+
+    .performance-simulator-totals[hidden] {
+      display: none;
+    }
+
+    .performance-simulator-total-list {
+      display: grid;
+      gap: 7px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .performance-simulator-total {
+      display: grid;
+      gap: 2px;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      padding: 8px 9px;
+      background: var(--surface-subpanel);
+    }
+
+    .performance-simulator-total-value {
+      color: var(--text);
+      font-size: 14px;
+    }
+
+    .performance-simulator-total-formula {
+      color: var(--muted);
+      font-size: 10px;
     }
 
     .item-detail-list {
@@ -3683,21 +3958,16 @@
 
     .iframe-wrap {
       display: grid;
-      grid-template-rows: auto minmax(0, auto);
+      grid-template-rows: minmax(0, auto);
       flex: 0 0 auto;
       position: relative;
       min-height: 0;
       background: var(--frame-bg);
     }
 
-    .iframe-wrap:not([open]):not([hidden]) {
-      display: block;
-      flex: 0 0 auto;
-    }
-
     .official-frame {
       width: 100%;
-      height: clamp(360px, 52vh, 520px);
+      height: var(--official-frame-height, clamp(360px, 52vh, 520px));
       border: 0;
       background: var(--surface);
     }
@@ -3716,6 +3986,10 @@
     }
 
     @media (max-width: 960px) {
+      .performance-simulator-disclosure {
+        display: none;
+      }
+
       .app-shell {
         grid-template-columns: 1fr;
         align-content: start;
@@ -3984,9 +4258,6 @@
         overflow: visible;
       }
 
-      .official-frame {
-        height: 620px;
-      }
     }
 
     @media (max-width: 640px) {
