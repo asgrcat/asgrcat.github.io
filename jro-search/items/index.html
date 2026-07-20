@@ -43,8 +43,11 @@
       }
     })();
   </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;600;700&amp;family=JetBrains+Mono:wght@600;700&amp;display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="./assets/items.css?v=8619b0c9341d">
+  <link rel="stylesheet" href="./assets/items.css?v=647de15958c5">
   <!-- Google tag (gtag.js) -->
   <script>
     (() => {
@@ -102,8 +105,8 @@
           </nav>
         </div>
 
-        <div class="header-meta">
-          <button class="header-pill version-history-button" id="updateStatus" type="button" aria-label="更新履歴を表示" aria-expanded="false" aria-controls="versionHistoryPanel">v26.7.10</button>
+        <div class="header-meta" role="group" aria-label="更新と表示設定">
+          <button class="header-pill version-history-button" id="updateStatus" type="button" aria-label="更新履歴を表示" aria-expanded="false" aria-controls="versionHistoryPanel">v26.7.11</button>
           <button class="update-info-button" id="updateInfoButton" type="button" aria-label="追加情報を表示" aria-expanded="false" aria-controls="updateInfoPanel" hidden>
             <i class="fa-solid fa-bell" aria-hidden="true"></i>
           </button>
@@ -425,7 +428,7 @@
               <div class="results-control-stack">
                 <div class="field-row results-search-row">
                   <div class="search-input-wrap">
-                    <input class="text-field" id="keywordInput" type="search" aria-label="キーワード" placeholder="アイテム名・効果・説明文で検索...">
+                    <input class="text-field" id="keywordInput" type="search" aria-label="キーワード" placeholder="アイテム名・効果・説明文で検索…">
                     <button class="button button-primary button-icon" id="searchButton" type="button" aria-label="検索" title="検索">
                       <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
                     </button>
@@ -471,11 +474,6 @@
                   </div>
                 </div>
 
-                <div class="selected-filters" aria-label="選択中フィルター" hidden>
-                  <div class="selected-filter-heading">選択中</div>
-                  <div class="selected-filter-list" id="selectedFilterList"></div>
-                  <div class="selected-filter-empty" id="selectedFilterEmpty">未選択</div>
-                </div>
               </div>
             </div>
 
@@ -514,12 +512,15 @@
 
           <div class="preview-detail-tabs" id="previewDetailTabs" role="tablist" aria-label="アイテム詳細の表示項目" hidden>
             <button class="preview-detail-tab" id="descriptionDetailTab" type="button" role="tab" aria-selected="true" aria-controls="itemDetails" data-preview-detail-tab="description">説明</button>
+            <button class="preview-detail-tab" id="monsterDetailTab" type="button" role="tab" aria-selected="false" aria-controls="dropMonsterPanel" data-preview-detail-tab="monsters" tabindex="-1">入手可能なモンスター</button>
             <button class="preview-detail-tab" id="enchantmentDetailTab" type="button" role="tab" aria-selected="false" aria-controls="enchantSummary" data-preview-detail-tab="enchantment" tabindex="-1">エンチャント</button>
             <button class="preview-detail-tab" id="simulatorDetailTab" type="button" role="tab" aria-selected="false" aria-controls="performanceSimulatorSlot" data-preview-detail-tab="simulator" tabindex="-1">シミュレーター(β)</button>
             <button class="preview-detail-tab" id="officialDetailTab" type="button" role="tab" aria-selected="false" aria-controls="iframeWrap" data-preview-detail-tab="official" tabindex="-1">公式ページ</button>
           </div>
 
           <div class="item-details preview-detail-panel" id="itemDetails" role="tabpanel" aria-labelledby="descriptionDetailTab" aria-label="アイテム説明と詳細" hidden></div>
+
+          <div class="drop-monster-panel preview-detail-panel" id="dropMonsterPanel" role="tabpanel" aria-labelledby="monsterDetailTab" aria-label="入手可能なモンスター" hidden></div>
 
           <div class="performance-simulator-slot preview-detail-panel" id="performanceSimulatorSlot" role="tabpanel" aria-labelledby="simulatorDetailTab" hidden></div>
 
@@ -692,14 +693,14 @@
       <i class="fa-solid fa-sliders" aria-hidden="true"></i>
       絞り込み
     </button>
-    <button class="mobile-action-button" id="mobilePreviewButton" type="button" aria-pressed="false">
+    <button class="mobile-action-button" id="mobilePreviewButton" type="button" aria-label="アイテム詳細" aria-pressed="false">
       <i class="fa-regular fa-rectangle-list" aria-hidden="true"></i>
-      アイテム詳細
+      詳細
     </button>
   </div>
 
   <script src="./assets/search-core.js?v=815c24bde059"></script>
   <script src="./assets/job-filter.js?v=d99a7da54926"></script>
-  <script src="./assets/items.js?v=47dda2250b25"></script>
+  <script src="./assets/items.js?v=e745016fdbf4"></script>
 </body>
 </html>
