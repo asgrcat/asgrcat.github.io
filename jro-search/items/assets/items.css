@@ -4079,6 +4079,7 @@
 
       .header-meta {
         grid-column: 1 / -1;
+        justify-self: end;
         justify-content: flex-end;
       }
 
@@ -4239,6 +4240,9 @@
         align-self: stretch;
         height: auto;
         max-height: none;
+        overflow: visible;
+        scrollbar-gutter: auto;
+        overscroll-behavior: auto;
       }
 
       .results-area,
