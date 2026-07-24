@@ -106,7 +106,7 @@
         </div>
 
         <div class="header-meta" role="group" aria-label="更新と表示設定">
-          <button class="header-pill version-history-button" id="updateStatus" type="button" aria-label="更新履歴を表示" aria-expanded="false" aria-controls="versionHistoryPanel">v26.7.13</button>
+          <button class="header-pill version-history-button" id="updateStatus" type="button" aria-label="更新履歴を表示" aria-expanded="false" aria-controls="versionHistoryPanel">v26.7.14</button>
           <button class="update-info-button" id="updateInfoButton" type="button" aria-label="追加情報を表示" aria-expanded="false" aria-controls="updateInfoPanel" hidden>
             <i class="fa-solid fa-bell" aria-hidden="true"></i>
           </button>
@@ -513,6 +513,7 @@
           <div class="preview-detail-tabs" id="previewDetailTabs" role="tablist" aria-label="アイテム詳細の表示項目" hidden>
             <button class="preview-detail-tab" id="descriptionDetailTab" type="button" role="tab" aria-selected="true" aria-controls="itemDetails" data-preview-detail-tab="description">説明</button>
             <button class="preview-detail-tab" id="monsterDetailTab" type="button" role="tab" aria-selected="false" aria-controls="dropMonsterPanel" data-preview-detail-tab="monsters" tabindex="-1">入手可能なモンスター</button>
+            <button class="preview-detail-tab" id="contentsDetailTab" type="button" role="tab" aria-selected="false" aria-controls="contentsSummary" data-preview-detail-tab="contents" tabindex="-1">収録内容</button>
             <button class="preview-detail-tab" id="enchantmentDetailTab" type="button" role="tab" aria-selected="false" aria-controls="enchantSummary" data-preview-detail-tab="enchantment" tabindex="-1">エンチャント</button>
             <button class="preview-detail-tab" id="simulatorDetailTab" type="button" role="tab" aria-selected="false" aria-controls="performanceSimulatorSlot" data-preview-detail-tab="simulator" tabindex="-1">シミュレーター(β)</button>
             <button class="preview-detail-tab" id="officialDetailTab" type="button" role="tab" aria-selected="false" aria-controls="iframeWrap" data-preview-detail-tab="official" tabindex="-1">公式ページ</button>
@@ -523,6 +524,8 @@
           <div class="drop-monster-panel preview-detail-panel" id="dropMonsterPanel" role="tabpanel" aria-labelledby="monsterDetailTab" aria-label="入手可能なモンスター" hidden></div>
 
           <div class="performance-simulator-slot preview-detail-panel" id="performanceSimulatorSlot" role="tabpanel" aria-labelledby="simulatorDetailTab" hidden></div>
+
+          <div class="enchant-summary contents-summary preview-detail-panel" id="contentsSummary" role="tabpanel" aria-labelledby="contentsDetailTab" aria-label="収録内容" hidden></div>
 
           <div class="enchant-summary preview-detail-panel" id="enchantSummary" role="tabpanel" aria-labelledby="enchantmentDetailTab" aria-label="エンチャント対応情報" hidden></div>
 
@@ -701,6 +704,6 @@
 
   <script src="./assets/search-core.js?v=815c24bde059"></script>
   <script src="./assets/job-filter.js?v=d99a7da54926"></script>
-  <script src="./assets/items.js?v=e745016fdbf4"></script>
+  <script src="./assets/items.js?v=a6ad59251b0e"></script>
 </body>
 </html>
