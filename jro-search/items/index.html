@@ -47,7 +47,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;600;700&amp;family=JetBrains+Mono:wght@600;700&amp;display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="./assets/items.css?v=13944961c43c">
+  <link rel="stylesheet" href="./assets/items.css?v=6b4091cab010">
   <!-- Google tag (gtag.js) -->
   <script>
     (() => {
@@ -106,7 +106,7 @@
         </div>
 
         <div class="header-meta" role="group" aria-label="更新と表示設定">
-          <button class="header-pill version-history-button" id="updateStatus" type="button" aria-label="更新履歴を表示" aria-expanded="false" aria-controls="versionHistoryPanel">v26.7.15</button>
+          <button class="header-pill version-history-button" id="updateStatus" type="button" aria-label="更新履歴を表示" aria-expanded="false" aria-controls="versionHistoryPanel">v26.7.16</button>
           <button class="update-info-button" id="updateInfoButton" type="button" aria-label="追加情報を表示" aria-expanded="false" aria-controls="updateInfoPanel" hidden>
             <i class="fa-solid fa-bell" aria-hidden="true"></i>
           </button>
@@ -461,10 +461,10 @@
                       <button class="chip" type="button" role="radio" aria-checked="false" data-costume-scope="shadow">シャドウ装備</button>
                     </div>
                     <div class="scope-chip-group scope-chip-group-personal" aria-label="マイリスト">
-                      <button class="chip scope-icon-chip favorite-items" id="favoriteItems" type="button" role="radio" aria-checked="false" aria-label="お気に入り" data-costume-scope="favorite" data-tooltip="お気に入りに登録したアイテム" title="お気に入りに登録したアイテム">
+                      <button class="chip scope-icon-chip favorite-items" id="favoriteItems" type="button" role="radio" aria-checked="false" aria-expanded="false" aria-controls="favoriteSetManager" aria-label="お気に入り" data-costume-scope="favorite" data-tooltip="お気に入り" title="お気に入り">
                         <i class="fa-regular fa-heart" aria-hidden="true"></i>
                       </button>
-                      <button class="chip scope-icon-chip preset-items" id="presetManagerButton" type="button" aria-label="検索条件プリセット" data-tooltip="検索条件プリセット" title="検索条件プリセット">
+                      <button class="chip scope-icon-chip preset-items" id="presetManagerButton" type="button" aria-pressed="false" aria-label="検索条件プリセット" data-tooltip="検索条件プリセット" title="検索条件プリセット">
                         <i class="fa-solid fa-bookmark" aria-hidden="true"></i>
                       </button>
                       <button class="chip scope-icon-chip recent-items" id="recentItems" type="button" role="radio" aria-checked="false" aria-label="閲覧履歴" data-costume-scope="recent" data-tooltip="最近閲覧したアイテム" title="最近閲覧したアイテム">
@@ -504,9 +504,20 @@
                 </a>
                 <div class="movement-restrictions" id="movementRestrictions" aria-label="取引・移動制限" hidden></div>
               </div>
-              <button class="favorite-toggle preview-favorite-toggle" id="favoriteToggle" type="button" aria-label="お気に入りに追加" aria-pressed="false" title="お気に入り">
-                <i class="fa-regular fa-heart" aria-hidden="true"></i>
-              </button>
+              <div class="preview-favorite-actions">
+                <button class="favorite-toggle preview-favorite-toggle" id="favoriteToggle" type="button" aria-label="お気に入りに追加" aria-pressed="false" title="お気に入り">
+                  <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                </button>
+                <div class="favorite-set-selector">
+                  <button class="favorite-set-manager-button" id="favoriteSetManagerButton" type="button" aria-label="お気に入りの追加先を変更" aria-expanded="false" aria-haspopup="menu" aria-controls="favoriteSetSelectorMenu" title="お気に入りの追加先を変更">
+                    <i class="fa-solid fa-folder-open" aria-hidden="true"></i>
+                    <span class="favorite-set-manager-prefix">追加先:</span>
+                    <span class="favorite-set-manager-button-label" id="favoriteSetManagerButtonLabel">お気に入り</span>
+                    <i class="fa-solid fa-chevron-down favorite-set-manager-chevron" aria-hidden="true"></i>
+                  </button>
+                  <div class="favorite-set-selector-menu" id="favoriteSetSelectorMenu" role="menu" aria-label="お気に入りの追加先" hidden></div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -591,7 +602,7 @@
               <section class="help-section">
                 <h3 class="help-section-title">保存されるもの</h3>
                 <ul class="help-list">
-                  <li>お気に入りアイテム</li>
+                  <li>お気に入りセットと登録アイテム</li>
                   <li>最近閲覧したアイテム</li>
                   <li>検索条件プリセット</li>
                   <li>カラーテーマと表示設定</li>
@@ -604,6 +615,15 @@
                   <li>ブラウザのローカルストレージに保存されます。</li>
                   <li>アカウント同期ではないため、端末やブラウザごとに別管理です。</li>
                   <li>ブラウザのサイトデータを削除すると、保存内容も削除されます。</li>
+                </ul>
+              </section>
+
+              <section class="help-section">
+                <h3 class="help-section-title">お気に入りセット</h3>
+                <ul class="help-list">
+                  <li>アイテム詳細のセットアイコンから、用途別のお気に入りセットを作成できます。</li>
+                  <li>選択中のセットが、ハートボタンの追加先とお気に入り検索の対象になります。</li>
+                  <li>追加先を選んでからハートボタンで登録・解除します。</li>
                 </ul>
               </section>
 
@@ -633,6 +653,22 @@
             </div>
             <div class="preset-list" id="presetList"></div>
             <div class="preset-empty" id="presetEmpty">保存済みの検索条件はありません。</div>
+          </div>
+          <div class="favorite-set-manager" id="favoriteSetManager" aria-label="お気に入りセット" hidden>
+            <div class="favorite-set-manager-header">
+              <div>
+                <h2 class="favorite-set-manager-title">お気に入りセット</h2>
+                <p class="favorite-set-current-summary" id="favoriteSetCurrentSummary"></p>
+              </div>
+              <button class="favorite-set-manager-close" id="favoriteSetManagerCloseButton" type="button" aria-label="お気に入りセットを閉じる" title="閉じる">
+                <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="favorite-set-create-row">
+              <input class="text-field favorite-set-name-input" id="favoriteSetNameInput" type="text" maxlength="40" aria-label="新しいお気に入りセット名" placeholder="新しいセット名">
+              <button class="button button-primary" id="favoriteSetCreateButton" type="button">作成して追加</button>
+            </div>
+            <div class="favorite-set-list" id="favoriteSetList"></div>
           </div>
         </section>
       </main>
@@ -704,6 +740,6 @@
 
   <script src="./assets/search-core.js?v=815c24bde059"></script>
   <script src="./assets/job-filter.js?v=d99a7da54926"></script>
-  <script src="./assets/items.js?v=a6ad59251b0e"></script>
+  <script src="./assets/items.js?v=de0ba46cbb7c"></script>
 </body>
 </html>
