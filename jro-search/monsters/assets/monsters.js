@@ -125,7 +125,7 @@
       (behaviorMask & behaviorBits[behavior]) !== 0
     ));
     const traitMask = Number.isInteger(values.traits) ? values.traits : 0;
-    const matchesTraits = selectedTraits.length === 0 || selectedTraits.every((trait) => (
+    const matchesTraits = selectedTraits.length === 0 || selectedTraits.some((trait) => (
       (traitMask & traitBits[trait]) !== 0
     ));
     const hasSelectedMapCategory = selectedMd.length > 0 || selectedDungeon.length > 0;
