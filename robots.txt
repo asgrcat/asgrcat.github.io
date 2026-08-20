@@ -1,6 +1,9 @@
 User-agent: *
 Allow: /jro-search/items/$
 Allow: /jro-search/items/index.html$
+Allow: /jro-search/monsters/$
+Allow: /jro-search/monsters/index.html$
 Disallow: /jro-search/data/
 Disallow: /jro-search/items/assets/
+Disallow: /jro-search/monsters/assets/
 Disallow: /jro-search/

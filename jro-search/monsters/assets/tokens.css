@@ -1,0 +1,12 @@
+/* Hallmark · macrostructure: Index-First · genre: modern-minimal · tone: technical · anchor hue: cyan · shared multi-theme tokens */
+:root {
+  --monster-space-1: 4px;
+  --monster-space-2: 8px;
+  --monster-space-3: 12px;
+  --monster-space-4: 16px;
+  --monster-space-5: 24px;
+  --monster-result-width: 360px;
+  --monster-radius: 8px;
+  --monster-ease: var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1));
+  --monster-duration: var(--duration-hover, 160ms);
+}

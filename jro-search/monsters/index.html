@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="ja" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JRO Search - ラグナロクオンライン モンスター検索</title>
+  <meta name="description" content="ラグナロクオンライン公式ツールのモンスター一覧からモンスター名を検索し、公式詳細とJRO Searchの関連アイテムを確認できます。">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="icon" type="image/svg+xml" href="../favicon/transparent/favicon.svg">
+  <link rel="canonical" href="https://asgrcat.github.io/jro-search/monsters/">
+  <script>
+    (() => {
+      try {
+        const theme = window.localStorage.getItem('jro-search.items.theme');
+        if (['dark', 'light', 'ocean', 'sky', 'forest', 'mint', 'violet', 'sakura', 'amber', 'sunlight'].includes(theme)) document.documentElement.dataset.theme = theme;
+        window.localStorage.removeItem('jro-search.items.accent');
+        delete document.documentElement.dataset.accent;
+      } catch {}
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;600;700&amp;family=JetBrains+Mono:wght@600;700&amp;display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="../items/assets/items.css?v=17fd2a980702">
+  <link rel="stylesheet" href="./assets/tokens.css?v=9dba914c7680">
+  <link rel="stylesheet" href="./assets/monsters.css?v=c0089aff32c4">
+  <!-- Google tag (gtag.js) -->
+  <script>
+    (() => {
+      const analyticsHosts = new Set(['asgrcat.github.io']);
+
+      if (!analyticsHosts.has(window.location.hostname)) return;
+
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-6FBS7Y3XEZ';
+      document.head.append(script);
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function gtag(){window.dataLayer.push(arguments);};
+      window.gtag('js', new Date());
+      window.gtag('config', 'G-6FBS7Y3XEZ', {
+        content_group: 'monsters',
+        jro_search_section: 'monsters',
+      });
+    })();
+  </script>
+</head>
+<body>
+  <div class="app-shell">
+    <div class="workspace">
+      <header class="app-header">
+        <div class="brand">
+          <img class="brand-icon" src="../favicon/transparent/brand-icon.svg" width="32" height="32" alt="">
+          <p class="brand-title">JRO Search</p>
+        </div>
+        <div class="nav-menu">
+          <input class="nav-menu-check" id="navMenuToggle" type="checkbox" aria-label="メニューを開く">
+          <label class="nav-menu-toggle" for="navMenuToggle">メニュー</label>
+          <nav aria-label="検索カテゴリ">
+            <p class="nav-section-title">Search</p>
+            <ul class="nav-list">
+              <li><a class="nav-link" href="../items/"><i class="fa-solid fa-box" aria-hidden="true"></i><span>アイテム検索</span></a></li>
+              <li><a class="nav-link" href="./" aria-current="page"><i class="fa-solid fa-paw" aria-hidden="true"></i><span>モンスター検索</span></a></li>
+              <li><a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdXCycYpzNo10uk7OQH8SkYWCtEPN2WPfTvuBzbHrFYyhdyBg/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-message" aria-hidden="true"></i><span>問い合わせ</span><i class="fa-solid fa-arrow-up-right-from-square nav-link-external" aria-hidden="true"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-meta" role="group" aria-label="モンスター検索の更新と表示設定">
+          <button class="header-pill version-history-button" id="monsterUpdateStatus" type="button" aria-label="モンスター検索の更新履歴を表示" aria-expanded="false" aria-controls="monsterVersionHistoryPanel">v26.8.1</button>
+          <button class="update-info-button monster-tool" id="monsterUpdateInfoButton" type="button" aria-label="追加モンスター情報を表示" aria-expanded="false" aria-controls="monsterUpdateInfoPanel" data-tooltip="追加モンスター情報" hidden><i class="fa-solid fa-bell" aria-hidden="true"></i></button>
+          <button class="help-button monster-tool" id="monsterHelpButton" type="button" aria-label="モンスター検索の使い方" aria-expanded="false" aria-controls="monsterHelpPanel" data-tooltip="モンスター検索の使い方"><i class="fa-solid fa-question" aria-hidden="true"></i></button>
+          <button class="theme-toggle monster-tool" id="themeToggle" type="button" aria-label="モンスター検索の表示設定" aria-expanded="false" aria-controls="colorModePopover" data-tooltip="モンスター検索の表示設定"><i class="fa-solid fa-gear theme-toggle-icon" aria-hidden="true"></i></button>
+          <div class="color-mode-popover" id="colorModePopover" role="dialog" aria-label="モンスター検索の表示設定" hidden>
+            <div class="color-mode-section">
+              <p class="color-mode-title">テーマ</p>
+              <div class="color-mode-options" role="group" aria-label="テーマ">
+                <button class="color-mode-option" type="button" data-theme-choice="dark" aria-pressed="true"><i class="fa-solid fa-moon" aria-hidden="true"></i>ダーク</button>
+                <button class="color-mode-option" type="button" data-theme-choice="light" aria-pressed="false"><i class="fa-solid fa-sun" aria-hidden="true"></i>ライト</button>
+                <button class="color-mode-option" type="button" data-theme-choice="ocean" aria-pressed="false"><i class="fa-solid fa-water" aria-hidden="true"></i>青夜</button>
+                <button class="color-mode-option" type="button" data-theme-choice="sky" aria-pressed="false"><i class="fa-solid fa-cloud" aria-hidden="true"></i>朝空</button>
+                <button class="color-mode-option" type="button" data-theme-choice="forest" aria-pressed="false"><i class="fa-solid fa-leaf" aria-hidden="true"></i>翠森</button>
+                <button class="color-mode-option" type="button" data-theme-choice="mint" aria-pressed="false"><i class="fa-solid fa-seedling" aria-hidden="true"></i>若草</button>
+                <button class="color-mode-option" type="button" data-theme-choice="violet" aria-pressed="false"><i class="fa-solid fa-gem" aria-hidden="true"></i>紫宵</button>
+                <button class="color-mode-option" type="button" data-theme-choice="sakura" aria-pressed="false"><i class="fa-solid fa-spa" aria-hidden="true"></i>桜色</button>
+                <button class="color-mode-option" type="button" data-theme-choice="amber" aria-pressed="false"><i class="fa-solid fa-fire-flame-simple" aria-hidden="true"></i>琥珀</button>
+                <button class="color-mode-option" type="button" data-theme-choice="sunlight" aria-pressed="false"><i class="fa-solid fa-cloud-sun" aria-hidden="true"></i>陽光</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="monster-workspace" id="monsterWorkspace">
+        <div class="main-tabs monster-main-tabs" role="tablist" aria-label="モンスター検索の表示切替">
+          <button class="tab-button" id="monsterSearchTab" type="button" role="tab" aria-selected="true" aria-controls="monsterSearchPane">検索</button>
+          <button class="tab-button" id="monsterFilterTab" type="button" role="tab" aria-selected="false" aria-controls="monsterFilterPane">絞り込み</button>
+          <button class="tab-button" id="monsterDetailTab" type="button" role="tab" aria-selected="false" aria-controls="monsterDetailPane">詳細</button>
+        </div>
+        <aside class="monster-filter-pane filter-panel" id="monsterFilterPane" role="tabpanel" aria-labelledby="monsterFilterTab" aria-label="モンスター検索フィルター">
+          <section class="monster-filter-controls" aria-label="絞り込み条件">
+            <div class="filter-panel-body">
+              <section class="filter-section" aria-labelledby="monsterAppearanceFilterSectionTitle">
+                <h3 class="filter-section-heading" id="monsterAppearanceFilterSectionTitle">出現</h3>
+                <div class="filter-section-groups">
+                  <details class="filter-group" open>
+                    <summary class="filter-heading">出現マップ</summary>
+                    <div class="filter-subgroup">
+                      <div class="chip-row monster-filter-grid monster-filter-grid-appearance" aria-label="出現マップ"><!-- prerender:monsterMdFilterRow:start --><button class="chip" type="button" aria-pressed="false" data-monster-filter="md" data-filter-value="1">MD</button><!-- prerender:monsterMdFilterRow:end --><!-- prerender:monsterDungeonFilterRow:start --><button class="chip" type="button" aria-pressed="false" data-monster-filter="dungeon" data-filter-value="1">ダンジョン</button><!-- prerender:monsterDungeonFilterRow:end --></div>
+                    </div>
+                  </details>
+                </div>
+              </section>
+              <section class="filter-section" aria-labelledby="monsterBasicFilterSectionTitle">
+                <h3 class="filter-section-heading" id="monsterBasicFilterSectionTitle">基本情報</h3>
+                <div class="filter-section-groups">
+                  <details class="filter-group" open>
+                    <summary class="filter-heading">分類・属性</summary>
+                    <div class="filter-subgroup">
+                      <div class="filter-subheading">サイズ</div>
+                      <div class="chip-row monster-filter-grid monster-filter-grid-size" aria-label="モンスターサイズ"><!-- prerender:monsterSizeFilterRow:start --><button class="chip" type="button" aria-pressed="false" data-monster-filter="size" data-filter-value="小">小</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="size" data-filter-value="中">中</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="size" data-filter-value="大">大</button><!-- prerender:monsterSizeFilterRow:end --></div>
+                    </div>
+                    <div class="filter-subgroup">
+                      <div class="filter-subheading">種族</div>
+                      <div class="chip-row monster-filter-grid monster-filter-grid-race" aria-label="種族"><!-- prerender:monsterRaceFilterRow:start --><button class="chip" type="button" aria-pressed="false" data-monster-filter="race" data-filter-value="無形">無形</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="race" data-filter-value="不死">不死</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="race" data-filter-value="動物">動物</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="race" data-filter-value="植物">植物</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="race" data-filter-value="昆虫">昆虫</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="race" data-filter-value="魚貝">魚貝</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="race" data-filter-value="悪魔">悪魔</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="race" data-filter-value="人間">人間</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="race" data-filter-value="天使">天使</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="race" data-filter-value="竜族">竜族</button><!-- prerender:monsterRaceFilterRow:end --></div>
+                    </div>
+                    <div class="filter-subgroup">
+                      <div class="filter-subheading">種類</div>
+                      <div class="chip-row monster-filter-grid monster-filter-grid-type" aria-label="種類"><!-- prerender:monsterTypeFilterRow:start --><button class="chip" type="button" aria-pressed="false" data-monster-filter="type" data-filter-value="一般">一般</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="type" data-filter-value="BOSS">BOSS</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="type" data-filter-value="MVP">MVP</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="type" data-filter-value="特殊1">特殊1</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="type" data-filter-value="特殊2">特殊2</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="type" data-filter-value="特殊3">特殊3</button><!-- prerender:monsterTypeFilterRow:end --></div>
+                    </div>
+                    <div class="filter-subgroup">
+                      <div class="filter-subheading">属性</div>
+                      <div class="chip-row monster-filter-grid monster-filter-grid-attribute" aria-label="属性"><!-- prerender:monsterAttributeFilterRow:start --><button class="chip" type="button" aria-pressed="false" data-monster-filter="attribute" data-filter-value="無">無</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="attribute" data-filter-value="水">水</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="attribute" data-filter-value="地">地</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="attribute" data-filter-value="火">火</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="attribute" data-filter-value="風">風</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="attribute" data-filter-value="毒">毒</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="attribute" data-filter-value="聖">聖</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="attribute" data-filter-value="闇">闇</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="attribute" data-filter-value="念">念</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="attribute" data-filter-value="死">死</button><!-- prerender:monsterAttributeFilterRow:end --></div>
+                    </div>
+                    <div class="filter-subgroup">
+                      <div class="filter-subheading">属性Lv</div>
+                      <div class="chip-row monster-filter-grid monster-filter-grid-attribute-level" aria-label="属性レベル"><!-- prerender:monsterAttributeLevelFilterRow:start --><button class="chip" type="button" aria-pressed="false" data-monster-filter="attribute_level" data-filter-value="1">1</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="attribute_level" data-filter-value="2">2</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="attribute_level" data-filter-value="3">3</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="attribute_level" data-filter-value="4">4</button><!-- prerender:monsterAttributeLevelFilterRow:end --></div>
+                    </div>
+                  </details>
+                  <details class="filter-group" open>
+                    <summary class="filter-heading">基本行動パターン</summary>
+                    <div class="filter-subgroup">
+                      <div class="chip-row monster-filter-grid monster-filter-grid-behavior" aria-label="基本行動パターン"><!-- prerender:monsterBehaviorFilterRow:start --><button class="chip" type="button" aria-pressed="false" data-monster-filter="behavior" data-filter-value="active">アクティブ</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="behavior" data-filter-value="passive">ノンアクティブ</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="behavior" data-filter-value="cast">詠唱反応</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="behavior" data-filter-value="link">リンク</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="behavior" data-filter-value="loot">ルート</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="behavior" data-filter-value="follow">召喚者追従</button><!-- prerender:monsterBehaviorFilterRow:end --></div>
+                    </div>
+                  </details>
+                  <details class="filter-group" open>
+                    <summary class="filter-heading">特性</summary>
+                    <div class="filter-subgroup">
+                      <div class="chip-row monster-filter-grid monster-filter-grid-trait" aria-label="特性"><!-- prerender:monsterTraitFilterRow:start --><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="damage_1_10">受けるダメージを1/10に減少する</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="damage_1_100">受けるダメージを1/100に減少する</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="damage_1_1000">受けるダメージを1/1,000に減少する</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="damage_1_10000">受けるダメージを1/10,000に減少する</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="melee_1">近接物理攻撃で受けるダメージを「1」にする</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="ranged_1">遠距離物理攻撃で受けるダメージを「1」にする</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="magic_1">魔法物理攻撃で受けるダメージを「1」にする</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="specific_1">特定の攻撃で受けるダメージを1にする</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="knockback_immune">ノックバック効果を受けない</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="reflect_shield_immune">リフレクトシールド無効</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="ignore_forced_drop">アイテムオプションによるアイテム強制ドロップを無視</button><!-- prerender:monsterTraitFilterRow:end --></div>
+                    </div>
+                  </details>
+                </div>
+              </section>
+            </div>
+          </section>
+        </aside>
+
+        <section class="monster-results-pane" id="monsterSearchPane" role="tabpanel" aria-labelledby="monsterSearchTab" aria-label="モンスター検索結果">
+          <div class="monster-query-panel">
+            <form class="monster-search-form" id="monsterSearchForm" role="search">
+              <span class="monster-search-control">
+                <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                <input class="monster-search-input" id="monsterSearchInput" name="q" type="search" autocomplete="off" aria-label="モンスター名" placeholder="モンスター名で検索">
+              </span>
+              <select class="monster-search-target" id="monsterSearchTarget" aria-label="検索対象">
+                <option value="monster">モンスター名</option>
+                <option value="drop">ドロップ品</option>
+                <option value="skill">スキル</option>
+                <option value="map">出現マップ</option>
+                <option value="all">すべて</option>
+              </select>
+              <button class="monster-clear" id="monsterClearButton" type="button" aria-label="条件をクリア" title="条件をクリア"><i class="fa-solid fa-filter-circle-xmark" aria-hidden="true"></i></button>
+            </form>
+            <div class="monster-personal-tools" role="group" aria-label="保存したモンスター検索">
+              <button class="chip scope-icon-chip" id="monsterFavoriteScope" type="button" aria-pressed="false" aria-label="お気に入り" data-tooltip="お気に入り" title="お気に入り"><i class="fa-regular fa-heart" aria-hidden="true"></i></button>
+              <button class="chip scope-icon-chip" id="monsterPresetButton" type="button" aria-pressed="false" aria-label="検索条件保存" aria-controls="monsterPresetManager" data-tooltip="検索条件保存" title="検索条件保存"><i class="fa-solid fa-bookmark" aria-hidden="true"></i></button>
+              <button class="chip scope-icon-chip" id="monsterHistoryScope" type="button" aria-pressed="false" aria-label="検索履歴" data-tooltip="検索履歴" title="検索履歴"><i class="fa-solid fa-clock-rotate-left" aria-hidden="true"></i></button>
+            </div>
+          </div>
+          <div class="monster-results-scroll" id="monsterResultsScroll" aria-label="モンスター検索結果一覧">
+            <span class="monster-status" id="monsterStatus" aria-live="polite">公式一覧を読み込み中</span>
+            <ol class="monster-result-list" id="monsterResultList"></ol>
+            <div class="monster-results-notice" id="monsterResultNotice">検索条件を入力または選択してください。</div>
+            <div class="monster-empty" id="monsterResultEmpty" hidden><div><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i><h2>該当するモンスターがありません</h2><p>別の表記を試すか、公式モンスター検索で全件を確認してください。</p></div></div>
+          </div>
+        </section>
+
+        <button class="monster-pane-resizer" id="monsterPaneResizer" type="button" role="separator" aria-label="検索結果と詳細の幅を調整" aria-orientation="vertical" aria-valuemin="45" aria-valuemax="78" aria-valuenow="64" title="ドラッグまたは矢印キーで幅を調整。ダブルクリックで元に戻します"><span>検索結果と詳細の幅を調整</span></button>
+
+        <section class="monster-detail-pane" id="monsterDetailPane" role="tabpanel" aria-labelledby="monsterDetailTab" aria-label="モンスター詳細">
+          <div class="preview-empty is-visible" id="monsterWelcome">
+            <p class="preview-empty-title">モンスターを選択してください</p>
+            <p class="preview-empty-text">検索結果からモンスターを選択すると、基本情報やスキル、ドロップアイテムをここに表示します。</p>
+          </div>
+          <article class="monster-detail-card" id="monsterDetail" hidden>
+            <header class="monster-detail-head">
+              <div class="preview-title-row">
+                <div>
+                  <h2 class="preview-title monster-detail-title" id="monsterDetailName"></h2>
+                  <a class="preview-url" id="monsterOfficialLink" target="_blank" rel="noopener noreferrer" aria-label="公式ページを別タブで開く" title="公式ページを別タブで開く"><span class="preview-url-text" id="monsterOfficialUrl"></span><i class="fa-solid fa-arrow-up-right-from-square preview-url-external" aria-hidden="true"></i></a>
+                  <p class="monster-detail-aliases" id="monsterDetailAliases" hidden></p>
+                </div>
+                <div class="preview-favorite-actions">
+                  <button class="favorite-toggle preview-favorite-toggle" id="monsterFavoriteToggle" type="button" aria-label="お気に入りに追加" aria-pressed="false" title="お気に入り"><i class="fa-regular fa-heart" aria-hidden="true"></i></button>
+                  <div class="favorite-set-selector">
+                    <button class="favorite-set-manager-button" id="monsterFavoriteSetButton" type="button" aria-label="お気に入りの追加先を変更" aria-expanded="false" aria-haspopup="menu" aria-controls="monsterFavoriteSetMenu" title="お気に入りの追加先を変更">
+                      <i class="fa-solid fa-folder-open" aria-hidden="true"></i>
+                      <span class="favorite-set-manager-prefix">追加先:</span>
+                      <span class="favorite-set-manager-button-label" id="monsterFavoriteSetButtonLabel">お気に入り</span>
+                      <i class="fa-solid fa-chevron-down favorite-set-manager-chevron" aria-hidden="true"></i>
+                    </button>
+                    <div class="favorite-set-selector-menu" id="monsterFavoriteSetMenu" role="menu" aria-label="お気に入りの追加先" hidden></div>
+                  </div>
+                </div>
+              </div>
+            </header>
+            <p class="monster-detail-loading" id="monsterDetailLoading">モンスター詳細を読み込み中</p>
+            <section class="monster-section" id="monsterStatsSection" aria-labelledby="monsterStatsTitle" hidden>
+              <div class="monster-section-heading"><h3 class="monster-section-title" id="monsterStatsTitle">基本情報</h3></div>
+              <div class="monster-stat-layout" id="monsterStatGrid">
+                <div class="monster-stat-primary-layout">
+                  <figure class="monster-image-frame" id="monsterImageFrame">
+                    <img class="monster-image" id="monsterImage" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+                  </figure>
+                  <dl class="monster-stat-grid monster-stat-grid-primary" id="monsterPrimaryStatGrid"></dl>
+                </div>
+                <dl class="monster-stat-grid monster-stat-grid-secondary" id="monsterSecondaryStatGrid"></dl>
+              </div>
+            </section>
+            <section class="monster-section" id="monsterBehaviorSection" aria-labelledby="monsterBehaviorTitle" hidden>
+              <div class="monster-section-heading"><h3 class="monster-section-title" id="monsterBehaviorTitle">行動・スキル</h3></div>
+              <div class="monster-detail-subsection" id="monsterTraitGroup"><h4>特性</h4><ul class="monster-tag-list" id="monsterTraits"></ul></div>
+              <div class="monster-detail-subsection" id="monsterActionPatternGroup"><h4>基本行動パターン</h4><ul class="monster-tag-list" id="monsterActionPatterns"></ul></div>
+              <div class="monster-detail-subsection" id="monsterSkillGroup"><h4>使用するスキル</h4><ul class="monster-tag-list" id="monsterSkills"></ul></div>
+            </section>
+            <section class="monster-section" id="monsterOfficialDropsSection" aria-labelledby="monsterOfficialDropsTitle" hidden>
+              <div class="monster-section-heading"><h3 class="monster-section-title" id="monsterOfficialDropsTitle">ドロップアイテム</h3></div>
+              <div class="monster-detail-subsection" id="monsterNormalDropsGroup"><h4>通常ドロップ</h4><ul class="monster-official-drop-list" id="monsterNormalDrops"></ul></div>
+              <div class="monster-detail-subsection" id="monsterMvpDropsGroup"><h4>MVPアイテム</h4><ul class="monster-official-drop-list" id="monsterMvpDrops"></ul></div>
+              <div class="monster-detail-subsection" id="monsterMapDropsGroup"><h4>マップ固有ドロップ</h4><ul class="monster-official-drop-list" id="monsterMapDrops"></ul></div>
+            </section>
+            <section class="monster-section" id="monsterMapsSection" aria-labelledby="monsterMapsTitle" hidden>
+              <div class="monster-section-heading"><h3 class="monster-section-title" id="monsterMapsTitle">出現マップ</h3></div>
+              <ul class="monster-map-list" id="monsterMapList"></ul>
+            </section>
+          </article>
+          <div class="help-panel monster-utility-panel" id="monsterHelpPanel" aria-label="ヘルプ" hidden>
+            <div class="help-panel-header">
+              <div>
+                <h2 class="help-panel-title">ヘルプ</h2>
+                <p class="help-panel-summary">保存される設定と検索まわりの使い方。</p>
+              </div>
+              <button class="help-panel-close" id="monsterHelpClose" type="button" aria-label="ヘルプを閉じる" title="閉じる"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+            </div>
+            <div class="help-panel-body">
+              <section class="help-section">
+                <h3 class="help-section-title">検索</h3>
+                <ul class="help-list">
+                  <li>モンスター名、検索対象、分類・属性、基本行動パターンなどを組み合わせて検索できます。</li>
+                  <li>検索条件はURLに反映されるため、現在の条件をそのまま共有できます。</li>
+                </ul>
+              </section>
+
+              <section class="help-section">
+                <h3 class="help-section-title">保存されるもの</h3>
+                <ul class="help-list">
+                  <li>お気に入りセットと登録モンスター</li>
+                  <li>最近閲覧したモンスター</li>
+                  <li>検索条件プリセット</li>
+                  <li>カラーテーマと表示設定</li>
+                </ul>
+              </section>
+
+              <section class="help-section">
+                <h3 class="help-section-title">保存場所</h3>
+                <ul class="help-list">
+                  <li>ブラウザのローカルストレージに保存されます。</li>
+                  <li>アカウント同期ではないため、端末やブラウザごとに別管理です。</li>
+                  <li>ブラウザのサイトデータを削除すると、保存内容も削除されます。</li>
+                </ul>
+              </section>
+
+              <section class="help-section">
+                <h3 class="help-section-title">お気に入りセット</h3>
+                <ul class="help-list">
+                  <li>モンスター詳細のセットアイコンから、用途別のお気に入りセットを作成できます。</li>
+                  <li>選択中のセットが、ハートボタンの追加先とお気に入り検索の対象になります。</li>
+                  <li>追加先を選んでからハートボタンで登録・解除します。</li>
+                </ul>
+              </section>
+
+              <section class="help-section">
+                <h3 class="help-section-title">検索条件プリセット</h3>
+                <ul class="help-list">
+                  <li>ブックマークアイコンから現在の検索条件を保存できます。</li>
+                  <li>保存したカードをクリックすると、その条件で再検索できます。</li>
+                  <li>カード内で名前変更、上書き、削除ができます。</li>
+                </ul>
+              </section>
+            </div>
+          </div>
+          <div class="help-panel version-history-panel monster-utility-panel" id="monsterVersionHistoryPanel" aria-label="モンスター検索の更新履歴" hidden>
+            <div class="help-panel-header">
+              <div><h2 class="help-panel-title">更新履歴</h2><p class="help-panel-summary">モンスター検索専用の変更内容です。</p></div>
+              <button class="help-panel-close" id="monsterVersionHistoryClose" type="button" aria-label="更新履歴を閉じる" title="閉じる"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+            </div>
+            <div class="version-history-list" id="monsterVersionHistoryList"></div>
+            <p class="update-info-empty" id="monsterVersionHistoryEmpty" hidden>更新履歴はありません。</p>
+          </div>
+          <div class="help-panel update-info-panel monster-utility-panel" id="monsterUpdateInfoPanel" aria-label="追加モンスター情報" hidden>
+            <div class="help-panel-header">
+              <div><h2 class="help-panel-title">追加情報</h2><p class="help-panel-summary">今週追加されたモンスターを確認できます。</p></div>
+              <button class="help-panel-close" id="monsterUpdateInfoClose" type="button" aria-label="追加モンスター情報を閉じる" title="閉じる"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+            </div>
+            <div class="help-panel-body">
+              <button class="update-info-summary" id="monsterUpdateInfoSummary" type="button"></button>
+              <ul class="update-info-list" id="monsterUpdateInfoList"></ul>
+              <p class="update-info-empty" id="monsterUpdateInfoEmpty">今週追加されたモンスターはありません。</p>
+            </div>
+          </div>
+          <div class="preset-manager monster-utility-panel" id="monsterPresetManager" aria-label="モンスター検索条件" hidden>
+            <div class="preset-manager-header">
+              <div><h2 class="preset-manager-title">検索条件保存</h2><p class="preset-current-summary" id="monsterPresetCurrentSummary"></p></div>
+              <button class="preset-manager-close" id="monsterPresetClose" type="button" aria-label="検索条件保存を閉じる" title="閉じる"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+            </div>
+            <div class="preset-save-row">
+              <input class="text-field preset-name-input" id="monsterPresetName" type="text" maxlength="40" aria-label="保存する条件名" placeholder="条件名">
+              <button class="button button-primary" id="monsterPresetSave" type="button">現在の条件を保存</button>
+            </div>
+            <div class="preset-list" id="monsterPresetList"></div>
+            <div class="preset-empty" id="monsterPresetEmpty">保存済みの検索条件はありません。</div>
+          </div>
+          <div class="favorite-set-manager monster-utility-panel" id="monsterFavoriteSetManager" aria-label="モンスターお気に入りセット" hidden>
+            <div class="favorite-set-manager-header">
+              <div><h2 class="favorite-set-manager-title">お気に入りセット</h2><p class="favorite-set-current-summary" id="monsterFavoriteSetSummary"></p></div>
+              <button class="favorite-set-manager-close" id="monsterFavoriteSetClose" type="button" aria-label="お気に入りセットを閉じる" title="閉じる"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+            </div>
+            <div class="favorite-set-create-row">
+              <input class="text-field favorite-set-name-input" id="monsterFavoriteSetName" type="text" maxlength="40" aria-label="新しいお気に入りセット名" placeholder="新しいセット名">
+              <button class="button button-primary" id="monsterFavoriteSetCreate" type="button">作成して選択</button>
+            </div>
+            <div class="favorite-set-list" id="monsterFavoriteSetList"></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© Gravity Co., Ltd. &amp; Lee MyoungJin(studio DTDS). All rights reserved.</p>
+        <p>© GungHo Online Entertainment, Inc. All Rights Reserved.</p>
+        <p>当コンテンツの再利用（再転載・配布など）は、禁止しています。</p>
+      </footer>
+    </div>
+  </div>
+
+  <div class="mobile-action-bar monster-mobile-action-bar" aria-label="スマホ操作">
+    <button class="mobile-action-button" id="monsterMobileSearchButton" type="button" aria-controls="monsterSearchPane" aria-pressed="true"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>検索</button>
+    <button class="mobile-action-button" id="monsterMobileFilterButton" type="button" aria-controls="monsterFilterPane" aria-pressed="false"><i class="fa-solid fa-sliders" aria-hidden="true"></i>絞り込み</button>
+    <button class="mobile-action-button" id="monsterMobileDetailButton" type="button" aria-controls="monsterDetailPane" aria-pressed="false"><i class="fa-regular fa-rectangle-list" aria-hidden="true"></i>詳細</button>
+  </div>
+
+  <script src="./assets/monsters.js?v=90cbab381863"></script>
+</body>
+</html>

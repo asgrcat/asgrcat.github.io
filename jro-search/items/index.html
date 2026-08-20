@@ -29,15 +29,13 @@
     (() => {
       try {
         const theme = window.localStorage.getItem('jro-search.items.theme');
-        const accent = window.localStorage.getItem('jro-search.items.accent');
 
         if (['dark', 'light', 'ocean', 'sky', 'forest', 'mint', 'violet', 'sakura', 'amber', 'sunlight'].includes(theme)) {
           document.documentElement.dataset.theme = theme;
         }
 
-        if (['blue', 'teal', 'violet', 'rose', 'amber'].includes(accent)) {
-          document.documentElement.dataset.accent = accent;
-        }
+        window.localStorage.removeItem('jro-search.items.accent');
+        delete document.documentElement.dataset.accent;
       } catch {
         // Keep the default dark theme when storage is unavailable.
       }
@@ -47,7 +45,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;600;700&amp;family=JetBrains+Mono:wght@600;700&amp;display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="./assets/items.css?v=6b4091cab010">
+  <link rel="stylesheet" href="./assets/items.css?v=17fd2a980702">
   <!-- Google tag (gtag.js) -->
   <script>
     (() => {
@@ -78,8 +76,8 @@
     <div class="workspace">
       <header class="app-header">
         <div class="brand">
+          <img class="brand-icon" src="../favicon/transparent/brand-icon.svg?v=386911cff5db" width="32" height="32" alt="">
           <p class="brand-title">JRO Search</p>
-          <p class="brand-subtitle">アイテム検索</p>
         </div>
 
         <div class="nav-menu">
@@ -90,8 +88,14 @@
             <ul class="nav-list">
               <li>
                 <a class="nav-link" href="./" aria-current="page">
-                  <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                  <i class="fa-solid fa-box" aria-hidden="true"></i>
                   <span>アイテム検索</span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="../monsters/">
+                  <i class="fa-solid fa-paw" aria-hidden="true"></i>
+                  <span>モンスター検索</span>
                 </a>
               </li>
               <li>
@@ -113,10 +117,10 @@
           <button class="help-button" id="helpButton" type="button" aria-label="ヘルプを表示" aria-expanded="false" aria-controls="helpPanel" title="ヘルプ">
             <i class="fa-solid fa-question" aria-hidden="true"></i>
           </button>
-          <button class="theme-toggle" id="themeToggle" type="button" aria-label="カラーモードを変更" aria-expanded="false" aria-controls="colorModePopover" data-theme-value="dark" data-accent-value="">
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマを変更" aria-expanded="false" aria-controls="colorModePopover" data-theme-value="dark">
             <i class="fa-solid fa-gear theme-toggle-icon" aria-hidden="true"></i>
           </button>
-          <div class="color-mode-popover" id="colorModePopover" role="dialog" aria-label="カラーモード" hidden>
+          <div class="color-mode-popover" id="colorModePopover" role="dialog" aria-label="テーマ" hidden>
             <div class="color-mode-section">
               <p class="color-mode-title">テーマ</p>
               <div class="color-mode-options" role="group" aria-label="テーマ">
@@ -162,16 +166,6 @@
                 </button>
               </div>
             </div>
-            <div class="color-mode-section">
-              <p class="color-mode-title">カラー</p>
-              <div class="color-swatch-row" role="group" aria-label="アクセントカラー">
-                <button class="color-swatch" type="button" data-accent-choice="blue" aria-pressed="false">青</button>
-                <button class="color-swatch" type="button" data-accent-choice="teal" aria-pressed="false">緑</button>
-                <button class="color-swatch" type="button" data-accent-choice="violet" aria-pressed="false">紫</button>
-                <button class="color-swatch" type="button" data-accent-choice="rose" aria-pressed="false">ローズ</button>
-                <button class="color-swatch" type="button" data-accent-choice="amber" aria-pressed="false">琥珀</button>
-              </div>
-            </div>
           </div>
         </div>
       </header>
@@ -185,10 +179,6 @@
 
         <section class="search-pane" id="searchPane" role="tabpanel" aria-labelledby="searchTab" aria-label="検索フォームと検索結果">
           <div class="search-controls">
-            <div class="search-intro">
-              <p class="search-kicker">Item finder</p>
-            </div>
-
             <div class="filter-panel" aria-label="絞り込み条件">
               <div class="filter-panel-body">
                 <section class="filter-section" aria-labelledby="equipmentFilterSectionTitle">
@@ -428,7 +418,7 @@
               <div class="results-control-stack">
                 <div class="field-row results-search-row">
                   <div class="search-input-wrap">
-                    <input class="text-field" id="keywordInput" type="search" aria-label="キーワード" placeholder="アイテム名・効果・説明文で検索…">
+                    <input class="text-field" id="keywordInput" type="search" aria-label="キーワード" placeholder="アイテム名・効果・説明文で検索">
                     <button class="button button-primary button-icon" id="searchButton" type="button" aria-label="検索" title="検索">
                       <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
                     </button>
@@ -741,7 +731,7 @@
   <script src="./assets/search-core.js?v=815c24bde059"></script>
   <script src="./assets/job-filter.js?v=d99a7da54926"></script>
   <script src="./assets/item-search-service.js?v=f39768694836"></script>
-  <script src="./assets/items.js?v=6dfa3d660f6b"></script>
+  <script src="./assets/items.js?v=bba22bc23e43"></script>
   <script src="./assets/webmcp.js?v=cb08a14a4e10"></script>
 </body>
 </html>

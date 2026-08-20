@@ -396,110 +396,6 @@
       --warning-bg: rgba(183, 121, 31, 0.10);
     }
 
-    :root[data-accent="blue"] {
-      --primary: #38bdf8;
-      --primary-strong: #7dd3fc;
-      --primary-soft: rgba(56, 189, 248, 0.15);
-      --accent: #facc15;
-      --focus: #38bdf8;
-      --table-heading-bg: #132840;
-      --table-heading-text: #bae6fd;
-    }
-
-    :root[data-theme="light"][data-accent="blue"],
-    :root[data-theme="sunlight"][data-accent="blue"],
-    :root[data-theme="mint"][data-accent="blue"],
-    :root[data-theme="sky"][data-accent="blue"],
-    :root[data-theme="sakura"][data-accent="blue"] {
-      --primary: #0284c7;
-      --primary-strong: #0369a1;
-      --primary-soft: #e0f2fe;
-      --accent: #b7791f;
-      --focus: #0284c7;
-      --table-heading-bg: #d9f1f6;
-      --table-heading-text: #174151;
-    }
-
-    :root[data-accent="teal"] {
-      --primary: #2dd4bf;
-      --primary-strong: #5eead4;
-      --primary-soft: rgba(45, 212, 191, 0.14);
-      --accent: #a3e635;
-      --focus: #2dd4bf;
-      --table-heading-bg: #143333;
-      --table-heading-text: #99f6e4;
-    }
-
-    :root[data-theme="light"][data-accent="teal"] {
-      --primary: #0f766e;
-      --primary-strong: #0d9488;
-      --primary-soft: #ccfbf1;
-      --accent: #4d7c0f;
-      --focus: #0f766e;
-      --table-heading-bg: #ccfbf1;
-      --table-heading-text: #134e4a;
-    }
-
-    :root[data-accent="violet"] {
-      --primary: #a78bfa;
-      --primary-strong: #c4b5fd;
-      --primary-soft: rgba(167, 139, 250, 0.16);
-      --accent: #f0abfc;
-      --focus: #a78bfa;
-      --table-heading-bg: #2d244a;
-      --table-heading-text: #ddd6fe;
-    }
-
-    :root[data-theme="light"][data-accent="violet"] {
-      --primary: #7c3aed;
-      --primary-strong: #6d28d9;
-      --primary-soft: #ede9fe;
-      --accent: #a21caf;
-      --focus: #7c3aed;
-      --table-heading-bg: #ede9fe;
-      --table-heading-text: #4c1d95;
-    }
-
-    :root[data-accent="rose"] {
-      --primary: #fb7185;
-      --primary-strong: #fda4af;
-      --primary-soft: rgba(251, 113, 133, 0.15);
-      --accent: #facc15;
-      --focus: #fb7185;
-      --table-heading-bg: #3f2130;
-      --table-heading-text: #fecdd3;
-    }
-
-    :root[data-theme="light"][data-accent="rose"] {
-      --primary: #e11d48;
-      --primary-strong: #be123c;
-      --primary-soft: #ffe4e6;
-      --accent: #b7791f;
-      --focus: #e11d48;
-      --table-heading-bg: #ffe4e6;
-      --table-heading-text: #881337;
-    }
-
-    :root[data-accent="amber"] {
-      --primary: #f59e0b;
-      --primary-strong: #fbbf24;
-      --primary-soft: rgba(245, 158, 11, 0.16);
-      --accent: #22d3ee;
-      --focus: #f59e0b;
-      --table-heading-bg: #3a2a12;
-      --table-heading-text: #fde68a;
-    }
-
-    :root[data-theme="light"][data-accent="amber"] {
-      --primary: #b45309;
-      --primary-strong: #92400e;
-      --primary-soft: #fef3c7;
-      --accent: #0e7490;
-      --focus: #b45309;
-      --table-heading-bg: #fef3c7;
-      --table-heading-text: #78350f;
-    }
-
     * {
       box-sizing: border-box;
     }
@@ -545,8 +441,18 @@
     }
 
     .brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
       flex: 0 0 auto;
       min-width: 132px;
+    }
+
+    .brand-icon {
+      display: block;
+      flex: 0 0 auto;
+      width: 32px;
+      height: 32px;
     }
 
     .brand-title {
@@ -723,7 +629,7 @@
       justify-content: space-between;
       gap: 12px;
       min-height: 60px;
-      padding: 8px 16px;
+      padding: 8px 12px;
       border-bottom: 1px solid var(--border);
       background: var(--header-bg);
       backdrop-filter: blur(10px);
@@ -736,10 +642,6 @@
       align-items: center;
       justify-content: flex-end;
       gap: 4px;
-      border: 1px solid var(--border-soft);
-      border-radius: 9px;
-      padding: 3px;
-      background: color-mix(in srgb, var(--surface) 78%, transparent);
       color: var(--muted);
       font-size: 12px;
     }
@@ -916,61 +818,6 @@
     .color-mode-option[data-theme-choice="amber"] {
       --theme-swatch-bg: #1d1509;
       --theme-swatch-fg: #f59e0b;
-    }
-
-    .color-swatch-row {
-      display: grid;
-      grid-template-columns: repeat(5, minmax(0, 1fr));
-      gap: 6px;
-    }
-
-    .color-swatch {
-      display: grid;
-      justify-items: center;
-      gap: 4px;
-      min-width: 0;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 6px 3px 5px;
-      background: var(--surface);
-      color: var(--muted);
-      font-size: 10px;
-      font-weight: 800;
-    }
-
-    .color-swatch::before {
-      width: 18px;
-      height: 18px;
-      border: 1px solid color-mix(in srgb, var(--swatch-color) 62%, var(--border));
-      border-radius: 50%;
-      background: var(--swatch-color);
-      content: "";
-    }
-
-    .color-swatch[data-accent-choice="blue"] {
-      --swatch-color: #38bdf8;
-    }
-
-    .color-swatch[data-accent-choice="teal"] {
-      --swatch-color: #2dd4bf;
-    }
-
-    .color-swatch[data-accent-choice="violet"] {
-      --swatch-color: #a78bfa;
-    }
-
-    .color-swatch[data-accent-choice="rose"] {
-      --swatch-color: #fb7185;
-    }
-
-    .color-swatch[data-accent-choice="amber"] {
-      --swatch-color: #f59e0b;
-    }
-
-    .color-swatch[aria-pressed="true"] {
-      border-color: var(--primary);
-      background: var(--primary-soft);
-      color: var(--primary-strong);
     }
 
     .header-pill {
@@ -1166,23 +1013,6 @@
       border-right: 1px solid var(--border);
       background: var(--surface);
       scrollbar-gutter: stable;
-    }
-
-    .search-intro {
-      grid-column: 1;
-      display: grid;
-      gap: 4px;
-      min-width: 0;
-    }
-
-    .search-kicker {
-      display: none;
-      margin: 0;
-      color: var(--primary);
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
     }
 
     .field-row {
@@ -4555,10 +4385,6 @@
 
       .search-controls {
         grid-template-columns: minmax(0, 1fr) auto;
-      }
-
-      .search-intro {
-        grid-column: 1 / -1;
       }
 
       .field-row {
