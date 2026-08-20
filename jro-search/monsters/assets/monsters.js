@@ -201,6 +201,7 @@
   const historyStorageKey = 'jro-search.monsters.history';
   const presetStorageKey = 'jro-search.monsters.searchPresets';
   const historyLimit = 50;
+  const resultRenderBatchSize = 160;
   const themeChoices = new Set(['dark', 'light', 'ocean', 'sky', 'forest', 'mint', 'violet', 'sakura', 'amber', 'sunlight']);
   const analyticsClickableSelector = [
     'a[href]',
@@ -223,6 +224,7 @@
   const searchTarget = document.getElementById('monsterSearchTarget');
   const clearButton = document.getElementById('monsterClearButton');
   const filterButtons = Array.from(document.querySelectorAll('[data-monster-filter]'));
+  const resultsScroll = document.getElementById('monsterResultsScroll');
   const resultList = document.getElementById('monsterResultList');
   const resultNotice = document.getElementById('monsterResultNotice');
   const resultEmpty = document.getElementById('monsterResultEmpty');
@@ -304,6 +306,9 @@
   let searchTermsByMonsterId = {};
   let searchGeneration = 0;
   let currentResults = [];
+  let renderedResultCount = 0;
+  let currentResultQuery = '';
+  let currentResultTarget = 'monster';
   let currentUpdateMonsterIds = [];
   let currentUpdateKey = '';
   let activeUpdateMonsterIds = null;
@@ -1233,7 +1238,7 @@
       search_target: searchTarget.value,
       search_trigger: searchTrigger,
       result_count: resultCount,
-      visible_result_count: Math.min(resultCount, 200),
+      visible_result_count: Math.min(resultCount, resultRenderBatchSize),
       ...analyticsFilterState(),
     });
   };
@@ -1484,6 +1489,11 @@
   const renderDetail = (monster) => {
     closeUtilityPanels();
     selectedMonsterId = monster?.monster_id || '';
+    resultList.querySelectorAll('.monster-result-button[data-monster-id]').forEach((button) => {
+      const isSelected = button.dataset.monsterId === selectedMonsterId;
+      button.setAttribute('aria-current', String(isSelected));
+      button.classList.toggle('is-active', isSelected);
+    });
     welcome.hidden = Boolean(monster);
     detail.hidden = !monster;
 
@@ -1580,7 +1590,6 @@
     button.addEventListener('click', () => {
       trackSearchResultClickAnalytics(monster);
       renderDetail(monster);
-      renderResults();
       if (window.matchMedia('(max-width: 960px)').matches) detail.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
     favoriteAction.type = 'button';
@@ -1604,6 +1613,38 @@
     return searchTermsByMonsterId;
   };
 
+  const resetRenderedResults = () => {
+    renderedResultCount = 0;
+    resultList.replaceChildren();
+    resultsScroll.scrollTop = 0;
+  };
+
+  const updateResultStatus = () => {
+    status.textContent = currentResults.length > renderedResultCount
+      ? `${currentResults.length}件中 ${renderedResultCount}件`
+      : `${currentResults.length}件`;
+  };
+
+  const appendResultBatch = () => {
+    if (renderedResultCount >= currentResults.length) return;
+    const nextCount = Math.min(renderedResultCount + resultRenderBatchSize, currentResults.length);
+    const fragment = document.createDocumentFragment();
+    currentResults.slice(renderedResultCount, nextCount).forEach((monster) => {
+      fragment.append(renderResultButton(monster, currentResultQuery, currentResultTarget));
+    });
+    resultList.append(fragment);
+    renderedResultCount = nextCount;
+    updateResultStatus();
+  };
+
+  const appendResultsNearScrollEnd = () => {
+    const usesInternalScroll = resultsScroll.scrollHeight > resultsScroll.clientHeight + 1;
+    const remaining = usesInternalScroll
+      ? resultsScroll.scrollHeight - resultsScroll.scrollTop - resultsScroll.clientHeight
+      : resultsScroll.getBoundingClientRect().bottom - window.innerHeight;
+    if (remaining < 480) appendResultBatch();
+  };
+
   const renderResults = async () => {
     const generation = ++searchGeneration;
     const query = searchInput.value;
@@ -1622,7 +1663,7 @@
       } catch (error) {
         if (generation !== searchGeneration) return;
         currentResults = [];
-        resultList.replaceChildren();
+        resetRenderedResults();
         resultEmpty.hidden = false;
         resultEmpty.querySelector('h2').textContent = '検索語データを読み込めませんでした';
         resultEmpty.querySelector('p').textContent = '時間をおいてもう一度お試しください。';
@@ -1640,7 +1681,7 @@
 
     if (isInitial) {
       currentResults = [];
-      resultList.replaceChildren();
+      resetRenderedResults();
       resultEmpty.hidden = true;
       status.textContent = `${monsters.length.toLocaleString()}体収録`;
       syncFilterGroupState();
@@ -1657,7 +1698,7 @@
 
     if (personalScope !== '' && source.length === 0) {
       currentResults = [];
-      resultList.replaceChildren();
+      resetRenderedResults();
       resultNotice.textContent = personalScope === 'favorite'
         ? `${activeFavoriteSet()?.name || 'お気に入り'}はありません。`
         : '閲覧したモンスターはありません。';
@@ -1673,10 +1714,12 @@
       matchesMonster(monster, query, target, searchTermsForMonster(monster)) && matchesMonsterFilters(monster, filters)
     ));
     currentResults = matched;
-    const visible = matched.slice(0, 200);
-    resultList.replaceChildren(...visible.map((monster) => renderResultButton(monster, query, target)));
+    currentResultQuery = query;
+    currentResultTarget = target;
+    resetRenderedResults();
+    appendResultBatch();
     resultEmpty.hidden = matched.length !== 0;
-    status.textContent = matched.length > visible.length ? `${matched.length}件中 ${visible.length}件` : `${matched.length}件`;
+    updateResultStatus();
     syncFilterGroupState();
     writeUrl();
 
@@ -1757,6 +1800,7 @@
       }
     } catch (error) {
       currentResults = [];
+      resetRenderedResults();
       monsterSearchService.setError(error);
       status.textContent = '公式一覧の読み込み失敗';
       resultEmpty.hidden = false;
@@ -2057,6 +2101,8 @@
       buttons[nextIndex].focus();
     }
   });
+  resultsScroll.addEventListener('scroll', appendResultsNearScrollEnd, { passive: true });
+  window.addEventListener('scroll', appendResultsNearScrollEnd, { passive: true });
   helpButton.addEventListener('click', () => toggleUtilityPanel(helpPanel, helpButton));
   helpClose.addEventListener('click', () => {
     closeUtilityPanels();
