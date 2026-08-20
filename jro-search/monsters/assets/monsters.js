@@ -189,9 +189,9 @@
     return;
   }
 
+  const monsterSearchService = globalThis.JroSearchMonsterSearchService.defaultService;
   const indexUrl = '../data/search/monster-index.json';
   const updatesUrl = '../data/search/monster-updates.json';
-  const searchTermsUrl = '../data/search/monster-search-terms.json';
   const versionHistoryUrl = './data/version-history.json';
   const themeStorageKey = 'jro-search.items.theme';
   const paneWidthStorageKey = 'jro-search.monsters.searchPaneWidth';
@@ -302,7 +302,6 @@
   let searchPresets = [];
   let personalScope = '';
   let searchTermsByMonsterId = {};
-  let searchTermsPromise = null;
   let searchGeneration = 0;
   let currentResults = [];
   let currentUpdateMonsterIds = [];
@@ -1600,27 +1599,9 @@
   const needsSearchTerms = (target) => ['skill', 'map', 'all'].includes(target);
 
   const loadSearchTerms = async () => {
-    if (searchTermsPromise === null) {
-      searchTermsPromise = fetch(searchTermsUrl)
-        .then((response) => {
-          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    searchTermsByMonsterId = await monsterSearchService.loadSearchTerms();
 
-          return response.json();
-        })
-        .then((payload) => {
-          searchTermsByMonsterId = payload?.monsters && typeof payload.monsters === 'object'
-            ? payload.monsters
-            : {};
-
-          return searchTermsByMonsterId;
-        })
-        .catch((error) => {
-          searchTermsPromise = null;
-          throw error;
-        });
-    }
-
-    return searchTermsPromise;
+    return searchTermsByMonsterId;
   };
 
   const renderResults = async () => {
@@ -1763,6 +1744,7 @@
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const payload = await response.json();
       monsters = Array.isArray(payload.monsters) ? payload.monsters : [];
+      monsterSearchService.setMonsters(monsters);
       updateStatus.textContent = String(payload.update_version || '-');
       renderVersionHistory(versionHistory);
       loadPersonalData();
@@ -1775,6 +1757,7 @@
       }
     } catch (error) {
       currentResults = [];
+      monsterSearchService.setError(error);
       status.textContent = '公式一覧の読み込み失敗';
       resultEmpty.hidden = false;
       resultEmpty.querySelector('h2').textContent = '検索データを読み込めませんでした';
