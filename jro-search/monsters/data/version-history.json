@@ -1,6 +1,13 @@
 {
-  "current_version": "v26.8.1",
+  "current_version": "v26.8.2",
   "entries": [
+    {
+      "version": "v26.8.2",
+      "date": "2026-08-21",
+      "changes": [
+        "モンスターフィルターのクリック範囲を拡大"
+      ]
+    },
     {
       "version": "v26.8.1",
       "date": "2026-08-20",

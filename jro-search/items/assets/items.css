@@ -1436,6 +1436,7 @@
 
     #jobFilterRow,
     #packageFilterRow,
+    #ragcanFilterRow,
     #resistanceEffectFilterRow,
     #offenseEffectFilterRow,
     #utilityEffectFilterRow,
@@ -1448,7 +1449,8 @@
     }
 
     .job-filter-group,
-    .package-filter-group {
+    .package-filter-group,
+    .ragcan-year-group {
       display: grid;
       gap: 6px;
       min-width: 0;
@@ -1472,7 +1474,8 @@
 
     .effect-filter-heading,
     .skill-filter-heading,
-    .enchant-npc-filter-heading {
+    .enchant-npc-filter-heading,
+    .ragcan-year-heading {
       width: 100%;
       min-width: 0;
       border: 1px solid var(--border-soft);
@@ -1483,6 +1486,12 @@
       font-size: 11px;
       font-weight: 700;
       line-height: 1.35;
+    }
+
+    .ragcan-year-heading {
+      box-sizing: border-box;
+      cursor: pointer;
+      padding-inline: 10px;
     }
 
     .filter-panel .chip.job-filter-group-toggle {
@@ -1509,6 +1518,10 @@
 
     .campaign-filter-group-body {
       grid-template-columns: minmax(0, 1fr);
+    }
+
+    .ragcan-filter-group-body {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .effect-filter-group-body {

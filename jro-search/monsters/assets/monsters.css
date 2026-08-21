@@ -123,7 +123,9 @@ body {
 }
 
 .monster-filter-grid .chip {
-  justify-self: start;
+  width: 100%;
+  min-width: 0;
+  justify-self: stretch;
 }
 
 .monster-search-form {
