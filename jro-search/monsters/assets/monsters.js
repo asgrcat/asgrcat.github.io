@@ -571,9 +571,15 @@
     }
   };
 
+  let personalDataReady = false;
+  const notifyPersonalDataChanged = (detail) => {
+    window.dispatchEvent(new CustomEvent('jro-search:personal-data-changed', { detail }));
+  };
+
   const writeStoredArray = (key, value) => {
     try {
       window.localStorage.setItem(key, JSON.stringify(value));
+      if (key === historyStorageKey) notifyPersonalDataChanged({ kind: 'history', id: value[0] || '' });
     } catch {}
   };
 
@@ -588,7 +594,7 @@
 
   const activeFavoriteMonsterIds = () => activeFavoriteSet()?.monsterIds || [];
 
-  const loadFavoriteSets = () => {
+  const loadFavoriteSets = (persist = true) => {
     const legacyMonsterIds = normalizeStoredIds(readStoredArray(legacyFavoriteStorageKey));
 
     try {
@@ -635,7 +641,7 @@
       activeFavoriteSetId = defaultFavoriteSetId;
     }
 
-    saveFavoriteSets();
+    if (persist) saveFavoriteSets();
   };
 
   const saveFavoriteSets = () => {
@@ -646,6 +652,7 @@
         version: 1,
       }));
       window.localStorage.setItem(legacyFavoriteStorageKey, JSON.stringify(activeFavoriteMonsterIds()));
+      notifyPersonalDataChanged();
     } catch {}
   };
 
@@ -994,7 +1001,28 @@
     syncFavoriteSetControls();
     syncFavoriteToggle();
     renderFavoriteSetManager();
+    personalDataReady = true;
   };
+
+  // Keep extension/cross-tab updates out of the save path and browsing history.
+  const reloadSharedPersonalData = () => {
+    if (!personalDataReady) return;
+    loadFavoriteSets(false);
+    historyMonsterIds = normalizeStoredIds(readStoredArray(historyStorageKey), historyLimit);
+    syncFavoriteSetControls();
+    syncFavoriteToggle();
+    syncVisibleResultFavoriteActions();
+    renderFavoriteSetManager();
+    if (personalScope === 'favorite' || personalScope === 'history') void renderResults();
+  };
+
+  window.addEventListener('jro-search:personal-data-updated', reloadSharedPersonalData);
+  window.addEventListener('storage', (event) => {
+    if (event.storageArea !== window.localStorage) return;
+    if (event.key === null || [favoriteSetsStorageKey, legacyFavoriteStorageKey, historyStorageKey].includes(event.key)) {
+      reloadSharedPersonalData();
+    }
+  });
 
   const syncPanelParameter = (panel) => {
     const next = new URL(window.location.href);
