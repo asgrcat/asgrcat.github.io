@@ -4652,3 +4652,12 @@
         color: var(--on-primary);
       }
     }
+
+.package-revivals { padding: 8px 10px; font-size: 12px; }
+.package-revivals summary { cursor: pointer; color: var(--muted); }
+.package-revival-list { display: grid; gap: 10px; margin: 10px 0 0; padding: 0; list-style: none; }
+.package-revival-entry { display: grid; gap: 3px; overflow-wrap: anywhere; }
+.package-revival-period { color: var(--muted); }
+
+.package-membership-group > .package-membership-group-title { padding: 10px 11px 0; }
+.package-revival-label { color: var(--primary-strong); }
