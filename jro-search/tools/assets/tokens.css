@@ -1,0 +1,35 @@
+/* The product page uses the search pages' theme variables for every theme. */
+:root {
+  --color-paper: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-elevated);
+  --color-surface-soft: var(--surface-muted);
+  --color-ink: var(--text);
+  --color-body: var(--text);
+  --color-muted: var(--muted);
+  --color-rule: var(--border);
+  --color-accent: var(--primary);
+  --color-accent-soft: var(--primary-soft);
+  --color-on-accent: var(--on-primary);
+  --color-focus: var(--focus);
+  --font-mono: var(--font-numeric);
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  --text-small: 0.8125rem;
+  --text-body: 1rem;
+  --text-lead: clamp(1rem, 1.35vw, 1.125rem);
+  --text-section: clamp(1.75rem, 3vw, 2.75rem);
+  --text-display: clamp(2.25rem, 4.7vw, 4.7rem);
+  --rule-thin: 1px solid var(--color-rule);
+  --radius-small: 6px;
+  --radius-medium: 10px;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 160ms;
+}

@@ -508,8 +508,8 @@
     }
 
     .nav-list {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(4, 136px);
       gap: 4px;
       margin: 0;
       padding: 0;
@@ -521,6 +521,7 @@
       align-items: center;
       justify-content: center;
       gap: 6px;
+      width: 100%;
       min-height: 32px;
       padding: 6px 10px;
       border: 1px solid transparent;
@@ -4233,7 +4234,9 @@
       .nav-menu-toggle {
         display: inline-flex;
         align-items: center;
+        justify-content: center;
         gap: 8px;
+        width: 95px;
         min-height: 32px;
         border: 1px solid var(--border);
         border-radius: 8px;
@@ -4306,6 +4309,7 @@
 
       .nav-list {
         display: grid;
+        grid-template-columns: minmax(0, 1fr);
         gap: 4px;
       }
 

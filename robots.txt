@@ -3,7 +3,11 @@ Allow: /jro-search/items/$
 Allow: /jro-search/items/index.html$
 Allow: /jro-search/monsters/$
 Allow: /jro-search/monsters/index.html$
+Allow: /jro-search/tools/$
+Allow: /jro-search/tools/index.html$
+Allow: /jro-search/tools/assets/images/jro-tools-plus-icon.png$
 Disallow: /jro-search/data/
 Disallow: /jro-search/items/assets/
 Disallow: /jro-search/monsters/assets/
+Disallow: /jro-search/tools/assets/
 Disallow: /jro-search/

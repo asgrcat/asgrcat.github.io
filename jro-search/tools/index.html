@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ja" class="tools-document" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JRO Tools Plus | JRO Search の Chrome 拡張機能</title>
+  <meta name="description" content="JRO Tools Plusは、RO公式ページでJRO Searchのエンチャント情報やドロップ率の目安を確認し、お気に入り・履歴や所持Zenyをサイドパネルで扱えるChrome拡張機能です。">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="canonical" href="https://asgrcat.github.io/jro-search/tools/">
+  <link rel="icon" type="image/svg+xml" href="../favicon/transparent/favicon.svg">
+  <meta property="og:site_name" content="JRO Search">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="JRO Tools Plus | JRO Search">
+  <meta property="og:description" content="RO公式ページでエンチャント情報やドロップ率の目安を確認できるChrome拡張機能。">
+  <meta property="og:url" content="https://asgrcat.github.io/jro-search/tools/">
+  <meta property="og:image" content="https://asgrcat.github.io/jro-search/tools/assets/images/jro-tools-plus-icon.png">
+  <meta name="twitter:card" content="summary">
+  <script>
+    (() => {
+      try {
+        const theme = localStorage.getItem('jro-search.items.theme');
+        if (['dark', 'light', 'ocean', 'sky', 'forest', 'mint', 'violet', 'sakura', 'amber', 'sunlight'].includes(theme)) document.documentElement.dataset.theme = theme;
+        localStorage.removeItem('jro-search.items.accent');
+        delete document.documentElement.dataset.accent;
+      } catch {}
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;600;700&amp;family=JetBrains+Mono:wght@600;700&amp;display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="../items/assets/items.css?v=e6a716e547d6">
+  <link rel="stylesheet" href="./assets/tokens.css?v=0505724d2353">
+  <link rel="stylesheet" href="./assets/tools.css?v=8ff5106337ba">
+</head>
+<body class="tools-body">
+  <div class="app-shell">
+    <div class="workspace">
+      <a class="skip-link" href="#main">本文へ移動</a>
+      <header class="app-header">
+        <div class="brand">
+          <img class="brand-icon" src="../favicon/transparent/brand-icon.svg?v=386911cff5db" width="32" height="32" alt="">
+          <p class="brand-title">JRO Search</p>
+        </div>
+
+        <div class="nav-menu">
+          <input class="nav-menu-check" id="navMenuToggle" type="checkbox" aria-label="メニューを開く">
+          <label class="nav-menu-toggle" for="navMenuToggle">メニュー</label>
+          <nav aria-label="サイト内ナビゲーション">
+            <p class="nav-section-title">Search</p>
+            <ul class="nav-list">
+              <li>
+                <a class="nav-link" href="../items/">
+                  <i class="fa-solid fa-box" aria-hidden="true"></i>
+                  <span>アイテム検索</span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="../monsters/">
+                  <i class="fa-solid fa-paw" aria-hidden="true"></i>
+                  <span>モンスター検索</span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="./" aria-current="page">
+                  <i class="fa-solid fa-toolbox" aria-hidden="true"></i>
+                  <span>ツール</span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdXCycYpzNo10uk7OQH8SkYWCtEPN2WPfTvuBzbHrFYyhdyBg/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-solid fa-message" aria-hidden="true"></i>
+                  <span>問い合わせ</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square nav-link-external" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header-meta" role="group" aria-label="表示設定">
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマを変更" aria-expanded="false" aria-controls="colorModePopover" data-theme-value="dark">
+            <i class="fa-solid fa-gear theme-toggle-icon" aria-hidden="true"></i>
+          </button>
+          <div class="color-mode-popover" id="colorModePopover" role="dialog" aria-label="テーマ" hidden>
+            <div class="color-mode-section">
+              <p class="color-mode-title">テーマ</p>
+              <div class="color-mode-options" role="group" aria-label="テーマ">
+                <button class="color-mode-option" type="button" data-theme-choice="dark" aria-pressed="true">
+                  <i class="fa-solid fa-moon" aria-hidden="true"></i>
+                  ダーク
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="light" aria-pressed="false">
+                  <i class="fa-solid fa-sun" aria-hidden="true"></i>
+                  ライト
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="ocean" aria-pressed="false">
+                  <i class="fa-solid fa-water" aria-hidden="true"></i>
+                  青夜
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="sky" aria-pressed="false">
+                  <i class="fa-solid fa-cloud" aria-hidden="true"></i>
+                  朝空
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="forest" aria-pressed="false">
+                  <i class="fa-solid fa-leaf" aria-hidden="true"></i>
+                  翠森
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="mint" aria-pressed="false">
+                  <i class="fa-solid fa-seedling" aria-hidden="true"></i>
+                  若草
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="violet" aria-pressed="false">
+                  <i class="fa-solid fa-gem" aria-hidden="true"></i>
+                  紫宵
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="sakura" aria-pressed="false">
+                  <i class="fa-solid fa-spa" aria-hidden="true"></i>
+                  桜色
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="amber" aria-pressed="false">
+                  <i class="fa-solid fa-fire-flame-simple" aria-hidden="true"></i>
+                  琥珀
+                </button>
+                <button class="color-mode-option" type="button" data-theme-choice="sunlight" aria-pressed="false">
+                  <i class="fa-solid fa-cloud-sun" aria-hidden="true"></i>
+                  陽光
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  <main id="main">
+    <section class="page hero" aria-labelledby="hero-heading">
+      <div class="hero-copy">
+        <p class="product-name"><img src="./assets/images/jro-tools-plus-icon.png" width="40" height="40" alt="">Chrome 拡張機能 · JRO Tools Plus</p>
+        <h1 id="hero-heading">公式ページの横で、調べる。</h1>
+        <p class="hero-lede">RO公式のアイテムページを見ながら、JRO Searchのエンチャント・収録情報をサイドパネルで確認できます。お気に入りや閲覧履歴にも、そこから移動できます。</p>
+        <div class="hero-actions">
+          <a class="primary-link" href="https://chromewebstore.google.com/detail/jro-tools-plus/hgokafkkkicmfmmjnclhmklidgndfkoc" target="_blank" rel="noopener noreferrer">Chrome Web Store で見る <span aria-hidden="true">↗</span></a>
+          <a class="secondary-link" href="https://github.com/dimgraycat/jro-tools-plus" target="_blank" rel="noopener noreferrer">ソースコードを見る <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="hero-note">サイドパネルの掲載画面は開発版 2026.9.3 をサンプルデータで表示した例です。Chrome Web Store の配布版とは画面や機能が異なる場合があります。</p>
+      </div>
+      <div class="hero-proof">
+        <figure class="capture">
+          <a href="./assets/images/search-assist.png" target="_blank" rel="noopener noreferrer" aria-label="検索補助の画面例を拡大して開く"><img src="./assets/images/search-assist.png" width="360" height="850" alt="JRO Tools Plusの検索補助画面。公式アイテムのエンチャント条件と候補、JRO Searchへのリンクを表示" fetchpriority="high"></a>
+          <figcaption>公式アイテムページで開いた検索補助の画面例</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="page rate-feature" aria-labelledby="rate-heading">
+      <div class="rate-feature-heading">
+        <h2 id="rate-heading">ドロップ率の目安を、アイテム名の横に。</h2>
+        <div class="rate-feature-copy">
+          <p>RO公式ツールのモンスター・マップ詳細で、ドロップアイテム名の横に率区分に応じた目安を表示します。たとえば「バフォメット（星座の塔）」では、エルニウムは「約75%」、バフォメットカードは「0.3%以下」です。</p>
+          <p>数値は目安で、実際の入手を保証するものではありません。拡張機能を有効にした Chrome で<a href="https://rotool.gungho.jp/monster/MD_T_BAPHOMET" target="_blank" rel="noopener noreferrer">この公式ページを開く <span aria-hidden="true">↗</span></a>と確認できます。</p>
+        </div>
+      </div>
+      <figure class="capture rate-capture">
+        <a href="./assets/images/drop-rates-baphomet.png?v=d4ec62efb3de" target="_blank" rel="noopener noreferrer" aria-label="バフォメット（星座の塔）のドロップ率表示例を拡大して開く">
+          <picture>
+            <source media="(max-width: 600px)" srcset="./assets/images/drop-rates-baphomet-mobile.png?v=e2a29a2c4788">
+            <img src="./assets/images/drop-rates-baphomet.png?v=d4ec62efb3de" width="1736" height="470" alt="バフォメット（星座の塔）のドロップアイテム名の横に、率の目安が表示された画面例" loading="lazy">
+          </picture>
+        </a>
+        <figcaption>RO公式ツールの実ページに JRO Tools Plus のドロップ率表示 CSS を適用した画面例（2026年9月撮影）。小さい画面では一部を表示しています。画像を開くと全体を確認できます。</figcaption>
+      </figure>
+    </section>
+
+    <section class="page split is-reversed" aria-labelledby="library-heading">
+      <div class="split-copy">
+        <h2 id="library-heading">見つけたアイテムを、あとから探しやすく。</h2>
+        <p>公式のアイテム・モンスター詳細で登録したお気に入りと閲覧履歴を、サイドパネルから確認できます。名前で絞り込み、対象を切り替え、JRO Searchの詳細へ進めます。</p>
+        <p>お気に入りセットと履歴は、同じ Chrome プロファイル内の JRO Search と共有します。</p>
+      </div>
+      <div class="split-proof proof-pair">
+        <figure class="capture">
+          <a href="./assets/images/favorites.png" target="_blank" rel="noopener noreferrer" aria-label="お気に入りの画面例を拡大して開く"><img src="./assets/images/favorites.png" width="360" height="850" alt="アイテムとモンスターを切り替え、セットと名前で絞り込めるお気に入り画面" loading="lazy"></a>
+          <figcaption>お気に入り</figcaption>
+        </figure>
+        <figure class="capture">
+          <a href="./assets/images/history.png" target="_blank" rel="noopener noreferrer" aria-label="検索履歴の画面例を拡大して開く"><img src="./assets/images/history.png" width="360" height="850" alt="最近開いたアイテムを表示する検索履歴画面" loading="lazy"></a>
+          <figcaption>検索履歴</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="page split" aria-labelledby="zeny-heading">
+      <div class="split-copy">
+        <h2 id="zeny-heading">所持Zenyを、キャラクターごとに。</h2>
+        <p>公式のキャラクター情報ページで「取得開始」を押すと、キャラクターごとの所持Zenyとワールド別の合計をまとめて表示します。結果は Chrome 内に保存され、全桁表示と省略表示を切り替えられます。</p>
+      </div>
+      <div class="split-proof">
+        <figure class="capture">
+          <a href="./assets/images/money.png" target="_blank" rel="noopener noreferrer" aria-label="所持Zenyの画面例を拡大して開く"><img src="./assets/images/money.png" width="360" height="850" alt="サンプルのキャラクター二人の所持Zenyとワールド合計を表示するサイドパネル" loading="lazy"></a>
+          <figcaption>所持Zenyの画面例（サンプルデータ）</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="info-band" aria-labelledby="start-heading">
+      <div class="page info-grid">
+        <div>
+          <h2 id="start-heading">使い始める</h2>
+          <ol class="steps">
+            <li><strong>Chrome Web Storeで配布版を確認する</strong>掲載画面は開発版のため、配布中の機能をストアで確認してください。</li>
+            <li><strong>RO公式の対象ページを開く</strong>検索補助は公式アイテム詳細、ドロップ率の目安は公式モンスター・マップ詳細、所持Zenyは公式キャラクター情報ページで利用します。</li>
+            <li><strong>拡張機能アイコンからサイドパネルを開く</strong>検索補助・お気に入り・検索履歴・所持Zenyを切り替えられます。</li>
+          </ol>
+        </div>
+        <div>
+          <h2>対応と保存</h2>
+          <dl class="facts">
+            <dt>対応ブラウザ</dt><dd>Google Chrome（開発版の最低対応バージョンは116）</dd>
+            <dt>対象ページ</dt><dd>RO公式ツールのアイテム・モンスター・マップ、公式キャラクター情報、JRO Search</dd>
+            <dt>ドロップ率の目安</dt><dd>RO公式のモンスター・マップ詳細にあるドロップアイテム名の横へ、率区分に応じた目安を表示します。</dd>
+            <dt>保存先</dt><dd>お気に入り・閲覧履歴・所持Zenyの取得結果は Chrome のローカルストレージに保存します。JRO Search との共有は同じ Chrome プロファイル内に限られ、別の端末へ自動同期されません。</dd>
+          </dl>
+          <div class="release-note"><strong>非公式ツールです</strong><p>JRO Tools Plus と JRO Search は、ラグナロクオンラインの運営会社による提供・保証を受けていません。</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+      <footer class="site-footer">
+        <p>© Gravity Co., Ltd. &amp; Lee MyoungJin(studio DTDS). All rights reserved.</p>
+        <p>© GungHo Online Entertainment, Inc. All Rights Reserved.</p>
+        <p>当コンテンツの再利用（再転載・配布など）は、禁止しています。</p>
+      </footer>
+    </div>
+  </div>
+  <script src="./assets/tools.js?v=341102b605c1" defer></script>
+</body>
+</html>
