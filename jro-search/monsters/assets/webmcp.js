@@ -10,6 +10,32 @@
   const targetParameterValues = ['monster', 'drop', 'skill', 'map', 'all'];
   const listLimit = 20;
 
+  const waitFor = (operation, signal) => {
+    if (signal?.aborted) {
+      return Promise.reject(signal.reason);
+    }
+
+    const promise = Promise.resolve().then(operation);
+
+    if (!signal) {
+      return promise;
+    }
+
+    return new Promise((resolve, reject) => {
+      const settle = (callback, value) => {
+        signal.removeEventListener('abort', onAbort);
+        callback(value);
+      };
+      const onAbort = () => settle(reject, signal.reason);
+
+      signal.addEventListener('abort', onAbort, { once: true });
+      promise.then(
+        (value) => settle(resolve, value),
+        (error) => settle(reject, error),
+      );
+    });
+  };
+
   const compactList = (values, limit = listLimit) => Array.from(new Set(
     (Array.isArray(values) ? values : []).map((value) => String(value || '').trim()).filter(Boolean),
   )).slice(0, limit);
@@ -62,9 +88,10 @@
     };
   };
 
-  const executeSearch = async ({ query, target = 'monster', limit = 20 }) => {
-    await service.whenReady();
-    await service.ensureSearchTerms(target);
+  const executeSearch = async ({ query, target = 'monster', limit = 20 }, { signal } = {}) => {
+    await waitFor(() => service.whenReady(), signal);
+    await waitFor(() => service.ensureSearchTerms(target), signal);
+    signal?.throwIfAborted();
 
     const result = service.search({ limit, query, target });
 
