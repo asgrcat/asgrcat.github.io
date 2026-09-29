@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
   <link rel="stylesheet" href="../items/assets/items.css?v=88ef5103e828">
   <link rel="stylesheet" href="./assets/tokens.css?v=9dba914c7680">
-  <link rel="stylesheet" href="./assets/monsters.css?v=9f0ad3d796de">
+  <link rel="stylesheet" href="./assets/monsters.css?v=c7104af8e02e">
   <!-- Google tag (gtag.js) -->
   <script>
     (() => {
@@ -70,7 +70,7 @@
           </nav>
         </div>
         <div class="header-meta" role="group" aria-label="モンスター検索の更新と表示設定">
-          <button class="header-pill version-history-button" id="monsterUpdateStatus" type="button" aria-label="モンスター検索の更新履歴を表示" aria-expanded="false" aria-controls="monsterVersionHistoryPanel">v26.8.1</button>
+          <button class="header-pill version-history-button" id="monsterUpdateStatus" type="button" aria-label="モンスター検索の更新履歴を表示" aria-expanded="false" aria-controls="monsterVersionHistoryPanel">v26.9.2</button>
           <button class="update-info-button monster-tool" id="monsterUpdateInfoButton" type="button" aria-label="追加モンスター情報を表示" aria-expanded="false" aria-controls="monsterUpdateInfoPanel" data-tooltip="追加モンスター情報" hidden><i class="fa-solid fa-bell" aria-hidden="true"></i></button>
           <button class="help-button monster-tool" id="monsterHelpButton" type="button" aria-label="モンスター検索の使い方" aria-expanded="false" aria-controls="monsterHelpPanel" data-tooltip="モンスター検索の使い方"><i class="fa-solid fa-question" aria-hidden="true"></i></button>
           <button class="theme-toggle monster-tool" id="themeToggle" type="button" aria-label="モンスター検索の表示設定" aria-expanded="false" aria-controls="colorModePopover" data-tooltip="モンスター検索の表示設定"><i class="fa-solid fa-gear theme-toggle-icon" aria-hidden="true"></i></button>
@@ -150,6 +150,17 @@
                     <summary class="filter-heading">特性</summary>
                     <div class="filter-subgroup">
                       <div class="chip-row monster-filter-grid monster-filter-grid-trait" aria-label="特性"><!-- prerender:monsterTraitFilterRow:start --><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="damage_1_10">受けるダメージを1/10に減少する</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="damage_1_100">受けるダメージを1/100に減少する</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="damage_1_1000">受けるダメージを1/1,000に減少する</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="damage_1_10000">受けるダメージを1/10,000に減少する</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="melee_1">近接物理攻撃で受けるダメージを「1」にする</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="ranged_1">遠距離物理攻撃で受けるダメージを「1」にする</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="magic_1">魔法攻撃で受けるダメージを「1」にする</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="specific_1">特定の攻撃で受けるダメージを1にする</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="knockback_immune">ノックバック効果を受けない</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="reflect_shield_immune">リフレクトシールド無効</button><button class="chip" type="button" aria-pressed="false" data-monster-filter="trait" data-filter-value="ignore_forced_drop">アイテムオプションによるアイテム強制ドロップを無視</button><!-- prerender:monsterTraitFilterRow:end --></div>
+                    </div>
+                  </details>
+                </div>
+              </section>
+              <section class="filter-section monster-update-filter-section" aria-labelledby="monsterUpdateFilterSectionTitle">
+                <h3 class="filter-section-heading" id="monsterUpdateFilterSectionTitle">更新情報</h3>
+                <div class="filter-section-groups">
+                  <details class="filter-group">
+                    <summary class="filter-heading">追加日</summary>
+                    <div class="filter-subgroup">
+                      <div class="chip-row monster-filter-grid monster-filter-grid-updates" id="monsterUpdateFilterRow" aria-label="追加日"><!-- prerender:monsterUpdateFilterRow:start --><button class="chip" type="button" aria-pressed="false" data-update-key="20260929">2026/09/29 (12)</button><!-- prerender:monsterUpdateFilterRow:end --></div>
                     </div>
                   </details>
                 </div>
@@ -362,7 +373,7 @@
   </div>
 
   <script src="./assets/monster-search-service.js?v=7d38af03bca9"></script>
-  <script src="./assets/monsters.js?v=ed4a72cb476f"></script>
+  <script src="./assets/monsters.js?v=da201040d23a"></script>
   <script src="./assets/webmcp.js?v=8f994e19e438"></script>
 </body>
 </html>

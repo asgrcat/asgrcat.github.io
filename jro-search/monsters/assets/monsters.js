@@ -224,6 +224,7 @@
   const searchTarget = document.getElementById('monsterSearchTarget');
   const clearButton = document.getElementById('monsterClearButton');
   const filterButtons = Array.from(document.querySelectorAll('[data-monster-filter]'));
+  const updateFilterRow = document.getElementById('monsterUpdateFilterRow');
   const resultsScroll = document.getElementById('monsterResultsScroll');
   const resultList = document.getElementById('monsterResultList');
   const resultNotice = document.getElementById('monsterResultNotice');
@@ -882,6 +883,7 @@
   const currentPresetParams = () => ({
     q: searchInput.value.trim(),
     target: searchTarget.value,
+    updates: activeUpdateKey === 'weekly' ? currentUpdateKey : activeUpdateKey,
     filters: currentMonsterFilters(),
   });
 
@@ -890,13 +892,14 @@
     const parsed = parseMonsterSearchParameters(new URLSearchParams({
       q: String(source.q || ''),
       target: searchTargets.has(source.target) ? source.target : 'monster',
+      updates: String(source.updates || ''),
       ...Object.fromEntries(Object.entries(source.filters || {}).map(([key, values]) => [
         key,
         Array.isArray(values) ? values.join(',') : '',
       ])),
     }));
 
-    return { q: parsed.q, target: parsed.target, filters: parsed.filters };
+    return { q: parsed.q, target: parsed.target, updates: parsed.updates, filters: parsed.filters };
   };
 
   const filterLabels = {
@@ -945,6 +948,12 @@
       all: 'すべて',
     };
     if (targetLabels[normalized.target]) parts.push(`対象: ${targetLabels[normalized.target]}`);
+    if (normalized.updates !== '') {
+      const dates = normalized.updates === 'weekly' ? '今週' : normalized.updates.split(',').map((key) => (
+        /^\d{8}$/.test(key) ? `${key.slice(0, 4)}/${key.slice(4, 6)}/${key.slice(6)}` : key
+      )).join(', ');
+      parts.push(`追加日: ${dates}`);
+    }
     Object.entries(normalized.filters).forEach(([key, values]) => {
       if (values.length === 0) return;
       const labels = values.map((value) => key === 'md'
@@ -1095,6 +1104,28 @@
     return entries;
   };
 
+  const selectedUpdateKeys = () => activeUpdateKey === 'weekly'
+    ? [currentUpdateKey]
+    : activeUpdateKey.split(',').filter(Boolean);
+
+  const syncUpdateFilterButtons = () => {
+    const selected = new Set(selectedUpdateKeys());
+    updateFilterRow.querySelectorAll('[data-update-key]').forEach((button) => {
+      button.setAttribute('aria-pressed', String(selected.has(button.dataset.updateKey)));
+    });
+    syncFilterGroupState();
+  };
+
+  const setUpdateSelection = (value) => {
+    const requested = value === 'weekly' ? [currentUpdateKey] : String(value || '').split(',');
+    const keys = [...new Set(requested)].filter((key) => updateMonsterIdsByKey.has(key));
+    activeUpdateKey = keys.length === 0 ? '' : value === 'weekly' ? 'weekly' : keys.join(',');
+    activeUpdateMonsterIds = keys.length === 0 ? null : new Set(keys.flatMap((key) => updateMonsterIdsByKey.get(key)));
+    syncUpdateFilterButtons();
+
+    return keys.length > 0;
+  };
+
   const renderUpdateInfo = (updates) => {
     const addedMonsterIds = Array.isArray(updates?.added_monster_ids)
       ? updates.added_monster_ids.map(String).filter(Boolean)
@@ -1189,8 +1220,7 @@
     syncSearchTarget();
     restoreMonsterFilters(params.filters);
     personalScope = '';
-    activeUpdateMonsterIds = null;
-    activeUpdateKey = '';
+    setUpdateSelection(params.updates);
     syncPersonalScopeButtons();
     selectedMonsterId = '';
     closeUtilityPanels();
@@ -1241,8 +1271,9 @@
     const filters = currentMonsterFilters();
 
     return {
-      active_filter_count: Object.values(filters).reduce((total, values) => total + values.length, 0),
+      active_filter_count: Object.values(filters).reduce((total, values) => total + values.length, selectedUpdateKeys().length),
       personal_scope: personalScope || 'all',
+      update_filters: selectedUpdateKeys().join('|'),
       size_filters: filters.size.join('|'),
       race_filters: filters.race.join('|'),
       type_filters: filters.type.join('|'),
@@ -1334,7 +1365,7 @@
 
   const syncFilterGroupState = () => {
     document.querySelectorAll('.monster-filter-pane .filter-group').forEach((group) => {
-      const active = Boolean(group.querySelector('[data-monster-filter][aria-pressed="true"]'));
+      const active = Boolean(group.querySelector('[data-monster-filter][aria-pressed="true"], [data-update-key][aria-pressed="true"]'));
       group.dataset.active = String(active);
     });
   };
@@ -1718,13 +1749,14 @@
     }
 
     const scopeIds = personalScope === 'favorite' ? activeFavoriteMonsterIds() : historyMonsterIds;
-    const source = activeUpdateMonsterIds !== null
-      ? monsters.filter((monster) => activeUpdateMonsterIds.has(String(monster.monster_id)))
-      : personalScope === ''
-        ? monsters
-        : scopeIds.map((id) => monsters.find((monster) => monster.monster_id === id)).filter(Boolean);
+    const scopedMonsters = personalScope === ''
+      ? monsters
+      : scopeIds.map((id) => monsters.find((monster) => monster.monster_id === id)).filter(Boolean);
+    const source = activeUpdateMonsterIds === null
+      ? scopedMonsters
+      : scopedMonsters.filter((monster) => activeUpdateMonsterIds.has(String(monster.monster_id)));
 
-    if (personalScope !== '' && source.length === 0) {
+    if (personalScope !== '' && scopeIds.length === 0) {
       currentResults = [];
       resetRenderedResults();
       resultNotice.textContent = personalScope === 'favorite'
@@ -1761,6 +1793,9 @@
     personalScope = '';
     syncPersonalScopeButtons();
     filterButtons.forEach((button) => button.setAttribute('aria-pressed', 'false'));
+    activeUpdateMonsterIds = null;
+    activeUpdateKey = '';
+    syncUpdateFilterButtons();
     selectedMonsterId = '';
     syncFavoriteToggle();
   };
@@ -1769,8 +1804,7 @@
     const normalizedIds = monsterIds.map(String).filter(Boolean);
     if (normalizedIds.length === 0) return false;
     resetSearchSelection();
-    activeUpdateMonsterIds = new Set(normalizedIds);
-    activeUpdateKey = updateKey;
+    setUpdateSelection(updateKey);
     closeUtilityPanels();
     welcome.hidden = false;
     detail.hidden = true;
@@ -1791,13 +1825,10 @@
   };
 
   const restoreUpdateSearch = async () => {
-    const updateKey = parameters.updates;
-    if (updateKey === '') return false;
-    const monsterIds = updateKey === 'weekly'
-      ? currentUpdateMonsterIds
-      : updateMonsterIdsByKey.get(updateKey) || [];
+    if (!setUpdateSelection(parameters.updates)) return false;
+    await renderResults();
 
-    return selectUpdateGroupSearch(updateKey, monsterIds);
+    return true;
   };
 
   const loadIndex = async () => {
@@ -1843,8 +1874,6 @@
   syncSearchTarget();
   restoreMonsterFilters(parameters.filters);
   searchInput.addEventListener('input', async () => {
-    activeUpdateMonsterIds = null;
-    activeUpdateKey = '';
     const resultCount = await renderResults();
     if (Number.isInteger(resultCount)) {
       scheduleSearchAnalytics(resultCount, 'query_input');
@@ -1852,8 +1881,6 @@
   });
   searchTarget.addEventListener('change', async () => {
     cancelScheduledSearchAnalytics();
-    activeUpdateMonsterIds = null;
-    activeUpdateKey = '';
     syncSearchTarget();
     const resultCount = await renderResults();
     if (Number.isInteger(resultCount)) {
@@ -1875,6 +1902,7 @@
     activeUpdateKey = '';
     syncPersonalScopeButtons();
     filterButtons.forEach((button) => button.setAttribute('aria-pressed', 'false'));
+    syncUpdateFilterButtons();
     selectedMonsterId = '';
     versionHistoryPanel.hidden = true;
     updateStatus.setAttribute('aria-expanded', 'false');
@@ -1896,8 +1924,6 @@
   });
   filterButtons.forEach((button) => button.addEventListener('click', async () => {
     cancelScheduledSearchAnalytics();
-    activeUpdateMonsterIds = null;
-    activeUpdateKey = '';
     const wasSelected = button.getAttribute('aria-pressed') === 'true';
     button.setAttribute('aria-pressed', String(!wasSelected));
     const resultCount = await renderResults();
@@ -1910,10 +1936,26 @@
       }, resultCount);
     }
   }));
+  updateFilterRow.addEventListener('click', async (event) => {
+    const button = event.target.closest('[data-update-key]');
+    if (!button || !updateFilterRow.contains(button)) return;
+    cancelScheduledSearchAnalytics();
+    const wasSelected = button.getAttribute('aria-pressed') === 'true';
+    const keys = selectedUpdateKeys().filter((key) => key !== button.dataset.updateKey);
+    if (!wasSelected) keys.push(button.dataset.updateKey);
+    setUpdateSelection(keys.join(','));
+    const resultCount = await renderResults();
+    if (Number.isInteger(resultCount)) {
+      trackFilterChangeAnalytics({
+        filter_action: wasSelected ? 'remove' : 'add',
+        filter_group: 'updates',
+        filter_label: normalizeAnalyticsText(button.textContent),
+        filter_value: button.dataset.updateKey,
+      }, resultCount);
+    }
+  });
   favoriteScopeButton.addEventListener('click', async () => {
     cancelScheduledSearchAnalytics();
-    activeUpdateMonsterIds = null;
-    activeUpdateKey = '';
     personalScope = personalScope === 'favorite' ? '' : 'favorite';
     syncPersonalScopeButtons();
     const resultCount = await renderResults();
@@ -1928,8 +1970,6 @@
   });
   historyScopeButton.addEventListener('click', async () => {
     cancelScheduledSearchAnalytics();
-    activeUpdateMonsterIds = null;
-    activeUpdateKey = '';
     personalScope = personalScope === 'history' ? '' : 'history';
     syncPersonalScopeButtons();
     const resultCount = await renderResults();
