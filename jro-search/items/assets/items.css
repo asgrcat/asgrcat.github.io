@@ -3173,6 +3173,130 @@
       white-space: pre-wrap;
     }
 
+    .item-description-history-control {
+      position: relative;
+      justify-self: end;
+      max-width: 100%;
+    }
+
+    .item-description-history-control[hidden] {
+      display: none;
+    }
+
+    .item-description-history-trigger {
+      max-width: 100%;
+    }
+
+    .item-description-history-trigger > .fa-clock-rotate-left {
+      color: var(--primary-strong);
+      font-size: 12px;
+    }
+
+    .item-description-history-menu {
+      right: 0;
+      left: auto;
+    }
+
+    .item-description-history-option-icon {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .item-description-history-dialog {
+      width: min(800px, calc(100vw - 36px));
+      max-width: none;
+      max-height: calc(100dvh - 36px);
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid var(--border-strong);
+      border-radius: 8px;
+      background: var(--surface);
+      color: var(--text);
+      box-shadow: var(--shadow);
+    }
+
+    .item-description-history-dialog::backdrop {
+      background: var(--overlay-scrim);
+    }
+
+    .item-description-history-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface-panel-heading);
+    }
+
+    .item-description-history-header h2 {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .item-description-history-header p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .item-description-history-tabs {
+      display: flex;
+      gap: 24px;
+      padding: 0 18px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .item-description-history-tab {
+      padding: 12px 2px 10px;
+      border: 0;
+      border-bottom: 2px solid transparent;
+      background: transparent;
+      color: var(--muted);
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .item-description-history-tab[aria-selected="true"] {
+      border-bottom-color: var(--primary);
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .item-description-history-tab:focus-visible {
+      outline: 2px solid var(--primary);
+      outline-offset: -2px;
+    }
+
+    .item-description-history-tab[hidden],
+    .item-description-history-body[hidden] {
+      display: none;
+    }
+
+    .item-description-history-body {
+      max-height: calc(100dvh - 180px);
+      min-height: 100px;
+      padding: 18px;
+      overflow: auto;
+      font-size: 13.5px;
+      line-height: 1.75;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
+
+    .item-description-history-body ins {
+      background: rgba(34, 197, 94, 0.23);
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .item-description-history-body del {
+      background: rgba(239, 68, 68, 0.25);
+      color: var(--text);
+      text-decoration: line-through;
+      text-decoration-color: var(--color-danger);
+    }
+
     .performance-simulator-body {
       display: grid;
       gap: 16px;
@@ -4604,6 +4728,11 @@
       .favorite-set-selector-menu {
         right: auto;
         left: 0;
+      }
+
+      .item-description-history-menu {
+        right: 0;
+        left: auto;
       }
 
       .preset-save-row,
