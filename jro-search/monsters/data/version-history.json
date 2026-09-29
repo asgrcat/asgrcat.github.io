@@ -1,6 +1,14 @@
 {
-  "current_version": "v26.8.2",
+  "current_version": "v26.9.1",
   "entries": [
+    {
+      "version": "v26.9.1",
+      "date": "2026-09-29",
+      "changes": [
+        "公式モンスター12体を追加",
+        "新ダンジョン「未知のブルーホール」に対応"
+      ]
+    },
     {
       "version": "v26.8.2",
       "date": "2026-08-21",
