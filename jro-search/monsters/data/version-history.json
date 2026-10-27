@@ -1,6 +1,13 @@
 {
-  "current_version": "v26.10.1",
+  "current_version": "v26.10.2",
   "entries": [
+    {
+      "version": "v26.10.2",
+      "date": "2026-10-27",
+      "changes": [
+        "著作権表示を公式の新しい表記へ更新"
+      ]
+    },
     {
       "version": "v26.10.1",
       "date": "2026-10-20",

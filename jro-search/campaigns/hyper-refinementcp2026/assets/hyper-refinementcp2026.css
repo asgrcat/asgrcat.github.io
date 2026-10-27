@@ -395,3 +395,13 @@ tbody tr.is-selected {
   }
 
 }
+
+.site-footer {
+  color: var(--muted);
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
+.site-footer p {
+  margin: 4px 0;
+}
