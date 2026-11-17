@@ -1927,6 +1927,155 @@
       padding: 0;
     }
 
+    @media (min-width: 961px) {
+      .results-control-stack .results-search-row {
+        grid-template-columns: minmax(220px, 1fr) 112px auto;
+        gap: 6px;
+      }
+      .search-pane.is-narrow .results-control-stack .results-search-row {
+        grid-template-columns: minmax(0, 1fr) 112px;
+      }
+      .search-pane.is-compact .results-control-stack .results-search-row {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .results-search-row .text-field,
+      .results-search-row .select-field {
+        height: 32px;
+        min-height: 32px;
+        border-radius: 6px;
+        padding: 6px 8px;
+        font-size: 12px;
+        line-height: 18px;
+      }
+      .results-search-row .select-field { padding-right: 28px; }
+      .results-search-row .search-input-wrap .text-field { padding-left: 36px; }
+      .results-search-row .search-input-wrap .button-icon {
+        left: 2px;
+        width: 28px;
+        height: 28px;
+        min-height: 28px;
+        border-radius: 6px;
+        font-size: 12px;
+      }
+      .results-search-row .results-action-row { gap: 6px; }
+      .results-search-row .results-action-row .button-icon {
+        width: 32px;
+        height: 32px;
+        min-height: 32px;
+        border-radius: 6px;
+        font-size: 12px;
+      }
+    }
+
+    .additional-search-button { position: relative; }
+    .additional-search-button.has-conditions {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+    .additional-search-count {
+      position: absolute;
+      right: 3px;
+      top: 2px;
+      padding: 0 3px;
+      border-radius: 6px;
+      background: var(--primary);
+      color: var(--on-primary);
+      font-size: 10px;
+      line-height: 15px;
+      font-variant-numeric: tabular-nums;
+    }
+    .additional-search-count[hidden] { display: none; }
+    .additional-search-dialog {
+      position: fixed;
+      z-index: 100;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 12px;
+      max-width: calc(100vw - 24px);
+      border: 1px solid var(--border-strong);
+      border-radius: 12px;
+      background: var(--surface);
+      color: var(--text);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .additional-search-dialog[open] { display: flex; flex-direction: column; }
+    .additional-search-dialog:not([open]) { display: none; }
+    .additional-search-header,
+    .additional-search-footer,
+    .additional-search-dialog p { flex-shrink: 0; }
+    .additional-search-header,
+    .additional-search-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .additional-search-header h2 { margin: 0; font-size: 14px; }
+    .additional-search-dialog p {
+      margin: 6px 0 12px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.7;
+    }
+    .additional-search-dialog .text-field,
+    .additional-search-dialog .select-field {
+      height: 32px;
+      min-height: 32px;
+      border-radius: 6px;
+      padding: 6px 8px;
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .additional-search-dialog .select-field { padding-right: 28px; }
+    .additional-search-position {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .additional-search-position .select-field { width: 148px; }
+    .additional-search-rows {
+      display: grid;
+      gap: 8px;
+      min-height: 0;
+      overflow: auto;
+      padding: 3px;
+    }
+    .additional-search-row {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) 112px 32px;
+      align-items: center;
+      gap: 8px;
+    }
+    .additional-search-row .text-field,
+    .additional-search-row .select-field {
+      min-width: 0;
+      width: 100%;
+      grid-column: auto;
+    }
+    .additional-search-row .button-icon,
+    .additional-search-header .button-icon {
+      width: 32px;
+      min-height: 32px;
+      padding: 0;
+    }
+    .additional-search-and {
+      color: var(--primary);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .04em;
+    }
+    .additional-search-footer { margin-top: 12px; }
+    .additional-search-footer .button { font-size: 12px; white-space: nowrap; }
+    @media (max-width: 960px) {
+      .additional-search-button,
+      .additional-search-help { display: none; }
+    }
+
     .result-count {
       color: var(--primary);
       font-family: var(--font-numeric);

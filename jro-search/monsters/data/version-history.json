@@ -1,6 +1,13 @@
 {
-  "current_version": "v26.11.1",
+  "current_version": "v26.11.2",
   "entries": [
+    {
+      "version": "v26.11.2",
+      "date": "2026-11-17",
+      "changes": [
+        "PCの検索欄・検索対象の選択欄・クリアボタンをコンパクトに調整"
+      ]
+    },
     {
       "version": "v26.11.1",
       "date": "2026-11-17",

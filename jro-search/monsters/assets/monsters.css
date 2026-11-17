@@ -257,6 +257,37 @@ body {
   color: var(--primary-strong);
 }
 
+@media (min-width: 961px) {
+  .monster-search-form {
+    grid-template-columns: minmax(220px, 1fr) 112px 32px;
+    gap: 6px;
+  }
+  .monster-search-input,
+  .monster-search-target {
+    height: 32px;
+    min-height: 32px;
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .monster-search-input { padding-left: 36px; }
+  .monster-search-target { padding-right: 28px; }
+  .monster-search-control i {
+    left: 2px;
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+  .monster-clear {
+    width: 32px;
+    height: 32px;
+    min-height: 32px;
+    border-radius: 6px;
+    font-size: 12px;
+  }
+}
+
 .monster-official-link {
   display: inline-flex;
   align-items: center;

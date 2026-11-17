@@ -45,7 +45,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;600;700&amp;family=JetBrains+Mono:wght@600;700&amp;display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="./assets/items.css?v=afbaac4210ec">
+  <link rel="stylesheet" href="./assets/items.css?v=4b11541d67c8">
   <!-- Google tag (gtag.js) -->
   <script>
     (() => {
@@ -116,7 +116,7 @@
         </div>
 
         <div class="header-meta" role="group" aria-label="更新と表示設定">
-          <button class="header-pill version-history-button" id="updateStatus" type="button" aria-label="更新履歴を表示" aria-expanded="false" aria-controls="versionHistoryPanel">v26.11.3</button>
+          <button class="header-pill version-history-button" id="updateStatus" type="button" aria-label="更新履歴を表示" aria-expanded="false" aria-controls="versionHistoryPanel">v26.11.4</button>
           <button class="update-info-button" id="updateInfoButton" type="button" aria-label="追加情報を表示" aria-expanded="false" aria-controls="updateInfoPanel" hidden>
             <i class="fa-solid fa-bell" aria-hidden="true"></i>
           </button>
@@ -452,6 +452,35 @@
             </div>
           </div>
 
+          <dialog class="additional-search-dialog" id="additionalSearchDialog" aria-labelledby="additionalSearchTitle" aria-describedby="additionalSearchHelp">
+            <div class="additional-search-header">
+              <h2 id="additionalSearchTitle">追加条件</h2>
+              <button class="button button-subtle button-icon" id="additionalSearchClose" type="button" aria-label="追加条件を閉じる"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+            </div>
+            <p id="additionalSearchHelp">検索欄と以下のすべての条件を満たすアイテムを表示します。空欄は条件に含みません。</p>
+            <div class="additional-search-position">
+              <label for="additionalSearchPosition">装備位置</label>
+              <select class="select-field" id="additionalSearchPosition">
+                <option value="">指定なし</option>
+                <option value="upper">上段</option>
+                <option value="middle">中段</option>
+                <option value="lower">下段</option>
+                <option value="weapon">武器</option>
+                <option value="armor">鎧</option>
+                <option value="shield">盾</option>
+                <option value="shoes">靴</option>
+                <option value="garment">肩</option>
+                <option value="accessory">アクセ</option>
+                <option value="external" disabled hidden>左ペインで指定中</option>
+              </select>
+            </div>
+            <div class="additional-search-rows" id="additionalSearchRows"></div>
+            <div class="additional-search-footer">
+              <button class="button button-subtle" id="additionalSearchAdd" type="button"><i class="fa-solid fa-plus" aria-hidden="true"></i> 条件を追加</button>
+              <button class="button button-primary" id="additionalSearchDone" type="button">検索して閉じる</button>
+            </div>
+          </dialog>
+
           <div class="results-area">
             <div class="results-toolbar">
               <div class="results-heading">
@@ -472,6 +501,10 @@
                     <option>すべて</option>
                   </select>
                   <div class="results-action-row" aria-label="検索操作">
+                    <button class="button button-subtle button-icon additional-search-button" id="additionalSearchButton" type="button" aria-label="追加条件" aria-haspopup="dialog" aria-controls="additionalSearchDialog" aria-expanded="false" data-tooltip="追加条件（AND検索）" title="追加条件（AND検索）">
+                      <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                      <span class="additional-search-count" id="additionalSearchCount" hidden></span>
+                    </button>
                     <button class="button button-subtle button-icon" id="resetButton" type="button" aria-label="条件をクリア" data-tooltip="条件をクリア" title="条件をクリア">
                       <i class="fa-solid fa-filter-circle-xmark" aria-hidden="true"></i>
                     </button>
@@ -631,6 +664,7 @@
                 <h3 class="help-section-title">検索</h3>
                 <ul class="help-list">
                   <li>キーワード、アイテム種別、職業、装備位置、効果、要求Lvなどを組み合わせて検索できます。</li>
+                  <li class="additional-search-help">PCでは検索欄横の＋から、対象を個別に指定したAND条件を最大10件追加できます。追加条件はURLと検索条件プリセットにも保存されます。</li>
                   <li>検索条件はURLに反映されるため、現在の条件をそのまま共有できます。</li>
                 </ul>
               </section>
@@ -793,11 +827,11 @@
     </button>
   </div>
 
-  <script src="./assets/search-core.js?v=d2e58c4de3bc"></script>
+  <script src="./assets/search-core.js?v=b780556cca62"></script>
   <script src="./assets/job-filter.js?v=d99a7da54926"></script>
   <script src="./assets/item-search-service.js?v=f39768694836"></script>
   <script src="./assets/item-description-history.js?v=3fc7a538774e"></script>
-  <script src="./assets/items.js?v=b19ce2b91b73"></script>
+  <script src="./assets/items.js?v=0dd77bf63553"></script>
   <script src="./assets/webmcp.js?v=3db0dd395c17"></script>
 </body>
 </html>
