@@ -1,6 +1,13 @@
 {
-  "current_version": "v26.11.2",
+  "current_version": "v26.11.3",
   "entries": [
+    {
+      "version": "v26.11.3",
+      "date": "2026-11-24",
+      "changes": [
+        "24thアニバーサリーのぷちイグリン、グッドナイト・メア、夢馬を追加"
+      ]
+    },
     {
       "version": "v26.11.2",
       "date": "2026-11-17",
